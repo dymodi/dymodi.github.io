@@ -8,6 +8,8 @@ The creation of this site is motivated by the website from [Todd W. Schneider](h
 
 # Study note
 ## Graph Theory
+More details can be found in the [Graph Theory Section](graphTheory). 
+
 ## Machine Learning
 TensorFlow provided a very nice [start tutorial](https://www.tensorflow.org/get_started/get_started) for the beginners.
 
