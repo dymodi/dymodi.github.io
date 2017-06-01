@@ -11,6 +11,9 @@ The creation of this site is motivated by the website from [Todd W. Schneider](h
 More details can be found in the [Graph Theory Section](graphTheory). 
 
 ## Machine Learning
-TensorFlow provided a very nice [start tutorial](https://www.tensorflow.org/get_started/get_started) for the beginners.
+
+## Useful Links for a Data Scientist
+Here I collect some [useful links](usefulLinks) if you want to learn Data Mining and Machine Learning from scratch.
 
 # Research topics
+Here I will post some of research topics.
