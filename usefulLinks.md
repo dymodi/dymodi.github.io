@@ -7,3 +7,6 @@ SQL:
 Hive SQL:
 [Hive Tutorial](https://www.tutorialspoint.com/hive/index.htm)
 (You can learn basic functions for Hive)
+
+
+[back](./)
