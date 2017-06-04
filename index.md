@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Study note
 ## Graph Theory
 More details can be found in the [Graph Theory Page](graphTheory). 
