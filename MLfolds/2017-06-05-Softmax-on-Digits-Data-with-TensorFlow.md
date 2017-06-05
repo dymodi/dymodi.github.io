@@ -1,8 +1,8 @@
 --- 
 layout: post
-Title: Softmax on Digits Data with TensorFlow title
-Date: June 5, 2017
-Author: Yi DING
+title: Softmax on Digits Data with TensorFlow title
+date: June 5, 2017
+author: Yi DING
 ---
 
 # Softmax on Digits Data with TensorFlow with one pound
