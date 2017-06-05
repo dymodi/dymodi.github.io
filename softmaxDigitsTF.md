@@ -1,5 +1,3 @@
-# Softmax on Digits Data with TensorFlow
-
 In this tutorial, we will basically follow the [official tutorial](https://www.tensorflow.org/get_started/mnist/beginners) but will change some parts to make it easier to understand. The contents about logistic regression borrows from Arindam Banerjee's Machine Learning course at University of Minnesota, which corresponds to Ethem Alpaydin's book *Introduction to machine learning*.
 
 The corresponding executable python code of this tutorial can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/ForBlogSoftmaxDigitsTF.py).
@@ -91,4 +89,13 @@ for _ in range(1000):
 ```
 Currently it's not very clear to me why we need to repeat the `train_step` for thousands of times. It seems that TensorFlow does not capsulate the optimization computation, which is confusing to me.
 
+Finally, the algorithm's performance can be tested as follows:
+```python
+# Test trained model
+correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1))
+accuracy = tf.reduce_mean(tf.cast(correct_prediction,tf.float32))
+print(sess.run(accuracy,feed_dict={x: X_test,y_:y_test}))
+```
 
+From the above discussion we can somehow feel the great convenience brought by TensorFlow. We will discuss more topics in the future posts.
+For any unclear parts of this tutorial, please refer to the [official tutorial](https://www.tensorflow.org/get_started/mnist/beginners).

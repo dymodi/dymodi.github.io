@@ -6,9 +6,7 @@ layout: default
 ## Graph Theory
 More details can be found in the [Graph Theory Page](graphTheory). 
 
-## Machine Learning
-TensorFlow
-[Softmax on Digits Data with TensorFlow](softmaxDigitsTF)
+[Machine Learning](Machine Learning)
 
 [comment]: # [ActiveSetMethod](ActiveSetMethod)
 
