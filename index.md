@@ -2,16 +2,16 @@
 layout: default
 ---
 
-# Study note
+## Machine Learning
+Some basic concepts are summarized here. 
+Details can be found in the [Machine Learning](MachineLearning) tab.
+
 ## Graph Theory
-More details can be found in the [Graph Theory Page](graphTheory). 
+More details can be found in the [Graph Theory Page](graphTheory) tab. 
 
-[Machine Learning](MachineLearning)
-
-[comment]: # [ActiveSetMethod](ActiveSetMethod)
 
 ## Useful Links for a Data Scientist
 Here I collect some [useful links](usefulLinks) if you want to learn Data Mining and Machine Learning from scratch.
 
-# Research topics
+## Other Research topics
 Here I will post some of research topics.
