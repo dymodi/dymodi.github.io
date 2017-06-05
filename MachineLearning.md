@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: page
 title: Machine Learning
 date: June 5, 2017
 ---
