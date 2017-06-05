@@ -6,7 +6,7 @@ layout: default
 ## Graph Theory
 More details can be found in the [Graph Theory Page](graphTheory). 
 
-[Machine Learning](Machine Learning)
+[Machine Learning](MachineLearning)
 
 [comment]: # [ActiveSetMethod](ActiveSetMethod)
 
