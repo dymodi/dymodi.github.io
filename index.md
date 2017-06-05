@@ -10,7 +10,7 @@ More details can be found in the [Graph Theory Page](graphTheory).
 TensorFlow
 [Softmax on Digits Data with TensorFlow](softmaxDigitsTF)
 
-[ActiveSetMethod](ActiveSetMethod)
+[comment]: # [ActiveSetMethod](ActiveSetMethod)
 
 ## Useful Links for a Data Scientist
 Here I collect some [useful links](usefulLinks) if you want to learn Data Mining and Machine Learning from scratch.
