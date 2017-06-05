@@ -1,4 +1,4 @@
-# Softmax on Digits Data with TensorFlow
+Softmax on Digits Data with TensorFlow
 In this tutorial, we will basically follow the [official tutorial](https://www.tensorflow.org/get_started/mnist/beginners) but will change some parts to make it easier to understand. The contents about logistic regression borrows from Arindam Banerjee's Machine Learning course at University of Minnesota, which corresponds to Ethem Alpaydin's book *Introduction to machine learning*.
 
 The corresponding executable python code of this tutorial can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/ForBlogSoftmaxDigitsTF.py).
