@@ -1,7 +1,3 @@
----
-layout: Home
----
-
 # Machine Learning
 
 TensorFlow
