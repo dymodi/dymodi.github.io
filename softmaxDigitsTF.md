@@ -17,7 +17,7 @@ In the training phase, the following "cross-entropy" cost function is to be mini
 here $r$ is the label and $y$ is the predict value of the model. Here we can raise a question that why some other cost functions are not utilized, we keep this as another topic in future blogs.
 
 Now we come to the problem that there are more than two classes. For each class, we formulate the posterior probability as
-$$ y=\hat{P}(C_i|\mathbf{x}) = \frac{\exp\left[ \mathbf{w}_i^T\mathbf{x}+w_{i0}\right]}{\sum_{j=1}^K \exp\left[ \mathbf{w}_j^T\mathbf{x}+w_{j0} \right]} $$
+\\[ y=\hat{P}(C_i|\mathbf{x}) = \frac{\exp\left[ \mathbf{w}_i^T\mathbf{x}+w_{i0}\right]}{\sum_{j=1}^K \exp\left[ \mathbf{w}_j^T\mathbf{x}+w_{j0} \right]} \\]
 
 Now the cost function to be minimized becomes:
-$$ E( \{ \mathbf{w}_i, w_0 \}_i | \mathcal X) = -\sum_t\sum_i r^t_i\log y^t_i $$
+\\[ E( \{ \mathbf{w}_i, w_0 \}_i | \mathcal X) = -\sum_t\sum_i r^t_i\log y^t_i \\]
