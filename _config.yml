@@ -13,6 +13,7 @@ minima:
 header_pages:
  - about.md
  - MachineLearning.md
+ - Research.md
 
 # Build settings
 markdown: kramdown
