@@ -2,16 +2,14 @@
 layout: default
 ---
 
-## Machine Learning
+## [Research topics](Research)
+I will introduce some of my research here.
+
+## [Machine Learning](MachineLearning)
 Some basic concepts are summarized here. 
-Details can be found in the [Machine Learning](MachineLearning) tab.
 
-## Graph Theory
-More details can be found in the [Graph Theory Page](graphTheory) tab. 
+## [Graph Theory](graphTheory) 
+There are many interesting topics in graph theory. I will build this part later.
 
-
-## Useful Links for a Data Scientist
-Here I collect some [useful links](usefulLinks) if you want to learn Data Mining and Machine Learning from scratch.
-
-## Other Research topics
-Here I will post some of research topics.
+## [Useful Links for a Data Scientist](usefulLinks)
+Here I collect some useful links if you want to learn Data Mining and Machine Learning from scratch.
