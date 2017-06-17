@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Truncating
+title: Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving
 date: June 13, 2017
 author: Yi DING
 ---
@@ -20,7 +20,6 @@ Actually, BLE Beacon has been used in indoor localization in recent years (A rev
 Now we consider some real world examples where three beacons are placed at three shops, let's say, Shop 1, Shop 2 and Shop 3, where Shop 1 and Shop 2 are quite close. A man with a device is walking from left to right and stay at each shop for a while, we need to decide when the man has come into each region. Also note that some appropriate APPs must be installed beforehand to recognize the beacons.
 
 ![Simple Case Shop 3](figures/beacon-detection-simple-case-shop3.png)
-<img src="figures/beacon-detection-simple-case-shop3.png" alt="Drawing" style="width: 200px;"/>
 
 As we can see in the above figure, to tell the entrance and departure time of Shop 3 will be a relatively simple task. The blue line in the upper subplot is the RSSI value of Shop 3 Beacon during the whole process. The red curve in the lower subplot is the 1/0 index that indicated by the man himself whether he think himself as "in" or "not in" the Shop 3. The first observation is that even when the man was in Shop 1 and Shop 2, his cellphone can sense a weak beacon signal because Shop 3 is only tens of meters away from other two shops, but blocked by the walls. However, we can see a clear peak in the RSSI corresponding to the real entrance and departure. We can try to detect the peak and find the entrance time and departure time.
 
