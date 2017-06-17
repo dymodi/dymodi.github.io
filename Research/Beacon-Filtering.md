@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving
-date: June 13, 2017
+date: June 17, 2017
 author: Yi DING
 ---
 
@@ -35,14 +35,16 @@ In this case, the man walks from Shop 1 to Shop 3 and then back to Shop 2 and st
 ## Low Pass Filters
 In order to remove the high frequency noise from the RSSI data, we need to use a low pass filter process the data. When designing a low pass filter, we need to decide two parameters: cutoff frequency and the order. The cutoff frequency decides at which frequency you want to keep the lower frequency and throw away the higher frequency. The order decides how much attenuation you want for the higher frequency signal. Thanks to the variety of python libraries, we do not need to design the filter from scratch. SciPy provides some useful python filter functions [here](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.lfilter.html#scipy.signal.lfilter). A simple but useful introduction on how to build a digital filter in python can be found [here](https://stackoverflow.com/questions/12093594/how-to-implement-band-pass-butterworth-filter-with-scipy-signal-butter).
 
-![RSSI Filtering](figures/rssi-filtering.png)
+<center> <img src="figures/rssi-filtering.png"  alt="RSSI Filtering" width = "600"/>
+</center>
 
 As we can see from the above figure, filtering the data can let us focus on the main trend of the data instead of being distracted by the noise.
 
 ## In-Region Recognition
 After getting a smooth RSSI data, we can conduct the in-region recognition by simply setting a threshold. The value of the threhold depends on the size of the region we want to monitor with the beacon. A higher threshold value will lead to a small but more accurate region. A lower threshold will lead to a larger but inaccurate region. By setting the threshold at -90dB, we can come the in-region recognition result as the following figure.
 
-![In Region Recognition](figures/in-region-recognition.png)
+<center> <img src="figures/in-region-recognition.png"  alt="In Region Recognition" width = "600"/>
+</center>
 
 ## Window Shaving
 After getting the initial in-region recognition results as the above figure, sometimes it's still weired  due to some small peaks or narrow gaps. We can use shave these peaks and gaps by introducing the following rules:
@@ -51,7 +53,8 @@ After getting the initial in-region recognition results as the above figure, som
 
 The underlying mechanism is that if we lost the signal from a man for a very short time, we think he is still there. If we detect the signal but it soon disapper, we think he never comes. By do this, we can ignore the disturbance if a man passing by the region for a very short time. The above in-region results can be further process if we set the threshold at 20 seconds.
 
-![Window Shaving](figures/shaved-in-region.png)
+<center><img src="figures/shaved-in-region.png"  alt="Window Shaving" width = "600"/>
+</center>
 
 From this figure we can learn very clearly when the device entered and left the region. Actually, the data before shaving can also provide many information such as the operation condition of the beacon hardware. This raw data can be used by the risk management section.
 
@@ -63,8 +66,8 @@ In summary, if we want to do the in-region recognition from the BLE beacon RSSI 
  
 Based on the above three steps, we can conduction the detection for the above extreme case as follows:
 
-![Extreme Case Detection](figures/extreme-case-detection.png)
-<img src="figures/extreme-case-detection.png"  alt="Extreme Case Detection"  align="middle" height = "100"/>
+<center><img src="figures/extreme-case-detection.png"  alt="Extreme Case Detection" width = "600"/>
+</center>
 
 More will be coming about beacon based localization.
 More will be coming about beacon based detection with machine learning.
