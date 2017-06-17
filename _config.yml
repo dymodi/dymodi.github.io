@@ -12,8 +12,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - about.md
- - MachineLearning.md
  - Research.md
+ - MachineLearning.md
 
 # Build settings
 markdown: kramdown
