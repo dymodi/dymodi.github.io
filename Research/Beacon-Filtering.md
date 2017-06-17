@@ -64,6 +64,7 @@ In summary, if we want to do the in-region recognition from the BLE beacon RSSI 
 Based on the above three steps, we can conduction the detection for the above extreme case as follows:
 
 ![Extreme Case Detection](figures/extreme-case-detection.png)
+<img src="figures/extreme-case-detection.png"  alt="Extreme Case Detection"  align="middle" height = "100"/>
 
 More will be coming about beacon based localization.
 More will be coming about beacon based detection with machine learning.
