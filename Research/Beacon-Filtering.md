@@ -18,23 +18,21 @@ Actually, BLE Beacon has been used in indoor localization in recent years (A rev
 
 ## Real World Examples
 Now we consider some real world examples where three beacons are placed at three shops, let's say, Shop 1, Shop 2 and Shop 3, where Shop 1 and Shop 2 are quite close. A man with a device is walking from left to right and stay at each shop for a while, we need to decide when the man has come into each region. Also note that some appropriate APPs must be installed beforehand to recognize the beacons.
-
-![Simple Case Shop 3](figures/beacon-detection-simple-case-shop3.png)
+<center> <img src="figures/beacon-detection-simple-case-shop3.png"  alt="Simple Case Shop 3">
+</center>
 
 As we can see in the above figure, to tell the entrance and departure time of Shop 3 will be a relatively simple task. The blue line in the upper subplot is the RSSI value of Shop 3 Beacon during the whole process. The red curve in the lower subplot is the 1/0 index that indicated by the man himself whether he think himself as "in" or "not in" the Shop 3. The first observation is that even when the man was in Shop 1 and Shop 2, his cellphone can sense a weak beacon signal because Shop 3 is only tens of meters away from other two shops, but blocked by the walls. However, we can see a clear peak in the RSSI corresponding to the real entrance and departure. We can try to detect the peak and find the entrance time and departure time.
-
-![Tough Case Shop 1](figures/beacon-detection-simple-case-shop1.png)
+<center> <img src="figures/beacon-detection-simple-case-shop1.png"  alt="Tough Case Shop 1">
+</center>
 
 In comparison, the detection of Shop 1 will be a tough case since Shop 1 and 2 are quite close. Actually, even at the end of this blog, we might be unable to provide a very accurate method to distinguish the man's stay in Ship 1 and 2 if the two beacons are very close (say, within 10m). However, in many practical problems, we do not need to differentiate this case at this level. (This problem might be solved by utilizing the signal from Beacon 1,2 and 3 at the same time, but this will become a localization problem). In this blog, the challenge we want to solve is to remove the influence of fast-fading and give consistent conclusions. The noise introduced by fast-fading might not be evident in the above case, but will be a problem in some practical cases if the man wandering between three shops. 
-
-![Extreme Case Wandering](figures/beacon-detection-wandering.png)
+<center> <img src="figures/beacon-detection-wandering.png"  alt="Extreme Case Wandering">
+</center>
 
 In this case, the man walks from Shop 1 to Shop 3 and then back to Shop 2 and stay at each Shop for a while. There are peaks and zeros due to fast fading noise. Before we decide the entrance and departure time based on the RSSI value, we need first smooth the data. In this step, a low pass filter will be used.
 
-
 ## Low Pass Filters
 In order to remove the high frequency noise from the RSSI data, we need to use a low pass filter process the data. When designing a low pass filter, we need to decide two parameters: cutoff frequency and the order. The cutoff frequency decides at which frequency you want to keep the lower frequency and throw away the higher frequency. The order decides how much attenuation you want for the higher frequency signal. Thanks to the variety of python libraries, we do not need to design the filter from scratch. SciPy provides some useful python filter functions [here](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.lfilter.html#scipy.signal.lfilter). A simple but useful introduction on how to build a digital filter in python can be found [here](https://stackoverflow.com/questions/12093594/how-to-implement-band-pass-butterworth-filter-with-scipy-signal-butter).
-
 <center> <img src="figures/rssi-filtering.png"  alt="RSSI Filtering" width = "600"/>
 </center>
 
@@ -42,7 +40,6 @@ As we can see from the above figure, filtering the data can let us focus on the 
 
 ## In-Region Recognition
 After getting a smooth RSSI data, we can conduct the in-region recognition by simply setting a threshold. The value of the threhold depends on the size of the region we want to monitor with the beacon. A higher threshold value will lead to a small but more accurate region. A lower threshold will lead to a larger but inaccurate region. By setting the threshold at -90dB, we can come the in-region recognition result as the following figure.
-
 <center> <img src="figures/in-region-recognition.png"  alt="In Region Recognition" width = "600"/>
 </center>
 
@@ -52,7 +49,6 @@ After getting the initial in-region recognition results as the above figure, som
  - A gap (recognized zeros) will be treated as ones if it lasts less than a threhold value.
 
 The underlying mechanism is that if we lost the signal from a man for a very short time, we think he is still there. If we detect the signal but it soon disapper, we think he never comes. By do this, we can ignore the disturbance if a man passing by the region for a very short time. The above in-region results can be further process if we set the threshold at 20 seconds.
-
 <center><img src="figures/shaved-in-region.png"  alt="Window Shaving" width = "600"/>
 </center>
 
@@ -65,13 +61,11 @@ In summary, if we want to do the in-region recognition from the BLE beacon RSSI 
 - Step 3: Shave the result acoording to the time.
  
 Based on the above three steps, we can conduction the detection for the above extreme case as follows:
-
 <center><img src="figures/extreme-case-detection.png"  alt="Extreme Case Detection" width = "600"/>
 </center>
 
 More will be coming about beacon based localization.
 More will be coming about beacon based detection with machine learning.
-
 
 ### Remaining issues
 - Comparison is needed if I want to claim "more accurate".
