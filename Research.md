@@ -10,3 +10,5 @@ date: June 9, 2017
 [Related Works of Beacon Based Indoor Localization](Research/Beacon-Localization-Related-Works) 
 
 [Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon-Filtering) 
+
+[A Industry Implementation of Beacon Localization](Research/Beacon-Localization-Industry) 
