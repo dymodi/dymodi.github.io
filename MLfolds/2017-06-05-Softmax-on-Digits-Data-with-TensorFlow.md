@@ -23,7 +23,7 @@ Here $$\sigma$$ is the so called [logistic function](https://en.wikipedia.org/wi
 
 In the training phase, the following "cross-entropy" cost function is to be minimized,
 \\[ E(\mathbf{w},w_0 | \mathcal{X}) =-\sum_tr^t\log y^t +(1-r^t) \log (1-y^t)\\]
-here $$r$$ is the label and $$y$$ is the predict value of the model. Here we can raise a question that why some other cost functions are not utilized, we keep this as another topic in future blogs.
+here $r$ is the label and $$y$$ is the predict value of the model. Here we can raise a question that why some other cost functions are not utilized, we keep this as another topic in future blogs.
 
 Now we come to the problem that there are more than two classes. For each class, we formulate the posterior probability as
 \\[ y=\hat{P}(C_i|\mathbf{x}) = \frac{\exp[\mathbf w_i^T]}{\sum_{j=1}^K\exp[\mathbf w_j^T]} \\]
