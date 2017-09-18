@@ -7,7 +7,7 @@ author: Yi DING
 
 [comment]: # (This blog compose the RELATED WORK section of future paper)
 
-In this blog, we review the existing work related to the indoor localization based on bluetooth low energy (BLE) beacons. Note that this review only consists publications with "Beacon" as keywords. The BLE localization is a bigger topic with more impactive publications. Among all the literature listed here, [8] provides most comprehensive introduction on this topic.
+In this blog, we review the existing work related to the indoor localization based on bluetooth low energy (BLE) beacons. Note that this review only consists publications with "Beacon" as keywords. The BLE localization is a bigger topic with more impactive publications. Among all the literature listed here, [8] provides most comprehensive introduction on this topic. First, we need to keep in mind that GPS is not available in the indoor scenario [9].
 
 The advantages of using BLE in indoor localization:
 * Quick and flexible deployment (compared with VLC). [5] (Not for that in [6]) [8]
@@ -53,3 +53,5 @@ No discussion on the security issue.
 [7] Subedi, S., Kwon, G. R., Shin, S., Hwang, S. S., & Pyun, J. Y. (2016, July). **Beacon based indoor positioning system using weighted centroid localization approach**. In Ubiquitous and Future Networks (ICUFN), 2016 Eighth Internat
 
 **[8]** Faragher, R., & Harle, R. (2015). **Location fingerprinting with bluetooth low energy beacons**. IEEE journal on Selected Areas in Communications, 33(11), 2418-2428.
+
+[9] Miller, L. E. (2006). Indoor navigation for first responders: a feasibility study. National Institute of Standards and Technology, Wireless Communication Technologies Group.
