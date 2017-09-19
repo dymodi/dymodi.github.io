@@ -20,11 +20,11 @@ $$\text{lat}_i$$: The accurate latitude of POI node $$i$$.
 
 $$\text{lon}_i$$: The accurate longitude of POI node $$i$$.
 
-$$\hat\text{lat}_i$$: The estimated latitude of POI node $$i$$.
+$$\hat{lat}_i$$: The estimated latitude of POI node $$i$$.
 
-$$\hat\text{lon}_i$$: The estimated longitude of POI node $$i$$.
+$$\hat{lon}_i$$: The estimated longitude of POI node $$i$$.
 
-$$\epsilon_i$$: The drifting distance of POI node $$i$$.
+$$d_i$$: The drifting distance of POI node $$i$$.
 
 
 ## The Metric for POI Accuracy
