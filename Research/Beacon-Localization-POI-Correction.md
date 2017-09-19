@@ -15,13 +15,12 @@ The design space can be like the following:
     * Bidirectional communication free (Our Work) (We need to claim that we are the first.)
 
 ## Notation
-\\[ g(\mathbf{x}) = \mathbf{w}^T\mathbf{x} + w_0\\] 
-
-\\[lat_i \\]: The latitude of POI node \\[i\]
+ lat$_i$ : The latitude of POI node $i$.
+ 
+ lon$_i$ : The longitude of POI node $i$.
 
 
 ## The Metric for POI Accuracy
-\\[ \epsilon_i =  \\] 
 
 
 ## Background
