@@ -15,6 +15,8 @@ The design space can be like the following:
     * Bidirectional communication free (Our Work) (We need to claim that we are the first.)
 
 ## Notation
+\\[ g(\mathbf{x}) = \mathbf{w}^T\mathbf{x} + w_0\\] 
+
 \\[lat_i \\]: The latitude of POI node \\[i\]
 
 
