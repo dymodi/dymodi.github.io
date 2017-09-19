@@ -4,6 +4,7 @@ title: POI Information Correction based on Beacon
 date: Sep. 18, 2017
 author: Yi DING
 ---
+[comment]: # (The math equation in this post is for latex and can be viewed in Visual Studio Code)
 
 [comment]: # (This post composite the POI Correction Section)
 
@@ -15,9 +16,17 @@ The design space can be like the following:
     * Bidirectional communication free (Our Work) (We need to claim that we are the first.)
 
 ## Notation
- lat$_i$ : The latitude of POI node $i$.
- 
- lon$_i$ : The longitude of POI node $i$.
+$$lat_i$$: The accurate latitude of POI node $$i$$.
+
+$$lon_i$$: The accurate longitude of POI node $$i$$.
+
+$$\hat lat_i$$: The accurate latitude of POI node $$i$$.
+
+$$\hat lon_i$$: The accurate longitude of POI node $$i$$.
+
+
+
+$\epsilon_i$: The 
 
 
 ## The Metric for POI Accuracy
