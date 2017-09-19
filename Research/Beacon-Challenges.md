@@ -27,6 +27,7 @@ Although we can get very accurate localization results based on beacon, the accu
 The specific GPS information for small shops within the building is usually not accurate. 
 
 Figure 1 is the indoor trace based on POI information from existing maps.
+
 Figure 2 is the same indoor trace based on corrected POI information
 
 (Here we need have some figures to show the inaccuracy of shops within different Map services)
@@ -34,6 +35,8 @@ If we map the beacon to the shops locations provided by the above Map, the local
 
 Solution:
 (1) Cross validation based on device sensing data. (We need to check if there are existing papers on this topic)
+
+## Risk Control
 
 ## Unknow Beacon Recognition
 
