@@ -18,7 +18,7 @@ The design space can be like the following:
 ## Notation
 $$P$$: The POI node set.
 
-$$n_P$$: The number of nodes in the POI node set. $ n_P= |P| $
+$$n_P$$: The number of nodes in the POI node set. $$i\in P$$
 
 $$\text{lat}_i$$: The accurate latitude of POI node $$i\in P$$.
 
