@@ -14,6 +14,12 @@ Here we discuss some challenges met in real world beacon applications.
 3. Unknow Beacon Recognition
 4. Power Consumption
 
+## Check-In Recognition
+Based on real word data, at most time (>85%), riders can only detect one beacon at a time. Moreover, auto check in is the real need for the ELE.ME Business Unit (BU).
+
+## Indoor Localization for Large Scale System
+Currently, many studies on indoor localization uses Kalman filter and Bayesian filter[][], that requires a dynamic model to be maintained for each object. However, this is not applicable in some very large system, such as ELE.M. We cannot maintain a different model for each rider and estimate the location simulatnesly in real time.
+
 ## Beacon Security
 Since iBeacon protocol is designed for broadcasting the position informaton for LBS application. The contents broadcasted can be detected and recognized by any BLE device. This is beneficial in the sense that beacon hardware deployed by one company can be utilized by another company. But this also causes security issues that the beacon information (UUID, Major, Minor) can be faked to cheat the APP. This "bug" might be utilized by the competitor company or other characters for malicious purpose. 
 
