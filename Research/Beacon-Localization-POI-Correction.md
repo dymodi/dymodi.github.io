@@ -16,15 +16,19 @@ The design space can be like the following:
     * Bidirectional communication free (Our Work) (We need to claim that we are the first.)
 
 ## Notation
-$$\text{lat}_i$$: The accurate latitude of POI node $$i$$.
+$$P$$: The POI node set.
 
-$$\text{lon}_i$$: The accurate longitude of POI node $$i$$.
+$$\text{lat}_i$$: The accurate latitude of POI node $$i\in P$$.
 
-$$\hat{\text{lat}}_i$$: The estimated latitude of POI node $$i$$.
+$$\text{lon}_i$$: The accurate longitude of POI node $$i\in P$$.
 
-$$\hat{\text{lon}}_i$$: The estimated longitude of POI node $$i$$.
+$$\hat{\text{lat}}_i$$: The recorded latitude of POI node $$i \in P$$ in the database.
+
+$$\hat{\text{lon}}_i$$: The estimated longitude of POI node $$i \in P$$ in the database.
 
 $$d_i$$: The drifting distance of POI node $$i$$.
+
+$$\hat d_P$$: The average drifting distance of all the nodes in $$P$$.
 
 
 ## The Metric for POI Accuracy
