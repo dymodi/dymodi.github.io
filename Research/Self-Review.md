@@ -1,16 +1,16 @@
 --- 
 layout: post
-title: POI Information Correction based on Beacon
+title: Self Review
 date: Sep. 20, 2017
 author: Yi DING
 ---
 [comment]: # (This is a self review)
 
-# 2017 Summe
+# 2017 Summer
 ## Accomplishment:
 * Get farmiliar with iBeacon mechanism
 * Get farmiliar with SQL language
-* Get farmiliar with 
+* Get farmiliar with Clairvoyant process
 
 
 # 2017 Autumn and Winter
