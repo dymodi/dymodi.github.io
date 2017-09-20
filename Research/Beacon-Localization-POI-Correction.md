@@ -16,9 +16,9 @@ The design space can be like the following:
     * Bidirectional communication free (Our Work) (We need to claim that we are the first.)
 
 ## Notation
-\(P\): The POI node set.
+\\(P\\): The POI node set.
 
-\(n_P\): The number of nodes in the POI node set. \(i\in P\)
+\\(n_P\\): The number of nodes in the POI node set. \(i\in P\)
 
 $$\text{lat}_i$$: The accurate latitude of POI node $$i\in P$$.
 
@@ -36,7 +36,7 @@ $$d_P$$: The average drifting distance of all the nodes in $$P$$.
 ## The Metric for POI Accuracy
 $$d_i=\sqrt{(\text{lat}_i-\hat{\text{lat}}_i)^2+(\text{lon}_i-\hat{\text{lon}}_i)^2}$$ 
 
-\[d_P=\frac{1}{n_P}\sum_{i\in P}{d_i}\] 
+\\[d_P=\frac{1}{n_P}\sum_{i\in P}{d_i}\\] 
 
 $$d_P$$ can be seen as a metric to measure the accuracy of the location information for a POI node set. 
 
