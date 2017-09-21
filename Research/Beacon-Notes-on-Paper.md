@@ -16,6 +16,10 @@ Long Term:
 Know something about what they are doing in machine learning group
 
 ## Discussion with Professor
+09/21
+1. In future deployment, the transmission power will be reduced so that it can only be heared within the shop.
+2. Based on 1. each beacon data can match to a POI. 
+
 09/20
 1. Discover and Solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
 2. Find some other topics and reach out to other people. Turn to PMO for help.

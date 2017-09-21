@@ -24,6 +24,14 @@ The funny thing is that different place give different definition of proximity:
 |Far        |>3m                |Greater than 10 meters away|
 |Unknow     |Device not ranged  | --                        |
 
+Our experiment:
+
+|RSSI(dB)   |Range      |
+|---        |---        |
+|>-65       |<1m        |
+|-65~-75    |<5m        |
+|-75~-85    |<10m       |
+
 
 ## RSSI - Distance Conversion
 Many literature talks about the "path-loss" model when doing the conversion, which leads to the following equation [1][2]: 
