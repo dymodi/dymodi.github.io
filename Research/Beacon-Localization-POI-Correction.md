@@ -25,7 +25,7 @@ $P$: The POI node set.
 
 $n_P$: The number of nodes in the POI node set. $n_P=\left\lvert P \right\rvert$
 
-$text{lat}_i$: The accurate latitude of POI node $i\in P$.
+$\text{lat}_i$: The accurate latitude of POI node $i\in P$.
 
 $\text{lon}_i$: The accurate longitude of POI node $i\in P$.
 
@@ -50,7 +50,7 @@ $d_P$ can be seen as a metric to measure the accuracy of the location informatio
 
 An emperical relation between RSSI value and distance is:
 $$RSSI = -65 - 10n*\log{d}$$
-$$d = 10^((-RSSI-65)/10n)$$
+$$d = 10^{(-RSSI-65)/10n}$$
 Here $n$ is subject to the indoor environment. Based on our indoor exeperiment, we let $n$ = 1.5.
 
 ## POI Correction

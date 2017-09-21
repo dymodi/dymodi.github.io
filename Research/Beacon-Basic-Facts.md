@@ -8,15 +8,21 @@ author: Yi DING
 
 In this post we gather some basic facts on beacon both from Academia and Industry
 
-## Proximity Definition
-According to [1], the beacon proximity is defined as follows:
+## Range
+According to [Wiki](https://en.wikipedia.org/wiki/IBeacon): "Standard beacons have an approximate range of 70 meters. Long range beacons can reach up to 450 meters"
 
-|Zone       |Distance           |
-|-------    |------             |
-|Immediate  |<1m                |
-|Near       |1-3m               |
-|Far        |>3m                |
-|Unknow     |Device not ranged  |
+According to [Bright Beacon](http://www.brtbeacon.com/main/maxbeacon.shtml), the product can coverage 100 meters.
+
+
+## Proximity Definition
+The funny thing is that different place give different definition of proximity:
+
+|Zone       |Distance [1]       |Distance [Wiki]            |
+|-------    |------             |------                     |
+|Immediate  |<1m                |Within a few centimeters   |
+|Near       |1-3m               |Within a couple of meters  |
+|Far        |>3m                |Greater than 10 meters away|
+|Unknow     |Device not ranged  | --                        |
 
 
 ## RSSI - Distance Conversion
