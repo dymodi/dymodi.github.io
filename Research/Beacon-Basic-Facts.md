@@ -26,11 +26,21 @@ The funny thing is that different place give different definition of proximity:
 
 
 ## RSSI - Distance Conversion
-Many literature talks about the "path-loss" model when doing the conversion.
+Many literature talks about the "path-loss" model when doing the conversion, which leads to the following equation [1][2]: 
 
-According to [1][2], the relaiton is:
-$$ RSSI = -10*n\log_{10}d + A $$
-where $A$ is the received RSSI in dB at one meter, $n$ is the path loss exponent that need to be fitted in different environment. The typical value of $n$ is 0.9116 and 1.246 in [1] and 1.3 in [2].
+$$ RSSI = -10n\log_{10}d + A $$
+$$ d = 10^{(-RSSI+A)/10n} $$
+
+where $A$ is the received RSSI in dB at one meter, $n$ is the path loss exponent that need to be fitted in different environment. The typical value of $n$ is 0.9116 and 1.246 in [1] and 1.3 in [2]. 
+According to the [UTD slides](https://www.utdallas.edu/~torlak/courses/ee4367/lectures/lectureradio.pdf), typical value of $n$ is:
+
+|Environment            |Path Loss exponent, $n$    |
+|----                   |----                       |
+|Free Space             |2                          |
+|Urban Area             |2.7 to 3.5                 |
+|Sububan Area           |3 to 5                     |
+|Indoor (line-of-signt) |1.6 to 1.8                 |
+
 
 ## RSS variation with time (static devices)
 According to [3], RSSI fluctuation is not negligible even for the static devices. The RSS variation with time (static device) is: (Figure from [3])

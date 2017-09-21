@@ -47,11 +47,12 @@ $d_P$ can be seen as a metric to measure the accuracy of the location informatio
 
 ## POI Exception Detection
 [comment]: # (We need first define some metric to measure the exception)
+Many BLE based indoor localization methods are using the **Path loss** equation to calculate the distance from receiver to the beacon according to the RSSI. However, the path loss exponent in the equation is subject to the indoor structure and environment. In their studies, they use a typical value or estimate the variable based on a small scale experiment, which is **not** applicable in our case since ebeacon will be depolyed to many different indoor environment.
 
-An emperical relation between RSSI value and distance is:
-$$RSSI = -65 - 10n*\log{d}$$
-$$d = 10^{(-RSSI-65)/10n}$$
-Here $n$ is subject to the indoor environment. Based on our indoor exeperiment, we let $n$ = 1.5.
+Because RSSI suffers from fluctuation and fast fading, we need a time window for smoothing.
+
+
+
 
 ## POI Correction
 
