@@ -24,7 +24,19 @@ The raw data is in the following form:
 |---        |---                    |---            |---            |---            |---    |
 |000001     |2017-09-20 18:00:00.0  |E2C....        |15102          |1501           |-80dB  |
 
+When deploying the beacons, we also built a mapping for each beacon and its physical locations. The mapping has the following format:
+
+|shop_id    |shop_name  |shop_latitude  |shop_longitude |beacon UUID    |beacon major   |beacon minor   |
+|---        |---        |---            |---            |---            |---            |---            |
+|000001     |Rice       |31.22222       |121.22222      |E2C....        |15102          |1501           |
+
+The reason to use the shop's latitude and longitude instead of building a new coordinates is that each shop's latitude and longitude has been recorded in the database beforehand. Due the large scale of beacon deployment, it's not scalable to create new coordinates for each beacon.
+
 ### Estimate the walking speed
+
+<center> <img src="figures/walking-speed-estimation-1.png"  alt="walking-speed-estimation-1">
+</center>
+
 
 
 
