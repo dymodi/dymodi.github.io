@@ -37,6 +37,14 @@ $d_i$: The drifting distance of POI node $i$.
 
 $d_P$: The average drifting distance of all the nodes in $P$.
 
+## Basic Concept
+**Arrive**: Receive a beacon signal with RSSI > -75dB
+
+## Speed Distribution for Pedestrains during Walking
+There are some studies on the human walking speed, 
+
+According to [1], the walking speed for pedestrains follow
+
 
 ## The Metric for POI Accuracy
 $$d_i=\sqrt{(\text{lat}_i-\hat{\text{lat}}_i)^2+(\text{lon}_i-\hat{\text{lon}}_i)^2}$$ 
@@ -68,3 +76,6 @@ Many existing indoor localization methods are using the finger-printing strategy
 
 
 ## In-Field Experiment
+
+
+[1] Chandra, S., & Bharti, A. K. (2013). Speed distribution curves for pedestrians during walking and crossing. Procedia-Social and Behavioral Sciences, 104, 660-667.
