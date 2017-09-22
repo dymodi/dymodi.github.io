@@ -35,7 +35,7 @@ The reason to use the shop's latitude and longitude instead of building a new co
 ### Estimate the walking speed
 
 <p align = "center">
-<img src="figures/walking-speed-estimation-1.png"  alt="walking-speed-estimation-1" width="700", height="300">
+<img src="figures/walking-speed-estimation-1.png"  alt="walking-speed-estimation-1" width="700", height="414">
 </p>
 
 
