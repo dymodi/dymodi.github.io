@@ -33,7 +33,7 @@ When deploying the beacons, we also built a mapping for each beacon and its phys
 
 The reason to use the shop's latitude and longitude instead of building a new coordinates is that each shop's latitude and longitude has been recorded in the database beforehand. Due the large scale of beacon deployment, it's not scalable to create new coordinates for each beacon.
 
-### Estimate the walking speed
+### Estimate a courier's walking speed
 Since we have the timestamp that each courier arrive at each shop and the distance between the shops, we can calculate the courier's speed between each shop pairs. We call the courier's trip between different a **"jump"**. The figure below shows a courier's four consecutive jumps.
 
 <p align = "center">
@@ -56,11 +56,20 @@ Thus we can compute the courier's indoor speed for each jump (Table IV):
 |---    |---            |---            |---            |
 |A-B    |30             |22             |0.73           |
 |B-C    |80             |4              |0.05           |
-|C-D    |40             |280            |<span style="color:red">7.00</span>|
+|C-D    |40             |280            |**7.00**       |
 |D-E    |180            |276            |1.53           |
 
 
-### 
+## Distribution
+
+
+**Remark**
+
+I tried to use the translated data from clairvoyant to draw the histogram for the distribution, the result is disappointing as follows:
+
+<p align = "center">
+<img src="figures/walking-speed-clairvoyant.png"  alt="walking-speed-clairvoyant">
+</p>
 
 
 ## Ref.
