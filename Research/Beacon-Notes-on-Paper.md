@@ -18,7 +18,7 @@ Know something about what they are doing in machine learning group
 ## Discussion with Professor
 09/21
 1. In future deployment, the transmission power will be reduced so that it can only be heared within the shop.
-2. Based on 1. each beacon data can match to a POI. 
+2. Based on 1. each beacon data can match to a POI. What we care is not multiple beacons heared at the same time, but the time difference between each 
 
 09/20
 1. Discover and Solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
@@ -31,8 +31,10 @@ Know something about what they are doing in machine learning group
 4. Currently we have the following topics: "POI correction", "Security", "Risk Control". I can work on these topics and come up with new ones recently.
 
 ## Potential Topics
-1. POI Correction
-2. Security/Authentication
-3. Risk Control
-4. Auto check-in (Similar to Existence Detection)
-5. Dispatching(Traditional and Fetch Delivery Seperation)
+* Delivery Map based on Time
+* AOI Recongization based on delivery map
+* POI Correction
+* Security/Authentication
+* Risk Control
+* Auto check-in (Similar to Existence Detection)
+* Dispatching(Traditional and Fetch Delivery Seperation)
