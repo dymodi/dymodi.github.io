@@ -100,7 +100,7 @@ It seems that exceptional POIs and speed samples still exist after we remove 15%
 * We should remove more POIs.
 * We need change the threshold we consider "arrive". 
 
-For the second one, we can change the threshold from -75 to -70.
+For the second one, we can change the threshold from -75 to -70. But after trying, we found that the distribution is almost the same for the original one and the one after removing 30 exceptional POIs.
 
 We use the following method to detect the 
 
