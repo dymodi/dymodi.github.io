@@ -57,7 +57,29 @@ $d_P$ can be seen as a metric to measure the accuracy of the location informatio
 [comment]: # (We need first define some metric to measure the exception)
 Many BLE based indoor localization methods are using the **Path loss** equation to calculate the distance from receiver to the beacon according to the RSSI. However, the path loss exponent in the equation is subject to the indoor structure and environment. In their studies, they use a typical value or estimate the variable based on a small scale experiment, which is **not** applicable in our case since ebeacon will be depolyed to many different indoor environment.
 
-Because RSSI suffers from fluctuation and fast fading, we need a time window for smoothing.
+//Because RSSI suffers from fluctuation and fast fading, we need a time window for smoothing.
+
+We need the indoor speed distribution to find the exception POIs in the data base, we also need accurate POI information to calculate the speed distribution. Hence we consider the following procedure:
+
+Maybe we can do this in two steps:
+
+1. Preliminary detection using all speed samples.
+2. Fine-grained detection using speed distribution with each POI pairs.
+
+
+```
+While(There are exceptional speed sample in indoor speed distribution):
+    Remove exceptional POI information from POI database;
+    Calculate indoor speed distribution based on new POI database
+```
+Some pracitcal questions:
+* How to define a exceptional speed sample
+    * Answer: The greatest speed > 10m/s
+
+* How to find the exceptional POI corresponding to the speed sample (Cause we have two)
+    * Answer: the one that more frequent in exceptional pairs
+
+We use the following method to detect the 
 
 
 
