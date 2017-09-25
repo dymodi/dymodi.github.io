@@ -86,11 +86,21 @@ The following figure is the original distribution using all the POIs:
 
 Note: (1)Using ebeacon raw data; (2)>75dB is considered as at POI; (3) The y-axis is in log.
 
-The following figure is the original distribution after remove 20 exceptional POIs:
+The following figure is the original distribution after remove 20 (10%) exceptional POIs:
 <p align = "center">
 <img src="figures/speed-distribution-after-removing-20.png"  alt="walking-speed-clairvoyant">
 </p>
 
+The following figure is the original distribution after remove 30 (15%) exceptional POIs:
+<p align = "center">
+<img src="figures/speed-distribution-after-removing-30.png"  alt="walking-speed-clairvoyant">
+</p>
+
+It seems that exceptional POIs and speed samples still exist after we remove 15% exception POIs. There are two possiblities: 
+* We should remove more POIs.
+* We need change the threshold we consider "arrive". 
+
+For the second one, we can change the threshold from -75 to -70.
 
 We use the following method to detect the 
 
