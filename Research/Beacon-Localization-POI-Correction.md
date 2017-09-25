@@ -66,7 +66,7 @@ Maybe we can do this in two steps:
 1. Preliminary detection using all speed samples.
 2. Fine-grained detection using speed distribution with each POI pairs.
 
-
+Preliminary detection procedure
 ```
 While(There are exceptional speed sample in indoor speed distribution):
     Remove exceptional POI information from POI database;
@@ -79,12 +79,27 @@ Some pracitcal questions:
 * How to find the exceptional POI corresponding to the speed sample (Cause we have two)
     * Answer: the one that more frequent in exceptional pairs
 
+The following figure is the original distribution using all the POIs:
+<p align = "center">
+<img src="figures/speed-distribution-all-original.png"  alt="walking-speed-clairvoyant">
+</p>
+
+Note: (1)Using ebeacon raw data; (2)>75dB is considered as at POI; (3) The y-axis is in log.
+
+The following figure is the original distribution after remove 20 exceptional POIs:
+<p align = "center">
+<img src="figures/speed-distribution-after-removing-20.png"  alt="walking-speed-clairvoyant">
+</p>
+
+
 We use the following method to detect the 
 
 
 
-
 ## POI Correction
+Basic Idea:
+After we drop all the wrong POI information, we get it back one by on by solving an optimization at each time. The optimization goal is to minimize the exceptional speed distribution.
+
 
 
 ## Background
