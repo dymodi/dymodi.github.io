@@ -9,6 +9,8 @@ author: Yi DING
 
 The code related to this blog can be found [here](https://github.com/dymodi/Beacon/blob/master/Beacon-RSSI-Filtering.py).
 
+If you want to leave a comment, please go [here](http://blog.csdn.net/dymodi/article/details/74010549).
+
 ## Backgrounds
 When iBeacon is put forward by Apple in 2014 for the first time, it was designed to detect the time that a device enters and leaves a region. According to the [documentation](https://developer.apple.com/ibeacon/Getting-Started-with-iBeacon.pdf),  RSSI (Received Signal Strength Indication) is used in the monitoring and ranging. However, no more details are provided for the detection mechanism. Since RSSI is influenced by many factors and suffers from strong fluctuation, simply reporting entrance and departure when receiving/not receiving RSSI value is not reliable. 
 
