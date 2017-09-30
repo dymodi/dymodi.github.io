@@ -53,6 +53,12 @@ According to the [UTD slides](https://www.utdallas.edu/~torlak/courses/ee4367/le
 |Indoor (line-of-signt) |1.6 to 1.8                 |
 
 
+## RSSI distribution
+We gather the beacon data for all the rider in our experiment in one day. According to the data we gathered, the  rssi distribution is:
+<p align = "center">
+<img src="figures/rssi-data-cnt.png"  alt="rssi distribution">
+</p>
+
 ## RSS variation with time (static devices)
 According to [3], RSSI fluctuation is not negligible even for the static devices. The RSS variation with time (static device) is: (Figure from [3])
 <center> <img src="figures/rss-variation-with-time.png"  alt="RSSI Variation with time">
