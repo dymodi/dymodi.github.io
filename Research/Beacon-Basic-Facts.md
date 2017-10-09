@@ -59,14 +59,22 @@ We gather the beacon data for all the rider in our experiment in one day. Accord
 <img src="figures/rssi-data-cnt.png"  alt="rssi distribution">
 </p>
 
+The CDF is as follows:
+<p align = "center">
+<img src="figures/rssi-cdf.png"  alt="rssi CDF">
+</p>
+It can be seen that 99% of data falls between -105dB and -55dB.
+
+
 ## RSS variation with time (static devices)
 According to [3], RSSI fluctuation is not negligible even for the static devices. The RSS variation with time (static device) is: (Figure from [3])
-<center> <img src="figures/rss-variation-with-time.png"  alt="RSSI Variation with time">
-</center>
+<p align = "center">
+<img src="figures/rss-variation-with-time.png"  alt="RSSI Variation with time", width="600", height="700">
+</p>
 
 ## RSS variation with distance (receiver moving)
 When moving towards/away from beacons, the RSS received at the receiver suffers from fast fading. Which can be a major concern for either fingerprinting or trilateration. The RSS variation with distance (receiver moving) can be shown as: (Figure from [3])
-<center> <img src="figures/rss-variation-with-distance.png"  alt="RSSI Variation with distance">
+<center> <img src="figures/rss-variation-with-distance.png"  alt="RSSI Variation with distance", width="600", height="700">
 </center>
 
 ## Ref.
