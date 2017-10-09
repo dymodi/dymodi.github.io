@@ -16,6 +16,9 @@ Long Term:
 Know something about what they are doing in machine learning group
 
 ## Discussion with Professor
+10/08
+1. Prepare for the 2018 MobiSys (12/08 DDL). I will prepare an outline in this week. 
+
 09/21
 1. In future deployment, the transmission power will be reduced so that it can only be heared within the shop.
 2. Based on 1. each beacon data can match to a POI. What we care is not multiple beacons heared at the same time, but the time difference between each 

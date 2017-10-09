@@ -69,13 +69,14 @@ It can be seen that 99% of data falls between -105dB and -55dB.
 ## RSS variation with time (static devices)
 According to [3], RSSI fluctuation is not negligible even for the static devices. The RSS variation with time (static device) is: (Figure from [3])
 <p align = "center">
-<img src="figures/rss-variation-with-time.png"  alt="RSSI Variation with time", width="600", height="700">
+    <img src="figures/rss-variation-with-time.png"  alt="RSSI Variation with time", width="600", height="700">
 </p>
 
 ## RSS variation with distance (receiver moving)
 When moving towards/away from beacons, the RSS received at the receiver suffers from fast fading. Which can be a major concern for either fingerprinting or trilateration. The RSS variation with distance (receiver moving) can be shown as: (Figure from [3])
-<center> <img src="figures/rss-variation-with-distance.png"  alt="RSSI Variation with distance", width="600", height="700">
-</center>
+<p align = "center">
+    <img src="figures/rss-variation-with-distance.png"  alt="RSSI Variation with distance", width="600", height="700">
+</p>
 
 ## Ref.
 [1] Zafari, F., Papapanagiotou, I., Devetsikiotis, M., & Hacker, T. (2017). An iBeacon based Proximity and Indoor Localization System. arXiv preprint arXiv:1703.07876.
