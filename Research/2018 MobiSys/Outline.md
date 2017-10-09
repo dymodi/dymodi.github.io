@@ -25,8 +25,14 @@ author: Yi DING
 ## 5 Indoor Detection and Tracking
 
 ## 6 POI Correction
+### 6.1 Exception Detection
+(Almost done, based on riders' speed)
+
+### 6.2 POI Correction
+(Not started, plan to use optimization, minimize the exceptional rate)
 
 ## 7 System Security
+(To be done by LIU Ling?)
 
 ## 8 Performance Evaluation
 ### 8.1 Data source
