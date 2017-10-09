@@ -18,9 +18,15 @@ author: Yi DING
 ### 3.3 Commercial Requirement on Security
 
 ## 4 SYSTEM OVERVIEW
+The system overview is shown in the following figure:
+<p align = "center">
+    <img src="figures/system-overview.png"  alt="system-overview", width="700", height="600">
+</p>
+
 ### 4.1 BLE Beacons
 ### 4.2 Cellphone APP
-### 4.3 Database
+### 4.3 Data Processing
+### 4.4 Application
 
 ## 5 Indoor Detection and Tracking
 
