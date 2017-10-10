@@ -16,7 +16,12 @@ Long Term:
 Know something about what they are doing in machine learning group
 
 ## Discussion with Professor
-10/08
+10/10
+1. About the outline, the structure is ok. But we need to dig more and deeper.
+2. What is the main challenge? Scale? Food delivery?
+3. Maybe I can search some paper and find the challenges and tell a good story. That is, make a tentative introduction.
+
+10/09
 1. Prepare for the 2018 MobiSys (12/08 DDL). I will prepare an outline in this week. 
 
 09/21
