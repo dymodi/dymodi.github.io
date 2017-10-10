@@ -14,6 +14,9 @@ Here we discuss some challenges met in real world beacon applications.
 3. Unknow Beacon Recognition
 4. Power Consumption
 
+In paper [1], the author lists some challenges to build a real ubiquitous indoor localization system. Some challenges are also what we met (and solved) in our system: Robustness against Attacks, Incentive Modeles, System Evaluation, Energy Efficienty.
+
+
 ## Check-In Recognition
 Based on real word data, at most time (>85%), riders can only detect one beacon at a time. Moreover, auto check in is the real need for the ELE.ME Business Unit (BU).
 
@@ -48,4 +51,7 @@ Solution:
 
 ## Power Consumption
 The system needs to be optimized for energy, to avoid a significant battery drain during localization.
+
+## Ref.
+[1] Youssef, M. (2015, November). **Towards truly ubiquitous indoor localization on a worldwide scale**. In Proceedings of the 23rd SIGSPATIAL International Conference on Advances in Geographic Information Systems (p. 12). ACM.
 

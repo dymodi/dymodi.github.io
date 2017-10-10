@@ -25,6 +25,7 @@ Localization method: (Mechanism based methods are also called determinisitic met
 7. Mechanism based. Kalman filter + Weighted centroid. [7]
 8. Fingerprinting (seems like a combination of data and mechanism). [8]
 9. Mechanism based. Kalman filter + Particle filter [10].
+10. Combined method. Fingerprinting + Modelling based, particularly designed for large scale system.[11]
 
 Some comments:
 * The beacon signal with higher RSSI is more reliable. [1][7]
@@ -35,6 +36,11 @@ Some comments:
 * Some basic experiment results are shown on BLE RSSI are shown in [2][8][10] (static performance), [5] (exponential decreasing) and [8] (RSSI variation with receiver moving).
 * More about BLE beacon sensor power consumption can be found in the [SensingKit Report](http://ieeexplore.ieee.org/abstract/document/7723503/).
 * An interesting and useful knowledge for indoor positioning: The average human walking pace is approximately 1.5m/s [8].
+
+10/10/17 Update
+* No unified algorithm is applicable in real world large scale system due to complex environment. [11]
+* Some challenges are still there before we can achieve a ubiquitous indoor localization system. [12]
+
 
 No discussion on the security issue.
 
@@ -54,6 +60,12 @@ No discussion on the security issue.
 
 **[8]** Faragher, R., & Harle, R. (2015). **Location fingerprinting with bluetooth low energy beacons**. IEEE journal on Selected Areas in Communications, 33(11), 2418-2428.
 
-[9] Miller, L. E. (2006). Indoor navigation for first responders: a feasibility study. National Institute of Standards and Technology, Wireless Communication Technologies Group.
+[9] Miller, L. E. (2006). **Indoor navigation for first responders: a feasibility study**. National Institute of Standards and Technology, Wireless Communication Technologies Group.
 
-[10] Zafari, F., Papapanagiotou, I., Devetsikiotis, M., & Hacker, T. (2017). An iBeacon based Proximity and Indoor Localization System. arXiv preprint arXiv:1703.07876.
+[10] Zafari, F., Papapanagiotou, I., Devetsikiotis, M., & Hacker, T. (2017). **An iBeacon based Proximity and Indoor Localization System**. arXiv preprint arXiv:1703.07876.
+
+**Large Scale Indoor Localization System**
+
+[11] Li, L., Shen, G., Zhao, C., Moscibroda, T., Lin, J. H., & Zhao, F. (2014, September). **Experiencing and handling the diversity in data density and environmental locality in an indoor positioning service**. In Proceedings of the 20th annual international conference on Mobile computing and networking (pp. 459-470). ACM.
+
+[12] Youssef, M. (2015, November). **Towards truly ubiquitous indoor localization on a worldwide scale**. In Proceedings of the 23rd SIGSPATIAL International Conference on Advances in Geographic Information Systems (p. 12). ACM.
