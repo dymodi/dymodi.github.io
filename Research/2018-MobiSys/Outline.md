@@ -15,7 +15,7 @@ author: Yi DING
 [comment]: # (The technical depth)
 [comment]: # (The potential impact)
 
-Indoor localization has been studied both in academia and industry for many years. Many innovative methods have been proposed to tackle this issue from many aspects [][][]. However, compared with ubiquitous applications based on GPS in outdoor environment, the support from indoor localzation is still limited for upper layer applications. It seems that a gap still exists between the existing studies and potential large scale applications. Various complex challenges are the underlying reason of the gap: lacking universal algorithm for generic indoor environment, many algorithm relying on fingerprinting data or floor plan, lacking incentive for crowdsourcing mechanism, lacking robustness against attack [youssef2015towards].
+Indoor localization has been studied both in academia and industry for many years. Many innovative methods have been proposed to tackle this issue from many aspects [][][]. However, compared with ubiquitous applications based on GPS in outdoor environment, the support from indoor localzation is still limited for upper layer applications. It seems that a gap still exists between the existing studies and potential large scale applications. Various complex challenges lead to the gap: a universal algorithm is lacking for generic indoor environment, many algorithm relying on fingerprinting data or floor plan, incentive is lacking for crowdsourcing mechanism, robustness against attack is lacking for commercial applications, etc [youssef2015towards].
 
 
 In this paper, we propose a large scale indoor localization system for the food delivery business based on BLE beacons. 
@@ -26,11 +26,15 @@ Fingerprinting is not applicable due to large scale, we have to use existing POI
 
 Commercial application require high security level 
 
+To address these challenges and narrow the gap between existing indoor localization studies and real world applications, in this paper we build an indoor localization system for large scale applications. The key novelty  of our system is that existing (inaccurate) POI can be used to achieve hence no fingerprinting or training is needed and encryption mechanism is integrated to guarantee the security of the system. Specifically, our contributions in this paper are as follows: 
 
-This is the first paper that shows the effectiveness of BLE based beacon in large scale real world commercial application. The scale of the system is larger than any other system studied before in the followings aspects: For the physical layer, we have more than 15,000 beacons in 15,000 shops in Shanghai. For the sensor layer, more than 20,000 riders act as "sensors" with cellphone with them. Particularly, in the former studies the many, more than 600 types have cellphone have been involved in the system, which shows the effectiveness of our system in real world scenario. 
+* To the best of our knowledge, this is the first paper that shows the effectiveness of BLE based beacon in large scale real world commercial application. The scale of the system is larger than any other system studied before in the followings aspects: For the physical layer, we have more than 15,000 beacons in 15,000 shops in Shanghai. For the sensor layer, more than 20,000 riders act as "sensors" with cellphone with them. Particularly, in the former studies the many, more than 600 types have cellphone have been involved in the system, which shows the effectiveness of our system in real world scenario. 
 
 
 ## 2 RELATED WORK
+
+
+
 
 ## 3 MOTIVATION
 ### 3.1 Insufficient Dispatching System
