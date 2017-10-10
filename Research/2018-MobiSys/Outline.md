@@ -9,6 +9,15 @@ author: Yi DING
 
 
 ## 1 INTRODUCTION
+
+[comment]: # (The importance of the problems addressed)
+[comment]: # (The novelty of the proposed solutions)
+[comment]: # (The technical depth)
+[comment]: # (The potential impact)
+
+Indoor localization has been studied both in academia and industry for many years. Many innovative methods have been proposed to tackle this issue from many aspects [][][]. However, compared with ubiquitous applications based on GPS in outdoor environment, the support from indoor localzation is still limited for upper layer applications. It seems that a gap still exists between the existing studies and potential large scale applications. Various complex challenges are the underlying reason of the gap: lacking universal algorithm for generic indoor environment, many algorithm relying on fingerprinting data or floor plan, lacking incentive for crowdsourcing mechanism, lacking robustness against attack [youssef2015towards].
+
+
 In this paper, we propose a large scale indoor localization system for the food delivery business based on BLE beacons. 
 
 The pass-loss equation is not applicable due to variety of cellphone platforms and hardware. 
@@ -18,7 +27,7 @@ Fingerprinting is not applicable due to large scale, we have to use existing POI
 Commercial application require high security level 
 
 
-This is the first paper that shows the effectiveness of BLE based beacon in real world commercial application. The scale of the system is larger than any other system studied in the followings aspects: For the physical layer, we have more than 15,000 beacons in 15,000 shops in Shanghai. For the sensor layer, more than 20,000 riders act as "sensors" with cellphone with them. Particularly, in the former studies the many, more than 600 types have cellphone have been involved in the system, which shows the effectiveness of our system in real world scenario. 
+This is the first paper that shows the effectiveness of BLE based beacon in large scale real world commercial application. The scale of the system is larger than any other system studied before in the followings aspects: For the physical layer, we have more than 15,000 beacons in 15,000 shops in Shanghai. For the sensor layer, more than 20,000 riders act as "sensors" with cellphone with them. Particularly, in the former studies the many, more than 600 types have cellphone have been involved in the system, which shows the effectiveness of our system in real world scenario. 
 
 
 ## 2 RELATED WORK
@@ -54,3 +63,13 @@ The system overview is shown in the following figure:
 ### 8.2 In-field Experiment
 
 ## 9 CONCLUSION
+
+## Reference
+@inproceedings{youssef2015towards,
+  title={Towards truly ubiquitous indoor localization on a worldwide scale},
+  author={Youssef, Moustafa},
+  booktitle={Proceedings of the 23rd SIGSPATIAL International Conference on Advances in Geographic Information Systems},
+  pages={12},
+  year={2015},
+  organization={ACM}
+}
