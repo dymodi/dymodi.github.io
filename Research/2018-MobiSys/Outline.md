@@ -15,16 +15,28 @@ author: Yi DING
 [comment]: # (The technical depth)
 [comment]: # (The potential impact)
 
+(If we claim for generic indoor applications, riders' mobility pattern cannot be used.)
+
+(If we claim for food delivery system, it seems can not serve as solution to narrow the gap between research and real world application.)
+
 Indoor localization has been studied both in academia and industry for many years. Many innovative methods have been proposed to tackle this issue from many aspects [][][]. However, compared with ubiquitous applications based on GPS in outdoor environment, the support from indoor localzation is still limited for upper layer applications. It seems that a gap still exists between the existing studies and potential large scale applications. Various complex challenges lead to the gap: a universal algorithm is lacking for generic indoor environment, many algorithm relying on fingerprinting data or floor plan, incentive is lacking for crowdsourcing mechanism, robustness against attack is lacking for commercial applications, etc [youssef2015towards].
 
 
+The specialty of food delivery system: predictable trace pattern, only care about some important temporal duration and spatial area.
+
+
 In this paper, we propose a large scale indoor localization system for the food delivery business based on BLE beacons. 
+
 
 The pass-loss equation is not applicable due to variety of cellphone platforms and hardware. 
 
 Fingerprinting is not applicable due to large scale, we have to use existing POI information in the database. However, the POI information in the database in inaccurate ...
 
+Then we come up with a method that can acquire rider's 
+
 Commercial application require high security level 
+
+
 
 To address these challenges and narrow the gap between existing indoor localization studies and real world applications, in this paper we build an indoor localization system for large scale applications. The key novelty  of our system is that existing (inaccurate) POI can be used to achieve hence no fingerprinting or training is needed and encryption mechanism is integrated to guarantee the security of the system. Specifically, our contributions in this paper are as follows: 
 
