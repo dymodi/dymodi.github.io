@@ -19,18 +19,23 @@ author: Yi DING
 
 (If we claim for food delivery system, it seems can not serve as solution to narrow the gap between research and real world application.)
 
-(General Background of Indoor Localization)
+(The problem we want to solve: narrow the gap between IPS research and applications)
+
 Indoor localization, or Indoor Positioning System (IPS) has been studied both in academia and industry for many years. Many innovative methods have been proposed to tackle this issue from many aspects [][][]. However, compared with ubiquitous applications based on GPS in outdoor environment, the support from indoor localzation is still limited for upper layer applications. It seems that a gap still exists between the existing studies and potential large scale applications. Various complex challenges lead to the gap: a universal algorithm is lacking for generic indoor environment, many algorithm relying on fingerprinting data or floor plan, incentive is lacking for crowdsourcing mechanism, robustness against attack is lacking for commercial applications, etc [youssef2015towards].
 
-(Why we care about food delivery system)
-The challenges faced for indoor localization application prompt us to explore the underlying features of indoor localization services. Based on the in-depth exploration of many IPS research and applications[][][], we found the following characteristic (compared with GPS): 1. The indoor localization usually serves some specific purpose such as indoor navigation in mall and airport, riders' arrival/depature detection; 2. Additional informaiton is needed to achieve indoor localization, such as floorplan or fingerprinting database; 3. The security issue needs to be resolve for privacy and commercial consideration.
+(The special features of indoor localization)
 
+The challenges faced for indoor localization application prompt us to explore the underlying features of indoor localization services. Based on the in-depth exploration of many IPS research and applications[][][], we found the following characteristics of IPS (compared with GPS): 1. The indoor localization usually serves some specific purpose such as indoor navigation in mall and airport, riders' arrival/depature detection for delivery services; 2. Additional informaiton is needed to achieve indoor localization, such as floorplan or fingerprinting database; 3. The security issue needs to be resolved for privacy and commercial consideration.
 
-The specialty of food delivery system: predictable trace pattern, only care about some important temporal duration and spatial area.
+(The background of food delivery system)
 
+In recent years, with the prevalence of the mobile Internet and sharing economy, online food ordering and delivery becomes a prosperous market. Driven by the mobile Internet technololy, a new business model is emerging with a centralized platform acting serving customers, restaurants and riders at the same time [][][]. Restaurants can operate an online shop on the platform and accept orders while customers can choose from plenty of restaurants nearby the cellphone APP provided by this platform. The food delivery tasks will be dispatched to registered as well as crowdsourced riders according to their location and destination. As the platform provides convenient service for all three sections, some problems also restrain the platform from achieving high efficiency dispatching. One of the key problems is the lacking of riders location information when the riders are in the indoor environment. Although GPS information can be an proxy information, many restaurants are in mall and riders will spend a lot time indoor to take foods from different restaurants.
+Some specific demands are: 
 
 In this paper, we propose a large scale indoor localization system for the food delivery business based on BLE beacons. 
 
+
+The specialty of food delivery system: predictable trace pattern, only care about some important temporal duration and spatial area.
 
 The pass-loss equation is not applicable due to variety of cellphone platforms and hardware. 
 
