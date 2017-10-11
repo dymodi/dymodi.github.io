@@ -19,7 +19,11 @@ author: Yi DING
 
 (If we claim for food delivery system, it seems can not serve as solution to narrow the gap between research and real world application.)
 
-Indoor localization has been studied both in academia and industry for many years. Many innovative methods have been proposed to tackle this issue from many aspects [][][]. However, compared with ubiquitous applications based on GPS in outdoor environment, the support from indoor localzation is still limited for upper layer applications. It seems that a gap still exists between the existing studies and potential large scale applications. Various complex challenges lead to the gap: a universal algorithm is lacking for generic indoor environment, many algorithm relying on fingerprinting data or floor plan, incentive is lacking for crowdsourcing mechanism, robustness against attack is lacking for commercial applications, etc [youssef2015towards].
+(General Background of Indoor Localization)
+Indoor localization, or Indoor Positioning System (IPS) has been studied both in academia and industry for many years. Many innovative methods have been proposed to tackle this issue from many aspects [][][]. However, compared with ubiquitous applications based on GPS in outdoor environment, the support from indoor localzation is still limited for upper layer applications. It seems that a gap still exists between the existing studies and potential large scale applications. Various complex challenges lead to the gap: a universal algorithm is lacking for generic indoor environment, many algorithm relying on fingerprinting data or floor plan, incentive is lacking for crowdsourcing mechanism, robustness against attack is lacking for commercial applications, etc [youssef2015towards].
+
+(Why we care about food delivery system)
+The challenges faced for indoor localization application prompt us to explore the underlying features of indoor localization services. Based on the in-depth exploration of many IPS research and applications[][][], we found the following characteristic (compared with GPS): 1. The indoor localization usually serves some specific purpose such as indoor navigation in mall and airport, riders' arrival/depature detection; 2. Additional informaiton is needed to achieve indoor localization, such as floorplan or fingerprinting database; 3. The security issue needs to be resolve for privacy and commercial consideration.
 
 
 The specialty of food delivery system: predictable trace pattern, only care about some important temporal duration and spatial area.

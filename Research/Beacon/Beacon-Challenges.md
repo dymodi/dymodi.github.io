@@ -18,6 +18,8 @@ In paper [1], the author lists some challenges to build a real ubiquitous indoor
 
 
 ## Check-In Recognition
+For check-in, we have some inaccurate check-in time data labeled by the rider, how can we use this label can be a good question.
+
 Based on real word data, at most time (>85%), riders can only detect one beacon at a time. Moreover, auto check in is the real need for the ELE.ME Business Unit (BU).
 
 ## Indoor Localization for Large Scale System
