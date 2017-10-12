@@ -9,7 +9,7 @@ author: Yi DING
 In this post, we solve the problem that estimating the rider's arrival/depature time for nearby shops. 
 
 ## Arrival/Depature Detection
-
+The Detection is discussed in another [post](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Beacon/Beacon-Rider-Arrival-Depature-Detection.md).
 
 
 ## Arrival/Depature Estimation
