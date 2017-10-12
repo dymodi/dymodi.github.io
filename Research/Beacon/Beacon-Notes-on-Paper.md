@@ -16,6 +16,13 @@ Long Term:
 Know something about what they are doing in machine learning group
 
 ## Discussion with Professor
+10/12
+1. The Introduction draft 1 is rejected by the professor. Indoor localization is no more a meaningful topic for MobiSys, we have to find another story.
+2. We can start from the (food) delivery system and find some practical problem to solve.
+3. For example, due to complex indoor structure and layouts, it's not enough to consider only latitude/longitude and floor. We need to find the "distance" in terms of delivery in a higher dimension.
+(Possible feature: latitude/longitude, floor, weather, time(hour), rider age)
+4. We can ignore indoor localization or make it as a small component.
+
 10/10
 1. About the outline, the structure is ok. But we need to dig more and deeper.
 2. What is the main challenge? Scale? Food delivery?
