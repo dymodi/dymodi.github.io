@@ -33,7 +33,7 @@ Our experiment:
 |-75~-85    |<10m       |
 
 So we can conclude that RSSI > -65 indicates the distance < 1m, RSSI > -75 indicates the distance < 10m.
-Or we can conclude that RSSI > -7 means that the rider is definitly within the range of the POI.
+Or we can conclude that RSSI > -76 means that the rider is definitly within the range of the POI.
 
 
 ## RSSI - Distance Conversion
