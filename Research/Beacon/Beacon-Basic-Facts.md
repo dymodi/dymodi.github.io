@@ -4,7 +4,7 @@ title: Baisc Facts
 date: Sep. 20, 2017
 author: Yi DING
 ---
-[comment]: # (Some basic facts about beaocn)
+[comment]: # (Some basic facts about beacon)
 
 In this post we gather some basic facts on beacon both from Academia and Industry
 

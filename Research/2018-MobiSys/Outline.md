@@ -15,6 +15,10 @@ author: Yi DING
 [comment]: # (The technical depth)
 [comment]: # (The potential impact)
 
+
+
+* NOTE: Further is not maintained since 10/11/17. I would be using local tex editor.
+
 (If we claim for generic indoor applications, riders' mobility pattern cannot be used.)
 
 (If we claim for food delivery system, it seems can not serve as solution to narrow the gap between research and real world application.)
