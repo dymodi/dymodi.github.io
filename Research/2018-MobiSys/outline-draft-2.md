@@ -58,7 +58,11 @@ Rider's bebavior is predicted using **Bayesian estimation**.
 The rider behavior prediction will be conduct based on Bayesian estimation.
 
 ## 5 Model Layer (Time-based Multi-Dimension Delivery Map)
-This is the main contribution of this paper. In the model layer, we build a time-based multi-dimenion delivery map to handle the complex problems met in delivery problem. The map will be built in the machine learning paradigm and update dynamically. 
+This is the main contribution of this paper. In the model layer, we build a time-based multi-dimenion delivery map to handle the complex problems met in delivery problem. The map will be built in the machine learning 
+paradigm and update dynamically. A concept map can be found in Figure 2.
+<p align = "center">
+<img src="figures/time-based-map.png"  alt="time based map">
+</p>
 
 There are two types of vertices in the map: restaurant and customer. Each vertex is a high dimensional representation of the object. The features are categorized into following types: rider features, restaurant features, customer features, order features and other features.
 
