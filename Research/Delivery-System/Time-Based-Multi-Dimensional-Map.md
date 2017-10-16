@@ -43,11 +43,12 @@ Here we introduce the features of the vertices
 
 ## Feature Tuple on Training
 ### RR Edge
-Origin Restaurant Latitude
-Origin Restaurant Longitude
-Origin Restaurant Floor
-Destination Restaurant Latitude
-Destination Restaurant Longitude
-Destination Restaurant Floor
-Hour
-Weather
+* Origin Restaurant Latitude
+* Origin Restaurant Longitude
+* Origin Restaurant Floor
+* Destination Restaurant Latitude
+* Destination Restaurant Longitude
+* Destination Restaurant Floor
+* Distance (km)
+* Hour
+* Weather
