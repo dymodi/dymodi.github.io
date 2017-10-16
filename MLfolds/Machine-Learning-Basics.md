@@ -26,7 +26,25 @@ note that the class priors will be $$p(y = 1)\approx 1$$, $$p(y = 0)\approx 3$$.
 
 * Digits: The Digits dataset comes prepackaged with scikit-learn. The dataset has 1797 points, 64 features, and 10 classes corresponding to ten numbers 0,1,...,9. The dataset was (likely) created from [this dataset](http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits). 
 
-
 ## Cross-validation
-The function *my_cross_val(method,X,y,k)* can performs k-fold cross-validation on (X,y) using **method**, and returns the error rate in each fold.
+The function `my_cross_val(method,X,y,k)` can performs k-fold cross-validation on `(X,y)` using **method**, and returns the error rate in each fold.
 The code can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/my_cross_val.py).
+
+
+## Classification Methods from sklearn
+We can conduct multi-classification easily by using methods: LinearSVC, SVC and LogisticRegression from sklearn library.
+
+All these three methods are provided in the **sklearn** library and can be imported directly. A simple sample is:
+```python
+# import methods from libraries
+from sklearn.svm import LinearSVC
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
+# Create the model
+myMethod = LinearSVC()
+# Fit the data
+myMethod.fit(Xtrain,ytrain.ravel())
+# Test the model on (new) data
+ypred = myMethod.predict(Xtest)
+```
+The detaild code of using these three methods on Boston and Digits data can be found here.
