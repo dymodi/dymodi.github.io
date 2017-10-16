@@ -19,3 +19,5 @@ construction, note that the class priors will be $$p(y = 1) \approx 1$$ , $$p(y 
 ii. Boston75: Let $$\tau75$$ be the 75th percentile over all $$r$$ (response) values. Create a 2-class
 classification problem such that $$y = 1$$ if $$r ≥ \tau 75$$ and $$y = 0$$ if $$r < \tau 75$$. By construction,
 note that the class priors will be $$p(y = 1)\approx 1$$, $$p(y = 0)\approx 3$$.
+
+* Digits: The Digits dataset comes prepackaged with scikit-learn. The dataset has 1797 points, 64 features, and 10 classes corresponding to ten numbers 0,1,...,9. The dataset was (likely) created from [this dataset](http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits). 
