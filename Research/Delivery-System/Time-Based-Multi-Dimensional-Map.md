@@ -15,12 +15,14 @@ In traditional navigation system, the distance based map is used with latitude a
 ## Basic Idea
 The basci idea is, based on the data we have, we find some features and the time of the edge is the output. We use  logistic regression. The map is a graph.
 
+We care about two component: staying time and travelling time
+
 
 ## Vertices of the Graph
 There are two type of vertices in the map: restaurant vertices and customer vertices.
 
 ## Edges of the Graph
-There are three types of edges in the map: edge between restaurant and restaurant, edge between restaurant and customer and edge between customer and customer.
+There are three types of edges in the map: edge between restaurant and restaurant (RR Edge), edge between restaurant and customer (RC Edge) and edge between customer and customer (CC Edge).
 
 ## Features
 Here we introduce the features of the vertices
@@ -33,10 +35,19 @@ Here we introduce the features of the vertices
 * Latitude
 * Longitude
 * Floor
-* Meal Preparing Time (Seconds)
 
 ### Customer Vertices Features
 * Latitude
 * Longitude
 * Floor
-* Waiting Time
+
+## Feature Tuple on Training
+### RR Edge
+Origin Restaurant Latitude
+Origin Restaurant Longitude
+Origin Restaurant Floor
+Destination Restaurant Latitude
+Destination Restaurant Longitude
+Destination Restaurant Floor
+Hour
+Weather
