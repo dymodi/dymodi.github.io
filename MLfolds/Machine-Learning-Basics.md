@@ -9,8 +9,6 @@ In this post, we review some basic knowledge of machine learning. The frame of t
 
 **Warning**: The mathematics and codes here are for reviewing and learning. It is prohibited to copy any of the contents here for your homework!
 
-
-
 ## Datasets
 * Boston: The Boston housing dataset comes prepackaged with scikit-learn. The dataset has 506 points, 13 features, and 1 target (response) variable. You can find more information about the dataset [here](https://archive.ics.uci.edu/ml/datasets/Housing). 
 
@@ -27,9 +25,16 @@ note that the class priors will be $$p(y = 1)\approx 1$$, $$p(y = 0)\approx 3$$.
 * Digits: The Digits dataset comes prepackaged with scikit-learn. The dataset has 1797 points, 64 features, and 10 classes corresponding to ten numbers 0,1,...,9. The dataset was (likely) created from [this dataset](http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits). 
 
 ## Cross-validation
-**sklearn** has provided the function `cross_val_predict()` to generate cross-validated estimates for each input data point.
+**sklearn** has provided the function `cross_val_predict()` to generate cross-validated estimates for each input data point. More about this function can be found [here](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_predict.html#sklearn.model_selection.cross_val_predict).
+A simple example can be:
+```python
+# Cross-validation
+lr = LinearRegression()
+y = boston.target
+y_pred = cross_val_predict(lr, boston.data, y, cv=10)
+```
 
-The function `my_cross_val(method,X,y,k)` can performs k-fold cross-validation on `(X,y)` using `method`, and returns the error rate in each fold.
+The function `my_cross_val(method,X,y,k,ml_type)` can performs k-fold cross-validation on `(X,y)` using `method`, and returns the error rate in each fold.
 The code can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/my_cross_val.py).
 
 
@@ -50,3 +55,6 @@ myMethod.fit(Xtrain,ytrain.ravel())
 ypred = myMethod.predict(Xtest)
 ```
 The detaild code of using these three methods on Boston and Digits data can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/sklearn.py).
+
+## Regression Methods from sklearn
+**sklearn** also provides many linear regression methods. Sample code can be found in the GitHub repository.
