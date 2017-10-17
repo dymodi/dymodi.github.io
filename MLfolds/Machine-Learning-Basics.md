@@ -27,6 +27,8 @@ note that the class priors will be $$p(y = 1)\approx 1$$, $$p(y = 0)\approx 3$$.
 * Digits: The Digits dataset comes prepackaged with scikit-learn. The dataset has 1797 points, 64 features, and 10 classes corresponding to ten numbers 0,1,...,9. The dataset was (likely) created from [this dataset](http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits). 
 
 ## Cross-validation
+**sklearn** has provided the function `cross_val_predict()` to generate cross-validated estimates for each input data point.
+
 The function `my_cross_val(method,X,y,k)` can performs k-fold cross-validation on `(X,y)` using `method`, and returns the error rate in each fold.
 The code can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/my_cross_val.py).
 
