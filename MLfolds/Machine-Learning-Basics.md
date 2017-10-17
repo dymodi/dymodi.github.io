@@ -54,7 +54,7 @@ myMethod.fit(Xtrain,ytrain.ravel())
 # Test the model on (new) data
 ypred = myMethod.predict(Xtest)
 ```
-The detaild code of using these three methods on Boston and Digits data can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/sklearn.py).
+The detaild code of using these three methods on Boston and Digits data can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/ml_basics_sklearn.py).
 
 ## Regression Methods from sklearn
 **sklearn** also provides many linear regression methods. Sample code can be found in the GitHub repository.
