@@ -14,7 +14,7 @@ This post introudce the mechanism of the food delivery system.
 ## The Basic Component of the Delivery
 Here we use a **batch** to describe the basic unit of the delivery process. In a batch, there are two phases: fetching phase and sending phase. As shown in Figure 1.
 <p align = "center">
-<img src="figures/delivery-batch.png"  alt="delivery batch">
+<img src="figures/delivery-batch.png"  alt="delivery batch"，width="600">
 </p>
 
 ### The Order State
@@ -33,7 +33,11 @@ The concept is shown in Figure 2.
 </p>
 
 
-A **first practical problem** is that we need to know when the rider is in fetching phase and when the rider is in sending phase.
+A **first practical problem** is that we need to know when the rider is in fetching phase and when the rider is in sending phase. We can cluster the order batch as the following figure fashion:
+<p align = "center">
+<img src="figures/batch-clustering.png"  alt="batch-clustering">
+</p>
+
 
 
 
