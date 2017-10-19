@@ -17,6 +17,8 @@ Know something about what they are doing in machine learning group
 
 ## Discussion with Professor
 10/19
+1. Fail to estimate time between restaurant and restaurant in the time map (rr edge), possiblely due to inaccurate raw data casued by inaccurate POI data. 
+2. Try to estimate cc edge.
 
 10/12
 1. The Introduction draft 1 is rejected by the professor. Indoor localization is no more a meaningful topic for MobiSys, we have to find another story.
