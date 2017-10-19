@@ -1,7 +1,9 @@
 Online Courses:
+
 [Deep Reinforcement Learning, Berkeley](http://rll.berkeley.edu/deeprlcourse/)
 
 PDFs
+
 [Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/bookdraft2017june19.pdf)
 
 TensorFlow: 
@@ -19,4 +21,4 @@ Hive SQL:
 [Hive Built-in Functions](https://docs.treasuredata.com/articles/hive-functions)
 (Cookbook for Hive Built-in Functions)
 
-[back](./)
+[Return to Homepage](./)
