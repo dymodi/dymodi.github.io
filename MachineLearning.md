@@ -8,6 +8,7 @@ date: June 5, 2017
 
 ## Basics
 [Machine Learning Basics](MLfolds/Machine-Learning-Basics)
+
 [Data Preprocessing](MLfolds/Data-Preprocessing)
 
 ## TensorFlow

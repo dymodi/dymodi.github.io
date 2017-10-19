@@ -57,4 +57,9 @@ ypred = myMethod.predict(Xtest)
 The detaild code of using these three methods on Boston and Digits data can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/ml_basics_sklearn.py).
 
 ## Regression Methods from sklearn
-**sklearn** also provides many linear regression methods. Sample code can be found in the GitHub repository.
+**sklearn** also provides many linear regression methods. Such as [Support Vector Regression (SVR)](http://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html)
+Sample code can be found in the GitHub repository.
+
+
+## Model Performance Evaluation
+[R-squared](http://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit) can be a good index to evaluate the accuracy of a regression model.

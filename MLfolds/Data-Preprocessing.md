@@ -11,4 +11,4 @@ In this post, we introduce the basic process of data preprocessing (or data clea
 ## Removing Outliers
 According to [WashU](http://www.cs.wustl.edu/~zhang/teaching/cs514/Spring11/Data-prep.pdf), clustering is a good method to detect the outliers in the dataset.
 According to a [paper](http://pmg.it.usyd.edu.au/outliers.pdf), k-means can be a practical clustering method.
-
+**sklearn** has provide the [KMeanas class](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) to achieve K-Means clustering quickly.
