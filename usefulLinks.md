@@ -1,5 +1,10 @@
-TensorFlow: 
+Online Courses:
+[Deep Reinforcement Learning, Berkeley](http://rll.berkeley.edu/deeprlcourse/)
 
+PDFs
+[Reinforcement Learning: An Introduction](http://incompleteideas.net/sutton/book/bookdraft2017june19.pdf)
+
+TensorFlow: 
 [Start Tutorial](https://www.tensorflow.org/get_started/get_started)
 
 SQL:
