@@ -30,3 +30,4 @@ hc_order.show()
 target_id_col = hc_raw_beacon.select("target_id")
 target_id_col.show()
 ```
+Note that due to storage mechanism, operations on RDD is not like that for other Python objects. So far as I know,  training phase is usually completed offline in Python but not online using Spark. Maybe I can have better idea on this when I learn more.
