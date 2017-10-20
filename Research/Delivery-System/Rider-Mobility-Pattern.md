@@ -7,5 +7,5 @@ author: Yi DING
 
 [comment]: # (This post introduce the rider's mobility pattern in the real world delivery system)
 
-A literature review can be found [here](Human-Mobility-Literature-Review-Yi-Ding.pdf)
+A literature review can be found [here](../Human-Mobility-Literature-Review-Yi-Ding.pdf)
 
