@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<head>
+  <title>Yi Homepage</title>
+</head>
+
 ## [Research topics](Research)
 I will introduce some of my research here.
 
