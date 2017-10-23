@@ -24,3 +24,4 @@ WT -> HR1 -> WR1 -> HR2 -> WR2 -> HC2 -> WC2 -> HR3 -> WR3 -> HC3 -> WC3 -> HC1 
 
 It is possible that the rider has multiple order tasks to fetch.
 
+The abstraction of R and C is good, we can draw some figures to have a look at the ride's event.
