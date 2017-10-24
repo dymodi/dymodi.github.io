@@ -19,8 +19,6 @@ layout: default
     {{ content }}
   </div>
 
-  {% include gpgc_comments.html post_title=page.title %}
-
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
