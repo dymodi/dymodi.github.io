@@ -15,9 +15,11 @@ author: Yi DING
 Long Term:
 Know something about what they are doing in machine learning group
 
-## Discussion with Professor
+
+## Progress Record
 10/24
 1. Is it possible to use Deep Reinforcement Learning in order dispatching?
+2. Rider's decision is related to both distance and order. We are building this relation.
 
 10/23
 1. Try use event table to extrace the single rider's travelling time between restaurants.
@@ -26,6 +28,13 @@ Know something about what they are doing in machine learning group
 10/19
 1. Fail to estimate time between restaurant and restaurant in the time map (rr edge), possiblely due to inaccurate raw data casued by inaccurate POI data. 
 2. Try to estimate cc edge.
+
+
+
+## Discussion with Professor
+10/25 (To Be Discussed)
+1. Deep Reinforcement Learning can be used in predicting rider's future bahavior.
+
 
 10/12
 1. The Introduction draft 1 is rejected by the professor. Indoor localization is no more a meaningful topic for MobiSys, we have to find another story.

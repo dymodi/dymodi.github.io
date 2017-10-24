@@ -11,5 +11,9 @@ date: June 5, 2017
 
 [Data Preprocessing](MLfolds/Data-Preprocessing)
 
+## Reinforcement Learning
+[Berkeley CS294-112 Course Note](MLfolds/Reinforcement-Learning-Basic-Facts)
+
+
 ## TensorFlow
 [Softmax on Digits Data with TensorFlow](MLfolds/2017-06-05-Softmax-on-Digits-Data-with-TensorFlow) 

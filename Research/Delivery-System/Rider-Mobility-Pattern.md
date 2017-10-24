@@ -11,7 +11,7 @@ A literature review on generic human mobility can be found [here](../Human-Mobil
 
 ## Rider's State
 Usually, a rider is in one of the following state:
-Waiting for an order Task, Heading to a Restaurant, Waiting at a Resaurant, Heading to a Customer, Waiting for a Customer
+Waiting for an order Task, Heading to a Restaurant, Waiting at a Resaurant, Heading to a Customer, Waiting for a Customer.
 
 Simple case (an order at a time): 
 WT -> HR -> WR -> HC -> WC -> WT -> ...
@@ -38,3 +38,7 @@ Some useful dataset
 When the rider make a decision (which R to go next, which C to go next, pick up meal first or send to customer first), there are many factors the rider might consider. Some factors around hand are: the distance to all the target restaurants(customers), the time constraints of orders under deliverying, competition with other riders.
 
 So, first we need to gather the data and information that a rider have when he/she makes a decision.
+
+## Order Exchange
+Order exchange can happen at any stage in delivery. A normal order state is : 20 -> 80 -> 30 -> 40.
+* Order exchange happened during 30 -> 40. (Rider A fetch, rider B send. A has state 20, 80, 30. B has state 30, 40) (Tracking id =  '3000007297179663078')
