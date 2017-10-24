@@ -34,7 +34,7 @@ Know something about what they are doing in machine learning group
 ## Discussion with Professor
 10/25 (To Be Discussed)
 1. Deep Reinforcement Learning can be used in predicting rider's future bahavior.
-
+2. New idea: Data Complement in Rider System. (Tackeling base data problem (missing value and unreliable value). Performance can be evaluated using standard ML algorithm.)(Data redundancy and data validation.)
 
 10/12
 1. The Introduction draft 1 is rejected by the professor. Indoor localization is no more a meaningful topic for MobiSys, we have to find another story.

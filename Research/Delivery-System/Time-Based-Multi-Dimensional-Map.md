@@ -1,5 +1,6 @@
 --- 
 layout: post
+comments: false
 title: Time-based Multi-Dimension Map
 date: Oct. 16, 2017
 author: Yi DING
@@ -66,3 +67,8 @@ Here we introduce the features of the vertices
 * Distance (km)
 * Hour
 * Weather
+
+#### Chanllenges in estimating RR edge
+1. Missing value (Floor number missing for many restaurants)
+2. Inaccurate POI information (Wrong latitude/longitude)
+3. Inaccurate labels (Wrong labels from riders)
