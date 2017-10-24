@@ -7,5 +7,5 @@ label_color: 666666
 github_application:
   client_id: Iv1.919fd82027aa77c7
   code_authenticator: https://my-comment-app.herokuapp.com/authenticate/
-  callback_url: http://dymodi.github.io/public/html/gpgc_redirect/index.html
+  callback_url: https://dymodi.github.io/public/html/gpgc_redirect/index.html
 enable_diagnostics: false
