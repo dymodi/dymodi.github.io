@@ -1,5 +1,6 @@
 --- 
 layout: post
+comments: true
 title: Basic Facts on Reinforcement Learning
 date: Oct. 20, 2017
 author: Yi DING
