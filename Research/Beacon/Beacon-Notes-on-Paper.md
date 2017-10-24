@@ -16,6 +16,13 @@ Long Term:
 Know something about what they are doing in machine learning group
 
 ## Discussion with Professor
+10/24
+1. Is it possible to use Deep Reinforcement Learning in order dispatching?
+
+10/23
+1. Try use event table to extrace the single rider's travelling time between restaurants.
+2. Use the data to do regression.
+
 10/19
 1. Fail to estimate time between restaurant and restaurant in the time map (rr edge), possiblely due to inaccurate raw data casued by inaccurate POI data. 
 2. Try to estimate cc edge.

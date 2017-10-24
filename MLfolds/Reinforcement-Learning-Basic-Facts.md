@@ -14,3 +14,15 @@ Reinforcement Learning (RL):
 
 Deep Learning:
 * Usually refers to multi-layer neural network.
+* Provide **end to end** learning (not manually pipeline).
+
+Characteristics:
+* No direct supervision
+* Actions have consequences
+* Attempting, try and gather errors.
+
+The reinforcement learning problem **is** the AI problem!
+
+When should we formulate the problem as a RL problem depends on whether we should worry abou the sequential decision making. Typical applications are: robotics, autonomous driving, language, business operations and finance.
+
+Rewards:

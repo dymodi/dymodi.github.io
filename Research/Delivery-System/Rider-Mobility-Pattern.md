@@ -25,3 +25,16 @@ WT -> HR1 -> WR1 -> HR2 -> WR2 -> HC2 -> WC2 -> HR3 -> WR3 -> HC3 -> WC3 -> HC1 
 It is possible that the rider has multiple order tasks to fetch.
 
 The abstraction of R and C is good, we can draw some figures to have a look at the ride's event.
+
+
+Some useful dataset
+
+|Date       |Rider      |Remark         |
+|---        |---        |---            |
+|10/22/17   |10125035   |Expected Case  |
+
+
+## Factors the rider consider when making decisions 
+When the rider make a decision (which R to go next, which C to go next, pick up meal first or send to customer first), there are many factors the rider might consider. Some factors around hand are: the distance to all the target restaurants(customers), the time constraints of orders under deliverying, competition with other riders.
+
+So, first we need to gather the data and information that a rider have when he/she makes a decision.
