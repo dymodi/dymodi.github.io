@@ -27,10 +27,15 @@ When should we formulate the problem as a RL problem depends on whether we shoul
 
 ##  (Lecture 2)
 Terminology & Notation:
+
 $$s_t$$ - state
+
 $$o_t$$ - observation
+
 $$a_t$$ - action
+
 $$\pi_\theta(a_t|o_t)$$ - policy
+
 $$\pi_\theta(a_t|s_t)$$ - policy (fully observed)
 
 
