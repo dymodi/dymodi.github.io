@@ -48,6 +48,18 @@ The system overview can be seen in the Figure 1.
 <img src="figures/system-overview-3.png"  alt="system overview">
 </p>
 
+Acutally, we should call it a space instead of a map. It is similar as a metric space in the sense that a distance function is defined. However the symmetry condition is obviously not met and we cannot prove triangle law. 
+
+The time-based map is a conceptual kernel and can be implemented with many ways: MDS, machine learning model such as rbf-svm or Deep NN. As long as the model's input is the event(vertex) and can output a metric is supported 
+
+### 3.1 Application
+Based on the time map, we can measure and estimate the time difference or time similarity between two places (events). Some applications can be:
+* Estimate delivery time by summing rider's estimated trip.
+* Dispatching based on rider's arrival time at next restaurant.
+* Rider behavior monitoring based on metric of his trace on the map and his reported trip.
+
+## 4 
+
 ##  Evaluation
 We can consider following indicators to evaluate the effectiveness of our methods and others' methods.
 
