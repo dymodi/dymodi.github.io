@@ -16,7 +16,12 @@ In traditional navigation system, the distance based map is used with latitude a
 ## Basic Idea
 The basci idea is, based on the data we have, we find some features and the time of the edge is the output. We use  logistic regression. The map is a graph.
 
-We care about two component: staying time and travelling time
+We care about two component: staying time and travelling time.
+
+A delivery batch can be shown in the following figure.
+<p align = "center">
+<img src="figures/delivery-batch-concept.png"  alt="delivery batch">
+</p>
 
 
 ## Vertices of the Graph

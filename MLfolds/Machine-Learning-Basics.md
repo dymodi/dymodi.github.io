@@ -63,3 +63,11 @@ Sample code can be found in the GitHub repository.
 
 ## Model Performance Evaluation
 [R-squared](http://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit) can be a good index to evaluate the accuracy of a regression model.
+
+Quantile-Quantile Plot
+
+gini，
+
+auc，
+
+aic
