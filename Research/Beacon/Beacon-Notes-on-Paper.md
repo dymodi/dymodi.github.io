@@ -7,8 +7,11 @@ author: Yi DING
 
 [comment]: # (This is the notes on the beacon paper)
 
+## Idea to be Discussed
+1. Deep Reinforcement Learning can be used in predicting rider's future bahavior.
+
 ## To Do List
-* Experiment on Beacon RSSI to distance relation
+* Articulate the uniqueness of time estimation in food delivery system.
 * Find some related work of POI correction.            (Almost Done)
 * Define a metric to measure the accuracy of the POI.  (Done) 
 
@@ -31,8 +34,16 @@ Know something about what they are doing in machine learning group
 
 
 ## Discussion with Professor
-10/25 (To Be Discussed)
-1. Deep Reinforcement Learning can be used in predicting rider's future bahavior.
+10/25 
+1. Focus on the Time-based Delivery Map. The system overview should be only on this part.
+2. Applications should only be discussed in the Introduction.
+3. Data Processing should be discussed in the Discussion part.
+4. Data Collection should be discussed in the Implementation part.
+5. Two main part: edge estimation, point estimation.
+6. Clarify challenges: spatial and temporal data missing and error. Spatial inconsistency can be corrected using POI correction. Temporal inconsistency can be corrected using other methods.
+7. POI correction must be included in this paper.
+8. We should articulate the difference with other time estimation methods.
+
 2. New idea: Data Complementing in Rider System. (Tackeling base data problem (missing value and unreliable value). Performance can be evaluated using standard ML algorithm.)(Data redundancy and data validation.)
 
 10/12
