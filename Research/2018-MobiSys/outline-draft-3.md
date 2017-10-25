@@ -43,7 +43,10 @@ A practical food delivery is a complex system with many constraints and objectiv
 
 
 ## 3 System Overview
-
+The system overview can be seen in the Figure 1.
+<p align = "center">
+<img src="figures/system-overview-3.png"  alt="system overview">
+</p>
 
 ##  Evaluation
 We can consider following indicators to evaluate the effectiveness of our methods and others' methods.

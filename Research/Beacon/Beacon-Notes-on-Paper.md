@@ -11,7 +11,13 @@ author: Yi DING
 1. Deep Reinforcement Learning can be used in predicting rider's future bahavior.
 
 ## To Do List
+* Form the new outline of the paper.
 * Articulate the uniqueness of time estimation in food delivery system.
+* Add some features to the edge estimation frame.
+* Find some indicators to check the performance of different feature combinations.
+* Come up with POI correction algorithm.
+* Articulate the time inconsistency problem.
+* Find a way to evaluate the effectiveness of the delivery time map.
 * Find some related work of POI correction.            (Almost Done)
 * Define a metric to measure the accuracy of the POI.  (Done) 
 
