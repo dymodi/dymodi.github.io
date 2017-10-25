@@ -76,5 +76,16 @@ Related data can be found in the table "dw_ai.dw_aly_t_model_4_3_feature_v5"
 
 ## 8 Related Work
 
+**Navigation with time map** is a topic that ... 
+[Time Map]
+
+**Time estimation for delivery task** has been studied in many literature.
+[FooDNet], [Some other papers from Crowd Delivery Related Work]
+
+**POI correction** is a similar topic as location estimation in the sensor network.
+[Some papers in POI Correction]
+
+
+
 ## 9 Conclusion
 
