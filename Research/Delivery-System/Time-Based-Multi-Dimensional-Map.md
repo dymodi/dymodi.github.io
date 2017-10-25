@@ -73,7 +73,18 @@ Here we introduce the features of the vertices
 * Hour
 * Weather
 
+### Performance
+A initial attempt trainning has the following performance:
+<p align = "center">
+<img src="figures/rr_edge_performance_1.png"  alt="delivery batch">
+</p>
+
 #### Chanllenges in estimating RR edge
 1. Missing value (Floor number missing for many restaurants)
 2. Inaccurate POI information (Wrong latitude/longitude)
 3. Inaccurate labels (Wrong labels from riders)
+
+The challegens can be illustrated in the following figure:
+<p align = "center">
+<img src="figures/rr_edge_challenges.png"  alt="delivery batch">
+</p>
