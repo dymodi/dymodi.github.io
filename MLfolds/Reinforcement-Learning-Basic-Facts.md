@@ -35,9 +35,9 @@ $$o_t$$ - observation
 
 $$a_t$$ - action
 
-$$\pi_\theta(a_t|o_t)$$ - policy
+$$\pi_\theta(a_t\|o_t)$$ - policy
 
-$$\pi_\theta(a_t|s_t)$$ - policy (fully observed)
+$$\pi_\theta(a_t\|s_t)$$ - policy (fully observed)
 
 
 **Comments:**
