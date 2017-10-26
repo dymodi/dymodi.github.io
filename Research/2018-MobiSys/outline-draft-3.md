@@ -61,10 +61,35 @@ Based on the time map, we can measure and estimate the time difference or time s
 ## 4 Multi-Dimensional Temporal Space for Delivery
 
 ## 5 Data Verification for Delivery
+In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
 
-### 5.1 Spatial Verification
+<p align = "center">
+<img src="figures/rr_edge_challenges.png"  alt="delivery batch">
+</p>
 
-### 5.2 Temporal Verification
+In processinhg the real world data, we find following problems in the datasets:
+
+1. Missing value (Floor number missing for many restaurants)
+2. Inaccurate POI information (Wrong latitude/longitude)
+3. Inaccurate labels (Wrong labels from riders)
+
+Before utilizing the data for modeling, we need to verify the data and remove or correct the wrong data. Thanks to the various data sources, same event is usually covered by multiple data reocords hence that redundency existis. Verification is possible due to data redundency. For example, The rider's arrival at a restaurant is recorded in the riders' behavior data and rider's trace data.
+
+The basic idea is to compare the rider's trace and event data with the typical rider mobility pattern. We first conduct restaurant-oriented data clustering and rider-oriented data clustering. Abnormal data is detected if the sample is rejected by the distribution.
+
+* Rider Mobility Pattern
+* Restaurant Event Pattern
+
+### 5.1 Spatial Verification (POI Correction)
+
+* Rider speed distribution
+* Rider trip length distribution
+
+### 5.2 Temporal Verification (Abnormal Trip Detection)
+
+* Waiting time distribution
+* Delivery time distribution
+
 
 ## 6 Application for Delivery
 
