@@ -12,3 +12,7 @@ date: June 9, 2017
 [Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon/Beacon-Filtering) 
 
 [A Industry Implementation of Beacon Localization](Research/Beacon/Beacon-Localization-Industry) 
+
+
+## Data Mining
+[Related Works of Data Inconsistency](Research/Data-Mining/Data-Inconsistency-Related-Works)
