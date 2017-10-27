@@ -59,8 +59,10 @@ Based on the time map, we can measure and estimate the time difference or time s
 * Rider behavior monitoring based on metric of his trace on the map and his reported trip.
 
 ## 4 Multi-Dimensional Temporal Space for Delivery
+Since new machine learning methods are coming out every day. We are not restrain ourselves in a fixed machine learning methods. Instead, we are offering some basic operation and interface, different ml algorithms that can fullfill the basic requirements can all be used in this space to estimate the delivery time.
 
-## 5 Data Verification for Delivery
+
+## 5 Data Inconsistency Detection and Correction for Delivery
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
 
 <p align = "center">
@@ -75,7 +77,7 @@ In processinhg the real world data, we find following problems in the datasets:
 
 Before utilizing the data for modeling, we need to verify the data consistency and remove or correct the wrong data. Thanks to the various data sources, same event is usually covered by multiple data reocords hence that redundency existis. Verification is possible due to data redundency. For example, The rider's arrival at a restaurant is recorded in the riders' behavior data and rider's trace data.
 
-Data inconsistency has been studied in many papers and some classical methods were proposed to detect and repair error data. CFD is the most important method in this field, other methods also includes Bayesian estimation and maximum likelihood. However, these methods cannot be use in the delivery system. CFD cannot be used because explicit semantic dependency is lacking in the system. Moreover, data inconsistency in delivery system tends to be quantitative instead of logical, hence manually defined funtional dependency cannot capture all the error data. 
+Data inconsistency has been studied in many papers and some classical methods were proposed to detect and repair error data. CFD is the most important method in this field, other methods also includes Bayesian estimation and maximum likelihood. However, these methods cannot be use in the delivery system. CFD cannot be used because explicit semantic dependency is lacking in the system. Moreover, data inconsistency in delivery system tends to be quantitative instead of logical, hence manually defined funtional dependency cannot capture all the error data. Moreover, existing methods usually based on a single relation table, while in our case, data are gather from different sources. Data inconsistency might happen during the data fusing process.
 
 In our method, we find the data inconsistency by first clustering the data to rider-related and restaurant-related. Then we compare the data with rider's mobility pattern and restaurant's operation pattern.
 
@@ -94,15 +96,23 @@ Rider's mobility pattern can be viewed as speical subset of generic human mobili
 * Rider outdoor speed distribution
 * Rider trip length distribution
 
+Indoor speed distribution can be built based on rider's indoor trace gathered from beacon data.
+
+Outdoor speed distibution can be built based on rider's outdoor trace gathered from GPS data.
+
+
+
 The following data error type is found:
 * Restaurant POI inaccuracy
 * Customer POI inaccuracy
 
 **Data Correction**
+Data correction can be achieved by minizing the residual error between the distances related the error data in the temporal space. That is, suppose the a restaurant has a error POI (lat and lon), the observe the distance related 
+
+$$ \underset{lat,lon}{\text{minimize}} \sum \abs{d_{observed}-d_{expected} $$
 
 
-
-### 5.2 Temporal Inconsistency(Abnormal Trip Detection)
+### 5.2 Temporal Inconsistency (Abnormal Trip Detection)
 **Rider Behavior Pattern**
 * Riders' Accepting time distribution
 
