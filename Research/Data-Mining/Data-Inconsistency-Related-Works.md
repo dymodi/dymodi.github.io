@@ -9,6 +9,8 @@ author: Yi DING
 
 In paper [1],  conditional functional dependencies (CFDs) is used to detect the errors in the data. The basic idea is that CFD makes some assertions on the data. The violations is detected by checking weather the data comply with  the CFD. For example, the CFD claims that in a dataset, if a employee is in country "UK" and city "London", then his/her salary should be higher than "1000", we then check this CFD on the dataset and find the violations.
 
+Paper [9] seems to be the first paper talking about CFD.
+
 In paper [2], a term is added to the commonly used Bayesian technique that represents the probabilistic estimate corresponding to the event that the data is not spurious conditioned upon the data and the true state.
 
 In paper [3], spatial inconsistency and temporal inconsistency is defined. CFD is also mentioned in this paper. However, this paper is not well written and organized.
@@ -48,3 +50,5 @@ Paper [8] provides another idea that inconsistency can be resolved through prefe
 [7] Zhang, A., Song, S., & Wang, J. (2016, June). Sequential data cleaning: a statistical approach. In Proceedings of the 2016 International Conference on Management of Data (pp. 909-924). ACM.
 
 [8] De Giacomo, G., Lembo, D., Lenzerini, M., & Rosati, R. (2004, June). Tackling inconsistencies in data integration through source preferences. In Proceedings of the 2004 international workshop on Information quality in information systems (pp. 27-34). ACM.
+
+[9] Bohannon, P., Fan, W., Geerts, F., Jia, X., & Kementsietsidis, A. (2007, April). Conditional functional dependencies for data cleaning. In Data Engineering, 2007. ICDE 2007. IEEE 23rd International Conference on (pp. 746-755). IEEE.
