@@ -73,22 +73,43 @@ In processinhg the real world data, we find following problems in the datasets:
 2. Inaccurate POI information (Wrong latitude/longitude)
 3. Inaccurate labels (Wrong labels from riders)
 
-Before utilizing the data for modeling, we need to verify the data and remove or correct the wrong data. Thanks to the various data sources, same event is usually covered by multiple data reocords hence that redundency existis. Verification is possible due to data redundency. For example, The rider's arrival at a restaurant is recorded in the riders' behavior data and rider's trace data.
+Before utilizing the data for modeling, we need to verify the data consistency and remove or correct the wrong data. Thanks to the various data sources, same event is usually covered by multiple data reocords hence that redundency existis. Verification is possible due to data redundency. For example, The rider's arrival at a restaurant is recorded in the riders' behavior data and rider's trace data.
+
+Data inconsistency has been studied in many papers and some classical methods were proposed to detect and repair error data. CFD is the most important method in this field, other methods also includes Bayesian estimation and maximum likelihood. However, these methods cannot be use in the delivery system. CFD cannot be used because explicit semantic dependency is lacking in the system. Moreover, data inconsistency in delivery system tends to be quantitative instead of logical, hence manually defined funtional dependency cannot capture all the error data. 
+
+In our method, we find the data inconsistency by first clustering the data to rider-related and restaurant-related. Then we compare the data with rider's mobility pattern and restaurant's operation pattern.
 
 The basic idea is to compare the rider's trace and event data with the typical rider mobility pattern. We first conduct restaurant-oriented data clustering and rider-oriented data clustering. Abnormal data is detected if the sample is rejected by the distribution.
 
 * Rider Mobility Pattern
 * Restaurant Event Pattern
 
-### 5.1 Spatial Verification (POI Correction)
+### 5.1 Spatial Inconsistency (POI Correction)
+Spatial Inconsistency is detected via compare the each single rider's trace data with rider mobility pattern built from massive rider trace data.
 
-* Rider speed distribution
+**Rider Mobility Pattern**
+
+Rider's mobility pattern can be viewed as speical subset of generic human mobiliy pattern [][]. For the rider's mobility pattern, we focus on the following two distributions:
+* Rider indoor speed distribution
+* Rider outdoor speed distribution
 * Rider trip length distribution
 
-### 5.2 Temporal Verification (Abnormal Trip Detection)
+The following data error type is found:
+* Restaurant POI inaccuracy
+* Customer POI inaccuracy
 
+**Data Correction**
+
+
+
+### 5.2 Temporal Inconsistency(Abnormal Trip Detection)
+**Rider Behavior Pattern**
+* Riders' Accepting time distribution
+
+**Restaurant Behavior Pattern**
 * Waiting time distribution
-* Delivery time distribution
+* Restaurant Delivery time distribution
+
 
 
 ## 6 Application for Delivery
