@@ -64,7 +64,7 @@ Based on the time map, we can measure and estimate the time difference or time s
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
 
 <p align = "center">
-<img src="figures/rr_edge_challenges.png"  alt="delivery batch">
+<img src="../Delivery-System/figures/rr_edge_challenges.png"  alt="delivery batch">
 </p>
 
 In processinhg the real world data, we find following problems in the datasets:
