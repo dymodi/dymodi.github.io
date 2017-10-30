@@ -75,25 +75,28 @@ The $basic assumption$ is that the time needed to travel between to places is de
 
 Dimensions(Features)
 
-|Name           |Symbol     |Type           |Code value |Description                |
-|---            |---        |---            |---        |---                        |
-|Position Type  |$\alpha$   |$\mathbb{N}$   |0,1        |0:restaurant; 1:customer   |
-|Latitude       |$lat$      |$\mathbb{R}$   |--         |The latitude of the place  |
-|Longitude      |$lon$      |$\mathbb{R}$   |--         |The longitude of the place |
-|
-
+|Name           |Symbol     |Type           |Code value |Description                            |
+|---            |---        |---            |---        |---                                    |
+|Position Type  |$\tau$     |$\mathbb{N}$   |0,1        |0:restaurant; 1:customer               |
+|Latitude       |$lat$      |$\mathbb{R}$   |--         |The latitude of the place              |
+|Longitude      |$lon$      |$\mathbb{R}$   |--         |The longitude of the place             |
+|Floor          |$flr$      |$\mathbb{N}$   |--         |The floor of the place                 |
+|Weather        |$wth$      |$\mathbb{N}$   |0,1,...,5  |The weather. 0: sunny; 1: cloudy; etc. |
+|Month of Year  |$mon$      |$\mathbb{N}$   |1,2,...,12 |The month in the year                  |
+|Day of Week    |$day$      |$\mathbb{N}$   |1,2,...,7  |The day in the week                    |
 
 
 
 **Position**: an element $p \in M$, or a point in the temporal delivery space.
+
 **Event**: an ordered pair $s, d$ where $s \in M, d \in M$. Here $s$ is the source position, $d$ is the destination position.
 
 For any event, we can compute the time it needed.
 
 Although theoretically we can compute the time needed for any event, some event has no physical meanings such as  the time needed from a resutaurant on "a winter, Tuesday, sunny day" to a restauant on a "summer, Friday, rainy day". We summarize some typical events as following:
 
-**
-
+*Picking*: $\tau_{d} = 0$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
+*Deliverying*: $\tau_{d} = 1$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
 
 ### 4.2 Time estimation
 
