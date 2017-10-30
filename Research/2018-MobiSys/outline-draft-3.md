@@ -71,7 +71,7 @@ Also note that temporal delivery space is not a metric space since symmetry ($d(
 
 The $basic assumption$ is that the time needed to travel between to places is determined and only determined by the related factors such as lat/lon, floor, weather.
 
-### 4.1 Dimension selection
+### 4.1 Dimension selection (Feature selection)
 
 Dimensions(Features)
 
@@ -87,18 +87,27 @@ Dimensions(Features)
 
 
 
+
+
 **Position**: an element $p \in M$, or a point in the temporal delivery space.
 
-**Event**: an ordered pair $s, d$ where $s \in M, d \in M$. Here $s$ is the source position, $d$ is the destination position.
+**Event**: an ordered pair $(s, d)$ where $s \in M, d \in M$. Here $s$ is the source position, $d$ is the destination position.
 
 For any event, we can compute the time it needed.
 
 Although theoretically we can compute the time needed for any event, some event has no physical meanings such as  the time needed from a resutaurant on "a winter, Tuesday, sunny day" to a restauant on a "summer, Friday, rainy day". We summarize some typical events as following:
 
 *Picking*: $\tau_{d} = 0$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
+
 *Deliverying*: $\tau_{d} = 1$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
 
+
+
 ### 4.2 Time estimation
+After the features are determined, the time estimation can be implemented in many ways. 
+Such as, RBF SVM.
+
+
 
 ## 5 Data Inconsistency Detection and Correction for Delivery
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
