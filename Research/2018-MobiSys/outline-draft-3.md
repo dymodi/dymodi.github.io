@@ -58,9 +58,20 @@ Based on the time map, we can measure and estimate the time difference or time s
 * Dispatching based on rider's arrival time at next restaurant.
 * Rider behavior monitoring based on metric of his trace on the map and his reported trip.
 
-## 4 Multi-Dimensional Temporal Space for Delivery
+## 4 Multi-Dimensional Temporal Delivery Space
 Since new machine learning methods are coming out every day. We are not restrain ourselves in a fixed machine learning methods. Instead, we are offering some basic operation and interface, different ml algorithms that can fullfill the basic requirements can all be used in this space to estimate the delivery time.
 
+Similar as metric space, temporal delivery space is an ordered pari $(M,t)$ where $M$ is a set and $t$ is a metric on $M$, i.e., a function. 
+
+$$t: M \times M \to \mathbb{R}$$
+
+Specifically, $t$ measures the time needed to travel from a point to another point in the delivery space. Note that the point in the delivery is not necessary a place, since we have more dimensions besides latitude and longtitude. Floor, weather, rush hour/non-rush hour can also be dimensions to describe a point in the delivery space. The dimension selection will be introduce int the **4.1** section, which is more or less similar like feature engineering in machine learning. the function $t$ will be discussed in the **4.2** section. 
+
+Also note that temporal delivery space is not a metric space since symmetry ($d(x,y) = d(y,x)$) does not holds. Consider a simple case measure the time need between to two shops where one shop is in the first floor and the other in the 5th floor. If there is no elevator and the rider has to use the stairs, it can be expected that the time needed to go from 5th floor is less than that needed to go from first floor to 5th floor.
+
+### 4.1 Dimension selection
+
+### 4.2 
 
 ## 5 Data Inconsistency Detection and Correction for Delivery
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
