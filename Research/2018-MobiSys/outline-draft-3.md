@@ -69,9 +69,33 @@ Specifically, $t$ measures the time needed to travel from a point to another poi
 
 Also note that temporal delivery space is not a metric space since symmetry ($d(x,y) = d(y,x)$) does not holds. Consider a simple case measure the time need between to two shops where one shop is in the first floor and the other in the 5th floor. If there is no elevator and the rider has to use the stairs, it can be expected that the time needed to go from 5th floor is less than that needed to go from first floor to 5th floor.
 
+The $basic assumption$ is that the time needed to travel between to places is determined and only determined by the related factors such as lat/lon, floor, weather.
+
 ### 4.1 Dimension selection
 
-### 4.2 
+Dimensions(Features)
+
+|Name           |Symbol     |Type           |Code value |Description                |
+|---            |---        |---            |---        |---                        |
+|Position Type  |$\alpha$   |$\mathbb{N}$   |0,1        |0:restaurant; 1:customer   |
+|Latitude       |$lat$      |$\mathbb{R}$   |--         |The latitude of the place  |
+|Longitude      |$lon$      |$\mathbb{R}$   |--         |The longitude of the place |
+|
+
+
+
+
+**Position**: an element $p \in M$, or a point in the temporal delivery space.
+**Event**: an ordered pair $s, d$ where $s \in M, d \in M$. Here $s$ is the source position, $d$ is the destination position.
+
+For any event, we can compute the time it needed.
+
+Although theoretically we can compute the time needed for any event, some event has no physical meanings such as  the time needed from a resutaurant on "a winter, Tuesday, sunny day" to a restauant on a "summer, Friday, rainy day". We summarize some typical events as following:
+
+**
+
+
+### 4.2 Time estimation
 
 ## 5 Data Inconsistency Detection and Correction for Delivery
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
