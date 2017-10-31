@@ -103,15 +103,15 @@ For delivery system, the data is organized order by order, for each order, the f
 
 Although theoretically we can compute the time needed for any event, some event has no physical meanings such as  the time needed from a resutaurant on "a winter, Tuesday, sunny day" to a restauant on a "summer, Friday, rainy day". We summarize some typical events as following:
 
-*Staying*: $address_{s} = address_{d}$
+*Staying*: $postition_{s} = position_{d}$
 
 *Picking*: $\tau_{d} = 0$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
 
 *Sending*: $\tau_{d} = 1$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
 
-Specifically, for an order from Restaurant $r$ to Customer $c$ at time $t$, we care about the following delivery event:
+Specifically, for an order from Restaurant $r$ to Customer $c$ at time $T$, we care about the following delivery event:
 
-*Delivering*: $\tau_{s} = 0$, $\tau_{d} = 1$, $address_{s} = r$, $address_{d} = c$,  $time slot_{s} = time slot_{d} = order time$
+*Delivering*: $\tau_{s} = 0$, $\tau_{d} = 1$, $address_{s} = r$, $address_{d} = c$,  $time slot_{s} = time slot_{d} = T$
 
 The typical events are illustrated in the following figure:
 <p align = "center">
@@ -147,7 +147,11 @@ The basic idea is to compare the rider's trace and event data with the typical r
 * Rider Mobility Pattern
 * Restaurant Event Pattern
 
-### 5.1 Spatial Inconsistency (POI Correction)
+The data inconsistency in the data can be detected by finding out the abnormal events. The abnormal event $\xi$ is defined as follows:
+$$\left| \tilde t(\xi) \right|$$
+
+
+### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
 Spatial Inconsistency is detected via compare the each single rider's trace data with rider mobility pattern built from massive rider trace data.
 
 **Rider Mobility Pattern**
@@ -173,7 +177,7 @@ Data correction can be achieved by minizing the residual error between the dista
 $$ \underset{lat,lon}{\text{minimize}} \sum \lvert d_{observed}-d_{expected} \rvert $$
 
 
-### 5.2 Temporal Inconsistency (Abnormal Trip Detection)
+### 5.2 Temporal Inconsistency (Rider Fraud) (Clustering by rider)
 **Rider Behavior Pattern**
 * Riders' Accepting time distribution
 
