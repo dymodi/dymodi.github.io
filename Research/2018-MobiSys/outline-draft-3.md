@@ -103,6 +103,8 @@ For delivery system, the data is organized order by order, for each order, the f
 
 Although theoretically we can compute the time needed for any event, some event has no physical meanings such as  the time needed from a resutaurant on "a winter, Tuesday, sunny day" to a restauant on a "summer, Friday, rainy day". We summarize some typical events as following:
 
+*Staying*: $address_{s} = address_{d}$
+
 *Picking*: $\tau_{d} = 0$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
 
 *Sending*: $\tau_{d} = 1$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
@@ -111,10 +113,14 @@ Specifically, for an order from Restaurant $r$ to Customer $c$ at time $t$, we c
 
 *Delivering*: $\tau_{s} = 0$, $\tau_{d} = 1$, $address_{s} = r$, $address_{d} = c$,  $time slot_{s} = time slot_{d} = order time$
 
+The typical events are illustrated in the following figure:
+<p align = "center">
+<img src="figures/typical-events.png"  alt="typical events">
+</p>
+
 ### 4.2 Time estimation
 After the features are determined, the time estimation can be implemented in many ways. 
 Such as, RBF SVM.
-
 
 
 ## 5 Data Inconsistency Detection and Correction for Delivery
