@@ -61,7 +61,7 @@ Based on the time map, we can measure and estimate the time difference or time s
 ## 4 Multi-Dimensional Temporal Delivery Space
 Since new machine learning methods are coming out every day. We are not restrain ourselves in a fixed machine learning methods. Instead, we are offering some basic operation and interface, different ml algorithms that can fullfill the basic requirements can all be used in this space to estimate the delivery time.
 
-Similar as metric space, temporal delivery space is an ordered pari $(M,t)$ where $M$ is a set and $t$ is a metric on $M$, i.e., a function. 
+Similar as metric space, temporal delivery space is an ordered pair $(M,t)$ where $M$ is a set and $t$ is a metric on $M$, i.e., a function. 
 
 $$t: M \times M \to \mathbb{R}$$
 
@@ -95,6 +95,7 @@ Dimensions(Features)
 For any event, we can compute the time it needed.
 
 For delivery system, the data is organized order by order, for each order, the following information is maitained:
+
 |Field          |Description                        |
 |---            |---                                |
 |Order ID       |Unique ID for tracking the order   |
