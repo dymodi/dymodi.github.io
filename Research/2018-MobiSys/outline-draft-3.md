@@ -81,10 +81,9 @@ Dimensions(Features)
 |Latitude       |$lat$      |$\mathbb{R}$   |--         |The latitude of the place              |
 |Longitude      |$lon$      |$\mathbb{R}$   |--         |The longitude of the place             |
 |Floor          |$flr$      |$\mathbb{N}$   |--         |The floor of the place                 |
-|Weather        |$wth$      |$\mathbb{N}$   |0,1,...,5  |The weather. 0: sunny; 1: cloudy; etc. |
 |Month of Year  |$mon$      |$\mathbb{N}$   |1,2,...,12 |The month in the year                  |
 |Day of Week    |$day$      |$\mathbb{N}$   |1,2,...,7  |The day in the week                    |
-
+|Weather        |$wth$      |$\mathbb{N}$   |0,1,...,5  |The weather. 0: sunny; 1: cloudy; etc. |
 
 
 
@@ -95,13 +94,22 @@ Dimensions(Features)
 
 For any event, we can compute the time it needed.
 
+For delivery system, the data is organized order by order, for each order, the following information is maitained:
+|Field          |Description                        |
+|---            |---                                |
+|Order ID       |Unique ID for tracking the order   |
+|Rider ID       |The rider who deliver the order    |
+|Restaurant ID  |The restaurant that make the meal  |
+|Customer ID    |The customer who make the order    |
+|Order time     |The date and time the order is make|
+
 Although theoretically we can compute the time needed for any event, some event has no physical meanings such as  the time needed from a resutaurant on "a winter, Tuesday, sunny day" to a restauant on a "summer, Friday, rainy day". We summarize some typical events as following:
 
 *Picking*: $\tau_{d} = 0$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
 
-*Deliverying*: $\tau_{d} = 1$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
+*Sending*: $\tau_{d} = 1$, $mon_{s}=mon_{d}$, $day_{s}=day_{d}$
 
-
+*Delivering*: $\tau_{s} = 0$, $\tau_{d} = 1$, 
 
 ### 4.2 Time estimation
 After the features are determined, the time estimation can be implemented in many ways. 
