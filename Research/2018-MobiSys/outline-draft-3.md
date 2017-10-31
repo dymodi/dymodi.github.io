@@ -176,7 +176,7 @@ The following data error type is found:
 **Data Correction**
 Data correction can be achieved by minizing the residual error between the distances related the error data in the temporal space. That is, suppose the a restaurant has a error POI (lat and lon), the observe the distance related 
 
-$$ \underset{lat,lon}{\text{minimize}} \sum \lvert d_{observed}-d_{expected} \rvert $$
+$$ \underset{lat,lon}{\text{minimize}} \sum \left| t_{observed}-t_{expected} \right| $$
 
 
 ### 5.2 Temporal Inconsistency (Rider Fraud) (Clustering by rider)
