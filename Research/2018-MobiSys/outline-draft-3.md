@@ -148,8 +148,10 @@ The basic idea is to compare the rider's trace and event data with the typical r
 * Restaurant Event Pattern
 
 The data inconsistency in the data can be detected by finding out the abnormal events. The abnormal event $\xi$ is defined as follows:
-$$\left| \tilde t(\xi) \right|$$
 
+$$\left| \tilde t(\xi) - \hat t(\xi) \right| > \epsilon(\xi)$$
+
+where $\tilde t(e)$ is the observed time for event $e$. $\hat t(e)$ is the estimated time for event $e$ based on empirical distance function $t$. 
 
 ### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
 Spatial Inconsistency is detected via compare the each single rider's trace data with rider mobility pattern built from massive rider trace data.
