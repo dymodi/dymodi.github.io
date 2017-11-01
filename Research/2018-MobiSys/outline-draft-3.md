@@ -133,10 +133,10 @@ A intial result for picking arc time estimation is:
 </p>
 
 If we evaluate the performance using the following definition:
-$$accuracy = \frac{\left| t_{predict} - t_{measure} \right < t_{threshold}|}{total number}$$
+$$accuracy = \frac{\left| t_{predict} - t_{measure} \right| < t_{threshold}}{# total}$$
 then we have:
 
-|$t_{threshold$ |1 minutes  |2 minutes  |3 minutes  |
+|$t_{threshold}$|1 minutes  |2 minutes  |3 minutes  |
 |---            |---        |---        |---        |
 |accuracy       |0.61       |0.92       |1          |
 
