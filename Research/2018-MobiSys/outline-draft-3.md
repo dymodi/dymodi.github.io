@@ -48,9 +48,7 @@ The system overview can be seen in the Figure 1.
 <img src="figures/system-overview-3.png"  alt="system overview">
 </p>
 
-Acutally, we should call it a space instead of a map. It is similar as a metric space in the sense that a distance function is defined. However the symmetry condition is obviously not met and we cannot prove triangle law. 
-
-The time-based map is a conceptual kernel and can be implemented with many ways: MDS, machine learning model such as rbf-svm or Deep NN. As long as the model's input is the event(vertex) and can output a metric is supported 
+The multi-dimensional delivery graph is a conceptual kernel and can be implemented with many ways: MDS, machine learning model such as rbf-svm or Deep NN. As long as the model's input is the arc and can output a estimated time is supported 
 
 ### 3.1 Application
 Based on the time map, we can measure and estimate the time difference or time similarity between two places (events). Some applications can be:
@@ -62,12 +60,19 @@ Based on the time map, we can measure and estimate the time difference or time s
 Since new machine learning methods are coming out every day. We are not restrain ourselves in a fixed machine learning methods. Instead, we are offering some basic operation and interface, different ml algorithms that can fullfill the basic requirements can all be used in this space to estimate the delivery time.
 
 <!--- This is an old version defining space ---
+Acutally, we should call it a space instead of a map. It is similar as a metric space in the sense that a distance function is defined. However the symmetry condition is obviously not met and we cannot prove triangle law. 
 Similar as metric space, temporal delivery space is an ordered pair $(M,t)$ where $M$ is a set and $t$ is a metric on $M$, i.e., a function.) 
 $$t: M \times M \to \mathbb{R}$$
 Also note that temporal delivery space is not a metric space since symmetry ($d(x,y) = d(y,x)$) does not holds. Consider a simple case measure the time need between to two shops where one shop is in the first floor and the other in the 5th floor. If there is no elevator and the rider has to use the stairs, it can be expected that the time needed to go from 5th floor is less than that needed to go from first floor to 5th floor.
 -->
 
 Multi-Dimensional Delivery Graph is a tuple $(V,A,\tau)$ where $V$ is a the vertices set (including restaurants and customers), $A$ is the arc set, function $\tau: E \to \mathbb R$ is the time function. 
+
+**Vertex**: an element $p \in M$, or a point in the temporal delivery space.
+
+**Arc**: an ordered pair $(s, d)$ where $s \in M, d \in M$. Here $s$ is the source position, $d$ is the destination position.
+
+**Time function**： the time needed for the arc $(s,d)$
 
 Specifically, $\tau$ measures the time needed to travel from a point to another point in the delivery space. Note that the point in the delivery is not necessary a place, since we have more dimensions besides latitude and longtitude. Floor, weather, rush hour/non-rush hour can also be dimensions to describe a point in the delivery space. The dimension selection will be introduce int the **4.1** section, which is more or less similar like feature engineering in machine learning. the function $\tau$ will be discussed in the **4.2** section. 
 
@@ -92,14 +97,6 @@ Arc set features:
 |Day of Week    |$day$      |$\mathbb{N}$   |1,2,...,7  |The day in the week                    |
 |Weather        |$wth$      |$\mathbb{N}$   |0,1,...,5  |The weather. 0: sunny; 1: cloudy; etc. |
 |Distance       |$dst$      |$\mathbb{R}$   |--         |The physical distance from $s$ to $d$  |
-
-**Vertex**: an element $p \in M$, or a point in the temporal delivery space.
-
-**Arc**: an ordered pair $(s, d)$ where $s \in M, d \in M$. Here $s$ is the source position, $d$ is the destination position.
-
-**Time function**： the time needed for the arc $(s,d)$
-
-For any event, we can compute the time it needed.
 
 For delivery system, the data is organized order by order, for each order, the following information is maitained:
 
