@@ -64,19 +64,19 @@ Since new machine learning methods are coming out every day. We are not restrain
 <!--- This is an old version defining space ---
 Similar as metric space, temporal delivery space is an ordered pair $(M,t)$ where $M$ is a set and $t$ is a metric on $M$, i.e., a function.) 
 $$t: M \times M \to \mathbb{R}$$
+Also note that temporal delivery space is not a metric space since symmetry ($d(x,y) = d(y,x)$) does not holds. Consider a simple case measure the time need between to two shops where one shop is in the first floor and the other in the 5th floor. If there is no elevator and the rider has to use the stairs, it can be expected that the time needed to go from 5th floor is less than that needed to go from first floor to 5th floor.
 -->
 
 Multi-Dimensional Delivery Graph is a tuple $(V,A,\tau)$ where $V$ is a the vertices set (including restaurants and customers), $A$ is the arc set, function $\tau: E \to \mathbb R$ is the time function. 
 
-Specifically, $t$ measures the time needed to travel from a point to another point in the delivery space. Note that the point in the delivery is not necessary a place, since we have more dimensions besides latitude and longtitude. Floor, weather, rush hour/non-rush hour can also be dimensions to describe a point in the delivery space. The dimension selection will be introduce int the **4.1** section, which is more or less similar like feature engineering in machine learning. the function $t$ will be discussed in the **4.2** section. 
-
-Also note that temporal delivery space is not a metric space since symmetry ($d(x,y) = d(y,x)$) does not holds. Consider a simple case measure the time need between to two shops where one shop is in the first floor and the other in the 5th floor. If there is no elevator and the rider has to use the stairs, it can be expected that the time needed to go from 5th floor is less than that needed to go from first floor to 5th floor.
+Specifically, $\tau$ measures the time needed to travel from a point to another point in the delivery space. Note that the point in the delivery is not necessary a place, since we have more dimensions besides latitude and longtitude. Floor, weather, rush hour/non-rush hour can also be dimensions to describe a point in the delivery space. The dimension selection will be introduce int the **4.1** section, which is more or less similar like feature engineering in machine learning. the function $\tau$ will be discussed in the **4.2** section. 
 
 The $basic assumption$ is that the time needed to travel between to places is determined and only determined by the related factors such as lat/lon, floor, weather.
 
 ### 4.1 Dimension selection (Feature selection)
 
 Vertices set features:
+
 |Name           |Symbol     |Type           |Code value |Description                            |
 |---            |---        |---            |---        |---                                    |
 |Position Type  |$typ$      |$\mathbb{N}$   |0,1        |0:restaurant; 1:customer               |
@@ -85,6 +85,7 @@ Vertices set features:
 |Floor          |$flr$      |$\mathbb{N}$   |--         |The floor of the place                 |
 
 Arc set features:
+
 |Name           |Symbol     |Type           |Code value |Description                            |
 |---            |---        |---            |---        |---                                    |
 |Month of Year  |$mon$      |$\mathbb{N}$   |1,2,...,12 |The month in the year                  |
@@ -158,7 +159,7 @@ The data inconsistency in the data can be detected by finding out the abnormal e
 
 $$\left| \tilde \tau(\xi) - \hat \tau(\xi) \right| > \epsilon(\xi)$$
 
-where $\tilde t(e)$ is the observed time for event $e$. $\hat t(e)$ is the estimated time for event $e$ based on empirical distance function $t$. 
+where $\tilde \tau(e)$ is the observed time for event $e$. $\hat \tau(e)$ is the estimated time for event $e$ based on empirical distance function $\tau$. 
 
 ### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
 Spatial Inconsistency is detected via compare the each single rider's trace data with rider mobility pattern built from massive rider trace data.
