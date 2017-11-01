@@ -68,15 +68,15 @@ Also note that temporal delivery space is not a metric space since symmetry ($d(
 
 Multi-Dimensional Delivery Graph is a tuple $(V,A,\tau)$ where $V$ is a the vertices set (including restaurants and customers), $A$ is the arc set, function $\tau: E \to \mathbb R$ is the time function. 
 
-**Vertex**: an element $p \in M$, or a point in the temporal delivery space.
+**Vertex**: an element $p \in V$, or a point in the temporal delivery space.
 
-**Arc**: an ordered pair $(s, d)$ where $s \in M, d \in M$. Here $s$ is the source position, $d$ is the destination position.
+**Arc**: an ordered pair $(s, d) \in A$ where $s \in V, d \in V$. Here $s$ is the source position, $d$ is the destination position.
 
-**Time function**： the time needed for the arc $(s,d)$
+**Time function**：$\tau(s,d)$ the time needed for the arc $(s,d)$
 
 Specifically, $\tau$ measures the time needed to travel from a point to another point in the delivery space. Note that the point in the delivery is not necessary a place, since we have more dimensions besides latitude and longtitude. Floor, weather, rush hour/non-rush hour can also be dimensions to describe a point in the delivery space. The dimension selection will be introduce int the **4.1** section, which is more or less similar like feature engineering in machine learning. the function $\tau$ will be discussed in the **4.2** section. 
 
-The $basic assumption$ is that the time needed to travel between to places is determined and only determined by the related factors such as lat/lon, floor, weather.
+The *basic assumption* is that the time needed to travel between to places is determined and only determined by the related factors such as lat/lon, floor, weather.
 
 ### 4.1 Dimension selection (Feature selection)
 
@@ -126,7 +126,10 @@ The typical arcs are illustrated in the following figure:
 ### 4.2 Time estimation
 After the features are determined, the time estimation can be implemented in many ways. 
 Such as, RBF SVM.
-
+A intial result for picking arc time estimation is:
+<p align = "center">
+<img src="figures/rr_result_1.png"  alt="picking arc">
+</p>
 
 ## 5 Data Inconsistency Detection and Correction for Delivery
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
