@@ -172,7 +172,7 @@ In our method, we find the spatial and temporal data inconsistency by first clus
 ### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
 Spatial inconsistency is detected by clustering the data by vertices in the delivery graph, since each vertex represents a spatial location. 
 
-**Compare with \hat \tau(s,d)**
+**Compare with $\hat \tau(s,d)$**
 
 The abnormal event $(s,d)$ is defined as follows:
 
