@@ -167,16 +167,16 @@ Before utilizing the data for modeling, we need to verify the data consistency a
 
 Data inconsistency has been studied in many papers and some classical methods were proposed to detect and repair error data. CFD is the most important method in this field, other methods also includes Bayesian estimation and maximum likelihood. However, these methods cannot be use in the delivery system. CFD cannot be used because explicit semantic dependency is lacking in the system. Moreover, data inconsistency in delivery system tends to be quantitative instead of logical, hence manually defined funtional dependency cannot capture all the error data. Moreover, existing methods usually based on a single relation table, while in our case, data are gather from different sources. Data inconsistency might happen during the data fusing process.
 
-In our method, we find the data inconsistency by first clustering the data to by restaurant or by rider. Then we 
-compare the observed data with expected output or with rider's mobility pattern and restaurant's operation pattern.
+In our method, we find the spatial and temporal data inconsistency by first clustering the data to by restaurant or by rider. Then we find the problematic entries by comparing the observed data with expected output or empirical patterns.
  
-
 ### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
 Spatial inconsistency is detected by clustering the data by vertices in the delivery graph, since each vertex represents a spatial location. The abnormal event $(s,d)$ is defined as follows:
 
 $$\left| \tilde \tau(s,d) - \hat \tau(s,d) \right| > \epsilon(s,d)$$
 
-where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$, $\hat \tau(s,d)$ is the estimated time for event $(s,d)$ based on empirical distance function $\tau$.
+where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$, $\hat \tau(s,d)$ is the estimated time for event $(s,d)$ based on empirical distance function $\tau$. $\epsilon(s,d)$ is the tolerance function determining the threshold for detecting abnormal event.
+
+$\epsilon(s,d)$ can be defined as follows: suppose $\tau(s,d)$ follows a nomral distribution $mathcal N(\mu,\sigma)$. 
 
 **Restaurant Behavior Pattern**
 * Waiting time distribution
@@ -207,9 +207,6 @@ Outdoor speed distibution can be built based on rider's outdoor trace gathered f
 
 **Rider Behavior Pattern**
 * Riders' Accepting time distribution
-
-
-
 
 
 ## 6 Application for Delivery
