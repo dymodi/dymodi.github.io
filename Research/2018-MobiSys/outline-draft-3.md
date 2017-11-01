@@ -126,10 +126,19 @@ The typical arcs are illustrated in the following figure:
 ### 4.2 Time estimation
 After the features are determined, the time estimation can be implemented in many ways. 
 Such as, RBF SVM.
+
 A intial result for picking arc time estimation is:
 <p align = "center">
 <img src="figures/rr_result_1.png"  alt="picking arc">
 </p>
+
+If we evaluate the performance using the following definition:
+$$accuracy = \frac{\left| t_{predict} - t_{measure} \right < t_{threshold}|}{total number}$$
+then we have:
+
+|$t_{threshold$ |1 minutes  |2 minutes  |3 minutes  |
+|---            |---        |---        |---        |
+|accuracy       |0.61       |0.92       |1          |
 
 ## 5 Data Inconsistency Detection and Correction for Delivery
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
