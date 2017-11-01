@@ -142,9 +142,6 @@ then we have:
 |---            |---        |---        |---        |
 |$accuracy$     |0.61       |0.92       |1          |
 
-
-
-
 ## 5 Data Inconsistency Detection and Correction for Delivery
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
 
@@ -169,9 +166,9 @@ The basic idea is to compare the rider's trace and event data with the typical r
 * Rider Mobility Pattern
 * Restaurant Event Pattern
 
-The data inconsistency in the data can be detected by finding out the abnormal events. The abnormal event $\xi$ is defined as follows:
+The data inconsistency in the data can be detected by finding out the abnormal events. The abnormal event $(s,d)$ is defined as follows:
 
-$$\left| \tilde \tau(\xi) - \hat \tau(\xi) \right| > \epsilon(\xi)$$
+$$\left| \tilde \tau(s,d) - \hat \tau(s,d) \right| > \epsilon(\xi)$$
 
 where $\tilde \tau(e)$ is the observed time for event $e$. $\hat \tau(e)$ is the estimated time for event $e$ based on empirical distance function $\tau$. 
 
@@ -198,7 +195,7 @@ The following data error type is found:
 **Data Correction**
 Data correction can be achieved by minizing the residual error between the distances related the error data in the temporal space. That is, suppose the a restaurant has a error POI (lat and lon), the observe the distance related 
 
-$$ \underset{lat,lon}{\text{minimize}} \sum \left| \tilde \tau - \hat \tau \right| $$
+$$ \underset{lat,lon}{\text{minimize}} \sum \left| \tilde \tau(s,d) - \hat \tau(s,d) \right| $$
 
 
 ### 5.2 Temporal Inconsistency (Rider Fraud) (Clustering by rider)
