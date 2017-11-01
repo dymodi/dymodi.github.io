@@ -88,7 +88,7 @@ Vertices set features:
 |Latitude           |$lat$      |$\mathbb{R}$   |--         |The latitude of the vertex         |
 |Longitude          |$lon$      |$\mathbb{R}$   |--         |The longitude of the vertex        |
 |Floor              |$flr$      |$\mathbb{N}$   |--         |The floor of the place             |
-|Average Cook Time  |$ckt$      |$\mathbb{R}$   |--         |The restaurant' average cook time  |
+|Average Cook Time  |$ckt$      |$\mathbb{R}$   |--         |The restaurant's average cook time |
 
 Arc set features:
 
@@ -129,7 +129,7 @@ The typical arcs are illustrated in the following figure:
 After the features are determined, the time estimation can be implemented in many ways. 
 Such as, RBF SVM.
 
-A intial result for picking arc time estimation is:
+A intial result for picking arc time estimation using SVR RBF is:
 <p align = "center">
 <img src="figures/rr_result_1.png"  alt="picking arc">
 </p>
@@ -141,6 +141,9 @@ then we have:
 |$t_{threshold}$|1 minutes  |2 minutes  |3 minutes  |
 |---            |---        |---        |---        |
 |$accuracy$     |0.61       |0.92       |1          |
+
+
+
 
 ## 5 Data Inconsistency Detection and Correction for Delivery
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
@@ -195,7 +198,7 @@ The following data error type is found:
 **Data Correction**
 Data correction can be achieved by minizing the residual error between the distances related the error data in the temporal space. That is, suppose the a restaurant has a error POI (lat and lon), the observe the distance related 
 
-$$ \underset{lat,lon}{\text{minimize}} \sum \left| \tau_{observed}-\tau_{expected} \right| $$
+$$ \underset{lat,lon}{\text{minimize}} \sum \left| \tilde \tau - \hat \tau \right| $$
 
 
 ### 5.2 Temporal Inconsistency (Rider Fraud) (Clustering by rider)
