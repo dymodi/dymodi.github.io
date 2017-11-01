@@ -153,29 +153,44 @@ In practical situations, data gathered from restaurants and riders might be inac
 
 In processinhg the real world data, we find following problems in the datasets:
 
-1. Missing value (Floor number missing for many restaurants)
-2. Inaccurate POI information (Wrong latitude/longitude)
-3. Inaccurate labels (Wrong labels from riders)
+Spatial inconsistency:
+1. Inaccurate POI information (e.g. Wrong latitude/longitude of restaurant or customer)
+2. Inaccurate rider positioning (e.g. Wrong latitude/longitude of rider)
 
+Temporal inconsistency:
+1. Invalid speed. ( e.g. >10m/s indoor situation)
+2. Abonormal rider behavior. (e.g. potential rider fraud)
+
+<!---
 Before utilizing the data for modeling, we need to verify the data consistency and remove or correct the wrong data. Thanks to the various data sources, same event is usually covered by multiple data reocords hence that redundency existis. Verification is possible due to data redundency. For example, The rider's arrival at a restaurant is recorded in the riders' behavior data and rider's trace data.
+--->
 
 Data inconsistency has been studied in many papers and some classical methods were proposed to detect and repair error data. CFD is the most important method in this field, other methods also includes Bayesian estimation and maximum likelihood. However, these methods cannot be use in the delivery system. CFD cannot be used because explicit semantic dependency is lacking in the system. Moreover, data inconsistency in delivery system tends to be quantitative instead of logical, hence manually defined funtional dependency cannot capture all the error data. Moreover, existing methods usually based on a single relation table, while in our case, data are gather from different sources. Data inconsistency might happen during the data fusing process.
 
-In our method, we find the data inconsistency by first clustering the data to rider-related and restaurant-related. Then we compare the data with rider's mobility pattern and restaurant's operation pattern.
+In our method, we find the data inconsistency by first clustering the data to by restaurant or by rider. Then we 
+compare the observed data with expected output or with rider's mobility pattern and restaurant's operation pattern.
+ 
 
-The basic idea is to compare the rider's trace and event data with the typical rider mobility pattern. We first conduct restaurant-oriented data clustering and rider-oriented data clustering. Abnormal data is detected if the sample is rejected by the distribution.
-
-* Rider Mobility Pattern
-* Restaurant Event Pattern
-
-The data inconsistency in the data can be detected by finding out the abnormal events. The abnormal event $(s,d)$ is defined as follows:
+### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
+Spatial inconsistency is detected by clustering the data by vertices in the delivery graph, since each vertex represents a spatial location. The abnormal event $(s,d)$ is defined as follows:
 
 $$\left| \tilde \tau(s,d) - \hat \tau(s,d) \right| > \epsilon(s,d)$$
 
-where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$, $\hat \tau(s,d)$ is the estimated time for event $(s,d)$ based on empirical distance function $\tau$. 
+where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$, $\hat \tau(s,d)$ is the estimated time for event $(s,d)$ based on empirical distance function $\tau$.
 
-### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
-Spatial Inconsistency is detected via compare the each single rider's trace data with rider mobility pattern built from massive rider trace data.
+**Restaurant Behavior Pattern**
+* Waiting time distribution
+* Restaurant Delivery time distribution
+
+
+**Data Correction**
+Data correction can be achieved by minizing the residual error between the distances related the error data in the temporal space. That is, suppose the a restaurant has a error POI (lat and lon), the observe the distance related 
+
+$$ \underset{lat,lon}{\text{minimize}} \sum \left| \tilde \tau(s,d) - \hat \tau(s,d) \right| $$
+
+
+### 5.2 Temporal Inconsistency (Rider Fraud) (Clustering by rider)
+Temporal inconsistency is detected clustering the data by rider and compare the observed with rider mobility pattern built from massive rider trace data. The basic idea is to compare the rider's trace and event data with the typical rider mobility pattern. We first conduct restaurant-oriented data clustering and rider-oriented data clustering. Abnormal data is detected if the sample is rejected by the distribution.
 
 **Rider Mobility Pattern**
 
@@ -188,23 +203,12 @@ Indoor speed distribution can be built based on rider's indoor trace gathered fr
 
 Outdoor speed distibution can be built based on rider's outdoor trace gathered from GPS data.
 
-The following data error type is found:
-* Restaurant POI inaccuracy
-* Customer POI inaccuracy
+* Restaurant Event Pattern
 
-**Data Correction**
-Data correction can be achieved by minizing the residual error between the distances related the error data in the temporal space. That is, suppose the a restaurant has a error POI (lat and lon), the observe the distance related 
-
-$$ \underset{lat,lon}{\text{minimize}} \sum \left| \tilde \tau(s,d) - \hat \tau(s,d) \right| $$
-
-
-### 5.2 Temporal Inconsistency (Rider Fraud) (Clustering by rider)
 **Rider Behavior Pattern**
 * Riders' Accepting time distribution
 
-**Restaurant Behavior Pattern**
-* Waiting time distribution
-* Restaurant Delivery time distribution
+
 
 
 
