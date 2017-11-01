@@ -125,6 +125,8 @@ The typical arcs are illustrated in the following figure:
 <img src="figures/typical-events.png"  alt="typical events">
 </p>
 
+Feature selection is achieved with correlation analysis.
+
 ### 4.2 Time estimation
 After the features are determined, the time estimation can be implemented in many ways. 
 Such as, RBF SVM.
@@ -170,7 +172,7 @@ The data inconsistency in the data can be detected by finding out the abnormal e
 
 $$\left| \tilde \tau(s,d) - \hat \tau(s,d) \right| > \epsilon(s,d)$$
 
-where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$. $\hat \tau(s,d)$ is the estimated time for event $e$ based on empirical distance function $\tau$. 
+where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$, $\hat \tau(s,d)$ is the estimated time for event $(s,d)$ based on empirical distance function $\tau$. 
 
 ### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
 Spatial Inconsistency is detected via compare the each single rider's trace data with rider mobility pattern built from massive rider trace data.
@@ -185,8 +187,6 @@ Rider's mobility pattern can be viewed as speical subset of generic human mobili
 Indoor speed distribution can be built based on rider's indoor trace gathered from beacon data.
 
 Outdoor speed distibution can be built based on rider's outdoor trace gathered from GPS data.
-
-
 
 The following data error type is found:
 * Restaurant POI inaccuracy
