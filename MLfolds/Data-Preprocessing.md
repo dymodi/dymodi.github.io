@@ -15,6 +15,7 @@ According to [WashU](http://www.cs.wustl.edu/~zhang/teaching/cs514/Spring11/Data
 According to a [paper](http://pmg.it.usyd.edu.au/outliers.pdf), k-means can be a practical clustering method.
 **sklearn** has provide the [KMeanas class](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) to achieve K-Means clustering quickly.
 
+[Local Outlier Factor (LOF)](http://scikit-learn.org/stable/modules/outlier_detection.html#local-outlier-factor) is another classical method to perform outlier detection on moderately high dimensional datasets.
 
 ## Ref.
 [1] Guyon, I., & Elisseeff, A. (2003). **An introduction to variable and feature selection**. Journal of machine learning research, 3(Mar), 1157-1182.

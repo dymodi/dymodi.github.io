@@ -40,6 +40,10 @@ Know something about what they are doing in machine learning group
 
 
 ## Discussion with Professor
+11/01
+1. Data inconsistency should be splited in the begining of Section 5.
+2. The contribution: large scale, real world applications, practical issues.
+
 10/25 
 1. Focus on the Time-based Delivery Map. The system overview should be only on this part.
 2. Applications should only be discussed in the Introduction.
