@@ -82,12 +82,13 @@ The *basic assumption* is that the time needed to travel between to places is de
 
 Vertices set features:
 
-|Name           |Symbol     |Type           |Code value |Description                            |
-|---            |---        |---            |---        |---                                    |
-|Position Type  |$typ$      |$\mathbb{N}$   |0,1        |0:restaurant; 1:customer               |
-|Latitude       |$lat$      |$\mathbb{R}$   |--         |The latitude of the place              |
-|Longitude      |$lon$      |$\mathbb{R}$   |--         |The longitude of the place             |
-|Floor          |$flr$      |$\mathbb{N}$   |--         |The floor of the place                 |
+|Name               |Symbol     |Type           |Code value |Description                        |
+|---                |---        |---            |---        |---                                |
+|Position Type      |$typ$      |$\mathbb{N}$   |0,1        |0:restaurant; 1:customer           |
+|Latitude           |$lat$      |$\mathbb{R}$   |--         |The latitude of the vertex         |
+|Longitude          |$lon$      |$\mathbb{R}$   |--         |The longitude of the vertex        |
+|Floor              |$flr$      |$\mathbb{N}$   |--         |The floor of the place             |
+|Average Cook Time  |$ckt$      |$\mathbb{R}$   |--         |The restaurant' average cook time  |
 
 Arc set features:
 
@@ -97,6 +98,7 @@ Arc set features:
 |Day of Week    |$day$      |$\mathbb{N}$   |1,2,...,7  |The day in the week                    |
 |Weather        |$wth$      |$\mathbb{N}$   |0,1,...,5  |The weather. 0: sunny; 1: cloudy; etc. |
 |Distance       |$dst$      |$\mathbb{R}$   |--         |The physical distance from $s$ to $d$  |
+
 
 For delivery system, the data is organized order by order, for each order, the following information is maitained:
 
