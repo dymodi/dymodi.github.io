@@ -110,7 +110,7 @@ For delivery system, the data is organized order by order, for each order, the f
 |Customer       |The customer who make the order    |
 |Order Time     |The date and time the order is make|
 
-Although theoretically we can compute the time needed for any event, some event has no physical meanings such as  the time needed from a resutaurant on "a winter, Tuesday, sunny day" to a restauant on a "summer, Friday, rainy day". We summarize some typical arcs as following:
+Although theoretically we can compute the time needed for any event, some event has no physical meanings such as  the time needed from a resutaurant on "a winter, Tuesday, sunny day" to a restauant on a "summer, Friday, rainy day". We summarize some typical arcs(event) $(s,d)$ as following:
 
 *Staying*: $s=d$
 
@@ -168,9 +168,9 @@ The basic idea is to compare the rider's trace and event data with the typical r
 
 The data inconsistency in the data can be detected by finding out the abnormal events. The abnormal event $(s,d)$ is defined as follows:
 
-$$\left| \tilde \tau(s,d) - \hat \tau(s,d) \right| > \epsilon(\xi)$$
+$$\left| \tilde \tau(s,d) - \hat \tau(s,d) \right| > \epsilon(s,d)$$
 
-where $\tilde \tau(e)$ is the observed time for event $e$. $\hat \tau(e)$ is the estimated time for event $e$ based on empirical distance function $\tau$. 
+where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$. $\hat \tau(s,d)$ is the estimated time for event $e$ based on empirical distance function $\tau$. 
 
 ### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
 Spatial Inconsistency is detected via compare the each single rider's trace data with rider mobility pattern built from massive rider trace data.
