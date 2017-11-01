@@ -183,6 +183,15 @@ where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$, $\hat \tau(s,d)
 $\epsilon(s,d)$ can be defined as follows: suppose $\tau(s,d)$ follows a nomral distribution $\mathcal N(\mu,\sigma)$. Then we can set $\epsilon(s,d) = 2\sigma$. A un-biased estimation of $\mu$ and $\sigma$ is $\bar \tau (s,d)$
 
 **Compare with Empirical Rider Mobility Pattern**
+Rider's mobility pattern can be viewed as speical subset of generic human mobiliy pattern [][]. For the rider's mobility pattern, we focus on the following two distributions:
+* Rider indoor speed distribution
+* Rider outdoor speed distribution
+* Rider trip length distribution
+
+Indoor speed distribution can be built based on rider's indoor trace gathered from beacon data.
+
+Outdoor speed distibution can be built based on rider's outdoor trace gathered from GPS data.
+
 
 **Compare with Empirical Restaurant Behavior Pattern**
 * Waiting time distribution
@@ -200,18 +209,6 @@ Temporal inconsistency is detected clustering the data by rider and compare the 
 
 
 **Compare with \hat \tau(s,d)**
-
-
-**Rider Mobility Pattern**
-
-Rider's mobility pattern can be viewed as speical subset of generic human mobiliy pattern [][]. For the rider's mobility pattern, we focus on the following two distributions:
-* Rider indoor speed distribution
-* Rider outdoor speed distribution
-* Rider trip length distribution
-
-Indoor speed distribution can be built based on rider's indoor trace gathered from beacon data.
-
-Outdoor speed distibution can be built based on rider's outdoor trace gathered from GPS data.
 
 **Compare with Empirical Rider Mobility Pattern**
 
