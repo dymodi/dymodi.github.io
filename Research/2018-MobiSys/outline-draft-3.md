@@ -170,7 +170,11 @@ Data inconsistency has been studied in many papers and some classical methods we
 In our method, we find the spatial and temporal data inconsistency by first clustering the data to by restaurant or by rider. Then we find the problematic entries by comparing the observed data with expected output or empirical patterns.
  
 ### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
-Spatial inconsistency is detected by clustering the data by vertices in the delivery graph, since each vertex represents a spatial location. The abnormal event $(s,d)$ is defined as follows:
+Spatial inconsistency is detected by clustering the data by vertices in the delivery graph, since each vertex represents a spatial location. 
+
+**Compare with \hat \tau(s,d)**
+
+The abnormal event $(s,d)$ is defined as follows:
 
 $$\left| \tilde \tau(s,d) - \hat \tau(s,d) \right| > \epsilon(s,d)$$
 
@@ -178,8 +182,8 @@ where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$, $\hat \tau(s,d)
 
 $\epsilon(s,d)$ can be defined as follows: suppose $\tau(s,d)$ follows a nomral distribution $\mathcal N(\mu,\sigma)$. Then we can set $\epsilon(s,d) = 2\sigma$. A un-biased estimation of $\mu$ and $\sigma$ is $\bar \tau (s,d)$
 
-**Compare with \hat \tau(s,d)**
 **Compare with Empirical Rider Mobility Pattern**
+
 **Compare with Empirical Restaurant Behavior Pattern**
 * Waiting time distribution
 * Restaurant Delivery time distribution
