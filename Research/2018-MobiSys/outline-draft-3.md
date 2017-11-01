@@ -183,6 +183,7 @@ where $\tilde \tau(s,d)$ is the observed time for event $(s,d)$, $\hat \tau(s,d)
 $\epsilon(s,d)$ can be defined as follows: suppose $\tau(s,d)$ follows a nomral distribution $\mathcal N(\mu,\sigma)$. Then we can set $\epsilon(s,d) = 2\sigma$. A un-biased estimation of $\mu$ and $\sigma$ is $\bar \tau (s,d)$
 
 **Compare with Empirical Rider Mobility Pattern**
+
 Rider's mobility pattern can be viewed as speical subset of generic human mobiliy pattern [][]. For the rider's mobility pattern, we focus on the following two distributions:
 * Rider indoor speed distribution
 * Rider outdoor speed distribution
@@ -191,7 +192,6 @@ Rider's mobility pattern can be viewed as speical subset of generic human mobili
 Indoor speed distribution can be built based on rider's indoor trace gathered from beacon data.
 
 Outdoor speed distibution can be built based on rider's outdoor trace gathered from GPS data.
-
 
 **Compare with Empirical Restaurant Behavior Pattern**
 * Waiting time distribution
@@ -208,7 +208,7 @@ $$ \underset{lat,lon}{\text{minimize}} \sum \left| \tilde \tau(s,d) - \hat \tau(
 Temporal inconsistency is detected clustering the data by rider and compare the observed with rider mobility pattern built from massive rider trace data. The basic idea is to compare the rider's trace and event data with the typical rider mobility pattern. We first conduct restaurant-oriented data clustering and rider-oriented data clustering. Abnormal data is detected if the sample is rejected by the distribution.
 
 
-**Compare with \hat \tau(s,d)**
+**Compare with $\hat \tau(s,d)$**
 
 **Compare with Empirical Rider Mobility Pattern**
 
