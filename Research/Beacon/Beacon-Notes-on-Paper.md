@@ -40,6 +40,17 @@ Know something about what they are doing in machine learning group
 
 
 ## Discussion with Professor
+11/03 (To be discussed with Prof.)
+1. Inconsistency can be devided into spatial inconsistency (POI error) and temporal inconsistency (rider fraud). But the method to detect the inconsistency is partially share: rider mobility (speed distribution) can be used to detected. Specifically:
+
+**Compare with $\hat \tau(s,d)$**
+
+**Compare with rider speed distribution:** find wrong POI by clustering to shop (spatial),
+
+**Arrival detection based on beacon:** find rider's late arrival compared with label (temporal), 
+**Compare with cook time distribution: ** find abnormal restaurnt by clustering to shop (temporal)
+
+
 11/01
 1. Data inconsistency should be splited in the begining of Section 5.
 2. The contribution: large scale, real world applications, practical issues.

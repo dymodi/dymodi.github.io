@@ -154,12 +154,13 @@ In practical situations, data gathered from restaurants and riders might be inac
 In processinhg the real world data, we find following problems in the datasets:
 
 Spatial inconsistency:
-1. Inaccurate POI information (e.g. Wrong latitude/longitude of restaurant or customer)
-2. Inaccurate rider positioning (e.g. Wrong latitude/longitude of rider)
+1. Inaccurate restaurant POI information(latitude, longitude, floor)
+2. Inaccurate customer POI information(latitude, longitude, floor)
+3. Inaccurate rider positioning (latitude/longitude)
 
 Temporal inconsistency:
-1. Invalid speed. ( e.g. >10m/s indoor situation)
-2. Abonormal rider behavior. (e.g. potential rider fraud)
+1. Abonormal rider behavior. (e.g. potential rider fraud: late arrival, late delivery)
+
 
 <!---
 Before utilizing the data for modeling, we need to verify the data consistency and remove or correct the wrong data. Thanks to the various data sources, same event is usually covered by multiple data reocords hence that redundency existis. Verification is possible due to data redundency. For example, The rider's arrival at a restaurant is recorded in the riders' behavior data and rider's trace data.
@@ -168,7 +169,13 @@ Before utilizing the data for modeling, we need to verify the data consistency a
 Data inconsistency has been studied in many papers and some classical methods were proposed to detect and repair error data. CFD is the most important method in this field, other methods also includes Bayesian estimation and maximum likelihood. However, these methods cannot be use in the delivery system. CFD cannot be used because explicit semantic dependency is lacking in the system. Moreover, data inconsistency in delivery system tends to be quantitative instead of logical, hence manually defined funtional dependency cannot capture all the error data. Moreover, existing methods usually based on a single relation table, while in our case, data are gather from different sources. Data inconsistency might happen during the data fusing process.
 
 In our method, we find the spatial and temporal data inconsistency by first clustering the data to by restaurant or by rider. Then we find the problematic entries by comparing the observed data with expected output or empirical patterns.
- 
+
+### Compare with Empirical Rider Mobility Pattern
+It has been studied in many literature about the human mobility pattern. As a special type of human mobility, rider's mobility pattern can be used to understand the rider's behavior and to find out spatial and temporal data inconsistency. 
+
+In a Bayesian statistics paradigm, the empirical rider mobility pattern provides a *prior* information on the rider's mobility. 
+
+
 ### 5.1 Spatial Inconsistency (POI Correction) (Clustering by shop)
 Spatial inconsistency is detected by clustering the data by vertices in the delivery graph, since each vertex represents a spatial location. 
 
@@ -209,6 +216,8 @@ Temporal inconsistency is detected clustering the data by rider and compare the 
 
 
 **Compare with $\hat \tau(s,d)$**
+
+**Arrival Detection based on Beacon**
 
 **Compare with Empirical Rider Mobility Pattern**
 
