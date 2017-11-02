@@ -12,6 +12,8 @@ date: June 5, 2017
 [Data Preprocessing](MLfolds/Data-Preprocessing)
 
 ## Database
+[SQL Basics](MLfolds/SQL-Basics)
+
 [Query Data in PySpark](MLfolds/PySpark)
 
 ## Reinforcement Learning

@@ -235,6 +235,7 @@ Related data can be found in the table "dw_ai.dw_aly_t_model_4_3_feature_v5"
 
 **POI correction** is a similar topic as location estimation in the sensor network.
 [Some papers in POI Correction]
+[Beacon-POI-Correction-Related-Works.md]
 
 
 
