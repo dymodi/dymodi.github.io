@@ -17,6 +17,16 @@ The generic speed distribution, calculated based by each order, is shown as foll
 <img src="../Delivery-System/figures/rider-speed-distribution.png"  alt="rider speed distribution">
 </p>
 
+## Arrival and Depature at the Restaurant
+The rider's arrival at restaurant behavior can be described as the following figure:
+<p align = "center">
+<img src="../Delivery-System/figures/rider_rst_arrival_diff.png"  alt="rider arrival diff">
+</p>
+
+The rider's depature at restaurant behavior can be described as the following figure:
+<p align = "center">
+<img src="../Delivery-System/figures/rider_rst_depature_diff.png"  alt="rider arrival diff">
+</p>
 
 ## Rider's State
 Usually, a rider is in one of the following state:
