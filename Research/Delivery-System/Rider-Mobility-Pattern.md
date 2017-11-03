@@ -9,6 +9,15 @@ author: Yi DING
 
 A literature review on generic human mobility can be found [here](../Human-Mobility-Literature-Review-Yi-Ding.pdf)
 
+## Speed Distribution
+Riders' speed distribution in indoor environment based on beacon can be found in [another post](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Beacon/Beacon-Walking-Speed-Distribution.md).
+
+The generic speed distribution, calculated based by each order, is shown as follows:
+<p align = "center">
+<img src="../Delivery-System/figures/rider-speed-distribution.png"  alt="rider speed distribution">
+</p>
+
+
 ## Rider's State
 Usually, a rider is in one of the following state:
 Waiting for an order Task, Heading to a Restaurant, Waiting at a Resaurant, Heading to a Customer, Waiting for a Customer.
