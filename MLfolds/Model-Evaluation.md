@@ -23,9 +23,7 @@ R-squared = Explained variation / Total variation
 
 [Wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination) gives a most general definiation as follows:
 
-\\[ R^2 1- \frac{SS_{\text{res}}}{SS_\text{tot}} \\]
-\\[ \def \\]
-\\[ \text{aa} \\]
+\\[ R^2 \equiv 1- \frac{SS_{\text{res}}}{SS_\text{tot}} \\]
 
 where $$SS_\text{tot} = \sum_i (y_i - \bar y)^2$$ 
 
