@@ -11,6 +11,8 @@ date: June 5, 2017
 
 [Data Preprocessing](MLfolds/Data-Preprocessing)
 
+[Model Evaluation](MLfolds/Model-Evaluation)
+
 ## Database
 [SQL Basics](MLfolds/SQL-Basics)
 
