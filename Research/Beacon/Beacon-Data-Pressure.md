@@ -9,8 +9,23 @@ author: Yi DING
 
 ### Quick Statistics
 * 当前已部署的商户数量：200
-* 当前
+* 当前日均beacon原始数据量：20万条
+* 原始数据小时峰值：
+* 原始数据分钟峰值：
+* 原始数据秒峰值：
+* 千里眼日新增数据量：
+* 千里眼新增数据量秒峰值：
 
+### 第三期估计
+从Beacon部署的店铺规模，第三期是第二期的(15,000/200) = 75 倍，则预估数据如下：
+* 预计部署的商户数量：200*75 = 15,000
+* 预计日均原始beacon数据量：20万*75 = 1千500万（15,000,000）
+* 预计原始数据小时峰值：
+* 预计原始数据分钟峰值：
+* 预计原始数据秒峰值
+
+
+### 详表
 表一：智石数据统计
 
 |Date   |# Beacon Raw Data  |# Rider    |# Shop | # Per Rider   |# Per Shop |# Per Rider Per Shop   |
@@ -23,7 +38,7 @@ author: Yi DING
 |11-04  |229283             |329        |197    |697            |1164       |3.5                    |       
 |11-05  |264371             |302        |210    |875            |1259       |4.2                    |
 
-表一：睿石数据统计
+表二：睿石数据统计
 
 |Date   |# Beacon Raw Data  |# Rider    |# Shop | # Per Rider   |# Per Shop |# Per Rider Per Shop   |
 |---    |---                |---        |---    |---            |---        |---                    |
@@ -36,23 +51,13 @@ author: Yi DING
 |11-05  |199530             |298        |171    |670            |1167       |3.9                    |
 
 
-需要注意的事项：
+表三：峰值估计
+|Date   |# Max per Hour |# Max per Minute   |# Max per Second   |
+
+|10-31  |31119          |2045               |84                 |
+
+
+
+
+### 附注
 1. 现在每天beacon的原始数据量大于上面的统计，是因为现在版本还没有卡UUID，也就是说除了公司beacon的UUID"E2C56DB5-DFFB-48D2-B060-D0F5A71096E0" 之外还有别的UUID收上来，这需要在后续版本进行改进。
-
-
-
-```
-select get_date(created_at) as created_date, 
-count (distinct id) as data_num,
-count (distinct target_id) as rider_num,
-count (distinct parse_json_object(beacon_info, 'beaconMinor')) as shop_num,
-round((count (distinct id)/count (distinct target_id)),0)  as num_per_rider,
-round((count (distinct id)/count (distinct parse_json_object(beacon_info, 'beaconMinor'))),0) as num_rider_per_shop,
-round((count (distinct id)/count (distinct target_id)/count (distinct parse_json_object(beacon_info, 'beaconMinor'))),1) as num_per_rider_per_shop
-from dw.dw_tms_clairvoyant_tb_beacon 
-where dt = '2017-11-05' and created_at > '2017-10-30' 
-and parse_json_object(beacon_info, 'beaconUuid') = 'E2C56DB5-DFFB-48D2-B060-D0F5A71096E0'
-and parse_json_object(beacon_info, 'beaconMajor') = 16160
-group by get_date(created_at)
-order by created_date
-```
