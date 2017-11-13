@@ -7,13 +7,15 @@ author: Yi DING
 
 [comment]: # (Discuss the data inconsistency)
 
+## Data Inconsistency Detection and Correction in Delivery System
+
 In practical situations, data gathered from restaurants and riders might be inaccurate due to many reasons. A typical data collection scheme is illustrated in the following figure. 
 
 <p align = "center">
 <img src="../Delivery-System/figures/rr_edge_challenges.png"  alt="delivery batch">
 </p>
 
-In processinhg the real world data, we find following problems in the datasets:
+In processing the real world data, we find following problems in the datasets:
 
 Spatial inconsistency:
 1. Inaccurate restaurant POI information(latitude, longitude, floor)
@@ -22,7 +24,6 @@ Spatial inconsistency:
 
 Temporal inconsistency:
 1. Abonormal rider behavior. (e.g. potential rider fraud: late arrival, late delivery)
-
 
 <!---
 Before utilizing the data for modeling, we need to verify the data consistency and remove or correct the wrong data. Thanks to the various data sources, same event is usually covered by multiple data reocords hence that redundency existis. Verification is possible due to data redundency. For example, The rider's arrival at a restaurant is recorded in the riders' behavior data and rider's trace data.

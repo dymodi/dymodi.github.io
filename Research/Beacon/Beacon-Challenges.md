@@ -47,6 +47,13 @@ If we map the beacon to the shops locations provided by the above Map, the local
 Solution:
 (1) Cross validation based on device sensing data. (We need to check if there are existing papers on this topic)
 
+## Beacon Deployment
+How to cover the most cared indoor shops by covering the grids. The grids are shown in the following figure:
+<p align = "center">
+<img src="figures/shop-grids.png"  alt="shop grids">
+</p>
+(More discussion can be completed with Dongzhe Jiang)
+
 ## Risk Control
 
 ## Unknow Beacon Recognition
