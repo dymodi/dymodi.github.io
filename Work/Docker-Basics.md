@@ -45,7 +45,6 @@ docker run -d unbutu ping 8.8.8.8
 docker ps
 ```
 
-
 查看全部容器(包括运行中的和停止的)
 ```
 docker ps -a
@@ -57,6 +56,18 @@ docker exec -ti loving_mcclintock /bin/bash
 ```
 这里所做的是在容器里运行程序，这里的程序是`/bin/bash`。`-ti`标志与`docker run`的作用相同，将我们放置到容器的控制台里。
 
+启动容器：
+```
+docker run -it --name blabla  
+-p <物理机>:<容器>(e.g. 127.0.0.1:3306:3306)  -v /your/local/path/:/map/path/in/docker/ -v /etc/localtime:/etc/localtime --net =host -d reponame:tag
+```
+简要说明：
+* `-it` 是启动交互和伪终端
+* `-p  <IP>:<宿主机端口>:<容器端口>` 将宿主机（物理机)映射或者可以理解为绑定,<IP>可以指定，也可以不指定，不指定默认是0.0.0.0,建议还是指定
+* `-v` 是挂载本机目录到到docker目录,最好每次都把`-v /etc/localtime:/etc/localtime`也带上，确保docker 容器内时间和服务器时间一致
+* `-d`  是daemonize的意思，就是使容器成为守护进程，后台运作 
+* `--net` 是设置docker的网络模式，默认不设置的话就是bridge模式，现在设置为和物理机网络绑定的host模式，更多可以看 Docker的4种网络模式(http://www.cnblogs.com/gispathfinder/p/5871043.html)
+* `--link` 是容器链接
 
 ### Useful links:
 
