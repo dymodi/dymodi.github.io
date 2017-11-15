@@ -12,6 +12,7 @@ author: Yi DING
 
 http://www.360doc.com/content/15/0419/01/21412_464258944.shtml
 
+http://blog.csdn.net/qq_29245097/article/details/52996911
 
 
 拉取镜像：
@@ -58,8 +59,13 @@ docker exec -ti loving_mcclintock /bin/bash
 
 启动容器：
 ```
-docker run -it --name blabla  
--p <物理机>:<容器>(e.g. 127.0.0.1:3306:3306)  -v /your/local/path/:/map/path/in/docker/ -v /etc/localtime:/etc/localtime --net =host -d reponame:tag
+docker run 
+    -it --name blabla  
+    -p <物理机>:<容器>(e.g. 127.0.0.1:3306:3306)  
+    -v /your/local/path/:/map/path/in/docker/ 
+    -v /etc/localtime:/etc/localtime 
+    --net =host 
+    -d reponame:tag
 ```
 简要说明：
 * `-it` 是启动交互和伪终端
