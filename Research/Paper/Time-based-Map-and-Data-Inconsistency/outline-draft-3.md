@@ -11,10 +11,10 @@ NOTE: This the third version of the draft.
  
 ## 1 INTRODUCTION
 
-[comment]: # (The importance of the problems addressed)
-[comment]: # (The novelty of the proposed solutions)
-[comment]: # (The technical depth)
-[comment]: # (The potential impact)
+* The importance of the problems addressed
+* The novelty of the proposed solutions
+* The technical depth
+* The potential impact
 
 **(The background of food delivery system)**
 
