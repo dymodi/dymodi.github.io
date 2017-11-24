@@ -9,6 +9,8 @@ author: Yi DING
 
 NOTE: This the third version of the draft.
  
+# Time based Map and Data Inconsistency
+
 ## 1 INTRODUCTION
 
 * The importance of the problems addressed
@@ -19,6 +21,12 @@ NOTE: This the third version of the draft.
 **(The background of food delivery system)**
 
 In recent years, with the prevalence of the mobile Internet and sharing economy, online food ordering and delivery becomes a prosperous market. Driven by the mobile Internet technololy, a new business model is emerging with a centralized platform serving customers, restaurants and riders at the same time [][][]. Restaurants can operate online shops on the platform and accept orders while customers can choose from plenty of restaurants nearby from the cellphone APP provided by the platform. The food delivery tasks will be dispatched to registered and crowdsourced riders according to their location and destination. As the platform provides convenient service for all three sections, some problems also restrain the platform from achieving high efficiency dispatching. The most critical problem is to estimate the rider's travelling time among restaurants and customers. The estimation must be tight because food must be delivered within limited time (usually within 30 minutes) for fresh quality and the time-out case would be punished with costs.
+
+**(The differences between taxis dispatching and rider sharing)**
+The food delivery system is much more complex than taxi dispatching system in the following aspects:
+1. The taxi system include three phases: order dispatching, picking and delivering. However, the food delivery system envolves fours phases: order dispatching, rider's arrival at the restaurant, picking meal at the restaurant, and delivering to the customer.
+2. The taxi system only envolves two roles: the driver and the customer. While in the food delivery system, there are threes roles: the courier, the restaurant and the customer.
+
 
 **(Challenges and motivations)**
 
