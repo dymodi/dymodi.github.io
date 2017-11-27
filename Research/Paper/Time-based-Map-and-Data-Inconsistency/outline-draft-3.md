@@ -25,7 +25,7 @@ In recent years, with the prevalence of the mobile Internet and sharing economy,
 **(The differences between taxis dispatching and rider sharing)**
 The food delivery system is much more complex than taxi dispatching system in the following aspects:
 1. The taxi system include three phases: order dispatching, picking and delivering. However, the food delivery system envolves fours phases: order dispatching, rider's arrival at the restaurant, picking meal at the restaurant, and delivering to the customer.
-2. The taxi system only envolves two roles: the driver and the customer. While in the food delivery system, there are threes roles: the courier, the restaurant and the customer.
+2. The taxi system only envolves two roles: the driver and the customer. While in the food delivery system, there are threes roles: the courier, the restaurant and the customer.``
 
 
 **(Challenges and motivations)**
