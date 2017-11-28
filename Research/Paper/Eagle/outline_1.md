@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Outline: Large Scale Offline Data Collecting
+title: Outline: Eagle: Large Scale Offline Data Gathering System
 date: Nov. 27, 2017
 author: Yi DING
 ---
@@ -18,15 +18,20 @@ author: Yi DING
 
 **(The background of food delivery system)**
 
-
-
 **(Challenges and motivations)**
+
+**(Related works)**
+
+**(The solution we proposed)**
 
 **(The contribution of this paper)**
 
 
 ## 2 Motivation
 **(Challenges and motivations)**
+
+Offline data collecting is much more challenging than online data collecting due to many factors: The installation of IoT devices is time consuming and expensive; the measurements are subject to uncertainty due to sensing errors and other disturbances.
+
 
 ## 3 System Overview
 
@@ -36,4 +41,9 @@ author: Yi DING
 
 ## Related Work
 
+**(Offline data gathering related work)**
+
 ## Conclusion
+
+## Ref.
+

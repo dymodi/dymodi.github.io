@@ -7,8 +7,18 @@ author: Yi DING
 
 [comment]: # (Related Works of Offline Data Collecting)
 
+## "Related Work" Section for paper "Offline data collecting system"
 
-[1] provides an example frame for gathering offline data from heterogeneous data sources and fusing them for a specific purpose.
+Offline data collecting is much more challenging than online data collecting due to many factors. Some researchers tried to tackle the problem from different viewpoints in recent years: a cyber-physical- human system (CPHS) framework is proposed in [1]. Leaks in the water network can be localized based on sensing data, geophysical data, human input, and simulation/modeling engines.
+
+### Design Space
+
+
+## Individual Review
+
+[1] provides an example frame for gathering offline data from heterogeneous data sources and fusing them for a specific purpose. 
+
+It is stated in [1] that "The installation of IoT devices is time consuming and expensive; furthermore their measurements are subject to uncertainty due to sensing errors and measurement correlations. To abstract out correct information with limited IoT observations in a timely manner, sophisticated and high performance algorithms are required."
 
 
 

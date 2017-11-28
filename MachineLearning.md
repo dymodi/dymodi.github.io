@@ -13,6 +13,9 @@ date: June 5, 2017
 
 [Model Evaluation](MLfolds/Model-Evaluation)
 
+## Advanced Topics
+[Multi-label data](MLfolds/Multi-label)
+
 ## Database
 [SQL Basics](MLfolds/SQL-Basics)
 
