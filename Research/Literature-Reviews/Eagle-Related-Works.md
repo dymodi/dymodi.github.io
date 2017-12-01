@@ -13,7 +13,8 @@ Online data gathering ...[2]
 
 Offline data gathering is much more challenging than online data collecting due to many factors. Some researchers tried to tackle the problem from different viewpoints in recent years: a cyber-physical- human system (CPHS) framework is proposed in [1]. Leaks in the water network can be localized based on sensing data, geophysical data, human input, and simulation/modeling engines.
 
-[5]
+	
+
 
 Green IoT ... [3][4][6]
 
@@ -31,6 +32,8 @@ Secure IoT... [7][8]
 It is stated in [1] that "The installation of IoT devices is time consuming and expensive; furthermore their measurements are subject to uncertainty due to sensing errors and measurement correlations. To abstract out correct information with limited IoT observations in a timely manner, sophisticated and high performance algorithms are required."
 
 [5] introduces an integrated operating system: VITAL-OS that can work with multiple IoT scenarios to provide a unified platform to monitor, visualize, and control all the operations of in the Smart City environment.
+
+[3] provides a hierarchical system framework for a general IoT deployment and the model is optimized to achieve green IoT. A very simple but elegant summary of "what is IoT" is proivded in the introduction part. A cost-effective deployment scheme is introduced in the paper.
 
 
 ## Ref.
