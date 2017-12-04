@@ -13,12 +13,9 @@ Online data gathering ...[2]
 
 Offline data gathering is much more challenging than online data collecting due to many factors. Some researchers tried to tackle the problem from different viewpoints in recent years: a cyber-physical- human system (CPHS) framework is proposed in [1]. Leaks in the water network can be localized based on sensing data, geophysical data, human input, and simulation/modeling engines.
 
-	
+Green IoT is an attractive research topic in recent years due to large energy consumption in the deployment and operation prcess of the large scale IoT system. Green IoT can be achieved in many aspects. Energy-efficiency oriented optimization can be conducted in the deployment phase as well as the operation phase [3]. In another aspect, IoT system can be utilized to monitor the environment parameters and save energy in the Smart City frame [6].
 
-
-Green IoT ... [3][4][6]
-
-Secure IoT... [7][8]
+Secure IoT issues are also becoming improtant as more and more IoT devices are deployed in the real world. The necessity of secure IoT is discussed in [7][8]. It has been proven that traditional security technologies are not applicable in the large scale IoT system [8]. A local plug-in is introduced in [7] so that security mechanism can be implemented before the data is uploaded to the cloud [7]. 
 
 ### Design Space
 <p align = "center">
@@ -33,8 +30,15 @@ It is stated in [1] that "The installation of IoT devices is time consuming and 
 
 [5] introduces an integrated operating system: VITAL-OS that can work with multiple IoT scenarios to provide a unified platform to monitor, visualize, and control all the operations of in the Smart City environment.
 
-[3] provides a hierarchical system framework for a general IoT deployment and the model is optimized to achieve green IoT. A very simple but elegant summary of "what is IoT" is proivded in the introduction part. A cost-effective deployment scheme is introduced in the paper.
+[3] provides a hierarchical system framework for a general IoT deployment and the model is optimized to achieve green IoT. A very simple but elegant summary of "what is IoT" is proivded in the Introduction part. A cost-effective deployment scheme is introduced in the paper.
 
+[4] provides little new things in Green IoT. A relative complete but not very well written survey of "energy efficient IoT" is provided in the Introduction section. 
+
+The design and implementation of a practical IoT system is described in [6]. The main function of the system is to monitor the energy consumption and environment parameters.
+
+A very impressive description of "why we need secure IoT" is provided in the [7]. The paper claims that "concern over data privacy arising from the over-centralization of IoT systems is a critical obstacle to their growth."  A local plug-in is introduced to conduct privacy protecting mechainsm before the data is upload to the cloud.
+
+The importance of IoT security is also discussed in [8] with some IoT attacks reported already. The authors also argue that conventional security technologies are not applicable in the IoT system. However, a corresponding solution is not provided in the paper.
 
 ## Ref.
 [1] Han, Q., Nguyen, P., Eguchi, R. T., Hsu, K. L., & Venkatasubramanian, N. (2017, June). **Toward An Integrated Approach to Localizing Failures in Community Water Networks**. In Distributed Computing Systems (ICDCS), 2017 IEEE 37th International Conference on (pp. 1250-1260). IEEE. 
