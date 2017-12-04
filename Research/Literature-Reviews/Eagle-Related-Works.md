@@ -9,7 +9,7 @@ author: Yi DING
 
 ## "Related Work" Section for paper "Eagle"
 
-Online data gathering ...[2]
+**Online data gathering** ...[2]
 
 Offline data gathering is much more challenging than online data collecting due to many factors. Some researchers tried to tackle the problem from different viewpoints in recent years: a cyber-physical- human system (CPHS) framework is proposed in [1]. Leaks in the water network can be localized based on sensing data, geophysical data, human input, and simulation/modeling engines.
 
@@ -24,18 +24,32 @@ Secure IoT issues are also becoming improtant as more and more IoT devices are d
 
 ## Individual Review
 
+### Offline data gathering
 [1] provides an example frame for gathering offline data from heterogeneous data sources and fusing them for a specific purpose. 
 
 It is stated in [1] that "The installation of IoT devices is time consuming and expensive; furthermore their measurements are subject to uncertainty due to sensing errors and measurement correlations. To abstract out correct information with limited IoT observations in a timely manner, sophisticated and high performance algorithms are required."
 
 [5] introduces an integrated operating system: VITAL-OS that can work with multiple IoT scenarios to provide a unified platform to monitor, visualize, and control all the operations of in the Smart City environment.
 
+
+### iBeacon based IoT/LBS
+As a industrial accepted protocal, current research on iBeacon mainly focus on indoor positioning and navigation [][][], occupancy detection [9] and group formations detection [10]. **Much can be done with current iBeacon system**.
+
+Other application of iBeacon are: 
+* Art Museum [11], 
+* Smart home [12], [13],
+
+**A very similar topic is [14], **
+
+
+### Green IoT
 [3] provides a hierarchical system framework for a general IoT deployment and the model is optimized to achieve green IoT. A very simple but elegant summary of "what is IoT" is proivded in the Introduction part. A cost-effective deployment scheme is introduced in the paper.
 
 [4] provides little new things in Green IoT. A relative complete but not very well written survey of "energy efficient IoT" is provided in the Introduction section. 
 
 The design and implementation of a practical IoT system is described in [6]. The main function of the system is to monitor the energy consumption and environment parameters.
 
+### Secure IoT
 A very impressive description of "why we need secure IoT" is provided in the [7]. The paper claims that "concern over data privacy arising from the over-centralization of IoT systems is a critical obstacle to their growth."  A local plug-in is introduced to conduct privacy protecting mechainsm before the data is upload to the cloud.
 
 The importance of IoT security is also discussed in [8] with some IoT attacks reported already. The authors also argue that conventional security technologies are not applicable in the IoT system. However, a corresponding solution is not provided in the paper.
@@ -57,3 +71,15 @@ The importance of IoT security is also discussed in [8] with some IoT attacks re
 [7] Davies, N., Taft, N., Satyanarayanan, M., Clinch, S., & Amos, B. (2016, February). **Privacy mediators: Helping iot cross the chasm**. In Proceedings of the 17th International Workshop on Mobile Computing Systems and Applications (pp. 39-44). ACM.
 
 [8] Yu, T., Sekar, V., Seshan, S., Agarwal, Y., & Xu, C. (2015, November). **Handling a trillion (unfixable) flaws on a billion devices: Rethinking network security for the internet-of-things**. In Proceedings of the 14th ACM Workshop on Hot Topics in Networks (p. 5). ACM.
+
+[9] Corna, A., Fontana, L., Nacci, A. A., & Sciuto, D. (2015, March). **Occupancy detection via iBeacon on Android devices for smart building management**. In Proceedings of the 2015 Design, Automation & Test in Europe Conference & Exhibition (pp. 629-632). EDA Consortium.
+
+[10] Katevas, K., Haddadi, H., Tokarchuk, L., & Clegg, R. G. (2016, September). **Detecting group formations using iBeacon technology**. In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct (pp. 742-752). ACM.
+
+[11] Cui, B., Zhou, W., Fan, G., & Wu, Y. (2017, August). **Smart mobile APP of museum—Investigations and design for local culture protection**. In Computer Science and Education (ICCSE), 2017 12th International Conference on (pp. 38-41). IEEE.
+
+[12] Mirri, S., Prandi, C., Salomoni, P., & Monti, L. (2016, November). **Social Location Awareness: A Prototype of Altruistic IoT**. In New Technologies, Mobility and Security (NTMS), 2016 8th IFIP International Conference on (pp. 1-5). IEEE.
+
+[13] Park, M., Song, Y., Lee, J., & Paek, J. (2016, October). **Design and Implementation of a smart chair system for IoT**. In Information and Communication Technology Convergence (ICTC), 2016 International Conference on (pp. 1200-1203). IEEE.
+
+[14] Srinivasan, V. S., Kumar, T., & Yasarapu, D. K. (2016, May). **Raspberry Pi and iBeacons as environmental data monitors and the potential applications in a growing BigData ecosystem**. In Recent Trends in Electronics, Information & Communication Technology (RTEICT), IEEE International Conference on (pp. 961-965). IEEE.
