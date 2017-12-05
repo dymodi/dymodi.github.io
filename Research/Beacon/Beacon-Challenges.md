@@ -16,6 +16,8 @@ Here we discuss some challenges met in real world beacon applications.
 
 In paper [1], the author lists some challenges to build a real ubiquitous indoor localization system. Some challenges are also what we met (and solved) in our system: Robustness against Attacks, Incentive Modeles, System Evaluation, Energy Efficienty.
 
+## Localization/Navigation under uncertain iBeacon deployment
+If we use merchant's cellphone as beacon in the shop, this beacon system might be dynamic(uncertain), then how can we achieve indoor localization/navigation under this uncertain environment.
 
 ## Check-In Recognition
 For check-in, we have some inaccurate check-in time data labeled by the rider, how can we use this label can be a good question.
