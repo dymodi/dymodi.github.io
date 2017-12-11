@@ -36,10 +36,11 @@ It is stated in [1] that "The installation of IoT devices is time consuming and 
 As a industrial accepted protocal, current research on iBeacon mainly focus on indoor positioning and navigation [][][], occupancy detection [9] and group formations detection [10]. **Much can be done with current iBeacon system**.
 
 Other application of iBeacon are: 
-* Art Museum [11], 
-* Smart home [12], [13],
+* Art Museum: [11], 
+* Smart home: [12], [13],
+* Data gathering: [14],
 
-**A very similar topic is [14], **
+A very similar topic is [14], iBeacon (embedded with some other sensors) are used as sensor nodes to collect environment data such as temperature and humidity. The data gathered is  uploaded to the BigData ecosystem. However, many practical problems (deployment, data fusing, inconsistency resolving) are not handled in the paper. 
 
 
 ### Green IoT
