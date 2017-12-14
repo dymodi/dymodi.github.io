@@ -19,10 +19,23 @@ author: Yi DING
 **(The background of food delivery system)**
 
 **(Challenges and motivations)**
+* Deployment in the physical world of large scale BLE-based data gathering system
+* Security and privacy protection 
+* Data inconsistency 
+* Energy consumption in large scale BLE beacon system
 
 **(Related works)**
+[Eagle relate works](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Literature-Reviews/Eagle-Related-Works.md)
 
 **(The solution we proposed)**
+
+* Maximum-coverage deployment stragey
+* Beacon encryption
+* Data validation and correction
+* Green offline data gathering
+    * "Green penalty" in the optimization problem of beacon deployment. (A advanced version of deployment strategy).
+    * "Green beacon" (energy efficient in hardware design and broadcasting?)
+    * Cellphone as beacon
 
 **(The contribution of this paper)**
 
@@ -40,12 +53,12 @@ Challenges:
 * Security and privacy protection 
     * Ubiquitous BLE beacons has the risk of revealing privacies
     * （Similar as "Secure IoT"）
-* Data inconsistency validation and correction
+* Data inconsistency 
     * Pervasive "dirty" data in the real world. (More explanition.)
     * Wrong data leads to wrong decision. (An example.)
-* Green offline data gathering
-    * "Green penalty" in the optimization problem of beacon deployment. (A advanced version of deployment strategy).
-    * "Green beacon" (energy efficient in hardware design and broadcasting?)
+* Energy consumption in large scale BLE beacon system
+    * Pollutation brought by battery
+    * Energy consumption in cellphone system
     
 
 ## 3 System Overview
