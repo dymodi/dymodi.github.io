@@ -32,6 +32,10 @@ author: Yi DING
 
 Offline data collecting is much more challenging than online data collecting due to many factors: The installation of IoT devices is time consuming and expensive; the measurements are subject to uncertainty due to sensing errors and other disturbances.
 
+Challenges:
+* Large scale deployment in the physical world (compare with smart home, )
+
+
 
 ## 3 System Overview
 

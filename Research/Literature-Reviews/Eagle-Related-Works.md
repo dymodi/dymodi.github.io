@@ -32,12 +32,16 @@ It is stated in [1] that "The installation of IoT devices is time consuming and 
 [5] introduces an integrated operating system: VITAL-OS that can work with multiple IoT scenarios to provide a unified platform to monitor, visualize, and control all the operations of in the Smart City environment.
 
 
-### iBeacon based IoT/LBS
+### BLE/iBeacon based IoT/LBS
+
+Network structure: BLE mesh network is proposed in [16] to achieve for power-limited and low-complexity IoT applications with low-priority and infrequent data traffic.
+
 As a industrial accepted protocal, current research on iBeacon mainly focus on indoor positioning and navigation [][][], occupancy detection [9] and group formations detection [10]. **Much can be done with current iBeacon system**.
 
-Other application of iBeacon are: 
+Other application of BLE/iBeacon are: 
 * Art Museum: [11], 
 * Smart home: [12], [13],
+* Smart Vehicles: [17],
 * Data gathering: [14],
 
 A very similar topic is [14], iBeacon (embedded with some other sensors) are used as sensor nodes to collect environment data such as temperature and humidity. The data gathered is  uploaded to the BigData ecosystem. However, many practical problems (deployment, data fusing, inconsistency resolving) are not handled in the paper. 
@@ -50,7 +54,9 @@ A very similar topic is [14], iBeacon (embedded with some other sensors) are use
 
 The design and implementation of a practical IoT system is described in [6]. The main function of the system is to monitor the energy consumption and environment parameters.
 
-### Secure IoT
+### Secure IoT/BLE
+It has been demonstrated in [15] that "BLE devices that relies on BLE security has weak communication security". A private-key encryption algorithm is proposed in [15] to solve the  security problem.
+
 A very impressive description of "why we need secure IoT" is provided in the [7]. The paper claims that "concern over data privacy arising from the over-centralization of IoT systems is a critical obstacle to their growth."  A local plug-in is introduced to conduct privacy protecting mechainsm before the data is upload to the cloud.
 
 The importance of IoT security is also discussed in [8] with some IoT attacks reported already. The authors also argue that conventional security technologies are not applicable in the IoT system. However, a corresponding solution is not provided in the paper.
@@ -84,3 +90,9 @@ The importance of IoT security is also discussed in [8] with some IoT attacks re
 [13] Park, M., Song, Y., Lee, J., & Paek, J. (2016, October). **Design and Implementation of a smart chair system for IoT**. In Information and Communication Technology Convergence (ICTC), 2016 International Conference on (pp. 1200-1203). IEEE.
 
 [14] Srinivasan, V. S., Kumar, T., & Yasarapu, D. K. (2016, May). **Raspberry Pi and iBeacons as environmental data monitors and the potential applications in a growing BigData ecosystem**. In Recent Trends in Electronics, Information & Communication Technology (RTEICT), IEEE International Conference on (pp. 961-965). IEEE.
+
+[15] Thomas Chiu, David Calero Luis, and Vinesh Jethva. 2017. **Internet of Things BLE Security**. In Proceedings of the 6th Annual Conference on Research in Information Technology (RIIT '17). ACM, New York, NY, USA, 37-37. DOI: https://doi.org/10.1145/3125649.3125656
+
+[16] Xiaokun Yang and Xianlong He. 2017. **Establishing a BLE mesh network with fabricated CSRmesh devices: demo abstract**. In Proceedings of the Second ACM/IEEE Symposium on Edge Computing (SEC '17). ACM, New York, NY, USA, Article 34, 2 pages. DOI: https://doi.org/10.1145/3132211.3132460
+
+[17] Afonso, J. A., Sousa, R. A., Ferreira, J. C., Monteiro, V. D. F., Pedrosa, D. D. R., & Afonso, J. L. (2017). **IoT system for anytime/anywhere monitoring and control of vehicles’ parameters**.
