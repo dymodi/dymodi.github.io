@@ -19,7 +19,7 @@ Secure IoT issues are also becoming improtant as more and more IoT devices are d
 
 ### Design Space
 <p align = "center">
-<img src="figures/design-space.png"  alt="design space">
+<img src="figures/eagle-design-space.png"  alt="design space">
 </p>
 
 ## Individual Review
