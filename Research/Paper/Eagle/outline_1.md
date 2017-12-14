@@ -33,9 +33,20 @@ author: Yi DING
 Offline data collecting is much more challenging than online data collecting due to many factors: The installation of IoT devices is time consuming and expensive; the measurements are subject to uncertainty due to sensing errors and other disturbances.
 
 Challenges:
-* Large scale deployment in the physical world (compare with smart home, )
-
-
+* Deployment in the physical world of large scale BLE-based data gathering system
+    * Large scale IoT design lacks physical world depolyment. (Proof: [][])
+    * Studies with real world deployment is small scale. (Proof: [][])
+    * Different from typical scenarios: smart home, art museum, individual mall. (Detailed description)
+* Security and privacy protection 
+    * Ubiquitous BLE beacons has the risk of revealing privacies
+    * （Similar as "Secure IoT"）
+* Data inconsistency validation and correction
+    * Pervasive "dirty" data in the real world. (More explanition.)
+    * Wrong data leads to wrong decision. (An example.)
+* Green offline data gathering
+    * "Green penalty" in the optimization problem of beacon deployment. (A advanced version of deployment strategy).
+    * "Green beacon" (energy efficient in hardware design and broadcasting?)
+    
 
 ## 3 System Overview
 
