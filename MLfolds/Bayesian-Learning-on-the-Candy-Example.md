@@ -15,13 +15,13 @@ Before we reach out to Bayesian learning. We need first review the idea of [Beya
 
 $$ p(\theta|\mathcal X)= \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)} $$
 
-$ p(\theta)= $ prior probability of hypothesis $$\theta$$
+$ p(\theta)= $ prior probability of hypothesis $\theta$
 
-$$p(\mathcal X)=$$ prior probability of training data $$\mathcal X$$
+$ p(\mathcal X)=$ prior probability of training data $\mathcal X$
 
-$$p(\theta\mid\mathcal X)=$$ probability of $$\theta$$ given $$\mathcal X$$
+$p(\theta\mid\mathcal X)=$ probability of $\theta$ given $\mathcal X$
 
-$$p(\mathcal X\mid\theta)=$$ probability of $$\mathcal X$$ given $$\theta$$
+$p(\mathcal X\mid\theta)=$ probability of $\mathcal X$ given $\theta$
 
 ## Bayesian Estimation
 Usually, we have more than one hypotheses and we want the most probable hypothesis given the training data. That is, Bayesian Estimation can help us choose an appropriate hypothesis from multiple hypotheses (in discrete hypothesis space), or compute the apporprate parameter (in continuous hypothesis space).
@@ -29,19 +29,19 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 **Maximum a posteriori (MAP)**, as its name suggests, is to estimate the parameter $$\theta$$ by maximize the posteriori $$p(\theta\mid\mathcal X)$$.
 
 \begin{align}
-\theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X) \text{argmax}_\theta p(\theta\mid\mathcal X)
+\theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X)
 \end{align}
 
 \begin{align}
-& AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \\\
-& \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta  \\\
+& AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \\
+& \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta  \\
 & \theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X)
 \end{align}
 
 
- = \text{argmax}_\theta p(\mathcal X| \theta)p(\theta)
+$$ = \text{argmax}_\theta p(\mathcal X| \theta)p(\theta) $$
 
-\\[ = \text{argmax}_\theta \frac{p(\mathcal X\mid \theta)p(\theta)}{p(\mathcal X)} \\]
+$$ = \text{argmax}_\theta \frac{p(\mathcal X\mid \theta)p(\theta)}{p(\mathcal X)} $$
 
 
 ## Basic Idea
