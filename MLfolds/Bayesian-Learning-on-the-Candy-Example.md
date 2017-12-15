@@ -17,18 +17,21 @@ $$p(\theta)=$$ prior probability of hypothesis $$\theta$$
 
 $$p(\mathcal X)=$$ prior probability of training data $$\mathcal X$$
 
-$$p(\theta\mid\mathcal X)=$$ probability of $$\theta$$ given $$\mathcal X$$
+$$p(\theta\mid\mathcalX)=$$ probability of $$\theta$$ given $$\mathcal X$$
 
-$$p(\mathcal X\mid\theta)=$$ probability of $$\mathcal X$$ given $$\theta$$
+$$p(\mathcalX\mid\theta)=$$ probability of $$\mathcal X$$ given $$\theta$$
 
 ## Bayesian Estimation
 Usually, we have more than one hypotheses and we want the most probable hypothesis given the training data. That is, Bayesian Estimation can help us choose an appropriate hypothesis from multiple hypotheses (in discrete hypothesis space), or compute the apporprate parameter (in continuous hypothesis space).
 
 **Maximum a posteriori (MAP)**, as its name suggests, is to estimate the parameter $$\theta$$ by maximize the posteriori $$p(\theta\mid\mathcal X)$$.
 
-\\[ \begin{align} \theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X) \end{align}\\]
+\\[ \begin{align} 
+\theta_{\text{MAP}} &= \text{argmax}_\theta p(\theta\mid\mathcal X)
+&= \theta \frac{p(\mathcal X\mid \theta)p(\theta)}{p(\mathcal X)}
+\end{align} \\]
 
-\\[ = \theta \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)} \\]
+ 
 
 
 
