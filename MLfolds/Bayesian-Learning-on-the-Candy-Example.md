@@ -13,7 +13,7 @@ For the Bayesian learning, Professor Arindam Banerjee has a very good example of
 Before we reach out to Bayesian learning. We need first review the idea of [Beyas Theorem](http://www.cs.cmu.edu/afs/cs/project/theo-20/www/mlbook/ch6.pdf).
 \\[ p(\theta|\mathcal X)= \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)}\\]
 
-$$p(\theta)=$$ prior probability of hypothesis $$\theta$$
+$p(\theta)=$ prior probability of hypothesis $$\theta$$
 
 $$p(\mathcal X)=$$ prior probability of training data $$\mathcal X$$
 
