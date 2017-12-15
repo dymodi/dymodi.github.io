@@ -28,12 +28,12 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 
 \\[ \begin{align} 
 \theta_{\text{MAP}} 
-&= \text{argmax}_\theta p(\theta\mid\mathcal X) \\
-&= \text{argmax}_\theta \frac{p(\mathcal X\mid \theta)p(\theta)}{p(\mathcal X)} \\
-&= \text{argmax}_\theta p(\mathcal X\mid\theta)p(\theta)
+&= \text{argmax}_\theta p(\theta\mid\mathcal X)
 \end{align} \\]
 
- 
+&= \text{argmax}_\theta \frac{p(\mathcal X\mid \theta)p(\theta)}{p(\mathcal X)} \\
+&= \text{argmax}_\theta p(\mathcal X\mid\theta)p(\theta)
+
 
 ## Basic Idea
 According to Professor Banerjee, "The Bayesian view of learning is updating probability distribution over the hypothesis space."
