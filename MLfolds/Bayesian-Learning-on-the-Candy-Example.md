@@ -31,7 +31,7 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 \end{align}
 
 \begin{align}
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \\
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \\\
 \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta 
 \end{align}
 
