@@ -16,7 +16,8 @@ header_pages:
  - MachineLearning.md
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown    # Used originally
+markdown: maruku        # Change to maruku on 12/15/17 to use mathjax
 theme: minima
 exclude:
   - Gemfile
