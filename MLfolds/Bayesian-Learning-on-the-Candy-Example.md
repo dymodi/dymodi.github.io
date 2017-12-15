@@ -3,6 +3,7 @@ layout: post
 title: Bayesian Learning on the Candy Example
 date: Dec. 15, 2017
 author: Yi DING
+use_math: true
 ---
 
 [comment]: # (Use the candy example to explain Bayesian learning)
