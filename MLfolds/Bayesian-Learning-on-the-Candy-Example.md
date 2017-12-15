@@ -32,14 +32,18 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 \theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X)
 \end{align}
 
-\begin{align}
+begin{align}
 & AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \\\
 & \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta  \\\
+\end{align}
+
+begin{align}
 & \theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X) = \text{argmax}_\theta p(\mathcal X| \theta)p(\theta)
 \end{align}
 
 
-$$ \theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X) = \text{argmax}_\theta p(\mathcal X| \theta)p(\theta) $$
+$$ \theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X) \\
+= \text{argmax}_\theta p(\mathcal X| \theta)p(\theta) $$
 
 $$ = \text{argmax}_\theta \frac{p(\mathcal X\mid \theta)p(\theta)}{p(\mathcal X)} $$
 
