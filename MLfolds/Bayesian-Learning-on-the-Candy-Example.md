@@ -28,8 +28,7 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 
 \\[ \begin{align} 
 \theta_{\text{MAP}} 
-= \text{argmax}_\theta p(\theta\mid\mathcal X) \\
-= \text{argmax}_\theta p(\mathcal X\mid\theta)p(\theta)
+= \text{argmax}_\theta p(\theta\mid\mathcal X) \\ = \text{argmax}_\theta p(\mathcal X\mid\theta)p(\theta)
 \end{align} \\]
 
 &= \text{argmax}_\theta \frac{p(\mathcal X\mid \theta)p(\theta)}{p(\mathcal X)} \\
