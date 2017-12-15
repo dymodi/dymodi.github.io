@@ -27,7 +27,8 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 **Maximum a posteriori (MAP)**, as its name suggests, is to estimate the parameter $$\theta$$ by maximize the posteriori $$p(\theta\mid\mathcal X)=$$.
 
 \\[ \theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X \\]
-\\[ = \argmax_\theta \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)} \\]
+
+\\[ = \theta \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)} \\]
 
 \begin{align}
 \end{align}
