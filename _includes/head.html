@@ -19,6 +19,7 @@
   {% include google-analytics.html %}
   {% endif %}
     
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
 </head>
