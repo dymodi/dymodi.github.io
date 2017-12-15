@@ -31,8 +31,9 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 \end{align}
 
 \begin{align}
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \\\
-\theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta 
+& AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \\\
+& \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta \theta  \\\
+& \theta_{\text{MAP}} = \text{argmax}_\theta p(\theta\mid\mathcal X)
 \end{align}
 
 
