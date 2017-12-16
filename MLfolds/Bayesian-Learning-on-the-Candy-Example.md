@@ -24,9 +24,13 @@ $p(\theta\mid\mathcal X)=$ probability of $\theta$ given $\mathcal X$
 $p(\mathcal X\mid\theta)=$ probability of $\mathcal X$ given $\theta$
 
 ## Bayesian Estimation
-Usually, we have more than one hypotheses and we want the most probable hypothesis given the training data. That is, Bayesian Estimation can help us choose an appropriate hypothesis from multiple hypotheses \(in discrete hypothesis space\), or compute the apporprate parameter \(in continuous hypothesis space\).
+Usually, we have more than one hypotheses and we want the most probable hypothesis given the training data. That is, Bayesian Estimation can help us choose an appropriate hypothesis from multiple hypotheses (in discrete hypothesis space), or compute the apporprate parameter (in continuous hypothesis space).
 
-**Maximum a posteriori (MAP)**, as its name suggests, is to estimate the parameter $\theta$ by maximize the posteriori $p(\theta |\mathcal X)$.
+**Maximum a posteriori (MAP)**, as its name suggests, is to estimate the parameter $\theta$ by maximize the posteriori .
+
+$p(\theta |\mathcal X)$
+
+(test)
 
 $$ \begin{align}
 \theta_{\text{MAP}} 
