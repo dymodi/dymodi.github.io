@@ -30,7 +30,7 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 $$ \begin{align}
 \theta_{\text{MAP}} 
 &= \text{argmax}_\theta p(\theta|\mathcal X) \\
-&= \text{argmax}_\theta p(\mathcal X| \theta)p(\theta) 
+&= \text{argmax}_\theta \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)}
 \end{align} $$
 
 
