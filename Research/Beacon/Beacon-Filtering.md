@@ -3,6 +3,7 @@ layout: post
 title: Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving
 date: June 17, 2017
 author: Yi DING
+use_math: true
 ---
 
 [comment]: # (This blog compose the SIGNAL PROCESSING or LOCALIZATION section of future paper)
