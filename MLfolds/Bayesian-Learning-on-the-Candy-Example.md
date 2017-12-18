@@ -19,9 +19,9 @@ $ p(\theta)= $ prior probability of hypothesis $\theta$
 
 $ p(\mathcal X)=$ prior probability of training data $\mathcal X$
 
-$ p(\theta|\mathcal X)= $ probability of $\theta$ given $\mathcal X$
+$ p(\theta\|\mathcal X)= $ probability of $\theta$ given $\mathcal X$
 
-$ p(\mathcal X|\theta)= $ probability of $\mathcal X$ given $\theta$
+$ p(\mathcal X\|\theta)= $ probability of $\mathcal X$ given $\theta$
 
 ## Bayesian Estimation
 Usually, we have more than one hypotheses and we want the most probable hypothesis given the training data. That is, Bayesian Estimation can help us choose an appropriate hypothesis from multiple hypotheses (in discrete hypothesis space), or compute the apporprate parameter (in continuous hypothesis space).
