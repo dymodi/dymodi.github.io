@@ -51,8 +51,8 @@ $$P(x_\text{test}|\mathcal X)=\sum_i P(x_\text{test}|h_i)P(h_i|\mathcal X)$$
 
 ## The Candy Example
 Suppose there are five kinds of bags of candies:
-10% are $$h_1$$: 100% cherry candies
-20% are $$h_2$$: 75% cherry candies + 25% lime candies 
-40% are $$h_3$$: 50% cherry candies + 50% lime candies 
-20% are $$h_4$$: 25% cherry candies + 75% lime candies 
-10% are $$h_5$$: 100% lime candies
+* 10% are $$h_1$$: 100% cherry candies
+* 20% are $$h_2$$: 75% cherry candies + 25% lime candies 
+* 40% are $$h_3$$: 50% cherry candies + 50% lime candies 
+* 20% are $$h_4$$: 25% cherry candies + 75% lime candies 
+* 10% are $$h_5$$: 100% lime candies
