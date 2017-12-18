@@ -37,10 +37,14 @@ $$ \begin{align}
 ## Basic Idea
 According to Professor Banerjee, "The Bayesian view of learning is updating probability distribution over the hypothesis space." 
 
-Here we use the following notations: $$H$$ is the hypothesis variable, values $$h_1$$, $$h_2$$, .... $$p(h_i)$$ is the prior. We can assume $$P(h_i)=P(h_j)$$ when we have no information about the prior.
+Here we use the following notations: $$H$$ is the hypothesis variable, values $$h_1$$, $$h_2$$, .... $$P(h_i)$$ is the prior. We can assume $$P(h_i)=P(h_j)$$ when we have no further information about the prior.
 
-Training data $$\mathcal X={x^1,x^2,...,x^N}$$
+Training data $$\mathcal X=\{x^1,x^2,...,x^N\}$$
 
 Given data, each hypothesis has a posterior:
 
 $$P(h_i|\mathcal X)=\alpha P(\mathcal X|h_i)P(h_i)$$
+
+For prediction, we can use a weighted average over all the hypotheses instead of picking the best-guess one:
+
+$$P(x_\text{test}|\mathcal X)=\sum_i P(x_\text{test}|h_i)P(h_i|\mathcal X)$$
