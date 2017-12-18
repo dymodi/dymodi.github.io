@@ -31,8 +31,16 @@ $$ \begin{align}
 \theta_{\text{MAP}} 
 &= \text{argmax}_\theta p(\theta|\mathcal X) \\
 &= \text{argmax}_\theta \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)}
+&= \text{argmax}_\theta p(\mathcal X|\theta)p(\theta)
 \end{align} $$
 
-
 ## Basic Idea
-According to Professor Banerjee, "The Bayesian view of learning is updating probability distribution over the hypothesis space."
+According to Professor Banerjee, "The Bayesian view of learning is updating probability distribution over the hypothesis space." 
+
+Here we use the following notations: $$H$$ is the hypothesis variable, values $$h_1$$, $$h_2$$, .... $$p(h_i)$$ is the prior. We can assume $$P(h_i)=P(h_j)$$ when we have no information about the prior.
+
+Training data $$\mathcal X={x^1,x^2,...,x^N}$$
+
+Given data, each hypothesis has a posterior:
+
+$$P(h_i|\mathcal X)=\alpha P(\mathcal X|h_i)P(h_i)$$
