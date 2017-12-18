@@ -3,7 +3,6 @@ layout: post
 title: Basic Concepts of Graph Theory
 date: Nov. 1, 2017
 author: Yi DING
-use_math: true
 ---
 [comment]: # (Some basic facts about graph theory)
 
