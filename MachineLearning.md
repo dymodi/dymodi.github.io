@@ -13,6 +13,8 @@ date: June 5, 2017
 
 [Model Evaluation](MLfolds/Model-Evaluation)
 
+[Bayesian Learning on the Candy Example](MLflods/Bayesian-Learning-on-the-Candy-Example)
+
 ## Advanced Topics
 [Multi-Label Data](MLfolds/Multi-Label)
 
