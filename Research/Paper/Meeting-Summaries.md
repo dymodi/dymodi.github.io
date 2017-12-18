@@ -24,8 +24,13 @@ author: Yi DING
 Long Term:
 Know something about what they are doing in machine learning group
 
-
 ## Progress Record
+
+12/18
+1. Eagle paper outline_1 is denied. We should not limit ourselves within the "offline data gathering" topic. We should have a more broad topic: something like "urban mobility monitoring"
+2. The design space taxonomy has two problems: (1) Not balance. The split should be something like "black and white", but not like "others work and my work". (2) There are overlaps in the spliting: methods for Wi-Fi can be used for BLE.
+3. There can be some overlaps for Eagle paper and the first paper. Data inconsistency part can be mentioned in both papers.
+
 10/24
 1. Is it possible to use Deep Reinforcement Learning in order dispatching?
 2. Rider's decision is related to both distance and order. We are building this relation.
