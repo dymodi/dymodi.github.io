@@ -30,7 +30,7 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 
 (test)
 
-\(test\)
+\ (test \ )
 
 \\(test\\)
 
