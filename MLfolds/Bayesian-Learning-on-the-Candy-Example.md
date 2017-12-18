@@ -48,3 +48,5 @@ $$P(h_i|\mathcal X)=\alpha P(\mathcal X|h_i)P(h_i)$$
 For prediction, we can use a weighted average over all the hypotheses instead of picking the best-guess one:
 
 $$P(x_\text{test}|\mathcal X)=\sum_i P(x_\text{test}|h_i)P(h_i|\mathcal X)$$
+
+## The Candy Example
