@@ -84,21 +84,6 @@ Here we compute the the posterior after each candy is drawn:
 
 0. Before any candy is drawn, the posterior is the prior:
 
-<table align="right">
-  <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
-  </tr>
-</table>
-
 |$$p(h_1\|d)$$  |$$p(h_2\|d)$$  |$$p(h_3\|d)$$  |$$p(h_4\|d)$$  |$$p(h_5\|d)$$  |
 |---            |---            |---            |---            |---            |
 |0.1            |0.2            |0.4            |0.2            |0.1            |
@@ -106,5 +91,20 @@ Here we compute the the posterior after each candy is drawn:
 
 1. After the first candy is drawn, we have:
 
-$$p(h_1|d) = \frac{p(d|h_1)p(h_1)}{p(d)} = \frac{p(d|h_1)p(h_1)}{\sum_{i=1}^{5}p(h_i)p(d|h_i)}$$
+$$p(d) = \sum_{i=1}^{5}p(h_i)p(d|h_i) = 0.1*0 + 0.2*0.25 + 0.4*0.5 + 0.25*0.75 + 0.1*1 = 0.5375$$
 
+$$p(h_1|d) = \frac{p(d|h_1)p(h_1)}{p(d)} = \frac{0*0.1}{0.5375} = 0$$
+
+$$p(h_2|d) = \frac{p(d|h_2)p(h_2)}{p(d)} = \frac{0.2*0.25}{0.5375} = 0.09$$
+
+$$p(h_3|d) = \frac{p(d|h_3)p(h_3)}{p(d)} = \frac{0.4*0.5}{0.5375} = 0.37$$
+
+$$p(h_4|d) = \frac{p(d|h_4)p(h_4)}{p(d)} = \frac{0.25*0.75}{0.5375} = 0.35$$
+
+$$p(h_5|d) = \frac{p(d|h_5)p(h_5)}{p(d)} = \frac{0.1*1}{0.5375} = 0.19$$
+
+That is:
+|$$p(h_1\|d)$$  |$$p(h_2\|d)$$  |$$p(h_3\|d)$$  |$$p(h_4\|d)$$  |$$p(h_5\|d)$$  |
+|---            |---            |---            |---            |---            |
+|0              |0.09           |0.37           |0.35           |0.19           |
+{: .tablelines}
