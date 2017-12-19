@@ -77,7 +77,7 @@ Here we compute the the posterior after each candy is drawn:
 
 1. Before any candy is drawn, the posterior is the prior:
 
-|$$p(h_1\|d)$$  |$$p(h_2\|d)$$  |
+|$$p(h_1\mid d)$$  |$$p(h_2\mid d)$$  |
 |---            |---            |
 |0.1            |0.2            |
 
