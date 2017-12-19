@@ -81,7 +81,8 @@ Here we compute the the posterior after each candy is drawn:
 |---            |---            |
 |0.1            |0.2            |
 
-|p1             |p2             |
-|---            |---            |
-|0.1            |0.2            |
+
+\|p1             \|p2             \|
+\|---            \|---            \|
+\|0.1            \|0.2            \|
 
