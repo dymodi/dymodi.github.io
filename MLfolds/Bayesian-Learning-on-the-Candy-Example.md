@@ -82,7 +82,19 @@ Here we compute the the posterior after each candy is drawn:
 |0.1            |0.2            |
 
 
-\|p1             \|p2             \|
-\|---            \|---            \|
-\|0.1            \|0.2            \|
+||p1             ||p2             ||
+||---            ||---            ||
+||0.1            ||0.2            ||
+
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
 
