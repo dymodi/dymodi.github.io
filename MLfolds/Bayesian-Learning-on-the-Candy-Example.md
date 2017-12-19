@@ -5,6 +5,12 @@ date: Dec. 15, 2017
 author: Yi DING
 ---
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
 [comment]: # (Use the candy example to explain Bayesian learning)
 
 For the Bayesian learning, Professor Arindam Banerjee has a very good example of candy bages. In this post, we use the candy example to explain and summarize Bayesian learning.
@@ -80,11 +86,12 @@ Here we compute the the posterior after each candy is drawn:
 |$$p(h_1\mid d)$$  |$$p(h_2\mid d)$$  |
 |---            |---            |
 |0.1            |0.2            |
+{: .tablelines}
 
-
-||p1             ||p2             ||
-||---            ||---            ||
-||0.1            ||0.2            ||
+|p1             |p2             |
+|---            |---            |
+|0.1            |0.2            |
+{: .tablelines}
 
 |-----------------+------------+-----------------+----------------|
 | Default aligned |Left aligned| Center aligned  | Right aligned  |
@@ -97,4 +104,4 @@ Here we compute the the posterior after each candy is drawn:
 | 2 line          |            |                 |                |
 | Footer row      |            |                 |                |
 |-----------------+------------+-----------------+----------------|
-
+{: .tablelines}
