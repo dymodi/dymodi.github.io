@@ -18,7 +18,7 @@ $$ p(\theta)= $$ prior probability of hypothesis $$\theta$$
 
 $$ p(\mathcal X)=$$ prior probability of training data $$\mathcal X$$
 
-$$ p(\theta \mid \mathcal X)= $$ probability of $$\theta$$ given $$\mathcal X$$
+$$ p(\theta \mid \mathcal X)= $$ posterior probability of $$\theta$$ given data $$\mathcal X$$
 
 $$ p(\mathcal X \mid \theta)= $$ probability of $$\mathcal X$$ given $$\theta$$
 
@@ -30,7 +30,7 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 $$ \begin{align}
 \theta_{\text{MAP}} 
 &= \text{argmax}_\theta p(\theta|\mathcal X) \\
-&= \text{argmax}_\theta \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)}
+&= \text{argmax}_\theta \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)} \\
 &= \text{argmax}_\theta p(\mathcal X|\theta)p(\theta)
 \end{align} $$
 
@@ -62,3 +62,20 @@ Suppose there are five kinds of bags of candies:
 </p>
 
 (The figure is taken from Prof. Banerjee's slides)
+
+We take one candy at each time and put the candy back. Then we have the following observations:
+
+<p align = "center">
+<img src="figures/candies-drawn.png"  alt="Candy bages">
+</p>
+
+We need to answer two questions: (1) What kind of bag is it?(Estimation) (2) What flavor will the next candy be? (Prediction)
+
+Here we compute the the posterior after each candy is drawn:
+
+(1) Before any candy is drawn, the posterior is the prior:
+
+|$$p(h_1|d)$$   |$$p(h_2|d)$$   |
+|---            |---            |
+|0.1            |0.2            |
+
