@@ -88,18 +88,8 @@ Here we compute the the posterior after each candy is drawn:
 |0.1            |0.2            |
 {: .tablelines}
 
-|p1             |p2             |
+
+|$$p(h_1 | d)$$  |$$p(h_2 | d)$$  |
 |---            |---            |
 |0.1            |0.2            |
 {: .tablelines}
-
-
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-| Footer row      |            |                 |                |
-
