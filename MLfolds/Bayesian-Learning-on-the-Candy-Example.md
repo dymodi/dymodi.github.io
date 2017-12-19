@@ -70,14 +70,14 @@ We take one candy at each time and put the candy back. Then we have the followin
 </p>
 
 We need to answer two questions: 
-(1) What kind of bag is it?(**Estimation**) 
-(2) What flavor will the next candy be? (**Prediction**)
+1. What kind of bag is it?(**Estimation**) 
+2. What flavor will the next candy be? (**Prediction**)
 
 Here we compute the the posterior after each candy is drawn:
 
-(1) Before any candy is drawn, the posterior is the prior:
+1. Before any candy is drawn, the posterior is the prior:
 
-|$p(h_1|d)$   |$p(h_2|d)$   |
+|$$p(h_1\|d)$$  |$$p(h_2\|d)$$  |
 |---            |---            |
 |0.1            |0.2            |
 
