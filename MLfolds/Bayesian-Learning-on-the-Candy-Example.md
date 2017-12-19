@@ -89,7 +89,7 @@ Here we compute the the posterior after each candy is drawn:
 {: .tablelines}
 
 
-|$$p(h_1 | d)$$  |$$p(h_2 | d)$$  |
+|$$p(h_1\|d)$$  |$$p(h_2\|d)$$  |
 |---            |---            |
 |0.1            |0.2            |
 {: .tablelines}
