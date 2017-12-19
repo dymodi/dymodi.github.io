@@ -83,10 +83,14 @@ Here we compute the the posterior after each candy is drawn:
 
 0. Before any candy is drawn, the posterior is the prior:
 
+<p align = "center">
 |$$p(h_1\|d)$$  |$$p(h_2\|d)$$  |$$p(h_3\|d)$$  |$$p(h_4\|d)$$  |$$p(h_5\|d)$$  |
 |---            |---            |---            |---            |---            |
 |0.1            |0.2            |0.4            |0.2            |0.1            |
 {: .tablelines}
+</p>
 
 1. After the first candy is drawn, we have:
+
 $$p(h_1|d) = \frac{p(d|h_1)p(h_1)}{p(d)} = \frac{p(d|h_1)p(h_1)}{\sum_{i=1}^{5}p(h_i)*p(d|h_i)}$$
+
