@@ -56,3 +56,4 @@ Suppose there are five kinds of bags of candies:
 * 40% are $$h_3$$: 50% cherry candies + 50% lime candies 
 * 20% are $$h_4$$: 25% cherry candies + 75% lime candies 
 * 10% are $$h_5$$: 100% lime candies
+
