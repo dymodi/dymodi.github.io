@@ -93,7 +93,7 @@ Here we compute the the posterior after each candy is drawn:
 |0.1            |0.2            |
 {: .tablelines}
 
-|-----------------+------------+-----------------+----------------|
+
 | Default aligned |Left aligned| Center aligned  | Right aligned  |
 |-----------------|:-----------|:---------------:|---------------:|
 | First body part |Second cell | Third cell      | fourth cell    |
@@ -103,5 +103,4 @@ Here we compute the the posterior after each candy is drawn:
 | Second body     |            |                 |                |
 | 2 line          |            |                 |                |
 | Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-{: .tablelines}
+
