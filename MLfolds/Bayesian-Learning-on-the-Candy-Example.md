@@ -36,14 +36,14 @@ Usually, we have more than one hypotheses and we want the most probable hypothes
 
 $$ \begin{align}
 \theta_{\text{MAP}} 
-&= \text{argmax}_\theta p(\theta|\mathcal X) \\
-&= \text{argmax}_\theta \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)} \\
-&= \text{argmax}_\theta p(\mathcal X|\theta)p(\theta)
+&= \text{argmax}_\theta \phantom{2} p(\theta|\mathcal X) \\
+&= \text{argmax}_\theta \phantom{2} \frac{p(\mathcal X|\theta)p(\theta)}{p(\mathcal X)} \\
+&= \text{argmax}_\theta \phantom{2} p(\mathcal X|\theta)p(\theta)
 \end{align} $$
 
 Correspondingly, the **Maximum Likelihood (ML)** is as follows:
 
-$$ \theta_{\text{ML}} = \text{argmax}_\theta p(\mathcal X|\theta) $$
+$$ \theta_{\text{ML}} = \text{argmax}_\theta \phantom{2} p(\mathcal X|\theta) $$
 
 ## Basic Idea
 According to Professor Banerjee, "The Bayesian view of learning is updating probability distribution over the hypothesis space." 
