@@ -14,7 +14,7 @@ author: Yi DING
 
 [comment]: # (Use the candy example to explain Bayesian learning)
 
-For the Bayesian learning, Professor Arindam Banerjee has a very good example of candy bages. In this post, we use the candy example to explain and summarize Bayesian learning.
+For the Bayesian learning, Professor Arindam Banerjee has a very good example of candy bages. In this post, we use the candy example to explain and summarize Bayesian learning. Related code can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/Bayesian_Learning_on_the_Candy_Example.m).
 
 ## Bayes Theorem
 Before we reach out to Bayesian learning. We need first review the idea of [Beyas Theorem](http://www.cs.cmu.edu/afs/cs/project/theo-20/www/mlbook/ch6.pdf).
@@ -80,6 +80,7 @@ We need to answer two questions:
 1. What kind of bag is it?(**Estimation**) 
 2. What flavor will the next candy be? (**Prediction**)
 
+### Estimation (Bayesian posterior updating)
 Here we compute the the posterior after each candy is drawn:
 
 Before any candy is drawn, the posterior is the prior:
@@ -130,4 +131,7 @@ The updating process can be shown in the figure below:
 <img src="figures/bayesian-updating-for-candy-bag.png"  alt="Candy bages">
 </p>
 
-Related code can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/Bayesian_Learning_on_the_Candy_Example.m).
+### Prediction
+For prediction, we use a weighted average over all the hypotheses. Before any candy is drawn, 
+
+$$ P(\text{next candy is lime} | \mathbf{d}) = \sum_{i=1}^{5} P(\text{next candy is lime} | h_i) P(h_i|\mathbf(d)) $$
