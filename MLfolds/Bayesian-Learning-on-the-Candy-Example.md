@@ -124,3 +124,10 @@ Similarly, we can have the following results:
 |9                  |0	            |0.000          |0.007          |0.130          |0.864          |
 |10                 |0	            |0.000          |0.003          |0.101          |0.896          |
 {: .tablelines}
+
+The updating process can be shown in the figure below:
+<p align = "center">
+<img src="figures/bayesian-updating-for-candy-bag.png"  alt="Candy bages">
+</p>
+
+Related code can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/Bayesian_Learning_on_the_Candy_Example.m).
