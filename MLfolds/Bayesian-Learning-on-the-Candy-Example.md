@@ -134,4 +134,15 @@ The updating process can be shown in the figure below:
 ### Prediction
 For prediction, we use a weighted average over all the hypotheses. Before any candy is drawn, 
 
-$$ P(\text{next candy is lime} | \mathbf{d}) = \sum_{i=1}^{5} P(\text{next candy is lime} | h_i) P(h_i|\mathbf(d)) $$
+$$ \begin{align}
+P(\text{next candy is lime} | \mathbf{d}) 
+    &= \sum_{i=1}^{5} P(\text{next candy is lime} | h_i) P(h_i|\mathbf{d})
+    &= 0*0.1 + 0.25*0.2 + 0.5*0.4 + 0.75*0.2 + 1*0.1 = 0.5
+\end{align} $$
+
+After the first lime candy is drawn, we have
+$$ \begin{align}
+P(\text{next candy is lime} | \mathbf{d}) 
+    &= \sum_{i=1}^{5} P(\text{next candy is lime} | h_i) P(h_i|\mathbf{d})
+    &= 0*0 + 0.25*0.1 + 0.5*0.4 + 0.75*0.3+ 1*0.2 = 0.65
+\end{align} $$
