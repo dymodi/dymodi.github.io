@@ -41,6 +41,10 @@ $$ \begin{align}
 &= \text{argmax}_\theta p(\mathcal X|\theta)p(\theta)
 \end{align} $$
 
+Correspondingly, the **Maximum Likelihood (ML)** is as follows:
+
+$$ \theta_{\text{ML}} = \text{argmax}_\theta p(\mathcal X|\theta) $$
+
 ## Basic Idea
 According to Professor Banerjee, "The Bayesian view of learning is updating probability distribution over the hypothesis space." 
 
