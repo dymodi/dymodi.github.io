@@ -15,9 +15,17 @@ $$ f(x) = \sum_{t=1}^T \alpha_t h_t (x) $$
 
 of "simple", "weak" classifiers $$h_t (x)$$
 
+Specifically, the algorithm is as follows:
+
+----
+Give: $$(x_1, y_1),...(x_m,y_m)$$
+
+
+----
 
 ## Some comments
 
+### Learning Speed
 Robert E. Schapire's [Explaining AdaBoost](http://rob.schapire.net/papers/explaining-adaboost.pdf) provides some insight on the the AdaBoost topic. As we know, the "weak learners" in AdaBoost is suppposed to be "slightly better" than random guess. Based on this assumption, called *weak learning condition*, it can be proven that training error of AdaBoost’s final hypothesis decreases to zero very rapidly; in fact, in just $$O(\log m)$$ rounds (ignoring all other parameters of the problem), the final hypothesis will perfectly fit the training set .
 
 ## Ref.
