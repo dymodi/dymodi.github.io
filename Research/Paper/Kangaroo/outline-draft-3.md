@@ -8,7 +8,9 @@ author: Yi DING
 [comment]: # (This is the outline 3 for the 2018 MobiSys paper)
 
 NOTE: This the third version of the draft.
- 
+
+NOTE: The kernel of this paper is accurate ETA of food delivery.
+
 # Time based Map and Data Inconsistency
 
 ## 1 INTRODUCTION
