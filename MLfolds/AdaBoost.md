@@ -18,7 +18,7 @@ of "simple", "weak" classifiers $$h_t (x)$$
 Specifically, the algorithm is as follows:
 
 ----
-Give: $$(x_1, y_1),...(x_m,y_m)$$
+Given: $$(x_1, y_1),...(x_m,y_m)$$ where $$x_i \in \mathscr X$$, $$y\in\{-1,+1\}$$
 
 
 ----
