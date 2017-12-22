@@ -7,7 +7,7 @@ permalink: /about/
 # Me
 
 <p align="left">
-<img src="miao.png"  alt="miao" height="100" width="100">
+<img src="../miao.png"  alt="miao" height="100" width="100">
 </p>
 
 I am currently a CS PhD student at University of Minnesota.
@@ -15,7 +15,7 @@ My resarch interests are in Smart Cities and IoT. Specifically, urban delivery a
 Here is my [CV](https://sites.google.com/site/dymodi/). You can contact me at dymodi AT gmail.
 
 <p align="left">
-<img src="MLfolds/figures/candy-bags.png"  alt="miao" height="100" width="100">
+<img src="../MLfolds/figures/candy-bags.png"  alt="miao" height="100" width="100">
 </p>
 
 # This site
