@@ -28,9 +28,18 @@ For $$t=1,...,T$$:
 * Get weak hypothesis $$h_t : \mathscr X \to \{-1, +1\}$$
 * Aim: select $$h_t$$ with low weighted error:
     
-    $$\varepsilon_t = \text{Pr}_{i\sim D_t} [h_t(x_i)\ne y_i]$$
-* Choose $$\alpha_t = \frac{1}{2} \ln \left( \frac{1-\varepsilon}{\varepsilon_t} \right)$$
+    $$ \varepsilon_t = \text{Pr}_{i\sim D_t} [h_t(x_i)\ne y_i] $$
+* Choose $$\alpha_t = \frac{1}{2} \ln \left( \frac{1-\varepsilon_t}{\varepsilon_t} \right)$$
+* Update, for $$i=1,...,m$$:
 
+    $$ D_{t+1}(i) = \frac{D_t(i)\exp (-\alpha_t y_i h_t (x_i))}{Z_t} $$
+    
+    where $$Z_t$$ is a normalization factor (chosen so that $$D_{t+1}$$ will be a distribution).
+    
+Output the final hypothesis:
+
+    $$ H(x) = \sign \left( \sum_{t=1}^T \alpha_t h_t (x) \right)$$
+    
 ----
 
 ## Some comments
