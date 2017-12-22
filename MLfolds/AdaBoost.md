@@ -29,7 +29,8 @@ For $$t=1,...,T$$:
 * Aim: select $$h_t$$ with low weighted error:
     
     $$\varepsilon_t = \text{Pr}_{i\sim D_t} [h_t(x_i)\ne y_i]$$
-* Choose $$\alpha_t = 1/2 \ln \( \frac{1-\varepsilon}{\varepsilon_t} \)$$
+* Choose $$\alpha_t = \frac{1}{2} \ln \left( \frac{1-\varepsilon}{\varepsilon_t} \right)$$
+
 ----
 
 ## Some comments
