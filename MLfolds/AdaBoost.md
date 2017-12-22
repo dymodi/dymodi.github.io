@@ -7,6 +7,8 @@ author: Yi DING
 
 [comment]: # (Some contents about AdaBoost and maybe GBDT)
 
+This post is basically based on [Explaining AdaBoost](http://rob.schapire.net/papers/explaining-adaboost.pdf).
+
 ## What is AdaBoost
 
 AdaBoost is an algorithm for constructing a ”strong” classifier as linear combination
@@ -69,3 +71,5 @@ The slides, blogs and paper below are referrd in writing this blog.
 [AdaBoost - Jiri Matas and Jan Sochman](http://www.robots.ox.ac.uk/~az/lectures/cv/adaboost_matas.pdf)
 
 [1] Freund, Y., & Schapire, R. E. (1995, March). **A desicion-theoretic generalization of on-line learning and an application to boosting**. In European conference on computational learning theory (pp. 23-37). Springer, Berlin, Heidelberg.
+
+[2] Schapire, R. E. and Freund, Y. (2012). **Boosting: Foundations and Algorithms**. MIT Press.
