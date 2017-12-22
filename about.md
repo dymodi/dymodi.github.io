@@ -5,6 +5,11 @@ permalink: /about/
 ---
 
 # Me
+
+<p align = "center">
+<img src="_includes/miao.jpg"  alt="miao" height="40" width="40">
+</p>
+
 I am currently a CS PhD student at University of Minnesota.
 My resarch interests are in Smart Cities and IoT. Specifically, urban delivery and transportation system.
 Here is my [CV](https://sites.google.com/site/dymodi/). You can contact me at dymodi AT gmail.
