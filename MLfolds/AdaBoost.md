@@ -38,7 +38,7 @@ For $$t=1,...,T$$:
     
 Output the final hypothesis:
 
-    $$ H(x) = \sign \left( \sum_{t=1}^T \alpha_t h_t (x) \right)$$
+$$ H(x) = \sign \left( \sum_{t=1}^T \alpha_t h_t (x) \right)$$
     
 ----
 
