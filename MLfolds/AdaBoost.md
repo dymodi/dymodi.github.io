@@ -11,7 +11,7 @@ author: Yi DING
 
 AdaBoost is an algorithm for constructing a ”strong” classifier as linear combination
 
-$$ f(x) = \sum_{t=1}^T \alpha_t h_t (x) $$
+$$ F(x) = \sum_{t=1}^T \alpha_t h_t (x) $$
 
 of "simple", "weak" classifiers $$h_t (x)$$
 
@@ -38,14 +38,26 @@ For $$t=1,...,T$$:
     
 Output the final hypothesis:
 
-$$ H(x) = \sign \left( \sum_{t=1}^T \alpha_t h_t (x) \right)$$
+$$ H(x) = \text{sign} \left( \sum_{t=1}^T \alpha_t h_t (x) \right)$$
     
 ----
 
 ## Some comments
 
-### Learning Speed
+### Learning speed
 Robert E. Schapire's [Explaining AdaBoost](http://rob.schapire.net/papers/explaining-adaboost.pdf) provides some insight on the the AdaBoost topic. As we know, the "weak learners" in AdaBoost is suppposed to be "slightly better" than random guess. Based on this assumption, called *weak learning condition*, it can be proven that training error of AdaBoost’s final hypothesis decreases to zero very rapidly; in fact, in just $$O(\log m)$$ rounds (ignoring all other parameters of the problem), the final hypothesis will perfectly fit the training set .
+
+### Simpler is better?
+Usually for a learned classifier to be effective and accurate in its predictions, it should meet three conditions: (1) it should have been trained on “enough” training examples; (2) it should provide a good fit to those training examples (usually meaning that it should have low training error); and (3) it should be “simple.” This last condition, our expectation that simpler rules are better, is often referred to as *Occam’s razor*.
+
+However, for boosting, something counter-intuitive happens. According to [Boosting and AdaBoost for Machine Learning - Jason Brownlee](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/), **boosting is typically resistance to overfitting**, although overfitting *can* happen in boosting.
+
+One of the explanation is *Margin*, a variable to measure the confidence of the model. Margin can be computed as the differences in the voting process in forming $$H$$, a vote a conducted among weak learners. 
+
+###  Loss minimization
+AdaBoost can be understood as a procedure for greedily minimizing what has come to be called the *exponential loss*, namely,
+
+$$\frac{1}{m} \sum_{i=1}^m \exp \left( -y_i F(x_i) \right)$$
 
 ## Ref.
 The slides, blogs and paper below are referrd in writing this blog.
