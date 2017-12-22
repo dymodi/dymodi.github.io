@@ -20,6 +20,14 @@ Specifically, the algorithm is as follows:
 ----
 Given: $$(x_1, y_1),...(x_m,y_m)$$ where $$x_i \in \mathscr X$$, $$y\in\{-1,+1\}$$
 
+Initialize: $$D_1(i)=1/m$$ for $$i=1,...,m$$.
+
+For $$t=1,...,T$$:
+
+* Train weak learner using distribution $$D_t$$.
+* Get weak hypothesis $$h_t : \mathscr X \to \{-1, +1\}$$
+* Aim: select $$h_t$$ with low weighted error:
+    $$\eta_t = \text{Pr}_{i\sim D_t} [h_t(x_i)\ne y_i]$$
 
 ----
 
