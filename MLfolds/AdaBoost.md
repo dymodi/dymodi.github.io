@@ -27,8 +27,9 @@ For $$t=1,...,T$$:
 * Train weak learner using distribution $$D_t$$.
 * Get weak hypothesis $$h_t : \mathscr X \to \{-1, +1\}$$
 * Aim: select $$h_t$$ with low weighted error:
-    $$\eta_t = \text{Pr}_{i\sim D_t} [h_t(x_i)\ne y_i]$$
-
+    
+    $$\varepsilon_t = \text{Pr}_{i\sim D_t} [h_t(x_i)\ne y_i]$$
+* Choose $$\alpha_t = 1/2 \ln \( \frac{1-\varepsilon}{\varepsilon_t} \)$$
 ----
 
 ## Some comments
