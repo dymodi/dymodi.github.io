@@ -7,7 +7,7 @@ permalink: /about/
 # Me
 
 <p align = "center">
-<img src="_includes/miao.png"  alt="miao" height="40" width="40" align="left">
+<img src="miao.png"  alt="miao" height="40" width="40" align="left">
 </p>
 
 I am currently a CS PhD student at University of Minnesota.
