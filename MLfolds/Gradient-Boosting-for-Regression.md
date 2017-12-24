@@ -51,7 +51,7 @@ Gradient descent is a numerical way to minimize the function towards the negetiv
 $$\theta _i := \theta _i - \rho \frac{\partial J}{\partial \theta _i}$$
 
 <p align = "center">
-<img src="figures/gradient-descent.png"  alt="Gradient Descent">
+<img src="figures/gradient-descent.png"  alt="Gradient Descent" width="40">
 </p>
 
 
