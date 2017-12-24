@@ -25,8 +25,17 @@ Suppose you are playing a game. You are given $$(x_1, y_1),(x_2, y_2), ...,(x_n,
 
 Suppose your friend wants to help you and gives you a model $$F$$. You check his model and find the model is good but not perfect.
 
-There are some mistakes: $$F(x_1) = 0.8, while y_1 = 0.9$$, and $$F(x_2) = 1.4$$ while $$y_2 = 1.3$$... How can you improve this model?
+There are some mistakes: $$F(x_1) = 0.8$$, while $$y_1 = 0.9$$, and $$F(x_2) = 1.4$$ while $$y_2 = 1.3$$... How can you improve this model?
 
+A simple solution is to fit an additional regression model $$h(x)$$ so that
+
+$$F(x_1)+h(x_1) = y_1$$
+
+$$F(x_2)+h(x_2) = y_2$$
+
+...
+
+$$F(x_n)+h(x_n) = y_2$$
 
 ## Ref.
 
