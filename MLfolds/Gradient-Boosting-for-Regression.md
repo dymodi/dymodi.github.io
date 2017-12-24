@@ -21,6 +21,8 @@ Both high-weight data points and gradients tell us how to improve our model.
 ## How to understand Gradient Boosting
 I found an example from [A Gentle Introduction to Gradient Boosting - Cheng Li](http://www.chengli.io/tutorials/gradient_boosting.pdf) quite straightforward and I will borrow it here.
 
+### Additional model $$h$$
+
 Suppose you are playing a game. You are given $$(x_1, y_1),(x_2, y_2), ...,(x_n, y_n)$$, and the task is to fit a model $$F(x)$$ to minimize square loss.
 
 Suppose your friend wants to help you and gives you a model $$F$$. You check his model and find the model is good but not perfect.
@@ -33,9 +35,18 @@ $$F(x_1)+h(x_1) = y_1$$
 
 $$F(x_2)+h(x_2) = y_2$$
 
-...
+$$...$$
 
 $$F(x_n)+h(x_n) = y_2$$
+
+That is, we want to fit a regression model $$h(x)$$ to the data 
+
+$$(x_1, y_1-F(x_1)),(x_2, y_2-F(x_2)), ...,(x_n, y_n-F(x_n))$$
+
+Here $$y_i-F(x_i)$$ is called **residuals**. These are the parts that existing model $$F$$ cannot do well. The role of $$h$$ is to compensate the shortcoming of existing model $$F$$.
+
+### Gradient Descent
+Gradient descent is a numerical way to minimize the function towards the negetive gradient direction
 
 ## Ref.
 
