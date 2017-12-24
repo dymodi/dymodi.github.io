@@ -46,7 +46,16 @@ $$(x_1, y_1-F(x_1)),(x_2, y_2-F(x_2)), ...,(x_n, y_n-F(x_n))$$
 Here $$y_i-F(x_i)$$ is called **residuals**. These are the parts that existing model $$F$$ cannot do well. The role of $$h$$ is to compensate the shortcoming of existing model $$F$$.
 
 ### Gradient Descent
-Gradient descent is a numerical way to minimize the function towards the negetive gradient direction
+Gradient descent is a numerical way to minimize the function towards the negetive gradient direction.
+
+$$\theta _i := \theta _i - \rho \frac{\partial J}{\partial \theta _i}$$
+
+<p align = "center">
+<img src="figures/gradient-descent.png"  alt="Gradient Descent">
+</p>
+
+
+
 
 ## Ref.
 
