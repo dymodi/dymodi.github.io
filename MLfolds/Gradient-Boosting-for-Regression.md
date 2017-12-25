@@ -83,12 +83,24 @@ F(x_i) &:= F(x_i) - 1\frac{\partial J}{\partial F(x_i)} \\
 that is, we are using the following equivalence relation：
 
 $$ \begin{align}
-\text{residual} &\Leftrightarrow \text{negative gradient}
-\text{fit} h \text{to residual} &\Leftrightarrow \text{fit} h \text{to negative gradient}
-\text{update} F \text{based on residual} &\Leftrightarrow \text{update} F \text{based on negative gradient}
+\text{residual} &\Leftrightarrow \text{negative gradient} \\
+\text{fit } h \text{ to residual} &\Leftrightarrow \text{fit } h \text{ to negative gradient} \\
+\text{update } F \text{ based on residual} &\Leftrightarrow \text{update } F \text{ based on negative gradient}
 \end{align} $$
 
+Now we have an algorithm of gradient boosting for regression:
 
+----
+Start with an initial model $$F(x)$$
+Iterate until converge:
+* Calculate negetive gradients $$-g(x_i) = \frac{\partial L(y_i,F(x_i))}{\partial F(x_i)}$$
+* Fit a regression model $$h$$ to negetive gradients $$-g(x_i)$$
+* $$F := F + \rho h$$ where $$\rho = 1$$
+
+----
+The benefit of formulating this algorithm using gradients is that it allows us to consider other loss functions and derive the corresponding algorithms in the same way.
+
+One reason to consider other loss functions instead of squared loss is that it's **not robust to outliers**.
 
 ## Ref.
 
