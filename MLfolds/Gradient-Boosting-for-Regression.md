@@ -51,7 +51,7 @@ Gradient descent is a numerical way to minimize the function towards the negetiv
 $$\theta _i := \theta _i - \rho \frac{\partial J}{\partial \theta _i}$$
 
 <p align = "center">
-<img src="figures/gradient-descent.png"  alt="Gradient Descent" width="100">
+<img src="figures/gradient-descent.png"  alt="Gradient Descent" width="150">
 </p>
 
 If we choose the squared error as loss function:
@@ -65,6 +65,20 @@ $$J = \sum _i L(y_i,F(x_i))$$
 If we look $$F(x_i)$$ as variables and take derivatives
 
 $$\frac{\partial J}{\partial F(x_i)} = \frac{\partial \sum _i L(y_i,F(x_i))}{\partial F(x_i)} = \frac{\partial L(y_i,F(x_i))}{\partial F(x_i)} = F(x_i) - y_i$$
+
+Hence residuals can be interpreted as negative gradients:
+
+$$y_i - F(x_i) = - \frac{\partial J}{\partial F(x_i)}$$
+
+## Gradient Boosting
+In boosting, we update $$F(x)$$ with additional $$h(x)$$, that is 
+
+$$ \begin{align}
+F(x_i) &:= F(x_i) + h(x_i) \\
+F(x_i) &:= F(x_i) + y_i - F(x_i) \\
+F(x_i) &:= F(x_i) - 1\frac{\partial J}{\partial F(x_i)} \\
+\theta _i &:= \theta _i - \rho \frac{\partial J}{\partial \theta _i}
+\end{align} $$
 
 
 
