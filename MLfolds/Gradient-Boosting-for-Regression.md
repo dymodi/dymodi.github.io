@@ -100,7 +100,13 @@ Iterate until converge:
 ----
 The benefit of formulating this algorithm using gradients is that it allows us to consider other loss functions and derive the corresponding algorithms in the same way.
 
-One reason to consider other loss functions instead of squared loss is that it's **not robust to outliers**.
+One reason to consider other loss functions instead of squared loss is that it's **not robust to outliers**. Other loss functions, such as *absolute loss* and *Huber loss* are more robust to outliers.
+
+A summary of different loss functions and related boosting can be found in [Machine Learning - A Probabilistic Perspective - Kevin P. Murphy](http://dsd.future-lab.cn/members/2015nlp/Machine_Learning.pdf)
+
+<p align = "center">
+<img src="figures/boosting-loss-functions.png"  alt="Boosting Algorithms">
+</p>
 
 ## Ref.
 

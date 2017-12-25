@@ -16,7 +16,9 @@ date: June 5, 2017
 [Bayesian Learning on the Candy Example](MLfolds/Bayesian-Learning-on-the-Candy-Example)
 
 ## GBDT (Gradient Boosting Decision Tree)
-[AdaBoost](https://dymodi.github.io/MLfolds/AdaBoost)
+[AdaBoost](MLfolds/AdaBoost)
+
+[Gradient Boosting for Regression](MLfolds/Gradient-Boosting-for-Regression)
 
 ## Advanced Topics
 [Multi-Label Data](MLfolds/Multi-Label)

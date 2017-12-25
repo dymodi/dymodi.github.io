@@ -1,3 +1,6 @@
+Books
+[Machine Learning - A Probabilistic Perspective](http://dsd.future-lab.cn/members/2015nlp/Machine_Learning.pdf)
+
 Online Courses:
 
 [Deep Reinforcement Learning, Berkeley](http://rll.berkeley.edu/deeprlcourse/)
