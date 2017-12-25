@@ -51,7 +51,7 @@ Gradient descent is a numerical way to minimize the function towards the negetiv
 $$\theta _i := \theta _i - \rho \frac{\partial J}{\partial \theta _i}$$
 
 <p align = "center">
-<img src="figures/gradient-descent.png"  alt="Gradient Descent" width="150">
+<img src="figures/gradient-descent.png"  alt="Gradient Descent" width="200">
 </p>
 
 If we choose the squared error as loss function:
@@ -80,7 +80,13 @@ F(x_i) &:= F(x_i) - 1\frac{\partial J}{\partial F(x_i)} \\
 \theta _i &:= \theta _i - \rho \frac{\partial J}{\partial \theta _i}
 \end{align} $$
 
+that is, we are using the following equivalence relation：
 
+$$ \begin{align}
+\text{residual} &\Leftrightarrow \text{negative gradient}
+\text{fit} h \text{to residual} &\Leftrightarrow \text{fit} h \text{to negative gradient}
+\text{update} F \text{based on residual} &\Leftrightarrow \text{update} F \text{based on negative gradient}
+\end{align} $$
 
 
 
