@@ -17,6 +17,8 @@ According to [Frost's blog](http://blog.minitab.com/blog/adventures-in-statistic
 
 **Coefficient of Determination ($$R^2$$)**
 
+$$R^2$$ is number between 0 and 1, usually we think the higher the better.
+
 According to [Frost's blog](http://blog.minitab.com/blog/adventures-in-statistics-2/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit), 
 
 R-squared = Explained variation / Total variation
@@ -28,10 +30,11 @@ R-squared = Explained variation / Total variation
 where $$SS_\text{tot} = \sum_i (y_i - \bar y)^2$$ 
 
 
-Quantile-Quantile Plot
 
-gini，
+**Quantile-Quantile Plot**
 
-auc，
+**gini**
 
-aic
+**auc**
+
+**aic**
