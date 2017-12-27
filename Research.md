@@ -7,7 +7,7 @@ date: June 9, 2017
 # Research topics
 
 ## Beacons
-[Related Works of Beacon Based Indoor Localization](Research/Beacon/Beacon-Localization-Related-Works) 
+[Related Works of Beacon Based Indoor Localization](Research/Literature-Reviews/Beacon-Localization-Related-Works) 
 
 [Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon/Beacon-Filtering) 
 
@@ -15,4 +15,4 @@ date: June 9, 2017
 
 
 ## Data Mining
-[Related Works of Data Inconsistency](Research/Data-Mining/Data-Inconsistency-Related-Works)
+[Related Works of Data Inconsistency](Research/Literature-Reviews/Data-Inconsistency-Related-Works)
