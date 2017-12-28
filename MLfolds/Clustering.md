@@ -26,3 +26,19 @@ As we might have know, clustering is categorize the samples into some parts whil
 {: .tablelines}
 
 An interesting comment from Cosma Shalizi is that "The point being, even when you have what you are *told* is a supervised learning problem with labeled data, it can be worth treating it as unsupervised learning problem." He has some very impressive reasons for doing so.
+
+## The $$k$$-means algorithm
+A simple frame of the $$k$$-means algorithm is shown as follows:
+
+----
+1. Guess the number of clusters, $$k$$
+2. Guess the location of cluster means
+3. Assign each point to the nearest mean
+4. Re-compute the mean for each cluster
+5. If the means are unchanged, exit; otherwise go back to (3)
+
+----
+
+The objective function for $$k$$-means is the **sum-of-squares** for the clusters:
+
+$$SS \equiv \sum_C \sum_{i\inC} \parallel x_i - m_C\parallel ^2$$
