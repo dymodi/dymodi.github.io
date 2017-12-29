@@ -60,10 +60,10 @@ That is, $$k$$-means want to minimize the within-cluster variance times the clus
 ## Hierarchical clustering
 As its name suggests, instead of giving a *flat* partition as $$k$$-means, hierarchical clustering can give us a more organized ourput like a tree.
 
-### War’ds method
+### Ward's method
 **Ward’s method** is another algorithm for finding a partition with small sum of squares. Instead of starting with a large sum of squares and reducing it, you start with a small sum of squares (by using lots of clusters) and then increasing it.
 
-A simple frame of War’ds method is shown as follows:
+A simple frame of Ward’s method is shown as follows:
 
 ----
 1. Start with each point in a cluster by itself (sum of squares = 0).
@@ -74,6 +74,34 @@ A simple frame of War’ds method is shown as follows:
 
 The merging cost is the increase in sum of squares when you merge two clusters ($$A$$ and $$B$$, say), and has a simple formula:
 
-$$\Delta(A,B) = \sum_{i\in A \cup B} \parallel x_i - m_{A\} \parallel $$
+$$ \begin{align}
+\Delta(A,B) &= \sum_{i\in A \cup B} \parallel x_i - m_{A \cup B} \parallel ^2 
+             - \sum_{i\in A} \parallel x_i - m_A\parallel ^2 
+             - \sum_{i\in B} \parallel x_i - m_B\parallel ^2 \\
+            &= \frac{n_A n_B}{n_A + n_B} \parallel m_A - m_B \parallel ^2
+\end{\align} $$
 
 ### Single-link algorithm
+A simple frame of single-link method is shown as follows:
+
+----
+1. Start with each point in a cluster by itself (sum of squares = 0).
+2. Merge the two clusters with smallest gap (distance between the two closest points)
+3. Keep merging until you’ve reached $$k$$ clusters.
+
+----
+
+It’s called “single link” because it will merge clusters so long as any two points in them are close (i.e., there is one link).
+This algorithm only wants separation, and doesn’t care about compactness or balance, which can lead to new problems.
+
+The following are some cases where single-link method outperforms $$k$$-means and Ward's method. (Figure comes from [Lecture 6: Partitioning Data into Clusters, Finding Categories in Data - Cosma Shalizi](http://www.stat.cmu.edu/~cshalizi/350-2006/lecture-06.pdf)).
+
+<p align = "center">
+<img src="figures/single-link-better.png"  alt="Boosting Algorithms">
+</p>
+
+The following are some cases where single-link method is worse than $$k$$-means and Ward's method. (Figure comes from [Lecture 6: Partitioning Data into Clusters, Finding Categories in Data - Cosma Shalizi](http://www.stat.cmu.edu/~cshalizi/350-2006/lecture-06.pdf)).
+
+<p align = "center">
+<img src="figures/single-link-worse.png"  alt="Boosting Algorithms">
+</p>
