@@ -79,7 +79,12 @@ $$ \begin{align}
              - \sum_{i\in A} \parallel x_i - m_A\parallel ^2 
              - \sum_{i\in B} \parallel x_i - m_B\parallel ^2 \\
             &= \frac{n_A n_B}{n_A + n_B} \parallel m_A - m_B \parallel ^2
-\end{\align} $$
+\end{align} $$
+
+$$ \begin{align}
+\Delta(A,B) 
+\end{align} $$
+
 
 ### Single-link algorithm
 A simple frame of single-link method is shown as follows:
