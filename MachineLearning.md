@@ -15,6 +15,9 @@ date: June 5, 2017
 
 [Bayesian Learning on the Candy Example](MLfolds/Bayesian-Learning-on-the-Candy-Example)
 
+## Unsupervised Learning
+[Clustering](MLfolds/Clustering)
+
 ## GBDT (Gradient Boosting Decision Tree)
 [AdaBoost](MLfolds/AdaBoost)
 
