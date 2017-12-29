@@ -16,7 +16,7 @@ author: Yi DING
 
 This post is based on the content from [Lecture 6: Partitioning Data into Clusters, Finding Categories in Data - Cosma Shalizi](http://www.stat.cmu.edu/~cshalizi/350-2006/lecture-06.pdf)
 
-As we might have know, clustering is categorize the samples into some parts while we **do not** know the labels initially. Learning problems can be divided into three categories as follows:
+As we might have know, clustering is to categorize the samples into some parts while we **do not** know the labels initially. Learning problems can be divided into three categories as follows:
 
 |Known classes? |Class labels           |Type of learning problem           |
 |---            |---                    |---                                |
@@ -41,4 +41,39 @@ A simple frame of the $$k$$-means algorithm is shown as follows:
 
 The objective function for $$k$$-means is the **sum-of-squares** for the clusters:
 
-$$SS \equiv \sum_C \sum_{i\inC} \parallel x_i - m_C\parallel ^2$$
+$$ SS \equiv \sum_C \sum_{i\in C} \parallel x_i - m_C\parallel ^2 $$
+
+$$ m_C \equiv \frac{1}{n_C} \sum_{i \in C} x_i $$
+
+$$m_C$$ is the mean for cluster $$C$$, and $$n_C$$ is the number of points in that cluster.
+
+The **within-cluster variance** for cluster $$C$$ is
+
+$$ V_C \equiv \frac{1}{n_C} \sum_{i\in C} \parallel x_i - m_C\parallel ^2 $$
+
+so
+
+$$ SS \equiv \sum_C n_C V_C $$
+
+That is, $$k$$-means want to minimize the within-cluster variance times the cluster size, summed over clusters. Each step of $$k$$-means reduces the sum-of-squares. The sum-of-squares is always positive. Therefore $$k$$-means must eventually stop, no matter where it was started. However, it may not stop at the best solution. That is, $$k$$-means is a $$local search$$ algorithm.
+
+## Hierarchical clustering
+As its name suggests, instead of giving a *flat* partition as $$k$$-means, hierarchical clustering can give us a more organized ourput like a tree.
+
+### War’ds method
+**Ward’s method** is another algorithm for finding a partition with small sum of squares. Instead of starting with a large sum of squares and reducing it, you start with a small sum of squares (by using lots of clusters) and then increasing it.
+
+A simple frame of War’ds method is shown as follows:
+
+----
+1. Start with each point in a cluster by itself (sum of squares = 0).
+2. Merge two clusters, in order to produce the smallest increase in the sum of squares (the smallest merging cost).
+3. Keep merging until you’ve reached $$k$$ clusters.
+
+----
+
+The merging cost is the increase in sum of squares when you merge two clusters ($$A$$ and $$B$$, say), and has a simple formula:
+
+$$\Delta(A,B) = \sum_{i\in A \cup B} \parallel x_i - m_{A\} \parallel $$
+
+### Single-link algorithm
