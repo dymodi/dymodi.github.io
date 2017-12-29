@@ -81,11 +81,6 @@ $$ \begin{align}
             &= \frac{n_A n_B}{n_A + n_B} \parallel m_A - m_B \parallel ^2
 \end{align} $$
 
-$$ \begin{align}
-\Delta(A,B) 
-\end{align} $$
-
-
 ### Single-link algorithm
 A simple frame of single-link method is shown as follows:
 
