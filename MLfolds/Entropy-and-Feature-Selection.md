@@ -33,3 +33,7 @@ $$H[C] = - \sum _c \text{Pr} (C = c) \log _2 \text{Pr} (C = c)$$
 If we have some observation $$x$$ of the feature of the feature $$X$$, the uncertainty will change based on Bayes' Rule:
 
 $$\text{Pr}(C = c | X = x) = \frac{\text{Pr}(C=c, X=x)}{\text{Pr}(X=x)} = \frac{\text{Pr}(X=x|C=c)}{\text{Pr}(X=x)}\text{Pr}(C=c) $$
+
+Hence, the uncertainty about $$C$$ is going to change and be given by the **conditional entropy**:
+
+$$H[C] = - \sum _c \text{Pr} (C = c) \log _2 \text{Pr} (C = c)$$
