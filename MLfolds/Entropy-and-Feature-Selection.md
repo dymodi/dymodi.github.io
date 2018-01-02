@@ -20,6 +20,16 @@ $$I(x) = -\log _b p(x)$$
 
 when $$b=2$$, $$I(x)$$ has the unit *bit*. 
 
-Entropy is the variable to define the uncertainty of an event (or a set of features):
+Entropy is the variable to define the uncertainty of an event (or a set of features) $$X$$:
 
 $$H[X] = - \sum _x \text{Pr} (X = x) \log _2 \text{Pr} (X = x)$$
+
+
+## Feature Selection
+In machine learning, the uncertainty about the class $$C$$, in the absence of any other information, is just the entropy of $$C$$:
+
+$$H[C] = - \sum _c \text{Pr} (C = c) \log _2 \text{Pr} (C = c)$$
+
+If we have some observation $$x$$ of the feature of the feature $$X$$, the uncertainty will change based on Bayes' Rule:
+
+$$\text{Pr}(C = c | X = x) = \frac{\text{Pr}(C=c, X=x)}{\text{Pr}(X=x)} = \frac{\text{Pr}(X=x|C=c)}{\text{Pr}(X=x)}\text{Pr}(C=c) $$
