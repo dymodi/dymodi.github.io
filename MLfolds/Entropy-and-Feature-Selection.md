@@ -36,4 +36,7 @@ $$\text{Pr}(C = c | X = x) = \frac{\text{Pr}(C=c, X=x)}{\text{Pr}(X=x)} = \frac{
 
 Hence, the uncertainty about $$C$$ is going to change and be given by the **conditional entropy**:
 
-$$H[C] = - \sum _c \text{Pr} (C = c) \log _2 \text{Pr} (C = c)$$
+$$H[C|X=x] = - \sum _c \text{Pr} (C = c | X = c) \log _2 \text{Pr} (C = c | X = x)$$
+
+The difference in entropies is how much uncertainty about $$C$$ is changed after seeing $$X = x$$. This change in uncertainty is also **information**:
+
