@@ -9,7 +9,7 @@ author: Yi DING
 
 NOTE: This the third version of the draft.
 
-NOTE: The kernel of this paper is accurate ETA of food delivery, or specifically, accurate travelling time and staying time estimate between restaurants.
+NOTE: The kernel of this paper is accurate ETA (Estimated Time of Arrival) of food delivery, or specifically, accurate travelling time and staying time estimate between restaurants.
 
 Key points:
 1. Rider arrival and stay detection using beacons.
@@ -17,7 +17,7 @@ Key points:
 3. Rider behavior prediction using bayesian.
 
 
-# Time based Map and Data Inconsistency
+# Octopus: Accurate Time Estimation in Food Delivery System
 
 ## 1 INTRODUCTION
 
