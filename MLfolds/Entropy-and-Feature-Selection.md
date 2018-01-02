@@ -22,4 +22,4 @@ when $$b=2$$, $$I(x)$$ has the unit *bit*.
 
 Entropy is the variable to define the uncertainty of an event (or a set of features):
 
-$$H\[X\] = - \sum _x \text{Pr} (X = x) \log _2 \text{Pr} (X = x)$$
+$$H[X] = - \sum _x \text{Pr} (X = x) \log _2 \text{Pr} (X = x)$$
