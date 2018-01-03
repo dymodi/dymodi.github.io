@@ -14,6 +14,7 @@ author: Yi DING
 ## 辅助内容
 1. 饿了么时间预估组做的表：dw_ai.dw_aly_t_model_4_3_feature_v5。这个表里有超过100个特征，每天大概有200万单用这100个特征进行了估计。
 相应特征的说明在[这里](http://wiki.ele.to:8090/pages/viewpage.action?pageId=42938953)
+
 这个表提供了两个重要内容：
     1. 按单汇总了特征；
     2. 提供了比较的baseline；
@@ -25,3 +26,5 @@ where dt = get_date(-1)
 order by rand()
 limit 100
 ```
+但是发现有几个问题需要咨询一下刘成亮：
+    1. order_price 一项的值都在1.0左右，是不是经过归一化。（其实用单号可以查到订单价格）。
