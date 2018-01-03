@@ -28,3 +28,11 @@ limit 100
 ```
 但是发现有几个问题需要咨询一下刘成亮：
     1. order_price 一项的值都在1.0左右，是不是经过归一化。（其实用单号可以查到订单价格）。
+    
+    
+2. 在Architecture一章下放"Feature Engineering"和"Model Design"两个小节似乎是个不错的方法，具体可参照蚂蚁金服的文章[1]。
+
+
+
+## Ref.
+[1] Longfei Li, Jun Zhou, Xiaolong Li, and Tao Chen. 2017. POSTER: Practical Fraud Transaction Prediction. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (CCS '17). ACM, New York, NY, USA, 2535-2537. DOI: https://doi.org/10.1145/3133956.3138826
