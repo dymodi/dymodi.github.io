@@ -114,14 +114,16 @@ on t01.target_id = t02.carrier_driver_id;
 ---- Get a sequence of rider's behavior
 drop table if exists temp.temp_beacon_rider_event_sequence;
 create table temp.temp_beacon_rider_event_sequence as
-select t01.target_id, t02.tracking_id, t02.ocurred_time as occurred_at, 
+select t01.target_id, t02.platform_merchant_id as shop_id, 
+t02.tracking_id, t02.ocurred_time as occurred_at, 
 (case when t02.shipping_state = 80 then 'arrive' 
 	when t02.shipping_state = 30 then 'pick' 
 	when t02.shipping_state = 40 then 'deliver' 
 	else 'null' end) as event, 
 t03.shop_latitude as shop_latitude, t03.shop_longitude as shop_longitude,
 t02.latitude as rider_latitude, t02.longitude as rider_longitude,
-t04.user_latitude as customer_latitude, t04.user_longitude as customer_longitude
+t04.user_latitude as customer_latitude, t04.user_longitude as customer_longitude,
+row_number() over (partition by t01.target_id order by t02.ocurred_time) as rn
 from (
 	select distinct target_id
 	from temp.temp_beacon_high_power_order_time_map
@@ -149,6 +151,21 @@ join (
 ) t04
 on t02.tracking_id = t04.tracking_id
 
+
+---- Get rider's feature between shops from rider_event_sequence table
+drop table if exists temp.temp_beacon_rider_eta_between_shops;
+create table temp.temp_beacon_rider_eta_between_shops as
+select t01.target_id, t01.from_shop_id, t01.from_shop_at, t01.to_shop_id, t01.to_shop_at
+from (
+	select target_id, 
+	LAG (shop_id, 1) OVER (PARTITION by target_id ORDER BY rn) as from_shop_id,
+	LAG (occurred_at, 1) OVER (PARTITION by target_id ORDER BY rn) as from_shop_at,
+	shop_id as to_shop_id, occurred_at as to_shop_at
+	from temp.temp_beacon_rider_event_sequence
+	where LAG (shop_id, 1) OVER (PARTITION by target_id ORDER BY rn) <> shop_id 
+	and LAG (event, 1) OVER (PARTITION by target_id ORDER BY rn) <> 'deliver'
+	and LAG (target_id, 1) OVER (PARTITION by target_id ORDER BY rn) = target_id
+) t01
 
 
 
