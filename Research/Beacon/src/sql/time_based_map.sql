@@ -3,33 +3,6 @@
 ---- 10/16/17
 
 
----- Get batch information for all beacon riders
-drop table if exists temp.temp_beacon_rider_batch;
-create table temp.temp_beacon_rider_batch as
-select t01.target_id, t02.tracking_id, t02.arrived_at, t02.delivered_at
-from (
-	select distinct target_id
-	from temp.temp_beacon_high_power_order_time_map
-	where target_id <> 0
-) t01
-join (
-	select t03.tracking_id, t03.carrier_driver_id, t03.arrived_at, t04.delivered_at
-	from (
-		select distinct tracking_id, carrier_driver_id, ocurred_time as arrived_at, ocurred_time
-		from dw.dw_tms_tb_tracking_event
-		where dt = get_date(-1) and ocurred_time is not null and carrier_driver_id is not null
-		and ocurred_time > get_date(-2) and carrier_driver_id <>'' and shipping_state = 80
-		) t03
-	join (
-		select distinct tracking_id, carrier_driver_id, ocurred_time as delivered_at, ocurred_time
-		from dw.dw_tms_tb_tracking_event
-		where dt = get_date(-1) and ocurred_time is not null and carrier_driver_id is not null
-		and ocurred_time > get_date(-2) and carrier_driver_id <>'' and shipping_state = 40
-		) t04 
-	on t03.tracking_id = t04.tracking_id and t03.carrier_driver_id = t04.carrier_driver_id
-) t02
-on t01.target_id = t02.carrier_driver_id;
-
 ---- Here we compute the distance and time delta from raw data table
 ---- Select data that power is strong enough
 drop table if exists temp.temp_beacon_high_power_order_time_map;
@@ -108,3 +81,76 @@ create table temp.temp_beacon_time_map_shop_shop_edge_data as
 		limit 1
 	) t02
 	on get_date(t01.created_at) = get_date(t02.date_full);
+
+
+---- Get batch information for all beacon riders
+drop table if exists temp.temp_beacon_rider_batch;
+create table temp.temp_beacon_rider_batch as
+select t01.target_id, t02.tracking_id, t02.arrived_at, t02.delivered_at
+from (
+	select distinct target_id
+	from temp.temp_beacon_high_power_order_time_map
+	where target_id <> 0
+) t01
+join (
+	select t03.tracking_id, t03.carrier_driver_id, t03.arrived_at, t04.delivered_at
+	from (
+		select distinct tracking_id, carrier_driver_id, ocurred_time as arrived_at, ocurred_time
+		from dw.dw_tms_tb_tracking_event
+		where dt = get_date(-1) and ocurred_time is not null and carrier_driver_id is not null
+		and ocurred_time > get_date(-2) and carrier_driver_id <>'' and shipping_state = 80
+		) t03
+	join (
+		select distinct tracking_id, carrier_driver_id, ocurred_time as delivered_at, ocurred_time
+		from dw.dw_tms_tb_tracking_event
+		where dt = get_date(-1) and ocurred_time is not null and carrier_driver_id is not null
+		and ocurred_time > get_date(-2) and carrier_driver_id <>'' and shipping_state = 40
+		) t04 
+	on t03.tracking_id = t04.tracking_id and t03.carrier_driver_id = t04.carrier_driver_id
+) t02
+on t01.target_id = t02.carrier_driver_id;
+
+
+---- Get a sequence of rider's behavior
+drop table if exists temp.temp_beacon_rider_event_sequence;
+create table temp.temp_beacon_rider_event_sequence as
+select t01.target_id, t02.tracking_id, t02.ocurred_time as occurred_at, 
+(case when t02.shipping_state = 80 then 'arrive' 
+	when t02.shipping_state = 30 then 'pick' 
+	when t02.shipping_state = 40 then 'deliver' 
+	else 'null' end) as event, 
+t03.shop_latitude as shop_latitude, t03.shop_longitude as shop_longitude,
+t02.latitude as rider_latitude, t02.longitude as rider_longitude,
+t04.user_latitude as customer_latitude, t04.user_longitude as customer_longitude
+from (
+	select distinct target_id
+	from temp.temp_beacon_high_power_order_time_map
+	where target_id <> 0
+) t01
+join (
+	select distinct tracking_id, carrier_driver_id, ocurred_time, shipping_state, 
+	platform_merchant_id, latitude, longitude
+	from dw.dw_tms_tb_tracking_event
+	where dt = get_date(-1) and ocurred_time is not null and carrier_driver_id is not null
+	and ocurred_time > get_date(-2) and carrier_driver_id <>'' 
+	and (shipping_state = 40 or shipping_state = 80 or shipping_state = 30)
+) t02
+on t01.target_id = t02.carrier_driver_id
+join (
+	select shop_id, shop_latitude, shop_longitude
+	from dm.dm_prd_shop_wide
+	where dt = get_date(-1)
+) t03
+on t02.platform_merchant_id = t03.shop_id
+join (
+	select tracking_id, user_latitude, user_longitude
+	from dm.dm_tms_apollo_waybill_wide_detail
+	where dt = get_date(-1)
+) t04
+on t02.tracking_id = t04.tracking_id
+
+
+
+
+
+
