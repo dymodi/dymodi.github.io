@@ -162,19 +162,28 @@ where event <> 'deliver'
 ---- Get rider's feature between shops from rider_event_sequence table
 drop table if exists temp.temp_beacon_rider_eta_between_shops;
 create table temp.temp_beacon_rider_eta_between_shops as
-select t01.target_id as target_id, 
-t01.shop_id as from_shop_id, t01.occurred_at as from_shop_at, 
-t02.shop_id as to_shop_id, t02.occurred_at as tp_shop_at
+select (unix_timestamp(t02.occurred_at)-unix_timestamp(t01.occurred_at)) as label, 
+t01.target_id as target_id, 
+t01.shop_id as from_shop_id, t01.occurred_at as from_shop_at,
+t01.shop_latitude as from_shop_latitude, t01.shop_longitude as from_shop_longitude,
+t01.rider_latitude as from_rider_latitude, t01.rider_longitude as from_rider_longitide,
+t02.shop_id as to_shop_id, t02.occurred_at as tp_shop_at,
+t02.shop_latitude as to_shop_latitude, t02.shop_longitude as to_shop_longitude,
+t02.rider_latitude as to_rider_latitude, t02.rider_longitude as to_rider_longitide
 from (
-	select target_id, shop_id, occurred_at, event, rider_latitude, rider_longitude, rn
+	select target_id, shop_id, occurred_at, event, rider_latitude, rider_longitude, rn,
+	shop_latitude, shop_longitude
 	from temp.temp_beacon_rider_event_sequence_without_deliver
 ) t01
 join (
-	select target_id, shop_id, occurred_at, event, rider_latitude, rider_longitude, rn
+	select target_id, shop_id, occurred_at, event, rider_latitude, rider_longitude, rn,
+	shop_latitude, shop_longitude
 	from temp.temp_beacon_rider_event_sequence_without_deliver
 ) t02
 on t01.target_id = t02.target_id and t01.rn + 1 = t02.rn
 where t01.shop_id <> t02.shop_id
+
+
 
 ---- Similarly we can get the rider's behavior staying at the shop based on sequence table
 drop table if exists temp.temp_beacon_rider_eta_stay_shops;
