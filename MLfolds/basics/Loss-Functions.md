@@ -11,6 +11,8 @@ A cheatsheet of loss functions can be found [here](http://ml-cheatsheet.readthed
 
 According to Professor Liang, a loss function Loss$$(x, y, \mathbf w)$$ quantifies how unhappy you would be if you used $$\mathbf w$$ to make a prediction on $$x$$ when the correct output is $$y$$. It is the object we want to minimize.
 
+One thing we need to keep in mind is that loss function is an individual topic independent of prediction models.
+
 ## Zero-one loss
 
 $$\text{Loss}_{0-1}(x, y, \mathbf w) = 1[f_{\mathbf w}(x) \ne y]$$
@@ -29,4 +31,4 @@ $$\text{Loss}_{\text{absdev}}(x, y, \mathbf w) = |f_{\mathbf w}(x) - y|$$
 
 ## Cross entropy loss
 
-$$\text{Loss}_{\text{absdev}}(x, y, \mathbf w) = y\log f_{\mathbf w}(x) +(1-y) \log (1-f_{\mathbf w}(x)) $$
+$$\text{Loss}_{\text{cross-entropy}}(x, y, \mathbf w) = y\log f_{\mathbf w}(x) +(1-y) \log (1-f_{\mathbf w}(x)) $$

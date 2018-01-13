@@ -7,13 +7,15 @@ date: June 5, 2017
 # Machine Learning
 
 ## Basics
-[Machine Learning Basics](MLfolds/Machine-Learning-Basics)
+[Machine Learning Basics](MLfolds/basics/Machine-Learning-Basics)
 
-[Data Preprocessing](MLfolds/Data-Preprocessing)
+[Data Preprocessing](MLfolds/basics/Data-Preprocessing)
 
-[Model Evaluation](MLfolds/Model-Evaluation)
+[Loss Functions](MLfolds/basics/Loss-Functions)
 
-[Bayesian Learning on the Candy Example](MLfolds/Bayesian-Learning-on-the-Candy-Example)
+[Model Evaluation](MLfolds/basics/Model-Evaluation)
+
+[Bayesian Learning on the Candy Example](MLfolds/basics/Bayesian-Learning-on-the-Candy-Example)
 
 ## Unsupervised Learning
 [Clustering](MLfolds/Clustering)
