@@ -5,7 +5,9 @@
 
 ## Online Courses:
 
-[Deep Reinforcement Learning, Berkeley](http://rll.berkeley.edu/deeprlcourse/)
+[Deep Reinforcement Learning, Berkeley, CS 294](http://rll.berkeley.edu/deeprlcourse/)
+
+[Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.stanford.edu/)
 
 ## PDFs
 
