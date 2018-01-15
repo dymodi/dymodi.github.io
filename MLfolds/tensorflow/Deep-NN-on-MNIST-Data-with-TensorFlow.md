@@ -15,7 +15,10 @@ One reason that we need ConvNN for images is that regular NNs do not scale well 
 ConvNN is made up of layers, each layer transform a 3D volumn to another 3D volumn with differentiable functions. Three types of layers are used: **Convolutional Layer**, **Pooling Layer**, and **Fully-Connected Layer** (exactly as seen in regular Neural Networks)
 
 <p align = "center">
-<img src="figures/neural_net2.png"  alt="nn" height="400">
-<img src="figures/cnn.png"  alt="cnn" height="400">
+<img src="figures/neural_net2.png"  alt="nn" height="200">
+<img src="figures/cnn.png"  alt="cnn" height="200">
 </p>
+
+(Figures come from [Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.github.io/convolutional-networks/))
+
 
