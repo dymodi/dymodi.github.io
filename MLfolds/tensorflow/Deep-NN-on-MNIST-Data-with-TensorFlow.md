@@ -39,3 +39,12 @@ The depth corresponds to how many filters we would like to use in the convolutio
 
 The stride is the step length we would like to move when we slides along width or height. 1 or 2 is commonly used as stride while 3 or more is rare in practice.
 
+Zero-padding is a hyperparameter handling with border elements. Generally, zero padding of 1 is used to keep the output size same as input size.
+
+### Pooling Layer
+It is common to periodically insert a Pooling layer in-between successive Conv layers in a ConvNet architecture. Pooling can reduce the parameters in the ConvNN dramatically and hence avoid overfitting.
+
+Generally, a 2*2 filter is used with stride 2 to do downsammpling. For a 2D volumn, only 25% content will be kept after pooling.
+
+### Fully-connected layer
+Neurons in a fully connected layer have full connections to all activations in the previous layer, as seen in regular Neural Networks. 
