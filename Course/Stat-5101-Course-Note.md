@@ -18,8 +18,8 @@ Contents of this course:
 Ex. on calculaus and linear algebra
 
 1. Series
-    a. $$\sum^{\infty}_{n=1}\frac{\lambda^n}{n!} = ?$$
-    b. $$\sum^{\infty}_{n=1}p^n = ? (|p|<1)$$
+    a. $\sum^{\infty}_{n=1}\frac{\lambda^n}{n!} = ?$
+    b. $\sum^{\infty}_{n=1}p^n = ? (|p|<1)$
 
 
 ### Lab-1, Jan. 16, Tues.
