@@ -10,6 +10,16 @@ author: Yi DING
 ### Lec-1, Jan. 17, Wed.
 Go over syllables.
 
+Contents of this course:
+1. Classical model
+2. Random variables
+3. Independent r.v.s. (random variables)
+
+Ex. on calculaus and linear algebra
+
+1. Series
+    a. $$\sum^{\infty}_{n=1}\frac{\lambda^n}{n!} = ?$$
+    b. $$\sum^{\infty}_{n=1}p^n = ? (|p|<1)$$
 
 
 ### Lab-1, Jan. 16, Tues.
