@@ -20,6 +20,14 @@ Ex. on calculaus and linear algebra
 1. Series
     * $\sum^{\infty}_{n=1}\frac{\lambda^n}{n!} = ?$
     * $\sum^{\infty}_{n=1}p^n = ? (|p|<1)$
+    
+2. Limits
+    * $\lim \frac{n^2}{(n+2018)^2} = ?$
+    * 
+    
+3. Integrals
+
+4. Linear algebra
 
 
 ### Lab-1, Jan. 16, Tues.

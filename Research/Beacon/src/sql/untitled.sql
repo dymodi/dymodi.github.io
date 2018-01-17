@@ -1,3 +1,55 @@
+
+---- 对比骑手的Beacon数据和订单数据，用来发现有单却没Beacon数据的骑手时间段
+---- for phase iii data tables
+
+
+drop table if exists temp.temp_beacon_phase_iii_data_order_compare; 
+create table temp.temp_beacon_phase_iii_data_order_compare as 
+select (case when beacon_data.target_id is not null 
+        then beacon_data.target_id else order_data.taker_id end) as taker_id, 
+    beacon_data.hour as data_hour, beacon_data.data_cnt, order_data.hour as order_hour, 
+    order_data.order_cnt, order_data.dt
+from (
+	select rider_id as target_id, hour(detected_at) as hour, count(1) as data_cnt, max(dt) as dt
+	from dw_ai.dw_ai_clairvoyant_beacon
+	where dt=get_date(-1) and get_date(detected_at)=get_date(-1)
+	group by rider_id,hour(detected_at)
+) beacon_data
+full outer join (
+	select t01.taker_id, hour(t01.ocurred_time) as hour, count(1) as order_cnt, max(t03.dt) as dt
+	from (
+		select carrier_driver_id as taker_id, platform_merchant_id as restaurant_id,
+		ocurred_time
+		from dw.dw_tms_tb_tracking_event 
+		where dt = get_date(-1) and get_date(ocurred_time) = get_date(-1)
+		and shipping_state = 80
+	) t01
+	join (
+		select rider_id as target_id, hour(detected_at) as hour, count(1) as data_cnt, 
+		shop_id, max(dt) as dt
+		from dw_ai.dw_ai_clairvoyant_beacon
+		where dt = get_date(-1) and get_date(detected_at) = get_date(-1)
+		group by rider_id, shop_id, hour(detected_at) 
+	) t03
+	on t01.taker_id = t03.target_id and t01.restaurant_id = t03.shop_id
+	group by t01.taker_id, hour(t01.ocurred_time)
+) order_data
+on beacon_data.target_id = order_data.taker_id and beacon_data.hour = order_data.hour
+order by taker_id, order_hour
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ----- 以下用于解决骑手APP听不到Beacon的问题
 
 select distinct (case when beacon_data.target_id is not null 
