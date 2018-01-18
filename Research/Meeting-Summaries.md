@@ -48,7 +48,7 @@ Know something about what they are doing in machine learning group
 
 01/18/18
 1. 饿了么总结
-    * 准备建beacon状态表
+    * 准备建beacon状态表，需要Beacon清单
     * 和高天宝讨论收不到信号的问题
 2. 论文准备
     * 最近刚搬家，忙一些开学的事情，论文方面还没准备，等有进展了再讨论
