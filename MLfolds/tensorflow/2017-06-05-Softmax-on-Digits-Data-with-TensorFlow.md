@@ -7,7 +7,7 @@ author: Yi DING
 
 In this tutorial, we will basically follow the [official tutorial](https://www.tensorflow.org/get_started/mnist/beginners) but will change some parts to make it easier to understand. The contents about logistic regression borrows from Arindam Banerjee's Machine Learning course at University of Minnesota, which corresponds to Ethem Alpaydin's book *Introduction to machine learning*.
 
-The corresponding executable python code of this tutorial can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/ForBlogSoftmaxDigitsTF.py).
+The corresponding executable python code of this tutorial can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/for_blog_softmax_with_tf.py).
 
 TensorFlow provides a very creative frame for machine learning programming. We will first build a structure (graph) for the algorithm and then feed the data and run the session. In the graph, the operations are the vertices and data flows on the edges.
 

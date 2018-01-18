@@ -8,6 +8,9 @@ author: Yi DING
 [comment]: # (This is the auxiliary note of the octopus paper)
 [comment]: # (本文是一些用来辅助 octopus paper 完成的笔记)
 
+## To do list
+1. 用tensorflow跑通一个gbdt模型。
+
 ## 一些心得
 1. 根据美团和Facebook的文章，特征选取是ML中最重要的环节。
 
@@ -29,9 +32,13 @@ limit 100
 但是发现有几个问题需要咨询一下刘成亮：
     1. order_price 一项的值都在1.0左右，是不是经过归一化。（其实用单号可以查到订单价格）。
     
-    
 2. 在Architecture一章下放"Feature Engineering"和"Model Design"两个小节似乎是个不错的方法，具体可参照蚂蚁金服的文章[1]。
 
+3. Order time prediction 可以考虑用改进的GBDT或者改进的ConvNN
+
+    感觉order time estimation一节和beacon没啥关系
+
+4. Rider behavior prediction 考虑用beacon数据，用bayesian模型
 
 
 ## Ref.
