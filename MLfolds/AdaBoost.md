@@ -52,7 +52,11 @@ Robert E. Schapire's [Explaining AdaBoost](http://rob.schapire.net/papers/explai
 ### Simpler is better?
 Usually for a learned classifier to be effective and accurate in its predictions, it should meet three conditions: (1) it should have been trained on “enough” training examples; (2) it should provide a good fit to those training examples (usually meaning that it should have low training error); and (3) it should be “simple.” This last condition, our expectation that simpler rules are better, is often referred to as *Occam’s razor*.
 
-However, for boosting, something counter-intuitive happens. According to [Boosting and AdaBoost for Machine Learning - Jason Brownlee](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/), **boosting is typically resistance to overfitting**, although overfitting *can* happen in boosting.
+However, for boosting, something counter-intuitive happens. According to [Explaining AdaBoost](http://rob.schapire.net/papers/explaining-adaboost.pdf)., **boosting is typically resistance to overfitting**, although overfitting *can* happen in boosting. I borrow two figures from [Explaining AdaBoost](http://rob.schapire.net/papers/explaining-adaboost.pdf) here to show this feature.
+
+<p align = "center">
+<img src="figures/boosting-overfitting.png"  alt="boosting overfitting">
+</p>
 
 One of the explanation is *Margin*, a variable to measure the confidence of the model. Margin can be computed as the differences in the voting process in forming $$H$$, a vote a conducted among weak learners. 
 
