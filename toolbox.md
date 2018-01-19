@@ -8,3 +8,6 @@ date: Jan. 4, 2017
 
 ## Github
 [Github Issues](Toolbox/Github-Issues)
+
+## Python
+[Python Tricks](Toolbox/Python-Tricks)

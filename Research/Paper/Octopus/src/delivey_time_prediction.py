@@ -8,8 +8,7 @@ import numpy as np
 from sklearn.ensemble import GradientBoostingRegressor
 
 # Import data
-from sklearn.datasets import load_boston
-boston = load_boston()
+
 
 # Test models with each data set
 X = np.array(boston.data)
