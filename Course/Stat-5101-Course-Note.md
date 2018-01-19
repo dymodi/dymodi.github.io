@@ -8,7 +8,7 @@ author: Yi DING
 [comment]: # (This is the course note for course Stat 5101)
 
 ### Lec-2, Jan. 19, Fri.
-Set theory
+Set theory (Section 1.4 in the book)
 * event
 * union & intersection
 * complement
@@ -26,8 +26,8 @@ An **event** is a subset of the sample space.
 * Eg. $A = \{6\}, B = \{1, 3, 5\}, A\cup B = \{1, 3, 5, 6\}$
 
 Def.
-* $A \cup B = \{ x \in S, x \in A \text{or} x \in B \}$
-* $A \cap B = \{ x \in S, x \in A \text{and} x \in B \}$
+* $A \cup B = \{ x \in S, x \in A \text{ or } x \in B \}$
+* $A \cap B = \{ x \in S, x \in A \text{ and } x \in B \}$
 * $A^c = \{ x \in S, x \notin A \}$
 
 Facts on event:
@@ -51,6 +51,9 @@ $\cup ^n_{i=1} E_i = \{ x\in S, x\in E_i \text{for some} i\}$
 Two facts:
 
 $ \(\cap ^n_{i=1} E_i \)^c = \cup ^n_{i=1} E_i ^c$
+$ \(\cup ^n_{i=1} E_i \)^c = \cap ^n_{i=1} E_i ^c$
+
+We say $E_1, E_2, ..., E_n$ is a partition of $S$ if they are partition disjoint and $\cup ^n_{i=1} E_i = S$
 
 
 ### Lec-1, Jan. 17, Wed.
