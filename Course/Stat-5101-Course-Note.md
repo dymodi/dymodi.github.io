@@ -41,6 +41,17 @@ Facts on event:
     $A \cup \( B \cap C \) = \(A \cup B \) \cap \(A \cup C \)$
 4.  $\(A \cup B \)^c = A^c \cap B ^c$
     $\(A \cap B \)^c = A^c \cup B ^c$
+    
+In fact, for many event $E_1, E_2, ..., E_n$, ($n$ can be $\infty$)
+
+$\cap ^n_{i=1} E_i = \{ x\in S, x\in E_i \text{for all} i\}$
+
+$\cup ^n_{i=1} E_i = \{ x\in S, x\in E_i \text{for some} i\}$
+
+Two facts:
+
+$ \(\cap ^n_{i=1} E_i \)^c = \cup ^n_{i=1} E_i ^c$
+
 
 ### Lec-1, Jan. 17, Wed.
 Go over syllables.
