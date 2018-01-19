@@ -12,19 +12,35 @@ Set theory
 * event
 * union & intersection
 * complement
-* relationship among event
+* relationship among events
 * partition
 
 **Sample space**: run one experiment, put all possible outcomes together, it forms the sample space of this experiment.
-* Eg.1 Flip a coin. $S = {H, T}$
-* Eg.2 Roll a die, $S = {1, 2, 3, 4, 5, 6}$
-* Eg.3 Randomly select a person whose birthday, $S = {1, 2, ..., 365}$
+* Eg.1 Flip a coin. $S = \{H, T\}$
+* Eg.2 Roll a die, $S = \{1, 2, 3, 4, 5, 6\}$
+* Eg.3 Randomly select a person whose birthday, $S = \{1, 2, ..., 365\}$
 * Eg.4 The life of a bulb, $S = \[0, \infty\)$
 
 An **event** is a subset of the sample space.
-* Eg.5 Roll a dice, $E = {6}$
+* Eg.5 Roll a dice, $E = \{6\}$
+* Eg. $A = \{6\}, B = \{1, 3, 5\}, A\cup B = \{1, 3, 5, 6\}$
 
-Eg. $A = {6}, B = {1, 3, 5} \\ A\cup B = {1, 3, 5, 6}$
+Def.
+* $A \cup B = \{ x \in S, x \in A \text{or} x \in B \}$
+* $A \cap B = \{ x \in S, x \in A \text{and} x \in B \}$
+* $A^c = \{ x \in S, x \notin A \}$
+
+Facts on event:
+1. Communitive law
+    $A \cup B = B \cup A, A \cap B = B \cap A$   
+2. Assosiation law   
+    $\(A \cup B \) \cup C = A \cup \( B \cup C \)$   
+    $\(A \cap B \) \cap C = A \cap \( B \cap C \)$
+3. Distribution law
+    $A \cap \( B \cup C \) = \(A \cap B \) \cup \(A \cap C \)$
+    $A \cup \( B \cap C \) = \(A \cup B \) \cap \(A \cup C \)$
+4.  $\(A \cup B \)^c = A^c \cap B ^c$
+    $\(A \cap B \)^c = A^c \cup B ^c$
 
 ### Lec-1, Jan. 17, Wed.
 Go over syllables.
