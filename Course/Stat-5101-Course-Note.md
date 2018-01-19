@@ -7,6 +7,25 @@ author: Yi DING
 
 [comment]: # (This is the course note for course Stat 5101)
 
+### Lec-2, Jan. 19, Fri.
+Set theory
+* event
+* union & intersection
+* complement
+* relationship among event
+* partition
+
+**Sample space**: run one experiment, put all possible outcomes together, it forms the sample space of this experiment.
+* Eg.1 Flip a coin. $S = {H, T}$
+* Eg.2 Roll a die, $S = {1, 2, 3, 4, 5, 6}$
+* Eg.3 Randomly select a person whose birthday, $S = {1, 2, ..., 365}$
+* Eg.4 The life of a bulb, $S = \[0, \infty\)$
+
+An **event** is a subset of the sample space.
+* Eg.5 Roll a dice, $E = {6}$
+
+Eg. $A = {6}, B = {1, 3, 5} \\ A\cup B = {1, 3, 5, 6}$
+
 ### Lec-1, Jan. 17, Wed.
 Go over syllables.
 
