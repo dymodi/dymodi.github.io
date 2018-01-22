@@ -7,6 +7,21 @@ author: Yi DING
 
 [comment]: # (This is the course note for course Stat 5101)
 
+### Lec-3, Jan. 22, Mon.
+Events and probility
+
+Eg. Flip a coin 3 times
+$$S = \{ HHT, HTH, HTT, HHH, THT, TTH, TTT, THH \}$$
+$$S_1 = HHH, S_2 = THH, S_3 = HTH, S_4 = HTT, S_5 = THT, S_6 = TTT, S_7 = TTH, S_8 = HHT$$
+$$A = \{ \}$$
+
+Easily, $B\cap D = \emptyset$, $B$ and $D$ are **disjoint**.
+
+What is probability?
+
+
+
+
 ### Lec-2, Jan. 19, Fri.
 Set theory (Section 1.4 in the book)
 * event
@@ -72,7 +87,6 @@ Ex. on calculaus and linear algebra
     
 2. Limits
     * $\lim \frac{n^2}{(n+2018)^2} = ?$
-    * 
     
 3. Integrals
 

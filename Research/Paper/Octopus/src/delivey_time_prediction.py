@@ -4,10 +4,17 @@ Yi Ding, 01/18/18
 
 '''
 
+import csv
 import numpy as np
 from sklearn.ensemble import GradientBoostingRegressor
 
 # Import data
+order_list = []
+
+with open('../data/eta_by_order_01022018_10000.csv',newline='') as csvfile:
+    order_reader = csv.reader(csvfile, delimiter = ' ', quotechar = '|')
+    for row in order_reader:
+        order_list.append(row)
 
 
 # Test models with each data set

@@ -1,4 +1,11 @@
 
+
+---- 建Beacon状态表
+---- 插入Beacon清单
+
+
+
+
 ---- 对比骑手的Beacon数据和订单数据，用来发现有单却没Beacon数据的骑手时间段
 ---- for phase iii data tables
 
@@ -12,7 +19,7 @@ select (case when beacon_data.target_id is not null
 from (
 	select rider_id as target_id, hour(detected_at) as hour, count(1) as data_cnt, max(dt) as dt
 	from dw_ai.dw_ai_clairvoyant_beacon
-	where dt=get_date(-1) and get_date(detected_at)=get_date(-1)
+	where dt>get_date(-2) and get_date(detected_at)=get_date(-2)
 	group by rider_id,hour(detected_at)
 ) beacon_data
 full outer join (
@@ -21,14 +28,14 @@ full outer join (
 		select carrier_driver_id as taker_id, platform_merchant_id as restaurant_id,
 		ocurred_time
 		from dw.dw_tms_tb_tracking_event 
-		where dt = get_date(-1) and get_date(ocurred_time) = get_date(-1)
+		where dt > get_date(-2) and get_date(ocurred_time) > get_date(-2)
 		and shipping_state = 80
 	) t01
 	join (
 		select rider_id as target_id, hour(detected_at) as hour, count(1) as data_cnt, 
 		shop_id, max(dt) as dt
 		from dw_ai.dw_ai_clairvoyant_beacon
-		where dt = get_date(-1) and get_date(detected_at) = get_date(-1)
+		where dt > get_date(-2) and get_date(detected_at) > get_date(-2)
 		group by rider_id, shop_id, hour(detected_at) 
 	) t03
 	on t01.taker_id = t03.target_id and t01.restaurant_id = t03.shop_id
@@ -36,17 +43,6 @@ full outer join (
 ) order_data
 on beacon_data.target_id = order_data.taker_id and beacon_data.hour = order_data.hour
 order by taker_id, order_hour
-
-
-
-
-
-
-
-
-
-
-
 
 
 
