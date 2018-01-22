@@ -8,7 +8,7 @@ author: Yi DING
 [comment]: # (This is the course note for course Stat 5101)
 
 ### Lec-3, Jan. 22, Mon.
-Events and probility
+Events and probility (Section 1.5 in the book)
 
 Eg. Flip a coin 3 times
 $$S = \{ HHT, HTH, HTT, HHH, THT, TTH, TTT, THH \}$$
@@ -19,8 +19,21 @@ Easily, $B\cap D = \emptyset$, $B$ and $D$ are **disjoint**.
 
 What is probability?
 
+In general, given sample space $S$ for any event $A\in S$, assign a number $P(A)$ for $A$ s.t.
+1. $P(A) \ge 0$
+2. $P(S) = 1$
+3. $P(\cup ^\infty_{i=1} A_i) = \sum ^\infty_{i=1} P(A_i)$ if $A_1, A_2,..., $ are pairwise disjoint.
 
+We say $P$ is a probability.
 
+If $P$ is a probability:
+1. (Proof) $P(\emptyset) = 0$ 
+2. (Proof) If $A_1, A_2, ..., A_n$ are pairwise disjoint events, then
+$$P(\cup ^n_{i=1} A_i) = \sum ^n_{i=1} P(A_i)$$
+3. (Proof) $P(A^c) = 1-P(A)$
+4. (Proof) If $A \subset B$, then $P(A) < P(B)$
+5. (Proof) For any event $A$ we have $0 \le P(A) \le 1$
+6. (Proof) $P(A\cup B) = P(A) + P(B) - P(A\cap B)$
 
 ### Lec-2, Jan. 19, Fri.
 Set theory (Section 1.4 in the book)
