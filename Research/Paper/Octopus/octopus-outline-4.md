@@ -39,6 +39,11 @@ The food delivery system is much more complex than taxi dispatching system in th
 
 **(Challenges and motivations)**
 
+* Practical food delivery system with multiple constraints and objectives.
+* Time estimation is key to both rider dispatching and customers service.
+* Time estimation is difficult due to pracitcal factors (rivers, elevators, rush hours, rider farmilarities).
+* Potential inaccuracies in POI data and cheatings in rider behaviors.
+
 A practical food delivery is a complex system with many constraints and objectives. The food needs to be delivered usually within 30 minutes to guarantee the quality of the food. Time-out will also be punished with penalites for both platform and riders. The delivery time is the key point in the system: the platform needs to estimate the time for dispatching, the rider wants to take as many orders as possible within the time constraints, and the customers want their meal to be delivered as soon as possible. However, simple estimation methods are not applicable for food delivery system due to many pracitical isses: (1) The physical distance of two POI does reflects the time needed from one place to the other due to differnt floors and building layouts; (2) The time needed to prepare the meal varies from restaurant; (3) The time needed for the rider to travel between POIs varies with the rider's age and familiarity with the POIs (4) External factors such as weather and rush hour also affects the delivery time to some extent.
 
 **(Upper layer application based on time map)**
