@@ -9,17 +9,40 @@ import numpy as np
 from sklearn.ensemble import GradientBoostingRegressor
 
 # Import data
+order_string_list = []
 order_list = []
 
+# Read data to string
 with open('../data/eta_by_order_01022018_10000.csv',newline='') as csvfile:
     order_reader = csv.reader(csvfile, delimiter = ' ', quotechar = '|')
     for row in order_reader:
-        order_list.append(row)
+        order_string_list.append(row)
+
+# String to list/int
+for order_stirng in order_string_list:
+    order_list.append(order_stirng[0].split(','))
+
+# Pick features
+features = ['order_price',
+            'weather_code',
+            'delivery_time_avg',
+            'delivery_distance_avg',
+            'cooking_time',
+            'order_distance',
+            'team_history_deliver_time',
+            'team_history_deliver_time_four',
+            'grid_distance_history_deliver_time']
+
+X = []
+y = []
+# List to matrix
+for i in range(1,len(order_list)):
+    order_item = order_list[i]
+    X.append(order_item[1:len(order_item)])
+    y.append(order_item[0])
 
 
 # Test models with each data set
-X = np.array(boston.data)
-y = np.array(boston.target)
 total_num = np.shape(y)[0]
 
 # Divide into train data and test data
