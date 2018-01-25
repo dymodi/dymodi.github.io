@@ -51,13 +51,14 @@ Know something about what they are doing in machine learning group
     1. Beacon状态监测
     2. 异常商户POI监测
     3. 异常骑手行为监测
+    4. 和出餐时间预估组合作
 2. MobiCom
     1. [ctopus: Prediction of Order Time and Rider Behavior in Food Delivery System](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Octopus/octopus-outline-4.md)
     2. Key points:
         1. Rider arrival and stay detection using beacons and GPS.
         2. Travelling and staying time estimation using boosting.
         3. Rider behavior prediction using bayesian.
-    两篇文章的主题都聊一下，到底主攻哪一篇？
+3. 两篇文章的主题都聊一下，到底主攻哪一篇？
 
 01/18/18
 1. 饿了么总结
