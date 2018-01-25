@@ -57,7 +57,7 @@ Know something about what they are doing in machine learning group
         1. Rider arrival and stay detection using beacons and GPS.
         2. Travelling and staying time estimation using boosting.
         3. Rider behavior prediction using bayesian.
-
+    两篇文章的主题都聊一下，到底主攻哪一篇？
 
 01/18/18
 1. 饿了么总结
