@@ -7,6 +7,12 @@ author: Yi DING
 
 [comment]: # (This is the course note for course Stat 5101)
 
+### Lec-5, Jan. 26, Fri.
+Counting, Combination
+
+### Lec-4, Jan. 24, Wed.
+Counting, Permutation
+
 ### Lec-3, Jan. 22, Mon.
 Events and probility (Section 1.5 in the book)
 
