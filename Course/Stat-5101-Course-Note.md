@@ -8,13 +8,13 @@ author: Yi DING
 [comment]: # (This is the course note for course Stat 5101)
 
 ### Lec-5, Jan. 26, Fri.
-Counting, Combination
+Combination (Section 1.8 in the book)
 
 ### Lec-4, Jan. 24, Wed.
-Counting, Permutation
+Counting, Permutation (Section 1.7 in the book)
 
 ### Lec-3, Jan. 22, Mon.
-Events and probility (Section 1.5 in the book)
+Events and probability (Section 1.5 in the book)
 
 Eg. Flip a coin 3 times
 $$S = \{ HHT, HTH, HTT, HHH, THT, TTH, TTT, THH \}$$
