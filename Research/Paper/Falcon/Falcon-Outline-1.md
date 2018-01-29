@@ -31,7 +31,8 @@ The potential topics are:
 * Rider dispatching and delivery time estimation are both relied on accurate POI information and rider postioning, which can be inaccurate or faked on purpose.
 * POI information relied on self-report without verification. People may make mistake or fake POI information.
 * Rider positioning relies on GPS and rider labeling (arrive restaurant, delivered). There is no GPS signal indoor and rider might fake GPS signal for profit.
-* Current indoor positioning methods either relies accurate indoor map or accurate human labeling, which is lacking in real world environment.
+* Current indoor positioning methods either relies accurate indoor map or accurate human labeling, which is lacking in real world environment. Also, empirical RSSI formula is not applicable due to uncontrollable deployment situationa and variety of hardware module.
+* Many unique problems in food delivery system: order switching, rider's farmiliriaties with the area.
 
 **(Our solution)**
 * Large scale BLE beacons deployment as pre-binding anchors.

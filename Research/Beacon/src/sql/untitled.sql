@@ -1,5 +1,31 @@
 
 
+---- 部署之后每天跟踪总体进度情况
+select dt, count(*) as data_cnt, count(distinct beacon_id) as beacon_num_deployed, 
+count(distinct rider_id) as rider_cnt
+from dw_ai.dw_ai_clairvoyant_beacon
+where dt > get_date(-10)
+group by dt
+order by dt
+
+---- 部署之后每天关注各个站团情况
+select grid_id, count(distinct t01.shop_id) as beacon_num_deployed, 
+max(t03.beacon_num_expected) as beacon_num_expected
+from 
+	dw_ai.dw_ai_clairvoyant_beacon t01,	
+	dw_ai.dw_ai_beacon_shop_list t02,
+	dw_ai.dw_ai_beacon_grid_day t03
+where t01.dt = get_date(-1)  and t02.dt = '2018-01-24' and t03.dt = '2018-01-24'
+and t01.shop_id = t02.shop_id and t02.grid_id = t03.grid_id
+group by t02.grid_id
+
+
+---- 部署之后关注原始表的 rssi 情况
+select rssi, count(*) as data_cnt from dw_ai.dw_ai_clairvoyant_beacon
+where dt = get_date(-1)
+group by rssi
+order by rssi
+
 CREATE TABLE temp.temp_unstable_beacons (shop_id BIGINT);
 INSERT INTO temp.temp_unstable_beacons (shop_id) VALUES (1011764);
 INSERT INTO temp.temp_unstable_beacons (shop_id) VALUES (141854616);
@@ -237,5 +263,104 @@ and parse_json_object(t01.beacon_info, 'beaconRssi') <> 0
 
 ​
 
+
+
+drop table if exists temp.temp_shop_beacon_num; 
+create table temp.temp_shop_beacon_num as 
+select distinct t1.tracking_id, t1.shop_id, t2.shop_id as building_id
+from  dw_ai.dw_ai_beacon_tracking_event t1,        dw_ai.dw_ai_clairvoyant_beacon t2
+where t1.rider_id=t2.rider_id   and t2.detected_at>t1.arrive_rst_at 
+and t2.detected_at<t1.pickup_at 
+and t2.rssi>=-85 
+and t1.dt<=get_date(-1) and t2.dt<=get_date(-1) 
+and t1.dt>=get_date(-30) and t2.dt>=get_date(-30) 
+and t1.dt=t2.dt;  
+
+ drop table if exists temp.temp_beacon_freq; 
+create table temp.temp_beacon_freq as 
+select building_id, shop_id, count(distinct tracking_id) as c_1  from temp.temp_shop_beacon_num  where shop_id in (select distinct t2.building_id from temp.temp_shop_beacon_num t2)
+group by building_id, shop_id; 
+
+ drop table if exists temp.temp_beacon_shop_match; 
+create table temp.temp_beacon_shop_match as 
+select t1.shop_id,  t2.building_id, t1.m_c 
+from (select shop_id, max(c_1) as m_c from temp.temp_beacon_freq group by shop_id) t1, 
+      temp.temp_beacon_freq t2 
+where t1.shop_id=t2.shop_id 
+and t1.m_c=t2.c_1;
+
+drop table if exists temp.temp_beacon_shop_id_match; 
+create table temp.temp_beacon_shop_id_match as 
+select distinct t1.shop_id 
+from temp.temp_beacon_shop_match t1, temp.temp_beacon_shop_match t2 
+where t2.shop_id=t1.shop_id 
+and t1.shop_id=t2.building_id;
+
+drop table if exists temp.temp_beacon_shop_not_match; 
+create table temp.temp_beacon_shop_not_match as 
+select distinct t1.shop_id 
+from temp.temp_beacon_shop_match t1 
+where not exists  (
+      select * from temp.temp_beacon_shop_id_match t2 
+      where t1.shop_id=t2.shop_id);
+ 
+ drop table if exists temp.temp_has_beacon;  create table temp.temp_has_beacon as 
+select distinct shop_id 
+from dw_ai.dw_ai_clairvoyant_beacon 
+where dt<=get_date(-1) and dt>=get_date(-30);
+
+drop table if exists temp.temp_has_beacon_has_order;  create table temp.temp_has_beacon_has_order as 
+select distinct restaurant_id  
+from dm.dm_tms_apollo_waybill_wide_detail 
+where dt<=get_date(-1) 
+and dt>=get_date(-30) 
+and restaurant_id in (
+      select shop_id from temp.temp_has_beacon); 
+
+drop table if exists temp.temp_has_beacon_no_order;  create table temp.temp_has_beacon_no_order as 
+select t1.shop_id 
+from temp.temp_has_beacon t1 
+where not exists (
+      select * from temp.temp_has_beacon_has_order t2 
+      where t1.shop_id=t2.restaurant_id); 
+ 
+
+drop table if exists temp.temp_beacon_state_initial_phase_iii_1_day;
+create table temp.temp_beacon_state_initial_phase_iii_1_day
+as
+select t01.shop_id,t01.beacon_id, t01.beacon_uuid,
+(case when t01.shop_id = '' then 10 when t02.beacon_uuid is null then 40 else 20 end) as state
+from (
+	select distinct beacon_id, beacon_uuid, shopid as shop_id
+	from temp.temp_beacon_manifest_jiyun 
+       ) t01	 full outer join (
+	select distinct beacon_id, uuid as beacon_uuid
+	from dw_ai.dw_ai_clairvoyant_beacon
+	       where dt > get_date(-1) and get_date(detected_at) > get_date(-1)
+) t02
+on t01.beacon_id = t02.beacon_id and t01.beacon_uuid = t02.beacon_uuid;
+
+
+drop table if exists temp.temp_beacon_state_add_30_1_day;
+create table temp.temp_beacon_state_add_30_1_day
+as
+select t01.shop_id,t01.beacon_id, t01.beacon_uuid,
+(case when t02.shop_id is not null then 30 else t01.state end) as state
+from 
+temp.temp_beacon_state_initial_phase_iii t01
+full outer join
+temp.temp_beacon_shop_not_match t02
+on t01.shop_id = t02.shop_id;
+
+ drop table if exists temp.temp_beacon_state_phase_iii_1_day;
+create table temp.temp_beacon_state_phase_iii_1_day
+as
+select t01.shop_id,t01.beacon_id, t01.beacon_uuid,
+(case when t02.shop_id is not null then 60 else t01.state end) as state
+from 
+temp.temp_beacon_state_add_30 t01
+full outer join
+temp.temp_has_beacon_no_order t02
+on t01.shop_id = t02.shop_id;
 
 ​
