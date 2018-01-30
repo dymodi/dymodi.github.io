@@ -45,6 +45,7 @@ Know something about what they are doing in machine learning group
 
 
 ## Discussion with Professor
+(Details can also be found in the emails name with "Small Meeting")
 
 01/25/18
 1. 饿了么总结
@@ -66,6 +67,14 @@ Know something about what they are doing in machine learning group
     * 和高天宝讨论收不到信号的问题
 2. 论文准备
     * 最近刚搬家，忙一些开学的事情，论文方面还没准备，等有进展了再讨论
+
+12/01/2017
+Another idea: solving large scale offline data gathering. The challenges and motivations can be: 
+* Deployment in the physical world of large scale BLE-based data gathering system
+* Security and privacy protection（Similar as "Secure IoT"）
+* Heterogenous data sources
+* Data inconsistency
+* Energy consumption in large scale BLE beacon system
 
 11/03 (To be discussed with Prof.)
 1. Inconsistency can be devided into spatial inconsistency (POI error) and temporal inconsistency (rider fraud). But the method to detect the inconsistency is partially share: rider mobility (speed distribution) can be used to detected. Specifically:

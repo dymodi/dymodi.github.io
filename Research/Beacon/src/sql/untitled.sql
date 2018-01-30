@@ -1,5 +1,9 @@
 
 
+---- 部署之后每天跟踪Beacon状态情况
+select * from temp.temp_beacon_state_phase_iii_1_day 
+​order by beacon_state
+
 ---- 部署之后每天跟踪总体进度情况
 select dt, count(*) as data_cnt, count(distinct beacon_id) as beacon_num_deployed, 
 count(distinct rider_id) as rider_cnt
@@ -15,7 +19,7 @@ from
 	dw_ai.dw_ai_clairvoyant_beacon t01,	
 	dw_ai.dw_ai_beacon_shop_list t02,
 	dw_ai.dw_ai_beacon_grid_day t03
-where t01.dt = get_date(-1)  and t02.dt = '2018-01-24' and t03.dt = '2018-01-24'
+where t01.dt = get_date(-1)  and t02.dt = get_date(-1) and t03.dt = get_date(-1)
 and t01.shop_id = t02.shop_id and t02.grid_id = t03.grid_id
 group by t02.grid_id
 
