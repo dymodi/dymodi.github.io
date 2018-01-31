@@ -7,6 +7,11 @@ author: Yi DING
 
 [comment]: # (This is the course note for course Stat 5101)
 
+### Lec-7 Jan. 31, Wed.
+Inclusion-Exclusion formula.
+Show
+$$\left( \begin{matrix} n \\ 0 \end{matrix} \right)^2$$
+
 ### Lec-5, Jan. 26, Fri.
 Combination (Section 1.8 in the book)
 

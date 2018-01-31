@@ -1,7 +1,61 @@
+---- 查看有没有之前有数据，后来没数据的Beacon
+select (
+	case when t0127.beacon_id is not null then t0127.beacon_id 
+	when t0128.beacon_id is not null then t0128.beacon_id 
+	when t0129.beacon_id is not null then t0129.beacon_id 
+	else t0130.beacon_id end) as beacon_id,
+t0127.data_cnt as 0127_cnt, t0128.data_cnt as 0128_cnt, t0129.data_cnt as 0129_cnt, t0130.data_cnt as 0130_cnt from 
+(select beacon_id, count(*) as data_cnt from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-01-27' group by beacon_id) t0127
+full outer join
+(select beacon_id, count(*) as data_cnt from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-01-28' group by beacon_id) t0128
+on t0127.beacon_id = t0128.beacon_id
+full outer join
+(select beacon_id, count(*) as data_cnt from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-01-29' group by beacon_id) t0129
+on t0128.beacon_id = t0129.beacon_id
+full outer join 
+(select beacon_id, count(*) as data_cnt from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-01-30' group by beacon_id) t0130
+on t0129.beacon_id = t0130.beacon_id
+join
+(select updated_at from dw.dw_tms_lpd_infra_beacon_beacon_info where dt = get_date(-1)) t_update
+on t0129.beacon_id = t_update.beaocnid
 
+
+select beacon_id from dw_ai.dw_ai_phase_iii_beacon_location_202 where dt =get_date(-1)
+
+
+
+select beacon_id, dt, count(*) as data_cnt 
+from dw_ai.dw_ai_clairvoyant_beacon 
+where dt > get_date(-10) and beacon_id = 'RSIB011700063687BF3'
+group by beacon_id, dt
+
+
+
+
+---- 查看 state=40 的Beacon所在的商户，及其订单情况，
+select t03.restaurant_id, t03.dt, t03.order_cnt from
+(
+	select * from temp.temp_beacon_state_phase_iii_1_day
+	where beacon_state = 40
+) t01
+join (
+	select * from dw_analyst.dw_analyst_beacon_state_day
+	where dt = '2018-01-29'
+	and beacon_state = 40
+) t02
+on t01.beacon_id = t02.beacon_id
+join (
+	select restaurant_id, dt, count(*) as order_cnt 
+	from dm.dm_tms_apollo_waybill_wide_detail
+	where dt = '2018-01-30'
+	group by restaurant_id, dt
+) t03
+on t01.shop_id = t03.restaurant_id
 
 ---- 部署之后每天跟踪Beacon状态情况
-select * from temp.temp_beacon_state_phase_iii_1_day 
+select beacon_state, count(*)
+from temp.temp_beacon_state_phase_iii_1_day 
+group by beacon_state
 ​order by beacon_state
 
 ---- 部署之后每天跟踪总体进度情况

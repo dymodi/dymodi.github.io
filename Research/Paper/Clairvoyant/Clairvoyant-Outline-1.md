@@ -30,13 +30,15 @@ Things should be included:
 * The potential impact
 
 **(The background of food delivery system)**
+In recent years, with the prevalence of the mobile Internet and sharing economy, online food ordering and delivery becomes a prosperous market. Driven by the mobile Internet technololy, a new business model is emerging with a centralized platform serving customers, restaurants and riders at the same time [][][]. Restaurants can operate online shops on the platform and accept orders while customers can choose from plenty of restaurants nearby from the cellphone APP provided by the platform. The food delivery tasks will be dispatched to registered and crowdsourced riders according to their location and destination. As the platform provides convenient service for all three sections, some problems also restrain the platform from achieving high efficiency dispatching. The most critical problem is to estimate the rider's travelling time among restaurants and customers. The estimation must be tight because food must be delivered within limited time (usually within 30 minutes) for fresh quality and the time-out case would be punished with costs.
+
 
 
 **(Challenges and motivations)**
 * As a service industry, food delivery is pursuing faster delivery speed and higher quality service.
 * Riders' location information plays critical roles in food delivery system.
 * Riders' location is lacking for indoor environment.
-* Challenges in practical indoor localization system.
+* Challenges in practical indoor localization for delivery system.
 
 **(Our solution)**
 * Large scale deployment of BLE beacons at each POI
@@ -62,3 +64,19 @@ Things should be included:
     * Many unique problems in food delivery system: order switching, rider's farmiliriaties with the area.
 
 ## 3 System Overview
+
+## 4 Large Scale Beacons Deployment in Real World
+
+### 4.1 BLE Beacon Hardware
+
+### 4.2 Receiving End on Riders' Cellphone
+
+### 4.3 Parameter Tuning
+
+### 4.4 Security Issue 
+
+
+## 5 Indoor Rider Localization
+
+## 6 Data Fusion
+
