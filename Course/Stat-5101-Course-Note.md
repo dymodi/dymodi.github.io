@@ -20,9 +20,10 @@ $$P(A\cup B \cup C) = P(A) + P(B) + P(C) - P(AB) - P(BC) - P(CA) + P(ABC)$$
 $$\begin{align*}
     P(A_1\cup A_2\cup ... \cup A_n) &= P(A_1) + P(A_2) + ... + P(A_n) \\
                                     &- \sum_{i,j}P(A_i,A_j) \\
-                                    &+ \sum_{i,j,k}P(A_i, A_j, A_k))
-                                    &+...
-                                    &+(-1)^{n+1}P(A_1 A_2 ... A_n)$$
+                                    &+ \sum_{i,j,k}P(A_i, A_j, A_k)) \\
+                                    &+... \\
+                                    &+(-1)^{n+1}P(A_1 A_2 ... A_n)
+\end{align*}$$
 
 ### Lec-5, Jan. 26, Fri.
 Combination (Section 1.8 in the book)
