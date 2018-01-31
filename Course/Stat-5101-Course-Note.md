@@ -12,6 +12,18 @@ Inclusion-Exclusion formula.
 Show
 $$\left( \begin{matrix} n \\ 0 \end{matrix} \right)^2$$
 
+
+$$P(A\cup B) = P(A) + P(B) - P(AB)$$
+
+$$P(A\cup B \cup C) = P(A) + P(B) + P(C) - P(AB) - P(BC) - P(CA) + P(ABC)$$
+
+$$\begin{align*}
+    P(A_1\cup A_2\cup ... \cup A_n) &= P(A_1) + P(A_2) + ... + P(A_n) \\
+                                    &- \sum_{i,j}P(A_i,A_j) \\
+                                    &+ \sum_{i,j,k}P(A_i, A_j, A_k))
+                                    &+...
+                                    &+(-1)^{n+1}P(A_1 A_2 ... A_n)$$
+
 ### Lec-5, Jan. 26, Fri.
 Combination (Section 1.8 in the book)
 
@@ -22,8 +34,11 @@ Counting, Permutation (Section 1.7 in the book)
 Events and probability (Section 1.5 in the book)
 
 Eg. Flip a coin 3 times
+
 $$S = \{ HHT, HTH, HTT, HHH, THT, TTH, TTT, THH \}$$
+
 $$S_1 = HHH, S_2 = THH, S_3 = HTH, S_4 = HTT, S_5 = THT, S_6 = TTT, S_7 = TTH, S_8 = HHT$$
+
 $$A = \{ \}$$
 
 Easily, $B\cap D = \emptyset$, $B$ and $D$ are **disjoint**.
@@ -31,20 +46,22 @@ Easily, $B\cap D = \emptyset$, $B$ and $D$ are **disjoint**.
 What is probability?
 
 In general, given sample space $S$ for any event $A\in S$, assign a number $P(A)$ for $A$ s.t.
-1. $P(A) \ge 0$
-2. $P(S) = 1$
-3. $P(\cup ^\infty_{i=1} A_i) = \sum ^\infty_{i=1} P(A_i)$ if $A_1, A_2,..., $ are pairwise disjoint.
+1. $$P(A) \ge 0$$
+2. $$P(S) = 1$$
+3. $$P(\cup ^\infty_{i=1} A_i) = \sum ^\infty_{i=1} P(A_i)$$ if $$A_1, A_2,..., $$ are pairwise disjoint.
 
 We say $P$ is a probability.
 
-If $P$ is a probability:
-1. (Proof) $P(\emptyset) = 0$ 
-2. (Proof) If $A_1, A_2, ..., A_n$ are pairwise disjoint events, then
+If $$P$$ is a probability:
+1. (Proof) $$P(\emptyset) = 0$$ 
+2. (Proof) If $$A_1, A_2, ..., A_n$$ are pairwise disjoint events, then
+
 $$P(\cup ^n_{i=1} A_i) = \sum ^n_{i=1} P(A_i)$$
-3. (Proof) $P(A^c) = 1-P(A)$
-4. (Proof) If $A \subset B$, then $P(A) < P(B)$
-5. (Proof) For any event $A$ we have $0 \le P(A) \le 1$
-6. (Proof) $P(A\cup B) = P(A) + P(B) - P(A\cap B)$
+
+3. (Proof) $$P(A^c) = 1-P(A)$$
+4. (Proof) If $$A \subset B$$, then $$P(A) < P(B)$$
+5. (Proof) For any event $$A$$ we have $$0 \le P(A) \le 1$$
+6. (Proof) $$P(A\cup B) = P(A) + P(B) - P(A\cap B)$$
 
 ### Lec-2, Jan. 19, Fri.
 Set theory (Section 1.4 in the book)
@@ -71,21 +88,21 @@ Def.
 
 Facts on event:
 1. Communitive law
-    $A \cup B = B \cup A, A \cap B = B \cap A$   
+    $$A \cup B = B \cup A, A \cap B = B \cap A$$   
 2. Assosiation law   
-    $\(A \cup B \) \cup C = A \cup \( B \cup C \)$   
-    $\(A \cap B \) \cap C = A \cap \( B \cap C \)$
+    $$\(A \cup B \) \cup C = A \cup \( B \cup C \)$$
+    $$\(A \cap B \) \cap C = A \cap \( B \cap C \)$$
 3. Distribution law
-    $A \cap \( B \cup C \) = \(A \cap B \) \cup \(A \cap C \)$
-    $A \cup \( B \cap C \) = \(A \cup B \) \cap \(A \cup C \)$
-4.  $\(A \cup B \)^c = A^c \cap B ^c$
-    $\(A \cap B \)^c = A^c \cup B ^c$
+    $$A \cap \( B \cup C \) = \(A \cap B \) \cup \(A \cap C \)$$
+    $$A \cup \( B \cap C \) = \(A \cup B \) \cap \(A \cup C \)$$
+4.  $$\(A \cup B \)^c = A^c \cap B ^c$$
+    $$\(A \cap B \)^c = A^c \cup B ^c$$
     
-In fact, for many event $E_1, E_2, ..., E_n$, ($n$ can be $\infty$)
+In fact, for many event $$E_1, E_2, ..., E_n$$, ($$n$$ can be $$\infty$$)
 
-$\cap ^n_{i=1} E_i = \{ x\in S, x\in E_i \text{for all} i\}$
+$$\cap ^n_{i=1} E_i = \{ x\in S, x\in E_i \text{for all} i\}$$
 
-$\cup ^n_{i=1} E_i = \{ x\in S, x\in E_i \text{for some} i\}$
+$$\cup ^n_{i=1} E_i = \{ x\in S, x\in E_i \text{for some} i\}$$
 
 Two facts:
 
