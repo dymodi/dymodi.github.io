@@ -20,7 +20,7 @@ $$P(A\cup B \cup C) = P(A) + P(B) + P(C) - P(AB) - P(BC) - P(CA) + P(ABC)$$
 $$\begin{align*}
     P(A_1\cup A_2\cup ... \cup A_n) &= P(A_1) + P(A_2) + ... + P(A_n) \\
                                     &- \sum_{i,j}P(A_i,A_j) \\
-                                    &+ \sum_{i,j,k}P(A_i, A_j, A_k)) \\
+                                    &+ \sum_{i,j,k}P(A_i, A_j, A_k) \\
                                     &+... \\
                                     &+(-1)^{n+1}P(A_1 A_2 ... A_n)
 \end{align*}$$
@@ -47,8 +47,8 @@ Easily, $$B\cap D = \emptyset$$, $$B$$ and $$D$$ are **disjoint**.
 What is probability?
 
 In general, given sample space $$S$$ for any event $$A\in S$$, assign a number $$P(A)$$ for $$A$$ s.t.
-1. $$P(A) \ge 0$$
-2. $$P(S) = 1$$
+1. $$P(A) \ge 0$$ 
+2. $$P(S) = 1$$ 
 3. $$P(\cup ^\infty_{i=1} A_i) = \sum ^\infty_{i=1} P(A_i)$$ if $$A_1, A_2,..., $$ are pairwise disjoint.
 
 We say $$P$$ is a probability.
@@ -73,14 +73,14 @@ Set theory (Section 1.4 in the book)
 * partition
 
 **Sample space**: run one experiment, put all possible outcomes together, it forms the sample space of this experiment.
-* Eg.1 Flip a coin. $S = \{H, T\}$
-* Eg.2 Roll a die, $S = \{1, 2, 3, 4, 5, 6\}$
-* Eg.3 Randomly select a person whose birthday, $S = \{1, 2, ..., 365\}$
-* Eg.4 The life of a bulb, $S = \[0, \infty\)$
+* Eg.1 Flip a coin. $$S = \{H, T\}$$
+* Eg.2 Roll a die, $$S = \{1, 2, 3, 4, 5, 6\}$$
+* Eg.3 Randomly select a person whose birthday, $$S = \{1, 2, ..., 365\}$$
+* Eg.4 The life of a bulb, $$S = \[0, \infty\)$$
 
 An **event** is a subset of the sample space.
-* Eg.5 Roll a dice, $E = \{6\}$
-* Eg. $A = \{6\}, B = \{1, 3, 5\}, A\cup B = \{1, 3, 5, 6\}$
+* Eg.5 Roll a dice, $$E = \{6\}$$
+* Eg. $$A = \{6\}, B = \{1, 3, 5\}, A\cup B = \{1, 3, 5, 6\}$$
 
 Def.
 * $$A \cup B = \{ x \in S, x \in A \text{ or } x \in B \}$$
