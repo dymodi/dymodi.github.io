@@ -42,16 +42,16 @@ $$S_1 = HHH, S_2 = THH, S_3 = HTH, S_4 = HTT, S_5 = THT, S_6 = TTT, S_7 = TTH, S
 
 $$A = \{ \}$$
 
-Easily, $B\cap D = \emptyset$, $B$ and $D$ are **disjoint**.
+Easily, $$B\cap D = \emptyset$$, $$B$$ and $$D$$ are **disjoint**.
 
 What is probability?
 
-In general, given sample space $S$ for any event $A\in S$, assign a number $P(A)$ for $A$ s.t.
+In general, given sample space $$S$$ for any event $$A\in S$$, assign a number $$P(A)$$ for $$A$$ s.t.
 1. $$P(A) \ge 0$$
 2. $$P(S) = 1$$
 3. $$P(\cup ^\infty_{i=1} A_i) = \sum ^\infty_{i=1} P(A_i)$$ if $$A_1, A_2,..., $$ are pairwise disjoint.
 
-We say $P$ is a probability.
+We say $$P$$ is a probability.
 
 If $$P$$ is a probability:
 1. (Proof) $$P(\emptyset) = 0$$ 
@@ -83,21 +83,21 @@ An **event** is a subset of the sample space.
 * Eg. $A = \{6\}, B = \{1, 3, 5\}, A\cup B = \{1, 3, 5, 6\}$
 
 Def.
-* $A \cup B = \{ x \in S, x \in A \text{ or } x \in B \}$
-* $A \cap B = \{ x \in S, x \in A \text{ and } x \in B \}$
-* $A^c = \{ x \in S, x \notin A \}$
+* $$A \cup B = \{ x \in S, x \in A \text{ or } x \in B \}$$
+* $$A \cap B = \{ x \in S, x \in A \text{ and } x \in B \}$$
+* $$A^c = \{ x \in S, x \notin A \}$$
 
 Facts on event:
 1. Communitive law
     $$A \cup B = B \cup A, A \cap B = B \cap A$$   
 2. Assosiation law   
-    $$\(A \cup B \) \cup C = A \cup \( B \cup C \)$$
-    $$\(A \cap B \) \cap C = A \cap \( B \cap C \)$$
+    $$(A \cup B ) \cup C = A \cup ( B \cup C )$$
+    $$(A \cap B ) \cap C = A \cap ( B \cap C )$$
 3. Distribution law
-    $$A \cap \( B \cup C \) = \(A \cap B \) \cup \(A \cap C \)$$
-    $$A \cup \( B \cap C \) = \(A \cup B \) \cap \(A \cup C \)$$
-4.  $$\(A \cup B \)^c = A^c \cap B ^c$$
-    $$\(A \cap B \)^c = A^c \cup B ^c$$
+    $$A \cap ( B \cup C ) = (A \cap B ) \cup (A \cap C )$$
+    $$A \cup ( B \cap C ) = (A \cup B ) \cap (A \cup C )$$
+4.  $$(A \cup B )^c = A^c \cap B ^c$$
+    $$(A \cap B )^c = A^c \cup B ^c$$
     
 In fact, for many event $$E_1, E_2, ..., E_n$$, ($$n$$ can be $$\infty$$)
 
