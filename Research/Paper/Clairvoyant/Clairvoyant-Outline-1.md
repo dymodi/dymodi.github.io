@@ -8,12 +8,17 @@ author: Yi DING
 [comment]: # (This is the outline 1 for the Falcon paper for Fandian for MobiCom 2018)
 
 Comments from Professor:
+1. Emphasize this is a major effort in deploying BLE for indoor tracking.  
+2. Although using beacon is not new,  it is new to have such a large deployment.  
+3. This first paper should be **an overview of the system and explain why indoor tracking is critical for food delivery**.  
+4. Then we discuss a few challenges we face including beacon location, POI, cheating etc. Objective should be making food delivery efficient, fast with better location information.
+5. This paper should be a structure describing Fandian project. Also, this paper should be within the scope of Fandian, that is, topics like dispatching, time estimation should not be included.
 
-I feel that we still need to emphasize this is a major effort in deploying BLE for indoor tracking.  Although using beacon is not new,  it is new to have such a large deployment.  I believe this first paper should be **an overview of the system and explain why indoor tracking is critical for food delivery**.  Then we discuss a few challenges we face including beacon location, POI, cheating etc.  Objective should be making food delivery efficient, fast with better location information.  "
+Further comments from Professor:
+1. We need to think a similar concept (IODetection) and build on top of that.
+2. You need to accumulate enough technical design elements.  I did not see that level of details at all. It is still unclear to me what is the technique you will use to detection POI inconsistency etc.
 
-# Clairvoyant: Towards Fast and Efficient Food Delivery System with Accurate Indoor Localization
-
-Based on the discussion with Professor, this paper should be a structure describing Fandian project. Also, this paper should be within the scope of Fandian, that is, topics like dispatching, time estimation should not be included.
+# Clairvoyant: Towards Fast and Efficient Food Delivery System with Arrival/Depature Detection of Riders
 
 Things should be included:
 1. Explain why indoor tracking is critical for food delivery.

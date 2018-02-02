@@ -1,3 +1,50 @@
+
+---- 确定相邻两天的无数据beacon的重合情况
+drop table if exists temp.temp_beacon_overlap_40;
+create table temp.temp_beacon_overlap_40 as
+select t01.beacon_id, t01.shop_id
+from (
+select * from dw_analyst.dw_analyst_beacon_state_day 
+where dt = '2018-01-31' and beacon_state = 40
+) t01
+join (
+select * from temp.temp_beacon_state_phase_iii_1_day
+where beacon_state = 40
+) t02
+on t01.beacon_id = t02.beacon_id;
+
+---- 找到非一期部署的Beacon
+drop table if exists temp.temp_beacon_overlap_40_not_1st;
+create table temp.temp_beacon_overlap_40_not_1st as
+select t01.beacon_id as beacon_id, t01.shop_id as shop_id,
+t03.beacon_id as beacon_202_id from 
+(select * from temp.temp_beacon_overlap_40) t01
+full outer join (
+select * from dw_ai.dw_ai_phase_iii_beacon_location_202
+where dt = get_date(-1)
+) t03
+on t01.beacon_id = t03.beacon_id
+where t03.beacon_id is null and t01.beacon_id is not null
+
+---- 找这些Beacon shop的订单情况
+select t02.dt, t01.shop_id, count(*), max(t03.updated_at)
+from
+(select * from temp.temp_beacon_overlap_40_not_1st) t01
+join 
+(
+	select restaurant_id, dt
+	from dm.dm_tms_apollo_waybill_wide_detail 
+	where dt > get_date(-3)
+) t02
+on t01.shop_id = t02.restaurant_id
+join (
+	select beaocnid as beacon_id, updated_at, shopid
+	from dw.dw_tms_lpd_infra_beacon_beacon_info
+	where dt = get_date(-1)
+) t03
+on t01.shop_id = t03.shopid
+group by t02.dt, t01.shop_id
+
 ---- 查看有没有之前有数据，后来没数据的Beacon
 select (
 	case when t0127.beacon_id is not null then t0127.beacon_id 
@@ -15,9 +62,12 @@ on t0128.beacon_id = t0129.beacon_id
 full outer join 
 (select beacon_id, count(*) as data_cnt from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-01-30' group by beacon_id) t0130
 on t0129.beacon_id = t0130.beacon_id
-join
-(select updated_at from dw.dw_tms_lpd_infra_beacon_beacon_info where dt = get_date(-1)) t_update
-on t0129.beacon_id = t_update.beaocnid
+
+
+
+select * from dw.dw_tms_lpd_infra_beacon_beacon_info 
+where dt = get_date(-1) and beaocnid = 'RSIB011700064574E02'
+
 
 
 select beacon_id from dw_ai.dw_ai_phase_iii_beacon_location_202 where dt =get_date(-1)
@@ -51,6 +101,13 @@ join (
 	group by restaurant_id, dt
 ) t03
 on t01.shop_id = t03.restaurant_id
+
+---- 部署之后每天跟踪Beacon状态情况
+select dt, beacon_state, count(*)
+from dw_analyst.dw_analyst_beacon_state_day
+where dt > get_date(-7)
+group by dt, beacon_state
+​order by dt, beacon_state
 
 ---- 部署之后每天跟踪Beacon状态情况
 select beacon_state, count(*)
