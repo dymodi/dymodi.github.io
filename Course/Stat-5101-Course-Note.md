@@ -7,6 +7,11 @@ author: Yi DING
 
 [comment]: # (This is the course note for course Stat 5101)
 
+### Lec-8 Feb. 2, Fri.
+Inclusion-Exclusion formula.
+
+Conditional Probability
+
 ### Lec-7 Jan. 31, Wed.
 Inclusion-Exclusion formula.
 Show

@@ -24,3 +24,16 @@ column_count = sheet.max_column
 value = sheet.cell(row=i,column=j).value
 
 ```
+
+## Plot heatmap for numpy matrix
+Use [matplotlib.pyplot.matshow](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.matshow.html)
+
+``` python
+# Import
+import matplotlib.pyplot as plt
+import numpy as np
+# Display matrix
+plt.matshow(X)
+plt.show()
+
+```
