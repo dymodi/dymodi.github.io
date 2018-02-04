@@ -7,11 +7,22 @@ author: Yi DING
 
 [comment]: # (Some Python Tricks)
 
-## Python read/write .xlsx files
+## Find path
+```
+import os
+# This path of current file
+dir_path = os.path.dirname(os.path.realpath(__file__))
+# The path of data files
+data_path = os.path.join(dir_path, '../data/')
+# Get all files from the folder
+only_files = [f for f in listdir(data_path) if isfile(join(data_path, f))]
+
+```
+
+## Read/write .xlsx files
 Use [openpyxl](https://openpyxl.readthedocs.io/en/default/)
 
 ``` python
-# Import
 import openpyxl
 # Open workbook
 wb = openpyxl.load_workbook(file_path)
