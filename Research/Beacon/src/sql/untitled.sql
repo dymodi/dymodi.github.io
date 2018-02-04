@@ -1,4 +1,15 @@
 
+---- 取差异Beacon
+
+select t1.beacon_id from 
+dw_analyst.dw_analyst_beacon_state_day t1,
+dw_analyst.dw_analyst_beacon_state_day t2
+where t1.dt = '2018-02-02' and t2.dt = '2018-02-03'
+and t1.beacon_id = t2.beacon_id
+and t1.beacon_state <> 40
+and t2.beacon_state = 40
+
+
 ---- 确定相邻两天的无数据beacon的重合情况
 drop table if exists temp.temp_beacon_overlap_40;
 create table temp.temp_beacon_overlap_40 as
@@ -112,6 +123,13 @@ group by dt, beacon_state
 ---- 部署之后每天跟踪Beacon状态情况
 select beacon_state, count(*)
 from temp.temp_beacon_state_phase_iii_1_day 
+group by beacon_state
+​order by beacon_state
+
+---- 部署之后每天跟踪Beacon状态情况
+select beacon_state, count(*)
+from dw_analyst.dw_analyst_beacon_state_day
+where dt = '2018-02-02'
 group by beacon_state
 ​order by beacon_state
 
