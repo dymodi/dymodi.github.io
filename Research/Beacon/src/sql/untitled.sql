@@ -1,6 +1,5 @@
 
 ---- 取差异Beacon
-
 select t1.beacon_id from 
 dw_analyst.dw_analyst_beacon_state_day t1,
 dw_analyst.dw_analyst_beacon_state_day t2
@@ -129,7 +128,7 @@ group by beacon_state
 ---- 部署之后每天跟踪Beacon状态情况
 select beacon_state, count(*)
 from dw_analyst.dw_analyst_beacon_state_day
-where dt = '2018-02-02'
+where dt = '2018-02-05'
 group by beacon_state
 ​order by beacon_state
 

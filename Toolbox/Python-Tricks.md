@@ -1,14 +1,16 @@
 --- 
 layout: post
 title: Python Tricks
-date: Jan. 19, 2017
+date: Jan. 19, 2018
 author: Yi DING
 ---
 
 [comment]: # (Some Python Tricks)
 
 ## Find path
-```
+Use [os]()
+
+``` python
 import os
 # This path of current file
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -33,14 +35,20 @@ row_count = sheet.max_row
 column_count = sheet.max_column
 # Read value by row and column
 value = sheet.cell(row=i,column=j).value
-
+# Write
+wb = Workbook()
+# Open active worksheet
+ws1 = wb.active
+# Create new work sheet
+ws2 = wb.create_sheet(title="Pi")
+# Write value by row and column
+ws.cell(row=i,column=j).value = x
 ```
 
 ## Plot heatmap for numpy matrix
 Use [matplotlib.pyplot.matshow](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.matshow.html)
 
 ``` python
-# Import
 import matplotlib.pyplot as plt
 import numpy as np
 # Display matrix
