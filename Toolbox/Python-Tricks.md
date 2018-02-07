@@ -8,7 +8,7 @@ author: Yi DING
 [comment]: # (Some Python Tricks)
 
 ## Find path
-Use [os]()
+Use [os](https://docs.python.org/3/library/os.html)
 
 ``` python
 import os
@@ -56,3 +56,19 @@ plt.matshow(X)
 plt.show()
 
 ```
+
+## Data and Time
+Use [datetime](https://docs.python.org/3/library/datetime.html) and [pytz](https://www.saltycrane.com/blog/2009/05/converting-time-zones-datetime-objects-python/)
+
+``` python
+from datetime import datetime
+from pytz import timezone
+# Read date and time string
+date_str = "2018-02-04 11:00:00"
+date_obj = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
+# Change time zone
+time_SH = timezone('Asia/Shanghai').localize(time_start)
+# Get unix_timestamp
+timestamp = time_SH.timestamp()
+```
+
