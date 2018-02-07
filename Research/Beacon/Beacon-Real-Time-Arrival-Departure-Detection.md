@@ -15,3 +15,8 @@ In this post,  we discuss real time arrival departure detection using beacon RSS
 For the short range low pass filter method, we assign a low pass filter to each rider-shop-pair and move the filter as time goes on.
 
 For a specific (rider, shop) pair, the RSSI values are as follows
+
+<center> 
+    <img src="figures/rssi-for-specific-shop-10-minutes.png"  alt="Rider-Shop-Pair">
+</center>
+

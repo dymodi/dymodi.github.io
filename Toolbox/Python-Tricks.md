@@ -45,7 +45,19 @@ ws2 = wb.create_sheet(title="Pi")
 ws.cell(row=i,column=j).value = x
 ```
 
-## Plot heatmap for numpy matrix
+## Plot 
+### Normal plot
+Use [pyplot](https://matplotlib.org/users/pyplot_tutorial.html)
+
+```python
+import matplotlib.pyplot as plt
+plt.plot(x, y)
+plt.xlabel('xlabel')
+plt.ylabel('ylabel')
+plt.show()
+```
+
+### heatmap for numpy matrix
 Use [matplotlib.pyplot.matshow](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.matshow.html)
 
 ``` python
@@ -67,7 +79,7 @@ from pytz import timezone
 date_str = "2018-02-04 11:00:00"
 date_obj = datetime.strptime(date_str, "%Y-%m-%d %H:%M:%S")
 # Change time zone
-time_SH = timezone('Asia/Shanghai').localize(time_start)
+time_SH = timezone('Asia/Shanghai').localize(time_SH)
 # Get unix_timestamp
 timestamp = time_SH.timestamp()
 ```
