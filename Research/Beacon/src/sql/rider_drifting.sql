@@ -10,17 +10,17 @@ from (
 	select taker_id, record_time, latitude, longitude, detail,
 	row_number() over (partition by taker_id order by record_time) as rn, dt
 	from dw.dw_log_talaris_taker_location_day_inc
-	where dt = get_date(-1)
+	where dt > get_date(-10) and type = 'TALARIS_TEAM'
 ) t01
 join(
 	select rider_id, detected_at, latitude, longitude, shop_id, dt
 	from dw_ai.dw_ai_clairvoyant_beacon
-	where dt = get_date(-1) and rssi > -80
+	where dt > get_date(-10) and rssi > -80
 ) t02
 on t01.taker_id = t02.rider_id and t01.dt = t02.dt
 and hour(t01.record_time) = hour(t02.detected_at)
 where parse_json_object(t01.detail, 'location_type') <> 10
-and abs(unix_timestamp(t01.record_time) - unix_timestamp(t02.detected_at)) < 10
+and abs(unix_timestamp(t01.record_time) - unix_timestamp(t02.detected_at)) < 10;
 
 
 ---- 比较骑手漂移的距离
@@ -28,8 +28,15 @@ drop table if exists temp.temp_beacon_rider_beacon_gsp_compare;
 create table temp.temp_beacon_rider_beacon_gsp_compare as
 select taker_id, get_point_distance(gps_latitude, gps_longitude, beacon_latitude, beacon_longitude) as distance,
 record_time, gps_latitude, gps_longitude,beacon_detected_at, beacon_latitude, beacon_longitude, shop_id
-from temp.temp_beacon_rider_all_pos
+from temp.temp_beacon_rider_all_pos;
 
+
+---- 骑手漂移直方图
+select int(distance) as distance, count(*) as data_cnt
+from temp.temp_beacon_rider_beacon_gsp_compare
+where int(distance) > 1
+group by int(distance)
+order by int(distance)
 
 ---- 给定骑手id和时间，反查千里眼轨迹
 select * 

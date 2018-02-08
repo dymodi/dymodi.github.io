@@ -1,5 +1,8 @@
 # Complie Folders
 /Research/Paper/Octopus/src/.idea/
 
+# PDF Results
+/Research/Beacon/.pdf
+
 # File types
 *.DS_Store

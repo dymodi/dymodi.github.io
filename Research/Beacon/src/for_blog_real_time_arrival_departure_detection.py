@@ -4,10 +4,14 @@
 # Import
 import openpyxl
 import os
+from datetime import datetime
+from pytz import timezone
+import matplotlib.pyplot as plt
+from scipy import signal
+import numpy as np
 
 # This path of current file
 dir_path = os.path.dirname(os.path.realpath(__file__))
-# The path of data files
 data_path = os.path.join(dir_path, '../data/')
 
 # Read raw beacon data for specific (rider, shop) pair
@@ -22,9 +26,7 @@ file_path = os.path.join(data_path, file_name)
 
 # Open workbook
 wb = openpyxl.load_workbook(file_path)
-# Get sheet by name
 sheet = wb.get_sheet_by_name('Sheet0')
-# Row/Column count
 row_count = sheet.max_row
 column_count = sheet.max_column
 
@@ -33,7 +35,125 @@ argument_list = []
 for j in range(1, column_count+1):
     argument_list.append(sheet.cell(row=1,column=j).value)
 
-print(argument_list)
+print('argument list: ', argument_list)
 
-# Read value by row and column
-#value = sheet.cell(row=i,column=j).value
+# Plot timestamp - rssi figure
+rssi_list = []
+timestamp_list = []
+rssi_index = argument_list.index('rssi')
+timestamp_index = argument_list.index('unix_timestamp')
+for i in range(2, row_count+1):
+    rssi_list.append(sheet.cell(row=i, column=rssi_index+1).value)
+    timestamp_list.append(int(sheet.cell(row=i, column=timestamp_index+1).value))
+
+# Time conversion
+date_str_start = "2018-02-04 11:00:00"
+date_str_end = '2018-02-04 11:10:00'
+time_start = datetime.strptime(date_str_start, "%Y-%m-%d %H:%M:%S")
+time_end = datetime.strptime(date_str_end, "%Y-%m-%d %H:%M:%S")
+time_start_SH = timezone('Asia/Shanghai').localize(time_start)
+time_end_SH = timezone('Asia/Shanghai').localize(time_end)
+timestamp_start =int(time_start_SH.timestamp())
+timestamp_end =int(time_end_SH.timestamp())
+# Pick RSSI from specific time slot
+rssi_draw = []
+timestamp_draw = []
+for timestp in range(timestamp_start, timestamp_end):
+    timestamp_draw.append(timestp)
+    if timestp in timestamp_list:
+        rssi_draw.append(rssi_list[timestamp_list.index(timestp)])
+    else:
+        rssi_draw.append(-100)
+
+# Plot Original RSSI
+plt.plot(timestamp_draw, rssi_draw, 'C0')
+plt.xlabel('unix_timestamp / second')
+plt.ylabel('RSSI / dB (absent set as -100dB)')
+plt.title('Rider\' RSSI value in 10 minutes for specific shop ')
+plt.show()
+
+# Here we design a low-pass filter
+fs = 1
+nyq = 0.5 * fs
+wn = 0.05 / nyq
+order = 6
+b, a = signal.butter(order, wn, 'low', analog = False)
+rssi_filtered = signal.filtfilt(b, a, rssi_draw)
+
+# Plot RSSI
+plt.plot(timestamp_draw, rssi_filtered, 'C1')
+plt.xlabel('unix_timestamp / second')
+plt.ylabel('RSSI / dB (absent set as -100dB)')
+plt.title('Rider\' RSSI value in 10 minutes for specific shop (filtered) (Not real-time)')
+plt.show()
+
+# Plot Arrival/Departure Detection with RSSI threshold
+in_region = []
+rssi_thresh = -85
+for rssi in rssi_filtered:
+    if rssi > rssi_thresh:
+        in_region.append(1)
+    else:
+        in_region.append(0)
+
+# Plot In region result
+plt.plot(timestamp_draw, in_region, 'C2')
+plt.xlabel('unix_timestamp / second')
+plt.ylabel('In Region?')
+plt.title('Rider\'s in region information (Not real-time)')
+plt.show()
+
+
+# Binary signal x is filtered
+# Zeros lasts less than n times are considered as noise
+# Noise are removed
+def window_filter(y, n):
+    x = [i for i in y]
+    headPos = 0
+    tailPos = 0
+    lastNbr = 0
+    for currPos in range(0, len(x)):
+        # Force set ones
+        if lastNbr == 0 and x[currPos] == 1:
+            headPos = currPos
+            if currPos - tailPos < n and headPos <= tailPos:
+                for i in range(tailPos, currPos):
+                    x[i] = 1
+        # Force set zeros
+        if lastNbr == 1 and x[currPos] == 0:
+            tailPos = currPos
+            if currPos - headPos < n and headPos <= tailPos:
+                for i in range(headPos, currPos):
+                    x[i] = 0
+        lastNbr = x[currPos]
+    return x
+
+print(in_region)
+
+# Shave
+in_region = window_filter(in_region, 10)
+
+# Plot In region result after shave
+plt.plot(timestamp_draw, in_region, 'C3')
+plt.xlabel('unix_timestamp / second')
+plt.ylabel('In Region?')
+plt.title('Rider\'s in region information after shave (Not real-time)')
+plt.show()
+
+
+# Plot Butterworth filter frequency response
+w, h = signal.freqz(b, a)
+plt.semilogx(w, 20 * np.log10(abs(h)))
+plt.title('Butterworth filter frequency response')
+plt.xlabel('Frequency [radians / second]')
+plt.ylabel('Amplitude [dB]')
+plt.margins(0, 0.1)
+plt.grid(which='both', axis='both')
+plt.axvline(wn, color='green') # cutoff frequency
+plt.show()
+
+# Design a moving filter
+horizon_length = 10
+for i in range(0, len(rssi_draw)-horizon_length):
+    rssi_window = rssi_draw[i:i+horizon_length]
+    rssi_window_filtered = signal.filtfilt(b, a, rssi_window)

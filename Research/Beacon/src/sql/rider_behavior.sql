@@ -27,47 +27,47 @@ t07.late_pickup_30_min_order_cnt, float(t07.late_pickup_30_min_order_cnt/t01.tot
 from (
 select max(dt) as dt, count(*) as total_order_cnt
 from dw_ai.dw_ai_beacon_tracking_event
-where dt = get_date(-1)
+where dt = '${day}'
 ) t01
 join(
 select max(dt) as dt, count(*) as early_arrival_10_min_order_cnt
 from dw_ai.dw_ai_beacon_tracking_event
-where dt = get_date(-1)
+where dt = '${day}'
 and unix_timestamp(arrive_rst_at_beacon) - unix_timestamp(arrive_rst_at) > 600
 ) t02
 on t01.dt = t02.dt
 join (
 select max(dt) as dt, count(*) as early_arrival_30_min_order_cnt
 from dw_ai.dw_ai_beacon_tracking_event
-where dt = get_date(-1)
+where dt = '${day}'
 and unix_timestamp(arrive_rst_at_beacon) - unix_timestamp(arrive_rst_at) > 1800
 ) t03
 on t02.dt = t03.dt
 join (
 select max(dt) as dt, count(*) as late_arrival_10_min_order_cnt
 from dw_ai.dw_ai_beacon_tracking_event
-where dt = get_date(-1)
+where dt = '${day}'
 and unix_timestamp(arrive_rst_at) - unix_timestamp(leave_rst_at_beacon) > 600
 ) t04
 on t03.dt = t04.dt
 join (
 select max(dt) as dt, count(*) as late_arrival_30_min_order_cnt
 from dw_ai.dw_ai_beacon_tracking_event
-where dt = get_date(-1)
+where dt = '${day}'
 and unix_timestamp(arrive_rst_at) - unix_timestamp(leave_rst_at_beacon) > 1800
 ) t05
 on t04.dt = t05.dt
 join (
 select max(dt) as dt, count(*) as late_pickup_10_min_order_cnt
 from dw_ai.dw_ai_beacon_tracking_event
-where dt = get_date(-1)
+where dt = '${day}'
 and unix_timestamp(pickup_at) - unix_timestamp(leave_rst_at_beacon) > 600
 ) t06
 on t05.dt = t06.dt
 join (
 select max(dt) as dt, count(*) as late_pickup_30_min_order_cnt
 from dw_ai.dw_ai_beacon_tracking_event
-where dt = get_date(-1)
+where dt = '${day}'
 and unix_timestamp(pickup_at) - unix_timestamp(leave_rst_at_beacon) > 1800
 ) t07
 on t06.dt = t07.dt
