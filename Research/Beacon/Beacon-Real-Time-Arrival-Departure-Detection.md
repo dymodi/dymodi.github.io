@@ -36,7 +36,7 @@ Here we choose a digital Butterworth low-pass filter with the following form:
 $$ G(z)=\frac{B(z)}{A(z)} = \frac{b(1)+b(2)z^{-1}+…+b(n+1)z^{-n}}{a(1)+a(2)z^{-1}+…+a(n+1)z^{-n}}  $$
 </p>
 
-We set the cutoff frequency as $$\omega_c=0.1$$ since the sampling frequency of the system is $$f_s=1\text{Hz}$$, we assume that signal changes faster than $\omega_c$ is due to fast fading but not human movements. The frequency response plot of the filter is as follows:
+We set the cutoff frequency as $$\omega_c=0.1$$ since the sampling frequency of the system is $$f_s=1\text{Hz}$$, we assume that signal changes faster than $$\omega_c$$ is due to fast fading but not human movements. The frequency response plot of the filter is as follows:
 
 <p align = "center">
 <img src="figures/butterworth.png" height="300">
@@ -54,9 +54,17 @@ After the filter and shaving, the result are as follows:
 <img src="figures/in-region-results.png" height="300">
 </p>
 
-By introducing a short range moving window low pass filter (LPF),  we can set a window (say 10 seconds) and filter the RSSI value in the window and do the in-region recongnition and decide the arrival/departure momoments. 
+By introducing a short range moving window low pass filter (LPF),  we can set a window (say 30 seconds) and filter the RSSI value in the window and do the in-region recongnition and decide the arrival/departure momoments.
 
-**(The implementation of short range moving window LPF is to be done.)**
+The real-time filtered RSSI values with short range LPF is as follows:
+
+
+
+
+
+
+
+
 
 This method (moving window LPF) can give us an relative accurate method (compared with offline detection), but is too complicated to maintain for large system, given tens of thousands of riders and restaurants working at the same time. That is, we need some more light-weight application that can achieve arrival/departure detection.
 

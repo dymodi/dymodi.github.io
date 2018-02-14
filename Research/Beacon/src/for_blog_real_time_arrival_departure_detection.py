@@ -37,7 +37,7 @@ for j in range(1, column_count+1):
 
 print('argument list: ', argument_list)
 
-# Plot timestamp - rssi figure
+# Plot whole timestamp - rssi figure
 rssi_list = []
 timestamp_list = []
 rssi_index = argument_list.index('rssi')
@@ -65,7 +65,7 @@ for timestp in range(timestamp_start, timestamp_end):
     else:
         rssi_draw.append(-100)
 
-# Plot Original RSSI
+# Plot Original RSSI in the time slot
 plt.plot(timestamp_draw, rssi_draw, 'C0')
 plt.xlabel('unix_timestamp / second')
 plt.ylabel('RSSI / dB (absent set as -100dB)')
@@ -80,11 +80,11 @@ order = 6
 b, a = signal.butter(order, wn, 'low', analog = False)
 rssi_filtered = signal.filtfilt(b, a, rssi_draw)
 
-# Plot RSSI
+# Plot filtered RSSI
 plt.plot(timestamp_draw, rssi_filtered, 'C1')
 plt.xlabel('unix_timestamp / second')
 plt.ylabel('RSSI / dB (absent set as -100dB)')
-plt.title('Rider\' RSSI value in 10 minutes for specific shop (filtered) (Not real-time)')
+plt.title('Rider\' RSSI value in 10 minutes for specific shop (Offline filtered) ')
 plt.show()
 
 # Plot Arrival/Departure Detection with RSSI threshold
@@ -100,7 +100,7 @@ for rssi in rssi_filtered:
 plt.plot(timestamp_draw, in_region, 'C2')
 plt.xlabel('unix_timestamp / second')
 plt.ylabel('In Region?')
-plt.title('Rider\'s in region information (Not real-time)')
+plt.title('Rider\'s in region information (Offline recognition)')
 plt.show()
 
 
@@ -137,23 +137,64 @@ in_region = window_filter(in_region, 10)
 plt.plot(timestamp_draw, in_region, 'C3')
 plt.xlabel('unix_timestamp / second')
 plt.ylabel('In Region?')
-plt.title('Rider\'s in region information after shave (Not real-time)')
+plt.title('Rider\'s in region information after shave (Offline recognition)')
 plt.show()
 
 
-# Plot Butterworth filter frequency response
-w, h = signal.freqz(b, a)
-plt.semilogx(w, 20 * np.log10(abs(h)))
-plt.title('Butterworth filter frequency response')
-plt.xlabel('Frequency [radians / second]')
-plt.ylabel('Amplitude [dB]')
-plt.margins(0, 0.1)
-plt.grid(which='both', axis='both')
-plt.axvline(wn, color='green') # cutoff frequency
-plt.show()
+# # Plot Butterworth filter frequency response
+# w, h = signal.freqz(b, a)
+# plt.semilogx(w, 20 * np.log10(abs(h)))
+# plt.title('Butterworth filter frequency response')
+# plt.xlabel('Frequency [radians / second]')
+# plt.ylabel('Amplitude [dB]')
+# plt.margins(0, 0.1)
+# plt.grid(which='both', axis='both')
+# plt.axvline(wn, color='green') # cutoff frequency
+# plt.show()
 
-# Design a moving filter
-horizon_length = 10
-for i in range(0, len(rssi_draw)-horizon_length):
+# Design a moving filter and work on RSSI slot
+horizon_length = 30
+i = 0
+rssi_range_filtered = []
+while i + horizon_length < len(rssi_draw):
     rssi_window = rssi_draw[i:i+horizon_length]
     rssi_window_filtered = signal.filtfilt(b, a, rssi_window)
+    for rssi in rssi_window_filtered:
+        rssi_range_filtered.append(rssi)
+    i = i + horizon_length
+
+# Plot RSSI with short range LPF
+len_filtered = len(rssi_range_filtered)
+plt.plot(timestamp_draw[0:len_filtered], rssi_range_filtered, 'C4')
+plt.xlabel('unix_timestamp / second')
+plt.ylabel('RSSI / dB (absent set as -100dB)')
+plt.title('Rider\' RSSI value in 10 minutes for specific shop (Real-time filtered)')
+plt.show()
+
+
+# Result of short range LPF after shaving
+
+# Plot Arrival/Departure Detection with RSSI threshold
+in_region = []
+for rssi in rssi_range_filtered:
+    if rssi > rssi_thresh:
+        in_region.append(1)
+    else:
+        in_region.append(0)
+
+# Plot In region result
+plt.plot(timestamp_draw[0:len_filtered], in_region, 'C5')
+plt.xlabel('unix_timestamp / second')
+plt.ylabel('In Region?')
+plt.title('Rider\'s in region information (Real-time recognition)')
+plt.show()
+
+# Shave
+in_region = window_filter(in_region, 10)
+
+# Plot In region result after shave
+plt.plot(timestamp_draw[0:len_filtered], in_region, 'C6')
+plt.xlabel('unix_timestamp / second')
+plt.ylabel('In Region?')
+plt.title('Rider\'s in region information after shave (Real-time recognition)')
+plt.show()

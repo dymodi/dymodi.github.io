@@ -1,13 +1,15 @@
---- 
+---
 layout: post
 title: Course Note - CSci 5523
 date: Jan. 17, 2017
 author: Yi DING
 ---
 
-[comment]: # (This is the course note for course CSci 5523)
+# Data Mining Course Note
 
-### Lec-3, Jan. 24, Wed.
+This is a course note for the for the course CSci 5523 Data Mining in Spring 2018 taught by Professor Vipin Kumar. Related chapters can be found in the book [Introduction to Data Mining (Second Edition)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php)
+
+
 Data Quality
 
 Examples of data quality problems: 
@@ -16,5 +18,3 @@ Examples of data quality problems:
 * Duplicate data 
 * Wrong data
 
-
-### Lec-1, Jan. 17, Wed.
