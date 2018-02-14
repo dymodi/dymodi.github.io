@@ -14,18 +14,18 @@ create table temp.temp_beacon_at_the_same_time_detail_phase_iii as
 	select t01.rider_id, 
 	get_point_distance(t01.latitude, t01.longitude, t02.latitude, t02.longitude) as distance,
 	t01.beacon_id as beacon_1,t01.detected_at as time_1, t01.rssi as rssi_1, t01.shop_id as shop_1, t01.latitude as latitude_1, t01.longitude as longitude_1,
-	t02.beacon_id as beacon_2, t02.detected_at as time_2, t02.rssi as rssi_2, t02.shop_id as shop_2, t02.latitude as latitude_2, t01.longitude as longitude_2,
+	t02.beacon_id as beacon_2, t02.detected_at as time_2, t02.rssi as rssi_2, t02.shop_id as shop_2, t02.latitude as latitude_2, t02.longitude as longitude_2,
 	t01.dt as dt
 	from (
 		select *
 		from dw_ai.dw_ai_clairvoyant_beacon
-		where dt > get_date(-4) and detected_at > get_date(-4)
+		where dt = '${day}' and get_date(detected_at) = '${day}'
 		and rssi > -80
 	) t01
 	join (
 		select *
 		from dw_ai.dw_ai_clairvoyant_beacon
-		where dt > get_date(-4) and detected_at > get_date(-4)
+		where dt ='${day}' and get_date(detected_at) = '${day}'
 		and rssi > -80
 	) t02
 	on t01.rider_id = t02.rider_id and t01.dt = t02.dt

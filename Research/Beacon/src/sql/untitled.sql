@@ -1,4 +1,18 @@
 
+
+select t01.shop_id, t01.beacon_id, t01.beacon_state, t02.updated_at, t01.dt
+from (
+	select * from dw_analyst.dw_analyst_beacon_state_day
+	where dt = get_date(-1) and beacon_state = 40
+) t01
+join (
+	select beaocnid as beacon_id, updated_at, shopid as shop_id
+	from dw.dw_tms_lpd_infra_beacon_beacon_info
+	where dt = get_date(-1)
+) t02
+on t01.beacon_id = t02.beacon_id and t01.shop_id = t02.shop_id
+
+
 ---- 取差异Beacon
 select t1.beacon_id from 
 dw_analyst.dw_analyst_beacon_state_day t1,

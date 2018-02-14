@@ -1,11 +1,12 @@
---- 
+---
 layout: post
 title: Notes on Beacon Paper
 date: Sept. 19, 2017
 author: Yi DING
 ---
 
-[comment]: # (This is the notes on the beacon paper)
+# Meeting Summary around Beacon
+
 
 ## Idea to be Discussed
 1. Deep Reinforcement Learning can be used in predicting rider's future bahavior.
@@ -46,6 +47,16 @@ Know something about what they are doing in machine learning group
 
 ## Discussion with Professor
 (Details can also be found in the emails name with "Small Meeting")
+
+02/08/18
+
+1. Large scale Real-time Arrival/Departure Detection with some technical details.
+2. Upper layer applications not limited to POI inconsistency and rider cheating detection. Rule-based methods are not good choice.
+3. Balance lower layer service and upper layer applications.
+4. Scalability is critical.
+
+
+
 
 01/25/18
 1. 饿了么总结

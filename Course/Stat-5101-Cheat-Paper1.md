@@ -1,19 +1,29 @@
---- 
+---
 layout: post
 title: Cheat Paper 1 - Stat 5101
 date: Feb. 1, 2018
 author: Yi DING
 ---
 
-[comment]: # ()
+Cheat Paper 1
 
-## Set theory (Section 1.4 in the book)
-## Events and probability (Section 1.5 in the book)
-## Counting, Permutation (Section 1.7 in the book)
 
-## Combination (Section 1.8 in the book)
-**Binomial Theorem**. For all numbers $x$ and $y$ and each positive integer $n$,
-$$(x+y)^n = \sum^n_{k=0}\left( \begin{matrix} n \\ k \end{matrix} \right) x^k y^{n-k} $$.
+Set theory (Section 1.4 in the book)
+Events and probability (Section 1.5 in the book)
+Counting, Permutation (Section 1.7 in the book)
+
+Combination (Section 1.8 in the book)
+
+**Binomial Theorem**. For all numbers $x$ and $y$ and each positive integer $n$, $$(x+y)^n = \sum^n_{k=0}\left( \begin{matrix} n \\ k \end{matrix} \right) x^k y^{n-k} $$.
+
+**Conditional Probalbility** $\text{Pr}(A|B)=\frac{\text{Pr}(A\cap B)} {\text{Pr}(B)}$
+
+Multiplication Rule for Conditional Probabilities. If $\text{Pr}(B)>0$, then $\text{Pr}(A\cap B) = \text{Pr}(B)\text{Pr}(A|B)$
+
+
+
+---
+
 
 
 
