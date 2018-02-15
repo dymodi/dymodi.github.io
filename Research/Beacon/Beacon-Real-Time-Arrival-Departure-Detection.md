@@ -58,18 +58,24 @@ By introducing a short range moving window low pass filter (LPF),  we can set a 
 
 The real-time filtered RSSI values with short range LPF is as follows:
 
+<p align = "center">
+<img src="figures/rssi-for-specific-shop-10-minutes-short-range.png" height="300">
+</p>
 
+The result of in region detection is as follows:
 
+<p align = "center">
+<img src="figures/in-region-results-short-range-LPF.png" height="300">
+</p>
 
-
-
-
+Compared to offline filtering, there are some performance degredation.
 
 
 This method (moving window LPF) can give us an relative accurate method (compared with offline detection), but is too complicated to maintain for large system, given tens of thousands of riders and restaurants working at the same time. That is, we need some more light-weight application that can achieve arrival/departure detection.
 
 ## Light weight arrival/departure detection algorithm
 
-TBD
+One possiblity is single moving filter for one rider (but not rider-shop pair). Since we assume **the rider can only be at one shop at any time**.
 
-(One possiblity is single moving filter for one rider (but not rider-shop pair))
+The following is the figure of this rider's rssi with multiple near by shops.
+
