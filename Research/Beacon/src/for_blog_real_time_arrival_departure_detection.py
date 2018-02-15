@@ -237,8 +237,9 @@ for i in range(0,len(rssi_list)):
 
 # Plot rider's RSSI with respect to multiple shops
 for i in range(0, len(shop_id_list)):
-    plt.plot(time_axis, rssi_matrix[:,i], label = str(shop_id_list[i]))
+    plt.plot(time_axis, rssi_matrix[:,i], label = 'shop'+str(i))
 plt.xlabel('unix_timestamp / second')
 plt.ylabel('RSSI / dB (absent set as -100dB)')
 plt.title('Rider\'s in region information (Real-time recognition)')
+plt.legend()
 plt.show()

@@ -79,3 +79,8 @@ One possiblity is single moving filter for one rider (but not rider-shop pair). 
 
 The following is the figure of this rider's rssi with multiple near by shops.
 
+<p align = "center">
+<img src="figures/rssi-multiple-shops.png" height="300">
+</p>
+
+So the question becomes, how can we decide which shop is the rider in at each time instance. In order to do this, we might need to review some related works on BLE-based prescence detection.
