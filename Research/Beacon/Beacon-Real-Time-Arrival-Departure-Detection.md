@@ -97,10 +97,10 @@ $$A_i^j: $$ Rider $$i$$ is in shop $$j$$.
 
 $$R_i^j: $$ The RSSI value of rider $$i$$ to shop $$j$$.
 
-What we want to compute is that for all the nearby shops: $$j\in\{1,2,…,k\}$$, the values of $$\text{Pr}(A_i^j|R_i^j)$$ given the real-time $$R_i^j$$.
+What we want to compute is that for all the nearby shops: $$j\in\{1,2,…,k\}$$, the values of $$\text{Pr}(A_i^j\|R_i^j)$$ given the real-time $$R_i^j$$.
 
-Acoording to Bayes Rule, we have
+According to Bayes Rule, we have
 
 $$\text{Pr}(A_i^j|R_i^j) = \frac{\text{Pr}(R_i^j|A_i^j)\text{Pr}(A_i^j)}{\text{Pr}(R_i^j)}$$
 
-Here $$\text{Pr}(R_i^j|A_i^j)$$ is called the likelihood.
+Here $$\text{Pr}(R_i^j\|A_i^j)$$ is called the likelihood.
