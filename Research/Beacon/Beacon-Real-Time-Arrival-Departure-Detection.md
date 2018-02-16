@@ -103,7 +103,30 @@ According to Bayes Rule, we have
 
 $$\text{Pr}(A_i^j|R_i^j) = \frac{\text{Pr}(R_i^j|A_i^j)\text{Pr}(A_i^j)}{\text{Pr}(R_i^j)}$$
 
-Here $$\text{Pr}(R_i^j\mid A_i^j)$$ is called the likelihood. It has been studied in many literature that we can use a emperical equation to describe the relation between distance and RSSI. 
+Here $$\text{Pr}(R_i^j\mid A_i^j)$$ is called the likelihood. It has been studied in many literature that we can use a emperical equation to describe the relation between distance and RSSI. The relation can be described as follows:
+
+<p align = "center">
+<img src="figures/rssi-distance-relation.png" height="300">
+</p>
+
+It seems that the higher the RSSI value is, the more near the rider is to the beacon (the more confident we can say that the rider is in the shop).
+
+However, in reality, the emperical PDF of $$\hat\text{Pr}(R_i^j\mid A_i^j)$$ is as follows. We collected 30,000 orders for the past 30 days and record the RSSI value when the rider labels himself as "Pickup Meal". 
+
+<p align = "center">
+<img src="figures/in_shop_rssi_dist_30_days.png" height="300">
+</p>
+
+It seems that the center is around -77dB and higher RSSI value is less observed. One reason is that due to placement (attached on ceiling), the rider usually cannot get very close to the beacon (<3m), hence the center is around -77dB. 
+
+Hence the question becomes, we should use which distribution as our $$\text{Pr}(R_i^j\mid A_i^j)$$, the theoratical result from literature or the emperical distribution from data.
+
+One another question is, if we use emperical PDF, weather we should use a global distribution for all shops or we should build unique model for each shop. Here we have two emperical distribution from two shops' data.
+
+<p align = "center">
+<img src="figures/in_shop_rssi_dist_1.png" height="300">
+<img src="figures/in_shop_rssi_dist_2.png" height="300">
+</p>
 
 For online detection, prior $$\text{Pr}(A_i^j)$$ is the posterior in the last time instance, i.e. our estimation so far. 
 

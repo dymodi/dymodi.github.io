@@ -1,4 +1,4 @@
---- 
+---
 layout: default
 title: Machine Learning
 date: June 5, 2017
@@ -29,7 +29,7 @@ date: June 5, 2017
 [Multi-Label Data](MLfolds/Multi-Label)
 
 ## Database
-[SQL Basics](MLfolds/SQL-Basics)
+[](MLfolds/SQL-Basics)
 
 [Query Data in PySpark](MLfolds/PySpark)
 
