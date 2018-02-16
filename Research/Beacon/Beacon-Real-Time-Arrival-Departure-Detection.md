@@ -84,3 +84,23 @@ The following is the figure of this rider's rssi with multiple near by shops.
 </p>
 
 So the question becomes, how can we decide which shop is the rider in at each time instance. In order to do this, we might need to review some related works on BLE-based prescence detection.
+
+## Bayesian Estimation on Rider's Arrival
+
+Since rider's position is dynamic and related to many POIs in real world, we can use the Bayesian estimation for the possiblity of rider's prescence in the around shops. 
+
+Given the fast fading nature of BLE RSSI, it's diffcult to conclude that the rider is in or not in the shop, however, the signal strength does give us some information to measure the probablity  of rider in the shop. In this case, Bayesian updating would be a good choice to estimate the possiblity of rider's prescence in the shop. Historical information (in the short range) acts as prior while real-time information can be used to update the possibility.
+
+We define the following events:
+
+$$A_i^j: $$ Rider $$i$$ is in shop $$j$$.
+
+$$R_i^j: $$ The RSSI value of rider $$i$$ to shop $$j$$.
+
+What we want to compute is that for all the nearby shops: $$j\in\{1,2,…,k\}$$, the values of $$\text{Pr}(A_i^j|R_i^j)$$ given the real-time $$R_i^j$$.
+
+Acoording to Bayes Rule, we have
+
+$$\text{Pr}(A_i^j|R_i^j) = \frac{\text{Pr}(R_i^j|A_i^j)\text{Pr}(A_i^j)}{\text{Pr}(R_i^j)}$$
+
+Here $$\text{Pr}(R_i^j|A_i^j)$$ is called the likelihood.
