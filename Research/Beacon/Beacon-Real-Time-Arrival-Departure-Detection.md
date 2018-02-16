@@ -111,7 +111,7 @@ Here $$\text{Pr}(R_i^j\mid A_i^j)$$ is called the likelihood. It has been studie
 
 It seems that the higher the RSSI value is, the more near the rider is to the beacon (the more confident we can say that the rider is in the shop).
 
-However, in reality, the emperical PDF of $$\hat\text{Pr}(R_i^j\mid A_i^j)$$ is as follows. We collected 30,000 orders for the past 30 days and record the RSSI value when the rider labels himself as "Pickup Meal". 
+However, in reality, the emperical PDF of $\text{Pr}(R_i^j \mid A_i^j)$$ is as follows. We collected 30,000 orders for the past 30 days and record the RSSI value when the rider labels himself as "Pickup Meal". 
 
 <p align = "center">
 <img src="figures/in_shop_rssi_dist_30_days.png" height="300">
@@ -124,8 +124,8 @@ Hence the question becomes, we should use which distribution as our $$\text{Pr}(
 One another question is, if we use emperical PDF, weather we should use a global distribution for all shops or we should build unique model for each shop. Here we have two emperical distribution from two shops' data.
 
 <p align = "center">
-<img src="figures/in_shop_rssi_dist_1.png" height="300">
-<img src="figures/in_shop_rssi_dist_2.png" height="300">
+<img src="figures/in_shop_rssi_dist_1.png" width="300">
+<img src="figures/in_shop_rssi_dist_2.png" width="300">
 </p>
 
 For online detection, prior $$\text{Pr}(A_i^j)$$ is the posterior in the last time instance, i.e. our estimation so far. 
