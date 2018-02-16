@@ -10,6 +10,25 @@ import matplotlib.pyplot as plt
 from scipy import signal
 import numpy as np
 
+
+# Draw RSSI - Distance relation
+rssi_list = []
+dist_list = []
+A = -55
+n = 2
+for rssi in range(-100, -50):
+    rssi_list.append(rssi)
+    dist = np.power(10, (-rssi+A)/(10*n))
+    dist_list.append(dist)
+
+# Plot In region result after shave
+plt.plot(dist_list, rssi_list)
+plt.xlabel('distance / meters')
+plt.ylabel('RSSI / dB ')
+plt.title('RSSI - Distance relation')
+plt.show()
+
+
 # This path of current file
 dir_path = os.path.dirname(os.path.realpath(__file__))
 data_path = os.path.join(dir_path, '../data/')

@@ -1,4 +1,4 @@
---- 
+---
 layout: default
 title: Toolbox
 date: Jan. 4, 2017
@@ -11,3 +11,7 @@ date: Jan. 4, 2017
 
 ## Python
 [Python Tricks](Toolbox/Python-Tricks)
+
+## SQL
+
+[SQL Tricks](Toolbox/SQL-Tricks)
