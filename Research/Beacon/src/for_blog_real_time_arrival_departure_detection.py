@@ -11,22 +11,22 @@ from scipy import signal
 import numpy as np
 
 
-# Draw RSSI - Distance relation
-rssi_list = []
-dist_list = []
-A = -55
-n = 2
-for rssi in range(-100, -50):
-    rssi_list.append(rssi)
-    dist = np.power(10, (-rssi+A)/(10*n))
-    dist_list.append(dist)
-
-# Plot In region result after shave
-plt.plot(dist_list, rssi_list)
-plt.xlabel('distance / meters')
-plt.ylabel('RSSI / dB ')
-plt.title('RSSI - Distance relation')
-plt.show()
+# # Draw RSSI - Distance relation
+# rssi_list = []
+# dist_list = []
+# A = -55
+# n = 2
+# for rssi in range(-100, -50):
+#     rssi_list.append(rssi)
+#     dist = np.power(10, (-rssi+A)/(10*n))
+#     dist_list.append(dist)
+#
+# # Plot In region result after shave
+# plt.plot(dist_list, rssi_list)
+# plt.xlabel('distance / meters')
+# plt.ylabel('RSSI / dB ')
+# plt.title('RSSI - Distance relation')
+# plt.show()
 
 
 # This path of current file
@@ -254,11 +254,34 @@ for i in range(0,len(rssi_list)):
     # Assign RSSI to the position
     rssi_matrix[time_index][shop_index] = rssi_list[i]
 
-# Plot rider's RSSI with respect to multiple shops
-for i in range(0, len(shop_id_list)):
-    plt.plot(time_axis, rssi_matrix[:,i], label = 'shop'+str(i))
-plt.xlabel('unix_timestamp / second')
-plt.ylabel('RSSI / dB (absent set as -100dB)')
-plt.title('Rider\'s in region information (Real-time recognition)')
-plt.legend()
-plt.show()
+# # Plot rider's RSSI with respect to multiple shops
+# for i in range(0, len(shop_id_list)):
+#     plt.plot(time_axis, rssi_matrix[:,i], label = 'shop'+str(i))
+# plt.xlabel('unix_timestamp / second')
+# plt.ylabel('RSSI / dB (absent set as -100dB)')
+# plt.title('Rider\'s in region information (Real-time recognition)')
+# plt.legend()
+# plt.show()
+
+
+## -----------------------------------------------------------------------------
+## Conduct Bayesian Estimation on Rider's Prescence
+
+# Import P(R|A)
+likelihood_rssi = []
+for i in range(-109, -49, 1):
+    likelihood_rssi.append(i)
+likelihood_p = [0.000843471, 0.000909981, 0.001529736, 0.001680896, 0.002530413, 0.002865988, 0.003742714, 0.004138753,
+ 0.005626164, 0.006841488, 0.00897284,  0.009637942, 0.013350424, 0.012972525, 0.015575495, 0.014843882,
+ 0.021473747, 0.019995405, 0.025131811, 0.01923356,  0.030473795, 0.027242001, 0.032626309, 0.031646794,
+ 0.035513459, 0.032184923, 0.044214211, 0.041414734, 0.037463419, 0.037124822, 0.038920599, 0.032762353,
+ 0.036991801, 0.032623286, 0.033221878, 0.028327327, 0.038899436, 0.027725712, 0.031531913, 0.024357874,
+ 0.028723366, 0.02119259,  0.022879532, 0.017347087, 0.014710862, 0.010197233, 0.006384986, 0.004102474,
+ 0.002497158, 0.002043679, 0.001200208, 0.000649987, 0.000492781, 0.00021767,  7.25567E-05, 5.13943E-05,
+ 4.53479E-05, 1.20928E-05, 6.04639E-06, 9.06958E-06]
+
+
+posterior_matrix = np.empty([len(time_axis),len(shop_id_list)])
+for i in range(0, len(time_axis)):
+    for j in range(0, len(shop_id_list)):
+        posterior_matrix[i,j] = 

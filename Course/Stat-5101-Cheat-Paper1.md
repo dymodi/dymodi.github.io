@@ -22,6 +22,20 @@ Multiplication Rule for Conditional Probabilities. If $\text{Pr}(B)>0$, then $\t
 
 
 
+**PDF**
+
+**CDF**
+
+**Quantile Function**
+
+$$F^{-1}(x)$$: Inverse of CDF.
+
+**Bivariate r.v.s.**: $$X$$ and $$Y$$
+
+
+
+
+
 ---
 
 

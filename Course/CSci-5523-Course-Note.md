@@ -15,6 +15,14 @@ This is a course note for the for the course CSci 5523 Data Mining in Spring 201
 
 ## Chap 2 Data
 
+2.1 Types of Data
+
+2.2 Data Quality
+
+2.3 Measures of Similiarities and Dissimiliarites
+
+
+
 
 
 ## Chap 10 Avoiding False Discoveries

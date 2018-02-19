@@ -54,3 +54,8 @@ and unix_timestamp(t01.pickup_at) - unix_timestamp(t02.detected_at) > -2
 and t01.shop_id = 157943226
 group by t02.rssi
 order by t02.rssi
+
+
+---- Get the ground-truth of the rider's in shop detection
+select * from dw.dw_tms_tb_tracking_event 
+where dt = '2018-02-14' and carrier_driver_id =100556090

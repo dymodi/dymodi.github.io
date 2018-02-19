@@ -87,7 +87,7 @@ So the question becomes, how can we decide which shop is the rider in at each ti
 
 ## Bayesian Estimation on Rider's Arrival
 
-Since rider's position is dynamic and related to many POIs in real world, we can use the Bayesian estimation for the possiblity of rider's prescence in the around shops. 
+Since the rider's position is dynamic and related to many POIs in real world, we can use the Bayesian estimation for the possiblity of rider's prescence in the around shops. 
 
 Given the fast fading nature of BLE RSSI, it's diffcult to conclude that the rider is in or not in the shop, however, the signal strength does give us some information to measure the probablity  of rider in the shop. In this case, Bayesian updating would be a good choice to estimate the possiblity of rider's prescence in the shop. Historical information (in the short range) acts as prior while real-time information can be used to update the possibility.
 
@@ -111,7 +111,7 @@ Here $$\text{Pr}(R_i^j\mid A_i^j)$$ is called the likelihood. It has been studie
 
 It seems that the higher the RSSI value is, the more near the rider is to the beacon (the more confident we can say that the rider is in the shop).
 
-However, in reality, the emperical PDF of $\text{Pr}(R_i^j \mid A_i^j)$$ is as follows. We collected 30,000 orders for the past 30 days and record the RSSI value when the rider labels himself as "Pickup Meal". 
+However, in reality, the emperical PDF of $$\text{Pr}(R_i^j \mid A_i^j)$$ is as follows. We collected 30,000 orders for the past 30 days and record the RSSI value when the rider labels himself as "Pickup Meal". 
 
 <p align = "center">
 <img src="figures/in_shop_rssi_dist_30_days.png" height="300">
@@ -124,8 +124,8 @@ Hence the question becomes, we should use which distribution as our $$\text{Pr}(
 One another question is, if we use emperical PDF, weather we should use a global distribution for all shops or we should build unique model for each shop. Here we have two emperical distribution from two shops' data.
 
 <p align = "center">
-<img src="figures/in_shop_rssi_dist_1.png" width="300">
-<img src="figures/in_shop_rssi_dist_2.png" width="300">
+<img src="figures/in_shop_rssi_dist_1.png" width="350">
+<img src="figures/in_shop_rssi_dist_2.png" width="350">
 </p>
 
 For online detection, prior $$\text{Pr}(A_i^j)$$ is the posterior in the last time instance, i.e. our estimation so far. 
