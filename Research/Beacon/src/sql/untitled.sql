@@ -134,17 +134,11 @@ group by dt, beacon_state
 ​order by dt, beacon_state
 
 ---- 部署之后每天跟踪Beacon状态情况
-select beacon_state, count(*)
-from temp.temp_beacon_state_phase_iii_1_day 
-group by beacon_state
-​order by beacon_state
-
----- 部署之后每天跟踪Beacon状态情况
-select beacon_state, count(*)
+select dt, beacon_state, count(*)
 from dw_analyst.dw_analyst_beacon_state_day
-where dt = '2018-02-05'
-group by beacon_state
-​order by beacon_state
+where dt > get_date(-10)
+group by dt, beacon_state
+​order by beacon_state, dt
 
 ---- 部署之后每天跟踪总体进度情况
 select dt, count(*) as data_cnt, count(distinct beacon_id) as beacon_num_deployed, 

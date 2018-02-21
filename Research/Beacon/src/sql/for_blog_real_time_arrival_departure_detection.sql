@@ -57,5 +57,6 @@ order by t02.rssi
 
 
 ---- Get the ground-truth of the rider's in shop detection
-select * from dw.dw_tms_tb_tracking_event 
-where dt = '2018-02-14' and carrier_driver_id =100556090
+select * from dw.dw_tms_tb_tracking_event
+where dt = '2018-02-20' and get_date(ocurred_time) = '2018-02-04'
+and carrier_driver_id =100556090
