@@ -4,6 +4,8 @@
 
 [Introduction to Machine Learning Second Edition - Ethem Alpaydın](http://cs.du.edu/~mitchell/mario_books/Introduction_to_Machine_Learning_-_2e_-_Ethem_Alpaydin.pdf)
 
+[Introduction to Data Mining (Second Edition) - Pang-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php)
+
 [Machine Learning - A Probabilistic Perspective - Kevin P. Murphy](http://dsd.future-lab.cn/members/2015nlp/Machine_Learning.pdf)
 
 [Reinforcement Learning: An Introduction - Richard S. Sutton and Andrew G. Barto](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
@@ -12,21 +14,21 @@
 
 [The Elements of Statistical Learning: Data Mining, Inference, and Prediction. - Trevor Hastie, Robert Tibshirani, Jerome Friedman](http://web.stanford.edu/~hastie/ElemStatLearn/)
 
-## Online Courses:
+## Online Courses
 
 [Deep Reinforcement Learning, Berkeley, CS 294](http://rll.berkeley.edu/deeprlcourse/)
 
 [Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.stanford.edu/)
 
-## TensorFlow: 
+## TensorFlow 
 
 [Start Tutorial](https://www.tensorflow.org/get_started/get_started)
 
-## SQL:
+## SQL
 
 [codecademy](https://www.codecademy.com/learn/learn-sql) (Basic SQL concept and operations)
 
-## Hive SQL:
+## Hive SQL
 
 [Hive Tutorial](https://www.tutorialspoint.com/hive/index.htm)
 (You can learn basic functions for Hive)

@@ -7,20 +7,96 @@ author: Yi DING
 
 Cheat Paper 1
 
+**Sample space**: run one experiment, put all possible outcomes together, it forms the sample space of this experiment.
 
-Set theory (Section 1.4 in the book)
-Events and probability (Section 1.5 in the book)
-Counting, Permutation (Section 1.7 in the book)
+- Eg. Flip a coin. $$S = \{H, T\}$$
+- Eg. Roll a die, $$S = \{1, 2, 3, 4, 5, 6\}$$
 
-Combination (Section 1.8 in the book)
+An **event** is a subset of the sample space.
 
-**Binomial Theorem**. For all numbers $x$ and $y$ and each positive integer $n$, $$(x+y)^n = \sum^n_{k=0}\left( \begin{matrix} n \\ k \end{matrix} \right) x^k y^{n-k} $$.
+- Eg. Roll a dice, $$E = \{6\}$$
+
+**Set theory**
+
+1. Communitive law
+   $$A \cup B = B \cup A, A \cap B = B \cap A$$
+
+2. Assosiation law 
+   $$(A \cup B ) \cup C = A \cup ( B \cup C )$$, $$(A \cap B ) \cap C = A \cap ( B \cap C )$$
+
+3. Distribution law
+   $$A \cap ( B \cup C ) = (A \cap B ) \cup (A \cap C )$$, $$A \cup ( B \cap C ) = (A \cup B ) \cap (A \cup C )$$
+
+4. De Morgan’s laws
+   $$(A \cup B )^c = A^c \cap B ^c$$, $$(A \cap B )^c = A^c \cup B ^c$$
+
+5. Partitioning a Set
+   For every two sets $$A$$ and $$B$$, $$A \cap B$$ and $$A \cap B^c$$ are disjoint and $$A = (A\cap B)\cup (A\cap B^c)$$
+
+**The Definition of Probability**
+For every infinite sequence of disjoint events $$A_1, A_2, ... $$, $$\text{Pr}\left( \cup _{i=1}^\infty A_i \right) = \sum _{i=1}^\infty \text{Pr}(A_i)$$
+
+For every event $$A$$, $$\text{Pr}(A^c) = 1 − \text{Pr}(A)$$.
+
+If $$A \subset B$$, then $$\text{Pr}(A) \le \text{Pr}(B)$$.
+
+For every two events $$A$$ and $$B$$, $$\text{Pr}(A\cap B^c)=\text{Pr}(A)−\text{Pr}(A\cap B)$$.
+
+For every two events $$A$$ and $$B$$, $$\text{Pr}(A\cup B)=\text{Pr}(A) + \text{Pr}(B)−\text{Pr}(A\cap B)$$.
+
+$$P(A\cup B \cup C) = P(A) + P(B) + P(C) - P(AB) - P(BC) - P(CA) + P(ABC)$$
+
+**Bonferroni Inequality** 
+For all events $$A_1, A_2, ... $$, $$\text{Pr}\left( \cup _{i=1}^n A_i \right) \le \sum _{i=1}^n \text{Pr}(A_i)$$, $$\text{Pr}\left( \cap_{i=1}^n A_i \right) \ge 1- \sum _{i=1}^n \text{Pr}(A_i^c)$$
+
+**Permutations**
+Suppose that a set has $$n$$ elements. Suppose that an experiment consists of selecting $$k$$ of the elements one at a time without replacement. Let each outcome consist of the $$k$$ elements in the order selected. Each such outcome is called a *permutation of $$n$$ elements taken $$k$$ at a time*. We denote the number of distinct such permutations by the symbol $$P_{n,k}$$.
+
+$$P_{n,k} = n(n-1)...(n-k+1)$$
+
+$$P_{n,k} = \frac{n!}{(n-k)!}$$
+
+**The Birthday Problem**
+
+The probability $$p$$ that at least two of the people will have the same birthday is therefore 
+
+$$p=1-\frac{P_{365,k}}{365^k} = 1-\frac{(365)!}{(365-k)!365^k}$$
+
+**Combinations**
+
+Consider a set with n elements. Each subset of size $$k$$ chosen from this set is called a combination of $$n$$ elements taken $$k$$ at a time. We denote the number of distinct such combinations by the symbol $$C_{n,k}$$.
+
+$$C_{n,k}=\frac{P_{n,k}}{k!}=\frac{n!}{k!(n-k)!}$$
+
+**Binomial Theorem**. 
+
+For all numbers $x$ and $y$ and each positive integer $n$, $$(x+y)^n = \sum^n_{k=0}\left( \begin{matrix} n \\ k \end{matrix} \right) x^k y^{n-k} $$.
+
+**Multinomial Coefficients**
+
+The number $$\frac{n!}{n_1!n_2!...n_k!}$$, which we shall denote by $$\left( \begin{matrix} n \\ n_1, n_2, …, n_k \end{matrix} \right)$$
+
+**Multinomial Theorem**. For all numbers $$ x_1, ..., x_k $$ and each positive integer $$n$$, $$(x_1+...+x_k)^n = \sum\left( \begin{matrix} n \\ n_1, n_2, …, n_k \end{matrix} \right) x_1^{n_1}x_2^{n_2}...x_k^{n_k}$$.
 
 **Conditional Probalbility** $\text{Pr}(A|B)=\frac{\text{Pr}(A\cap B)} {\text{Pr}(B)}$
 
-Multiplication Rule for Conditional Probabilities. If $\text{Pr}(B)>0$, then $\text{Pr}(A\cap B) = \text{Pr}(B)\text{Pr}(A|B)$
+Multiplication Rule for Conditional Probabilities. If $$\text{Pr}(B)>0$$, then $$\text{Pr}(A\cap B) = \text{Pr}(B)\text{Pr}(A|B)$$
 
+**Independence of Two Events**: $$\text{Pr}(A\cap B) = \text{Pr}(A) \text{Pr}(B)$$
 
+**Independence of Complements**: If two events $$A$$ and $$B$$ are independent, then the events $$A$$ and $$B^c$$ are also indepen-
+
+**Conditional Independence**: We say that events $$A_1, . . . , A_k$$ are conditionally independent given $$B$$ if, for every subcollection $$A_{i1}, . . . , A_{ij}$$ of $$j$$ of these events $$(j = 2,3,...,k)$$,
+
+$$ \text{Pr}\left( A_{i1} \cap ... \cap A_{ij} \mid B \right) = \text{Pr}(A_{i1}|B)...\text{Pr}(A_{ij}|B) $$
+
+**Bayes’ Theorem**
+Let the events $$B_1, ..., B_k$$ form a partition of the space $$S$$ such that $$\text{Pr}(B_j) > 0$$ for $$j =1,...,k$$, and let $$A$$ be an event such that $$\text{Pr}(A)>0$$. Then, for $$i = 1, . . . , k,$$
+$$\text{Pr}(B_i|A) = \frac{\text{Pr}(B_i)\text{Pr}(A|B_i)}{\sum^k_{j=1}\text{Pr}(B_j)\text{Pr}(A|B_j)}$$
+
+**Binomial Distributions**
+
+**Uniform Distributions on Intervals**
 
 **PDF**
 
@@ -31,79 +107,3 @@ Multiplication Rule for Conditional Probabilities. If $\text{Pr}(B)>0$, then $\t
 $$F^{-1}(x)$$: Inverse of CDF.
 
 **Bivariate r.v.s.**: $$X$$ and $$Y$$
-
-
-
-
-
----
-
-
-
-
-### Lec-7 Jan. 31, Wed.
-Inclusion-Exclusion formula.
-Show
-$$\left( \begin{matrix} n \\ 0 \end{matrix} \right)^2$$
-
-
-$$P(A\cup B) = P(A) + P(B) - P(AB)$$
-
-$$P(A\cup B \cup C) = P(A) + P(B) + P(C) - P(AB) - P(BC) - P(CA) + P(ABC)$$
-
-
-### Lec-5, Jan. 26, Fri.
-Combination (Section 1.8 in the book)
-
-### Lec-4, Jan. 24, Wed.
-Counting, Permutation (Section 1.7 in the book)
-
-### Lec-3, Jan. 22, Mon.
-Events and probability (Section 1.5 in the book)
-
-Eg. Flip a coin 3 times
-
-$$S = \{ HHT, HTH, HTT, HHH, THT, TTH, TTT, THH \}$$
-
-$$S_1 = HHH, S_2 = THH, S_3 = HTH, S_4 = HTT, S_5 = THT, S_6 = TTT, S_7 = TTH, S_8 = HHT$$
-
-$$A = \{ \}$$
-
-Easily, $$B\cap D = \emptyset$$, $$B$$ and $$D$$ are **disjoint**.
-
-What is probability?
-
-In general, given sample space $$S$$ for any event $$A\in S$$, assign a number $$P(A)$$ for $$A$$ s.t.
-1. $$P(A) \ge 0$$ 
-2. $$P(S) = 1$$ 
-3. $$P(\cup ^\infty_{i=1} A_i) = \sum ^\infty_{i=1} P(A_i)$$ if $$A_1, A_2,..., $$ are pairwise disjoint.
-
-We say $$P$$ is a probability.
-
-If $$P$$ is a probability:
-1. (Proof) $$P(\emptyset) = 0$$ 
-2. (Proof) If $$A_1, A_2, ..., A_n$$ are pairwise disjoint events, then
-
-$$P(\cup ^n_{i=1} A_i) = \sum ^n_{i=1} P(A_i)$$
-
-3. (Proof) $$P(A^c) = 1-P(A)$$
-4. (Proof) If $$A \subset B$$, then $$P(A) < P(B)$$
-5. (Proof) For any event $$A$$ we have $$0 \le P(A) \le 1$$
-6. (Proof) $$P(A\cup B) = P(A) + P(B) - P(A\cap B)$$
-
-### Lec-2, Jan. 19, Fri.
-Set theory (Section 1.4 in the book)
-* event
-* union & intersection
-* complement
-* relationship among events
-* partition
-
-**Sample space**: run one experiment, put all possible outcomes together, it forms the sample space of this experiment.
-* Eg.1 Flip a coin. $$S = {H, T}$$
-* Eg.2 Roll a die, $$S = {1, 2, 3, 4, 5, 6}$$
-* Eg.3 Randomly select a person whose birthday, $$S = {1, 2, ..., 365} $$
-
-
-
-

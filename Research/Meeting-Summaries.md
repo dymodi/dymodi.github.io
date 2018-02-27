@@ -48,14 +48,18 @@ Know something about what they are doing in machine learning group
 ## Discussion with Professor
 (Details can also be found in the emails name with "Small Meeting")
 
+02/22/18
+1. Plan to use Bayesian estimation to do the rider's prescence detection. For two reaons: (1) Bayesian estimation provides the possiblilities for rider at each shop, we do not need manually set a threshold of RSSI to tell whether rider is at which shop. (2) Bayesian estimation can be update online given new data.
+2. In Bayesian estimation, prior can be set as the posterior at last step. We have two choices for likelihood: a emperical equation (higher RSSI indicates higher possibility), or a distribution learned from data (Gaussian distribution with mu = -80). We can try both to see the performance.
+3. Rider's labeling can be viewed as ground truth for evaluation.
+
+
 02/08/18
 
 1. Large scale Real-time Arrival/Departure Detection with some technical details.
 2. Upper layer applications not limited to POI inconsistency and rider cheating detection. Rule-based methods are not good choice.
 3. Balance lower layer service and upper layer applications.
 4. Scalability is critical.
-
-
 
 
 01/25/18

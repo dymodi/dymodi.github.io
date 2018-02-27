@@ -5,21 +5,39 @@ date: Feb. 4, 2018
 author: Yi DINGReal-Time Arrival Departure Detection
 ---
 
-# Real-Time Arrival Departure Detection
+# Real-Time Riders' Arrival Departure Detection (RADD)
 
 <p align = "center">Yi Ding</p>
+
+
+
+## The Object of Riders' Arrival Depature Detection
+
+* ETA of Delivery
+* Rider Cheating Detection
+* POI Correction
+
+What is the key information we need to know from RADD: The specific time of rider's arrival and departure at each POI.
+
+
 
 ## Why "Arrival/Departure Detection" instead of "Indoor Localization"
 
 * Localization needs multiple beacon deivces installed nearby, which is not applicable in real world for large scale applcaition like city-range food delivery system.
+
 * RSSI fluctuation (fast fading) makes BLE beacon not suitable for indoor localization. This is also supported by our experiment as well as Apple's claim in the technique report.
+
+  ​
 
 ## Why not simple filtering
 In the [beacon filtering blog](https://dymodi.github.io/Research/Beacon/Beacon-Filtering), we discuss the arrival and departure detection using filtering. However, this method is an off-line method based on the entire dataset. While in some scenarios, such as rider dispatching, we need **real time** information of people's arrival and departure at some indoor/outdoor environment.
 
 In this post,  we discuss real time arrival departure detection using beacon RSSI data. We will illustrate several techniques to achieve this.
 
+
+
 ## Short range low pass filter
+
 For the short range low pass filter method, we assign a low pass filter to each rider-shop-pair and move the filter as time goes on.
 
 For a specific (rider, shop) pair, the raw RSSI values are as follows
@@ -131,4 +149,22 @@ One another question is, if we use emperical PDF, weather we should use a global
 For online detection, prior $$\text{Pr}(A_i^j)$$ is the posterior in the last time instance, i.e. our estimation so far. 
 
 
+
+## Getting Ground Truth from Riders' Labeling Data
+
+In our experiments, the riders are required to report the progress of the delivery by manully click "Arrival at Restaurant" and "Pick up meal"on his cellphone. We consider the timestamp of the above two events as the arrival and departure time of the rider. The duration between arrival and departure is considered as "In the Restaurant".
+
+In an ideal case, the rider passes by a sequence of shops and the arrival/departure behavior can be visualized as follows:
+
+<p align = "center">
+
+<img src="figures/RADD-groundtruth-idea-case.png" width="500">
+
+
+
+</p>
+
+### Some Inconsistency Between RADD Results and Riders' Labelling
+
+Redundant Arrival/Departur
 
