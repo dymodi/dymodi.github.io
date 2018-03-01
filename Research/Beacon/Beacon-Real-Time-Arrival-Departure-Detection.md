@@ -7,7 +7,7 @@ author: Yi DINGReal-Time Arrival Departure Detection
 
 # Real-Time Riders' Arrival Departure Detection (RADD)
 
-<p align = "center">Yi Ding</p>
+Yi Ding
 
 
 
@@ -18,6 +18,13 @@ author: Yi DINGReal-Time Arrival Departure Detection
 * POI Correction
 
 What is the key information we need to know from RADD: The specific time of rider's arrival and departure at each POI.
+
+
+
+## Difficulties in Real-time RADD
+
+* Real-time, we cannot have a large window for filtering or pattern recognition
+* Large-scale and diversity, a simple model won't work for all riders and shops.
 
 
 
@@ -109,19 +116,37 @@ Since the rider's position is dynamic and related to many POIs in real world, we
 
 Given the fast fading nature of BLE RSSI, it's diffcult to conclude that the rider is in or not in the shop, however, the signal strength does give us some information to measure the probablity  of rider in the shop. In this case, Bayesian updating would be a good choice to estimate the possiblity of rider's prescence in the shop. Historical information (in the short range) acts as prior while real-time information can be used to update the possibility.
 
-We define the following events:
+We have the following hypotheses space:
 
-$$A_i^j: $$ Rider $$i$$ is in shop $$j$$.
+$$\mathcal H = \{ O, S_1, S_2, …, S_n \}$$
 
-$$R_i^j: $$ The RSSI value of rider $$i$$ to shop $$j$$.
+where $$S_i$$ means the rider is in shop $$i$$, and $$O$$ means the rider is not in any shop (outdoors).
 
-What we want to compute is that for all the nearby shops: $$j\in\{1,2,…,k\}$$, the values of $$\text{Pr}(A_i^j\mid R_i^j)$$ given the real-time $$R_i^j$$.
+We have the following observations:
+
+$$R_j: $$ The RSSI value heard from shop $$j$$.
+
+What we want to compute is that for all the nearby shops: $$i\in\{1,2,…,n\}​$$, the values of $$\text{Pr}(S_i \mid R_j=r)​$$ given the real-time $$R_j=r​$$.
 
 According to Bayes Rule, we have
 
-$$\text{Pr}(A_i^j|R_i^j) = \frac{\text{Pr}(R_i^j|A_i^j)\text{Pr}(A_i^j)}{\text{Pr}(R_i^j)}$$
+$$\text{Pr}(S_i|R_j=r) = \frac{\text{Pr}(R_j=r|S_i)\text{Pr}(S_i)}{\text{Pr}(R_j=r)}$$
 
-Here $$\text{Pr}(R_i^j\mid A_i^j)$$ is called the likelihood. It has been studied in many literature that we can use a emperical equation to describe the relation between distance and RSSI. The relation can be described as follows:
+$$\text{Pr}(R_j=r) = \sum_i \text{Pr}(R_j=r|S_i)\text{Pr}(S_i) + \text{Pr}(R_j=r|O)\text{Pr}(O)$$
+
+Also we have
+
+$$\text{Pr}(O|R_j=r) = \frac{\text{Pr}(R_j=r|O)\text{Pr}(O)}{\text{Pr}(R_j=r)}$$
+
+Which is equivlent to 
+
+$$\text{Pr}(O|R=r) = \frac{\text{Pr}(R=r|O)\text{Pr}(O)}{\text{Pr}(R=r)}$$
+
+since we don't care the received RSSI came from which shop when we are decide we are in or not in the shop.
+
+
+
+Here $$\text{Pr}(R_i^j\mid S_i^j)$$ is called the likelihood. It has been studied in many literature that we can use a emperical equation to describe the relation between distance and RSSI. The relation can be described as follows:
 
 <p align = "center">
 <img src="figures/rssi-distance-relation.png" height="300">
@@ -154,17 +179,25 @@ For online detection, prior $$\text{Pr}(A_i^j)$$ is the posterior in the last ti
 
 In our experiments, the riders are required to report the progress of the delivery by manully click "Arrival at Restaurant" and "Pick up meal"on his cellphone. We consider the timestamp of the above two events as the arrival and departure time of the rider. The duration between arrival and departure is considered as "In the Restaurant".
 
-In an ideal case, the rider passes by a sequence of shops and the arrival/departure behavior can be visualized as follows:
+In an ideal case, the meal is already prepared and ready to pick before the rider came. The rider only needs to pass by a sequence of shops and the arrival/departure behavior can be visualized as follows where a rising edge indicates "Arrival" and a falling edge indicate "Departure".
 
 <p align = "center">
 
-<img src="figures/RADD-groundtruth-idea-case.png" width="500">
-
-
+<img src="figures/RADD-groundtruth-idea-case.png" height="300">
 
 </p>
 
+While a more complex case can be follows:
+<p align = "center">
+
+<img src="figures/RADD-groundtruth-complex-case.png" height="300">
+
+</p>
+
+
+
+
 ### Some Inconsistency Between RADD Results and Riders' Labelling
 
-Redundant Arrival/Departur
+Redundant Arrival/Departure
 

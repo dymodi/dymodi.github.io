@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Loss Functions
-date: Jan 13, 2017
+date: Jan 13, 2018
 author: Yi DING
 ---
 
