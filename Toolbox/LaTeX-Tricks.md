@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Python Tricks
-date: Jan. 19, 2018
+title: LaTeX Tricks
+date: Mar. 3, 2018
 author: Yi DING
 ---
 
 ### Sections
 ``` LaTeX
 \section{Introduction}~\label{sec:introduction}
-
 ```
 
 ### Page Settings
@@ -16,7 +15,6 @@ author: Yi DING
 ``` LaTeX
 % New Page
 \newpage
-% 
 ```
 
 ### Paragraph
@@ -81,11 +79,11 @@ Standard Shipping & 4$\sim$5 days & \$4.98  \\ \hline
     \SetKwInOut{Input}{Input}
     \SetKwInOut{Output}{Output}
     \Input{Error bound: $\epsilon$}
-    \Output{Bounded sub-optimal solution: $\pzero^\star, h^\star, r^\star,\text{Profit}^\star$}
+    \Output{Bounded sub-optimal solution: $\pzero^\star$}
     $\pzero' = 50\%$; \\
     $\text{Profit}^\star=-\infty$;\\
     \While{$\pzero' <1.0$}{
-            Solve Standard CSP (\ref{profit}) with fixed $\pzero'$ for $h',r',\text{Profit}'$;\\
+            Solve Standard CSP (\ref{profit}) with fixed ..;\\
             \If{$\text{Profit}'>\text{Profit}^\star$}{
                 $\pzero^\star = \pzero'$; \\
                 $h^\star= h'$;\\
