@@ -1,11 +1,10 @@
---- 
+---
 layout: post
 title: Python Tricks
 date: Jan. 19, 2018
 author: Yi DING
 ---
 
-[comment]: # (Some Python Tricks)
 
 ## Find path
 Use [os](https://docs.python.org/3/library/os.html)
