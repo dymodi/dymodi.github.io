@@ -29,7 +29,7 @@ author: Yi DING
 \noindent $\bullet$ \; $\bullet$
 ```
 
-###Figures
+### Figures
 ``` LaTeX
 \begin{figure}
 \includegraphics[scale=0.6]{filename}
@@ -93,7 +93,6 @@ Standard Shipping & 4$\sim$5 days & \$4.98  \\ \hline
             $\pzero' = \pzero'+\epsilon$;
     }
 \end{algorithm}
-
 ```
 
 ### Reference
@@ -113,5 +112,4 @@ Solve problem (\ref{~}) ...
 \begin{proof}
 ...
 \end{proof}
-
 ```
