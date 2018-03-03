@@ -16,7 +16,7 @@ date: Jan. 4, 2017
 
 [SQL Tricks](Toolbox/SQL-Tricks)
 
-## **LaTeX**
+## LaTeX
 
-[LaTeX Tricks](Toolbox/SQL-Tricks)
+[LaTeX Tricks](Toolbox/LaTeX-Tricks)
 
