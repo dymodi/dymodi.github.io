@@ -1,10 +1,9 @@
---- 
+---
 layout: post
 title: Basic Facts on Paper Writing
 date: Oct. 09, 2017
 author: Yi DING
 ---
-[comment]: # (Here are some basic facts on paper writing)
 
 ## Flowchart 
 Border Line Width: 3 pound.
