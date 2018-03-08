@@ -2,45 +2,29 @@
 layout: post
 title: Real-Time Arrival Departure Detection
 date: Feb. 4, 2018
-author: Yi DINGReal-Time Arrival Departure Detection
+author: Yi DING
 ---
 
-# Real-Time Riders' Arrival Departure Detection (RADD)
-
-Yi Ding
-
-
-
 ## The Object of Riders' Arrival Depature Detection
-
 * ETA of Delivery
 * Rider Cheating Detection
 * POI Correction
 
 What is the key information we need to know from RADD: The specific time of rider's arrival and departure at each POI.
 
-
-
 ## Difficulties in Real-time RADD
-
 * Real-time, we cannot have a large window for filtering or pattern recognition
 * Large-scale and diversity, a simple model won't work for all riders and shops.
 
-
-
 ## Why "Arrival/Departure Detection" instead of "Indoor Localization"
-
 * Localization needs multiple beacon deivces installed nearby, which is not applicable in real world for large scale applcaition like city-range food delivery system.
 
 * RSSI fluctuation (fast fading) makes BLE beacon not suitable for indoor localization. This is also supported by our experiment as well as Apple's claim in the technique report.
-
-  ​
 
 ## Why not simple filtering
 In the [beacon filtering blog](https://dymodi.github.io/Research/Beacon/Beacon-Filtering), we discuss the arrival and departure detection using filtering. However, this method is an off-line method based on the entire dataset. While in some scenarios, such as rider dispatching, we need **real time** information of people's arrival and departure at some indoor/outdoor environment.
 
 In this post,  we discuss real time arrival departure detection using beacon RSSI data. We will illustrate several techniques to achieve this.
-
 
 
 ## Short range low pass filter
