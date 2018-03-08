@@ -1,11 +1,10 @@
---- 
+---
 layout: post
 title: Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving
-date: June 17, 2017
+date: Jun. 17, 2017 first version
+date: Mar.7, 2018 second version
 author: Yi DING
 ---
-
-[comment]: # (This blog compose the SIGNAL PROCESSING or LOCALIZATION section of future paper)
 
 The code related to this blog can be found [here](https://github.com/dymodi/Beacon/blob/master/Beacon-RSSI-Filtering.py).
 
@@ -59,7 +58,7 @@ In summary, if we want to do the in-region recognition from the BLE beacon RSSI 
 - Step 1: Filter the RSSI signal with a low pass filter
 - Step 2: Conduct the initial in-region by setting a threshold value.
 - Step 3: Shave the result acoording to the time.
- 
+
 Based on the above three steps, we can conduction the detection for the above extreme case as follows:
 <center><img src="figures/extreme-case-detection.png"  alt="Extreme Case Detection" width = "600"/>
 </center>
