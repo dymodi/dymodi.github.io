@@ -14,9 +14,12 @@
 
 [The Elements of Statistical Learning: Data Mining, Inference, and Prediction. - Trevor Hastie, Robert Tibshirani, Jerome Friedman](http://web.stanford.edu/~hastie/ElemStatLearn/)
 
+## Topics
+[Sequential Bayesian Updating](http://www.stats.ox.ac.uk/~steffen/teaching/bs2HT9/kalman.pdf)
+
 ## Online Courses
 
-[[Machine Learning Crash Course, Google](https://developers.google.com/machine-learning/crash-course/)]
+[Machine Learning Crash Course, Google](https://developers.google.com/machine-learning/crash-course/)
 
 [Deep Reinforcement Learning, Berkeley, CS 294](http://rll.berkeley.edu/deeprlcourse/)
 
