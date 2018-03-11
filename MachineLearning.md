@@ -21,7 +21,7 @@ date: June 5, 2017
 [Clustering](MLfolds/Clustering)
 
 ## Deep Learning
-[Deep NN on MNIST Data with TensorFlow](MLfolds/Deep-NN-on-MNIST-Data-with-TensorFlow)
+[Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)
 
 ## GBDT (Gradient Boosting Decision Tree)
 [AdaBoost](MLfolds/AdaBoost)
