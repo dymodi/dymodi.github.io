@@ -46,7 +46,26 @@ Know something about what they are doing in machine learning group
 
 
 ## Discussion with Professor
+03/08/18
+
+Prepare to talk:
+
+1. Mock Pre. at the group meeting.
+2. Check some theoretical results and papers, recursive Bayesian is very similar to particle filtering, which has been repeatedly studied in indoor tracking papers. Also, I found I need to add constraints to reduced the detection delay, which is lack of theoretical support.
+3. I would like to solve offline detection, which is also challenging, considering large scale and shop/rider/phone diversity.
+4. I am working on paper, but it seems I cannot complete even draft version before MobiCom due.
+
+
+
 (Details can also be found in the emails name with "Small Meeting")
+
+03/01/18
+
+1. Search for related works with "arrival/departure detection" or "POI association"
+2. Solve some technical problems with Bayesian estimation.
+3. Prepare a draft for MobiCom 2018.
+
+
 
 02/22/18
 1. Plan to use Bayesian estimation to do the rider's prescence detection. For two reaons: (1) Bayesian estimation provides the possiblilities for rider at each shop, we do not need manually set a threshold of RSSI to tell whether rider is at which shop. (2) Bayesian estimation can be update online given new data.
@@ -76,12 +95,7 @@ Know something about what they are doing in machine learning group
         3. Rider behavior prediction using bayesian.
 3. 两篇文章的主题都聊一下，到底主攻哪一篇？
 
-01/18/18
-1. 饿了么总结
-    * 准备建beacon状态表，需要Beacon清单
-    * 和高天宝讨论收不到信号的问题
-2. 论文准备
-    * 最近刚搬家，忙一些开学的事情，论文方面还没准备，等有进展了再讨论
+
 
 12/01/2017
 Another idea: solving large scale offline data gathering. The challenges and motivations can be: 

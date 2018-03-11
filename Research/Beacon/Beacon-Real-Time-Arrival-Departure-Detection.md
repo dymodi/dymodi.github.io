@@ -26,7 +26,6 @@ In the [beacon filtering blog](https://dymodi.github.io/Research/Beacon/Beacon-F
 
 In this post,  we discuss real time arrival departure detection using beacon RSSI data. We will illustrate several techniques to achieve this.
 
-
 ## Short range low pass filter
 
 For the short range low pass filter method, we assign a low pass filter to each rider-shop-pair and move the filter as time goes on.

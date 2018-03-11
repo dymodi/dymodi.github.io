@@ -20,17 +20,15 @@ date: June 5, 2017
 ## Unsupervised Learning
 [Clustering](MLfolds/Clustering)
 
+## Deep Learning
+[Deep NN on MNIST Data with TensorFlow](MLfolds/Deep-NN-on-MNIST-Data-with-TensorFlow)
+
 ## GBDT (Gradient Boosting Decision Tree)
 [AdaBoost](MLfolds/AdaBoost)
 
 [Gradient Boosting for Regression](MLfolds/Gradient-Boosting-for-Regression)
 
-## Advanced Topics
-[Multi-Label Data](MLfolds/Multi-Label)
-
 ## Database
-[](MLfolds/SQL-Basics)
-
 [Query Data in PySpark](MLfolds/PySpark)
 
 ## Reinforcement Learning
@@ -39,3 +37,6 @@ date: June 5, 2017
 
 ## TensorFlow
 [Softmax on Digits Data with TensorFlow](MLfolds/tensorflow/Softmax-on-Digits-Data-with-TensorFlow) 
+
+## Advanced Topics
+[Multi-Label Data](MLfolds/Multi-Label)
