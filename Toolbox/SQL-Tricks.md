@@ -23,4 +23,8 @@ from data_table
 group by round(data,1)
 ```
 
+### Add Row Numbers
+``` SQL
+select row_number() over (partition by some_attribute order by another_attribute) as rn 
+``` 
 
