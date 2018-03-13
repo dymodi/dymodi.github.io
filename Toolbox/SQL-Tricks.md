@@ -25,6 +25,16 @@ group by round(data,1)
 
 ### Add Row Numbers
 ``` SQL
-select row_number() over (partition by some_attribute order by another_attribute) as rn 
-``` 
+select row_number() 
+over (partition by some_attr order by another_attr) as rn 
+```
+
+### Get Next/Last Row
+
+``` SQL
+select (LEAD (another_attr, 1) 
+        OVER (PARTITION by another_attr ORDER BY rn)) as next_row
+select (LAG (another_attr, 1) 
+        OVER (PARTITION by another_attr ORDER BY rn)) as last_row
+```
 
