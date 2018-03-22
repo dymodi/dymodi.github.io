@@ -19,7 +19,10 @@ import pandas as pd
 california_housing_dataframe = pd.read_csv("https://storage.googleapis.com/mledu-datasets/california_housing_train.csv", sep=",")
 # A quick description of the data
 california_housing_dataframe.describe()
+# Histogram of certain feature
+california_housing_dataframe.hist('housing_median_age')
 
 ```
+
 
 
