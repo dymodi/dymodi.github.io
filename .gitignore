@@ -7,3 +7,6 @@
 
 # File types
 *.DS_Store
+*.xlsx
+*.html
+*.pyc
