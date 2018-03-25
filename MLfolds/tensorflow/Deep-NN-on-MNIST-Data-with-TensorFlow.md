@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Deep NN on MNIST Data with TensorFlow
 date: Jan 5, 2017
@@ -29,7 +29,7 @@ ConvNN is made up of layers, each layer transform a 3D volumn to another 3D volu
 In this way, ConvNets transform the original image layer by layer from the original pixel values to the final class scores.
 
 ### Convolutional Layer
-Convolutional layer is the key section of ConvNN. In convolutional layer, some filters (specific edges, colors...) are used to slides along width and height for all depth. For example, we use 12 filters with size 5*5*3 to on a 32*32*3 image, the output volumn will be 32*32*12 (we stack 12 2D volumns).  
+Convolutional layer is the key section of ConvNN. In convolutional layer, some filters (specific edges, colors...) are used to slides along width and height for all depth. For example, we use 12 filters with size 5\*5\*3 to on a 32\*32\*3 image, the output volumn will be 32\*32\*12 (we stack 12 2D volumns).  
 
 Each pixel is **locally** connected to the corresponding pixel in the input volumn.
 
