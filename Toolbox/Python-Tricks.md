@@ -53,6 +53,11 @@ import matplotlib.pyplot as plt
 plt.plot(x, y)
 plt.xlabel('xlabel')
 plt.ylabel('ylabel')
+plt.title('title')
+# Set axis range
+axes = plt.gca()
+axes.set_ylim([bottom, top])
+axes.set_xlim([left, right])
 plt.show()
 ```
 
