@@ -16,7 +16,10 @@ The basic elements in Pandas is *DataFrame* and *Series*.
 ``` python
 import pandas as pd
 # Read in .csv file
-california_housing_dataframe = pd.read_csv("https://storage.googleapis.com/mledu-datasets/california_housing_train.csv", sep=",")
+california_housing_dataframe = pd.read_csv(
+    "https://storage.googleapis.com/mledu-datasets/california_housing_train.csv", sep=",")
+# Read in .xlsx file
+rssi_dataframe = pd.read_excel(file_path)
 # A quick description of the data
 california_housing_dataframe.describe()
 # Histogram of certain feature
