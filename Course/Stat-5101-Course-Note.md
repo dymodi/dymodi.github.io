@@ -1,11 +1,11 @@
---- 
+---
 layout: post
 title: Course Note - Stat 5101
 date: Jan. 16, 2017
 author: Yi DING
 ---
 
-[comment]: # (This is the course note for course Stat 5101)
+[comment]: # "This is the course note for course Stat 5101"
 
 ### Lec-8 Feb. 2, Fri.
 Inclusion-Exclusion formula.
@@ -94,8 +94,8 @@ Def.
 
 Facts on event:
 1. Communitive law
-    $$A \cup B = B \cup A, A \cap B = B \cap A$$   
-2. Assosiation law   
+    $$A \cup B = B \cup A, A \cap B = B \cap A$$
+2. Assosiation law 
     $$(A \cup B ) \cup C = A \cup ( B \cup C )$$
     $$(A \cap B ) \cap C = A \cap ( B \cap C )$$
 3. Distribution law

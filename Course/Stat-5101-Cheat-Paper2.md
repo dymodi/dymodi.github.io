@@ -58,3 +58,49 @@ and $|J|$ denotes the the absolute value of the determinant $J$.
 
 **If** $n_y < n_x$, we can complete $y$ with $z$ by assigning $z=x_1...$
 
+**Expectation**
+
+$E(X)=\int_{-\infty}^{\infty}xf(x)dx$
+
+$E(XY)=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}xyf(x,y)dx$
+
+Expectation of function: $E[r(X)]=\int_{-\infty}^{\infty}r(x)f(x)dx$
+
+Properties of Expectations: 
+
+* If $Y=aX+b$, $E(Y)=aE(X)+b$ (no matter independent or not)
+* For independent variables $E(XY)=E(X)*E(Y)$
+
+
+
+**Maximum and Minimum of a Random Sample.   **
+
+Suppose that $X_1, . . . , X_n$ form a random sample of size $n$, for which the p.d.f. is $f$ and c.d.f. is $F$. The largest value $Y_n$ and the smallest value $Y_1$ in the random sample are defined as
+
+$$Y_n=\max\{X_1,…,X_n\}$$, $$Y_1=\min\{X_1,…,X_n\}$$
+
+Consider $Y_n$, let $G_n$ be its c.d.f. and $g_n$ be its p.d.f. We have
+
+$\begin{align*} G_n(y) &=\text{Pr}(Y_n\le y)=\text{Pr}(X_1<y, X_2<y,…,X_n<y) \\ &=\text{Pr}(X_1\le y)\text{Pr}(X_2\le y)…\text{Pr}(X_n\le y) \\ &=F(y)F(y)…F(y)=[F(y)]^n\end{align*}$
+
+Now, $g_n$ can be determined by differentiating the c.d.f. Gn. The result is
+
+$g_n(y)=n[F(y)]^{n-1}f(y)$
+
+Next, consider $Y_1$ with c.d.f. $G_1$ and p.d.f. $g_1$. 
+
+$\begin{align*} G_1(y) &=\text{Pr}(Y_1\le y) = 1-\text{Pr}(Y_1>y) \\ &= 1- \text{Pr}(X_1>y, X_2>y,…,X_n>y) \\ &=1- \text{Pr}(X_1> y)\text{Pr}(X_2> y)…\text{Pr}(X_n> y) \\ &=1- [1-F(y)][1-F(y)]…[1-F(y)]\\ &=1-[1-F(y)]^n\end{align*}$
+Then g1 can be determined by differentiating the c.d.f. G1. The result is
+
+$g_1(y)=n[1-F(y)]^{(n-1)}f(y)$
+
+Also we have the joint p.d.f. and c.d.f. 
+
+$G(y_1,y_n)=\text{Pr}(Y_1\le y_1 \text{ and } Y_n \le y_n) = [F(y_n)]^n-[F(y_n)-F(y_1)]^n$
+
+$g(y_1,y_n)=n(n-1)[F(y_n)-F(y_1)]^{n-2}f(y_1)f(y_n)$
+
+**The Distribution of the Range of a Random Sample**, $ W=Y_n-Y_1$  
+
+$h(w)=\int_{-\infty}^{\infty}g(y_n-w,y_n)dy_n=\int_{-\infty}^{\infty}g(z,z+w)dz$
+
