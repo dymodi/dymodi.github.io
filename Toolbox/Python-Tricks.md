@@ -50,7 +50,8 @@ Use [pyplot](https://matplotlib.org/users/pyplot_tutorial.html)
 
 ```python
 import matplotlib.pyplot as plt
-plt.plot(x, y)
+plt.plot(x, y1,  color='salmon', markersize=8, label='first curve')
+plt.plot(x, y2,  color='salmon', markersize=8, label='second curve')
 plt.xlabel('xlabel')
 plt.ylabel('ylabel')
 plt.title('title')
@@ -58,6 +59,7 @@ plt.title('title')
 axes = plt.gca()
 axes.set_ylim([bottom, top])
 axes.set_xlim([left, right])
+plt.legend()
 plt.show()
 ```
 
