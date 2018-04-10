@@ -18,7 +18,9 @@ date: June 5, 2017
 [Bayesian Learning on the Candy Example](MLfolds/basics/Bayesian-Learning-on-the-Candy-Example)
 
 ## Unsupervised Learning
-[Clustering](MLfolds/Clustering)
+[Clustering Summary](MLfolds/clustering/Clustering-Summary)
+
+[Clustering](MLfolds/clustering/Clustering)
 
 ## Deep Learning
 [Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)
