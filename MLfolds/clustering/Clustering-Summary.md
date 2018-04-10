@@ -61,7 +61,7 @@ Used when the clusters are irregular or intertwined, and when noise and outliers
 
 More about K-meanas and Hierarchical clustering can be found in [another post](https://dymodi.github.io/MLfolds/clustering/Clustering).
 
-**K-means Clustering**
+### K-means Clustering
 
 Sum of Squared Error (SSE) is usually used to evaluate K-means.
 
@@ -73,7 +73,7 @@ K-means has problems when the data contains outliers.
 
 Choosing initial centroids is very important for K-means.
 
-**Hierarchical Clustering** 
+### Hierarchical Clustering
 
 Strengths of Hierarchical Clustering: 
 
@@ -81,6 +81,16 @@ Strengths of Hierarchical Clustering:
 * They may correspond to meaningful taxonomies.
 
 Key operation is the computation of the proximity of two clusters.
+
+We have the following ways to define the inter-cluster distances: MIN, MAX, Group Average, Distance
+Between Centroids
+
+MIN: Single link, can handle non-elliptical shapes.
+
+<p align = "center">
+<img src="figures/single-link-strength.png"  alt="Single link strength" height="120">
+</p>
+
 
 
 **Confusinon Matrix**
