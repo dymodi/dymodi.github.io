@@ -59,11 +59,29 @@ Used when the clusters are irregular or intertwined, and when noise and outliers
 
 ## Clusters Algorithms
 
+More about K-meanas and Hierarchical clustering can be found in [another post](https://dymodi.github.io/MLfolds/clustering/Clustering).
+
 **K-means Clustering**
 
-Sum of Squared Error (SSE) is usually used to evaluate K
+Sum of Squared Error (SSE) is usually used to evaluate K-means.
+
+$$SSE=\sum_{i=1}^K\sum_{x\in C_i}\text{dist}^2(m_i,x)$$
+
+K-means has problems when clusters are ofdiffering sizes, densities and non-globularshapes.
+
+K-means has problems when the data contains outliers.
+
+Choosing initial centroids is very important for K-means.
+
+**Hierarchical Clustering** 
+
+Strengths of Hierarchical Clustering: 
+
+* Do not have to assume any particular number of clusters.
+* They may correspond to meaningful taxonomies.
+
+Key operation is the computation of the proximity of two clusters.
 
 
-
-Confusinon Matrix**
+**Confusinon Matrix**
 
