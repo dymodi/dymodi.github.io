@@ -20,8 +20,13 @@ Basically, clustering methods can be divided into two types: **hierarchical** an
 
 ## Type of Clusters
 
-
 **Well-Separated Clusters**: A cluster is a set of points such that any point in a cluster is closer (or more similar) to every other point in the cluster than to any point not in the cluster. 
+
+<p align = "center">
+<img src="figures/well-separated.png"  alt="Well separated" width="200">
+</p>
+
+
 
 **Center-based clusters**: 
 

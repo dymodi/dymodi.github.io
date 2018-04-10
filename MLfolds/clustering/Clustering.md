@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Clustering
 date: Dec. 27, 2017
@@ -27,7 +27,7 @@ As we might have know, clustering is to categorize the samples into some parts w
 
 An interesting comment from Cosma Shalizi is that "The point being, even when you have what you are *told* is a supervised learning problem with labeled data, it can be worth treating it as unsupervised learning problem." He has some very impressive reasons for doing so.
 
-## The $$k$$-means algorithm
+## The $k$-means algorithm
 A simple frame of the $$k$$-means algorithm is shown as follows:
 
 ----
@@ -97,11 +97,11 @@ This algorithm only wants separation, and doesn’t care about compactness or ba
 The following are some cases where single-link method outperforms $$k$$-means and Ward's method. (Figure comes from [Lecture 6: Partitioning Data into Clusters, Finding Categories in Data - Cosma Shalizi](http://www.stat.cmu.edu/~cshalizi/350-2006/lecture-06.pdf)).
 
 <p align = "center">
-<img src="figures/single-link-better.png"  alt="Boosting Algorithms">
+<img src="figures/single-link-better.png"  alt="single-link-better">
 </p>
 
 The following are some cases where single-link method is worse than $$k$$-means and Ward's method. (Figure comes from [Lecture 6: Partitioning Data into Clusters, Finding Categories in Data - Cosma Shalizi](http://www.stat.cmu.edu/~cshalizi/350-2006/lecture-06.pdf)).
 
 <p align = "center">
-<img src="figures/single-link-worse.png"  alt="Boosting Algorithms">
+<img src="figures/single-link-worse.png"  alt="single-link-worse">
 </p>
