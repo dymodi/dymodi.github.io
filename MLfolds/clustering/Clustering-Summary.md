@@ -91,7 +91,11 @@ MIN: Single link, can handle non-elliptical shapes.
 <img src="figures/single-link-strength.png"  alt="Single link strength" height="120">
 </p>
 
+However, single link is sensitive to noise and outliers
 
+<p align = "center">
+<img src="figures/single-link-weakness.png"  alt="Single link weakness" height="150">
+</p>
 
 **Confusinon Matrix**
 
