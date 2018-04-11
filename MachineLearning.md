@@ -22,6 +22,8 @@ date: June 5, 2017
 
 [Clustering](MLfolds/clustering/Clustering)
 
+[Advanced Topics in Clustering](MLfolds/clustering/Advanced-Topics-In-Clustering)
+
 ## Deep Learning
 [Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)
 

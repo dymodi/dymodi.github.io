@@ -16,5 +16,25 @@ In this post we talk about some advanced topics in clustering I learned from [Da
 
 
 
+### Soft (Fuzzy) Clustering
+
+#### EM algorithm
+
+Initializethe parameters
+
+**Repeat**
+
+​	For each point, compute itsprobability under each distribution
+
+​	Using these probabilities, updatethe parameters of each distribution
+
+**Until** there is no change
+
+Problems with EM:
+
+* Convergence can be slow
+* Only guarantees finding local maxima
+
+#### SOM: Self-Organizing Maps
 
 
