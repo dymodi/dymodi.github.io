@@ -92,7 +92,7 @@ Between Centroids
 
 However, single link is sensitive to noise and outliers
 <p align = "center">
-<img src="figures/single-link-weakness.png"  alt="Single link weakness" height="180">
+<img src="figures/single-link-weakness.png"  alt="Single link weakness" height="200">
 </p>
 
 **MAX: Complete link**, less susceptible to noise and outliers.
@@ -125,8 +125,23 @@ lDBSCAN is a density-based algorithm.
 * A **noise point** is any point that is not a core point or a border point 
 
 <p align = "center">
-<img src="figures/dbscan.png"  alt="DBSCAN" height="180">
+<img src="figures/dbscan.png"  alt="DBSCAN" height="200">
 </p>
+
+The DBSCAN algorithm is as follows:
+
+<p align = "center">
+<img src="figures/dbscan-algorithm.png"  alt="DBSCAN Algorithm" height="200">
+</p>
+
+The DBSCAN algorithm is resisitant to noise, and can handle clusters of different shapes and sizes.
+
+<p align = "center">
+<img src="figures/dbscan-example.png"  alt="DBSCAN Algorithm" height="180">
+</p>
+
+
+
 
 
 
