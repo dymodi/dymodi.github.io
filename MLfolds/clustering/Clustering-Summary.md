@@ -25,7 +25,7 @@ Basically, clustering methods can be divided into two types: **hierarchical** an
 A cluster is a set of points such that any point in a cluster is closer (or more similar) to every other point in the cluster than to any point not in the cluster. 
 
 <p align = "center">
-<img src="figures/well-separated.png"  alt="Well separated" height="130">
+<img src="figures/well-separated.png"  alt="Well separated" height="150">
 </p>
 
 **Center-based clusters**
@@ -85,17 +85,50 @@ Key operation is the computation of the proximity of two clusters.
 We have the following ways to define the inter-cluster distances: MIN, MAX, Group Average, Distance
 Between Centroids
 
-MIN: Single link, can handle non-elliptical shapes.
-
+**MIN: Single link**, can handle non-elliptical shapes.
 <p align = "center">
 <img src="figures/single-link-strength.png"  alt="Single link strength" height="120">
 </p>
 
 However, single link is sensitive to noise and outliers
+<p align = "center">
+<img src="figures/single-link-weakness.png"  alt="Single link weakness" height="180">
+</p>
+
+**MAX: Complete link**, less susceptible to noise and outliers.
+<p align = "center">
+<img src="figures/complete-link-strength.png"  alt="Complete link strength" height="180">
+</p>
+
+The limitations of MAX is:
+
+* Tends to break large clusters
+* Biased towards globular clusters
 
 <p align = "center">
-<img src="figures/single-link-weakness.png"  alt="Single link weakness" height="150">
+<img src="figures/complete-link-weakness.png"  alt="Complete link weakness" height="180">
 </p>
+
+**Group Average**: is a compromis between Single and Complete Link.
+
+**Ward's Method**: Similarity of two clusters is based on the increase in squared error when two clusters are merged.
+
+### DBSCAN
+
+lDBSCAN is a density-based algorithm.
+
+* Density = number of points within a specified radius (Eps)
+* A point is a **core point** if it has at least a specified number of points (MinPts) within Eps 
+  * These are points that are at the interior of a cluster
+  * Counts the point itself
+* A **border point** is not a core point, but is in the neighborhood of a core point
+* A **noise point** is any point that is not a core point or a border point 
+
+<p align = "center">
+<img src="figures/dbscan.png"  alt="DBSCAN" height="180">
+</p>
+
+
 
 **Confusinon Matrix**
 
