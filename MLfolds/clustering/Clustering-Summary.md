@@ -140,10 +140,13 @@ The DBSCAN algorithm is resisitant to noise, and can handle clusters of differen
 <img src="figures/dbscan-example.png"  alt="DBSCAN Algorithm" height="180">
 </p>
 
+DBSCAN can fail when the data has varying densities and high-dimensional data.
 
 
 
+## Cluster Validity
+
+Entropy and SSE can be used to evaluate the performance of clustering.
 
 
-**Confusinon Matrix**
 
