@@ -37,4 +37,15 @@ Problems with EM:
 
 #### SOM: Self-Organizing Maps
 
+* Centroid based clustering scheme
+* Like K-means, a fixed number of clusters are specified
+* However,the spatial relationship of clusters is also specified, typically as a grid 
+* Points are considered one by one
+* Each point is assigned to the closest centroid
+* Other centroids are updated based on their nearness to the  closest centroid
+
+#### Clique Algorithm
+
+
+
 

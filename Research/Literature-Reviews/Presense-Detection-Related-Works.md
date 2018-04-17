@@ -13,8 +13,8 @@ In [1], the authors present IODetector, a lightweight sensing service which runs
 
 [2] provides PANDAA, a system that uses ambient sounds to decide the arrangment of the multiple networked devices. **However**, the system depends  on the accurately placement of the devices and can only sense the layout of the environment but cannot match the device to a specific POI. (Such as a rider-shop pair.)
 
-
 Ref.
+
 [1] Zhou, P., Zheng, Y., Li, Z., Li, M., & Shen, G. (2012, November). **Iodetector: A generic service for indoor outdoor detection**. In Proceedings of the 10th acm conference on embedded network sensor systems **SenSys** (pp. 113-126). ACM.
 
 [2] Sun, Z., Purohit, A., Chen, K., Pan, S., Pering, T., & Zhang, P. (2011, September). **PANDAA: Physical arrangement detection of networked devices through ambient-sound awareness**. In Proceedings of the 13th international conference on Ubiquitous computing **UbiComp** (pp. 425-434). ACM.
