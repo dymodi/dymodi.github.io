@@ -1,13 +1,13 @@
---- 
+---
 layout: post
 title: Related Works of Beacon Based Indoor Localization
 date: June 9, 2017
 author: Yi DING
 ---
 
-[comment]: # (This blog compose the RELATED WORK section of future paper)
+In this blog, we review the existing work related to the indoor localization based on bluetooth low energy (BLE) beacons.  
 
-In this blog, we review the existing work related to the indoor localization based on bluetooth low energy (BLE) beacons. Note that this review only consists publications with "Beacon" as keywords. The BLE localization is a bigger topic with more impactive publications. Among all the literature listed here, [8] provides most comprehensive introduction on this topic. First, we need to keep in mind that GPS is not available in the indoor scenario [9].
+Among all the literature listed here, [8] provides most comprehensive introduction on this topic. First, we need to keep in mind that GPS is not available in the indoor scenario [9].
 
 The advantages of using BLE in indoor localization:
 * Quick and flexible deployment (compared with VLC). [5] (Not for that in [6]) [8]
@@ -15,7 +15,26 @@ The advantages of using BLE in indoor localization:
 * Low energy consumption (especially compared with Wi-Fi postitioning). [5][8]
 * High refresh rate. [5]
 
+### Methods summary:
+
+Path loss equation used to estimate distances: [1], 
+
+Trilateraiton based on distances to multiple nearby beacons: [1], 
+
+Particle filter: [1], 
+
+
+
+### Review for each paper:
+
+[1] is a demo paper that build a small indoor system with pass loss equation, trilateration and particle filtering. Trilateration in this paper seems more like a wighted sum of nearby beacons. No details of particle filter is included in the paper.
+
+
+
+
+
 Localization method: (Mechanism based methods are also called determinisitic methods)
+
 1. Mechanism based. Optimization based on trilateration. [1]
 2. Mechanism based. Multi-Range based on different transmission power. [2]
 3. Data based. Artitifial neural networking.[3]
@@ -27,7 +46,10 @@ Localization method: (Mechanism based methods are also called determinisitic met
 9. Mechanism based. Kalman filter + Particle filter [10].
 10. Combined method. Fingerprinting + Modelling based, particularly designed for large scale system.[11]
 
-Some comments:
+
+
+### Some comments:
+
 * The beacon signal with higher RSSI is more reliable. [1][7]
 * BLE RSSI value is not reliable as a indicator of distance, due to many factors. [2]
 * BLE RSSI has a strong fluctuation effect due to [fast fading](http://www.rfwireless-world.com/Terminology/fast-fading-vs-slow-fading.html). [8]
