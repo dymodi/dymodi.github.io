@@ -16,8 +16,29 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 # The path of data files
 data_path = os.path.join(dir_path, '../data/')
 # Get all files from the folder
-only_files = [f for f in listdir(data_path) if isfile(join(data_path, f))]
+only_files = [f for f in os.listdir(data_path) if os.path.isfile(os.path.join(data_path, f))]
 
+```
+
+## Read/write .csv files
+
+Use [csv](https://docs.python.org/3/library/csv.html)
+
+``` python
+import csv
+# Write dictionary
+with open('names.csv', 'w', newline='') as csvfile:
+    fieldnames = ['first_name', 'last_name']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow({'first_name': 'Baked', 'last_name': 'Beans'})
+    writer.writerow({'first_name': 'Lovely', 'last_name': 'Spam'})
+    writer.writerow({'first_name': 'Wonderful', 'last_name': 'Spam'})
+    
+# Write rows
+with open('some.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerows(someiterable)
 ```
 
 ## Read/write .xlsx files
