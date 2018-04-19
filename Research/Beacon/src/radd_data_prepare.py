@@ -20,6 +20,10 @@ data_path = os.path.join(dir_path, '../data/')
 
 def get_training_data(T, m, rider_id, date_str):
 
+    # Print log
+    print('---------------')
+    print('Preparing data for rider:', str(rider_id), 'on', str(date_str))
+
     # Statistics
     num_timeslot_has_m_beacon = 0
     num_order_checked = 0
@@ -44,6 +48,7 @@ def get_training_data(T, m, rider_id, date_str):
     # value: shop_id_list
     timestamp_shop_dict = {}
     for i in rssi_dataframe.index:
+        #print('type(rssi_dataframe.iloc[i]):', type(rssi_dataframe.iloc[i]))
         timestamp = rssi_dataframe.iloc[i]['unix_timestamp']
         shop_id = rssi_dataframe.iloc[i]['shop_id']
         start_timestamp = int(timestamp/T)*T
@@ -322,36 +327,75 @@ for i in range(0, len(rider_list)):
 
 # Aggregate data regardless of rider and timestamp
 # Gather rssi_list and append label
-single_rssi_matrix = []
+single_rssi_matrix = []         # nan indicating nothing heard
+single_rssi_matrix_aug = []     # nan filled with 0 and new feature added to indicate heard or not
 for rider_id in rider_list:
     for timestamp in single_shop_data[rider_id]['timestamp_list']:
         rssi_array = single_shop_data[rider_id][timestamp]['rssi_array']
+        rssi_array_aug = []
+        for rssi in rssi_array:
+            if np.isnan(rssi):
+                rssi_array_aug.append(0)
+                rssi_array_aug.append(0)
+            else:
+                rssi_array_aug.append(1)
+                rssi_array_aug.append(rssi)
         labl_array = single_shop_labl[rider_id][timestamp]['label_array']
+        if len(labl_array) != 2:
+            raise Exception('Wrong representation')
+        label = labl_array[0]*2+labl_array[1]*1
         single_rssi_matrix.append(rssi_array.tolist()+labl_array.tolist())
+        single_rssi_matrix_aug.append(rssi_array_aug + [label])
 
 # Write to single shop data
 file_name_partial = '_'.join(['single_shop_data', str(T)])
+file_name_partial_aug = '_'.join(['single_shop_data_aug', str(T)])
 file_name = '.'.join([file_name_partial, 'csv'])
+file_name_aug = '.'.join([file_name_partial_aug, 'csv'])
 file_single_data = os.path.join(data_path, file_name)
+file_single_data_aug = os.path.join(data_path, file_name_aug)
 with open(file_single_data, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(single_rssi_matrix)
+with open(file_single_data_aug, 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerows(single_rssi_matrix_aug)
+
 
 # Gather rssi_list and append label
 double_rssi_matrix = []
+double_rssi_matrix_aug = []
 for rider_id in rider_list:
     for timestamp in double_shop_data[rider_id]['timestamp_list']:
         rssi_array = double_shop_data[rider_id][timestamp]['rssi_array']
+        rssi_array_aug = []
+        for rssi in rssi_array:
+            if np.isnan(rssi):
+                rssi_array_aug.append(0)
+                rssi_array_aug.append(0)
+            else:
+                rssi_array_aug.append(1)
+                rssi_array_aug.append(rssi)
         labl_array = double_shop_labl[rider_id][timestamp]['label_array']
+        if len(labl_array) != 4:
+            raise Exception('Wrong representation')
+        label = labl_array[0]*8+labl_array[1]*4+labl_array[2]*2+labl_array[3]*1
         double_rssi_matrix.append(rssi_array.tolist()+labl_array.tolist())
+        double_rssi_matrix_aug.append(rssi_array_aug + [label])
 
 # Write to double shop data
 file_name_partial = '_'.join(['double_shop_data', str(T)])
 file_name = '.'.join([file_name_partial, 'csv'])
 file_double_data = os.path.join(data_path, file_name)
+file_name_partial_aug = '_'.join(['double_shop_data_aug', str(T)])
+file_name_aug = '.'.join([file_name_partial_aug, 'csv'])
+file_double_data_aug = os.path.join(data_path, file_name_aug)
 with open(file_double_data, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(double_rssi_matrix)
+with open(file_double_data_aug, 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerows(double_rssi_matrix_aug)
 
 # # Single shop plot
 # for timestamp in single_shop_labl[rider_id]:

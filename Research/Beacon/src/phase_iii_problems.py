@@ -17,10 +17,15 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 data_path = os.path.join(dir_path, '../data/')
 figure_path = os.path.join(dir_path, '../figures/')
 
-# Read raw beacon data for specific (rider, shop) pair
-rider_id = 10646314
-date_str = '2018-02-05'
-time_query = '2018-02-05 10:37:00'
+# # Read raw beacon data for specific (rider, shop) pair
+# rider_id = 10646314
+# date_str = '2018-02-05'
+# time_query = '2018-02-05 10:37:00'
+# Below is a recent iOS rider
+rider_id = 102134170
+date_str = '2018-02-23'
+time_query = '2018-02-23 13:56:31'
+
 
 # Set file name
 file_name = '_'.join(['dw_ai_clairvoyant_beacon', date_str, str(rider_id)])
@@ -37,6 +42,7 @@ column_count = sheet.max_column
 argument_list = []
 for j in range(1, column_count+1):
     argument_list.append(sheet.cell(row=1,column=j).value)
+
 detected_at_index = argument_list.index('detected_at')
 shop_index = argument_list.index('shop_id')
 lat_index = argument_list.index('latitude')
