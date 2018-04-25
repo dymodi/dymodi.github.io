@@ -39,6 +39,12 @@ with open('names.csv', 'w', newline='') as csvfile:
 with open('some.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerows(someiterable)
+   
+# Read rows
+with open('eggs.csv', 'rb') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    for row in spamreader:
+        print ', '.join(row)
 ```
 
 ## Read/write .xlsx files
