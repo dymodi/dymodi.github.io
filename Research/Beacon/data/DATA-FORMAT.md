@@ -29,3 +29,15 @@ The data format for RADD label is as follows: $N\times(2m+4)​$
 where 
 
 $i=1,…,m$, 
+
+
+
+## LABEL FORMAT
+
+For 1 shop data, we have following form of labels:
+
+|                    | No Action | Arrival | Departure | Arrival & Departure |
+| ------------------ | --------- | ------- | --------- | ------------------- |
+| Original Form      | [0, 0]    | [1,0]   | [0,1]     | [1, 1]              |
+| Single Number Form | 0         | 2       | 1         | 3                   |
+
