@@ -12,6 +12,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.axes as axes
+import time
 
 # This path of current file
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -256,6 +257,7 @@ def get_training_data(T, m, rider_id, date_str):
 # Global parameters
 #
 T = 120
+shop_dim_list = [1,2]
 # Read in rider and date list from the folder
 # This path of current file
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -288,10 +290,8 @@ for file_name in only_files:
 print(date_str_list)
 print(rider_list)
 
-single_shop_data = {}
-single_shop_labl = {}
-double_shop_data = {}
-double_shop_labl = {}
+shop_data = {}
+shop_labl = {}
 
 # Unit test
 # T = 120
@@ -304,19 +304,29 @@ double_shop_labl = {}
 # date_str = '2018-03-24'
 
 # Call function to read data from excel
-for i in range(0, len(rider_list)):
-    rider_id = rider_list[i]
-    date_str = date_str_list[i]
-    # Gather 1 shop data
-    data, labl = get_training_data(T, 1, rider_id, date_str)
-    single_shop_data = {**single_shop_data, **data}
-    single_shop_labl = {**single_shop_labl, **labl}
-    print('Single data done for rider ', str(rider_id))
-    # Gather 2 shops data
-    data, labl = get_training_data(T, 2, rider_id, date_str)
-    double_shop_data = {**double_shop_data, **data}
-    double_shop_labl = {**double_shop_labl, **labl}
-    print('Double data done for rider ', str(rider_id))
+# Gather data for different shop num
+for m in shop_dim_list:
+    shop_data[m] = {}
+    shop_labl[m] = {}
+    for i in range(0, len(rider_list)):
+        rider_id = rider_list[i]
+        date_str = date_str_list[i]
+        data, labl = get_training_data(T, m, rider_id, date_str)
+        if rider_id in shop_data[m]:
+            # We need to a merge
+            for timestamp in data[rider_id]['timestamp_list']:
+                if timestamp not in shop_data[m][rider_id]['timestamp_list']:
+                    # New data in new timestamp
+                    # Only update when new timestamp meet
+                    shop_data[m][rider_id]['timestamp_list'].append(timestamp)
+                    shop_data[m][rider_id][timestamp] = data[rider_id][timestamp]
+                    shop_labl[m][rider_id][timestamp] = labl[rider_id][timestamp]
+        else:
+            # We can just attach
+            shop_data[m][rider_id] = data[rider_id]
+            shop_labl[m][rider_id] = labl[rider_id]
+        # time.sleep(3)
+        print(str(m),'shop data done for rider ', str(rider_id))
 
 # print('single_shop_labl after merge: ', single_shop_labl)
 # print('double_shop_labl after merge: ', double_shop_labl)
@@ -325,77 +335,73 @@ for i in range(0, len(rider_list)):
 # np.save('single_shop_data.npy', single_shop_data)
 # np.save('double_shop_data.npy', double_shop_data)
 
+# Total data num gathered
+num_total_data_dict = {}
+data_label_cnt_dict = {}
+
 # Aggregate data regardless of rider and timestamp
 # Gather rssi_list and append label
-single_rssi_matrix = []         # nan indicating nothing heard
-single_rssi_matrix_aug = []     # nan filled with 0 and new feature added to indicate heard or not
-for rider_id in rider_list:
-    for timestamp in single_shop_data[rider_id]['timestamp_list']:
-        rssi_array = single_shop_data[rider_id][timestamp]['rssi_array']
-        rssi_array_aug = []
-        for rssi in rssi_array:
-            if np.isnan(rssi):
-                rssi_array_aug.append(0)
-                rssi_array_aug.append(0)
-            else:
-                rssi_array_aug.append(1)
-                rssi_array_aug.append(rssi)
-        labl_array = single_shop_labl[rider_id][timestamp]['label_array']
-        if len(labl_array) != 2:
-            raise Exception('Wrong representation')
-        label = labl_array[0]*2+labl_array[1]*1
-        single_rssi_matrix.append(rssi_array.tolist()+labl_array.tolist())
-        single_rssi_matrix_aug.append(rssi_array_aug + [label])
+rssi_matrix_dict = {}                # nan indicating nothing heard
+rssi_matrix_aug_dict = {}            # nan filled with 0 and new feature added to indicate heard or not
+labl_list_dict = {}
+for m in shop_dim_list:
+    rssi_matrix_dict[m] = []
+    rssi_matrix_aug_dict[m] = []
+    labl_list_dict[m] = []
+    num_total_data_dict[m] = 0
+    for rider_id in rider_list:
+        num_add = len(shop_data[m][rider_id]['timestamp_list'])
+        num_total_data_dict[m] = num_total_data_dict[m] + num_add
+        print(str(m), 'shop case: ', str(num_add), 'data added for rider', str(rider_id), str(num_total_data_dict[m]), 'data gathered in total.')
+        for timestamp in shop_data[m][rider_id]['timestamp_list']:
+            rssi_array = shop_data[m][rider_id][timestamp]['rssi_array']
+            rssi_array_aug = []
+            for rssi in rssi_array:
+                if np.isnan(rssi):
+                    rssi_array_aug.append(0)
+                    rssi_array_aug.append(0)
+                else:
+                    rssi_array_aug.append(1)
+                    rssi_array_aug.append(rssi)
+            labl_array = shop_labl[m][rider_id][timestamp]['label_array']
+            if len(labl_array) != 2*m:
+                raise Exception('Wrong representation')
+            label = 0
+            for i in range(0, len(labl_array)):
+                label = label + np.power(2,i) * labl_array[len(labl_array)-i-1]
+            if m == 1:
+                label_check = labl_array[0]*2+labl_array[1]*1
+                if label != label_check:
+                    raise Exception('Wrong modification')
+            if m == 2:
+                label_check = labl_array[0] * 8 + labl_array[1] * 4 + labl_array[2] * 2 + labl_array[3] * 1
+                if label != label_check:
+                    raise Exception('Wrong modification')
+            rssi_matrix_dict[m].append(rssi_array.tolist()+labl_array.tolist())
+            rssi_matrix_aug_dict[m].append(rssi_array_aug + [label])
+            labl_list_dict[m].append(label)
 
-# Write to single shop data
-file_name_partial = '_'.join(['single_shop_data', str(T)])
-file_name_partial_aug = '_'.join(['single_shop_data_aug', str(T)])
-file_name = '.'.join([file_name_partial, 'csv'])
-file_name_aug = '.'.join([file_name_partial_aug, 'csv'])
-file_single_data = os.path.join(data_path, file_name)
-file_single_data_aug = os.path.join(data_path, file_name_aug)
-with open(file_single_data, 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerows(single_rssi_matrix)
-with open(file_single_data_aug, 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerows(single_rssi_matrix_aug)
+    # Summary plot
+    data_label_cnt_dict[m] = []
+    print(str(m),'shop data summary')
+    print('Label\tNum')
+    for i in range(0,4):
+        data_label_cnt_dict[m].append(labl_list_dict[m].count(i))
+        print(i, '\t', data_label_cnt_dict[m][i])
 
-
-# Gather rssi_list and append label
-double_rssi_matrix = []
-double_rssi_matrix_aug = []
-for rider_id in rider_list:
-    for timestamp in double_shop_data[rider_id]['timestamp_list']:
-        rssi_array = double_shop_data[rider_id][timestamp]['rssi_array']
-        rssi_array_aug = []
-        for rssi in rssi_array:
-            if np.isnan(rssi):
-                rssi_array_aug.append(0)
-                rssi_array_aug.append(0)
-            else:
-                rssi_array_aug.append(1)
-                rssi_array_aug.append(rssi)
-        labl_array = double_shop_labl[rider_id][timestamp]['label_array']
-        if len(labl_array) != 4:
-            raise Exception('Wrong representation')
-        label = labl_array[0]*8+labl_array[1]*4+labl_array[2]*2+labl_array[3]*1
-        double_rssi_matrix.append(rssi_array.tolist()+labl_array.tolist())
-        double_rssi_matrix_aug.append(rssi_array_aug + [label])
-
-# Write to double shop data
-file_name_partial = '_'.join(['double_shop_data', str(T)])
-file_name = '.'.join([file_name_partial, 'csv'])
-file_double_data = os.path.join(data_path, file_name)
-file_name_partial_aug = '_'.join(['double_shop_data_aug', str(T)])
-file_name_aug = '.'.join([file_name_partial_aug, 'csv'])
-file_double_data_aug = os.path.join(data_path, file_name_aug)
-with open(file_double_data, 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerows(double_rssi_matrix)
-with open(file_double_data_aug, 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerows(double_rssi_matrix_aug)
+    # Write to shop data
+    file_name_partial = '_'.join([str(m), '_shop_data', str(T)])
+    file_name_partial_aug = '_'.join([str(m), '_shop_data_aug', str(T)])
+    file_name = '.'.join([file_name_partial, 'csv'])
+    file_name_aug = '.'.join([file_name_partial_aug, 'csv'])
+    file_data = os.path.join(data_path, file_name)
+    file_data_aug = os.path.join(data_path, file_name_aug)
+    with open(file_data, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerows(rssi_matrix_dict[m])
+    with open(file_data_aug, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerows(rssi_matrix_aug_dict[m])
 
 # # Single shop plot
 # for timestamp in single_shop_labl[rider_id]:
