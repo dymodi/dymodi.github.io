@@ -88,6 +88,18 @@ axes.set_ylim([bottom, top])
 axes.set_xlim([left, right])
 plt.legend()
 plt.show()
+# Subplot
+plt.subplot(2, 1, 1)
+plt.plot(x1, y1, 'o-')
+plt.title('A tale of 2 subplots')
+plt.ylabel('Damped oscillation')
+
+plt.subplot(2, 1, 2)
+plt.plot(x2, y2, '.-')
+plt.xlabel('time (s)')
+plt.ylabel('Undamped')
+
+plt.show()
 ```
 
 ### heatmap for numpy matrix
@@ -99,7 +111,6 @@ import numpy as np
 # Display matrix
 plt.matshow(X)
 plt.show()
-
 ```
 
 ## Data and Time
