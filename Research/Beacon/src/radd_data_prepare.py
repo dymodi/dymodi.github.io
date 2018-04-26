@@ -142,7 +142,6 @@ def get_training_data(T, m, rider_id, date_str):
     file_name = '.'.join([file_name, 'xlsx'])
     file_path = os.path.join(data_path, file_name)
 
-    #file_path = '/Users/eleme-yi/Documents/PhD/GitHub Pages/dymodi.github.io/Research/Beacon/data/dw_tms_tb_tracking_event_2018-03-28_10756007.xlsx'
 
     # Read using pandas
     event_dataframe = pd.read_excel(file_path)
@@ -255,9 +254,10 @@ def get_training_data(T, m, rider_id, date_str):
 
 
 # Global parameters
-#
 T = 120
 shop_dim_list = [1,2]
+nan_replacer = -110
+
 # Read in rider and date list from the folder
 # This path of current file
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -343,26 +343,32 @@ data_label_cnt_dict = {}
 # Gather rssi_list and append label
 rssi_matrix_dict = {}                # nan indicating nothing heard
 rssi_matrix_aug_dict = {}            # nan filled with 0 and new feature added to indicate heard or not
+rssi_matrix_filled_dict = {}
 labl_list_dict = {}
 for m in shop_dim_list:
     rssi_matrix_dict[m] = []
     rssi_matrix_aug_dict[m] = []
+    rssi_matrix_filled_dict[m] = []
     labl_list_dict[m] = []
     num_total_data_dict[m] = 0
     for rider_id in rider_list:
         num_add = len(shop_data[m][rider_id]['timestamp_list'])
         num_total_data_dict[m] = num_total_data_dict[m] + num_add
-        print(str(m), 'shop case: ', str(num_add), 'data added for rider', str(rider_id), str(num_total_data_dict[m]), 'data gathered in total.')
+        print(str(m), 'shop case: ', str(num_add), 'data added for rider', str(rider_id), str(num_total_data_dict[m]),
+              'data gathered in total.')
         for timestamp in shop_data[m][rider_id]['timestamp_list']:
             rssi_array = shop_data[m][rider_id][timestamp]['rssi_array']
             rssi_array_aug = []
+            rssi_array_filled = []
             for rssi in rssi_array:
                 if np.isnan(rssi):
                     rssi_array_aug.append(0)
                     rssi_array_aug.append(0)
+                    rssi_array_filled.append(nan_replacer)
                 else:
                     rssi_array_aug.append(1)
                     rssi_array_aug.append(rssi)
+                    rssi_array_filled.append(rssi)
             labl_array = shop_labl[m][rider_id][timestamp]['label_array']
             if len(labl_array) != 2*m:
                 raise Exception('Wrong representation')
@@ -379,6 +385,7 @@ for m in shop_dim_list:
                     raise Exception('Wrong modification')
             rssi_matrix_dict[m].append(rssi_array.tolist()+labl_array.tolist())
             rssi_matrix_aug_dict[m].append(rssi_array_aug + [label])
+            rssi_matrix_filled_dict[m].append(rssi_array_filled + [label])
             labl_list_dict[m].append(label)
 
     # Summary plot
@@ -390,18 +397,24 @@ for m in shop_dim_list:
         print(i, '\t', data_label_cnt_dict[m][i])
 
     # Write to shop data
-    file_name_partial = '_'.join([str(m), '_shop_data', str(T)])
-    file_name_partial_aug = '_'.join([str(m), '_shop_data_aug', str(T)])
+    file_name_partial = '_'.join([str(m), 'shop_data', str(T)])
+    file_name_partial_aug = '_'.join([str(m), 'shop_data_aug', str(T)])
+    file_name_partial_filled = '_'.join([str(m), 'shop_data_filled', str(T)])
     file_name = '.'.join([file_name_partial, 'csv'])
     file_name_aug = '.'.join([file_name_partial_aug, 'csv'])
+    file_name_filled = '.'.join([file_name_partial_filled, 'csv'])
     file_data = os.path.join(data_path, file_name)
     file_data_aug = os.path.join(data_path, file_name_aug)
+    file_data_filled = os.path.join(data_path, file_name_filled)
     with open(file_data, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(rssi_matrix_dict[m])
     with open(file_data_aug, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(rssi_matrix_aug_dict[m])
+    with open(file_data_filled, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerows(rssi_matrix_filled_dict[m])
 
 # # Single shop plot
 # for timestamp in single_shop_labl[rider_id]:
