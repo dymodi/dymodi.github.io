@@ -24,7 +24,8 @@ rssi_dataframe = pd.read_excel(file_path)
 california_housing_dataframe.describe()
 # Histogram of certain feature
 california_housing_dataframe.hist('housing_median_age')
-
+# Return element by index
+some_value = california_housing_dataframe.iloc[i]['housing_median_age']
 ```
 
 
