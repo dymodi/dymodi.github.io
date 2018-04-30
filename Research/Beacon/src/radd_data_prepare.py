@@ -392,7 +392,7 @@ for m in shop_dim_list:
     data_label_cnt_dict[m] = []
     print(str(m),'shop data summary')
     print('Label\tNum')
-    for i in range(0,4):
+    for i in range(0,np.power(2,2*m)):
         data_label_cnt_dict[m].append(labl_list_dict[m].count(i))
         print(i, '\t', data_label_cnt_dict[m][i])
 
