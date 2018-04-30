@@ -1,8 +1,9 @@
---- 
+---
 layout: default
 title: Research
 date: June 9, 2017
 ---
+
 
 # Research topics
 
@@ -16,3 +17,7 @@ date: June 9, 2017
 
 ## Data Mining
 [Related Works of Data Inconsistency](Research/Literature-Reviews/Data-Inconsistency-Related-Works)
+
+
+## Work Publishing
+[Conferences Info](Research/Paper/Conferences-Info)

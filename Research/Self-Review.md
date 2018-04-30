@@ -1,10 +1,9 @@
---- 
+---
 layout: post
 title: Self Review
 date: Sep. 20, 2017
 author: Yi DING
 ---
-[comment]: # (This is a self review)
 
 # 2017 Summer
 ## Accomplishment:
