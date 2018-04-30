@@ -16,8 +16,12 @@ date: June 9, 2017
 
 [Feature Selection Related Works](Research/Literature-Reviews/Feature-Selection-Related-Works)
 
+[Related Works of Inaccurate Labelling](Research/Literature-Reviews/Inaccurate-Labelling-Related-Works)
+
+
 
 ## Beacons
+
 [A Industry Implementation of Beacon Localization](Research/Beacon/Beacon-Localization-Industry) 
 
 [Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon/Beacon-Filtering) 
