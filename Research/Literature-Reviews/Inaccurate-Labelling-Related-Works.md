@@ -11,7 +11,7 @@ date: April 30, 2018
 
 In [1], a time shift label is added to the dataset and a multi-label problem is solved to handle inaccurate labelling problem.
 
-[2] provides two ways to reduce the relying on large amount of labelled data for supervised machine learning. First, **semi-supervised learning** can be used, including *self-training* and *co-training*.
+[2] provides two ways to reduce the relying on large amount of labelled data for supervised machine learning. First, **semi-supervised learning** can be used, including *self-training* and *co-training*. Second way is based on **active learning**.
 
 
 
