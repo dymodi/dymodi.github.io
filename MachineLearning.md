@@ -22,7 +22,7 @@ date: June 5, 2017
 
 [Clustering](MLfolds/clustering/Clustering)
 
-[Advanced Topics in Clustering](MLfolds/clustering/Advanced-Topics-In-Clustering)
+[comment]: <> ([Advanced Topics in Clustering](MLfolds/clustering/Advanced-Topics-In-Clustering))
 
 ## Deep Learning
 [Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)
@@ -32,15 +32,14 @@ date: June 5, 2017
 
 [Gradient Boosting for Regression](MLfolds/Gradient-Boosting-for-Regression)
 
-## Database
-[Query Data in PySpark](MLfolds/PySpark)
-
 ## Reinforcement Learning
 [Berkeley CS294-112 Course Note](MLfolds/Reinforcement-Learning-Basic-Facts)
-
 
 ## TensorFlow
 [Softmax on Digits Data with TensorFlow](MLfolds/tensorflow/Softmax-on-Digits-Data-with-TensorFlow) 
 
 ## Advanced Topics
 [Multi-Label Data](MLfolds/Multi-Label)
+
+## Database
+[Query Data in PySpark](MLfolds/PySpark)
