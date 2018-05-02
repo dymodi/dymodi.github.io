@@ -17,7 +17,7 @@ date: June 5, 2017
 
 [Bayesian Learning on the Candy Example](MLfolds/basics/Bayesian-Learning-on-the-Candy-Example)
 
-## Unsupervised Learning
+## Unsupervised Learning (Clustering)
 [Clustering Summary](MLfolds/clustering/Clustering-Summary)
 
 [Clustering](MLfolds/clustering/Clustering)
@@ -39,7 +39,10 @@ date: June 5, 2017
 [Softmax on Digits Data with TensorFlow](MLfolds/tensorflow/Softmax-on-Digits-Data-with-TensorFlow) 
 
 ## Advanced Topics
-[Multi-Label Data](MLfolds/Multi-Label)
+[Multi-Label Data](MLfolds/advanced-topics/Multi-Label)
+
+[Semi Supervised Methods](MLfolds/advanced-topics/Semi-Supervised)
+
 
 ## Database
 [Query Data in PySpark](MLfolds/PySpark)
