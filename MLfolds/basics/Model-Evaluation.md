@@ -13,6 +13,7 @@ author: Yi DING
 |                  |      | **Predicted Class**		  |**Predicted Class**|
 | ---------------- | ---- | --------------- | ---- |
 |                  |      | +               | -    |
+|                  |      | +               | -    |
 | **Acutal Class** | +    | TP              | FN   |
 | **Acutal Class** | -    | FP              | TN   |
 
