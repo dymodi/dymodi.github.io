@@ -15,6 +15,10 @@ According to [1], **self-training** is a wrapper-algorithm that repeatedly uses 
 
 
 
+## Active Learning
+
+According to [1], active learning aims at detecting the most informative unlabeled samples and queries a user to label them.
+
 
 
 ## Ref
