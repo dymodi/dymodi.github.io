@@ -14,7 +14,7 @@ date: June 9, 2017
 ### Machine Learning & Data Mining
 [Related Works of Data Inconsistency](Research/Literature-Reviews/Data-Inconsistency-Related-Works)
 
-[Related Works of Outliers Detection](Research/Literature-Reviews/Outliers-Detection-Related-Works)
+[Related Works of Outlier Detection](Research/Literature-Reviews/Outlier-Detection-Related-Works)
 
 [Related Works of Feature Selection](Research/Literature-Reviews/Feature-Selection-Related-Works)
 
