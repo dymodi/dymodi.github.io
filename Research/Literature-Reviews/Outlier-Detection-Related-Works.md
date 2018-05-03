@@ -5,7 +5,7 @@ date: May. 3, 2018
 author: Yi DING
 ---
 
-[1] is one of the most cited paper in the anomaly detection field. Different key assumptions are used in different methods to differentiate between normal and anomalous behavior.
+[1] is one of the most cited paper in the anomaly detection field. Different key assumptions are used in different methods to differentiate between normal and anomalous behavior. According to [1], outliers detection methods can be categorized into **classification-based**, **nearest neighbor-based**, **clustering-based**, and **statistical techniques**.
 
 
 

@@ -17,12 +17,14 @@ date: June 5, 2017
 
 [Bayesian Learning on the Candy Example](MLfolds/basics/Bayesian-Learning-on-the-Candy-Example)
 
+[Outliers Detection](MLfolds/basics/Outliers-Detection)
+
 ## Unsupervised Learning (Clustering)
 [Clustering Summary](MLfolds/clustering/Clustering-Summary)
 
 [Clustering](MLfolds/clustering/Clustering)
 
-[comment]: <> ([Advanced Topics in Clustering](MLfolds/clustering/Advanced-Topics-In-Clustering))
+[comment]: &lt;> "[Advanced Topics in Clustering](MLfolds/clustering/Advanced-Topics-In-Clustering)"
 
 ## Deep Learning
 [Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)

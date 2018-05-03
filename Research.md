@@ -9,12 +9,14 @@ date: June 9, 2017
 ### Beacons
 [Related Works of Beacon Based Indoor Localization](Research/Literature-Reviews/Beacon-Localization-Related-Works) 
 
-[Beacon POI Correction Related Works](Research/Literature-Reviews/Beacon-POI-Correction-Related-Works)
+[Related Works of Beacon POI Correction](Research/Literature-Reviews/Beacon-POI-Correction-Related-Works)
 
 ### Machine Learning & Data Mining
 [Related Works of Data Inconsistency](Research/Literature-Reviews/Data-Inconsistency-Related-Works)
 
-[Feature Selection Related Works](Research/Literature-Reviews/Feature-Selection-Related-Works)
+[Related Works of Outliers Detection](Research/Literature-Reviews/Outliers-Detection-Related-Works)
+
+[Related Works of Feature Selection](Research/Literature-Reviews/Feature-Selection-Related-Works)
 
 [Related Works of Inaccurate Labelling](Research/Literature-Reviews/Inaccurate-Labelling-Related-Works)
 
