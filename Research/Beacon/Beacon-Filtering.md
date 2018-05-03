@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving
+title: Offline Riders' Arrival/Departure Detection Based on BLE Beacon RSSI - Filtering and Shaving
 date: Jun. 17, 2017 first version
 date: Mar.7, 2018 second version
 author: Yi DING

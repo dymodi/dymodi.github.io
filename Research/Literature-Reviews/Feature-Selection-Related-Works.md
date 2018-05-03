@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Feature Selection Related Works
+title: Related Works of Feature Selection
 date: Oct. 26, 2017
 author: Yi DING
 ---

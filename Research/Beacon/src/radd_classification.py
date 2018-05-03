@@ -7,6 +7,7 @@ Yi Ding
 
 # Use some basic linear model
 import numpy as np
+import random
 from sklearn.linear_model import SGDClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import LinearSVC
@@ -23,12 +24,18 @@ from my_cross_val import my_cross_val
 dir_path = os.path.dirname(os.path.realpath(__file__))
 data_path = os.path.join(dir_path, '../data/')
 
+# Global settings
+T = 120
+m = 1
+
 # Read in data
-single_file = 'single_shop_data_aug_120.csv'
-double_file = 'double_shop_data_aug_120.csv'
-# file_path = os.path.join(data_path, single_file)
-file_path = os.path.join(data_path, double_file)
-print(file_path)
+file_name_partial_aug = '_'.join([str(m), 'shop_data_aug', str(T)])
+file_name_aug = '.'.join([file_name_partial_aug, 'csv'])
+file_data_aug = os.path.join(data_path, file_name_aug)
+
+
+file_path = file_data_aug
+
 X_list = []
 y_list = []
 
@@ -40,9 +47,25 @@ with open(file_path, 'r') as csvfile:
         X_row = row[0:len(row)-1]
         X_row_float = [float(item) for item in X_row]
         X_list.append(X_row_float)
-X = np.array(X_list)
-y = np.array(y_list)
-print(str(len(y_list)),'data samples.')
+
+# Down sample to make balance labels
+zero_rate = float(y_list.count(0)/len(y_list))
+print('Initial zero_rate:', zero_rate)
+zero_indices = [index for index in range(len(y_list)) if y_list[index] == 0]
+other_indices = []
+for index in range(len(y_list)):
+    if index not in zero_indices:
+        other_indices.append(index)
+zero_indices_sampled = random.sample(zero_indices, 250)
+X_list_sampled = [X_list[index] for index in zero_indices_sampled+other_indices]
+y_list_sampled = [y_list[index] for index in zero_indices_sampled+other_indices]
+zero_rate = float(y_list_sampled.count(0)/len(y_list_sampled))
+print('Down sampled zero_rate:', zero_rate)
+
+X = np.array(X_list_sampled)
+y = np.array(y_list_sampled)
+print(str(len(y_list_sampled)),'data samples.')
+
 
 # Build model
 method_list = [SGDClassifier, DecisionTreeClassifier,LinearSVC,GradientBoostingClassifier,AdaBoostClassifier]
