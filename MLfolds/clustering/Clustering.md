@@ -55,7 +55,7 @@ so
 
 $$ SS \equiv \sum_C n_C V_C $$
 
-That is, $$k$$-means want to minimize the within-cluster variance times the cluster size, summed over clusters. Each step of $$k$$-means reduces the sum-of-squares. The sum-of-squares is always positive. Therefore $$k$$-means must eventually stop, no matter where it was started. However, it may not stop at the best solution. That is, $$k$$-means is a $$local search$$ algorithm.
+That is, $$k$$-means want to minimize the within-cluster variance times the cluster size, summed over clusters. Each step of $$k$$-means reduces the sum-of-squares. The sum-of-squares is always positive. Therefore $$k$$-means must eventually stop, no matter where it was started. However, it may not stop at the best solution. That is, $$k$$-means is a local search algorithm.
 
 ## Hierarchical clustering
 As its name suggests, instead of giving a *flat* partition as $$k$$-means, hierarchical clustering can give us a more organized ourput like a tree.
