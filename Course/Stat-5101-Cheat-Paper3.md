@@ -80,6 +80,41 @@ $E(X)= \sum_{i=1}^n E(X_i)=np$
 $\text{Var}(X) = \sum^n_{i=1}\text{Var}(X_i ) = np(1 − p)$
 $ψ(t)=E(e^{tX})=\Pi_{i=1}^n E(e^{tX_i})=(pe^t +1−p)^n$
 
+**Poisson Distributions**
+A random variable $X$ has the Poisson distribution with mean $λ$ if the p.f. of $X$ is as follows: 
+$f(x|\lambda)=\frac{e^{-\lambda}\lambda^x}{x!}$ for $x=0,1,2,..$ mean is $\lambda$ while variance is also $\lambda$
+
+**Negative Binomial Distributions**
+Suppose that an infinite sequence of Bernoulli trials with probability of success $p$ are available. The number $X$ of failures that occur before the $r$th success has the following p.d.f.: 
+$f(x|r,p)=\begin{pmatrix} r+x-1 \\ x \end{pmatrix} p^r(1-p)x$ for $x=0,1,2,...$
+This is also defined as the negative binomial distribution with parameters $r$ and $p$ ($r=1,2,... $and $0<p<1$)
+If $X$ has the negative binomial distribution with parameters $r$ and $p$, the mean and the variance of $X$ must be
+$E(X)=\frac{r(1-p)}{p}$ and $\text{Var}(X)=\frac{r(1-p)}{p^2}$
+
+**Normal Distributions**
+$f(x|\mu,\sigma^2)=\frac1{2\pi^{1/2}\sigma}\exp\left[ -\frac12(\frac{x-\mu}{\sigma})^2 \right]$
+The normal distribution with mean 0 and variance 1 is called the standard normal distribution. 
+
+Let $X$ have the normal distribution with mean $μ$ and variance $σ^2$. Let $F$ be the c.d.f. of $X$. Then $Z=(X−μ)/σ$ has the standard normal distribution, and, for all $x$ and all $0 < p < 1$, $F(x)=\Phi(\frac{x-\mu}{\sigma})$, 
+
+The variable $a_1X_1+...+a_kX_k +b$ has the normal distribution with mean $a_1μ_1+...+a_kμ_k +b$ and variance $a^2_1σ_1^2 + . . . + a^2_kσ_k^2$. 
+
+Suppose that the random variables $X_1, . . . , X_n$ form a random sample from the normal distribution with mean $μ$ and variance $σ^2$, and let $\bar X_n$ denote their sample mean. Then $\bar X_n$ has the normal distribution with mean $μ$ and variance $σ^2/n$.
+
+**Law of Large Numbers**
+
+Suppose that $X_1, . . . , X_n$ form a random sample from a distribution for which the mean is $μ$ and for which the variance is finite. Let $\bar X_n$ denote the sample mean. Then  $\bar Xn → μ$ 
+
+**The Central Limit Theorem**
+
+The sample mean of a large random sample of random variables with mean $μ$ and finite variance $σ^2$ has approximately the normal distribution with mean $μ$ and variance $σ^2/n$.
+
+$\lim_{n\to\infty}\text{Pr}\left[ \frac{\bar X-\mu}{\sigma/n^{1/2}} \le x \right]=\Phi(x)$
+
+CLT for Bernoulli: $Yn=\frac{\sum X - \sum p}{(\sum p(1-p))^{1/2}}$ then we have $\lim _{n\to \infty} \text{Pr}(Y_n\le x)=\Phi(x)$
+
+
+
 
 
 

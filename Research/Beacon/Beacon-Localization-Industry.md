@@ -1,11 +1,10 @@
---- 
+---
 layout: post
 title: A Industry Implementation of Beacon Localization
 date: June 27, 2017
 author: Yi DING
 ---
 
-[comment]: # (This blog compose the IMPLEMENTATION section of future paper)
 In this blog, we will discuss an industry implementation of indoor localization based on beacon. Basically, we have done three things: 
 1. Weighting based on RSSI
 2. Averaging with a window
