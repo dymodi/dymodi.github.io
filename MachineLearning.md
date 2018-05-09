@@ -7,7 +7,7 @@ date: June 5, 2017
 # Machine Learning
 
 ## Basics
-[Machine Learning Basics](MLfolds/basics/Machine-Learning-Basics)
+[Machine Learning Basics with scikit-learn](MLfolds/basics/Machine-Learning-Basics)
 
 [Data Preprocessing](MLfolds/basics/Data-Preprocessing)
 
@@ -24,7 +24,7 @@ date: June 5, 2017
 
 [Clustering](MLfolds/clustering/Clustering)
 
-[comment]: &lt;> "[Advanced Topics in Clustering](MLfolds/clustering/Advanced-Topics-In-Clustering)"
+[comment]: &amp;lt;> "[Advanced Topics in Clustering](MLfolds/clustering/Advanced-Topics-In-Clustering)"
 
 ## Deep Learning
 [Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)

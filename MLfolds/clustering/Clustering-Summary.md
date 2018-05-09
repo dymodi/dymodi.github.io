@@ -5,18 +5,9 @@ date: April. 10, 2018
 author: Yi DING
 ---
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-    border: 1px solid black;
-    border-collapse: collapse;
-        }
-</style>
-
 This post a summary of clustering methods I learned from [Data Mining course](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) at UMN.
 
 Basically, clustering methods can be divided into two types: **hierarchical** and **partitional**.
-
-
 
 ## Type of Clusters
 
@@ -67,7 +58,7 @@ Sum of Squared Error (SSE) is usually used to evaluate K-means.
 
 $$SSE=\sum_{i=1}^K\sum_{x\in C_i}\text{dist}^2(m_i,x)$$
 
-K-means has problems when clusters are ofdiffering sizes, densities and non-globularshapes.
+K-means has problems when clusters are of differing sizes, densities and non-globular shapes.
 
 K-means has problems when the data contains outliers.
 
@@ -109,7 +100,7 @@ The limitations of MAX is:
 <img src="figures/complete-link-weakness.png"  alt="Complete link weakness" height="180">
 </p>
 
-**Group Average**: is a compromis between Single and Complete Link.
+**Group Average**: is a compromis between single and complete Link.
 
 **Ward's Method**: Similarity of two clusters is based on the increase in squared error when two clusters are merged.
 
@@ -119,19 +110,11 @@ lDBSCAN is a density-based algorithm.
 
 * Density = number of points within a specified radius (Eps)
 * A point is a **core point** if it has at least a specified number of points (MinPts) within Eps 
-  * These are points that are at the interior of a cluster
-  * Counts the point itself
 * A **border point** is not a core point, but is in the neighborhood of a core point
 * A **noise point** is any point that is not a core point or a border point 
 
 <p align = "center">
 <img src="figures/dbscan.png"  alt="DBSCAN" height="200">
-</p>
-
-The DBSCAN algorithm is as follows:
-
-<p align = "center">
-<img src="figures/dbscan-algorithm.png"  alt="DBSCAN Algorithm" height="200">
 </p>
 
 The DBSCAN algorithm is resisitant to noise, and can handle clusters of different shapes and sizes.

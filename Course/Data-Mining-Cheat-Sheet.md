@@ -7,10 +7,6 @@ author: Yi DING
 
 This cheat sheet works for two purposes: for CSci 5523 final exam and for introductory data mining study.  Related chapters can be found in the book [Introduction to Data Mining (Second Edition)](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php).
 
-### Chap 1 Introduction
-
-
-
 ### Chap 2 Data
 #### Measures of Similiarities and Dissimiliarites
 Euclidean - Takes the magnitude of absolute differences into account.
