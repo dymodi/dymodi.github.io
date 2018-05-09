@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Outliers-Detection
+title: Outliers Detection
 date: May. 3, 2018
 author: Yi DING
 ---
