@@ -1,17 +1,17 @@
---- 
+---
 layout: post
 title: AdaBoost
 date: Dec. 21, 2017
 author: Yi DING
 ---
 
-[comment]: # (Some contents about AdaBoost and maybe GBDT)
+[comment]: # "Some contents about AdaBoost and maybe GBDT"
 
 This post is basically based on [Explaining AdaBoost](http://rob.schapire.net/papers/explaining-adaboost.pdf).
 
 ## What is AdaBoost
 
-AdaBoost is an algorithm for constructing a ”strong” classifier as linear combination
+AdaBoost is an ensemble learning method. It can construct a ”strong” classifier as linear combination
 
 $$ F(x) = \sum_{t=1}^T \alpha_t h_t (x) $$
 
@@ -29,7 +29,7 @@ For $$t=1,...,T$$:
 * Train weak learner using distribution $$D_t$$.
 * Get weak hypothesis $$h_t : \mathscr X \to \{-1, +1\}$$
 * Aim: select $$h_t$$ with low weighted error:
-    
+  
     $$ \varepsilon_t = \text{Pr}_{i\sim D_t} [h_t(x_i)\ne y_i] $$
 * Choose $$\alpha_t = \frac{1}{2} \ln \left( \frac{1-\varepsilon_t}{\varepsilon_t} \right)$$
 * Update, for $$i=1,...,m$$:
