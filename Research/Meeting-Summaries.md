@@ -11,11 +11,9 @@ author: Yi DING
 
 把RADD那篇文章的innovation想清楚然后跟老板讨论
 
-​	你做的东西为什么室内定位不能做
-
-​	IODetector那篇文章是怎么articulate自己的创新点的
-
-不要先在细节上花费太多时间
+* 你做的东西为什么室内定位不能做
+* IODetector那篇文章是怎么articulate自己的创新点的
+* 不要先在细节上花费太多时间
 
 
 

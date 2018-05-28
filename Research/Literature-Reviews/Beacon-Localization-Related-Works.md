@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Related Works of Beacon Based Indoor Localization
-date: June 9, 2017
+date: June 9, 2018
 author: Yi DING
 ---
 
