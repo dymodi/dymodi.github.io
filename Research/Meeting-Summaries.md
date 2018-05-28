@@ -7,11 +7,20 @@ author: Yi DING
 
 # Meeting Summary around Beacon
 
+## Highlight
 
-## Idea to be Discussed
-1. Deep Reinforcement Learning can be used in predicting rider's future bahavior.
+把RADD那篇文章的innovation想清楚然后跟老板讨论
+
+​	你做的东西为什么室内定位不能做
+
+​	IODetector那篇文章是怎么articulate自己的创新点的
+
+不要先在细节上花费太多时间
+
+
 
 ## To Do List
+
 * Form the new outline of the paper.
 * Articulate the uniqueness of time estimation in food delivery system.
 * Add some features to the edge estimation frame.
@@ -22,8 +31,7 @@ author: Yi DING
 * Find some related work of POI correction.            (Almost Done)
 * Define a metric to measure the accuracy of the POI.  (Done) 
 
-Long Term:
-Know something about what they are doing in machine learning group
+
 
 ## Progress Record
 
@@ -101,8 +109,6 @@ Prepare to talk:
 03/01/18
 
 1. Search for related works with "arrival/departure detection" or "POI association"
-2. Solve some technical problems with Bayesian estimation.
-3. Prepare a draft for MobiCom 2018.
 
 
 
@@ -132,7 +138,8 @@ Prepare to talk:
         1. Rider arrival and stay detection using beacons and GPS.
         2. Travelling and staying time estimation using boosting.
         3. Rider behavior prediction using bayesian.
-3. 两篇文章的主题都聊一下，到底主攻哪一篇？
+
+    
 
 
 
@@ -146,8 +153,6 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 
 11/03 (To be discussed with Prof.)
 1. Inconsistency can be devided into spatial inconsistency (POI error) and temporal inconsistency (rider fraud). But the method to detect the inconsistency is partially share: rider mobility (speed distribution) can be used to detected. Specifically:
-
-**Compare with $\hat \tau(s,d)$**
 
 **Compare with rider speed distribution:** find wrong POI by clustering to shop (spatial),
 
@@ -183,22 +188,17 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 2. What is the main challenge? Scale? Food delivery?
 3. Maybe I can search some paper and find the challenges and tell a good story. That is, make a tentative introduction.
 
-10/09
-1. Prepare for the 2018 MobiSys (12/08 DDL). I will prepare an outline in this week. 
-
 09/21
 1. In future deployment, the transmission power will be reduced so that it can only be heared within the shop.
 2. Based on 1. each beacon data can match to a POI. What we care is not multiple beacons heared at the same time, but the time difference between each 
 
 09/20
 1. Discover and Solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
-2. Find some other topics and reach out to other people. Turn to PMO for help.
 
 09/19
 1. Location correction has been studies many years ago, so it's not a good idea to wirte a paper only on POI correction.
 2. For algorithm and related work of location correction, please read Hwang's 2007 paper.
 3. The main idea of my paper should be "We build a large scale real world indoor localization system basede on iBeacon protocol. In building this system, we met the following pracitcal problems and address them with novel methods."
-4. Currently we have the following topics: "POI correction", "Security", "Risk Control". I can work on these topics and come up with new ones recently.
 
 ## Potential Topics
 * Delivery Map based on Time
@@ -208,3 +208,4 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 * Risk Control
 * Auto check-in (Similar to Existence Detection)
 * Dispatching(Traditional and Fetch Delivery Seperation)
+* Deep Reinforcement Learning can be used in predicting rider's future bahavior.
