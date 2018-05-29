@@ -5,9 +5,9 @@ drop table if exists temp.temp_beacon_order_time_shift;
 create table temp.temp_beacon_order_time_shift as
 select t01.rider_id, t10.tracking_id, 
 t10.ocurred_time as accept_at,
-t80.ocurred_time as arrive_at,
-t30.ocurred_time as pickup_at,
-t40.ocurred_time as deliver_at,
+---- t80.ocurred_time as arrive_at,
+---- t30.ocurred_time as pickup_at,
+---- t40.ocurred_time as deliver_at,
 t01.rssi,
 t01.detected_at
 from (

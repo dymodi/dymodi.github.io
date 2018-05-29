@@ -5,62 +5,24 @@ date: Sept. 19, 2017
 author: Yi DING
 ---
 
-# Meeting Summary around Beacon
+# Meeting Summary on Beacon
 
 ## Highlight
 
-把RADD那篇文章的innovation想清楚然后跟老板讨论
-
+把RADD那篇文章的innovation和角度想清楚然后跟老板讨论
 * 你做的东西为什么室内定位不能做
-* IODetector那篇文章是怎么articulate自己的创新点的
+* 只说IPS不能提供timestamp是不够的，因为从IPS到timestamp也是很trivial的
 * 不要先在细节上花费太多时间
 
+## Progress and Discussion
 
-
-## To Do List
-
-* Form the new outline of the paper.
-* Articulate the uniqueness of time estimation in food delivery system.
-* Add some features to the edge estimation frame.
-* Find some indicators to check the performance of different feature combinations.
-* Come up with POI correction algorithm.
-* Articulate the time inconsistency problem.
-* Find a way to evaluate the effectiveness of the delivery time map.
-* Find some related work of POI correction.            (Almost Done)
-* Define a metric to measure the accuracy of the POI.  (Done) 
-
-
-
-## Progress Record
-
-12/18
-1. Eagle paper outline_1 is denied. We should not limit ourselves within the "offline data gathering" topic. We should have a more broad topic: something like "urban mobility monitoring"
-2. The design space taxonomy has two problems: (1) Not balance. The split should be something like "black and white", but not like "others work and my work". (2) There are overlaps in the spliting: methods for Wi-Fi can be used for BLE.
-3. There can be some overlaps for Eagle paper and the first paper. Data inconsistency part can be mentioned in both papers.
-
-10/24
-1. Is it possible to use Deep Reinforcement Learning in order dispatching?
-2. Rider's decision is related to both distance and order. We are building this relation.
-
-10/23
-1. Try use event table to extrace the single rider's travelling time between restaurants.
-2. Use the data to do regression.
-
-10/19
-1. Fail to estimate time between restaurant and restaurant in the time map (rr edge), possiblely due to inaccurate raw data casued by inaccurate POI data. 
-2. Try to estimate cc edge.
-
-
-## Discussion with Professor
 05/17/18
-
 1. 关于不准确的labeling，因为做实验发现error rate很高，现有的error rate都有60%，所以觉得是一个不能忽视的问题。所以想的就是要用GPS和订单数据进行修正和补充。比如基于GPS的数据来滤掉一些错误的label，或者就是利用time shift来进行对齐。
 2. 利用订单的数据，只把有单的商户作为目标。
 3. 进行了这些处理之后，error rate有提高，但还是只有40%左右。
 4. 不同于一般的ML问题在于，标1的肯定是1，但标0的不一定是没到店，可能是路过很近的店，也可能是到店没取上餐就没标到店。所以有别于普通的ML问题的解决方式，需要有新的思路和流程。比如先学习到店的例子，然后逐步学习没到店的例子。
 
 05/10/18
-
 1. 关于机遇到店监测的应用：我可能也会谈到POI监测和时间预估，这和江东哲和戴志刚的内容会有一点重叠，但我觉得问题不大吧，毕竟具体用的方法是不一样的。比如POI监测，我可能会用CFD，也就是基于到店数据做一些逻辑上的监测，找出有问题的数据。但江东哲好像采用别的方法。
 2. 关于和江东哲和戴志刚的交流，我上周和江东哲开会聊了一下进度，了解了一下他们在做什么，知道江东哲在做POI，戴志刚在做时间预估。我回去之后会和他们再好好交流。
 3. 然后这两天有考试，没有更多进展。
@@ -72,9 +34,7 @@ author: Yi DING
 3. 我自己的研究方面：现在理出了一个基于机器学习的思路，大概就是借鉴CNN在图像处理里的方法。（可以看一下slides），然后结果正在跑。
 
 03/22/18
-
 1. 在 group meeting 上讲了自己在饿了么的一些工作，听了一些大家的意见。
-
    感觉从大家的意见上来说，研究工作可以分为两类：一类是做系统，像刘松做的那个光定位；另一类是做应用，像desheng那样的。我觉得我还是要偏应用一些，因为做系统需要的很多technical detail我其实并不了解，但基于数据直接做应用更为合理。
 
    zhimeng 和 ruofeng 还给我找了几篇同类型的文章看了下。
@@ -138,7 +98,10 @@ Prepare to talk:
         3. Rider behavior prediction using bayesian.
 
     
-
+12/18/17
+1. Eagle paper outline_1 is denied. We should not limit ourselves within the "offline data gathering" topic. We should have a more broad topic: something like "urban mobility monitoring"
+2. The design space taxonomy has two problems: (1) Not balance. The split should be something like "black and white", but not like "others work and my work". (2) There are overlaps in the spliting: methods for Wi-Fi can be used for BLE.
+3. There can be some overlaps for Eagle paper and the first paper. Data inconsistency part can be mentioned in both papers.
 
 
 12/01/2017
@@ -173,6 +136,17 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 8. We should articulate the difference with other time estimation methods.
 
 2. New idea: Data Complementing in Rider System. (Tackeling base data problem (missing value and unreliable value). Performance can be evaluated using standard ML algorithm.)(Data redundancy and data validation.)
+10/24/17
+1. Is it possible to use Deep Reinforcement Learning in order dispatching?
+2. Rider's decision is related to both distance and order. We are building this relation.
+
+10/23/17
+1. Try use event table to extrace the single rider's travelling time between restaurants.
+2. Use the data to do regression.
+
+10/19/17
+1. Fail to estimate time between restaurant and restaurant in the time map (rr edge), possiblely due to inaccurate raw data casued by inaccurate POI data. 
+2. Try to estimate cc edge.
 
 10/12
 1. The Introduction draft 1 is rejected by the professor. Indoor localization is no more a meaningful topic for MobiSys, we have to find another story.
