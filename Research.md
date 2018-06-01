@@ -33,4 +33,4 @@ date: June 9, 2017
 ## Work Publishing
 [Conferences Info](Research/Paper/Conferences-Info)
 
-[How to Polish an Idea](Research/Writing)
+[How to Polish an Idea](Research/Writing/How-to-Poish-an-Idea)
