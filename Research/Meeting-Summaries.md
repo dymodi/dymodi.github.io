@@ -9,16 +9,31 @@ author: Yi DING
 
 ## Highlight
 
-把RADD那篇文章的innovation和角度想清楚然后跟老板讨论
-* 你做的东西为什么室内定位不能做
-* 只说IPS不能提供timestamp是不够的，因为从IPS到timestamp也是很trivial的
-* 不要先在细节上花费太多时间
+* 
 
 ## Progress and Discussion
+
+06/01/18
+
+ADDP的提纲被老板拒绝，因为
+
+1. ADDP其实是Detection和Prediction两个work的堆砌，如果各自没有创新点，简单的堆砌也没有意义。
+2. Arrival Departure Detection的问题在于本质太trivial，所以怎么想怎么改也很难让人买账。
+3. Stay time prediction的问题在于有人做过同样的话题，虽然ADDP有一些新的内容，但这些内容还不够让人觉得足够的innovation。
+4. 没有体现出大系统的优势，还是太着眼于单个骑手。如果能体现出几万名骑手数据的优势的问题会更好，比如POI矫正。
+
+下一步：
+* 可以不用拘泥于到店检测这个话题，可以找找别的问题
 
 05/31/18
 
 考虑如何体现RADD的用处，找到现在的依据位置调度失败的例子 
+
+把RADD那篇文章的innovation和角度想清楚然后跟老板讨论
+
+- 你做的东西为什么室内定位不能做
+- 只说IPS不能提供timestamp是不够的，因为从IPS到timestamp也是很trivial的
+- 不要先在细节上花费太多时间
 
 05/17/18
 

@@ -1,5 +1,359 @@
 
 
+select * from dw.dw_tms_tb_tracking_event 
+where dt = '2018-03-11' and tracking_id = '3000023295271083370'
+
+
+
+---- 算一个每小时的单perfect rider的到店监测率
+---- 先得到一个30天Beacon的清单
+drop table if exists temp.temp_beacon_shops_heard_beacon_in_30_days;
+create table temp.temp_beacon_shops_heard_beacon_in_30_days as
+	select distinct shop_id
+	from dw_ai.dw_ai_clairvoyant_beacon
+	where dt > get_date(-30)
+
+
+---- 先得到一个14天Beacon的清单
+drop table if exists temp.temp_beacon_shops_heard_beacon_in_14_days;
+create table temp.temp_beacon_shops_heard_beacon_in_14_days as
+	select distinct shop_id
+	from dw_ai.dw_ai_clairvoyant_beacon
+	where dt > get_date(-14)
+
+---- 得到一个30天骑手的清单
+drop table if exists temp.temp_beacon_riders_heard_beacon_in_30_days;
+create table temp.temp_beacon_riders_heard_beacon_in_30_days as
+	select distinct rider_id
+	from dw_ai.dw_ai_clairvoyant_beacon
+	where dt > get_date(-30)
+
+---- 算一个每小时的单perfect rider的到店监测率
+---- 相当于重新给个分母
+drop table temp.temp_beacon_perfect_one_hour_rider;
+create table temp.temp_beacon_perfect_one_hour_rider as
+select t01.* 
+from (
+	select *
+	from dw_ai.dw_ai_beacon_tracking_day
+	where dt > get_date(-7)
+) t01
+join (
+	select * 
+	from temp.temp_beacon_shops_heard_beacon_in_14_days
+) t02
+on t01.shop_id = t02.shop_id
+join (
+	select *
+	from dw_ai.dw_ai_clairvoyant_beacon
+	where dt > get_date(-7)
+) t03
+on t01.dt = t03.dt and t01.rider_id = t03.rider_id
+and hour(t01.pickup_at) = hour(t03.detected_at)
+
+
+---- 算一个每小时的单perfect shop的到店监测率
+---- 相当于重新给个分母
+drop table temp.temp_beacon_perfect_one_hour_shop;
+create table temp.temp_beacon_perfect_one_hour_shop as
+select t01.* 
+from (
+	select *
+	from dw_ai.dw_ai_beacon_tracking_day
+	where dt > get_date(-7)
+) t01
+join (
+	select * 
+	from temp.temp_beacon_riders_heard_beacon_in_30_days
+) t02
+on t01.rider_id = t02.rider_id
+join (
+	select *
+	from dw_ai.dw_ai_clairvoyant_beacon
+	where dt > get_date(-7)
+) t03
+on t01.dt = t03.dt and t01.shop_id = t03.shop_id
+and hour(t01.pickup_at) = hour(t03.detected_at)
+
+---- 画老板要求的PDF
+drop table if exists temp.temp_beacon_perfect_rider_shop_pdf;
+create table temp.temp_beacon_perfect_rider_shop_pdf as 
+select t01.order_cnt as perfect_order_cnt, t02.order_cnt as should_order_cnt, 
+float(t01.order_cnt/t02.order_cnt) as percent
+from (
+	select shop_id, count(distinct tracking_id) as order_cnt
+	from dw_ai.dw_ai_beacon_tracking_event
+	where dt > get_date(-7)
+	group by shop_id
+) t01
+right join(
+	select shop_id, count(distinct tracking_id) as order_cnt
+	from dw_ai.dw_ai_beacon_perfect_rider_tracking_day
+	where dt > get_date(-7)
+	group by shop_id
+)t02
+on t01.shop_id = t02.shop_id;
+
+
+select round(percent,2) as bucket, count(1) as cnt
+from temp.temp_beacon_perfect_rider_shop_pdf
+group by round(percent,2)
+order by bucket
+
+
+---- 画老板要求的PDF
+drop table if exists temp.temp_beacon_perfect_rider_rider_pdf;
+create table temp.temp_beacon_perfect_rider_rider_pdf as 
+select t01.order_cnt as perfect_order_cnt, t02.order_cnt as should_order_cnt, 
+float(t01.order_cnt/t02.order_cnt) as percent
+from (
+	select rider_id, count(distinct tracking_id) as order_cnt
+	from dw_ai.dw_ai_beacon_tracking_event
+	where dt > get_date(-7)
+	group by rider_id
+) t01
+right join(
+	select rider_id, count(distinct tracking_id) as order_cnt
+	from dw_ai.dw_ai_beacon_perfect_rider_tracking_day
+	where dt > get_date(-7)
+	group by rider_id
+)t02
+on t01.rider_id = t02.rider_id;
+
+select round(percent,2) as bucket, count(1) as cnt
+from temp.temp_beacon_perfect_rider_rider_pdf
+group by round(percent,2)
+order by bucket
+
+
+
+
+
+
+
+
+---- 看那些没有到店监测的单
+select * 
+from （
+	select * 
+	from dw_ai.dw_ai_beacon_tracking_day
+	where dt = get_date(-1)
+）t01
+full outer join (
+	select * 
+	from dw_ai.dw_ai_beacon_tracking_event 
+	where dt = get_date(-1)
+) t02
+
+
+---- 骑手到店监测，缩小考察范围
+---- Find the delivery orders from beacon shop and beacon riders
+ drop table if exists temp.temp_rider_event_jdz_0311; 
+ create table temp.temp_rider_event_jdz_0311 as 
+ 	select rider_event.tracking_id, 
+ 	rider_event.platform_merchant_id as shop_id, 
+ 	rider_event.rider_id, 
+ 	rider_event.accept_at, 
+ 	rider_event.arrive_rst_at, 
+ 	rider_event.pickup_at, 
+ 	rider_event.deliver_at, 
+ 	rider_event.accept_latitude, 
+ 	rider_event.accept_longitude, 
+ 	rider_event.arrive_rst_latitude, 
+ 	rider_event.arrive_rst_longitude, 
+ 	rider_event.pickup_latitude, 
+ 	rider_event.pickup_longitude, 
+ 	rider_event.deliver_latitude, 
+ 	rider_event.deliver_longitude, 
+ 	rider_event.dt 
+ 	from (
+ 	 select t20.tracking_id, 
+ 	 	t20.platform_merchant_id, 
+ 	 	t20.carrier_driver_id as rider_id, 
+ 	 	t20.ocurred_time as accept_at, 
+ 		t80.ocurred_time as arrive_rst_at, 
+ 		t30.ocurred_time as pickup_at, 
+ 		t40.ocurred_time as deliver_at, 
+ 		t20.latitude as accept_latitude, 
+ 		t20.longitude as accept_longitude, 
+ 		t80.latitude as arrive_rst_latitude, 
+ 		t80.longitude as arrive_rst_longitude, 
+ 		t30.latitude as pickup_latitude, 
+ 		t30.longitude as pickup_longitude, 
+ 		t40.latitude as deliver_latitude, 
+ 		t40.longitude as deliver_longitude, 
+ 		t20.dt 
+ 		from ( select * from dw.dw_tms_tb_tracking_event 
+ 			where dt = '2018-03-11' 
+ 				and get_date(ocurred_time) = '2018-03-11' 
+ 				and shipping_state = 20 ) t20 
+ 		join ( select * from dw.dw_tms_tb_tracking_event 
+ 			where dt = '2018-03-11' 
+ 				and get_date(ocurred_time) = '2018-03-11' 
+ 				and shipping_state = 30 ) t30 
+ 		on t20.tracking_id = t30.tracking_id 
+ 			and t20.carrier_driver_id = t30.carrier_driver_id 
+ 		join ( select * from dw.dw_tms_tb_tracking_event 
+ 			where dt = '2018-03-11' 
+ 				and get_date(ocurred_time) = '2018-03-11' 
+ 				and shipping_state = 80 ) t80 
+ 		on t20.tracking_id = t80.tracking_id 
+ 			and t20.carrier_driver_id = t80.carrier_driver_id 
+ 		join ( select * from dw.dw_tms_tb_tracking_event 
+ 			where dt = '2018-03-11' 
+ 				and get_date(ocurred_time) = '2018-03-11' 
+ 				and shipping_state = 40 ) t40 
+ 		on t20.tracking_id = t40.tracking_id 
+ 		and t20.carrier_driver_id = t40.carrier_driver_id 
+ 		) rider_event 
+ 	join( select distinct shop_id from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-03-11' ) t04 
+ 	on rider_event.platform_merchant_id = t04.shop_id 
+ 	join( select distinct rider_id from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-03-11' ) t05 
+ 	on rider_event.rider_id = t05.rider_id;
+
+
+
+---- 骑手到店听到Beacon的比例
+
+select * from (
+select * from (
+	select * 
+	from dm.dm_tms_apollo_waybill_wide_detail
+	where dt = get_date(-2) 
+	and taker_id in (select distinct rider_id from dw_ai.dw_ai_clairvoyant_beacon where dt = get_date(-2))
+) t01
+where t01.restaurant_id in (select distinct shop_id from dw_ai.dw_ai_clairvoyant_beacon where dt = get_date(-2))
+) t03
+where t03.tracking_id in (select tracking_id from temp.temp_beacon_tracking_event_jdz_0312)  
+
+
+
+---- 把所有单的id取出来
+drop table if exists temp.temp_beacon_orders_should_heard_0311;
+create table temp.temp_beacon_orders_should_heard_0311 as
+select *
+from (
+ select * from dm.dm_tms_apollo_waybill_wide_detail
+ where dt = '2018-03-11'
+ and taker_id in (select distinct rider_id from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-03-11')
+) t01
+where t01.restaurant_id in (select distinct shop_id from dw_ai.dw_ai_clairvoyant_beacon where dt = '2018-03-11')
+
+
+--- 把没听到的单拉出来看看
+select * 
+from (
+	select * from temp.temp_beacon_orders_should_heard_0311
+) t01
+full outer join (
+	select * from dw_ai.dw_ai_beacon_tracking_event where dt = '2018-03-11'
+) t02
+on t01.tracking_id = t02.tracking_id
+where t01.tracking_id is not null and t02.tracking_id is null
+
+
+---- 具体看某个骑手在某个店有没有beacon
+select * from dw_ai.dw_ai_clairvoyant_beacon 
+where dt = '2018-03-11' and rider_id = 111229210 and shop_id = 157643154
+
+
+---- tracking_event 表的总单数
+select count(*) from dw_ai.dw_ai_beacon_tracking_event where dt = get_date(-1)
+
+select * 
+from (
+	select  rider_id 
+	from dw_ai.dw_ai_clairvoyant_beacon
+	where dt = get_date(-1)
+) t01
+join 
+
+
+---- 统计重跑之前POI的数据量
+select dt, count(*)
+from dw_analyst.dw_analyst_beacon_exception_shop_day
+where dt > get_date(-30)
+group by dt
+order by dt
+
+
+---- 拉最近两天同时听到Beacon较多的骑手
+select rider_id, detected_at, count(*) as data_cnt
+from dw_ai.dw_ai_clairvoyant_beacon
+where dt = get_date(-1) and get_date(detected_at) = get_date(-1)
+group by rider_id, detected_at
+order by data_cnt desc
+
+
+
+INSERT overwrite TABLE dw_analyst.dw_analyst_beacon_location_jintie partition(dt='${day}')
+select shop_id_platform, shop_id_pi, shop_name, beacon_uuid, beacon_major, beacon_minor, latitude, longitude, floor
+from temp.beaocn_location_jintie;
+
+
+INSERT overwrite TABLE dw_analyst.dw_analyst_beacon_location_jintie partition(dt='${day}')
+select shop_id_platform, shop_id_pi, shop_name, beacon_uuid, beacon_major, beacon_minor, latitude, longitude, floor
+from dw_analyst.dw_analyst_beacon_location_jintie where dt = '${day-1d}';
+
+
+
+---- 生成骑手黑名单
+drop table if exists temp.temp_beacon_rider_black_list;
+create table temp.temp_beacon_rider_black_list as
+select distinct t012.rider_id
+from (
+select rider_id, detected_at, count(*) as data_cnt
+from dw_ai.dw_ai_clairvoyant_beacon
+where dt > get_date(-10) and get_date(detected_at) > get_date(-10)
+group by rider_id, detected_at
+) t011
+join (
+select *
+from dw_ai.dw_ai_clairvoyant_beacon
+where dt > get_date(-10) and get_date(detected_at) > get_date(-10)
+) t012
+on t011.rider_id = t012.rider_id and t011.detected_at = t012.detected_at
+where t011.data_cnt < 20 and t011.data_cnt > 10;
+
+
+select rider_id, detected_at, count(*) as data_cnt
+from dw_ai.dw_ai_clairvoyant_beacon
+where dt = get_date(-1) and get_date(detected_at) = get_date(-1)
+group by rider_id, detected_at
+order by data_cnt desc
+
+
+
+
+---- 检查某个骑手有没有同时听到多个Beacon的情况
+select rider_id, detected_at, count(*) as data_cnt
+from dw_ai.dw_ai_clairvoyant_beacon
+where rider_id = 935012
+and dt > '2018-02-13' and get_date(detected_at) > '2018-02-13'
+group by rider_id, detected_at
+order by data_cnt desc
+
+
+---- 修正POI数据，把同一秒听到太多Beacon的骑手数据去掉
+select t012.*, t011.data_cnt
+from (
+select rider_id, detected_at, count(*) as data_cnt
+from dw_ai.dw_ai_clairvoyant_beacon
+where dt = get_date(-1) and get_date(detected_at) = get_date(-1)
+group by rider_id, detected_at
+) t011
+join (
+select *
+from dw_ai.dw_ai_clairvoyant_beacon
+where dt = get_date(-1) and get_date(detected_at) = get_date(-1)
+and rssi > -80
+) t012
+on t011.rider_id = t012.rider_id and t011.detected_at = t012.detected_at
+where t012.rssi > -80 and t011.data_cnt < 20
+
+
+
+---- 
 select t01.shop_id, t01.beacon_id, t01.beacon_state, t02.updated_at, t01.dt
 from (
 	select * from dw_analyst.dw_analyst_beacon_state_day
