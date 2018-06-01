@@ -16,7 +16,12 @@ author: Yi DING
 
 ## Progress and Discussion
 
+05/31/18
+
+考虑如何体现RADD的用处，找到现在的依据位置调度失败的例子 
+
 05/17/18
+
 1. 关于不准确的labeling，因为做实验发现error rate很高，现有的error rate都有60%，所以觉得是一个不能忽视的问题。所以想的就是要用GPS和订单数据进行修正和补充。比如基于GPS的数据来滤掉一些错误的label，或者就是利用time shift来进行对齐。
 2. 利用订单的数据，只把有单的商户作为目标。
 3. 进行了这些处理之后，error rate有提高，但还是只有40%左右。

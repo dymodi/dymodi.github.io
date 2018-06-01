@@ -1,46 +1,90 @@
 ---- 骑手基于Beacon的定位和基于GPS的定位比较
 
----- 建临时表，联骑手的GPS位置和Beacon位置
-drop table if exists temp.temp_beacon_rider_all_pos;
-create table temp.temp_beacon_rider_all_pos as
-select t01.taker_id, t01.record_time, t01.latitude as gps_latitude, t01.longitude as gps_longitude,
-parse_json_object(t01.detail, 'location_type') as location_type, t01.rn,
-t02.detected_at as beacon_detected_at, t02.latitude as beacon_latitude, t02.longitude as beacon_longitude, t02.shop_id
+---- dw_analyst.dw_analyst_beacon_rider_drifting
+---- 建表详情可见titan相关
+
+---- 找一个合适的商户来画图
+---- 去掉黑名单里的骑手
+select t01.beacon_shop_id, count(*) as drifting_data_cnt 
 from (
-	select taker_id, record_time, latitude, longitude, detail,
-	row_number() over (partition by taker_id order by record_time) as rn, dt
-	from dw.dw_log_talaris_taker_location_day_inc
-	where dt > get_date(-10) and type = 'TALARIS_TEAM'
+	select *
+	from dw_analyst.dw_analyst_beacon_rider_drifting
+	where dt > get_date(-10)
 ) t01
-join(
-	select rider_id, detected_at, latitude, longitude, shop_id, dt
-	from dw_ai.dw_ai_clairvoyant_beacon
-	where dt > get_date(-10) and rssi > -80
+full outer join (
+	select rider_id from temp.temp_beacon_rider_black_list
 ) t02
-on t01.taker_id = t02.rider_id and t01.dt = t02.dt
-and hour(t01.record_time) = hour(t02.detected_at)
-where parse_json_object(t01.detail, 'location_type') <> 10
-and abs(unix_timestamp(t01.record_time) - unix_timestamp(t02.detected_at)) < 10;
+on t01.taker_id = t02.rider_id
+where t02.rider_id is null
+group by t01.beacon_shop_id
+order by drifting_data_cnt desc
+---- 得到 shop_id = 1778360 不错
+
+---- 不去黑名单里的骑手
+select beacon_shop_id, count(*) as drifting_data_cnt 
+from dw_analyst.dw_analyst_beacon_rider_drifting
+where dt > get_date(-10)
+group by beacon_shop_id
+order by drifting_data_cnt desc
+
+---- 给定商户取漂移数据
+select t01.* 
+from (
+	select *
+	from dw_analyst.dw_analyst_beacon_rider_drifting
+	where dt > get_date(-10)
+	and beacon_shop_id = 1778360 and distance > 0.03
+) t01
+full outer join (
+	select rider_id from temp.temp_beacon_rider_black_list
+) t02
+on t01.taker_id = t02.rider_id
+where t02.rider_id is null
 
 
----- 比较骑手漂移的距离
-drop table if exists temp.temp_beacon_rider_beacon_gsp_compare;
-create table temp.temp_beacon_rider_beacon_gsp_compare as
-select taker_id, get_point_distance(gps_latitude, gps_longitude, beacon_latitude, beacon_longitude) as distance,
-record_time, gps_latitude, gps_longitude,beacon_detected_at, beacon_latitude, beacon_longitude, shop_id
-from temp.temp_beacon_rider_all_pos;
+
+
+
 
 
 ---- 骑手漂移直方图
 select int(distance) as distance, count(*) as data_cnt
-from temp.temp_beacon_rider_beacon_gsp_compare
-where int(distance) > 1
+from dw_analyst.dw_analyst_beacon_rider_drifting
+where dt > get_date(-30) and int(distance) >= 0
 group by int(distance)
 order by int(distance)
+
+---- 统计口径之骑手数？
+select count(distinct taker_id) as taker_cnt
+from dw_analyst.dw_analyst_beacon_rider_drifting
+where dt > get_date(-30)
+
+---- 有多少打点超过500m？
+select count(*) as data_cnt
+from dw_analyst.dw_analyst_beacon_rider_drifting
+where dt > get_date(-30) and distance > 0.5
+
+---- 有些骑手漂移超过阈值？
+select *
+from dw_analyst.dw_analyst_beacon_rider_drifting
+where dt > get_date(-30) and distance > 1
+
+---- 关注特定商户的漂移数据
+select *
+from dw_analyst.dw_analyst_beacon_rider_drifting
+where dt > get_date(-30) and distance > 1
+and beacon_shop_id = 155307294
+
+---- 这些骑手有没有异地登陆？
+select *
+from dw.dw_tms_clair_gateway_tb_login
+where dt = get_date(-1)
+and target_id = 10231411
 
 ---- 给定骑手id和时间，反查千里眼轨迹
 select * 
 from dw.dw_log_talaris_taker_location_day_inc
-where taker_id = 733326 
-and record_time > '2018-02-05 15:00:00' and record_time < '2018-02-05 16:00:00'
-and dt = '2018-02-05'
+where taker_id = 10231411
+and record_time > '2018-02-18 20:25:00'
+and record_time < '2018-02-18 20:50:00'
+and dt = '2018-02-18'

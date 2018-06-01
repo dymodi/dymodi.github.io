@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Toolbox
-date: Jan. 4, 2017
+date: Jan. 4, 2018
 ---
 
 # Toolbox
@@ -12,7 +12,7 @@ date: Jan. 4, 2017
 ## Python
 [Python Tricks](Toolbox/Python-Tricks)
 
-[Pandas](Toolbox/Pandas)
+[Pandas](Toolbox/Pandas) Popular tool for data analysis in Python.
 
 ## SQL
 
@@ -24,5 +24,7 @@ date: Jan. 4, 2017
 
 ## Data Visualization
 
-[plot.ly](https://plot.ly/)
+[plot.ly](https://plot.ly/) A modern data visualization tool.
+
+[kepler.gl](https://uber.github.io/kepler.gl/#/) A geospatial toolbox provided by uber. Somewhat slow but can be used, better open with Safari.
 

@@ -8,7 +8,7 @@ t03.shop_latitude as shop_latitude_2, t03.shop_longitude as shop_longitude_2
 from (
 select *
 from dw_analyst.dw_analyst_beacon_exception_shop_day 
-where dt > get_date(-10)
+where dt = '2018-01-31'
 ) t01
 join (
 select shop_id, shop_name, shop_latitude, shop_longitude
