@@ -1,11 +1,11 @@
---- 
+---
 layout: post
 title: Falcon: Detection of Inaccurate POI Information and Rider Cheating in Food Delivery System
 date: Jan. 26, 2017
 author: Yi DING
 ---
 
-[comment]: # (This is the outline 1 for the Falcon paper for Fandian for MobiCom 2018)
+(This is the outline 1 for the Falcon paper for Fandian for MobiCom 2018)
 
 # Falcon: Detection of Inaccurate POI Information and Rider Cheating in Food Delivery System
 

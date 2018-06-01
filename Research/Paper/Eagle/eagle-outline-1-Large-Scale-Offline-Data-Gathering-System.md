@@ -1,11 +1,9 @@
---- 
+---
 layout: post
 title: Outline: Eagle: Large Scale Offline Data Gathering System
 date: Nov. 27, 2017
 author: Yi DING
 ---
-
-[comment]: # (Outline for Offline Data Collecting)
 
 # Large Scale Offline Data Collecting
 

@@ -1,11 +1,9 @@
---- 
+---
 layout: post
 title: Outline: Eagle: Large Scale Offline Data Gathering System
 date: Dec. 18, 2017
 author: Yi DING
 ---
-
-[comment]: # (Outline 2 for Offline Data Collecting. ver 1 is rejected on 12/18/2017)
 
 # Eagle: Large Scale Urban Mobility Monitoring System (We need a more focused title)
 

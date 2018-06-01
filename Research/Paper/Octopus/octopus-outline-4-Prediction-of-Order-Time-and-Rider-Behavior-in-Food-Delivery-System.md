@@ -1,11 +1,11 @@
---- 
+---
 layout: post
-title: Octopus Paper Outline
+title: Octopus Paper Outline: Prediction of Order Time and Rider Behavior in Food Delivery System
 date: Jan. 18, 2017
 author: Yi DING
 ---
 
-[comment]: # (This is the outline 4 for the Octopus paper)
+[comment]: # "This is the outline 4 for the Octopus paper"
 
 NOTE: This the fourth version of the draft. This is a major revision.
 
