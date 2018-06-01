@@ -1,11 +1,9 @@
---- 
+---
 layout: post
 title: Clairvoyant: Towards Fast and Efficient Food Delivery System with Accurate Indoor Localization
 date: Jan. 30, 2017
 author: Yi DING
 ---
-
-[comment]: # (This is the outline 1 for the Falcon paper for Fandian for MobiCom 2018)
 
 Comments from Professor:
 1. Emphasize this is a major effort in deploying BLE for indoor tracking.  
