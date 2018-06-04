@@ -17,6 +17,8 @@
 ## Topics
 [Sequential Bayesian Updating](http://www.stats.ox.ac.uk/~steffen/teaching/bs2HT9/kalman.pdf)
 
+[Tensor Factorization](https://joyceho.github.io/cs584_s16/index.html)
+
 ## Online Courses
 
 [Machine Learning Crash Course, Google](https://developers.google.com/machine-learning/crash-course/)

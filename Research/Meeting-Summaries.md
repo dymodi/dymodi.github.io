@@ -194,11 +194,12 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 3. The main idea of my paper should be "We build a large scale real world indoor localization system basede on iBeacon protocol. In building this system, we met the following pracitcal problems and address them with novel methods."
 
 ## Potential Topics
+* Riders/restaurants clustering
 * Delivery Map based on Time
 * AOI Recongization based on delivery map
-* POI Correction
-* Security/Authentication
 * Risk Control
 * Auto check-in (Similar to Existence Detection)
 * Dispatching(Traditional and Fetch Delivery Seperation)
-* Deep Reinforcement Learning can be used in predicting rider's future bahavior.
+* Deep Reinforcement Learning used in predicting rider's future bahavior.
+* Security/Authentication (Hardware related)
+* POI Correction (Done by JDZ)

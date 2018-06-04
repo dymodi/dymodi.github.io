@@ -9,6 +9,8 @@ Here we summarize the strength (and the weakness) of myself, for future job hunt
 
 ## My strength:
 1. Ability to follow research trends.
+2. Has a broad view in smart city and urban computing fields.
 
 ## My weakness:
 
+1. Efficient implementing of a system.
