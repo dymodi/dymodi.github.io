@@ -19,6 +19,8 @@
 
 [Tensor Factorization](https://joyceho.github.io/cs584_s16/index.html)
 
+[Graph Learning](https://arxiv.org/pdf/1709.05584.pdf)
+
 ## Online Courses
 
 [Machine Learning Crash Course, Google](https://developers.google.com/machine-learning/crash-course/)
