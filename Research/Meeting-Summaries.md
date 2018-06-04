@@ -9,7 +9,8 @@ author: Yi DING
 
 ## Highlight
 
-* 
+关于文章立意的要求：
+* 体现大规模，之前即使有类似的应用，也没有上升到这么大的规模。
 
 ## Progress and Discussion
 
