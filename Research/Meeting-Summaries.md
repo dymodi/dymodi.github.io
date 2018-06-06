@@ -9,10 +9,16 @@ author: Yi DING
 
 ## Highlight
 
-关于文章立意的要求：
-* 体现大规模，之前即使有类似的应用，也没有上升到这么大的规模。
+* 
 
 ## Progress and Discussion
+
+06/04/18
+
+"Recommendation system for rider" 的 idea 得到老板的初步同意。但有两个问题：
+
+1. topic可能和张岩的研究话题有部分重叠，需要找她聊一聊；
+2. waiting time占大头的的这个claim可以作为一个surprise的点抛出来，但一定要有数据和图支撑，和carpool做对比。
 
 06/01/18
 
