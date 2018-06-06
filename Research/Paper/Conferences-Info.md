@@ -14,7 +14,10 @@ author: Yi DING
 | June 5              | IEEE ICDM      |
 | June 12             | ACM SIGSPATIAL |
 | August 15           | ACM IMWUT      |
+| September 5         | AAAI           |
 | December 1          | ACM MobiSys    |
+
+
 
 ## Mobile Computing / Sensor Network
 
@@ -37,12 +40,11 @@ February 15 /May 15 / August 15 / November 15
 
 
 
-## Big Data 
+## Big Data and Machine Learning 
 
 [SIGKDD: ACM Special Interest Group on Knowledge Discovery and Data Mining](http://www.kdd.org/)
 
 [ICDM: IEEE International Conference on Data Mining](http://icdm2018.org/calls/call-for-papers/)
 
-
-
+[AAAI: Association for the Advancement of Artificial Intelligence](https://aaai.org/Conferences/AAAI-19/aaai19call/)
 
