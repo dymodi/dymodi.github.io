@@ -13,6 +13,13 @@ author: Yi DING
 
 ## Progress and Discussion
 
+06/07/18
+
+1. 和张岩和老板有了初步的沟通，两个人的方向还是有不同的，可以各自研究。不过有很多可以共享和交流的内容，比如与出租车比较的motivation，比如张岩正在搭建的实时特征提取的框架。
+2. 但是首先最好把waiting time这个claim的数据弄出来。
+3. 与此同时，想一想虚拟Beacon的应用，比如调节不同的发送强度来感知不同的距离，因为要体现虚拟beacon随时可调的特点。
+4. JDZ的项目需要找到related works，并选择合适的来作为baseline用在evaluation里。
+
 06/04/18
 
 "Recommendation system for rider" 的 idea 得到老板的初步同意。但有两个问题：

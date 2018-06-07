@@ -8,6 +8,7 @@ Yi Ding
 import pandas as pd
 import os
 import numpy as np
+import matplotlib.pyplot as plt
 
 # This path of current file
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -33,16 +34,20 @@ if df_datetime.isnull().values.any():
 
 # Convert to timestamp
 df_timestamp = pd.DataFrame()
-df_timestamp['created_on'] = rideaustin.values.astype(np.int64) // 10 ** 9
-# df_timestamp['driver_reached_on'] = pd.Timestamp(rideaustin.driver_reached_on)
-# df_timestamp['started_on'] = pd.Timestamp(rideaustin.started_on)
-# df_timestamp['completed_on'] = pd.Timestamp(rideaustin.completed_on)
-# df_timestamp['updated_on'] = pd.Timestamp(rideaustin.updated_date)
+df_timestamp['created_on'] = df_datetime.created_on.values.astype(np.int64) // 10 ** 9
+df_timestamp['driver_reached_on'] = df_datetime.driver_reached_on.values.astype(np.int64) // 10 ** 9
+df_timestamp['started_on'] = df_datetime.started_on.values.astype(np.int64) // 10 ** 9
+df_timestamp['completed_on'] = df_datetime.completed_on.values.astype(np.int64) // 10 ** 9
+df_timestamp['updated_on'] = df_datetime.updated_on.values.astype(np.int64) // 10 ** 9
 print(df_timestamp.head())
 
 # Get time difference
 df_timediff = pd.DataFrame()
-# df_timediff['wait_time'] = (df_timestamp.started_on-df_timestamp.driver_reacher_on).astype('timedelta64[s]')
+df_timediff['wait_time'] = (df_timestamp.started_on-df_timestamp.driver_reached_on)
 print(df_timediff.head())
+
+# Hist of wait time
+df_timediff.hist('wait_time', bins=60)
+plt.show()
 
 #rideaustin = pd.read_csv('/Users/eleme-yi/Documents/PhD/GitHub Pages/dymodi.github.io/Research/Beacon/data/rideshare/Rides_DataA.csv')
