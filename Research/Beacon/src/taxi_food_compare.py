@@ -3,6 +3,9 @@ Compare the taxi carpool and food delivery system
 focus on waiting time and on-road time
 Yi Ding
 06/06/18
+
+Undone version, follows can be found in jupyter notebook
+
 '''
 
 import pandas as pd
