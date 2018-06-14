@@ -11,6 +11,10 @@ In this post, we introduce the basic process of data preprocessing (or data clea
 Normalizing is the process of scaling the vector length to unit. Normalizing is an important step accodring to paper [1]. **sklearn** has provided the [normalize](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.normalize.html) to scale input vectors individually to unit norm (vector length).
 
 ## Removing Outliers
+A very simple method is to assume a normal distribution of all the samples and remove the outliers located beyond $$3\sigma$$ away from the mean $$\mu$$, where $$\sigma$$ is the standard derivation of the sample data. That is 
+
+$$X =\{ x>\mu-3\sigma \text{ and }x < \mu+3\sigma | x\in X_{\text{raw}} \}$$
+
 According to [WashU](http://www.cs.wustl.edu/~zhang/teaching/cs514/Spring11/Data-prep.pdf), clustering is a good method to detect the outliers in the dataset.
 According to a [paper](http://pmg.it.usyd.edu.au/outliers.pdf), k-means can be a practical clustering method.
 **sklearn** has provide the [KMeanas class](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) to achieve K-Means clustering quickly.
