@@ -13,6 +13,14 @@ author: Yi DING
 
 ## Progress and Discussion
 
+06/21/18
+
+1. Time-Dependent Network 用于骑手行为的调度，看Yu Gu的两篇文章。
+2. Delay Tolerant Network 的文章用于基于手机Beacon的换单idea，可以看Jaehoon的文章。
+3. 把Taxi和Eleme的不同的等待时间用图的形式展示。
+4. 江东哲那篇文章的baseline的实现。
+5. 和张岩交流。
+
 06/14/18
 
 1. 查到了一个Rideshare的出租车的dataset，但里面有很多noise data，比如waittime特别长，drive时间特别短的，所以正在用一些预处理的方法在滤掉

@@ -1,3 +1,21 @@
+---- 看哪些骑手的数据多？
+select target_id, count(distinct created_at) as data_cnt
+from dw.dw_tms_clairvoyant_tb_beacon
+where dt = get_date(-1)
+group by target_id
+order by data_cnt desc
+---- Results:
+---- 06-13,111186242, 864014, 10777260, 106683498, 10799794
+
+---- 把需要的数据抽出来
+select id, created_at, updated_at, target_type, target_id,
+parse_json_object(beacon_info,'accelerometer') as accelerometer, 
+parse_json_object(beacon_info,'beaconRssi') as rssi,
+parse_json_object(beacon_info,'detectedAt ') as detected_at, dt
+from dw.dw_tms_clairvoyant_tb_beacon
+where dt = get_date(-1) and target_id = 111186242
+order by detected_at
+limit 10000
 
 
 select * from dw.dw_tms_tb_tracking_event 
