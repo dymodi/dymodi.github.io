@@ -6,7 +6,7 @@ layout: default
   <title>Yi Homepage</title>
 </head>
 
-## [Research topics](Research)
+## [Research](Research)
 I will introduce some of my research here.
 
 ## [Machine Learning](MachineLearning)
