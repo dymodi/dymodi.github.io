@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 comments: true
 title: Basic Facts on Reinforcement Learning
@@ -6,9 +6,15 @@ date: Oct. 20, 2017
 author: Yi DING
 ---
 
-This is a post that summarizes some basic facts on reinforcement learning. The materials comes from [Sergey Levine's Course at Berkeley](http://rll.berkeley.edu/deeprlcourse/) and ...
+This is a post that summarizes some basic facts on reinforcement learning. The materials comes from [Sergey Levine's Course at Berkeley](http://rll.berkeley.edu/deeprlcourse/)  ([or the archived version](http://rll.berkeley.edu/deeprlcoursesp17/)).
+
+## What problems can be solved by RL
+In my opinion, the problems that have **control** kernel will be good to solve with RL methods, such as autonomous driving.
+
+
 
 ## Basic Concepts (Lecture 1)
+
 Reinforcement Learning (RL):
 * Agent makes **actions**(**decision**) to the environment.
 * Agent gets **observations** and **rewards** as the concequences of its **actions**.
@@ -24,7 +30,7 @@ Characteristics:
 
 The reinforcement learning problem **is** the AI problem!
 
-When should we formulate the problem as a RL problem depends on whether we should worry abou the sequential decision making. Typical applications are: robotics, autonomous driving, language, business operations and finance.
+When should we formulate the problem as a RL problem depends on whether we should worry about the sequential decision making. Typical applications are: robotics, autonomous driving, language, business operations and finance.
 
 ## Supervised Learning and Imitation (Lecture 2)
 Terminology & Notation:
@@ -44,7 +50,7 @@ The supervised learning, in facts, is that manual labels provide $$a_t$$ corresp
 
 However, some theoratic results have shown that this "supervised learning" does **not** work on the *sequential decision making problem* such as self-driving. Because tiny errors will diverge in the end (compounding error).
 
-While, imitation learning is also valid in practice based on some "stable controller". That is ***"Learning from a stabilizing controller"**.
+While, imitation learning is also valid in practice based on some "stable controller". That is **"Learning from a stabilizing controller"**.
 
 ### Case Studies
 
@@ -64,8 +70,18 @@ That is, optimal control is a kind of "model-based reinforcement learning".
 
 Also note that the state and action here are the same as $$x_t$$ and $$u_t$$ in optimal control.
 
+## Optimal Control, Trajectory Optimization, and Planning (Lecture 3)
+
+In this lecture, we will discuss "how to make decisions under perfect knowledge of the system dynamics".
+
+**Trajectory Optimization**
+
+$$\min_{\textbf{u}_1,...,\textbf{u}_T}\sum^{T}_{t=1}c(\textbf{x}_t,\textbf{u}_t) \text{ s.t. } \textbf{x}_t=f(\textbf{x}_{t-1}, \textbf{u}_{t-1})$$
+
+
 
 ## Ref.
+
 [1] Giusti, A., Guzzi, J., Cireşan, D. C., He, F. L., Rodríguez, J. P., Fontana, F., ... & Scaramuzza, D. (2016). A machine learning approach to visual perception of forest trails for mobile robots. IEEE Robotics and Automation Letters, 1(2), 661-667. [IEEE](http://ieeexplore.ieee.org.ezp1.lib.umn.edu/stamp/stamp.jsp?tp=&arnumber=7358076)
 
 [2] Daftry, S., Bagnell, J. A., & Hebert, M. (2016, October). Learning transferable policies for monocular reactive MAV control. In International Symposium on Experimental Robotics (pp. 3-11). Springer, Cham. [Arxiv](https://arxiv.org/pdf/1608.00627.pdf)
