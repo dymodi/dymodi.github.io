@@ -78,6 +78,26 @@ In this lecture, we will discuss "how to make decisions under perfect knowledge 
 
 $$\min_{\textbf{u}_1,...,\textbf{u}_T}\sum^{T}_{t=1}c(\textbf{x}_t,\textbf{u}_t) \text{ s.t. } \textbf{x}_t=f(\textbf{x}_{t-1}, \textbf{u}_{t-1})$$
 
+**Shooting Method**
+
+$$\min_{\textbf{u}_1,...,\textbf{u}_T} c(\textbf{x}_1,\textbf{u}_1)+c(f(\textbf{x}_1,\textbf{u}_1),\textbf{u}_2)+...+c(f(f(...)...),\textbf{u}_T)$$
+
+**Collocation Method**
+
+$$\min_{\textbf{u}_1,...,\textbf{u}_T,\textbf{x}_1,...,\textbf{x}_T}\sum^{T}_{t=1}c(\textbf{x}_t,\textbf{u}_t) \text{ s.t. } \textbf{x}_t=f(\textbf{x}_{t-1}, \textbf{u}_{t-1})$$
+
+Note the difference of optimization variables in the above two methods.
+
+**Linear case: LQR**
+
+An old blog of my on LQR can be found [here](https://blog.csdn.net/dymodi/article/details/46303633) (in Chinese).
+
+$$\min_{\textbf{u}_1,...,\textbf{u}_T} c(\textbf{x}_1,\textbf{u}_1)+c(f(\textbf{x}_1,\textbf{u}_1),\textbf{u}_2)+...+c(f(f(...)...),\textbf{u}_T)$$
+
+$$f(\textbf{x}_t,\textbf{u}_t)=\textbf{F}_t\begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}+\textbf{f}_t$$
+
+$$c(\textbf{x}_t,\textbf{u}_t)=\frac12 \begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}^T\textbf{C}_t\begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}+\begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}^T\textbf c_t$$
+
 
 
 ## Ref.
