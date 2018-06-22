@@ -7,6 +7,8 @@ author: Yi DING
 
 In this tutorial, we will basically follow the [official tutorial](https://www.tensorflow.org/get_started/mnist/pros) but will change some parts to make it easier to understand. 
 
+[Another tutorial](http://rll.berkeley.edu/deeprlcoursesp17/docs/tfsection.pdf) of TensorFlow on deep NN is provided by Chelsea Finn from Berkeley CS 294 course.
+
 ## Convolution Neural Network
 Note that, according to [Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.github.io/convolutional-networks/) "ConvNet architectures make the explicit assumption that the inputs are images".
 

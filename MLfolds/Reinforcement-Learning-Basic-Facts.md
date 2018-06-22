@@ -90,6 +90,8 @@ Note the difference of optimization variables in the above two methods.
 
 **Linear case: LQR**
 
+LQR: Linear dynamic, quadratic cost.
+
 An old blog of my on LQR can be found [here](https://blog.csdn.net/dymodi/article/details/46303633) (in Chinese).
 
 $$\min_{\textbf{u}_1,...,\textbf{u}_T} c(\textbf{x}_1,\textbf{u}_1)+c(f(\textbf{x}_1,\textbf{u}_1),\textbf{u}_2)+...+c(f(f(...)...),\textbf{u}_T)$$
@@ -97,6 +99,18 @@ $$\min_{\textbf{u}_1,...,\textbf{u}_T} c(\textbf{x}_1,\textbf{u}_1)+c(f(\textbf{
 $$f(\textbf{x}_t,\textbf{u}_t)=\textbf{F}_t\begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}+\textbf{f}_t$$
 
 $$c(\textbf{x}_t,\textbf{u}_t)=\frac12 \begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}^T\textbf{C}_t\begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}+\begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}^T\textbf c_t$$
+
+Base case: we solve for $$\textbf{u}_t$$only. Let the previous term to be a constant and let the derivation to be zero, we have:
+
+$$\textbf{u}_t=\textbf{K}_t\textbf{x}_t+\textbf{k}_t$$
+
+For nonlinear case, it can be trasformed to LQR with Taylor expansion.
+
+Iterative LQR is something comparable to Newton's method.
+
+**Discrete case: Monte Carlo tree seach (MCTS)**
+
+Build a decision tree and run some random search to have a glimpse of the quality of the decision sequences.
 
 
 
