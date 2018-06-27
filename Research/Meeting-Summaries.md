@@ -13,6 +13,19 @@ author: Yi DING
 
 ## Progress and Discussion
 
+06/27/18
+
+1. 题目可以叫path planning或者routing，主要在于给定商户名单之后的序列确定
+2. 查下即时配送是不是叫Instant Delivery
+3. 8月份有个mobicom？
+4. 考察下阿里那面的货物出仓机制，扩展preparing time这个概念
+5. 不要提Gu Yu那篇文章，把TDN作为一个innovative的点提出来
+6. 不要提batch这个事情，会对问题有无谓的限制，一次性把问题定义清楚就行
+7. 我们也可以用DP
+8. basic design假定所有单已知，一次给出答案；advanced design考虑在追加单（或追加单未知的情况下进行预测和考虑）
+9. hitchhike的文章要改投的话要重新考虑setting，或者把思路用在其他设计上，考虑用饿了么的大规模平台来实现in-field的实验
+10. 周末的报告可以多讲讲，暴露些问题
+
 06/21/18
 
 1. Time-Dependent Network 用于骑手行为的调度，看Yu Gu的两篇文章。
