@@ -1,3 +1,15 @@
+
+---- 统计每天有多少单经过两个或更多人
+
+select t01.rider_cnt, count(distinct t01.tracking_id) as order_cnt
+from (
+select tracking_id, count(distinct carrier_driver_id) as rider_cnt
+from dw.dw_tms_tb_tracking_event
+where dt > get_date(-2)
+group by tracking_id
+) t01
+group by t01.rider_cnt
+
 ---- 看哪些骑手的数据多？
 select target_id, count(distinct created_at) as data_cnt
 from dw.dw_tms_clairvoyant_tb_beacon

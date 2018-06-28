@@ -17,14 +17,13 @@ author: Yi DING
 
 1. 题目可以叫path planning或者routing，主要在于给定商户名单之后的序列确定
 2. 查下即时配送是不是叫Instant Delivery
-3. 8月份有个mobicom？
-4. 考察下阿里那面的货物出仓机制，扩展preparing time这个概念
-5. 不要提Gu Yu那篇文章，把TDN作为一个innovative的点提出来
-6. 不要提batch这个事情，会对问题有无谓的限制，一次性把问题定义清楚就行
-7. 我们也可以用DP
-8. basic design假定所有单已知，一次给出答案；advanced design考虑在追加单（或追加单未知的情况下进行预测和考虑）
-9. hitchhike的文章要改投的话要重新考虑setting，或者把思路用在其他设计上，考虑用饿了么的大规模平台来实现in-field的实验
-10. 周末的报告可以多讲讲，暴露些问题
+3. 考察下阿里那面的货物出仓机制，扩展preparing time这个概念
+4. 不要提Gu Yu那篇文章，把TDN作为一个innovative的点提出来
+5. 不要提batch这个事情，会对问题有无谓的限制，一次性把问题定义清楚就行
+6. 我们也可以用DP
+7. basic design假定所有单已知，一次给出答案；advanced design考虑在追加单（或追加单未知的情况下进行预测和考虑）
+8. hitchhike的文章要改投的话要重新考虑setting，或者把思路用在其他设计上，考虑用饿了么的大规模平台来实现in-field的实验
+9. 周末的报告可以多讲讲，暴露些问题
 
 06/21/18
 
@@ -32,13 +31,11 @@ author: Yi DING
 2. Delay Tolerant Network 的文章用于基于手机Beacon的换单idea，可以看Jaehoon的文章。
 3. 把Taxi和Eleme的不同的等待时间用图的形式展示。
 4. 江东哲那篇文章的baseline的实现。
-5. 和张岩交流。
 
 06/14/18
 
 1. 查到了一个Rideshare的出租车的dataset，但里面有很多noise data，比如waittime特别长，drive时间特别短的，所以正在用一些预处理的方法在滤掉
-2. 和张岩交流一下
-3. 关于骑手手机改为beacon的应用：基于位置的换单，气体分子扩散，熵增的过程。
+2. 关于骑手手机改为beacon的应用：基于位置的换单，气体分子扩散，熵增的过程。
 
 06/07/18
 
@@ -234,12 +231,13 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 3. The main idea of my paper should be "We build a large scale real world indoor localization system basede on iBeacon protocol. In building this system, we met the following pracitcal problems and address them with novel methods."
 
 ## Potential Topics
-* Riders/restaurants clustering
+* Riders/restaurants Clustering
+* Robots Routing in Delivery
 * Delivery Map based on Time
-* AOI Recongization based on delivery map
+* AOI Recongization based on Delivery Map
 * Risk Control
 * Auto check-in (Similar to Existence Detection)
-* Dispatching(Traditional and Fetch Delivery Seperation)
-* Deep Reinforcement Learning used in predicting rider's future bahavior.
-* Security/Authentication (Hardware related)
-* POI Correction (Done by JDZ)
+* Dispatching (Traditional and Fetch Delivery Seperation)
+* Deep Reinforcement Learning used in Predicting Rider's Future Bahavior
+* ~~Security/Authentication (Hardware related) (Not good idea)~~
+* ~~POI Correction (Done by JDZ)~~
