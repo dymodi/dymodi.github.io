@@ -13,3 +13,4 @@
 *.npy
 *.csv
 taxi_rider_compare-checkpoint.ipynb
+data_preparation-checkpoint.ipynb

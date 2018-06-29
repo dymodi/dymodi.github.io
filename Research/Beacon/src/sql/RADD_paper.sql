@@ -17,7 +17,7 @@ where dt > get_date(-8)
 join (
 select * from dw.dw_tms_tb_tracking_event
 where dt = get_date(-1) and get_date(ocurred_time) > get_date(-8)
-and shipping_state = 10
+and shipping_state = 20
 ) t10
 on t01.dt = t10.dt and t01.dt = get_date(t10.ocurred_time)
 and t01.rider_id = t10.carrier_driver_id

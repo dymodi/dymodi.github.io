@@ -28,9 +28,12 @@ rssi_dataframe.head()
 california_housing_dataframe.describe()
 # Histogram of certain feature
 california_housing_dataframe.hist('housing_median_age')
-# Return element by index
-some_value = california_housing_dataframe.iloc[i]['housing_median_age']
 ```
 
-
-
+## Indexing
+``` python
+# Return element by index (absolute position)
+some_value = california_housing_dataframe.iloc[i]['housing_median_age']
+# Returen element by index (origin index)
+some_value = california_housing_dataframe.loc[i]['housing_median_age']
+```
