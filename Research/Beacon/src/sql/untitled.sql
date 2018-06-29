@@ -1,14 +1,39 @@
 
----- 统计每天有多少单经过两个或更多人
+---- 为了和出租车数据比较，抽一份平台的代码出来
 
-select t01.rider_cnt, count(distinct t01.tracking_id) as order_cnt
-from (
-select tracking_id, count(distinct carrier_driver_id) as rider_cnt
+
+
+select tracking_id, shop_id, rider_id, rider_accept_order_time as accept_at,
+rider_arrive_restaurant_time as arrive_rst_at, 
+rider_pickup_time as pickup_at,
+rider_delivery_time as deliver_at, dt
+from pub.dmd_tms_waybill_tracking_wide_day
+where dt = get_date(-1) 
+and (is_platform_timeout_compensate_order = '是' or is_tms_timeout_compensate_order = '是')
+
+
+
+---- 超时原因
+select * from pub.dmd_tms_waybill_tracking_wide_day
+where dt = get_date(-1) 
+and (is_platform_timeout_compensate_order = '是' or is_tms_timeout_compensate_order = '是')
+
+
+---- 统计每天有多少单经过两个或更多人
+select get_date(created_at) as create_date, count(distinct tracking_id) as exchange_order_cnt
+from dw.dw_tms_lpd_knight_tb_exchange_order_record
+where dt > get_date(-10) and get_date(created_at) > get_date(-10)
+group by get_date(created_at)
+order by create_date
+
+---- 统计每天总共有多少单来看看比例
+select get_date(created_at) as created_date, count(distinct tracking_id) as all_order_cnt
 from dw.dw_tms_tb_tracking_event
-where dt > get_date(-2)
-group by tracking_id
-) t01
-group by t01.rider_cnt
+where dt > get_date(-10) and get_date(created_at) > get_date(-10)
+and shipping_state = 40
+group by get_date(created_at)
+order by created_date
+
 
 ---- 看哪些骑手的数据多？
 select target_id, count(distinct created_at) as data_cnt

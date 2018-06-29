@@ -223,12 +223,11 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 2. Based on 1. each beacon data can match to a POI. What we care is not multiple beacons heared at the same time, but the time difference between each 
 
 09/20
-1. Discover and Solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
+1. Discover and solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
 
 09/19
 1. Location correction has been studies many years ago, so it's not a good idea to wirte a paper only on POI correction.
-2. For algorithm and related work of location correction, please read Hwang's 2007 paper.
-3. The main idea of my paper should be "We build a large scale real world indoor localization system basede on iBeacon protocol. In building this system, we met the following pracitcal problems and address them with novel methods."
+2. The main idea of my paper should be "We build a large scale real world indoor localization system basede on iBeacon protocol. In building this system, we met the following pracitcal problems and address them with novel methods."
 
 ## Potential Topics
 * Riders/restaurants Clustering
