@@ -36,3 +36,7 @@ Introduction is possibly the most important section of the paper, since reviewer
 * The contribution of this paper
 
 Applications should only be discussed in the Introduction.
+
+## How to Write the Evaluation
+
+The cases in the evaluation section can be only a subset of the design section.
