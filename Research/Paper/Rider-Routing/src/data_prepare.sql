@@ -46,23 +46,37 @@ and t03.carrier_driver_id = t04.carrier_driver_id;
 
 
 # 通过联表， 把所有同一骑手一天内三单的组合都拿出来，然后再筛
-select (LAG (tracking_id, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as tracking_id_1,
-(LAG (accept_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as accept_at_1,
-(LAG (arrive_rst_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as arrive_rst_at_1,
-(LAG (pickup_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as pickup_at_1,
-(LAG (deliver_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as deliver_at_1,
+drop table if exists temp.temp_yiding_three_order_batch_raw;
+create table temp.temp_yiding_three_order_batch_raw as
+select rider_id,
+(LAG (tracking_id, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as tracking_id_1,
+(LAG (accept_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as accept_at_1,
+(LAG (arrive_rst_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as arrive_rst_at_1,
+(LAG (pickup_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as pickup_at_1,
+(LAG (deliver_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as deliver_at_1,
 tracking_id as tracking_id_2,
 accept_at as accept_at_2,
 arrive_rst_at as arrive_rst_at_2,
 pickup_at as pickup_at_2,
 deliver_at as deliver_at_2,
-(LAG (tracking_id, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as tracking_id_3,
-(LAG (accept_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as accept_at_3,
-(LAG (arrive_rst_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as arrive_rst_at_3,
-(LAG (pickup_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as pickup_at_3,
-(LAG (deliver_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at)) as deliver_at_3
-from temp.temp_yiding_order_data_event
+(LEAD (tracking_id, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as tracking_id_3,
+(LEAD (accept_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as accept_at_3,
+(LEAD (arrive_rst_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as arrive_rst_at_3,
+(LEAD (pickup_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as pickup_at_3,
+(LEAD (deliver_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as deliver_at_3
+from temp.temp_yiding_order_data_event;
 
+# 把中间参杂了四单五单的情况刨除
+select accept_at_1 as batch_start_at,
+(case when deliver_at_1 > deliver_at_2 and deliver_at_1 > deliver_at_3 then deliver_at_1 
+	when deliver_at_2 > deliver_at_3 and deliver_at_2 > deliver_at_1 then deliver_at_2
+	else deliver_at_3 end ) as batch_end_at, *
+from temp.temp_yiding_three_order_batch_raw
+where tracking_id_1 is not null and tracking_id_3 is not null
+and get_date(accept_at_1) = get_date(accept_at_2) and get_date(accept_at_2) = get_date(accept_at_3)
+and pickup_at_1 < deliver_at_2 and pickup_at_1 < deliver_at_3
+and pickup_at_2 < deliver_at_3 and pickup_at_2 < deliver_at_1
+and pickup_at_3 < deliver_at_1 and pickup_at_3 < deliver_at_2
 
 
 

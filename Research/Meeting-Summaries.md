@@ -87,9 +87,7 @@ ADDP的提纲被老板拒绝，因为
 
 03/29/18
 
-1. 买了5月23号的机票，直接到上海，估计5月底之前可以开始工作。
-2. 饿了么那面，最近主要的任务就是和东哲找可靠性的原因，虽然我看排期在4月底，但基于现有的数据我们也能做一部分分析，可靠性的问题主要有：部署错误、骑手手机听不到蓝牙信号、APP端的上传时间、骑手快速取单（10s内取单完成）等，具体的占比现在正在分析，这两天就可以给一个大概的数据。
-3. 我自己的研究方面：现在理出了一个基于机器学习的思路，大概就是借鉴CNN在图像处理里的方法。（可以看一下slides），然后结果正在跑。
+1. 饿了么那面，最近主要的任务就是和东哲找可靠性的原因，虽然我看排期在4月底，但基于现有的数据我们也能做一部分分析，可靠性的问题主要有：部署错误、骑手手机听不到蓝牙信号、APP端的上传时间、骑手快速取单（10s内取单完成）等，具体的占比现在正在分析，这两天就可以给一个大概的数据。
 
 03/22/18
 1. 在 group meeting 上讲了自己在饿了么的一些工作，听了一些大家的意见。
@@ -97,15 +95,8 @@ ADDP的提纲被老板拒绝，因为
 
    zhimeng 和 ruofeng 还给我找了几篇同类型的文章看了下。
 
-2. 现在要解决的问题，基本确定了，就是骑手到店监测，遗留的问题就是具体怎么实现和怎么去和现有的做比较。听了大家的意见，觉得 recursive bayesian 或者用 filter 来做都不合适，因为需要调的参数太多，而且不同商户的差异性很难考虑进来，所以我在考虑新的方法。我已经让骑手端的APP开发把iOS自己的到店监测结果传上来了，最好可以做一个比较。
+2. 至于方法，还是考虑用机器学习的方法，最近在看tensorflow的东西，我准备尝试一下CNN，因为CNN的原理其实就是用一些特殊的filter取鉴别图里的线条和颜色，其实我们也是想监测出RSSI曲线中的特点pattern，有相似之处。但是其实每一时刻骑手的到店状态都和前一时刻相关，这一点传统的机器学习方法是不会考虑的，或许我们可以在这一点上把recursive bayesian和CNN结合起来。
 
-   至于方法，还是考虑用机器学习的方法，最近在看tensorflow的东西，我准备尝试一下CNN，因为CNN的原理其实就是用一些特殊的filter取鉴别图里的线条和颜色，其实我们也是想监测出RSSI曲线中的特点pattern，有相似之处。但是其实每一时刻骑手的到店状态都和前一时刻相关，这一点传统的机器学习方法是不会考虑的，或许我们可以在这一点上把recursive bayesian和CNN结合起来。
-
-3. 关于饿了么，我觉得同一秒收到多个Beacon会带来较大问题，也就是beacon时间戳不准，我最近会继续跟进这个问题。现在每个上传的beacon有个序列号了可能会更容易分析。
-
-4. 暑假去的时间，5月中旬或者5月底，有考试，考试结束后要改卷。
-
-5. 回来的时间，是否现在就确定要待半年还是到8月份再确定，我想提前找系里聊一下，比如WPE和OPE的时间。
 
 
 
@@ -113,14 +104,11 @@ ADDP的提纲被老板拒绝，因为
 
 Prepare to talk:
 
-1. Mock Pre. at the group meeting.
-2. Check some theoretical results and papers, recursive Bayesian is very similar to particle filtering, which has been repeatedly studied in indoor tracking papers. Also, I found I need to add constraints to reduced the detection delay, which is lack of theoretical support.
-3. I would like to solve offline detection, which is also challenging, considering large scale and shop/rider/phone diversity.
-4. I am working on paper, but it seems I cannot complete even draft version before MobiCom due.
+1. Check some theoretical results and papers, recursive Bayesian is very similar to particle filtering, which has been repeatedly studied in indoor tracking papers. Also, I found I need to add constraints to reduced the detection delay, which is lack of theoretical support.
+2. I would like to solve offline detection, which is also challenging, considering large scale and shop/rider/phone diversity.
+3. I am working on paper, but it seems I cannot complete even draft version before MobiCom due.
 
 
-
-(Details can also be found in the emails name with "Small Meeting")
 
 03/01/18
 
@@ -143,12 +131,7 @@ Prepare to talk:
 
 
 01/25/18
-1. 饿了么总结
-    1. Beacon状态监测
-    2. 异常商户POI监测
-    3. 异常骑手行为监测
-    4. 和出餐时间预估组合作
-2. MobiCom
+1. MobiCom
     1. [ctopus: Prediction of Order Time and Rider Behavior in Food Delivery System](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Octopus/octopus-outline-4.md)
     2. Key points:
         1. Rider arrival and stay detection using beacons and GPS.
@@ -185,18 +168,16 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 
 10/25 
 1. Focus on the Time-based Delivery Map. The system overview should be only on this part.
-2. Applications should only be discussed in the Introduction.
-3. Data Processing should be discussed in the Discussion part.
-4. Data Collection should be discussed in the Implementation part.
-5. Two main part: edge estimation, point estimation.
-6. Clarify challenges: spatial and temporal data missing and error. Spatial inconsistency can be corrected using POI correction. Temporal inconsistency can be corrected using other methods.
-7. POI correction must be included in this paper.
-8. We should articulate the difference with other time estimation methods.
+2. Data Processing should be discussed in the Discussion part.
+3. Data Collection should be discussed in the Implementation part.
+4. Two main part: edge estimation, point estimation.
+5. Clarify challenges: spatial and temporal data missing and error. Spatial inconsistency can be corrected using POI correction. Temporal inconsistency can be corrected using other methods.
+6. POI correction must be included in this paper.
+7. We should articulate the difference with other time estimation methods.
+8. New idea: Data Complementing in Rider System. (Tackeling base data problem (missing value and unreliable value). Performance can be evaluated using standard ML algorithm.)(Data redundancy and data validation.)
 
-2. New idea: Data Complementing in Rider System. (Tackeling base data problem (missing value and unreliable value). Performance can be evaluated using standard ML algorithm.)(Data redundancy and data validation.)
 10/24/17
-1. Is it possible to use Deep Reinforcement Learning in order dispatching?
-2. Rider's decision is related to both distance and order. We are building this relation.
+1. Rider's decision is related to both distance and order. We are building this relation.
 
 10/23/17
 1. Try use event table to extrace the single rider's travelling time between restaurants.
@@ -204,30 +185,18 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 
 10/19/17
 1. Fail to estimate time between restaurant and restaurant in the time map (rr edge), possiblely due to inaccurate raw data casued by inaccurate POI data. 
-2. Try to estimate cc edge.
 
 10/12
 1. The Introduction draft 1 is rejected by the professor. Indoor localization is no more a meaningful topic for MobiSys, we have to find another story.
-2. We can start from the (food) delivery system and find some practical problem to solve.
-3. For example, due to complex indoor structure and layouts, it's not enough to consider only latitude/longitude and floor. We need to find the "distance" in terms of delivery in a higher dimension.
-(Possible feature: latitude/longitude, floor, weather, time(hour), rider age)
-4. We can ignore indoor localization or make it as a small component.
 
 10/10
-1. About the outline, the structure is ok. But we need to dig more and deeper.
-2. What is the main challenge? Scale? Food delivery?
-3. Maybe I can search some paper and find the challenges and tell a good story. That is, make a tentative introduction.
+1. What is the main challenge? Scale? Food delivery?
+2. Maybe I can search some paper and find the challenges and tell a good story. That is, make a tentative introduction.
 
 09/21
 1. In future deployment, the transmission power will be reduced so that it can only be heared within the shop.
 2. Based on 1. each beacon data can match to a POI. What we care is not multiple beacons heared at the same time, but the time difference between each 
 
-09/20
-1. Discover and solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
-
-09/19
-1. Location correction has been studies many years ago, so it's not a good idea to wirte a paper only on POI correction.
-2. The main idea of my paper should be "We build a large scale real world indoor localization system basede on iBeacon protocol. In building this system, we met the following pracitcal problems and address them with novel methods."
 
 ## Potential Topics
 * Riders/restaurants Clustering
@@ -235,8 +204,10 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 * Delivery Map based on Time
 * AOI Recongization based on Delivery Map
 * Risk Control
+  * Rider cheating
+  * Shop cheating
 * Auto check-in (Similar to Existence Detection)
 * Dispatching (Traditional and Fetch Delivery Seperation)
-* Deep Reinforcement Learning used in Predicting Rider's Future Bahavior
+* Deep Reinforcement Learning used in Predicting Rider's Future Bahavior and Dispatching
 * ~~Security/Authentication (Hardware related) (Not good idea)~~
 * ~~POI Correction (Done by JDZ)~~

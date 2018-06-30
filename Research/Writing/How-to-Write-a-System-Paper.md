@@ -35,3 +35,4 @@ Introduction is possibly the most important section of the paper, since reviewer
 * The solution we proposed
 * The contribution of this paper
 
+Applications should only be discussed in the Introduction.
