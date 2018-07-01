@@ -4,8 +4,6 @@ title: Toolbox
 date: Jan. 4, 2018
 ---
 
-# Toolbox
-
 ## Github
 [Github Issues](Toolbox/Github-Issues)
 

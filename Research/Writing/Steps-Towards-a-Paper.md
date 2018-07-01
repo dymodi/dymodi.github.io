@@ -20,7 +20,8 @@ Before talk to others, try the following check list:
 
 ### Before Writing
 
-
+* Prepare data to have a whole image of the data and problem.
+* Find well-known methods in the field as baseline.
 
 
 ### Advanced Design

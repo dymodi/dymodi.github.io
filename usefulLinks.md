@@ -1,4 +1,9 @@
-# Useful Links
+---
+layout: post
+title: Useful Links
+date: Nov. 1, 2017
+author: Yi DING
+---
 
 ## Books
 
@@ -13,6 +18,8 @@
 [Boosting Foundations and Algorithms - Robert E. Schapire & Yoav Freund](https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Boosting_%20Foundations%20and%20Algorithms%20%5BSchapire%20%26%20Freund%202012-05-18%5D.pdf)
 
 [The Elements of Statistical Learning: Data Mining, Inference, and Prediction. - Trevor Hastie, Robert Tibshirani, Jerome Friedman](http://web.stanford.edu/~hastie/ElemStatLearn/)
+
+[Graph Theory - Reinhard Diestel](http://www.esi2.us.es/~mbilbao/pdffiles/DiestelGT.pdf)
 
 ## Topics
 [Sequential Bayesian Updating](http://www.stats.ox.ac.uk/~steffen/teaching/bs2HT9/kalman.pdf)

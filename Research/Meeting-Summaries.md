@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Notes on Beacon Paper
+title: Meeting Summary
 date: Sept. 19, 2017
 author: Yi DING
 ---
 
-# Meeting Summary on Beacon
+# Meeting Summary
 
 ## Highlight
 

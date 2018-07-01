@@ -1,10 +1,9 @@
---- 
+---
 layout: post
 title: Basic Concepts of Graph Theory
 date: Nov. 1, 2017
 author: Yi DING
 ---
-[comment]: # (Some basic facts about graph theory)
 
 The definitions here mainly follow Prof. Grinberg's [Graph Theory course](http://www-users.math.umn.edu/~dgrinber/5707s17/) in UMN. 
 
@@ -18,4 +17,13 @@ Furthermore, if $$S$$ is a set and $$k$$ is an integer, then $$\mathcal P_k (S)$
 **Grpah**
 
 A *simple graph* is a pair $$(V, E)$$, where $$V$$ is a finite set, and where $$E$$ is a subset of $$\mathcal P_2(V)$$.
+
+**Digraph**
+
+**Directed acyclic graph, DAG**
+
+
+
+
+**Hamiltonian path**
 
