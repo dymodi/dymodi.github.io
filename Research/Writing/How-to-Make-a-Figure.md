@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Basic Facts on Paper Writing
+title: How to Make a Figure
 date: Oct. 09, 2017
 author: Yi DING
 ---
 
+Here we introduce how to make figures, sucha s system overview and evaluation diagrams.
+
 ## Flowchart 
+
 Border Line Width: 3 pound.
 
 ### Some system overview figure samples:

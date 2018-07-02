@@ -1,11 +1,10 @@
---- 
+---
 layout: post
 title: Delivery Mechanism
 date: Oct. 17, 2017
 author: Yi DING
 ---
 
-[comment]: # (This post introduce the delivery mechanism of food delivery system)
 
 # Delivery Mechanism of Food Delivery System
 
