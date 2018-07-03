@@ -5,7 +5,19 @@ select * from pub.dmd_tms_waybill_tracking_wide_day
 where dt = get_date(-1) 
 and (is_platform_timeout_compensate_order = '是' or is_tms_timeout_compensate_order = '是')
 
----- 按Batch排列骑手的数据
+--------------------------------------------------------------------------------------------
+---- 还是要从tracking_event表来筛
+drop table if exists temp.temp_yiding_tracking_event;
+create table temp.temp_yiding_tracking_event as
+select tracking_id, carrier_driver_id as rider_id, shipping_state, 
+ocurred_time
+from dw.dw_tms_tb_tracking_event
+where dt = get_date(-1) and get_date(ocurred_time) = get_date(-1) and
+(shipping_state = 20 or shipping_state = 80 or shipping_state = 30 or shipping_state = 40)
+order by rider_id, ocurred_time
+
+
+---- 每单数据拉成一行
 drop table if exists temp.temp_yiding_order_data_event;
 create table temp.temp_yiding_order_data_event as
 select t01.tracking_id,  t01.carrier_driver_id as rider_id,
@@ -67,6 +79,8 @@ deliver_at as deliver_at_2,
 (LEAD (deliver_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as deliver_at_3
 from temp.temp_yiding_order_data_event;
 
+---- 需要筛的条件：
+---- 1 
 
 ---- 把中间参杂了四单五单的情况刨除
 ---- 保证三单的取和送分开，同时去掉空值
@@ -94,8 +108,10 @@ select (LAG (batch_start_at, 1) OVER (PARTITION by rider_id ORDER BY batch_start
 from temp.temp_yiding_three_order_remove_null;
 
 ---- 卡Batch开始和结束的时间，去掉四五单的情况
-select * from temp.temp_yiding_three_order_remove_null
-where batch_start_at > 
+select * from temp.temp_yiding_three_order_add_last_batch
+where last_batch_start is not null and next_batch_start is not null
+and batch_start_at > last_batch_end
+and batch_end_at < next_batch_start
 
 ---- 卡Batch内部到店和送达的顺序，把取送分开
 

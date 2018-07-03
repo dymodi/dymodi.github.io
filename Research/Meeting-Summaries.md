@@ -13,6 +13,16 @@ author: Yi DING
 
 ## Progress and Discussion
 
+07/03/18
+
+1. 题目里Routing Algorithm不合适，因为会误导做无线网络的人，而且也没有把innovation的地方体现在题目里。
+2. Instant delivery还需要看看物流方面的文章。
+3. 关于TDN里最短路的求解，可以参考Gu Yu的RTSS文章，另外有一篇引用GuYU的InfoCom文章中有具体的算法。
+4. AD1里的RV方法可以
+5. AD2因为和DZG的话题冲突，可以考虑不做。
+6. AD3其实提到就行，因为很细枝末节，可以边做边看。
+7. AD4可以做。
+
 06/30/18 群智感知研讨会
 
 1. Scope可以再generic一些，考虑更多的场景。

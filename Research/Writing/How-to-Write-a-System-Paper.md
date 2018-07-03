@@ -14,6 +14,14 @@ When writing a research paper, keep the following in mind:
 - The technical depth
 - The potential impact
 
+## How to Write the Title
+
+Note the following points:
+
+* Title should show the most innovative part of the paper
+* Title should not be misleading, that is, not include terminology in other fields.
+
+
 ## How to Write the Abstract
 
 Abstract is a short version of Introduction, a tiny version of whole paper.

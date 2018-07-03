@@ -16,6 +16,8 @@ author: Yi DING
 * Scope
   * The problem you want to solve and the solution you provide must be generic, e.g. instant delivery but not food delivery.
   * The experiments and evaluation you did can be only a subset or a special case of you scope, e.g. we test dispatching algorithm on a grid in ELE.ME platform.
+* Solution
+  * Instead of coming up with brand new solutions, it will be better to import existing solutions.
 * Advanced Design
   - Discover and solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
 * Before study, remember the following checklist:
@@ -27,6 +29,8 @@ author: Yi DING
 * Find well-known methods in the field as baseline.
 
 ### 5. Writing
+
+For System Paper writing, please find guides in this [post](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Writing/How-to-Write-a-System-Paper.md).
 
 ### 6. Presentation
 
