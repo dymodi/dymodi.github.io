@@ -7,10 +7,15 @@ date: June 9, 2017
 
 ## [Literature Surveys](Research/Literature-Survey)
 
+A collection of paper reviews I wrote.
+
 ## Transportation System
+
 [Transportation Datasets](Research/Transportation-System/Transportation-Datasets)
 
 ## Beacons
+
+Some work on BLE Beacons.
 
 [A Industry Implementation of Beacon Localization](Research/Beacon/Beacon-Localization-Industry) 
 
