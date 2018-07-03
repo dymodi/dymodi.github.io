@@ -9,6 +9,9 @@ layout: default
 ## [Research](Research)
 I will introduce some of my research here.
 
+## [Industry](Industry)
+Knowledge and information about industry.
+
 ## [Machine Learning](MachineLearning)
 Some basic concepts are summarized here. 
 
