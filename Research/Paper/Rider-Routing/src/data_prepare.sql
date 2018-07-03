@@ -83,10 +83,19 @@ and pickup_at_1 < deliver_at_2 and pickup_at_1 < deliver_at_3
 and pickup_at_2 < deliver_at_3 and pickup_at_2 < deliver_at_1
 and pickup_at_3 < deliver_at_1 and pickup_at_3 < deliver_at_2;
 
+---- 嵌入前后单的batch开始和结束的时间，用于下一步卡
+drop table if exists temp.temp_yiding_three_order_add_last_batch;
+create table temp.temp_yiding_three_order_add_last_batch as
+select (LAG (batch_start_at, 1) OVER (PARTITION by rider_id ORDER BY batch_start_at, accept_at_1)) as last_batch_start,
+(LAG (batch_end_at, 1) OVER (PARTITION by rider_id ORDER BY batch_start_at, accept_at_1)) as last_batch_end,
+(LEAD (batch_start_at, 1) OVER (PARTITION by rider_id ORDER BY batch_start_at, accept_at_1)) as next_batch_start,
+(LEAD (batch_end_at, 1) OVER (PARTITION by rider_id ORDER BY batch_start_at, accept_at_1)) as next_batch_end,
+*
+from temp.temp_yiding_three_order_remove_null;
 
 ---- 卡Batch开始和结束的时间，去掉四五单的情况
 select * from temp.temp_yiding_three_order_remove_null
-where batch_start_at > (LAG (batch_end_at, 1) OVER (PARTITION by rider_id ORDER BY batch_start_at, accept_at_1))
+where batch_start_at > 
 
 ---- 卡Batch内部到店和送达的顺序，把取送分开
 
