@@ -5,7 +5,7 @@ date: June 9, 2017
 ---
 # Research topics
 
-## [Literature Surveys](Literature-Survey)
+## [Literature Surveys](/Literature-Survey)
 
 ## Transportation System
 [Transportation Datasets](Research/Transportation-System/Transportation-Datasets)
