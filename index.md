@@ -15,9 +15,6 @@ Knowledge and information about industry.
 ## [Machine Learning](MachineLearning)
 Some basic concepts are summarized here. 
 
-## [Graph Theory](graphTheory) 
-There are many interesting topics in graph theory. I will build this part later.
-
 ## [Toolbox](toolbox)
 A toolbox is prepared for computer science, research and data science.
 
