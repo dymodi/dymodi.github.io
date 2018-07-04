@@ -18,6 +18,7 @@ When writing a research paper, keep the following in mind:
 
 Note the following points:
 
+* Title should be concise.
 * Title should show the most innovative part of the paper
 * Title should not be misleading, that is, not include terminology in other fields.
 
