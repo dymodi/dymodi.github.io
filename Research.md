@@ -3,17 +3,17 @@ layout: default
 title: Research
 date: June 9, 2017
 ---
-# Research topics
+## Research Topics
 
-## [Literature Surveys](Research/Literature-Survey)
+### [Literature Surveys](Research/Literature-Survey)
 
 A collection of paper reviews I wrote.
 
-## Transportation System
+### Transportation System
 
 [Transportation Datasets](Research/Transportation-System/Transportation-Datasets)
 
-## Beacons
+### Beacons
 
 Some work on BLE Beacons.
 
@@ -21,7 +21,13 @@ Some work on BLE Beacons.
 
 [Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon/Beacon-Filtering) 
 
-## [Graph Theory](Research/graphTheory) 
+## Backup Knowledge
+
+### Algorithms
+[Basic Knowledge](Research/Algorithms/Basics)
+
+### [Graph Theory](Research/graphTheory) 
+
 There are many interesting topics in graph theory. I will build this part later.
 
 ## Work Publishing

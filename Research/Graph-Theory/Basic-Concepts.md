@@ -28,7 +28,9 @@ A *simple graph* is a pair $$(V, E)$$, where $$V$$ is a finite set, and where $$
 
 A [bipartite graph](http://mathworld.wolfram.com/BipartiteGraph.html), also called a bigraph, is a set of graph vertices decomposed into two disjoint sets such that no two graph vertices within the same set are adjacent. A bipartite graph is a special case of a $$k$$-partite graph with $$k=2$$. 
 
-**Hamiltonian Path**
+**Hamiltonian Path (Cycle)**
+
+Note that Hamiltonian Path (Cycle) is a NP problem.
 
 **Eulerian Path**
 
