@@ -12,3 +12,15 @@ Some classical NP problems are:
 * Hamiltonian path problem
 * Travelling Salesman Problem (TSP)
 
+
+
+### Divide-and-Conquer
+
+
+
+### Dynamic Programming
+
+Longest-Common-Subsequence (LCS) problem.
+
+### Greedy Algorithms
+
