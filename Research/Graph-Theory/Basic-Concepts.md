@@ -30,7 +30,7 @@ A [bipartite graph](http://mathworld.wolfram.com/BipartiteGraph.html), also call
 
 **Hamiltonian Path (Cycle)**
 
-Note that Hamiltonian Path (Cycle) is a NP problem.
+Note that determining whether Hamiltonian paths and cycles exist in graphs is the Hamiltonian path problem, which is NP-complete.
 
 **Eulerian Path**
 

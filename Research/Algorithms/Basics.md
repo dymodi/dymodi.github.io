@@ -9,6 +9,6 @@ Some of the contents can be found in CLRS's Algorithms book.
 
 ### NP Problems
 Some classical NP problems are:
-* Hamiltonian path (cycle) problem
+* Hamiltonian path problem
 * Travelling Salesman Problem (TSP)
 

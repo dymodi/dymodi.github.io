@@ -13,6 +13,12 @@ author: Yi DING
 
 ## Progress and Discussion
 
+07/06/18
+
+1. Instant Delivery里的Path Scheduling问题其实是变相的TSP问题，也就是NP问题。我们需要通过对问题加约束来找到多项式复杂度的解，或者去找那些已有的TSP的近似算法。
+2. 最好是首先有一个最优解（也得是多项式的），然后在advanced design里通过加约束或者改问题来得到一个近似解。
+3. 要体现出waiting time长的特点，也就是在motivation里提到的和taxi比较的点。不一定要用TDN，但要体现这一点。
+
 07/03/18
 
 1. 题目里Routing Algorithm不合适，因为会误导做无线网络的人，而且也没有把innovation的地方体现在题目里。
