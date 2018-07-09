@@ -26,6 +26,8 @@ Some work on BLE Beacons.
 ### Algorithms
 [Basic Knowledge](Research/Algorithms/Basics)
 
+[TSP](Research/Algorithms/TSP)
+
 ### [Graph Theory](Research/graphTheory) 
 
 There are many interesting topics in graph theory. I will build this part later.

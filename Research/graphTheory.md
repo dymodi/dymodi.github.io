@@ -9,7 +9,7 @@ date: Nov. 2, 2017
 ## Basics
 [Basic Concepts](Graph-Theory/Basic-Concepts)
 
-### Special Topics
+## Special Topics
 
 [Time Dependent Network](Graph-Theory/Time-Dependent-Network)
 
