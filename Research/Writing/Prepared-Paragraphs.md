@@ -48,6 +48,12 @@ under different practical constraints. We then provide (1) an optimal algorithm 
 
 
 
+### Evaluation and Baseline
+
+（Heuristic和最优解的比较）"Compared to the MIP solver, our heuristic is superior in both the solution times and the quality of the obtained solutions if the CPU time is limited"
+
+
+
 ### Ref.
 
 [1] Wang, F., & Liu, J. (2009). Duty-cycle-aware broadcast in wireless sensor networks. In *IEEE INFOCOM* (pp. 468–476). https://doi.org/10.1109/INFCOM.2009.5061952

@@ -114,7 +114,6 @@ ADDP的提纲被老板拒绝，因为
 3. 然后这两天有考试，没有更多进展。
 
 03/29/18
-
 1. 饿了么那面，最近主要的任务就是和东哲找可靠性的原因，虽然我看排期在4月底，但基于现有的数据我们也能做一部分分析，可靠性的问题主要有：部署错误、骑手手机听不到蓝牙信号、APP端的上传时间、骑手快速取单（10s内取单完成）等，具体的占比现在正在分析，这两天就可以给一个大概的数据。
 
 03/22/18
@@ -135,12 +134,6 @@ Prepare to talk:
 1. Check some theoretical results and papers, recursive Bayesian is very similar to particle filtering, which has been repeatedly studied in indoor tracking papers. Also, I found I need to add constraints to reduced the detection delay, which is lack of theoretical support.
 2. I would like to solve offline detection, which is also challenging, considering large scale and shop/rider/phone diversity.
 3. I am working on paper, but it seems I cannot complete even draft version before MobiCom due.
-
-
-
-03/01/18
-
-1. Search for related works with "arrival/departure detection" or "POI association"
 
 
 
