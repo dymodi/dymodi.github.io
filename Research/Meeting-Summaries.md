@@ -9,7 +9,9 @@ author: Yi DING
 
 ## Highlight
 
-* 
+* 关于Rider Routing的问题，考虑下面几个方向：
+  * 还是要遍历所有给定商户，但不以总时间为优化目标，避开TSP，考虑时变，考虑时间约束，优化目标可以考虑为超时率，只要不超时，都是最优解
+  * 还是以时间为优化目标，但不要求遍历所有点
 
 ## Progress and Discussion
 

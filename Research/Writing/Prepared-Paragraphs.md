@@ -60,6 +60,12 @@ under different practical constraints. We then provide (1) an optimal algorithm 
 
 
 
+### Link between Paragraphs and Topics
+
+Along this line, there are two major challenges for solving the XX problem. First, ... Second, ... In the follow- ing section, we will introduce our solutions for the above two challenges, respectively.
+
+
+
 ### Ref.
 
 [1] Wang, F., & Liu, J. (2009). Duty-cycle-aware broadcast in wireless sensor networks. In *IEEE INFOCOM* (pp. 468–476). https://doi.org/10.1109/INFCOM.2009.5061952
