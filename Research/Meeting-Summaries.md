@@ -13,10 +13,11 @@ author: Yi DING
 
 ## Progress and Discussion
 
-07/13/18 To be discussed
+07/12/18
 
-1. 我们要解决的要等待的即时配送问题很向DARP问题，并且被广泛研究，我还在找一些不同之处。
-2. Basic design和advanced design要重构。
+1. 尽量不要提TSP，或者找一个能有最优解的TSP，否则这种话题一出现就会被毙。
+2. 主要还是要把Time-Dependent的特性体现出来，体现在solution里。实在不行可以更改命题，所谓先射箭，再画靶子。
+3. 也可以考虑同时体现时变特性和动态追单特性，但那需要在motivation里体现出动态追单的重要性和难度。
 
 07/06/18
 
@@ -225,6 +226,8 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 
 
 ## Potential Topics
+* Elevator Prediction and Dispatching
+* Cellphone in Shop Model
 * Riders/restaurants Clustering
 * Robots Routing in Delivery
 * Delivery Map based on Time
