@@ -16,6 +16,9 @@ Some classical NP problems are:
 
 * Hill Climbing
 
+### Metaheuristic Search
+
+* Tabu search
 
 
 ### Divide-and-Conquer
@@ -25,6 +28,8 @@ Some classical NP problems are:
 ### Dynamic Programming
 
 Longest-Common-Subsequence (LCS) problem.
+
+
 
 ### Greedy Algorithms
 

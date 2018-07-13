@@ -13,6 +13,11 @@ author: Yi DING
 
 ## Progress and Discussion
 
+07/13/18 To be discussed
+
+1. 我们要解决的要等待的即时配送问题很向DARP问题，并且被广泛研究，我还在找一些不同之处。
+2. Basic design和advanced design要重构。
+
 07/06/18
 
 1. Instant Delivery里的Path Scheduling问题其实是变相的TSP问题，也就是NP问题。我们需要通过对问题加约束来找到多项式复杂度的解，或者去找那些已有的TSP的近似算法。

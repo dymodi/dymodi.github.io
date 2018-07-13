@@ -11,6 +11,12 @@ Since some of the contents are from other papers, please remember to adjust befo
 
 
 
+### Original for Future Paper
+
+One of the major differences of our work compared with DARP related research is that large scale real world experiments are conducted and some practical problems are observed and solved.
+
+
+
 ### Time Dependent Network
 
 [1] We first transform the "duty-cycle-aware broadcast problem" into a shortest path problem in a time-coverage graph. Assume that the network topology and the active/dormant patterns are known, this graph problem is solvable through a centralized dynamic programming algorithm.

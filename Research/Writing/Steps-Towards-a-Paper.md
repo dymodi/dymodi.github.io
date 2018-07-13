@@ -16,7 +16,10 @@ author: Yi DING
 * Scope
   * The problem you want to solve and the solution you provide must be generic, e.g. instant delivery but not food delivery.
   * The experiments and evaluation you did can be only a subset or a special case of you scope, e.g. we test dispatching algorithm on a grid in ELE.ME platform.
+* Innovation
+  * Instead of list several innovations, it will be better to articulate one major difference or innovation.
 * Solution
+  * In stead of manipulate a very complex method with many components and parameters, it will be better to design a simple system with one major innovative part and show that is working.
   * Instead of coming up with brand new solutions, it will be better to import existing solutions.
 * Advanced Design
   - Discover and solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
