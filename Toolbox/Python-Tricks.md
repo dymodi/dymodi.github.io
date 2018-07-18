@@ -102,7 +102,7 @@ plt.ylabel('Undamped')
 plt.show()
 ```
 
-### heatmap for numpy matrix
+### Heatmap for numpy matrix
 Use [matplotlib.pyplot.matshow](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.matshow.html)
 
 ``` python
@@ -113,7 +113,25 @@ plt.matshow(X)
 plt.show()
 ```
 
+### Trace and way point draw on map
+
+Use [gmplot](https://github.com/vgm64/gmplot)
+
+
+``` python
+import gmplot
+gmap = gmplot.GoogleMapPlotter(latitude_center, longitude_center, 16)
+#gmap = gmplot.from_geocode("Shanghai")
+# Trace plot
+gmap.plot(latitude_list, longitude_list, 'blue', edge_width=10)
+# Way point plot
+gmap.scatter(latitude_list, longitude_list, 'blue', marker=True)
+# Write to .html file
+gmap.draw(file_name)
+```
+
 ## Data and Time
+
 Use [datetime](https://docs.python.org/3/library/datetime.html) and [pytz](https://www.saltycrane.com/blog/2009/05/converting-time-zones-datetime-objects-python/)
 
 ``` python

@@ -5,6 +5,82 @@ select * from pub.dmd_tms_waybill_tracking_wide_day
 where dt = get_date(-1) 
 and (is_platform_timeout_compensate_order = '是' or is_tms_timeout_compensate_order = '是')
 
+
+--------------------------------------------------------------------------------------------
+---- 画骑手的轨迹图
+---- 拿到到店位置
+select carrier_driver_id as rider_id, platform_merchant_id as shop_id,
+tracking_id, latitude, longitude, ocurred_time, shipping_state
+from dw.dw_tms_tb_tracking_event
+where dt = get_date(-1) and get_date(ocurred_time) = get_date(-1)
+and carrier_driver_id = 10820633 and shipping_state = 80
+order by carrier_driver_id, ocurred_time
+
+
+--------------------------------------------------------------------------------------------
+---- 区分去程单和回程单
+---- 基本逻辑：来自于骑手对应的商户的单为去程单，来自其他商户的单为返程单
+---- 先建立骑手和商户的对应关系
+drop table if exists temp.temp_yiding_rider_shop_mapping;
+create table temp.temp_yiding_rider_shop_mapping as
+select t01.rider_id, t01.shop_id, t02.grid_id, t03.team_id 
+from (
+	select distinct carrier_driver_id as rider_id, platform_merchant_id as shop_id
+	from dw.dw_tms_tb_tracking_event
+	where dt = '${day}' and get_date(ocurred_time) = '${day}'
+) t01
+join(
+	select shop_id, delivery_grid_id as grid_id
+	from dm.dm_prd_shop_wide
+	where dt = '${day}'
+) t02
+on t01.shop_id = t02.shop_id
+join (
+	select grid_id, team_id
+	from dw.dw_tms_hummerteam_grid_team_mapping
+	where dt = '${day}'
+) t03
+on t02.grid_id = t03.grid_id
+join (
+	select staff_id as rider_id, department_id as team_id
+	from dw.dw_tms_edutuandui_meepo_ehr_staff_department_mapping
+	where dt = '${day}' and position_id=2
+) t04
+on t01.rider_id = t04.rider_id and t03.team_id = t04.team_id;
+
+---- 给tracking_event表里的order打上是否普通单的标记
+---- 先弄一份普通单的tracki_id
+drop table if exists temp.temp_yiding_tracking_order_normal;
+create table temp.temp_yiding_tracking_order_normal as
+select distinct t01.carrier_driver_id as rider_id, t01.platform_merchant_id as shop_id, t01.tracking_id
+from (
+	select * from dw.dw_tms_tb_tracking_event
+	where dt = get_date(-1) and get_date(ocurred_time) = get_date(-1)
+	and carrier_driver_id is not null and carrier_driver_id <> ''	
+) t01
+join (
+	select * from temp.temp_yiding_rider_shop_mapping
+) t02
+on t01.carrier_driver_id = t02.rider_id and t01.platform_merchant_id = t02.shop_id;
+
+---- 然后联tracking_event的表打上是否普通单的标记
+drop table if exists temp.temp_yiding_tracking_order_with_tag;
+create table temp.temp_yiding_tracking_order_with_tag as
+select t01.*, t02.tracking_id as normal_tracking_id, 
+(case when t02.tracking_id is null then 0 else 1 end) as is_normal
+from (
+	select * from dw.dw_tms_tb_tracking_event
+	where dt = get_date(-1) and get_date(ocurred_time) = get_date(-1)
+	and carrier_driver_id is not null and carrier_driver_id <> ''	
+) t01
+full outer join (
+	select * from temp.temp_yiding_tracking_order_normal
+) t02
+on t01.tracking_id = t02.tracking_id;
+
+
+
+
 --------------------------------------------------------------------------------------------
 ---- 还是要从tracking_event表来筛
 drop table if exists temp.temp_yiding_tracking_event;

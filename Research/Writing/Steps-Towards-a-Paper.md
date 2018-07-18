@@ -7,9 +7,11 @@ author: Yi DING
 
 ### 1. Come up with the Idea
 
+* Shoot first, then make the target.
+  * Sometimes we have a good problems and try to find a good solution to it, sometimes we have a good solution and we need to find a *good problem* for it. Or you can call it, 
 * Before talk to others, remember the following checklist:
   * Is this work a simple piling of two or more ideas?
-  * Has this topic been discussed by others? Can you articulate your innovation?
+  * Is this topic already studied by others? Can you articulate your innovation?
 
 ### 2. Discuss with Professor
 
