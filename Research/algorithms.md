@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Algorithms
-date: Nov. 2, 2017
+date: July. 9, 2018
 ---
 
 

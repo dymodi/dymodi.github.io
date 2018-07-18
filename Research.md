@@ -23,10 +23,7 @@ Some work on BLE Beacons.
 
 ## Backup Knowledge
 
-### Algorithms
-[Basic Knowledge](Research/Algorithms/Basics)
-
-[TSP](Research/Algorithms/TSP)
+### [Algorithms](Research/algorithms)
 
 ### [Graph Theory](Research/graphTheory) 
 
