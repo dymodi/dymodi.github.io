@@ -7,15 +7,11 @@ date: June 9, 2017
 
 ### [Literature Surveys](Research/Literature-Survey)
 
-A collection of paper reviews I wrote.
-
 ### Transportation System
 
 [Transportation Datasets](Research/Transportation-System/Transportation-Datasets)
 
 ### Beacons
-
-Some work on BLE Beacons.
 
 [A Industry Implementation of Beacon Localization](Research/Beacon/Beacon-Localization-Industry) 
 
@@ -26,8 +22,6 @@ Some work on BLE Beacons.
 ### [Algorithms](Research/algorithms)
 
 ### [Graph Theory](Research/graphTheory) 
-
-There are many interesting topics in graph theory. I will build this part later.
 
 ## Work Publishing
 [Conferences Info](Research/Paper/Conferences-Info)

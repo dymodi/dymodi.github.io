@@ -72,7 +72,10 @@ ws.cell(row=i,column=j).value = x
 ```
 
 ## Plot 
+[HTML Color Codes](https://htmlcolorcodes.com/)
+
 ### Normal plot
+
 Use [pyplot](https://matplotlib.org/users/pyplot_tutorial.html)
 
 ```python
