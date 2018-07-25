@@ -7,7 +7,12 @@ author: Yi DING
 
 Some of the contents can be found in CLRS's Algorithms book.
 
+### Master Theorem
+
+A good introduction of master theorem can be found [here](https://brilliant.org/wiki/master-theorem/).
+
 ### NP Problems
+
 Some classical NP problems are:
 * Hamiltonian path problem
 * Travelling Salesman Problem (TSP)
