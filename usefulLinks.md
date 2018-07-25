@@ -40,6 +40,8 @@ author: Yi DING
 
 [Start Tutorial](https://www.tensorflow.org/get_started/get_started)
 
+[Colab: An Easy Way to Learn TensorFlow](https://colab.research.google.com/)
+
 ## SQL
 
 [codecademy](https://www.codecademy.com/learn/learn-sql) (Basic SQL concept and operations)
