@@ -7,12 +7,10 @@ author: Yi DING
 
 A perspective of the optimization taxonomy is as follows: (figure from [neos-Guide](https://neos-guide.org/content/optimization-taxonomy))
 
-```
+
 <p align = "center">
 <img src = "figures/optimization-tree.svg"  alt="Optimization Tree">
 </p>
-```
-
 
 ### Rollout Algorithms
 
