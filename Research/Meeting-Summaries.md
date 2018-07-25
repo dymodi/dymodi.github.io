@@ -11,9 +11,17 @@ author: Yi DING
 
 * 关于Rider Routing的问题，考虑下面几个方向：
   * 还是要遍历所有给定商户，但不以总时间为优化目标，避开TSP，考虑时变，考虑时间约束，优化目标可以考虑为超时率，只要不超时，都是最优解
-  * 还是以时间为优化目标，但不要求遍历所有点
+  * 给骑手调度问题加约束，直到不是一个TSP问题
 
 ## Progress and Discussion
+
+07/25/18
+
+1. 从真实数据出发，然后用brute force得到optimal的solution，然后在地图上看看这些optimal的solution有什么特征
+2. Basic Design采用Tabu Search，从一个初始的heuristic（可能是）开始，通过调换相邻两个取单顺序来得到下一个备选的解，然后一直到某个suboptimal。（为什么只考虑调换相邻点呢，可能是因为调换远的点会引起更大的往返代价）
+3. Advanced Design可以考虑采用Rollout Algorithm，算是一种针对discrete optimization的sequential approach，就是只优化眼前一两步，远处的单会受后续贴上来的单的影响。
+
+
 
 07/24/18
 
