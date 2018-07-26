@@ -21,6 +21,7 @@ author: Yi DING
 * Innovation
   * Instead of list several innovations, it will be better to articulate one major difference or innovation.
 * Solution
+  * Sometimes we can prepared the raw data first, uncover the pattern in the raw data and find the corresponding solution.
   * Instead of manipulate a very complex method with many components and parameters, it will be better to design a simple system with one major innovative part and show that is working.
   * Instead of coming up with brand new solutions, it will be better to import existing solutions.
 * Advanced Design
