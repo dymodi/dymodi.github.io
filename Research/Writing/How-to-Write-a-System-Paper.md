@@ -48,4 +48,13 @@ Applications should only be discussed in the Introduction.
 
 ## How to Write the Evaluation
 
-The cases in the evaluation section can be only a subset of the design section.
+Evaluation is not a simple show off of our own system, but a comprehensive test of our system: 
+
+* How it performs compared with baseline and existing work? 
+* How it performs when components varies at different dimensions? (X axes) (Weather, noise, density, ...)
+* How it performs for different indicators? (Y axes) (Error rate, profit, ...)
+* It performs better under what cases? Why?
+* It performs worse under what cases? Why? What inspiration we have for following works?
+
+Also not that the cases in the evaluation section can be only a subset of the design section.
+
