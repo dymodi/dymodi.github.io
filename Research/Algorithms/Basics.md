@@ -17,9 +17,10 @@ Some classical NP problems are:
 * Hamiltonian path problem
 * Travelling Salesman Problem (TSP)
 
-### Heuristic Methods for NP Problems 
+### Heuristic Methods 
 
 * Hill Climbing
+* PSO
 
 ### Metaheuristic Search
 

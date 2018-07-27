@@ -17,6 +17,20 @@ One of the major differences of our work compared with DARP related research is 
 
 
 
+### Unique Challenges Found in Specific System
+
+**Why this problem cannot be solve by existing methods?**
+
+[5] Based on real-world multi-source data, we identify two new challenges for FHV dispatching: ... As a result, the state-of-the-art taxi dispatching techniques cannot be applied to FHV systems.
+
+
+
+### System Work - Introduction
+
+We present the first systematic work to design, implement, and evaluate a carpool service, called coRide, in a large-scale taxicab network intended to reduce total mileage for less gas consumption. -- Desheng, coRide
+
+
+
 ### Time Dependent Network
 
 [1] We first transform the "duty-cycle-aware broadcast problem" into a shortest path problem in a time-coverage graph. Assume that the network topology and the active/dormant patterns are known, this graph problem is solvable through a centralized dynamic programming algorithm.
@@ -75,3 +89,5 @@ Along this line, there are two major challenges for solving the XX problem. Firs
 [3] Zhang, D., He, T., Zhang, F. A. N., Lu, M., Liu, Y., Lee, H., & Son, S. H. (2016). Carpooling Service for Large-Scale Taxicab Networks. *ACM Transactions on Sensor Networks*, *12*(3), 1–35. https://doi.org/10.1145/2897517
 
 [4] Zhang, L., Hu, T., Min, Y., Wu, G., Zhang, J., Feng, P., … Ye, J. (2017). A Taxi Order Dispatch Model based On Combinatorial Optimization. *ACM SIGKDD*, 2151–2159. https://doi.org/10.1145/3097983.3098138
+
+[5] Xie, X., Zhang, F., & Zhang, D. (2018). PrivateHunt : Multi-Source Data-Driven Dispatching in For-Hire. In *ACM Ubicomp* (Vol. 2, pp. 1–26).

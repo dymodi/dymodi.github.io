@@ -58,3 +58,12 @@ Evaluation is not a simple show off of our own system, but a comprehensive test 
 
 Also not that the cases in the evaluation section can be only a subset of the design section.
 
+**Recommended Structure:**
+
+1. Metrics
+2. Baseline Approach
+3. Dimension A (X axes A)
+4. Dimension B (X axes B)
+5. Dimension C (X axes C)
+6. Summary
+
