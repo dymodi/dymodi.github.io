@@ -158,6 +158,32 @@ join (
 ) t02
 on t01.rider_id = t02.rider_id and t01.rn = t02.rn;
 
+---- 整一个位置的表
+drop table temp.temp_yiding_three_order_position_agg;
+create table temp.temp_yiding_three_order_position_agg as
+select t01.*, t02.latitude, t02.longitude
+from (
+	select *
+	from temp.temp_yiding_three_order_agg_filtered
+) t01
+join (
+	select * 
+	from dw_analyst.dw_analyst_yiding_tracking_event_with_tag
+	where dt = get_date(-1) and get_date(ocurred_time) = get_date(-1)
+) t02
+on t01.rider_id = t02.carrier_driver_id and t01.tracking_id = t02.tracking_id
+and t01.shipping_state = t02.shipping_state;
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---------------------------------------------------------------------------------------------------------------
@@ -235,8 +261,6 @@ deliver_at as deliver_at_2,
 (LEAD (deliver_at, 1) OVER (PARTITION by rider_id ORDER BY accept_at, arrive_rst_at)) as deliver_at_3
 from temp.temp_yiding_order_data_event;
 
----- 需要筛的条件：
----- 1 
 
 ---- 把中间参杂了四单五单的情况刨除
 ---- 保证三单的取和送分开，同时去掉空值

@@ -47,6 +47,10 @@ We present the first systematic work to design, implement, and evaluate a carpoo
 
 
 
+### Pros and Cons of Crowdsourcing
+
+
+
 ### Beacon System 
 
 "We build a large scale real world indoor localization system basede on iBeacon protocol. In building this system, we met the following pracitcal problems and address them with novel methods."
