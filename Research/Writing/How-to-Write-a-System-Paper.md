@@ -14,7 +14,7 @@ When writing a research paper, keep the following in mind:
 - The technical depth
 - The potential impact
 
-## How to Write the Title
+## Title
 
 Note the following points:
 
@@ -23,7 +23,7 @@ Note the following points:
 * Title should not be misleading, that is, not include terminology in other fields.
 
 
-## How to Write the Abstract
+## Abstract
 
 Abstract is a short version of Introduction, a tiny version of whole paper.
 
@@ -34,7 +34,7 @@ In an Abstract, we mainly provide the following four pieces of information:
 * Our methods to solve the problems (narrow the gap)
 * Our achievements (performance)
 
-## How to Write the Indroduction
+## Indroduction
 
 Introduction is possibly the most important section of the paper, since reviewers and reads might choose to continue reading or give up after reading the Introduction. Usually we have the following paragraphs in the Introduction:
 
@@ -46,7 +46,40 @@ Introduction is possibly the most important section of the paper, since reviewer
 
 Applications should only be discussed in the Introduction.
 
-## How to Write the Evaluation
+## Motivation / Gap
+
+Motivation section is a quantify of motivation paragraph. 
+
+Related data, figure and statistics.
+
+Note that motivation should be independent of our design.
+
+## Challenges
+
+Related data, figure and statistics.
+
+## Opportunities
+
+Related data, figure and statistics.
+
+## Design / System / Solution
+
+For top conference, like SenSys and MobiCom, the design must be simple and innovative.
+
+For some other conference, like INFOCOM, existing methods can be used, such as XGBoost. 
+
+**Recommended Structure:**
+
+1. Overview
+2. First module
+3. Second module
+
+## Implementation
+
+* Platform
+
+
+## Evaluation
 
 Evaluation is not a simple show off of our own system, but a comprehensive test of our system: 
 
@@ -67,3 +100,6 @@ Also not that the cases in the evaluation section can be only a subset of the de
 5. Dimension C (X axes C)
 6. Summary
 
+
+
+## Related Works
