@@ -7,12 +7,14 @@ author: Yi DING
 
 
 
-When writing a research paper, keep the following in mind:
+When writing a research paper, keep the following in mind (guideline from NSF for proposal writing):
 
 - The importance of the problems addressed
 - The novelty of the proposed solutions
 - The technical depth
 - The potential impact
+
+Also keep in mind that problem is as important as (if not more important than) the solution.
 
 ## Title
 
@@ -48,15 +50,19 @@ Applications should only be discussed in the Introduction.
 
 ## Motivation / Gap
 
-Motivation section is a quantify of motivation paragraph. 
+Motivation section is a quantify of motivation paragraph. The key point is related **data**, **figure** and **statistics**. In the motivation section, usually we answer the following questions:
 
-Related data, figure and statistics.
+* What is the problem we want to solve?
+* Why this problem is important?
+* Why current solution won't work for this problem?
 
 Note that motivation should be independent of our design.
 
 ## Challenges
 
-Related data, figure and statistics.
+In the Challenges section, we highlight the difficulties in solving the problem. It will be more convincing to include related **data**, **figure** and **statistics**. The key part in Challenges is:
+
+* Why this problem is difficult?
 
 ## Opportunities
 
