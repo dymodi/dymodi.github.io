@@ -5,8 +5,16 @@ date: Jan. 19, 2018
 author: Yi DING
 ---
 
+## Contents
+
+[Find path](Find-path)
+
+[Read/write .csv files](Read/write .csv-files)
+
+
 
 ## Find path
+
 Use [os](https://docs.python.org/3/library/os.html)
 
 ``` python
