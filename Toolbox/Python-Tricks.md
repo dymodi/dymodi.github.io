@@ -7,9 +7,15 @@ author: Yi DING
 
 ## Contents
 
-[Find path](Find-path)
+[Find path](#find-path)
 
-[Read/write .csv files](Read/write .csv-files)
+[Read/write .csv files](#readwrite-csv-files)
+
+[Read/write .xlsx files](readwrite-xlsx-files)
+
+[Plot](#plot)
+
+[Date and Time](date-and-time)
 
 
 
@@ -88,10 +94,12 @@ Use [pyplot](https://matplotlib.org/users/pyplot_tutorial.html)
 
 ```python
 import matplotlib.pyplot as plt
+fig = plt.figure()
 plt.plot(x, y1,  color='salmon', markersize=8, label='first curve')
 plt.plot(x, y2,  color='salmon', markersize=8, label='second curve')
-plt.xlabel('xlabel')
-plt.ylabel('ylabel')
+# Label and Title
+plt.xlabel('xlabel',fontsize=20)
+plt.ylabel('ylabel',fontsize=20)
 plt.title('title')
 # Set axis range
 axes = plt.gca()
@@ -104,12 +112,13 @@ plt.subplot(2, 1, 1)
 plt.plot(x1, y1, 'o-')
 plt.title('A tale of 2 subplots')
 plt.ylabel('Damped oscillation')
-
 plt.subplot(2, 1, 2)
 plt.plot(x2, y2, '.-')
 plt.xlabel('time (s)')
 plt.ylabel('Undamped')
-
+# Save Figure
+fig.savefig('test.jpg')
+# Show Figure
 plt.show()
 ```
 
@@ -141,7 +150,7 @@ gmap.scatter(latitude_list, longitude_list, 'blue', marker=True)
 gmap.draw(file_name)
 ```
 
-## Data and Time
+## Date and Time
 
 Use [datetime](https://docs.python.org/3/library/datetime.html) and [pytz](https://www.saltycrane.com/blog/2009/05/converting-time-zones-datetime-objects-python/)
 
