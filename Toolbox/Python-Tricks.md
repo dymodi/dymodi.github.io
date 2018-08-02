@@ -5,18 +5,7 @@ date: Jan. 19, 2018
 author: Yi DING
 ---
 
-## Contents
-
-[Find path](#find-path)
-
-[Read/write .csv files](#readwrite-csv-files)
-
-[Read/write .xlsx files](readwrite-xlsx-files)
-
-[Plot](#plot)
-
-[Date and Time](date-and-time)
-
+[TOC]
 
 
 ## Find path
