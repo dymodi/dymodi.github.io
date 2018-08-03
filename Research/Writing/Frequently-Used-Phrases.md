@@ -9,11 +9,25 @@ author: Yi DING
 
 
 
-## Adj.
+## adj.
 
-Consistent
+consistent
+
+transparent
+
+oriented
 
 
 
-## V.
+## v.
+
+
+
+## n.
+
+deficiencies - disadvantages - shortcomings
+
+scenarios
+
+
 
