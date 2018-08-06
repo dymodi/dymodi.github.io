@@ -40,6 +40,9 @@ author: Yi DING
 ```
 
 ### Tables
+
+[The  way to resize the table](https://tex.stackexchange.com/questions/10863/is-there-a-way-to-slightly-shrink-a-table-including-font-size-to-fit-within-th)
+
 ``` LaTeX
 % A simple Table
 \begin{table}

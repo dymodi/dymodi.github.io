@@ -5,7 +5,27 @@ date: Oct. 09, 2017
 author: Yi DING
 ---
 
-Here we introduce how to make figures, sucha s system overview and evaluation diagrams.
+Here we introduce how to make figures, such as a illustrative figure in introduction, system overview, and evaluation diagrams.
+
+Note that every figure should be infomative. A figure that shows very limited info is not a good figure.
+
+
+
+
+
+## Figure Types
+
+CDF, Flowchart, System Architechure, Framwork, 
+
+
+
+## Illustrive Figure
+
+In Introduction or Motivation, we might need some illustrative figures to show some information.
+
+
+
+
 
 ## Flowchart 
 

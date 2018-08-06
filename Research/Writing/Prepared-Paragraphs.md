@@ -51,6 +51,26 @@ We present the first systematic work to design, implement, and evaluate a carpoo
 
 [6], check urban sensing part.
 
+% Monetary incentives are hard to solve
+
+However, users’ motivation and long-term engagement is still an unsolved question for crowdsourcing \cite{Zheng2014}. Even with monetary incentives, the pricing is a difficult problem to handle. Overpricing would result in heavy financial burden, whereas underpricing could lead to task “starvation” because of unavailability of the workers willing to participate \cite{Singla2013}. 
+
+
+
+% Monetary incentives may lead to cheating
+
+Quality control is one of major issues arise in crowdsourcing \cite{Kittur2013} . It has been widely reported that counterproductive contributions might be bought in by either well-intentioned “eager beavers” \cite{Bernstein2010}, or intentional cheaters \cite{Eickhoff2013}, \ref{Buchholz2011}.
+
+\bibitem{Kittur2013} Kittur, A., Nickerson, J. V., Bernstein, M., Gerber, E., Shaw, A., Zimmerman, J., … Horton, J. (2013). The future of crowd work. *Proceedings of the 2013 Conference on Computer Supported Cooperative Work - CSCW* ’*13*, 1301. https://doi.org/10.1145/2441776.2441923
+
+\bibitem{Bernstein2010} Bernstein, M. S., Little, G., Miller, R. C., Hartmann, B., Ackerman, M. S., Karger, D. R., ... & Panovich, K. (2010, October). Soylent: a word processor with a crowd inside. In *Proceedings of the 23nd annual ACM symposium on User interface software and technology* (pp. 313-322). ACM.
+
+\cite{Eickhoff2013} Eickhoff, Carsten, and Arjen P. de Vries. "Increasing cheat robustness of crowdsourcing tasks." *Information retrieval* 16.2 (2013): 121-137.
+
+\ref{Buchholz2011} Buchholz, Sabine, and Javier Latorre. "Crowdsourcing preference tests, and how to detect cheating." *Twelfth Annual Conference of the International Speech Communication Association*. 2011.
+
+
+
 
 
 ### Beacon System 
@@ -99,3 +119,7 @@ Along this line, there are two major challenges for solving the XX problem. Firs
 [5] Xie, X., Zhang, F., & Zhang, D. (2018). PrivateHunt : Multi-Source Data-Driven Dispatching in For-Hire. In *ACM Ubicomp* (Vol. 2, pp. 1–26).
 
 [6] Zheng, Y., Capra, L., Wolfson, O., & Yang, H. (2014). Urban Computing: Concepts, Methodologies, and Applications. *ACM Transactions on Intelligent Systems and Technology*, *5*(3), 1–55. https://doi.org/10.1145/2629592
+
+\bibitem{Zheng2014} Zheng, Y., Capra, L., Wolfson, O., \& Yang, H. (2014). Urban Computing: Concepts, Methodologies, and Applications. ACM Transactions on Intelligent Systems and Technology, 5(3), 1–55. <https://doi.org/10.1145/2629592>
+
+\bibitem{Singla2013} Singla, A., & Krause, A. (2013). Truthful incentives in crowdsourcing tasks using regret minimization mechanisms. *Proceedings of the 22nd International Conference on World Wide Web - WWW* ’*13*, 1167–1178. https://doi.org/10.1145/2488388.2488490

@@ -17,6 +17,8 @@ transparent
 
 oriented
 
+subtle
+
 
 
 ## v.

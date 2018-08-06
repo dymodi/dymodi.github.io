@@ -14,7 +14,7 @@ When writing a research paper, keep the following in mind (guideline from NSF fo
 - The technical depth
 - The potential impact
 
-Also keep in mind that problem is as important as (if not more important than) the solution.
+Also keep in mind that **problem is as important as** (if not more important than) **the solution**.
 
 ## Title
 
@@ -66,7 +66,9 @@ In the Challenges section, we highlight the difficulties in solving the problem.
 
 ## Opportunities
 
-Related data, figure and statistics.
+The Opportunities section should reveal the golden key, the very subtle angle that we can view and solve the problem, the special observation we found to trigger the following design. Better to be illustrated with related data, figure and statistics. The key point is:
+
+* Why we can solve the problem?
 
 ## Design / System / Solution
 
@@ -106,6 +108,13 @@ Also not that the cases in the evaluation section can be only a subset of the de
 5. Dimension C (X axes C)
 6. Summary
 
-
-
 ## Related Works
+
+Taxnonmy
+
+We need to find a design space that excludes all the other existing works.
+
+
+
+## Figures
+
