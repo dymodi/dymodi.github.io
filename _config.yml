@@ -15,7 +15,7 @@ header_pages:
  - Research.md
  - MachineLearning.md
  - toolbox.md
- - usefulLinks.md
+ - usefulLinks
 
 # Build settings
 # markdown: kramdown    # Used originally
