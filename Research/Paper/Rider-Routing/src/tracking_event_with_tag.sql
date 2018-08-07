@@ -32,8 +32,8 @@ on t01.tracking_id = t03.tracking_id and t02.grid_id = t03.grid_id;
 ---- create table temp.temp_yiding_tracking_order_with_tag as
 ---- carrier_id = 5 表示平台的运力线
 INSERT overwrite TABLE dw_analyst.dw_analyst_yiding_tracking_event_with_tag PARTITION(dt='${day}')
-select t01.id, t01.tracking_id, t01.platform_merchant_id, t01.shipping_state, ,t01.ocurred_time,
-t01.latitude, t01.longitude, t01.carrier_driver_id, t01.station_id, t01.grid_id, t01.knight_id,
+select t01.id, t01.tracking_id, t01.platform_merchant_id, t01.shipping_state, t01.ocurred_time,
+t01.latitude, t01.longitude, t01.carrier_driver_id, t04.team_id as station_id, t04.grid_id, t01.knight_id,
 (case when t02.tracking_id is null then 0 else 1 end) as is_normal
 from (
 	select * from dw.dw_tms_tb_tracking_event
@@ -45,9 +45,25 @@ from (
 full outer join (
 	select * from temp.temp_yiding_tracking_order_normal
 ) t02
-on t01.tracking_id = t02.tracking_id;
----- run_hive(temp_yiding_rider_shop_mapping) 任务结束
+on t01.tracking_id = t02.tracking_id
+join(
+	select * 
+	from dw.dw_tms_tb_shipping_order_carrier
+	where dt = '${day}'
+) t03
+on t01.tracking_id = t03.tracking_id
+join (
+	select grid_id, team_id
+	from dw.dw_tms_hummerteam_grid_team_mapping
+	where dt = '${day}'
+	and is_active = 1
+) t04
+on t03.grid_id = t04.grid_id;
+---- 任务结束
 --------------------------------------------------------------------------------------------
+
+
+
 
 --------------------------------------------------------------------------------------------
 ---- 行程计算
@@ -78,6 +94,10 @@ from (
 where t01.from_latitude is not null;
 
 --------------------------------------------------------------------------------------------
+
+
+
+
 
 ---- 下面是一些额外的操作
 ---- 拿到单多的骑手id

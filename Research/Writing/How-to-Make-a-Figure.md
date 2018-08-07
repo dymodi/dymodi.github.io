@@ -15,7 +15,7 @@ Note that every figure should be infomative. A figure that shows very limited in
 
 ## Figure Types
 
-CDF, Flowchart, System Architechure, Framwork, 
+CDF, Boxplot, Flowchart, System Architechure, Framwork, 
 
 
 
