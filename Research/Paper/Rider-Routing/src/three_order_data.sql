@@ -127,7 +127,7 @@ join (
 on t01.rider_id = t02.rider_id and t01.rn = t02.rn;
 
 ---- 联表取数据 列数据
-drop table temp.temp_yiding_three_order_agg_filtered;
+drop table if exists temp.temp_yiding_three_order_agg_filtered;
 create table temp.temp_yiding_three_order_agg_filtered as
 select t01.* 
 from (
@@ -138,8 +138,21 @@ join (
 ) t02
 on t01.rider_id = t02.rider_id and t01.rn = t02.rn;
 
+---- 整一个有商户id和grid id的表
+drop table if exists temp.temp_yiding_three_order_agg_with_grid;
+create table temp.temp_yiding_three_order_agg_with_grid as
+select t01.*, t02.platform_merchant_id as shop_id, t02.grid_id
+from (
+	select * from temp.temp_yiding_three_order_agg_filtered
+) t01
+join (
+	select * from dw_analyst.dw_analyst_yiding_tracking_event_with_tag
+	where dt = '${day}'
+) t02
+on t01.tracking_id = t02.tracking_id;
+
 ---- 整一个位置的表
-drop table temp.temp_yiding_three_order_position_agg;
+drop table if exists temp.temp_yiding_three_order_position_agg;
 create table temp.temp_yiding_three_order_position_agg as
 select t01.*, t02.latitude, t02.longitude,  t03.shop_latitude, t03.shop_longitude
 from (
@@ -188,9 +201,4 @@ join (
 ) t04
 on t01.tracking_id_3 = t04.tracking_id;
 
-
-
 ---------------------------------------------------------------------------------------------------------------
-
-
-
