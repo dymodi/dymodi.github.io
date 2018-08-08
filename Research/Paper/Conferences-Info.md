@@ -16,7 +16,7 @@ author: Yi DING
 | May 15              | ACM IMWUT, Issue 3      |
 | June 5              | IEEE ICDM               |
 | June 12             | ACM SIGSPATIAL          |
-| June 20             | ACM ICCPS               |
+| June 20             | ACM/IEEE ICCPS          |
 | July 31             | IEEE INFOCOM            |
 | August 7            | ACM MobiCom, Summer DDL |
 | August 8            | IEEE ICBD               |
