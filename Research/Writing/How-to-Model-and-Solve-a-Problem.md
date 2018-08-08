@@ -11,13 +11,24 @@ We have following models that are familiar:
 
 * Machine Learning
   * CNN
+  * RNN
 * Graph Theory
   * TSP
+  * Matching
+  * Network Flow
 * Optimization
   * MIP
+  * QP
 * Control Theory
   * Model Predictive Control
 
+
+
 Other auxiliary tools:
 
+* Algorithms
+  * Greedy
+  * Dynamic Programming
 * Statistics
+  * Normal Distribution
+  * Hypothesis Test
