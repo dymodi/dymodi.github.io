@@ -24,7 +24,9 @@ author: Yi DING
 * Motivation
   * Motivation must be shown with statistics and simple stories.
 * Solution
-  * The key point of solutions must be corresponds to the key problem in motivation.
+  * The key point of solutions must be corresponds to the key points in motivation section.
+  * The problems discussed in the challenge section must be solved.
+  * The golden key found in opportunities section must be utilized in the solution.
   * Sometimes we can prepared the raw data first, uncover the pattern in the raw data and find the corresponding solution.
   * Another advantage of preparing data first is that we can immediately try our new idea on the data if we have new thoughts.
   * Instead of manipulate a very complex method with many components and parameters, it will be better to design a simple system with one major innovative part and show that is working.
