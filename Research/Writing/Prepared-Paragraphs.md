@@ -9,7 +9,7 @@ In this post, I summarize some prepared parts that can be used in future papers.
 
 Since some of the contents are from other papers, please remember to adjust before referring.
 
-
+[TOC]
 
 ### Original for Future Paper
 
@@ -29,6 +29,8 @@ One of the major differences of our work compared with DARP related research is 
 
 We present the first systematic work to design, implement, and evaluate a carpool service, called coRide, in a large-scale taxicab network intended to reduce total mileage for less gas consumption. -- Desheng, coRide
 
+In this paper, we propose an indoor localization system called “Guoguo”, and further improve its performance in terms of coverage, accuracy, update rate, and sound pollution.
+
 
 
 ### Time Dependent Network
@@ -47,6 +49,14 @@ We present the first systematic work to design, implement, and evaluate a carpoo
 
 
 
+### Pros and Cons of Real BLE Beacons
+
+(Indoor localization via calibration) is time consuming, labor intensive, vulnerable to environmental changes, and the process requires certain pedigree on the surveyor that may deem the fingerprinting techniques impractical to be deployed over large areas (e.g., shoppingmalls, multi-storey offices/residences, etc.) 
+-- Hossain, A. K. M. M., & Soh, W. (2015). A survey of calibration-free indoor positioning systems. Computer Communications, 66, 1–13
+
+
+
+
 ### Pros and Cons of Crowdsourcing
 
 [6], check urban sensing part.
@@ -55,13 +65,11 @@ We present the first systematic work to design, implement, and evaluate a carpoo
 
 However, users’ motivation and long-term engagement is still an unsolved question for crowdsourcing \cite{Zheng2014}. Even with monetary incentives, the pricing is a difficult problem to handle. Overpricing would result in heavy financial burden, whereas underpricing could lead to task “starvation” because of unavailability of the workers willing to participate \cite{Singla2013}. 
 
-
-
 % Monetary incentives may lead to cheating
 
 Quality control is one of major issues arise in crowdsourcing \cite{Kittur2013} . It has been widely reported that counterproductive contributions might be bought in by either well-intentioned “eager beavers” \cite{Bernstein2010}, or intentional cheaters \cite{Eickhoff2013}, \ref{Buchholz2011}.
 
-\bibitem{Kittur2013} Kittur, A., Nickerson, J. V., Bernstein, M., Gerber, E., Shaw, A., Zimmerman, J., … Horton, J. (2013). The future of crowd work. *Proceedings of the 2013 Conference on Computer Supported Cooperative Work - CSCW* ’*13*, 1301. https://doi.org/10.1145/2441776.2441923
+\bibitem{Kittur2013} Kittur, A., Nickerson, J. V., Bernstein, M., Gerber, E., Shaw, A., Zimmerman, J., … Horton, J. (2013). The future of crowd work. *Proceedings of the 2013 Conference on Computer Supported Cooperative Work - CSCW* ’*13*, 1301.
 
 \bibitem{Bernstein2010} Bernstein, M. S., Little, G., Miller, R. C., Hartmann, B., Ackerman, M. S., Karger, D. R., ... & Panovich, K. (2010, October). Soylent: a word processor with a crowd inside. In *Proceedings of the 23nd annual ACM symposium on User interface software and technology* (pp. 313-322). ACM.
 
