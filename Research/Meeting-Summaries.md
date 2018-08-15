@@ -11,6 +11,7 @@ author: Yi DING
 
 * 从系统的角度考虑问题，不要陷入算法和理论的具体方向，那不是长处，也不是重点
 * Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划
+* 不限于Beacon，看能不能再想些其他的topic
 
 ## Progress and Discussion
 
@@ -22,7 +23,7 @@ author: Yi DING
 
 3. 同样的，related works的分类方法还需要在考虑；
 
-4. challenges里的POI bind的问题这样陈述：我们已知一个POI的经纬度，然后根据相关数据推测某个手机是否可以和这个POI绑定（和IODetector类似）。
+4. challenges里的POI bind的问题这样陈述：我们已知一个POI的经纬度，然后根据相关数推测某个手机是否可以和这个POI绑定（和IODetector类似）。
 
 5. 具体的design和实现暂时不用管，可以用他们正在做的这套系统
 
@@ -275,8 +276,9 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 
 
 ## Potential Topics
+* Virtual Beacon
+* Detecting XX (Some problems) using Instant Delivery Data
 * Elevator Prediction and Dispatching
-* Cellphone in Shop Model
 * Riders/restaurants Clustering
 * Robots Routing in Delivery
 * Delivery Map based on Time

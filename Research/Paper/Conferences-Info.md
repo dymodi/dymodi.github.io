@@ -20,6 +20,7 @@ author: Yi DING
 | June 5              | IEEE ICDM                   |
 | June 12             | ACM SIGSPATIAL              |
 | June 20             | ACM/IEEE ICCPS              |
+| July 19             | ACM SIGMOD, 1st cycle       |
 | **July 31**         | **IEEE INFOCOM**            |
 | **August 7**        | **ACM MobiCom, Summer DDL** |
 | August 8            | IEEE ICBD                   |
@@ -27,6 +28,7 @@ author: Yi DING
 | September 5         | AAAI                        |
 | October 15          | IEEE ICDE, 2nd round        |
 | October 17          | IoTDI                       |
+| October 25          | ACM SIGMOD, 2nd cycle       |
 | November 15         | ACM IMWUT, Issue 1          |
 | **December 1**      | **ACM MobiSys**             |
 
@@ -73,6 +75,8 @@ author: Yi DING
 [IJCAI: International Joint Conferences on Artificial Intelligence](https://ijcai.org/)
 
 [VLDB: International Conference on Very Large Data Bases](https://www.vldb.org/2019/)
+
+[SIGMOD: ACM International Conference on Management of Data](http://sigmod2019.org/sigmodcfp)
 
 
 
