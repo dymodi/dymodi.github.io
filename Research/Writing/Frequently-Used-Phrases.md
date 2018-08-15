@@ -19,6 +19,8 @@ oriented
 
 subtle
 
+a myriad of - variety of 
+
 
 
 ## v.

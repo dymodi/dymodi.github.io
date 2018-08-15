@@ -10,9 +10,27 @@ author: Yi DING
 ## Highlight
 
 * 从系统的角度考虑问题，不要陷入算法和理论的具体方向，那不是长处，也不是重点
-* solution要和motivation对应起来
+* Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划
 
 ## Progress and Discussion
+
+08/14/18
+
+1. 关于Virtual Beacon的项目，Replace Beacon的方向比New Anchor的方向更好。
+
+2. Replace Beacon的motivation中关于calibration free的内容不用提；
+
+3. 同样的，related works的分类方法还需要在考虑；
+
+4. challenges里的POI bind的问题这样陈述：我们已知一个POI的经纬度，然后根据相关数据推测某个手机是否可以和这个POI绑定（和IODetector类似）。
+
+5. 具体的design和实现暂时不用管，可以用他们正在做的这套系统
+
+6. 关于time-dependent那个项目，老板还是觉得motivation很好，但还是需要一个好的角度，具体来说，就是waiting time是instant delivery有别于taxi transport的一个重要特点，基于这个特点，我们能想到什么新问题，可以用新的方法来解决，不局限于路径规划。
+
+7. crowd delivery的项目就不用跟饿了么结合了，自己改改投个一般的会议就行了，不要浪费太多精力。
+
+   
 
 08/08/18
 
