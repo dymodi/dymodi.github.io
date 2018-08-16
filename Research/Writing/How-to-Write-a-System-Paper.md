@@ -66,7 +66,11 @@ In the Challenges section, we highlight the difficulties in solving the problem.
 
 ## Opportunities
 
-The Opportunities section should reveal the golden key, the very subtle angle that we can view and solve the problem, the special observation we found to trigger the following design. Better to be illustrated with related data, figure and statistics. The key point is:
+The Opportunities section should reveal the golden key, the very subtle angle that we can view and solve the problem, the special observation we found to trigger the following design. 
+
+Better to be unique of this system/problem, compare with related problems that have been studied.
+
+Better to be illustrated with related data, figure and statistics. The key point is:
 
 * Why we can solve the problem?
 

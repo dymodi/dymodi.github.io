@@ -10,6 +10,7 @@ author: Yi DING
 We have following models that are familiar:
 
 * Machine Learning
+  * Bayesian Estimation
   * CNN
   * RNN
 * Graph Theory
@@ -29,6 +30,7 @@ Other auxiliary tools:
 * Algorithms
   * Greedy
   * Dynamic Programming
+  * Tabu Search
 * Statistics
   * Normal Distribution
   * Hypothesis Test
