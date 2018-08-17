@@ -49,6 +49,12 @@ Along this line, there are two major challenges for solving the XX problem. Firs
 
 ## Specific Contents
 
+### Reinforcement Learning
+
+Reinforcement learning algorithms balance exploration and exploitation. Exploration is trying different things to see if they are in face better than what has been tried before. Exploitation is trying the things that have worked best in the past.  
+
+Standard supervised learning algorithms don't perform this balance. They generally are purely exploitative. (Bayesian algorithms implicitly balance exploration and exploitation by integrating over the posterior.)
+
 ### Time Dependent Network
 
 [1] We first transform the "duty-cycle-aware broadcast problem" into a shortest path problem in a time-coverage graph. Assume that the network topology and the active/dormant patterns are known, this graph problem is solvable through a centralized dynamic programming algorithm.

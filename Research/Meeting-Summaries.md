@@ -15,6 +15,11 @@ author: Yi DING
 
 ## Progress and Discussion
 
+08/17/18
+
+1. Instant delivery 中waiting time的问题考虑不要跟time dependen扯上关系，因为理论上无论是控制还是图，其实解决方法都是把它进行预测然后转换成time invariant的问题去做；
+2. 不过 waiting time 本身可以作为一个话题来讨论，why，how？
+
 08/14/18
 
 1. 关于Virtual Beacon的项目，Replace Beacon的方向比New Anchor的方向更好。
@@ -274,8 +279,10 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 1. In future deployment, the transmission power will be reduced so that it can only be heared within the shop.
 2. Based on 1. each beacon data can match to a POI. What we care is not multiple beacons heared at the same time, but the time difference between each 
 
-
 ## Potential Topics
+
+Find topics from DAAG (AI Interst Group) and seek for coorporation.
+
 * Virtual Beacon
 * Detecting XX (Some problems) using Instant Delivery Data
 * Elevator Prediction and Dispatching

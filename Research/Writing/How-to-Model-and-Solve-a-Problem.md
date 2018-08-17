@@ -11,6 +11,7 @@ We have following models that are familiar:
 
 * Machine Learning
   * Bayesian Estimation
+  * Reinforcement Learning
   * CNN
   * RNN
 * Graph Theory
@@ -22,6 +23,7 @@ We have following models that are familiar:
   * QP
 * Control Theory
   * Model Predictive Control
+  * Iterative Learning Control
 
 
 
