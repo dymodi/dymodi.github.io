@@ -11,17 +11,24 @@ Here we reply to the weaknesses indicated by the reviewers from SenSys.
 
 Strengths:
 
-1. Using public transport to delivery package with time guarantee is interesting.  
+1. <span style="color:blue">Using public transport to delivery package with time guarantee is interesting. </span>
 2. Reasonable theoretical analysis is provided.
 
 Weaknesses:
 
 1. No real supporting example applications. 
-   1. Hard to implemente such a large system in real world.
+
+   Re: Hard to implemente such a large system in real world.
+
 2. Some important design considerations and assumptions appear to be not reasonable or unrealistic. 
+
+   1. In Section 2.3, the authors argue “a detour is needed in current crowd delivery designs” and claim that “the detour can be eliminate by delivering the package via public transport and picking up from a station instead of from the front door of the house.” The detour is eliminated in hitchhiking delivery because the users are required to change the delivery address from home to the station, which indeed increases inconvenience to the users. The detour problem is avoided instead of being solved. A detour is inevitable if we don't require the users change delivery address. Hence, the claimed benefit of hitchhiking is not reasonable. Actually, I think using public transport as a new way to accomplish crowd delivery is good enough to motivate this work. The authors should not overclaim the advantage of doing so. 
+
 3. Limited technical novelty. 
+
 4. Relatively weak relevance to the scope of interest of SenSys.
-   1. Submit to UbiComp
+
+   Re: Submit to UbiComp
 
 
 
