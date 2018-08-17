@@ -42,7 +42,8 @@ ICBD: IEEE International Conference on Big Data
 ICDM: IEEE International Conference on Data Mining
 
 AAAI: Association for the Advancement of Artificial Intelligence
-AAAI似乎以提新算法和解决新问题为主，不需要构建系统，但需要问题的规范formulation，和何老师做系统的思路是不同的，后续和饿了么合作除物流外其他的话题时可以考虑投AAAI。
+
+* AAAI似乎以提新算法和解决新问题为主，不需要构建系统，但需要问题的规范formulation，和何老师做系统的思路是不同的，后续和饿了么合作除物流外其他的话题时可以考虑投AAAI。
 
 ICDE:  IEEE International Conference on Data Engineering
 

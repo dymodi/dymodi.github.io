@@ -9,12 +9,15 @@ author: Yi DING
 
 | Submission Deadline | Proceeding                  |
 | ------------------- | --------------------------- |
+| January 12          | IEEE ICDCS                  |
+| February 9          | ICML                        |
 | February 11         | ACM SIGKDD                  |
 | February 15         | ACM IMWUT, Issue 2          |
 | February 25         | IJCAI                       |
 | **February 28**     | **ACM MobiCom, Winter DDL** |
 | March 1             | VLDB                        |
 | **April 8**         | **ACM SenSys**              |
+| April 19            | ACM CSCW                    |
 | May 15              | ACM IMWUT, Issue 3          |
 | June 1              | IEEE ICDE, 1st round        |
 | June 5              | IEEE ICDM                   |
@@ -44,6 +47,8 @@ author: Yi DING
 
 [INFOCOM: IEEE International Conference on Computer Communications](IEEE International Conference on Computer Communications)
 
+[ICDCS: IEEE International Conference on Distributed Computing Systems](http://theory.utdallas.edu/ICDCS2019/)
+
 
 
 ## Ubiquitous Computing / Cyber Physical System
@@ -57,6 +62,8 @@ author: Yi DING
 [ICCPS: ACM/IEEE International Conference on Cyber-Physical Systems](http://iccps.acm.org/)
 
 [IoTDI: ACM/IEEE International Conference on Internet of Things Design and Implementation](http://conferences.computer.org/iotDI/2019/)
+
+[CSCW: ACM Conference on Computer-Supported Cooperative Work and Social Computing](http://cscw.acm.org/)
 
 
 
@@ -77,6 +84,8 @@ author: Yi DING
 [VLDB: International Conference on Very Large Data Bases](https://www.vldb.org/2019/)
 
 [SIGMOD: ACM International Conference on Management of Data](http://sigmod2019.org/sigmodcfp)
+
+[ICML: International Conference on Machine Learning](https://icml.cc/)
 
 
 
