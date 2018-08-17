@@ -11,7 +11,8 @@ Here we reply to the weaknesses indicated by the reviewers from SenSys.
 
 Strengths:
 
-1. <span style="color:blue">Using public transport to delivery package with time guarantee is interesting. </span>
+1. <span style="background-color:blue">Using public transport to delivery package with time guarantee is interesting.</span>
+
 2. Reasonable theoretical analysis is provided.
 
 Weaknesses:
