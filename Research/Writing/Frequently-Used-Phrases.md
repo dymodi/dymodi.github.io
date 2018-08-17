@@ -11,6 +11,8 @@ author: Yi DING
 
 ## adj.
 
+unprecedented
+
 consistent
 
 transparent

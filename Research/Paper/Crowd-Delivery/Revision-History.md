@@ -11,12 +11,13 @@ Here we reply to the weaknesses indicated by the reviewers from SenSys.
 
 ### Revision guidelines
 
-1. Keep focusing on public transport and make it as an innovation.
-2. Keep the consideration of time constraints.
-3. Keep large scale simulation and small scale in-field experiment.
-4. Find and compare with some well-known baslines.
-5. Remove the overclaim about the detour, focus on the **public transport**
-6. Explain how to resolve the "station to door" problem.
+1. Keep the scenario since nobody argue it's inappropriate.
+2. Keep focusing on public transport and make it as an innovation.
+3. Keep the consideration of time constraints.
+4. Keep large scale simulation and small scale in-field experiment.
+5. Find and compare with some well-known baslines.
+6. Remove the overclaim about the detour, focus on the **public transport**
+7. Explain how to resolve the "station to door" problem.
 
 
 

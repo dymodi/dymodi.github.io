@@ -1,11 +1,17 @@
 ---
 layout: post
-title: Meeting Summary
+title: Research Handbook
 date: Sept. 19, 2017
 author: Yi DING
 ---
 
-# Meeting Summary
+# Research Handbook
+
+## August Priorities
+* Time-depdent rider routing
+* Crowd delivery
+* Virtual beacon
+
 
 ## Highlight
 
@@ -15,10 +21,10 @@ author: Yi DING
 
 ## Progress and Discussion
 
-08/17/18
+08/20/18
 
 1. Instant delivery 中waiting time的问题考虑不要跟time dependen扯上关系，因为理论上无论是控制还是图，其实解决方法都是把它进行预测然后转换成time invariant的问题去做；
-2. 不过 waiting time 本身可以作为一个话题来讨论，why，how？
+2. 讨论新版本的time-dependent rider routing
 
 08/14/18
 
