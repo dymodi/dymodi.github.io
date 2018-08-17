@@ -7,11 +7,26 @@ author: Yi DING
 
 Here we reply to the weaknesses indicated by the reviewers from SenSys.
 
+
+
+### Revision guidelines
+
+1. Keep focusing on public transport and make it as an innovation.
+2. Keep the consideration of time constraints.
+3. Keep large scale simulation and small scale in-field experiment.
+4. Find and compare with some well-known baslines.
+5. Remove the overclaim about the detour, focus on the **public transport**
+6. Explain how to resolve the "station to door" problem.
+
+
+
+### Comments details
+
 **Reviewer A, RevExp 2, OveMer 1**
 
 Strengths:
 
-1. <span style="background-color:blue">Using public transport to delivery package with time guarantee is interesting.</span>
+1. Using public transport to delivery package with time guarantee is interesting.
 
 2. Reasonable theoretical analysis is provided.
 
@@ -25,11 +40,13 @@ Weaknesses:
 
    1. In Section 2.3, the authors argue “a detour is needed in current crowd delivery designs” and claim that “the detour can be eliminate by delivering the package via public transport and picking up from a station instead of from the front door of the house.” The detour is eliminated in hitchhiking delivery because the users are required to change the delivery address from home to the station, which indeed increases inconvenience to the users. The detour problem is avoided instead of being solved. A detour is inevitable if we don't require the users change delivery address. Hence, the claimed benefit of hitchhiking is not reasonable. Actually, I think using public transport as a new way to accomplish crowd delivery is good enough to motivate this work. The authors should not overclaim the advantage of doing so. 
 
+      Re:  1. Remove the overclaim about the detour, focus on the **public transport**
+      	2. Explain how to resolve the "station to door" problem.
+
 3. Limited technical novelty. 
 
 4. Relatively weak relevance to the scope of interest of SenSys.
 
-   Re: Submit to UbiComp
 
 
 
