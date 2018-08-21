@@ -20,12 +20,15 @@ Here we reply to the weaknesses indicated by the reviewers from SenSys.
 INTRODUCTION
 
 	Keep the scenario since nobody argue it's inappropriate.
+	
 	Keep focusing on public transport and make it as an innovation. (R1-Q1, R2-Q0, )
+	
 	Keep the consideration of time constraints.
 
 MOTIVATION
 
 	Add explanation or hypothesis on the obervation of trans and non-trans trips. (R2-Q4-1)
+	
 	Remove the overclaim about the detour, focus on the public transport. (R1-Q2-1)
 
 HOW HITCHHIKING DELIVERY WORKS
@@ -36,7 +39,8 @@ DELIVERY TIME ESTIMATION
 
 	Clearer mathematical notation. (R2-Q3-3)
 	
-	Add discussion on the amount of needed historical data and how long the estimation takes. Discuss the situation where participate rate vairies. (R1-Q3-2)
+	Add discussion on the amount of needed historical data and how long the estimation takes. 
+	Discuss the situation where participate rate vairies. (R1-Q3-2)
 	
 	Reconsider the setting of parcipating rate. (R1-Q3-5)
 	
@@ -54,11 +58,13 @@ ROUTING WITH CONSTRAINTS
 	
 	Remove the specific content on MATLAB nad intlinprog(). (R1-Q3-1)
 	
-	Add more clear explanation of the dispatching mechanism, especially why we design the route when courier comes. (R1-Q3-3)
+	Add more clear explanation of the dispatching mechanism, 
+	especially why we design the route when courier comes. (R1-Q3-3)
 	
 	Add the complexity analysis of the online dispatching algorithm. (R1-Q3-4)
 	
-	Add more discussion and justification on the Pre parameter. Or we can find a way to skip the discussion on Pre. (R2-Q1-3, R2-Q3-2) 
+	Add more discussion and justification on the Pre parameter. 
+	Or we can find a way to skip the discussion on Pre. (R2-Q1-3, R2-Q3-2) 
 	
 	Change the price rate to variable and check the performance in the evaluation section. (R2-Q1-2)
 	
@@ -82,7 +88,7 @@ PERFORMANCE EVALUATION
 	
 	Add more contents on the transfer and non-transfer comparision. (R2-Q3-5)
 	
-	If we cannot redo the in-field experiments, consider changing the way to describe the experiment. (R3-Q1-1)
+	If we cannot redo the in-field experiments, consider changing the description of the experiment. (R3-Q1-1)
 
 RELATED WORK
 
@@ -90,7 +96,8 @@ RELATED WORK
 
 Typos and ambiguous presentations
 
-	For example, there is a symbol “a” in the example in Section 5.2. But I cannot find "a" in the corresponding figure (Figure 9). 
+	For example, there is a symbol “a” in the example in Section 5.2. 
+	But I cannot find "a" in the corresponding figure (Figure 9). 
 	
 	There is a typo of the first sentence in Section 4.2, the symbol “tR^i” is not defined.
 	
