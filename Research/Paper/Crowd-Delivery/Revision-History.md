@@ -88,7 +88,7 @@ PERFORMANCE EVALUATION
 	
 	Add more contents on the transfer and non-transfer comparision. (R2-Q3-5)
 	
-	If we cannot redo the in-field experiments, consider changing the description of the experiment. (R3-Q1-1)
+	If we cannot redo the in-field experiments, consider changing the description of it. (R3-Q1-1)
 
 RELATED WORK
 

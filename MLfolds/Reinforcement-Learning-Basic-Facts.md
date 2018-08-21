@@ -11,8 +11,6 @@ This is a post that summarizes some basic facts on reinforcement learning. The m
 ## What problems can be solved by RL
 In my opinion, the problems that have **control** kernel will be good to solve with RL methods, such as autonomous driving.
 
-
-
 ## Basic Concepts (Lecture 1)
 
 Reinforcement Learning (RL):
@@ -23,7 +21,7 @@ Deep Learning:
 * Usually refers to multi-layer neural network.
 * Provide **end to end** learning (not manually pipeline).
 
-Characteristics:
+Characteristics of RL:
 * No direct supervision.
 * Actions have consequences.
 * Attempting, try and gather errors.
@@ -64,11 +62,7 @@ While, imitation learning is also valid in practice based on some "stable contro
 * Humans can learn autonomously; can our machines do the same?
 
 **Comments:**
-It seems that the RL problem is highly like a **control** problem where we have a "time step" and a "feedback" from outputs of the controlled system.
-
-That is, optimal control is a kind of "model-based reinforcement learning".
-
-Also note that the state and action here are the same as $$x_t$$ and $$u_t$$ in optimal control.
+It seems that the RL problem is highly like a **control** problem where we have a "time step" and a "feedback" from outputs of the controlled system. That is, optimal control is a kind of "model-based reinforcement learning". Also note that the state and action here are the same as $$x_t$$ and $$u_t$$ in optimal control.
 
 ## Optimal Control, Trajectory Optimization, and Planning (Lecture 3)
 
@@ -92,7 +86,7 @@ Note the difference of optimization variables in the above two methods.
 
 LQR: Linear dynamic, quadratic cost.
 
-An old blog of my on LQR can be found [here](https://blog.csdn.net/dymodi/article/details/46303633) (in Chinese).
+An old blog of mine on LQR can be found [here](https://blog.csdn.net/dymodi/article/details/46303633) (in Chinese).
 
 $$\min_{\textbf{u}_1,...,\textbf{u}_T} c(\textbf{x}_1,\textbf{u}_1)+c(f(\textbf{x}_1,\textbf{u}_1),\textbf{u}_2)+...+c(f(f(...)...),\textbf{u}_T)$$
 
@@ -100,7 +94,7 @@ $$f(\textbf{x}_t,\textbf{u}_t)=\textbf{F}_t\begin{bmatrix} \textbf{x}_t \\ \text
 
 $$c(\textbf{x}_t,\textbf{u}_t)=\frac12 \begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}^T\textbf{C}_t\begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}+\begin{bmatrix} \textbf{x}_t \\ \textbf{u}_t \end{bmatrix}^T\textbf c_t$$
 
-Base case: we solve for $$\textbf{u}_t$$only. Let the previous term to be a constant and let the derivation to be zero, we have:
+Base case: we solve for $$\textbf{u}_t$$ only. Let the previous term to be a constant and let the derivation to be zero, we have:
 
 $$\textbf{u}_t=\textbf{K}_t\textbf{x}_t+\textbf{k}_t$$
 
