@@ -56,6 +56,8 @@ Motivation section is a quantify of motivation paragraph. The key point is relat
 * Why this problem is important?
 * Why current solution won't work for this problem?
 
+Motivation usually comes with observation, and observation will be bettern come with explanation or hypothesis.
+
 Note that motivation should be independent of our design.
 
 ## Challenges

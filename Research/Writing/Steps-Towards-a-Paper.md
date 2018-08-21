@@ -13,6 +13,7 @@ author: Yi DING
 * Before talk to others, remember the following checklist:
   * Is this work a simple piling of two or more ideas?
   * Is this topic already studied by others? Can you articulate your innovation?
+  * Have you  give thorough consideration and dig deep into the problem?
 
 ### 2. Discuss with Professor
 

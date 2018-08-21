@@ -95,6 +95,10 @@ Use [pyplot](https://matplotlib.org/users/pyplot_tutorial.html)
 
 ```python
 import matplotlib.pyplot as plt
+# Save fig setting (avoid being cut)
+from matplotlib import rcParams
+rcParams.update({'figure.autolayout': True})
+
 fig = plt.figure()
 plt.plot(x, y1,  color='salmon', markersize=8, label='first curve')
 plt.plot(x, y2,  color='salmon', markersize=8, label='second curve')
@@ -118,7 +122,7 @@ plt.plot(x2, y2, '.-')
 plt.xlabel('time (s)')
 plt.ylabel('Undamped')
 # Save Figure
-fig.savefig('test.jpg')
+fig.savefig('test.jpg',bbox_inches="tight")
 # Show Figure
 plt.show()
 

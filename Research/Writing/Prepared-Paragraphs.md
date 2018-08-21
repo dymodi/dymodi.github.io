@@ -25,6 +25,8 @@ Propose a simple yet accurate representation of practical instant delivery syste
 
 This is the first in-depth work to investigate the effect of long preparing-time at the rider side in the delivery system. A novel XXX is proposed …
 
+We advance the state-of-the-art approaches in this direction by considering the key difference ...
+
 
 ### Challenges  - Uniqueness of the specific system
 

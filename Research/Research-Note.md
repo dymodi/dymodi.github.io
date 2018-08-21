@@ -1,16 +1,20 @@
 ---
 layout: post
-title: Research Handbook
+title: Research Note
 date: Sept. 19, 2017
 author: Yi DING
 ---
 
-# Research Handbook
+# Research Note
 
 ## August Priorities
 * Time-depdent rider routing
+  * 跟DZG聊
+  * 挖掘RL的特点和优势
 * Crowd delivery
+  * 初步改，准备投11月的IMWUT
 * Virtual beacon
+  * 了解季芸那面的进度
 
 
 ## Highlight
@@ -21,10 +25,12 @@ author: Yi DING
 
 ## Progress and Discussion
 
-08/20/18
+08/21/18
 
 1. Instant delivery 中waiting time的问题考虑不要跟time dependen扯上关系，因为理论上无论是控制还是图，其实解决方法都是把它进行预测然后转换成time invariant的问题去做；
-2. 讨论新版本的time-dependent rider routing
+2. 何老板讨论了新版本的time-dependent rider routing，有下面几个发现：
+   1. 如果把创新点完全落在waitting time estimation上，可能跟DZG作出餐时间预估的方向有冲突，需要跟他交流；
+   2. 如果要用RL作解决方法，需要讲清楚原因。因为现有的机器学习的方法其实已经是有很多实时的特征在里面，你要怎么强调出RL的特点，这个需要
 
 08/14/18
 
@@ -226,7 +232,6 @@ Prepare to talk:
         2. Travelling and staying time estimation using boosting.
         3. Rider behavior prediction using bayesian.
 
-    
 12/18/17
 1. Eagle paper outline_1 is denied. We should not limit ourselves within the "offline data gathering" topic. We should have a more broad topic: something like "urban mobility monitoring"
 2. The design space taxonomy has two problems: (1) Not balance. The split should be something like "black and white", but not like "others work and my work". (2) There are overlaps in the spliting: methods for Wi-Fi can be used for BLE.
