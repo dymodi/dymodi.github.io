@@ -12,17 +12,21 @@ Here we reply to the weaknesses indicated by the reviewers from SenSys.
 ### Revision guidelines
 
 ? ? ? ? ?
+
 	Explain how to resolve the "station to door" problem. (R1-Q2-1)
-	Add more about " mobility patterns for the delivery purpose" since it is listed in the 3rd contribution.
+	Add more about "mobility patterns for the delivery purpose" since it is listed in the 3rd contribution.
+
 
 INTRODUCTION
+
 	Keep the scenario since nobody argue it's inappropriate.
 	Keep focusing on public transport and make it as an innovation. (R1-Q1, R2-Q0, )
 	Keep the consideration of time constraints.
 
 MOTIVATION
+
 	Add explanation or hypothesis on the obervation of trans and non-trans trips. (R2-Q4-1)
-	Remove the overclaim about the detour, focus on the **public transport**. (R1-Q2-1)
+	Remove the overclaim about the detour, focus on the public transport. (R1-Q2-1)
 
 HOW HITCHHIKING DELIVERY WORKS
 
@@ -77,6 +81,8 @@ PERFORMANCE EVALUATION
 	Reconsider the delivery rate metric. Add explanation on the delivery time constraint. (R2-Q1-5)
 	
 	Add more contents on the transfer and non-transfer comparision. (R2-Q3-5)
+	
+	If we cannot redo the in-field experiments, consider changing the way to describe the experiment. (R3-Q1-1)
 
 RELATED WORK
 
@@ -84,7 +90,11 @@ RELATED WORK
 
 Typos and ambiguous presentations
 
-	For example, there is a symbol “a” in the example in Section 5.2. But I cannot find "a" in the corresponding figure (Figure 9). There is a typo of the first sentence in Section 4.2, the symbol “tR^i” is not defined.
+	For example, there is a symbol “a” in the example in Section 5.2. But I cannot find "a" in the corresponding figure (Figure 9). 
+	
+	There is a typo of the first sentence in Section 4.2, the symbol “tR^i” is not defined.
+	
+	Perform a thorough review of the paper for typos, grammatical errors and incorrect references. (R2-Q4-2)
 
 
 
@@ -211,7 +221,9 @@ Weaknesses:
 
       Re: Add explanation or hypothesis on the obervation of trans and non-trans trips.
 
-   2. 
+   2. Please perform a thorough review of the paper for typos, grammatical errors and incorrect references.
+
+
 
 **Reviewer C, RevExp 3, OveMer 3**
 
@@ -221,4 +233,12 @@ Strengths:
 
 Weaknesses:
 
-1. Lack of significant real-world experimentation, weak connection with Sensys scope.
+1. **Lack of significant real-world experimentation, weak connection with Sensys scope.**
+
+   1. The small-scale real world experiments were a bit removed from a real implementation in that they involved volunteer participants that about 10% of the time would not deliver the package at all - recruiting willing participants more carefully would have obviated this issue.
+
+      Re: If we cannot redo the in-field experiments, consider changing the way to describe the experiment.
+
+   2. I'm still left a little puzzled about the connection of this work to Sensys. After all no real time sensor measurement or even offline sensor-based measurements are used in the optimization (other than some statistical information on estimate waiting and running times). At a minimum this connection might need to be made more explicitly in the paper.
+
+      Re: Submit to another conference.
