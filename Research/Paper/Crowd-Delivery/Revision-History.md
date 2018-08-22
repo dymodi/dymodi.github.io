@@ -14,29 +14,34 @@ Here we reply to the weaknesses indicated by the reviewers from SenSys.
 ? ? ? ? ?
 
 	Explain how to resolve the "station to door" problem. (R1-Q2-1)
+	
 	Add more about "mobility patterns for the delivery purpose" since it is listed in the 3rd contribution.
 
 
 INTRODUCTION
 
-	Keep the scenario since nobody argue it's inappropriate.
+	[Done] Keep the scenario since nobody argue it's inappropriate.
 	
-	Keep focusing on public transport and make it as an innovation. (R1-Q1, R2-Q0, )
+	[Done] Keep focusing on public transport and make it as an innovation. (R1-Q1, R2-Q0, )
 	
 	Keep the consideration of time constraints.
 
 MOTIVATION
 
-	Add explanation or hypothesis on the obervation of trans and non-trans trips. (R2-Q4-1)
+	[Done] Add explanation or hypothesis on the obervation of trans and non-trans trips. (R2-Q4-1)
 	
-	Remove the overclaim about the detour, focus on the public transport. (R1-Q2-1)
+	[Done] Remove the overclaim about the detour, focus on the public transport. (R1-Q2-1)
+	
+	Change Fig 2's color to blue
 
 HOW HITCHHIKING DELIVERY WORKS
 
-	Improve the system figure.
+	[Done] Improve the system figure.
 
 DELIVERY TIME ESTIMATION
 
+	[Done] Add explicit explanation on waiting time. (R2-Q3-1)
+	
 	Clearer mathematical notation. (R2-Q3-3)
 	
 	Add discussion on the amount of needed historical data and how long the estimation takes. 
@@ -47,8 +52,6 @@ DELIVERY TIME ESTIMATION
 	Add explanation on K-S test result. (R1-Q3-6)
 	
 	Add explanation on Fig 6 and 7. (R2-Q1-1)
-	
-	Add explicit explanation on waiting time. (R2-Q3-1)
 
 ROUTING WITH CONSTRAINTS
 

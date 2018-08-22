@@ -9,7 +9,6 @@ author: Yi DING
 
 ## August Priorities
 * Time-depdent rider routing
-  * 跟DZG聊
   * 挖掘RL的特点和优势
 * Crowd delivery
   * 初步改，准备投11月的IMWUT
@@ -24,6 +23,10 @@ author: Yi DING
 * 不限于Beacon，看能不能再想些其他的topic
 
 ## Progress and Discussion
+
+08/22/18
+
+1. 和DZG聊了waiting time的相关内容，觉得我们可以从两个方向发力；waiting time的预测的基本版可以作为我routing的一部分；而进一步深挖后的拓展版作为他的一个独立文章。
 
 08/21/18
 

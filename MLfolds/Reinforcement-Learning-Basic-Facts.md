@@ -104,7 +104,7 @@ Iterative LQR is something comparable to Newton's method.
 
 **Discrete case: Monte Carlo tree seach (MCTS)**
 
-Build a decision tree and run some random search to have a glimpse of the quality of the decision sequences.
+Build a decision tree and run some random search to have a glimpse of the quality of the decision sequences. It's heuristic search algorithm.
 
 
 
