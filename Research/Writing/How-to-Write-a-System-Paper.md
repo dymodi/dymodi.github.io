@@ -16,6 +16,8 @@ When writing a research paper, keep the following in mind (guideline from NSF fo
 
 Also keep in mind that **problem is as important as** (if not more important than) **the solution**.
 
+Generally speaking, system paper refers to the paper published in **SenSys**, **MobiSys**, **MobiCom**.
+
 ## Title
 
 Note the following points:
