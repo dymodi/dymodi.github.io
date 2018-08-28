@@ -19,3 +19,15 @@ A simple guide is:
 4. Upload to TestPyPI: `twine upload --repository-url https://test.pypi.org/legacy/ dist/*`
 5. Upload to PyPI: `twine upload dist/*`
 
+
+
+## Update Package
+
+When you modify the code and want to release a new version:
+
+1. Change the version number in `setup.py`
+2. Build distribution
+3. Upload to TestPyPI
+4. Upload to PyPI
+
+Note that only upload the new version in `dist/` but not `dist/*`, otherwise an error will occur with "File already exists" since the old version has been uploaded and TestPyPI and PyPI do **not** permit repeated uploading (even the old version is deleted).

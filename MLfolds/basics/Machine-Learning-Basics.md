@@ -41,7 +41,7 @@ myMethod.fit(Xtrain,ytrain.ravel())
 # Test the model on (new) data
 ypred = myMethod.predict(Xtest)
 ```
-The detaild code of using these three methods on Boston and Digits data can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/ml_basics_sklearn.py).
+The detaild code of using these three methods on Boston and Digits data can be found [here](https://github.com/dymodi/machine_learning/blob/master/ml/my_cross_val.py).
 
 
 
