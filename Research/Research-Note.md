@@ -24,6 +24,11 @@ author: Yi DING
 
 ## Progress and Discussion
 
+08/27/18
+
+1. 汇总了几个potential的话题可以跟老板讨论；
+2. 关于crowd delivery中的waiting time和running time的估计，准备换成ML的方法来做，这样时间片和参与度都可以作为feature，而不用手动来处理；而且也可以少一些理论的分析
+
 08/22/18
 
 1. 和DZG聊了waiting time的相关内容，觉得我们可以从两个方向发力；waiting time的预测的基本版可以作为我routing的一部分；而进一步深挖后的拓展版作为他的一个独立文章。
@@ -31,7 +36,7 @@ author: Yi DING
 08/21/18
 
 1. Instant delivery 中waiting time的问题考虑不要跟time dependen扯上关系，因为理论上无论是控制还是图，其实解决方法都是把它进行预测然后转换成time invariant的问题去做；
-2. 何老板讨论了新版本的time-dependent rider routing，有下面几个发现：
+2. 和老板讨论了新版本的time-dependent rider routing，有下面几个发现：
    1. 如果把创新点完全落在waitting time estimation上，可能跟DZG作出餐时间预估的方向有冲突，需要跟他交流；
    2. 如果要用RL作解决方法，需要讲清楚原因。因为现有的机器学习的方法其实已经是有很多实时的特征在里面，你要怎么强调出RL的特点，这个需要
 
