@@ -10,6 +10,8 @@ date: Jan. 4, 2018
 ## Python
 [Python Tricks](Toolbox/Python-Tricks)
 
+[Python Packaging](Toolbox/Python-Packaging)
+
 [Pandas](Toolbox/Pandas) Popular tool for data analysis in Python.
 
 ## SQL
