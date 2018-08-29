@@ -5,8 +5,11 @@ date: Nov. 2, 2017
 author: Yi DING
 ---
 
-## Generic Measures
+sklearn has provide a vast nunmber of [tools](http://scikit-learn.org/stable/modules/model_evaluation.html) for model evaluation.
 
+
+
+## Generic Measures
 
 **Confusion Matrix**
 
@@ -45,4 +48,16 @@ Where we have the following guide:
 - .50-.60 = fail (F)
 
 A good explanation of ROC and AUC can be found [here](http://www.dataschool.io/roc-curves-and-auc-explained/).
+
+
+
+## Metrics for Regression
+
+**Mean Squared Error (MSE)**
+
+$$\text{MSE}=\frac1n\sum^n_{i=1}(Y_i-\hat Y_i)^2 $$
+
+**Mean Absolute Error (MAE)**
+
+$$\text{MSE}=\frac1n\sum^n_{i=1}\left|Y_i-\hat Y_i\right|^2 $$
 

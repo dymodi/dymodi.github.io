@@ -7,6 +7,12 @@ author: Yi DING
 
 
 
+## Local Test
+
+Install: `pip install .`
+
+
+
 ## Python Packaging
 
 Official and detailed guide can be found [here](https://python-packaging.readthedocs.io/en/latest/) and [here](https://packaging.python.org/tutorials/packaging-projects/).
