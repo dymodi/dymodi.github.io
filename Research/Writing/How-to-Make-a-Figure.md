@@ -29,8 +29,14 @@ In Introduction or Motivation, we might need some illustrative figures to show s
 
 ## Framework of Data Paper
 
+From KDD 18 traffic light paper:
 <p align = "center">
     <img src="figures/framework-kdd18-hua.png"  alt="system-overview-mobisys16-huang", width="800">
+</p>
+
+From KDD 18 Du-Parking paper:
+<p align = "center">
+    <img src="figures/framework-kdd18-yuecheng.png"  alt="system-overview-mobisys16-huang", width="500">
 </p>
 
 

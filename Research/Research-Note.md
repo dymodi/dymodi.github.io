@@ -9,26 +9,28 @@ author: Yi DING
 
 ## Target Conference
 
-| Date       | Conference | Project              |
-| ---------- | ---------- | -------------------- |
-| 2018.11.15 | IMWUT      | Crowd Delivery       |
-| 2018.12.1  | MobiSys    | Virtual Beacon       |
-| 2018.2.11  | KDD        | RL based Dispatching |
+| Date       | Conference | Project                                                      |
+| ---------- | ---------- | ------------------------------------------------------------ |
+| 2018.11.15 | IMWUT      | [Crowd Delivery](Paper/Crowd-Delivery/Revision-History)      |
+| 2018.12.1  | MobiSys    | [Virtual Beacon](Paper/Virtual-Beacon/virtual-beacon)        |
+| 2018.2.11  | KDD        | [RL based Dispatching/Routing](Paper/Rider-Routing/rider-routing) |
 
 ## August Priorities
 
+* New topics
+  * 基于智能餐箱和智能锁的topics
 * Time-depdent rider routing
-  * 挖掘RL的特点和优势
+  * 挖掘这个问题能打动老板的创新点，发KDD
 * Crowd delivery
   * 初步改，准备投11月的IMWUT
 * Virtual beacon
-  * 
+  * 等数据来了就开始做实验
 
 
 ## Highlight
 
 * 从系统的角度考虑问题，不要陷入算法和理论的具体方向，那不是长处，也不是重点
-* Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划。如果要哟过RL，要想
+* Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划。
 
 ## Potential Topics
 
@@ -118,9 +120,8 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 07/12/18
 
-1. 尽量不要提TSP，或者找一个能有最优解的TSP，否则这种话题一出现就会被毙。
-2. 主要还是要把Time-Dependent的特性体现出来，体现在solution里。实在不行可以更改命题，所谓先射箭，再画靶子。
-3. 也可以考虑同时体现时变特性和动态追单特性，但那需要在motivation里体现出动态追单的重要性和难度。
+1. 主要还是要把Time-Dependent的特性体现出来，体现在solution里。实在不行可以更改命题，所谓先射箭，再画靶子。
+2. 也可以考虑同时体现时变特性和动态追单特性，但那需要在motivation里体现出动态追单的重要性和难度。
 
 07/06/18
 

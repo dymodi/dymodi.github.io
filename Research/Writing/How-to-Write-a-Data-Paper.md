@@ -43,7 +43,7 @@ In an Abstract, we mainly provide the following four pieces of information:
 Introduction is possibly the most important section of the paper, since reviewers and reads might choose to continue reading or give up after reading the Introduction. Usually we have the following paragraphs in the Introduction:
 
 * The background (story)
-* Challenges and motivations
+* Challenges - motivations - opportunities
 * Related works
 * The solution we proposed
 * The contribution of this paper
@@ -58,7 +58,10 @@ We need to find a design space that excludes all the other existing works.
 
 
 
-## Problem Definition
+## Overview / Problem Definition
+
+* Framework
+* Problem definition
 
 Since usually some classical models with some modification are used in the data paper, we need to first formulate the problem as an classical problem.
 
