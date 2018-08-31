@@ -48,25 +48,48 @@ Introduction is possibly the most important section of the paper, since reviewer
 * The solution we proposed
 * The contribution of this paper
 
-## 
-
-## Design / Solution
 
 
-
-## Implementation
-
-
-
-
-## Evaluation
-
-
-
-## Related Works
+##Related Works
 
 Taxnonmy
 
 We need to find a design space that excludes all the other existing works.
+
+
+
+## Problem Definition
+
+Since usually some classical models with some modification are used in the data paper, we need to first formulate the problem as an classical problem.
+
+
+
+## Method / Design / Solution
+
+* Framework
+* Design 1
+* Design 2
+
+
+
+## Experiment
+
+* Experiment Setting
+* Parameter Setting
+* Evaluation Metric
+* Baselines
+* Datasets
+* Performance
+
+
+
+## Conclusion
+
+
+
+
+
+
+
 
 

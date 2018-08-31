@@ -27,7 +27,17 @@ In Introduction or Motivation, we might need some illustrative figures to show s
 
 
 
-## Flowchart 
+## Framework of Data Paper
+
+<p align = "center">
+    <img src="figures/framework-kdd18-hua.png"  alt="system-overview-mobisys16-huang", width="800">
+</p>
+
+
+
+
+
+## Flowchart of System Paper
 
 Border Line Width: 3 pound.
 
@@ -35,23 +45,27 @@ Border Line Width: 3 pound.
 
 From SenSys 16 Huang's paper:
 <p align = "center">
-    <img src="figures/system-overview-sensys16-huang.png"  alt="system-overview-mobisys16-huang", width="600", height="700">
+    <img src="figures/system-overview-sensys16-huang.png"  alt="system-overview-mobisys16-huang", width="600">
 </p>
+
 
 From SenSys 16 Hester's paper:
 <p align = "center">
-    <img src="figures/system-overview-sensys16-hester.png"  alt="system-overview-mobisys16-hester", width="600", height="700">
+    <img src="figures/system-overview-sensys16-hester.png"  alt="system-overview-mobisys16-hester", width="600">
 </p>
+
 
 From MobiSys 17 Mathur's paper:
 <p align = "center">
-    <img src="figures/system-overview-mobisys17-mathur.png"  alt="system-overview-mobisys17-mathur", width="600", height="500">
+    <img src="figures/system-overview-mobisys17-mathur.png"  alt="system-overview-mobisys17-mathur", width="500">
 </p>
+
 
 From MobiSys 17 Zhu's paper:
 <p align = "center">
-    <img src="figures/system-overview-mobisys17-zhu.png"  alt="system-overview-mobisys17-zhu", width="600", height="500">
+    <img src="figures/system-overview-mobisys17-zhu.png"  alt="system-overview-mobisys17-zhu", width="600">
 </p>
+
 
 From MobiSys 17 Zhou's paper:
 <p align = "center">
@@ -65,5 +79,6 @@ From MobiSys 17 Zhou's paper:
 ### Some evaluation figure samples:
 From SenSys 16 Meng's Paper:
 <p align = "center">
-    <img src="figures/evaluation-sensys16-meng.png"  alt="evaluation-sensys16-meng", width="800", height="600">
+    <img src="figures/evaluation-sensys16-meng.png"  alt="evaluation-sensys16-meng", width="900">
 </p>
+

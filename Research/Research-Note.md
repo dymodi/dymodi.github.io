@@ -7,22 +7,62 @@ author: Yi DING
 
 # Research Note
 
+## Target Conference
+
+| Date       | Conference | Project              |
+| ---------- | ---------- | -------------------- |
+| 2018.11.15 | IMWUT      | Crowd Delivery       |
+| 2018.12.1  | MobiSys    | Virtual Beacon       |
+| 2018.2.11  | KDD        | RL based Dispatching |
+
 ## August Priorities
+
 * Time-depdent rider routing
   * 挖掘RL的特点和优势
 * Crowd delivery
   * 初步改，准备投11月的IMWUT
 * Virtual beacon
-  * 了解季芸那面的进度
+  * 
 
 
 ## Highlight
 
 * 从系统的角度考虑问题，不要陷入算法和理论的具体方向，那不是长处，也不是重点
-* Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划
-* 不限于Beacon，看能不能再想些其他的topic
+* Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划。如果要哟过RL，要想
+
+## Potential Topics
+
+Find topics from DAAG (AI Interst Group) and seek for coorporation.
+
+* Fundamental topics:
+  * Virtual Beacon
+  * GPS correction based on virtual beacon results
+  * ~~Security/Authentication (Hardware related) (Not good idea)~~
+
+* Dispatching and routing
+  * Deep Reinforcement Learning used in Predicting Rider's Future Bahavior and Dispatching
+  * Delivery Map based on Time
+  * Robots Routing in Delivery
+  * Dispatching (Traditional and Fetch Delivery Seperation)
+
+* Applications based on data
+  * Detecting XX (Some problems) using Instant Delivery Data
+  * Riders/restaurants Clustering
+  * AOI Recongization based on Delivery Map
+  * Risk Control
+
+    * Rider cheating
+    * Shop cheating
+  * Auto check-in (Similar to Existence Detection)
+  * ~~POI Correction (Done by JDZ)~~
+
 
 ## Progress and Discussion
+
+08/30/18
+
+1. 今天提的几个potential topics里，老板都觉得不够好。rider-routing的项目老板也觉得拖了很久了，所以在没有很strong的新东西之前就不要提了。不过关于anomaly detection的方面，老板提了几个想法。一是要做anomaly detection的话需要把motivation说清楚，比如要说骑手欺诈的危害有多大啊什么的，另外就是ground truth要怎么找。
+2. 老板提了另外一个想法，有了虚拟beacon的大规模部署之后，可以借助beacon对GPS数据进行矫正，主要的**一张图**就是在不同区域GPS的误差图，在商场和高楼附近，GPS的误差大，在旷野区域，GPS误差小。
 
 08/27/18
 
@@ -43,20 +83,12 @@ author: Yi DING
 08/14/18
 
 1. 关于Virtual Beacon的项目，Replace Beacon的方向比New Anchor的方向更好。
-
 2. Replace Beacon的motivation中关于calibration free的内容不用提；
-
 3. 同样的，related works的分类方法还需要在考虑；
-
 4. challenges里的POI bind的问题这样陈述：我们已知一个POI的经纬度，然后根据相关数推测某个手机是否可以和这个POI绑定（和IODetector类似）。
-
 5. 具体的design和实现暂时不用管，可以用他们正在做的这套系统
-
 6. 关于time-dependent那个项目，老板还是觉得motivation很好，但还是需要一个好的角度，具体来说，就是waiting time是instant delivery有别于taxi transport的一个重要特点，基于这个特点，我们能想到什么新问题，可以用新的方法来解决，不局限于路径规划。
-
 7. crowd delivery的项目就不用跟饿了么结合了，自己改改投个一般的会议就行了，不要浪费太多精力。
-
-   
 
 08/08/18
 
@@ -68,8 +100,6 @@ author: Yi DING
 3. 开始虚拟beacon和驻店模型的研究
 4. 明天和江东哲聊一下crowd delivery的项目和骑手路径规划的项目
 
-
-
 07/27/18
 
 1. 也可以考虑自己设计启发式的方法，像SARP那篇文章一样。我们也可以开一个风尚，基于数据的heuristic的设计方法。
@@ -79,8 +109,6 @@ author: Yi DING
 1. 从真实数据出发，然后用brute force得到optimal的solution，然后在地图上看看这些optimal的solution有什么特征
 2. Basic Design采用Tabu Search，从一个初始的heuristic（可能是）开始，通过调换相邻两个取单顺序来得到下一个备选的解，然后一直到某个suboptimal。（为什么只考虑调换相邻点呢，可能是因为调换远的点会引起更大的往返代价）
 3. Advanced Design可以考虑采用Rollout Algorithm，算是一种针对discrete optimization的sequential approach，就是只优化眼前一两步，远处的单会受后续贴上来的单的影响。
-
-
 
 07/24/18
 
@@ -298,22 +326,3 @@ Another idea: solving large scale offline data gathering. The challenges and mot
 1. In future deployment, the transmission power will be reduced so that it can only be heared within the shop.
 2. Based on 1. each beacon data can match to a POI. What we care is not multiple beacons heared at the same time, but the time difference between each 
 
-## Potential Topics
-
-Find topics from DAAG (AI Interst Group) and seek for coorporation.
-
-* Virtual Beacon
-* Detecting XX (Some problems) using Instant Delivery Data
-* Elevator Prediction and Dispatching
-* Riders/restaurants Clustering
-* Robots Routing in Delivery
-* Delivery Map based on Time
-* AOI Recongization based on Delivery Map
-* Risk Control
-  * Rider cheating
-  * Shop cheating
-* Auto check-in (Similar to Existence Detection)
-* Dispatching (Traditional and Fetch Delivery Seperation)
-* Deep Reinforcement Learning used in Predicting Rider's Future Bahavior and Dispatching
-* ~~Security/Authentication (Hardware related) (Not good idea)~~
-* ~~POI Correction (Done by JDZ)~~
