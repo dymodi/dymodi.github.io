@@ -104,7 +104,17 @@ Iterative LQR is something comparable to Newton's method.
 
 **Discrete case: Monte Carlo tree seach (MCTS)**
 
-Build a decision tree and run some random search to have a glimpse of the quality of the decision sequences. It's heuristic search algorithm.
+Build a decision tree and run some random search to have a glimpse of the quality of the decision sequences. It's a heuristic search algorithm.
+
+<p align = "center">
+    <img src="figures/mcts.png"  alt="mcts from Levine", width="400">
+</p>
+
+Fig 1. MCTS sketch from Levine
+
+It seems that in MCTS, we randomly check some future state according to the action we can make (at the root node), and then choose the best action based on the sampled observation.
+
+Note that, MCTS is used in Alpha Go.
 
 
 
