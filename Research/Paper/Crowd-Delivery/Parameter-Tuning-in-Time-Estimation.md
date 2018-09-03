@@ -76,6 +76,28 @@ Further experiment
 | ------------------ | ----- | ----- | ----- | ----- | ----- | ----- |
 | `r2_score`         | 0.381 | 0.380 | 0.384 | 0.385 | 0.387 | 0.388 |
 
-| `min_samples_leaf` | 10   | 60   | 110  | 160  | 210  | 260  |
-| ------------------ | ---- | ---- | ---- | ---- | ---- | ---- |
-| `r2_score`         |      |      |      |      |      |      |
+| `min_samples_leaf` | 10    | 60    | 110   | 160   | 210   | 260   |
+| ------------------ | ----- | ----- | ----- | ----- | ----- | ----- |
+| `r2_score`         | 0.381 | 0.388 | 0.385 | 0.383 | 0.384 | 0.380 |
+
+**Conclusion:**
+
+It seems that `min_samples_leaf=60` is better. 
+
+However, `r2_score = 0.388` is not satisfactory enough, we need to try other models.
+
+
+
+## Nerual Network
+
+One hidden layer.
+
+`hidden_layer_sizes` and `activation`
+
+| `hidden_layer_sizes` `activation` | 50   | 100  | 150  | 200  | 250  | 300  | 350  | 400  | 450  | 500  |
+| --------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| `identity`                        |      |      |      |      |      |      |      |      |      |      |
+| `logistic`                        |      |      |      |      |      |      |      |      |      |      |
+| `tanh`                            |      |      |      |      |      |      |      |      |      |      |
+| `relu`                            |      |      |      |      |      |      |      |      |      |      |
+

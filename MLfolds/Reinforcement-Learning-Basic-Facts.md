@@ -107,7 +107,11 @@ Iterative LQR is something comparable to Newton's method.
 Build a decision tree and run some random search to have a glimpse of the quality of the decision sequences. It's a heuristic search algorithm.
 
 <p align = "center">
-    <img src="figures/mcts.png"  alt="mcts from Levine", width="400">
+<img src="figures/mcts.png"  alt="mcts from Levine", width="400">
+</p>
+
+<p align = "center">
+<img src="figures/mcts.png"  alt="mcts from Levine">
 </p>
 
 Fig 1. MCTS sketch from Levine
