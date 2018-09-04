@@ -111,5 +111,8 @@ One hidden layer is not enough. Default activation `relu` has the best performan
 
 | number of hidden layers | 1    | 2    | 3    | 4    | 5    |
 | ----------------------- | ---- | ---- | ---- | ---- | ---- |
-| `r2_score`              |      |      |      |      |      |
+| `r2_score`              | 0.09 | 0.19 | 0.21 | 0.26 | 0.28 |
 
+| number of hidden layers | 5    | 10   | 15   | 20   | 25   |
+| ----------------------- | ---- | ---- | ---- | ---- | ---- |
+| `r2_score`              |      |      |      |      |      |

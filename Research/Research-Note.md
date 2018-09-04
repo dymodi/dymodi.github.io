@@ -42,24 +42,43 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
   * ~~Security/Authentication (Hardware related) (Not good idea)~~
 
 * Dispatching and routing
-  * Deep Reinforcement Learning used in Predicting Rider's Future Bahavior and Dispatching
+  * Dispatching/Routing with Reinforcement Learning
   * Delivery Map based on Time
-  * Robots Routing in Delivery
   * Dispatching (Traditional and Fetch Delivery Seperation)
+  * Robots Delivery
+    * Elevator sensing and control
+  * UAV Delivery
+  * ~~Rider behavior prediction (Done by Yan Zhang)~~ 
 
 * Applications based on data
+  - Human Mobility based on Meal Data
+  - Meal Need Prediction - Long term and short term
+
+  * Monetary Incentive for Riders: Speed and Safety
+  * Dangerous Driving Detection with Cellphone Data
+  * Red Packet: Study on Monetary Incentive for Consumers
+  * Quality of Food: Effect of Time and Temperature
+  * What Makes a Good Shop: An Analysis of Shop Lifecycle
   * Detecting XX (Some problems) using Instant Delivery Data
   * Riders/restaurants Clustering
-  * Risk Control
+  * Risk Control (Rider cheating / Shop cheating)
 
-    * Rider cheating
-    * Shop cheating
-  * ==Auto check-in (Similar to Existence Detection)==
+  * Auto check-in (Similar to Existence Detection)
   * ~~AOI Recongization (Discussed with Tian but to very appreciated)~~
   * ~~POI Correction (Done by JDZ)~~
 
 
 ## Progress and Discussion
+
+09/05/18
+
+1. 和老板讨论的内容：
+   1. 关于crowd delivery中的time estimation尝试ml的失败；
+   2. 两个新idea。
+
+09/04/18
+
+1. 针对crowd delivery中的time estimation问题，几乎尝试了sklearn中所有的regressor模型，只有GBDT和NN效果勉强可以（ r2_score在0.3左右），但从真值和预测值的plot和r2_score来看，这两个模型的效果都不行。所以可能要放弃用ML进行时间预估的方法，还是采用原来的正态分布的方法。
 
 08/30/18
 
@@ -68,8 +87,7 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 08/27/18
 
-1. 汇总了几个potential的话题可以跟老板讨论；
-2. 关于crowd delivery中的waiting time和running time的估计，准备换成ML的方法来做，这样时间片和参与度都可以作为feature，而不用手动来处理；而且也可以少一些理论的分析
+1. 关于crowd delivery中的waiting time和running time的估计，准备换成ML的方法来做，这样时间片和参与度都可以作为feature，而不用手动来处理；而且也可以少一些理论的分析
 
 08/22/18
 

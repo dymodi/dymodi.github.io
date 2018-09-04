@@ -50,7 +50,7 @@ However, some theoratic results have shown that this "supervised learning" does 
 
 While, imitation learning is also valid in practice based on some "stable controller". That is **"Learning from a stabilizing controller"**.
 
-#### Case Studies
+*Case Studies*
 
 * Case study 1: trail following as classification：A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots. [1]
 * Case study 2: DAgger & domain adaptation: Learning Transferable Policies for Monocular Reactive MAV Control.[2]
@@ -64,7 +64,7 @@ While, imitation learning is also valid in practice based on some "stable contro
 **Comments:**
 It seems that the RL problem is highly like a **control** problem where we have a "time step" and a "feedback" from outputs of the controlled system. That is, optimal control is a kind of "model-based reinforcement learning". Also note that the state and action here are the same as $$x_t$$ and $$u_t$$ in optimal control.
 
-### Optimal Control, Trajectory Optimization, and Planning
+### Optimal Control, Trajectory Optimization, and Planning (1-25-17)
 
 In this lecture, we will discuss "how to make decisions under perfect knowledge of the system dynamics".
 
@@ -116,9 +116,33 @@ It seems that in MCTS, we randomly check some future state according to the acti
 
 Note that, MCTS is used in Alpha Go.
 
+### Learning Dynamical System Models from Data (1-30-17)
 
+In this part, we discuss what to do if we do **not** know the dynamics of the system.
 
-## Ref.
+Why we need model: we need to do derivation in for the cost function and we also need to perform forward prediciton in MCTS.
+
+**Four versions of model-based RL**
+
+A model-based RL version 0.5 is introduced where model is built using an **system identification** paradigm. This works well if the real model can be built with our knowledge of physics and only some parameters need to be fitted.
+
+In RL version 1.5, MPC (model predictive control) is introduced to improve RL, i.e. only one step active is applied.
+
+*Case studies:* A 2.0 version RL to control a robotic arm. 
+
+**What kind of modes can we use?**
+
+Gaussian process / Neural network / GMM (Gaussian Mixture Model)
+
+*Case studies*: Dynamics with recurrent neural networks. Compared with many other fancy models.
+
+**Global model** and **local model**
+
+*Case studies*: Local models & iterative LQR
+
+ 
+
+### Ref.
 
 [1] Giusti, A., Guzzi, J., Cireşan, D. C., He, F. L., Rodríguez, J. P., Fontana, F., ... & Scaramuzza, D. (2016). A machine learning approach to visual perception of forest trails for mobile robots. IEEE Robotics and Automation Letters, 1(2), 661-667. [IEEE](http://ieeexplore.ieee.org.ezp1.lib.umn.edu/stamp/stamp.jsp?tp=&arnumber=7358076)
 

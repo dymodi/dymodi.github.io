@@ -53,6 +53,10 @@ A good explanation of ROC and AUC can be found [here](http://www.dataschool.io/r
 
 ## Metrics for Regression
 
+Plot of Predicted vs. Real
+
+**Residual Plots**
+
 **Mean Squared Error (MSE)**
 
 $$\text{MSE}=\frac1n\sum^n_{i=1}(Y_i-\hat Y_i)^2 $$
