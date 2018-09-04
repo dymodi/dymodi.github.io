@@ -50,12 +50,12 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 * Applications based on data
   * Detecting XX (Some problems) using Instant Delivery Data
   * Riders/restaurants Clustering
-  * AOI Recongization based on Delivery Map
   * Risk Control
 
     * Rider cheating
     * Shop cheating
-  * Auto check-in (Similar to Existence Detection)
+  * ==Auto check-in (Similar to Existence Detection)==
+  * ~~AOI Recongization (Discussed with Tian but to very appreciated)~~
   * ~~POI Correction (Done by JDZ)~~
 
 

@@ -96,8 +96,20 @@ One hidden layer.
 
 | `hidden_layer_sizes` `activation` | 50   | 100  | 150  | 200  | 250  | 300  | 350  | 400  | 450  | 500  |
 | --------------------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| `identity`                        |      |      |      |      |      |      |      |      |      |      |
-| `logistic`                        |      |      |      |      |      |      |      |      |      |      |
-| `tanh`                            |      |      |      |      |      |      |      |      |      |      |
-| `relu`                            |      |      |      |      |      |      |      |      |      |      |
+| `identity`                        | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 |
+| `logistic`                        | 0.09 | 0.11 | 0.12 | 0.13 | 0.14 | 0.13 | 0.13 | 0.15 | 0.14 | 0.15 |
+| `tanh`                            | 0.08 | 0.11 | 0.11 | 0.12 | 0.10 | 0.11 | 0.12 | 0.12 | 0.12 | 0.12 |
+| `relu`                            | 0.09 | 0.17 | 0.16 | 0.10 | 0.16 | 0.16 | 0.17 | 0.17 | 0.18 | 0.18 |
+
+Conclusion:
+
+One hidden layer is not enough. Default activation `relu` has the best performance. Default hidden layer size `100` is good enough.
+
+
+
+**Experiments on numeber of hidden layers**
+
+| number of hidden layers | 1    | 2    | 3    | 4    | 5    |
+| ----------------------- | ---- | ---- | ---- | ---- | ---- |
+| `r2_score`              |      |      |      |      |      |
 
