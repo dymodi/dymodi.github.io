@@ -115,4 +115,8 @@ One hidden layer is not enough. Default activation `relu` has the best performan
 
 | number of hidden layers | 5    | 10   | 15   | 20   | 25   |
 | ----------------------- | ---- | ---- | ---- | ---- | ---- |
-| `r2_score`              |      |      |      |      |      |
+| `r2_score`              | 0.22 | 0.26 | 0.21 | 0.22 | 0.21 |
+
+**Conclusion:**
+
+It can be observed that, increasing the number of layers, can improve the performance, but not the more the better. Overfitting may happen. 4 layers are good enough.
