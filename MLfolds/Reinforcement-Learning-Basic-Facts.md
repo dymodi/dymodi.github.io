@@ -140,6 +140,14 @@ Gaussian process / Neural network / GMM (Gaussian Mixture Model)
 
 *Case studies*: Local models & iterative LQR
 
+
+
+### Learning Policies by Imitating Optimal Control
+
+
+
+
+
  
 
 ### Ref.

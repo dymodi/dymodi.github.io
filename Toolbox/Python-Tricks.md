@@ -168,6 +168,11 @@ gmap.scatter(latitude_list, longitude_list, 'blue', marker=True)
 gmap.draw(file_name)
 ```
 
+### Layer and heatmap on map
+
+Use [folium](https://python-visualization.github.io/folium/)
+
+
 ## Date and Time
 
 Use [datetime](https://docs.python.org/3/library/datetime.html) and [pytz](https://www.saltycrane.com/blog/2009/05/converting-time-zones-datetime-objects-python/)

@@ -11,9 +11,13 @@ author: Yi DING
   * Sometimes we have a good problem and try to find a good solution to it. Sometimes we have a good solution and we need to find a **good problem** for it. Or you can call it, make target after shooting.
 * The key infomation of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need be able to delivery this simple but clear information.
 * Before talk to others, remember the following checklist:
+  * Have you found the key innovation of the project? Why others cannot solve but you can?
+  * It will be better that a idea come with an special observation.
+  * Have you  give thorough consideration and dig deep into the problem?
+  * You have seen a similar topic does not mean this idea would be appreciated. 
+  * Professor has a higher requirement: **top paper** but not normal paper.
   * Is this work a simple piling of two or more ideas?
   * Is this topic already studied by others? Can you articulate your innovation?
-  * Have you  give thorough consideration and dig deep into the problem?
 
 ### 2. Discuss with Professor
 

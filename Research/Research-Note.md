@@ -52,29 +52,29 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 * Applications based on data
   - Human Mobility based on Meal Data
-  - Meal Need Prediction - Long term and short term
-
-  * Monetary Incentive for Riders: Speed and Safety
-  * Dangerous Driving Detection with Cellphone Data
-  * Red Packet: Study on Monetary Incentive for Consumers
-  * Quality of Food: Effect of Time and Temperature
-  * What Makes a Good Shop: An Analysis of Shop Lifecycle
-  * Detecting XX (Some problems) using Instant Delivery Data
-  * Riders/restaurants Clustering
-  * Risk Control (Rider cheating / Shop cheating)
+  - Monetary Incentive for Riders: Speed and Safety
+  - Dangerous Driving Detection with Cellphone Data
+  - Red Packet: Study on Monetary Incentive for Consumers
+  - Quality of Food: Effect of Time and Temperature
+  - What Makes a Good Shop: An Analysis of Shop Lifecycle
+  - Detecting XX (Some problems) using Instant Delivery Data
+  - Riders/restaurants Clustering
+  - Risk Control (Rider cheating / Shop cheating)
 
   * Auto check-in (Similar to Existence Detection)
+  * ~~Meal Need Prediction - Long term and short term (Not appreciated by Tian unless key innovation)~~
   * ~~AOI Recongization (Discussed with Tian but to very appreciated)~~
   * ~~POI Correction (Done by JDZ)~~
 
 
 ## Progress and Discussion
 
-09/05/18
+09/06/18
 
 1. 和老板讨论的内容：
-   1. 关于crowd delivery中的time estimation尝试ml的失败；
-   2. 两个新idea。
+   1. 几个新idea。Meal need prediction的idea不好，因为没有key innovation，为什么别人不能做。没什么特殊的observation。Human mobility的idea也没说清楚和cellphone data的区别。
+   2. GPS enhancement的想法得到老板的一定程度的肯定，但需要进一步思考，再读一些文章，然后想清楚一个切入点。比如老板提到的 low cost KDR GPS，就是说普通的GPS会受到天气和地形影响，但基于beacon的GPS很准确。
+   3. crowd delivery中的time estimation尝试ml的失败，重回Normal distribution。
 
 09/04/18
 
