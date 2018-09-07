@@ -51,7 +51,7 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
   * ~~Rider behavior prediction (Done by Yan Zhang)~~ 
 
 * Applications based on data
-  - Human Mobility based on Meal Data
+  - Learn From Veteran: Rider Route Recommendation based on Experienced Riders
   - Monetary Incentive for Riders: Speed and Safety
   - Dangerous Driving Detection with Cellphone Data
   - Red Packet: Study on Monetary Incentive for Consumers
@@ -62,9 +62,14 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
   - Risk Control (Rider cheating / Shop cheating)
 
   * Auto check-in (Similar to Existence Detection)
+  * ~~Human Mobility based on Meal Data (Need further think)~~
   * ~~Meal Need Prediction - Long term and short term (Not appreciated by Tian unless key innovation)~~
   * ~~AOI Recongization (Discussed with Tian but to very appreciated)~~
   * ~~POI Correction (Done by JDZ)~~
+
+* NLP
+
+  * Delivery Issues Clustering
 
 
 ## Progress and Discussion

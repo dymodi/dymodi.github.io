@@ -64,6 +64,8 @@ While, imitation learning is also valid in practice based on some "stable contro
 **Comments:**
 It seems that the RL problem is highly like a **control** problem where we have a "time step" and a "feedback" from outputs of the controlled system. That is, optimal control is a kind of "model-based reinforcement learning". Also note that the state and action here are the same as $$x_t$$ and $$u_t$$ in optimal control.
 
+
+
 ### Optimal Control, Trajectory Optimization, and Planning (1-25-17)
 
 In this lecture, we will discuss "how to make decisions under perfect knowledge of the system dynamics".
@@ -116,6 +118,8 @@ It seems that in MCTS, we randomly check some future state according to the acti
 
 Note that, MCTS is used in Alpha Go.
 
+
+
 ### Learning Dynamical System Models from Data (1-30-17)
 
 In this part, we discuss what to do if we do **not** know the dynamics of the system.
@@ -142,13 +146,21 @@ Gaussian process / Neural network / GMM (Gaussian Mixture Model)
 
 
 
-### Learning Policies by Imitating Optimal Control
+### Learning Policies by Imitating Optimal Control (2-1-17)
+
+Dual gradient descent is used to solve contrained optimization problem to conduct policy search.
+
+*Case studies*: vision-based control with GPS (guided policy search).
+
+ PLATO algorithm is an algorithm that imitates MPC to get policy.
+
+The key part of MPC is replanning.
+
+There is also a comparison of DAgger and GPS.
 
 
 
 
-
- 
 
 ### Ref.
 

@@ -7,3 +7,11 @@ author: Yi DING
 
 [Big Data and AI Landscape 2018](http://mattturck.com/wp-content/uploads/2018/06/Matt-Turck-FirstMark-Big-Data-Landscape-2018.png)
 
+
+
+Company in leading roles:
+
+[OpenAI](https://openai.com/)
+
+[DeepMind](https://deepmind.com/)
+
