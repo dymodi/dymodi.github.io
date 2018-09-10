@@ -11,14 +11,14 @@ author: Yi DING
 
 | Date       | Conference | Project                                                      |
 | ---------- | ---------- | ------------------------------------------------------------ |
-| 2018.11.15 | IMWUT      | [Crowd Delivery](Paper/Crowd-Delivery/Revision-History)      |
-| 2018.12.1  | MobiSys    | [Virtual Beacon](Paper/Virtual-Beacon/virtual-beacon)        |
-| 2018.2.11  | KDD        | [RL based Dispatching/Routing](Paper/Rider-Routing/rider-routing) |
+| 2018.11.15 | IMWUT      | [Crowd Delivery](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Crowd-Delivery/Revision-History.md) |
+| 2018.12.1  | MobiSys    | [Virtual Beacon](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Virtual-Beacon/virtual-beacon.md) |
+| 2018.2.11  | KDD        | [RL based Dispatching/Routing](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Rider-Routing/rider-routing.md) |
 
 ## August Priorities
 
 * New topics
-  * 基于智能餐箱和智能锁的topics
+  * 基于智能餐箱和智能锁的topics，江东哲提的learn from veteran
 * Time-depdent rider routing
   * 挖掘这个问题能打动老板的创新点，发KDD
 * Crowd delivery
@@ -73,6 +73,11 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 
 ## Progress and Discussion
+
+09/10/18
+
+1. 重跑了three order 的任务，加上了shop_id，明天可以用以“learn from veteran”的motivation
+2. 确定还是用gaussian来描述waiting time，重写kstest的python版本，但kstest的通过率极其低，只有60%，和之前Matlab的版本差很多，考虑明天试一下running time再说。
 
 09/06/18
 
