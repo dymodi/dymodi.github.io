@@ -74,6 +74,12 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+09/11/18
+
+1. 修改痛点计划slides
+2. 写驻店模型专利
+3. 测试python上的kstest在running time上的效果
+
 09/10/18
 
 1. 重跑了three order 的任务，加上了shop_id，明天可以用以“learn from veteran”的motivation

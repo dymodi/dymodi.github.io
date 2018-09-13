@@ -16,7 +16,16 @@ UPDATE celebs SET age = 3 WHERE id = 1;
 ALTER TABLE celebs ADD COLUMN twitter_handle TEXT;
 ```
 
+### Drop and create
+
+```sql
+drop table if exists some_temp_table;
+create table some_temp_table as
+select some_col from another_table;
+```
+
 ### Make Histogram
+
 ``` SQL
 select round(data,1) as bucket, count(*) as count
 from data_table
