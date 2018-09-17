@@ -19,9 +19,12 @@ ALTER TABLE celebs ADD COLUMN twitter_handle TEXT;
 ### Drop and create
 
 ```sql
+---- Create new table
 drop table if exists some_temp_table;
 create table some_temp_table as
 select some_col from another_table;
+---- Insert table with data partition
+INSERT overwrite TABLE some_table partition(dt='${day}')
 ```
 
 ### Make Histogram
