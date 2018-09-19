@@ -11,7 +11,7 @@ The basic operations here are from [codecademy SQL course](https://www.codecadem
 ``` SQL
 SELECT * FROM celebs;
 CREATE TABLE celebs (id INTEGER, name TEXT, age INTEGER);
-INSERT INTO celebs (id, name, age) VALUES (1, 'Justin Bieber', 21);
+INSERT INTO celebs VALUES (1, 'Justin Bieber', 21);
 UPDATE celebs SET age = 3 WHERE id = 1;
 ALTER TABLE celebs ADD COLUMN twitter_handle TEXT;
 ```

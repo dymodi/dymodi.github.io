@@ -42,36 +42,36 @@ DELIVERY TIME ESTIMATION
 
 	[Done] Add explicit explanation on waiting time. (R2-Q3-1)
 	
-	Clearer mathematical notation. (R2-Q3-3)
+	[Done] Clearer mathematical notation. (R2-Q3-3)
 	
 	Add discussion on the amount of needed historical data and how long the estimation takes. 
 	Discuss the situation where participate rate vairies. (R1-Q3-2)
 	
-	Reconsider the setting of parcipating rate. (R1-Q3-5)
+	[Done] Reconsider the setting of parcipating rate. (R1-Q3-5)
 	
-	Add explanation on K-S test result. (R1-Q3-6)
+	[Done] Add explanation on K-S test result. (R1-Q3-6)
 	
-	Add explanation on Fig 6 and 7. (R2-Q1-1)
+	[Done] Add explanation on Fig 6 and 7. (R2-Q1-1)
 
 ROUTING WITH CONSTRAINTS
 
-	Clearer mathematical notation. (R2-Q3-3)
+	[Done] Clearer mathematical notation. (R2-Q3-3)
 	
-	Adjust the algorithm part. (to improve the technical novelty) (R1-Q3-1, R2-Q1)
+	[Done] Adjust the algorithm part. (to improve the technical novelty) (R1-Q3-1, R2-Q1)
 	
-	Remove the specific content on MATLAB nad intlinprog(). (R1-Q3-1)
+	[Done] Remove the specific content on MATLAB nad intlinprog(). (R1-Q3-1)
 	
-	Add more clear explanation of the dispatching mechanism, 
+	[Done] Add more clear explanation of the dispatching mechanism, 
 	especially why we design the route when courier comes. (R1-Q3-3)
 	
-	Add the complexity analysis of the online dispatching algorithm. (R1-Q3-4)
+	[Done] Add the complexity analysis of the online dispatching algorithm. (R1-Q3-4)
 	
-	Add more discussion and justification on the Pre parameter. 
+	[Done] Add more discussion and justification on the Pre parameter. 
 	Or we can find a way to skip the discussion on Pre. (R2-Q1-3, R2-Q3-2) 
 	
-	Change the price rate to variable and check the performance in the evaluation section. (R2-Q1-2)
+	[Done] Change the price rate to variable and check the performance in the evaluation section. (R2-Q1-2)
 	
-	Improve the description of " Approximation of the Modified CSP Problem" subsection. (R2-Q2-4)
+	[Done] Improve the description of "Approximation of the Modified CSP Problem" subsection. (R2-Q2-4)
 
 PERFORMANCE EVALUATION
 
@@ -131,7 +131,7 @@ Weaknesses:
    1. In Section 2.3, the authors argue “a detour is needed in current crowd delivery designs” and claim that “the detour can be eliminate by delivering the package via public transport and picking up from a station instead of from the front door of the house.” The detour is eliminated in hitchhiking delivery because the users are required to change the delivery address from home to the station, which indeed increases inconvenience to the users. The detour problem is avoided instead of being solved. A detour is inevitable if we don't require the users change delivery address. Hence, the claimed benefit of hitchhiking is not reasonable. Actually, I think using public transport as a new way to accomplish crowd delivery is good enough to motivate this work. The authors should not overclaim the advantage of doing so. 
 
       Re:  1. Remove the overclaim about the detour, focus on the **public transport**
-      	2. Explain how to resolve the "station to door" problem.
+      ​	2. Explain how to resolve the "station to door" problem.
 
 3. **Limited technical novelty.** 
 
