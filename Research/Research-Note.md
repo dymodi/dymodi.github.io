@@ -9,11 +9,12 @@ author: Yi DING
 
 ## Target Conference
 
-| Date       | Conference | Project                                                      |
-| ---------- | ---------- | ------------------------------------------------------------ |
-| 2018.11.15 | IMWUT      | [Crowd Delivery](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Crowd-Delivery/Revision-History.md) |
-| 2018.12.1  | MobiSys    | [Virtual Beacon](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Virtual-Beacon/virtual-beacon.md) |
-| 2018.2.11  | KDD        | [RL based Dispatching/Routing](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Rider-Routing/rider-routing.md) |
+| Date       | Conference   | Project                                                      |
+| ---------- | ------------ | ------------------------------------------------------------ |
+| 2018.11.15 | IMWUT        | [Crowd Delivery](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Crowd-Delivery/Revision-History.md) |
+| 2018.12.1  | MobiSys      | [Virtual Beacon](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Virtual-Beacon/virtual-beacon.md) |
+| 2018.2.11  | KDD          | [RL based Dispatching/Routing](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Rider-Routing/rider-routing.md) |
+| 2019.3     | CPS Proposal |                                                              |
 
 ## August Priorities
 
@@ -74,16 +75,34 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
-09/11/18
+09/20/18
 
-1. 修改痛点计划slides
-2. 写驻店模型专利
-3. 测试python上的kstest在running time上的效果
+和老板meeting：
 
-09/10/18
+1. 需要着手考虑和写一个CPS的proposal（同时作为我的thesis proposal）
+2. 痛点计划的讨论
 
-1. 重跑了three order 的任务，加上了shop_id，明天可以用以“learn from veteran”的motivation
-2. 确定还是用gaussian来描述waiting time，重写kstest的python版本，但kstest的通过率极其低，只有60%，和之前Matlab的版本差很多，考虑明天试一下running time再说。
+09/17/18 ~ 09/21/18
+
+1. 尝试公司内的计算平台
+
+   * Zeppelin：[http://](http://bdi-zeppelin.elenet.me/#/notebook/2DPDFF1MY)[bdi-zeppelin.elenet.me/#/](http://bdi-zeppelin.elenet.me/#/) 易掉线，无人维护，不靠谱
+   * Elearn：<http://wiki.ele.to:8090/pages/viewpage.action?pageId=42144321>无人维护，不靠谱
+
+   * IoT 自有服务器：<http://eapp.tools.elenet.me/#/group/0/1/3/21?appid=bdi.shopstate>  需要自己搭环境，容器结构，重启后数据会消失，不靠谱
+   * BDI的视觉组服务器：<http://eapp.tools.elenet.me/#/group/0/1/3/17?appid=bdi.vision_engine>   无空间
+   * 尚待建立的自有机器学习平台：～
+
+2. 用Python重写crowd-delivery的time estimation
+
+09/10/18 ~ 09/14/18
+
+1. 准备potential topic “learn from veteran”
+2. 修改痛点计划slides
+3. 写驻店模型专利
+4. 测试python上的kstest在running time上的效果
+5. 重跑了three order 的任务，加上了shop_id，明天可以用以“learn from veteran”的motivation
+6. 确定还是用gaussian来描述waiting time，重写kstest的python版本，但kstest的通过率极其低，只有60%，和之前Matlab的版本差很多，考虑明天试一下running time再说。
 
 09/06/18
 
