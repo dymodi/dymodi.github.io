@@ -21,11 +21,19 @@ sklearn has provide a vast nunmber of [tools](http://scikit-learn.org/stable/mod
 
 **Accuracy**
 
-[Accuracy](https://developers.google.com/machine-learning/crash-course/classification/accuracy) is one (most basic) metric for evaluating classification models.
+[Accuracy](https://developers.google.com/machine-learning/crash-course/classification/accuracy) : Overall, how often is the classifier correct?. It is one (most basic) metric for evaluating classification models,
 
 $$\text{Accuracy} = \frac{\text{Number of correct predictions}}{\text{Total number of predictions}}$$
 
 $$\text{Accuracy} = \frac{TP+TN}{TP+TN+FP+FN}$$
+
+**True Positive Rate (TPR), Recall**: 
+
+$$\text{Recall} = \frac{TP}{TP+FN}$$
+
+**Precision**: When it predicts yes, how often is it correct?
+
+$$\text{Precision} = \frac{TP}{TP+FP}$$
 
 **ROC, AUC**
 
