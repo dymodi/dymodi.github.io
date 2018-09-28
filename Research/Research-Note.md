@@ -75,6 +75,12 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+09/27/18
+
+1. 优先解决驻店模型的问题
+2. 确认那张napos的表里的 shop_in_mall 的字段能不能使用。
+3. 维护“驻店模型V1.0”的wiki页面。
+
 09/20/18
 
 和老板meeting：

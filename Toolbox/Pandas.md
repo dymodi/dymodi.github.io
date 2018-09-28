@@ -28,6 +28,8 @@ rssi_dataframe.head()
 california_housing_dataframe.describe()
 # Histogram of certain feature
 california_housing_dataframe.hist('housing_median_age')
+# Value counts
+data['some_col'].value_counts()
 ```
 
 ## Indexing
