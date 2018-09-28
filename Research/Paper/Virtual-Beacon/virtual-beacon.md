@@ -21,6 +21,12 @@ author: Yi DING
 
 
 
+## 需要讨论的几个问题
+
+1. shop_id, device_id, beacon_id, uuid, dt, device_id 等无用列从特征列表中删除。
+2. manufacturer, brand, model 怎么转成 int 型？并且这个转换过程能在线实现
+3. 
+
 
 
 

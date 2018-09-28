@@ -30,6 +30,9 @@ author: Yi DING
 
 ## Highlight
 
+* **优先解决驻店模型的问题**
+  * shop_in_mall 字段
+  * 无实体Beacon的商户的label
 * 从系统的角度考虑问题，不要陷入算法和理论的具体方向，那不是长处，也不是重点
 * Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划。
 
@@ -75,11 +78,18 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+09/28/18
+
+1.  shop_in_mall 字段的跟进：张子轩
+2. 无实体beacon店的验证：DZG
+3. 开始推自己的驻店模型（category的字段需要跟ZTY那面协调）
+4. 开始改写crowd delivery的代码，准备改论文
+5. 虚拟Beacon的可靠性
+
 09/27/18
 
-1. 优先解决驻店模型的问题
-2. 确认那张napos的表里的 shop_in_mall 的字段能不能使用。
-3. 维护“驻店模型V1.0”的wiki页面。
+1. 确认那张napos的表里的 shop_in_mall 的字段能不能使用。
+2. 维护“驻店模型V1.0”的wiki页面。
 
 09/20/18
 
