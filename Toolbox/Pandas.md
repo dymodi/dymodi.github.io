@@ -30,6 +30,8 @@ california_housing_dataframe.describe()
 california_housing_dataframe.hist('housing_median_age')
 # Value counts
 data['some_col'].value_counts()
+# Remove rows
+df[df.name != 'Tina']
 ```
 
 ## Indexing

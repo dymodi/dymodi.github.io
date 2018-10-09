@@ -78,25 +78,24 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
-09/28/18
+10/08/18
 
-1.  shop_in_mall 字段的跟进：张子轩
-2. 无实体beacon店的验证：DZG
-3. 开始推自己的驻店模型（category的字段需要跟ZTY那面协调）
-4. 开始改写crowd delivery的代码，准备改论文
-5. 虚拟Beacon的可靠性
+1. 老板还是希望深入研究“shop_in_mall”的问题，和张子轩讨论出了一些方向，让他去试试。
+2. 关于监测率的问题，看看过去一周检测率的变化，尝试找到某个场景检测率能到100%，比如“蓝牙打开”的场景。（先得等季芸把heard的那张表修好）
+3. 驻店模型遇到一些问题，详见“To-Do-List-and-Problems”。
+   1. 经纬度用0补齐是没有意义的，考虑用历史数据补齐。
+4. 关于crowd delivery，开始读入数据跑实验了，因为其实python版的代码还没写，所以要加快了。
 
-09/27/18
+09/27/18 ~ 09/30/18: 
 
-1. 确认那张napos的表里的 shop_in_mall 的字段能不能使用。
-2. 维护“驻店模型V1.0”的wiki页面。
-
-09/20/18
-
-和老板meeting：
-
-1. 需要着手考虑和写一个CPS的proposal（同时作为我的thesis proposal）
-2. 痛点计划的讨论
+1. 维护“驻店模型V1.0”的wiki页面。
+2. 在驻店模型中考虑 “shop_in_mall” 的问题，考虑过GPS的轨迹，效果不好。也考虑过让BD手动反馈，但老板觉得不好。
+   1. 确认了那张napos的表里的 shop_in_mall 的字段能不能使用。
+3. 无实体Beacon的商户的label或验证问题，DZG那面提出了一种基于同时听到的Beacon列表的方法，但似乎效果不好。可以等数据量再上来一点再说。
+4. 开始推自己的驻店模型
+   1. 和ZTY那面协调了category的字段。
+5. 开始改写crowd delivery的代码，准备改论文
+6. 虚拟Beacon的可靠性
 
 09/17/18 ~ 09/21/18
 
@@ -107,8 +106,9 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
    * [IoT 自有服务器](http://eapp.tools.elenet.me/#/group/0/1/3/21?appid=bdi.shopstate)： 需要自己搭环境，容器结构，重启后数据会消失，不靠谱
    * [BDI的视觉组服务器](http://eapp.tools.elenet.me/#/group/0/1/3/17?appid=bdi.vision_engine) 无空间
    * 尚待建立的自有机器学习平台：～
-
 2. 用Python重写crowd-delivery的time estimation
+3. 需要着手考虑和写一个CPS的proposal（同时作为我的thesis proposal）
+4. 痛点计划的讨论
 
 09/10/18 ~ 09/14/18
 
