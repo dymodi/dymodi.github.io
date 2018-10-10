@@ -41,3 +41,17 @@ some_value = california_housing_dataframe.iloc[i]['housing_median_age']
 # Returen element by index (origin index)
 some_value = california_housing_dataframe.loc[i]['housing_median_age']
 ```
+
+## Datetime
+
+```python
+# Create datetime object
+place_time = pd.to_datetime('2013-12-12 10:00:00')
+# Time diff
+t1 = pd.to_datetime('1/1/2015 01:00')
+t2 = pd.to_datetime('1/1/2015 03:30')
+print pd.Timedelta(t2 - t1).seconds / 3600.0
+# Get day of datetime
+place_time.day
+```
+
