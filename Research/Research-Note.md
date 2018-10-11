@@ -78,6 +78,11 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+10/11/18
+
+1. 驻店模型初始版本完成；
+2. 明确下阶段分工
+
 10/10/18
 
 1. 继续写Crowd delivery的主函数
@@ -85,8 +90,7 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 3. 查论文，针对重要性高的特征，有没有分层的策略。
 4. 阿里工具培训
 5. 明天站会：
-   1. 反应一下NaN的问题；
-   2. 讨论驻店模型挪到PAI平台（优势：数据直接倒入，算法成熟，规模大，评估指标全）。
+   1. 讨论驻店模型挪到PAI平台（优势：数据直接倒入，算法成熟，规模大，评估指标全）。
 
 10/09/18
 

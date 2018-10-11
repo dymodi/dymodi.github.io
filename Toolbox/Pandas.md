@@ -32,6 +32,8 @@ california_housing_dataframe.hist('housing_median_age')
 data['some_col'].value_counts()
 # Remove rows
 df[df.name != 'Tina']
+# Reset index
+df = df.reset_index(drop=True)
 ```
 
 ## Indexing
