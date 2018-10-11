@@ -78,6 +78,16 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+10/10/18
+
+1. 继续写Crowd delivery的主函数
+2. 出一个驻店模型的测试结果，11月15号要上线一个最初的版本。
+3. 查论文，针对重要性高的特征，有没有分层的策略。
+4. 阿里工具培训
+5. 明天站会：
+   1. 反应一下NaN的问题；
+   2. 讨论驻店模型挪到PAI平台（优势：数据直接倒入，算法成熟，规模大，评估指标全）。
+
 10/09/18
 
 1. 经过ZZX那面的测试，可以考虑用GPS的信号来源的占比作为判定商户为室内室外的方法。
@@ -86,6 +96,7 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 2. 季芸已经修好表，过去一周虚拟Beacon的监听率有所上升。但关于具体什么场景下监测率能到100%的问题，需要等季芸回来再一起讨论。
 3. 和ZTY对接要添加的特征。
 4. DZG那面的结果有起色，但还是不够好，让他画了一下beacon的分布。顺便再想想有没有别的方法。
+5. crowd delivery 已经写了两个函数，但是自己的主函数还没写。
 
 10/08/18
 
