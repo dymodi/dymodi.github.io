@@ -78,10 +78,14 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+10/12/18
+
+1. 
+
 10/11/18
 
 1. 驻店模型初始版本完成；
-2. 明确下阶段分工
+2. 明确下阶段分工。
 
 10/10/18
 
