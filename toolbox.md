@@ -12,7 +12,9 @@ date: Jan. 4, 2018
 
 [Python Packaging](Toolbox/Python-Packaging)
 
-[Pandas](Toolbox/Pandas) Popular tool for data analysis in Python.
+[Pandas](Toolbox/Pandas) 
+
+[NetworkX](Toolbox/NetworkX)
 
 ## SQL
 

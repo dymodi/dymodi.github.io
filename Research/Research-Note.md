@@ -78,9 +78,11 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
-10/12/18
+10/15/18
 
-1. 
+1. 继续Crowd delivery仿真
+2. 推进模型对接
+3. 规划帅哥那面的分工
 
 10/11/18
 
