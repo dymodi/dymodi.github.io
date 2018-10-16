@@ -30,9 +30,6 @@ author: Yi DING
 
 ## Highlight
 
-* **优先解决驻店模型的问题**
-  * shop_in_mall 字段
-  * 无实体Beacon的商户的label
 * 从系统的角度考虑问题，不要陷入算法和理论的具体方向，那不是长处，也不是重点
 * Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划。
 
