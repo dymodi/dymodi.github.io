@@ -78,6 +78,15 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+10/16/18
+
+站会总结：
+
+1. 模型这面正在和佳明对接；
+2. shop_in_mall那面感觉很难把准确率做上90%，所以还是准备做成一个特征；
+3. 无实体beacon的label方面，DZG尝试用Wi-Fi列表来标签，感觉比商户列表的方法要准确很多；基于这个想法还可以尝试做一个规则模型；
+4. 数据那面让季芸来说，两个版本的数据量
+
 10/15/18
 
 1. 继续Crowd delivery仿真
