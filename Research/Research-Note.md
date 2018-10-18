@@ -75,7 +75,25 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+10/18/18
 
+开始跑仿真
+
+需要跑的仿真：
+
+1. x = participate_rate = [0.1~1.0], y = delivery_rate, legend =  our_path, other_path
+2. x = participate_rate = [0.1~1.0], y = profit, legend =  our_path, other_path
+3. x = participate_rate = [0.1~1.0], y = delivery_rate, legend = epsilon = [0.01, 0.1, 0.2]
+4. x = time_constraint = [60, 120 ~, 360], y = delivery_rate
+5. x = cust_pay = [1,2,~10], y = profit, legend = [time_cons, 60, 120, 180]
+
+10/17/18
+
+任务：
+
+1. 修bug，时间戳
+2. 修bug，调ESPPRC前检查connection
+3. 更新ESPRRC库
 
 10/16/18
 
