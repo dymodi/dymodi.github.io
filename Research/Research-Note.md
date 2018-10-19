@@ -75,45 +75,31 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
-10/18/18
 
-开始跑仿真
 
-需要跑的仿真：
+10/15/18 ~ 10/19/18:
 
-1. x = participate_rate = [0.1~1.0], y = delivery_rate, legend =  our_path, other_path
-2. x = participate_rate = [0.1~1.0], y = profit, legend =  our_path, other_path
-3. x = participate_rate = [0.1~1.0], y = delivery_rate, legend = epsilon = [0.01, 0.1, 0.2]
-4. x = time_constraint = [60, 120 ~, 360], y = delivery_rate
-5. x = cust_pay = [1,2,~10], y = profit, legend = [time_cons, 60, 120, 180]
+1. Crowd Delivery
+   1. 完成Python版本，开始仿真；
+   2. x = participate_rate = [0.1~1.0], y = delivery_rate, legend =  our_path, other_path
+   3. x = participate_rate = [0.1~1.0], y = profit, legend =  our_path, other_path
+   4. x = participate_rate = [0.1~1.0], y = delivery_rate, legend = epsilon = [0.01, 0.1, 0.2]
+   5. x = time_constraint = [60, 120 ~, 360], y = delivery_rat, legend =  our_path, other_path
+      1. 6*10
+   6. x = cust_pay = [1,2,~10], y = profit, legend = [time_cons, 60, 120, 180]
+2. 驻店模型：
+   1. 给陆佳明那面准备对接的特征列表；
+   2. 标签逻辑要反思（现有的是季芸的实体Beacon思路和DZG的Wi-Fi蓝牙思路）；
+   3. DZG基于Wi-Fi和蓝牙的思路如果靠谱的话甚至可以做成规则模型；
+   4. 考虑下一个版本要添加的特征；
+   5. shop_in_mall方面似乎可以做上90%的准确度，要考虑怎么融合进来了；
+   6. 还有一些遗留问题，详见“To-Do-List-and-Problems”。
+3. 东南方面
+   1. 准备一份项目介绍；
+   2. 周三开会；
+4. 
 
-10/17/18
 
-任务：
-
-1. 修bug，时间戳
-2. 修bug，调ESPPRC前检查connection
-3. 更新ESPRRC库
-
-10/16/18
-
-站会总结：
-
-1. 模型这面正在和佳明对接；
-2. shop_in_mall那面感觉很难把准确率做上90%，所以还是准备做成一个特征；
-3. 无实体beacon的label方面，DZG尝试用Wi-Fi列表来标签，感觉比商户列表的方法要准确很多；基于这个想法还可以尝试做一个规则模型；
-4. 数据那面让季芸来说，两个版本的数据量，特征是否有改进；
-
-今天任务：
-
-1. 和老板讨论我们标签的逻辑
-2. 驻店模型遇到一些问题，详见“To-Do-List-and-Problems”。
-3. 规划帅哥那面的分工
-
-10/15/18
-
-1. 继续Crowd delivery仿真
-2. 推进模型对接
 
 10/8/18 ~ 10/12/18:
 
