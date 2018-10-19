@@ -17,3 +17,4 @@ data_preparation-checkpoint.ipynb
 route_test-checkpoint.ipynb
 rider_trace-checkpoint.ipynb
 three_order_trace-checkpoint.ipynb
+*.nssyncsc
