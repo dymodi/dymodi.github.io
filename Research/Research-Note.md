@@ -75,6 +75,12 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+10/22/18:
+
+1. 考虑驻店模型label的实地测试；
+2. 考虑两个label逻辑的互相检验
+3. Crowd delivery跑仿真
+
 
 
 10/15/18 ~ 10/19/18:
@@ -85,7 +91,7 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
    3. x = participate_rate = [0.1~1.0], y = profit, legend =  our_path, other_path
    4. x = participate_rate = [0.1~1.0], y = delivery_rate, legend = epsilon = [0.01, 0.1, 0.2]
    5. x = time_constraint = [60, 120 ~, 360], y = delivery_rat, legend =  our_path, other_path
-      1. 6*10
+      1. 6*10 (2 figures, p_rate, 1, 0.1)
    6. x = cust_pay = [1,2,~10], y = profit, legend = [time_cons, 60, 120, 180]
 2. 驻店模型：
    1. 给陆佳明那面准备对接的特征列表；
