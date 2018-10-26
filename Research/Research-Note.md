@@ -75,13 +75,23 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
-10/22/18:
+10/29/18 ~ 11/02/18:
 
-1. 考虑驻店模型label的实地测试；
-2. 考虑两个label逻辑的互相检验
-3. Crowd delivery跑仿真
+1. 选取一个商户的一天整体情况来验证模型；
+2. 在线特征拿不到的情况怎么办？
+3. 模型效果从90%往上走的情况？
+4. 协助宋一苇开始餐箱的数据分析
 
 
+
+10/21/18 ~ 10/26/18:
+
+1. Crowd Delivery
+   1. 代码放到服务器上开始仿真；
+2. 驻店模型：
+   1. 驻店模型label的实地测试，得到一些insight；
+   2. 驻店模型 label拼接方案：把确定的1和确定的0拼起来；
+   3. 删掉特征中的is_bpc和Wi-Fi效果依然很好；
 
 10/15/18 ~ 10/19/18:
 
@@ -103,9 +113,6 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 3. 东南方面
    1. 准备一份项目介绍；
    2. 周三开会；
-4. 
-
-
 
 10/8/18 ~ 10/12/18:
 
