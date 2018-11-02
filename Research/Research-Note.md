@@ -30,6 +30,7 @@ author: Yi DING
 
 ## Highlight
 
+* 把系统平台和百万级用户作为核心和独特点
 * 从系统的角度考虑问题，不要陷入算法和理论的具体方向，那不是长处，也不是重点
 * Time-dependent的东西再想想，根据waiting time的特点想新的问题和新的方法，不局限于路径规划。
 
@@ -51,7 +52,14 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
   * UAV Delivery
   * ~~Rider behavior prediction (Done by Yan Zhang)~~ 
 
+* IoT Oriented Machine Learning
+
+  * Missing Value Imputation in IoT (Spatial-Temporal Relevance)
+  * Weak label in IoT learning
+
 * Applications based on data
+
+  - User Profiling
   - Learn From Veteran: Rider Route Recommendation based on Experienced Riders
   - Monetary Incentive for Riders: Speed and Safety
   - Dangerous Driving Detection with Cellphone Data
@@ -75,11 +83,54 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
-10/29/18 ~ 11/02/18:
+11/05/18 ~ 11/09/18:
 
 1. 选取一个商户的一天整体情况来验证模型；
 2. 在线特征拿不到的情况怎么办？
 3. 模型效果从90%往上走的情况？
+4. @Tian 要求搞清楚10分钟内商户进出的验证
+5. 商户某一天的典型行为分析 @DZG
+
+
+
+10/29/18 ~ 11/02/18:
+
+虚拟Beacon：
+
+1. 到店离店的CDF
+2. 添加蓝牙的规则后，打1的比例会提高到20%
+3. 新版本的数据占比有多少？要用起来？
+   1. 第二版的数据已经在用了，第三版的数据
+
+Crowd-Delivery:
+
+1. 把Evaluation改出来
+2. 添加hop_num的数据，
+3. 把 in-field test 改出来
+
+东南方面：
+
+1. 探讨重启RADD的项目；
+
+2. 东南开会：
+
+   1. 添加到mendeley的组；
+   2. 讨论radd项目的strength和limitation；
+   3. 探讨新的项目
+
+3. 更新一下RADD的slides，看能不能和virtual beacon共享一个story。
+
+   跟帅哥讨论：
+
+   1. RADD的项目最好能够套上饿了么平台和百万级别用户的壳（需要和老板讨论）；
+   2. 基于送餐的OD时间预估，送餐地图更新的项目（需要和老板讨论得到权限，然后去和业务部门讨论）；
+   3. 送餐员和用户的用户画像（需要和老板讨论得到权限，然后去和业务部门讨论）
+
+研究探索：
+
+1. Semi-supervised learning 论文调研
+2. Inaccurate label 论文调研
+3. Missing value 论文调研
 4. 协助宋一苇开始餐箱的数据分析
 
 
@@ -92,17 +143,17 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
    1. 驻店模型label的实地测试，得到一些insight；
    2. 驻店模型 label拼接方案：把确定的1和确定的0拼起来；
    3. 删掉特征中的is_bpc和Wi-Fi效果依然很好；
+3. 东南：
+   1. 帅哥关于CD的ubicomp提了一些建议，可以看看那两篇文章；
+   2. 后续餐箱的项目考虑合作；
+   3. 给了他学生一点数据，下周开会可以问一下进度；
+
+
 
 10/15/18 ~ 10/19/18:
 
 1. Crowd Delivery
    1. 完成Python版本，开始仿真；
-   2. x = participate_rate = [0.1~1.0], y = delivery_rate, legend =  our_path, other_path
-   3. x = participate_rate = [0.1~1.0], y = profit, legend =  our_path, other_path
-   4. x = participate_rate = [0.1~1.0], y = delivery_rate, legend = epsilon = [0.01, 0.1, 0.2]
-   5. x = time_constraint = [60, 120 ~, 360], y = delivery_rat, legend =  our_path, other_path
-      1. 6*10 (2 figures, p_rate, 1, 0.1)
-   6. x = cust_pay = [1,2,~10], y = profit, legend = [time_cons, 60, 120, 180]
 2. 驻店模型：
    1. 给陆佳明那面准备对接的特征列表；
    2. 标签逻辑要反思（现有的是季芸的实体Beacon思路和DZG的Wi-Fi蓝牙思路）；
@@ -113,6 +164,8 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 3. 东南方面
    1. 准备一份项目介绍；
    2. 周三开会；
+
+
 
 10/8/18 ~ 10/12/18:
 
@@ -134,6 +187,8 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
    5. 讨论驻店模型挪到PAI平台（优势：数据直接导入，算法成熟，规模大，评估指标全）。
 5. Crowd delivery
    1. Python重写包括自己算法在内的四个函数。
+
+
 
 09/27/18 ~ 09/30/18: 
 
