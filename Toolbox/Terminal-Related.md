@@ -13,13 +13,14 @@ author: Yi DING
 
 
 
-| Command | Function                  |
-| ------- | ------------------------- |
-| `scp`   | Copy file between servers |
-| `mkdir` | Create folder             |
-| `touch` | Create file               |
-| `clear` | Clear                     |
-| `df -h` | Check file system         |
+| Command               | Function                             |
+| --------------------- | ------------------------------------ |
+| `scp`                 | Copy file between servers            |
+| `mkdir`               | Create folder                        |
+| `touch`               | Create file                          |
+| `clear`               | Clear                                |
+| `df -h`               | Check file system                    |
+| `ps -ef |grep python` | Check thread done by `nohup` command |
 
 
 

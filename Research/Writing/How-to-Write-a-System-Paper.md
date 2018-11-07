@@ -105,7 +105,7 @@ Evaluation is not a simple show off of our own system, but a comprehensive test 
 * It performs better under what cases? Why?
 * It performs worse under what cases? Why? What inspiration we have for following works?
 
-Also not that the cases in the evaluation section can be only a subset of the design section.
+Also note that the cases in the evaluation section can be only a subset of the design section.
 
 **Recommended Structure:**
 

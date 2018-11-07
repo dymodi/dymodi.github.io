@@ -98,6 +98,16 @@ import matplotlib.pyplot as plt
 # Save fig setting (avoid being cut)
 from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
+# Set fontsize and axis size
+import matplotlib.pylab as pylab
+params = {'legend.fontsize': 'x-large',
+          'figure.figsize': (15, 5),
+         'axes.labelsize': 'x-large',
+         'axes.titlesize':'x-large',
+         'xtick.labelsize':'x-large',
+         'ytick.labelsize':'x-large'}
+pylab.rcParams.update(params)
+
 
 fig = plt.figure()
 plt.plot(x, y1,  color='salmon', markersize=8, label='first curve')

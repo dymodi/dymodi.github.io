@@ -37,6 +37,9 @@ author: Yi DING
 \label{reflabel}
 \vspace{-0.15in}
 \end{figure}
+
+% Reduce caption space
+\usepackage[font=small,skip=0pt]{caption}
 ```
 
 ### Tables
