@@ -13,6 +13,10 @@ Since some of the contents are from other papers, please remember to adjust befo
 
 ## General Contents
 
+### Introduction - Problem Importance / Innovation
+
+However, despite sharing some common characteristics a one-size-fits- all solution does not exist in this space. （可以用在 application-customized 的文章里）
+
 ### Introduction - System Work
 
 We present the first systematic work to design, implement, and evaluate a carpool service, called coRide, in a large-scale taxicab network intended to reduce total mileage for less gas consumption. -- Desheng, coRide

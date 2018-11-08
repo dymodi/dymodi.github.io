@@ -11,15 +11,17 @@ author: Yi DING
 
 ## adj.
 
-unprecedented
-
 consistent
-
-transparent
 
 oriented
 
+rigorous 
+
 subtle
+
+transparent
+
+unprecedented
 
 a myriad of - variety of 
 
@@ -27,11 +29,17 @@ a myriad of - variety of
 
 ## v.
 
+tailor
+
+underpin
+
 
 
 ## n.
 
 deficiencies - disadvantages - shortcomings
+
+marketplace
 
 scenarios
 
