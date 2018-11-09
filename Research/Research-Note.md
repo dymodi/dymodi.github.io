@@ -93,6 +93,17 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 
 
+11/09/18
+
+跟老板讨论的内容：
+
+1. Ubicomp
+2. 自己的虚拟beacon项目
+3. 和王帅合作的项目
+4. DZG和ZZX的项目
+
+
+
 10/29/18 ~ 11/02/18:
 
 虚拟Beacon：
