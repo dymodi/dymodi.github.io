@@ -40,6 +40,7 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 * Fundamental topics:
   * Virtual Beacon
+  * Near-field Interactions
   * GPS correction based on virtual beacon results
   * ~~Security/Authentication (Hardware related) (Not good idea)~~
 
@@ -83,24 +84,36 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
-11/05/18 ~ 11/09/18:
+11/12/18 ～ 11/16/18:
 
-1. 选取一个商户的一天整体情况来验证模型；
-2. 在线特征拿不到的情况怎么办？
-3. 模型效果从90%往上走的情况？
-4. @Tian 要求搞清楚10分钟内商户进出的验证
-5. 商户某一天的典型行为分析 @DZG
+1. 模型效果从90%往上走的情况？
+2. @Tian 要求搞清楚10分钟内商户进出的验证
 
 
 
-11/09/18
+11/16/18:
+
+跟老板讨论的内容：
+
+1. 自己的虚拟beacon项目
+2. DZG和ZZX的项目
+
+11/12/18
 
 跟老板讨论的内容：
 
 1. Ubicomp
-2. 自己的虚拟beacon项目
+2. 回美国时间
 3. 和王帅合作的项目
-4. DZG和ZZX的项目
+4. 我准备的proposal的overview
+
+
+
+11/05/18 ~ 11/09/18:
+
+1. 选取一个商户的一天整体情况来验证模型；（Done）
+2. 在线特征拿不到的情况怎么办？（V1 done，后续版本需要考虑）
+3. 商户某一天的典型行为分析
 
 
 

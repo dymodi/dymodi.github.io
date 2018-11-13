@@ -63,6 +63,8 @@ A good explanation of ROC and AUC can be found [here](http://www.dataschool.io/r
 
 Plot of Predicted vs. Real
 
+**Quantiles for a probability plot (QQ-plot)**. [scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.probplot.html)
+
 **Residual Plots**
 
 **Mean Squared Error (MSE)**

@@ -7,15 +7,21 @@ author: Yi DING
 
 
 
-
+​	
 
 ## adj.
 
 consistent
 
+counter-intuitive
+
+massive
+
 oriented
 
 rigorous 
+
+severe
 
 subtle
 
@@ -27,7 +33,15 @@ a myriad of - variety of
 
 
 
+## adv.
+
+thoroughly
+
+
+
 ## v.
+
+raise (question/problem)
 
 tailor
 
@@ -41,6 +55,10 @@ deficiencies - disadvantages - shortcomings
 
 marketplace
 
+paradigm
+
+prosperity	
+
 scenarios
 
 
@@ -49,3 +67,4 @@ scenarios
 
 In constrast,
 
+Shed light on
