@@ -110,17 +110,33 @@ Also note that the cases in the evaluation section can be only a subset of the d
 **Recommended Structure:**
 
 1. Metrics
+
 2. Baseline Approach
+
 3. Dimension A (X axes A)
+
 4. Dimension B (X axes B)
+
 5. Dimension C (X axes C)
+
 6. Summary
+
+**In-field Experiments**
+
+For system paper, it will be better to deploy the system to the real world and conduct some (small-scale) in-field experiements. It can be a special case of the whole evaluation section that we can get some insight of our design and test the practicability of our design.
+
 
 ## Related Works
 
 Taxnonmy
 
 We need to find a design space that excludes all the other existing works.
+
+A more organized related work section would show the significance of the topic, a **table** to organize all these papers into categories. 
+
+## Discussion
+
+Some lessons learned and insights about how our design could be potentially generalizable to other problem in the related fields.
 
 
 

@@ -37,6 +37,8 @@ a myriad of - variety of
 
 thoroughly
 
+specifically
+
 
 
 ## v.

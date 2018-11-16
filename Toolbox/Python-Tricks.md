@@ -199,3 +199,18 @@ time_SH = timezone('Asia/Shanghai').localize(time_SH)
 timestamp = time_SH.timestamp()
 ```
 
+
+
+## Profile the Code
+
+```python
+import cProfile
+cProfile.run('foo()')
+```
+
+or
+
+```bash
+python -m cProfile myscript.py
+```
+
