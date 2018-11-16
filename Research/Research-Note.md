@@ -9,21 +9,18 @@ author: Yi DING
 
 ## Target Conference
 
-| Date       | Conference                | Project                                                      |
-| ---------- | ------------------------- | ------------------------------------------------------------ |
-| 2018.11.15 | IMWUT                     | [Crowd Delivery](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Crowd-Delivery/Revision-History.md) |
-| 2018.12.1  | MobiSys                   | [Virtual Beacon](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Virtual-Beacon/virtual-beacon.md) |
-| 2018.2.11  | KDD                       | [RL based Dispatching/Routing](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Rider-Routing/rider-routing.md) |
-| 2019.3     | Instant Delivery Proposal | [Instant Delivery](https://github.com/dymodi/Proposal) 可以咨询王帅 |
+| Date      | Conference                | Project                                                      |
+| --------- | ------------------------- | ------------------------------------------------------------ |
+| 2018.2.11 | KDD                       | [RL based Dispatching/Routing](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Rider-Routing/rider-routing.md) |
+| 2019.2.28 | MobiCom                   | [Virtual Beacon](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Paper/Virtual-Beacon/virtual-beacon.md) |
+| 2019.3    | Instant Delivery Proposal | [Instant Delivery](https://github.com/dymodi/Proposal) 可以咨询王帅 |
 
-## Septerber Priorities
+## Priorities
 
 * New topics
   * 基于智能餐箱和智能锁的topics，江东哲提的learn from veteran
 * Virtual Beacon
   - 和老板讨论，确定solution
-* Crowd delivery
-  * 初步改，准备投11月的IMWUT
 * Time-depdent rider routing
   - 挖掘这个问题能打动老板的创新点，发KDD
 
@@ -42,7 +39,6 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
   * Virtual Beacon
   * Near-field Interactions
   * GPS correction based on virtual beacon results
-  * ~~Security/Authentication (Hardware related) (Not good idea)~~
 
 * Dispatching and routing
   * Dispatching/Routing with Reinforcement Learning
@@ -84,28 +80,25 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 ## Progress and Discussion
 
+11/19/18 ～ 11/23/18:
+
+1. 准备 Learn from Veteran 的 motivation
+2. 线上驻店模型验证
+3. 跟老板讨论
+   1. 自己的虚拟beacon 项目
+   2. Learn from Veteran 项目
+
+
+
 11/12/18 ～ 11/16/18:
 
-1. 模型效果从90%往上走的情况？
-2. @Tian 要求搞清楚10分钟内商户进出的验证
-
-
-
-11/16/18:
-
-跟老板讨论的内容：
-
-1. 自己的虚拟beacon项目
-2. DZG和ZZX的项目
-
-11/12/18
-
-跟老板讨论的内容：
-
-1. Ubicomp
-2. 回美国时间
-3. 和王帅合作的项目
-4. 我准备的proposal的overview
+1. 改Crowd Delivery论文
+2. 帮老板改slides（eleme Lab）
+3. 跟老板讨论的内容：
+   1. Ubicomp
+   2. 回美国时间
+   3. 和王帅合作的项目
+   4. 我准备的proposal的overview
 
 
 
