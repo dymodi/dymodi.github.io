@@ -43,8 +43,8 @@ In an Abstract, we mainly provide the following four pieces of information:
 Introduction is possibly the most important section of the paper, since reviewers and reads might choose to continue reading or give up after reading the Introduction. Usually we have the following paragraphs in the Introduction:
 
 * The background (story)
-* Challenges and motivations
 * Related works
+* Challenges and motivations
 * The solution we proposed
 * The contribution of this paper
 

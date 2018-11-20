@@ -90,6 +90,32 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 
 
+11/20/18:
+
+1. 和老板讨论Virtual Beacon的项目：
+   1. 题目太naive，没有创新性，养成好好起名字的习惯；
+   2. Replace Beacon with Cellphone 是一个太工程的题目，要进行抽象和拔高。而且这个一上来的mian claim就太不吸引人。
+   3. 比如我们可以探讨 Anchorlization，探讨如何用Cellphone作为anchor。而这个anchor本身不局限于BLE Beacon。
+   4. 那个系统的图还是可以，基于这个图就比较容易表达自己的思路。
+   5. Anchorlization 这个大的方向可以，但具体还是要自己去填充。
+   6. 还是要多思考，找到文章主要gist.
+      1. Mobility Pattern 
+2. 和ZZX讨论Virtual Beacon的项目：
+   1. 有没有必要添加着绑定过程？如果不绑定会怎么样？（其实不绑定就是另外一个近场交互的项目）
+
+11/19/18:
+
+1. 关于虚拟Beacon的项目
+   1. 现在看起来太像一个定位问题；
+   2. 要么就抛弃虚拟Beacon的设定，完全把驻店模型做成一个KDD的机器学习文字；
+   3. 要么就要涵盖定位之外的更多东西；比如，除了定位，你把它做成一个beacon系统还有什么难点？
+
+2. 关于Ride-Routing的项目
+   1. 先找一些骑手们取三单或者四单的pattern，因为如果啊大家都完全一样就没有意义了
+3. 
+
+
+
 11/12/18 ～ 11/16/18:
 
 1. 改Crowd Delivery论文

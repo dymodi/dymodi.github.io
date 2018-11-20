@@ -11,11 +11,22 @@ Since some of the contents are from other papers, please remember to adjust befo
 
 [TOC]
 
+## Abstract
+
+Basically, the existing XX (topic) can be classiffied into two categories, i.e., XX and XX.
+（这样的一句话可以帮读者理清思路，同时体现作者在这方面的功力） 
+
+
+
 ## General Contents
 
 ### Introduction - Problem Importance / Innovation
 
 However, despite sharing some common characteristics a one-size-fits- all solution does not exist in this space. （可以用在 application-customized 的文章里）
+
+### Introduction - Related Works to Challnegs
+
+**Even with** the above state-of-the-art sensing approaches, real-time urban-scale CL is **still challenging** to model because of the spatiotemporal coverage and accuracy of sensing sys- tems. For
 
 ### Introduction - System Work
 

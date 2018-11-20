@@ -52,7 +52,7 @@ select t01.*
 	(LEAD (ocurred_time, 11) OVER (PARTITION by carrier_driver_id ORDER BY ocurred_time)) as ocurred_time_12,
 	(LEAD (platform_merchant_id, 11) OVER (PARTITION by carrier_driver_id ORDER BY ocurred_time)) as shop_id_12,
 	(LEAD (tracking_id, 11) OVER (PARTITION by carrier_driver_id ORDER BY ocurred_time)) as tracking_id_12
-	from dw_analyst.dw_analyst_yiding_tracking_event_with_tag
+	from dw_ai.dw_ai_yiding_tracking_event_with_tag
 	where dt = '${day}' and get_date(ocurred_time) = '${day}'
 ) t01
 where t01.state_2 is not null;
@@ -155,14 +155,15 @@ on t01.rider_id = t02.rider_id and t01.rn = t02.rn;
 ---- 按列输出的最终表（有商户id，grid_id，商户位置）
 drop table if exists temp.temp_yiding_three_order_agg_final;
 create table temp.temp_yiding_three_order_agg_final as
-select t01.*, t02.latitude, t02.longitude,  t03.shop_latitude, t03.shop_longitude, t02.grid_id
+select t01.*, t02.latitude, t02.longitude,  t03.shop_latitude, t03.shop_longitude, t02.grid_id,
+row_number() over (partition by rn order by t01.ocurred_time) as inner_rn 
 from (
 	select *
 	from temp.temp_yiding_three_order_agg_filtered
 ) t01
 join (
 	select *
-	from dw_analyst.dw_analyst_yiding_tracking_event_with_tag
+	from dw_ai.dw_ai_yiding_tracking_event_with_tag
 	where dt = '${day}' and get_date(ocurred_time) = '${day}'
 ) t02
 on t01.rider_id = t02.carrier_driver_id and t01.tracking_id = t02.tracking_id
@@ -201,5 +202,53 @@ join (
 	where dt = '${day}'
 ) t04
 on t01.tracking_id_3 = t04.tracking_id;
+
+----- 联表，看不同骑手针对同一个商户序列的不同反应
+----- 先得到左右分列的rider_id和rn
+drop table if exists temp.temp_yiding_three_order_two_rider_same_shops;
+create table temp.temp_yiding_three_order_two_rider_same_shops as
+select t1.rider_id as rider_id_1, t1.rn as rn_1,
+t2.rider_id  as rider_id_2, t2.rn as rn_2
+from (
+	select *
+	from temp.temp_yiding_three_order_agg_final
+	where (inner_rn = 1 or inner_rn = 2 or inner_rn = 3)
+) t1
+join(
+	select *
+	from temp.temp_yiding_three_order_agg_final
+	where (inner_rn = 1 or inner_rn = 2 or inner_rn = 3)
+) t2
+on t1.shop_id = t2.shop_id
+and t1.inner_rn = t2.inner_rn
+where t1.rn <> t2.rn;
+ 
+---- 联表由rider_id和rn得到更全的数据
+select t1.rider_id as rider_id_1, t1.rn as rn_1, t1.tracking_id as tracking_id_1, t1.shipping_state as shipping_state_1,
+t1.ocurred_time as ocurred_time_1, t1.latitude as latitude_1, t1.longitude as longitude_1, t1.inner_rn as inner_rn_1,
+t1.shop_id as shop_id_1, t2.shop_id as shop_id_2, t1.shop_latitude, t1.shop_longitude,
+t2.rider_id as rider_id_2, t2.rn as rn_2, t2.tracking_id as tracking_id_2, t2.shipping_state as shipping_state_2,
+t2.ocurred_time as ocurred_time_2, t2.latitude as latitude_2, t2.longitude as longitude_2, t2.inner_rn as inner_rn_2
+from (
+	select *
+	from temp.temp_yiding_three_order_two_rider_same_shops
+) t3
+join (
+	select *
+	from temp.temp_yiding_three_order_agg_final
+	where latitude > 0.1
+) t1
+on t3.rider_id_1 = t1.rider_id
+and t3.rn_1 = t1.rn
+join (
+	select *
+	from temp.temp_yiding_three_order_agg_final
+	where latitude > 0.1
+) t2
+on t3.rider_id_2 = t2.rider_id
+and t3.rn_2 = t2.rn
+and t1.inner_rn = t2.inner_rn
+order by t1.rider_id, t2.rider_id, t1.rn, t1.ocurred_time
+
 
 ---------------------------------------------------------------------------------------------------------------
