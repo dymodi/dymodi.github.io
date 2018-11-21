@@ -19,3 +19,4 @@ rider_trace-checkpoint.ipynb
 three_order_trace-checkpoint.ipynb
 *.nssyncsc
 rl_sample-checkpoint.ipynb
+MLfolds/src/.idea

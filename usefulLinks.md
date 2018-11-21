@@ -42,6 +42,12 @@ author: Yi DING
 
 [Colab: An Easy Way to Learn TensorFlow](https://colab.research.google.com/)
 
+## Reinforcement Learning
+
+[Getting Started with Gym](https://gym.openai.com/docs/)
+
+[UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+
 ## SQL
 
 [codecademy](https://www.codecademy.com/learn/learn-sql) (Basic SQL concept and operations)

@@ -82,7 +82,7 @@ $$\min_{\textbf{u}_1,...,\textbf{u}_T} c(\textbf{x}_1,\textbf{u}_1)+c(f(\textbf{
 
 $$\min_{\textbf{u}_1,...,\textbf{u}_T,\textbf{x}_1,...,\textbf{x}_T}\sum^{T}_{t=1}c(\textbf{x}_t,\textbf{u}_t) \text{ s.t. } \textbf{x}_t=f(\textbf{x}_{t-1}, \textbf{u}_{t-1})$$
 
-Note the difference of optimization variables in the above two methods.
+Note the difference of optimization variables in the above two methods. In collocation method, both $$\mathbf{u}$$ nd and $$\mathbf{x}$$ are optimized at the same time.
 
 **Linear case: LQR**
 
@@ -148,6 +148,10 @@ Gaussian process / Neural network / GMM (Gaussian Mixture Model)
 
 ### Learning Policies by Imitating Optimal Control (2-1-17)
 
+$$\pi_\theta : \mathbf x \to \mathbf u$$
+
+The training data is $$\mathbf x$$ and $$\mathbf u$$ and we want to learn a policy $$\pi_\theta$$ by optmizing a cost function.
+
 Dual gradient descent is used to solve contrained optimization problem to conduct policy search.
 
 *Case studies*: vision-based control with GPS (guided policy search).
@@ -158,6 +162,21 @@ The key part of MPC is replanning.
 
 There is also a comparison of DAgger and GPS.
 
+
+
+###Direct Collocation on Methods for Trajectory Optimization and Policy Learning (2-6-17)
+
+Three topics are discussed by Igor Mordatch.
+
+1. Trajectory Optimization with Direct Collocation
+
+   In ***direct collocation***, unlike collocation and shooting methods, we only optimize states $$\mathbf{x}$$, while control $$\mathbf{u}$$ is get from an inverse dynamic function. **Inverse Dynamic Model** is used in the optimzation.
+
+2. Learning Control Policies with Direct Collocation
+
+   The so-called learning control policies is to learn a $$\pi_\theta$$ from data by optimizing $$\theta$$ over the the same cost function with shooting method and collocation method. It seems that Markov Decision Process (MDP) is a way to learn the policy.
+
+3. Unknown/Uncertain Dynamics and Applications
 
 
 
