@@ -79,6 +79,15 @@ From MobiSys 17 Zhou's paper:
 </p>
 
 
+## Data Facts
+
+From Ubicomp 18 Zhang's Paper:
+
+<p align = "center">
+    <img src="figures/data-facts-ubicomp18-zhang.jpg"  alt="data-facts-ubicomp18-zhang">
+</p>
+
+
 
 ## Evaluation
 

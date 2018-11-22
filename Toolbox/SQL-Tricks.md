@@ -50,3 +50,9 @@ select (LAG (another_attr, 1)
         OVER (PARTITION by another_attr ORDER BY rn)) as last_row
 ```
 
+### Parse JSON
+``` SQL
+select parse_json_object(some_json_obj, 'inner_index') from some_table
+```
+
+

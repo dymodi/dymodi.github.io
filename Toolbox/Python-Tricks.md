@@ -28,6 +28,8 @@ Use [os](https://docs.python.org/3/library/os.html)
 import os
 # This path of current file
 dir_path = os.path.dirname(os.path.realpath(__file__))
+# Or in Jupyter-Notebook
+cwd = os.getcwd()
 # The path of data files
 data_path = os.path.join(dir_path, '../data/')
 # Get all files from the folder

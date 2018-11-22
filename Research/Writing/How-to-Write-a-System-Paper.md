@@ -142,3 +142,24 @@ Some lessons learned and insights about how our design could be potentially gene
 
 ## Figures
 
+The figures in the paper serve different purpose. More examples can be found [here](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Writing/How-to-Make-a-Figure.md). Specifically,
+
+* Show the facts of the problem: X: time, Y: index
+  * **Line graph**
+  * **Bar graph**: line graph with standard variation
+  * **CDF**: show the distribution of a variable
+  * **Spatial feature layer**
+* Show the relation of two variables:  X: Var1, Y: Var2
+  * **Scatter plots**
+  * **Correlation plot**
+  * **Correlation matrix**: A heatmap can be used to show the correlation between multiple variables.
+  * **QQ-plot**: Show the similarity of two distributions
+
+* Show the system architechure
+  * **System architechure**
+  * **User interface**
+* Show the facts of the data:
+  * **Spatial feature layer**: Spatial-temporal heatmap on map, such as density, OD trace, partition
+* Show the evaluation results:
+  * **Line graph**: compare our results with baselines
+

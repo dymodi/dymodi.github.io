@@ -164,7 +164,7 @@ There is also a comparison of DAgger and GPS.
 
 
 
-###Direct Collocation on Methods for Trajectory Optimization and Policy Learning (2-6-17)
+### Direct Collocation on Methods for Trajectory Optimization and Policy Learning (2-6-17)
 
 Three topics are discussed by Igor Mordatch.
 
