@@ -1,7 +1,7 @@
 ---
 author: Yi DING
 layout: post
-title: Related Works of Inaccurate Labelling
+title: Related Works of Inaccurate Labeling
 date: April 30, 2018
 ---
 # Related Works of Labeling
