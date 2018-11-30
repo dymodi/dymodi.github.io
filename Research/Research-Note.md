@@ -90,6 +90,23 @@ Find topics from DAAG (AI Interst Group) and seek for coorporation.
 
 
 
+11/21/18:
+
+和帅哥开会的结论：
+
+1. Beacon的项目
+   1. 发更多的数据给帅哥
+   2. 考虑不同型号，不同XX，不同XX的手机听Beacon的不同
+   3. 把实体beacon这个project的思路整理下做一个slides出来下次讨论用
+   4. 然后我们的算法能怎么样去兼容这种不同？
+2. Virtual Beacon项目
+   1. 前面的setting听起来还不错
+   2. 多用数据说明问题，多体现measurement；
+   3. 最后的模型不一定能出彩；
+   4. 再发一些商户的数据给帅哥
+3. Batch-ETA项目
+   1. 查一下sequence learning的相关研究
+
 11/20/18:
 
 1. 和老板讨论Virtual Beacon的项目：
