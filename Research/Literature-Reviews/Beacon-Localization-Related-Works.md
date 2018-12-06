@@ -9,7 +9,9 @@ In this blog, we review the existing work related to the indoor localization bas
 
 Among all the literature listed here, [8] provides most comprehensive introduction on this topic. First, we need to keep in mind that GPS is not available in the indoor scenario [9].
 
-The advantages of using BLE in indoor localization:
+Wi-Fi based indoor localization has much in common with BLE beacon based indoor localization, hence will also be considered in this survey.
+
+The advantages of using BLE in indoor localization (distinction compared with Wi-Fi):
 
 * Quick and flexible deployment (compared with VLC). [5] (Not for that in [6]) [8]
 * Reasonable pricing. [5]
@@ -18,16 +20,46 @@ The advantages of using BLE in indoor localization:
 
 
 
-### Methods summary:
+**Basic Facts**
 
-| Method                   | Paper                    | Notes                                         |
-| ------------------------ | ------------------------ | --------------------------------------------- |
-| *Path loss equation*     | [1], [2], [5], [7], [10] | used to estimate distances                    |
-| *Weighted Centroid*      | [7]                      | based on distances to multiple nearby beacons |
-| *Trilateraiton*          | [1]                      | based on distances to multiple nearby beacons |
-| *Particle filter*        | [1], [5], [10]           |                                               |
-| *Fingerprinting*         | [3], [8], [11]           | [3] also use ANN                              |
-| *Proximity, not Ranging* | [6]                      |                                               |
+Two main categories [11]. A simple explanation is "The former fingerprints locations in the area of interest and then searches for the best matching location, while the latter trains a signal propagation model using training/calibration data and then applies trilateration for localization." 
+
+* Fingerprint-based [8]
+* Model-based
+
+Two steps are needed in model-based approaches, from RSSI to distance, and from distance to locations.
+
+From RSSI to distance:
+
+* Path loss function + calibration [2, 5, 7, 10]
+
+From to distance to location:
+
+* Particle filter
+* Trilateration
+* Weighted centroid [7]
+
+**Special Topics**
+
+*  EZ: Indoor Localization without Pain, [13], *MobiCom 10*
+  * No need for physical layout, i.e. the position of AP is unknown
+  * Assume universal LDPL equation (as constraints)
+  * Assume occasional location fix (entrance, window)
+* Zee: Zero-Effort Crowdsourcing, [14], *MobiCom 12*
+  * No need for site-specific calibration
+  * Assume map showing pathways and barriers
+* Modellet: Diversity in Data Density and Environmental Locality, [11], *MobiCom 14*
+  * Can handle diversity in training data density and environment condition for real-world deployment
+  * Device diversity is not considered
+  * Still relies on fingerprint. (which is impossible in real large scale problem)
+* UnLoc: Unsupervised Indoor Localization [15], *MobiSys 12*
+  * Signal landmarks in the building as anchors
+  * Dead reckoning using to locate between anchors
+  * Device diversity not considered
+  * Landmark not available at everywhere
+* Beacon system to collect data [6]
+
+
 
 ### Review for each paper:
 
@@ -82,31 +114,50 @@ The advantages of using BLE in indoor localization:
 
 
 
-
 ### Ref
 
-[1] Martin, P., Ho, B. J., Grupen, N., Muñoz, S., & Srivastava, M. (2014, November). **An iBeacon primer for indoor localization: demo abstract**. In Proceedings of the 1st ACM Conference on Embedded Systems for Energy-Efficient Buildings (pp. 190-191). ACM.
+Note: paper with bold title are recommended for reading.
+
+#### MobiCom
+
+[13] Krishna Chintalapudi. 2010. **Indoor Localization Without the Pain**. In *ACM MobiCom*, 173–184. 
+
+[14] Anshul Rai. 2012. **Zee : Zero-Effort Crowdsourcing for Indoor Localization Categories and Subject Descriptors**. In *ACM MobiCom*, 293–304.
+
+[11] Li, L., 2014, **Experiencing and handling the diversity in data density and environmental locality in an indoor positioning service**. In *ACM MobiCom* 59-470
+
+#### MobiSys
+
+[15] He Wang, S Sen, and Ahmed Elgohary. 2012. **No need to war-drive: Unsupervised indoor localization**. *ACM MobiSys*, 197–210. 
+
+[16] Kaikai Liu, Xinxin Liu, and Xiaolin Li. 2013. **Guoguo: Enabling Fine-grained Indoor Localization via Smartphone**. *ACM MobiSys*, 235. 
+
+[4] Huang, Q. 2016,. **Poster: Simplified In-door WiFi-Beacon Navigation System Without Exact Location**. In *ACM MobiSys* 33-33
+
+#### Large Scale Indoor Localization System
+
+[11] Li, L., 2014, **Experiencing and handling the diversity in data density and environmental locality in an indoor positioning service**. In *ACM MobiCom* 59-470
+
+[12] Youssef, M. (2015, November). **Towards truly ubiquitous indoor localization on a worldwide scale**. In Proceedings of the 23rd SIGSPATIAL International Conference on Advances in Geographic Information Systems (p. 12). ACM.
+
+#### Others
 
 [2] Golestanian, M., & Poellabauer, C. (2016, July). **Indoor localization using multi-range beaconing: poster**. In Proceedings of the 17th ACM International Symposium on Mobile Ad Hoc Networking and Computing (pp. 397-398). ACM.
-
-[3] Mazan, F., & Kovarova, A. (2016, June). **Optimizing Artificial Neural Network for Beacon Based Indoor Localization**. In Proceedings of the 17th International Conference on Computer Systems and Technologies (ICCST) 2016 (pp. 261-268). ACM.
-
-[4] Huang, Q., Yagi, Y., Takahashi, J., & Tobe, Y. (2016, June). **Poster: Simplified In-door WiFi-Beacon Navigation System Without Exact Location**. In Proceedings of the 14th Annual International Conference on Mobile Systems, Applications, and Services Companion (pp. 33-33). ACM.
-
-[5] Filípek, P., & Kovarova, A. (2016, June). **Indoor Localization Based on Beacons and Calculated by Particle Filter**. In Proceedings of the 17th International Conference on Computer Systems and Technologies (ICCST) 2016 (pp. 269-276). ACM.
 
 [6] Chang, C. M., Li, S. C., & Huang, Y. (2016, December). **Building Bluetooth Beacon-based Network for Spatial-Temporal Data Collection**. In Proceedings of the 2016 International Conference on Communication and Information Systems (ICCIS) (pp. 91-95). ACM.
 
 [7] Subedi, S., Kwon, G. R., Shin, S., Hwang, S. S., & Pyun, J. Y. (2016, July). **Beacon based indoor positioning system using weighted centroid localization approach**. In Ubiquitous and Future Networks (ICUFN), 2016 Eighth Internat
 
-**[8]** Faragher, R., & Harle, R. (2015). **Location fingerprinting with bluetooth low energy beacons**. IEEE journal on Selected Areas in Communications, 33(11), 2418-2428.
+[8] Faragher, R., & Harle, R. (2015). **Location fingerprinting with bluetooth low energy beacons**. IEEE journal on Selected Areas in Communications, 33(11), 2418-2428.
 
 [9] Miller, L. E. (2006). **Indoor navigation for first responders: a feasibility study**. National Institute of Standards and Technology, Wireless Communication Technologies Group.
 
 [10] Zafari, F., Papapanagiotou, I., Devetsikiotis, M., & Hacker, T. (2017). **An iBeacon based Proximity and Indoor Localization System**. arXiv preprint arXiv:1703.07876.
 
-**Large Scale Indoor Localization System**
+#### Complementary
 
-[11] Li, L., Shen, G., Zhao, C., Moscibroda, T., Lin, J. H., & Zhao, F. (2014, September). **Experiencing and handling the diversity in data density and environmental locality in an indoor positioning service**. In Proceedings of the 20th annual international conference on Mobile computing and networking (pp. 459-470). ACM.
+[1] Martin, P., Ho, B. J., Grupen, N., Muñoz, S., & Srivastava, M. (2014, November). An iBeacon primer for indoor localization: demo abstract. In Proceedings of the 1st ACM Conference on Embedded Systems for Energy-Efficient Buildings (pp. 190-191). ACM.
 
-[12] Youssef, M. (2015, November). **Towards truly ubiquitous indoor localization on a worldwide scale**. In Proceedings of the 23rd SIGSPATIAL International Conference on Advances in Geographic Information Systems (p. 12). ACM.
+[3] Mazan, F., & Kovarova, A. (2016, June). Optimizing Artificial Neural Network for Beacon Based Indoor Localization. In Proceedings of the 17th International Conference on Computer Systems and Technologies (ICCST) 2016 (pp. 261-268). ACM.
+
+[5] Filípek, P., & Kovarova, A. (2016, June). Indoor Localization Based on Beacons and Calculated by Particle Filter. In Proceedings of the 17th International Conference on Computer Systems and Technologies (ICCST) 2016 (pp. 269-276). ACM.

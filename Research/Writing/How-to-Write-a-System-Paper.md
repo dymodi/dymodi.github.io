@@ -57,6 +57,7 @@ Motivation section is a quantify of motivation paragraph. The key point is relat
 * What is the problem we want to solve?
 * Why this problem is important?
 * Why current solution won't work for this problem?
+* Why simple alternatives won't work for this problem?
 
 Motivation usually comes with observation, and observation will be bettern come with explanation or hypothesis.
 
@@ -111,7 +112,7 @@ Also note that the cases in the evaluation section can be only a subset of the d
 
 1. Metrics
 
-2. Baseline Approach
+2. Baseline Approach (Note that it is not enough to compare with greedy approach)
 
 3. Dimension A (X axes A)
 
@@ -133,6 +134,8 @@ Taxnonmy
 We need to find a design space that excludes all the other existing works.
 
 A more organized related work section would show the significance of the topic, a **table** to organize all these papers into categories. 
+
+Note that all the related topics need to be referred.
 
 ## Discussion
 
