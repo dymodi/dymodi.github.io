@@ -41,7 +41,7 @@ From to distance to location:
 
 **Special Topics**
 
-*  EZ: Indoor Localization without Pain, [13], *MobiCom 10*
+* EZ: Indoor Localization without Pain, [13], *MobiCom 10*
   * No need for physical layout, i.e. the position of AP is unknown
   * Assume universal LDPL equation (as constraints)
   * Assume occasional location fix (entrance, window)
