@@ -45,6 +45,3 @@ date: June 5, 2017
 
 [Semi Supervised Methods](MLfolds/advanced-topics/Semi-Supervised)
 
-
-## Database
-[Query Data in PySpark](MLfolds/PySpark)
