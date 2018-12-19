@@ -59,6 +59,8 @@ marketplace
 
 paradigm
 
+pervasiveness
+
 prosperity	
 
 scenarios
@@ -70,3 +72,6 @@ scenarios
 In constrast,
 
 Shed light on
+
+Device heterogeneity
+
