@@ -19,3 +19,11 @@ An interesting part is that Snapdragon is advocated in the lecture and Qualcomm 
 
 ### Lesson 1 - Telephony Networks
 
+Star shape network. Invention of Triode.
+
+### Lesson 2 - Broadcast Networks
+
+The story between Lee de Forest, Edwin Howard Armstrong and David Sarnoff is quite attractive.
+
+### Lesson 3 - AT&T Innovations
+
