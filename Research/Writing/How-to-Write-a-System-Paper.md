@@ -141,6 +141,8 @@ Note that all the related topics need to be referred.
 
 Some lessons learned and insights about how our design could be potentially generalizable to other problem in the related fields.
 
+The discussion is also a very important section that you must articulate why your result in certain cases can be generalized to a broad areas.
+
 
 
 ## Figures
@@ -166,3 +168,12 @@ The figures in the paper serve different purpose. More examples can be found [he
 * Show the evaluation results:
   * **Line graph**: compare our results with baselines
 
+
+
+## Advice from Desheng
+
+* First you need to bring out a problem: this problem cannot be too specific, which will lose expansibility, this problem cannot be too difficult otherwise people won't believe it can be solved. You don't need to solve the problem perfectly in the end, but you must shed some light on this problem.
+* Discussion section is important, you must articulate that your work can be generalize to other similar problems.
+* You must let the reviewer learn something from your paper.
+* It will be better that your work can be cited in the future (e.g. open data-set), otherwise the editor will choose other potential submissions.
+* If your problem has too many uncertainties, you can fix some spatial-temporal scenarios hence that the  uncertainty reduce to a sovlable level.

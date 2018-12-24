@@ -17,13 +17,59 @@ An interesting part is that Snapdragon is advocated in the lecture and Qualcomm 
 
 
 
-### Lesson 1 - Telephony Networks
+### Module 1 (Circuit Switch)
+
+#### Lesson 1 - Telephony Networks
 
 Star shape network. Invention of Triode.
 
-### Lesson 2 - Broadcast Networks
+#### Lesson 2 - Broadcast Networks
 
 The story between Lee de Forest, Edwin Howard Armstrong and David Sarnoff is quite attractive.
 
-### Lesson 3 - AT&T Innovations
+#### Lesson 3 - AT&T Innovations
+
+Some innovations from AT&T (Bell Labs): Information Theory, Transistor, C and UNIX.
+
+#### Lesson 4 - Rise and Fall of AT&T
+
+Lawsuit from the Department of Justice and Monopoly of AT&T.
+
+<p align = "center">
+<img src="figures/Bell-Labs-Inventing-the-Future.jpg"  alt="Bell Labs" width="800">
+</p>
+
+
+
+### Module 2 (Packet Switch)
+
+#### Lesson 1 The Internet Initiative
+
+ARPA net and IETF
+
+#### Lesson 2 Reliable Services
+
+Email and browser.
+
+#### Lesson 3 Realtime Services
+
+VoIP and Multicast.
+
+
+
+### Module 3 (Computer Telephony)
+
+#### Lesson 1 Telephony goes digital
+
+Data plane and control plane
+
+[Companding](https://en.wikipedia.org/wiki/Companding) is a very useful tool in data plane to reduce the dynamic of signal while transmiting.
+
+#### Lesson 2 Shifting Landscapes
+
+#### Lesson 3 So, what's the Big Deal!
+
+#### Lesson 4 A Word of Caution!
+
+Dial tone. 911 Fiasco.
 
