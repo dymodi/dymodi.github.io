@@ -5,7 +5,7 @@ date: Dec. 21, 2018
 author: Yi DING
 ---
 
-This is a course not of UCSD's Coursera: [*Internet of Things: How did we get here?*](https://www.coursera.org/learn/internet-of-things-history/home/welcome)
+This is a course note of UCSD's Coursera: [*Internet of Things: How did we get here?*](https://www.coursera.org/learn/internet-of-things-history/home/welcome)
 
  
 
@@ -72,4 +72,32 @@ Data plane and control plane
 #### Lesson 4 A Word of Caution!
 
 Dial tone. 911 Fiasco.
+
+
+
+### Module 4 (Wireless Technologies)
+
+#### Lesson 1 Teleophony goes Wireless
+
+The failure story of AT&T and McKinsey
+
+#### Lesson 2 Mobility and the Control Plane
+
+The SS7 can be use in cellphone network to achieve mobility.
+
+Why cellphone market goes beyond expectation: one reason is prepaid phone which credits to a well designed billing system.
+
+#### Lesson 3 Air Interface (1G, 2G, 3G and 4G)
+
+How to maintain so many communications:
+
+* Get more spectrum
+
+* Improve Spectural Efficiency (TDMA, CDMA)
+
+* Reduce data rate for each voice call (LPC)
+
+3G and 4G
+
+#### Lesson 4 Radios, Radios, and Radios
 
