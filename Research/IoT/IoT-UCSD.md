@@ -101,3 +101,42 @@ How to maintain so many communications:
 
 #### Lesson 4 Radios, Radios, and Radios
 
+Wi-Fi, Bluetooth, ZIgBee, RFID
+
+#### Lesson 5 Network Revisited
+
+* Telephony 1-to-1
+* Broadcast 1-to-N
+* Sensor Network N-to-1
+* A platform for IoT
+
+
+
+### Module 5 (Features and Apps)
+
+#### Lesson 1 Features and Apps
+
+911, GPS, Cameras, Accelerators
+
+
+
+### Module 6
+
+#### Lesson 1 Specification Overview
+
+A very interesting definition of IoT, shows how plain things get magical when connected.
+
+<p align = "center">
+<img src="figures/global-internet-device-installed-base-forecast.jpg"  alt="Bell Labs" width="800">
+</p>
+
+#### Lesson 2 Future Applications
+
+* mHealth
+
+* Smart Homes
+
+* Automotive
+
+A very interesting study from Fitbit that how much sleep are disturbed due to to the Berkeley earthquake.
+
