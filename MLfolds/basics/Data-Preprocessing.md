@@ -18,6 +18,8 @@ Missing data is a very common problem for practical data. Pandas have a [discuss
 
 The problem of imbalanced classes is very common in practical working, here we have a [discussion](https://elitedatascience.com/imbalanced-classes) on how to handle imblanced classes.
 
+A python library can be found as [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn).
+
 ## Removing Outliers
 
 Whether we should/need remove the outliers from the dataset is a tricky problem. Some comments [here](https://stats.stackexchange.com/questions/200534/is-it-ok-to-remove-outliers-from-data/200923) argue that outliers should not be removed from the data or we can conduct a sensitivity analysis given the existence of those outliers or not.

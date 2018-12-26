@@ -11,6 +11,8 @@ author: Yi DING
 
 ## adj.
 
+brick-and-mortar
+
 consistent
 
 counter-intuitive
