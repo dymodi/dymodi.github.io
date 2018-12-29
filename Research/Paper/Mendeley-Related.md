@@ -9,6 +9,18 @@ author: Yi DING
 
 ## Mendeley Markers
 
-<img src="figures/mendeley-marker.png"  alt="mendeley-marker" width="100" class="float-left" />
-some words
+<img src="figures/mendeley-marker.png"  alt="mendeley-marker" width="100" align="float-left shadow" /> 
+| Color  | Functions                                           |
+| ------ | --------------------------------------------------- |
+| Yellow | Normal high light                                   |
+| Green  | Innovation / Advantages of the work                 |
+| Blue   |                                                     |
+| Purple |                                                     |
+| Pink   | Well written phrases, might be use in future paper. |
+| Red    | Key point                                           |
+| Orange |                                                     |
+| Grey   |                                                     |
+
+
+
 
