@@ -34,6 +34,9 @@ data['some_col'].value_counts()
 df[df.name != 'Tina']
 # Reset index
 df = df.reset_index(drop=True)
+# Create a new dataframe
+df = pd.DataFrame(data = some_list, columns = ['col_name'])
+df = pd.DataFrame(data = some_dict)
 ```
 
 ## Indexing

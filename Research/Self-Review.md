@@ -33,7 +33,7 @@ author: Yi DING
       * How to close the loop? 
       * How to iterate rapidly?
 * Skills:
-  * SQL
+  * [SQL](https://dymodi.github.io/Toolbox/SQL-Tricks)
 
 ### 2018
 
@@ -42,8 +42,8 @@ author: Yi DING
 * Paper:
   * Crowd Delivery Submit to Ubicomp 19
 * Research Projects:
-  * Beacon: Try topics: arrival detection, indoor localization,
-  * Virtual Beacon: Try topics: ubiquitous anchor
+  * Beacon: [UbiSense](https://github.com/dymodi/Research-Projects/tree/master/Shuai.Wang/UbiSense) (Indoor Movement Detection)
+  * Virtual Beacon: [UbiAnchor](https://github.com/dymodi/Research-Projects/tree/master/Virtual-Beacon) (Ubiquitous Anchor System)
   * [POI Correction](https://github.com/dymodi/Research-Projects/tree/master/dongzhe.jiang/MobiCom-2019) (with Dongzhe)
   * [Rider destination prediction](https://github.com/dymodi/Research-Projects/tree/master/yan.zhang/INFOCOM-2019) (with Yan)
 * Industry Projects:
@@ -52,7 +52,7 @@ author: Yi DING
     * Challenges:
       * How to motivate riders?
 * Skill:
-  * 
+  * [Pandas](https://dymodi.github.io/Toolbox/Pandas)
 
 
 
