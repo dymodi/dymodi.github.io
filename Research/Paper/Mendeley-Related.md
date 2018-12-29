@@ -10,6 +10,7 @@ author: Yi DING
 ## Mendeley Markers
 
 <img src="figures/mendeley-marker.png"  alt="mendeley-marker" width="100" align="float-left shadow" /> 
+
 | Color  | Functions                                           |
 | ------ | --------------------------------------------------- |
 | Yellow | Normal high light                                   |
