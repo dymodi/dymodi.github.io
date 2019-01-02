@@ -20,7 +20,7 @@ author: Yi DING
 | Pink   | Well written phrases, might be use in future paper. |
 | Red    | Key point                                           |
 | Orange |                                                     |
-| Grey   |                                                     |
+| Grey   | Limitation of the paper where we can attack.        |
 
 
 

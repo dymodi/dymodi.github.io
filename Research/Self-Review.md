@@ -12,7 +12,6 @@ author: Yi DING
 * Skill
   * Machine Learning: Better show your capability via Kaggle
   * IoT
-    * Basic Concepts: [UCSD Course](https://dymodi.github.io/Research/IoT/IoT-UCSD)
 
 
 
@@ -29,9 +28,7 @@ author: Yi DING
     * Learn iBeacon Mechanism, Delivery Process
 * Industry Project:
   * Beacon: 
-    * Challenges: 
-      * How to close the loop? 
-      * How to iterate rapidly?
+    * Challenges: How to close the loop?  How to iterate rapidly?
 * Skills:
   * [SQL](https://dymodi.github.io/Toolbox/SQL-Tricks)
 
@@ -48,13 +45,12 @@ author: Yi DING
   * [Rider destination prediction](https://github.com/dymodi/Research-Projects/tree/master/yan.zhang/INFOCOM-2019) (with Yan)
 * Industry Projects:
   * Vritual Beacon: Presence Model
+    * Challenges: All practical issues in practical ML (imbalanced data, missing value, label acquisition)
   * Smart Box:
-    * Challenges:
-      * How to motivate riders?
+    * Challenges: How to motivate riders?
 * Skill:
   * [Pandas](https://dymodi.github.io/Toolbox/Pandas)
-
-
+  * IoT: Basic Concepts: [UCSD Course](https://dymodi.github.io/Research/IoT/IoT-UCSD)
 
 ## My strength:
 
