@@ -45,3 +45,5 @@ date: June 5, 2017
 
 [Semi Supervised Methods](MLfolds/advanced-topics/Semi-Supervised)
 
+[Causal Inference](MLfolds/advanced-topics/Causal-Inference)
+

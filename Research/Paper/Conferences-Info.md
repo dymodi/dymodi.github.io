@@ -9,14 +9,14 @@ author: Yi DING
 
 | Submission Deadline | Proceeding                  |
 | ------------------- | --------------------------- |
-| January 12          | IEEE ICDCS                  |
+| January 12, 2019    | IEEE ICDCS                  |
 | February 9          | ICML                        |
-| February 11         | ACM SIGKDD                  |
+| February 3, 2019    | ACM SIGKDD                  |
 | February 15         | ACM IMWUT, Issue 2          |
-| February 25         | IJCAI                       |
-| **February 28**     | **ACM MobiCom, Winter DDL** |
+| February 25, 2019   | IJCAI                       |
 | March 1             | VLDB                        |
-| **April 8**         | **ACM SenSys**              |
+| **March 12, 2019**  | **ACM MobiCom, Winter DDL** |
+| **April 12, 2019**  | **ACM SenSys**              |
 | April 19            | ACM CSCW                    |
 | May 15              | ACM IMWUT, Issue 3          |
 | June 1              | IEEE ICDE, 1st round        |
