@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Similarity and Dissimilarity Measures
 date: Jan. 28, 2018

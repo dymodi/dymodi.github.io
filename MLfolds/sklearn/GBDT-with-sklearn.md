@@ -14,3 +14,4 @@ from sklearn.datasets import load_boston
 boston = load_boston()
 ```
 The 64 features are the 8*8 pixels of each handwritten graph.
+

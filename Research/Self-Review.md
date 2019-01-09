@@ -7,7 +7,9 @@ author: Yi DING
 
 ## Long Term Evolution Plan
 * Paper
-  * 
+  * MobiCom/MobiSys/SenSys
+  * UbiComp
+  * KDD/AAAI/IJCAI
 * Project
 * Skill
   * Machine Learning: Better show your capability via Kaggle
@@ -16,6 +18,30 @@ author: Yi DING
 
 
 ## Self Review
+
+### 2018
+
+- Study:
+  - Course: Data Mining, Statistics
+- Paper:
+  - Crowd Delivery, Submitted to Ubicomp 19, Rejected
+  - POI Correction, Submitted to MobiCom 19, Rejected
+  - Rider Destination Prediction, Submitted to INFOCOM 19, Rejected
+- Research Projects:
+  - Start Working with Shuai
+  - Beacon: [UbiSense](https://github.com/dymodi/Research-Projects/tree/master/Shuai.Wang/UbiSense) (Indoor Movement Detection)
+  - Virtual Beacon: [UbiAnchor](https://github.com/dymodi/Research-Projects/tree/master/Virtual-Beacon) (Ubiquitous Anchor System)
+  - [POI Correction](https://github.com/dymodi/Research-Projects/tree/master/dongzhe.jiang/MobiCom-2019) (with Dongzhe)
+  - [Rider destination prediction](https://github.com/dymodi/Research-Projects/tree/master/yan.zhang/INFOCOM-2019) (with Yan)
+- Industry Projects:
+  - Vritual Beacon: Presence Model
+    - Challenges: All practical issues in practical ML (imbalanced data, missing value, label acquisition)
+  - Smart Box:
+    - Challenges: How to motivate riders?
+- Skill:
+  - [Pandas](https://dymodi.github.io/Toolbox/Pandas)
+  - IoT: Basic Concepts: [UCSD Course](https://dymodi.github.io/Research/IoT/IoT-UCSD)
+  - 
 
 ### 2017
 
@@ -32,25 +58,7 @@ author: Yi DING
 * Skills:
   * [SQL](https://dymodi.github.io/Toolbox/SQL-Tricks)
 
-### 2018
 
-* Study:
-  * Course: Data Mining, Statistics
-* Paper:
-  * Crowd Delivery Submit to Ubicomp 19
-* Research Projects:
-  * Beacon: [UbiSense](https://github.com/dymodi/Research-Projects/tree/master/Shuai.Wang/UbiSense) (Indoor Movement Detection)
-  * Virtual Beacon: [UbiAnchor](https://github.com/dymodi/Research-Projects/tree/master/Virtual-Beacon) (Ubiquitous Anchor System)
-  * [POI Correction](https://github.com/dymodi/Research-Projects/tree/master/dongzhe.jiang/MobiCom-2019) (with Dongzhe)
-  * [Rider destination prediction](https://github.com/dymodi/Research-Projects/tree/master/yan.zhang/INFOCOM-2019) (with Yan)
-* Industry Projects:
-  * Vritual Beacon: Presence Model
-    * Challenges: All practical issues in practical ML (imbalanced data, missing value, label acquisition)
-  * Smart Box:
-    * Challenges: How to motivate riders?
-* Skill:
-  * [Pandas](https://dymodi.github.io/Toolbox/Pandas)
-  * IoT: Basic Concepts: [UCSD Course](https://dymodi.github.io/Research/IoT/IoT-UCSD)
 
 ## My strength:
 

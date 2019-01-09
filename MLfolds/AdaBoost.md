@@ -38,10 +38,11 @@ For $$t=1,...,T$$:
     
     where $$Z_t$$ is a normalization factor (chosen so that $$D_{t+1}$$ will be a distribution).
     
+
 Output the final hypothesis:
 
 $$ H(x) = \text{sign} \left( \sum_{t=1}^T \alpha_t h_t (x) \right)$$
-    
+​    
 ----
 
 ## Some comments
