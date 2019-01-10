@@ -26,6 +26,8 @@ Note the following points:
 * Title should show the most innovative part of the paper
 * Title should not be misleading, that is, not include terminology in other fields.
 
+If the title is something like "A New XX System based on YY", then YY must the major and innovative part in the design.
+
 
 ## Abstract
 
@@ -69,6 +71,8 @@ In the Challenges section, we highlight the difficulties in solving the problem.
 
 * Why this problem is difficult?
 
+Challenges should be **major** and **important**, and also should corresponds to the **major design** in our solution. A minor problem solved by some tricks in the solution should not be viewed as challenges.
+
 ## Opportunities
 
 The Opportunities section should reveal the golden key, the very subtle angle that we can view and solve the problem, the special observation we found to trigger the following design. 
@@ -84,6 +88,13 @@ Better to be illustrated with related data, figure and statistics. The key point
 For top conference, like SenSys and MobiCom, the design must be simple and innovative.
 
 For some other conference, like INFOCOM, existing methods can be used, such as XGBoost. 
+
+A system overview is needed to show the architecture of the design/system. Keep the followings in mind when preparing the system overview:
+
+* Input and output of each block should be clear.
+* Avoid If-Else desgin.
+* Blocks should not overlap or contain each other.
+* Think and revisit carefully after completing.
 
 **Recommended Structure:**
 

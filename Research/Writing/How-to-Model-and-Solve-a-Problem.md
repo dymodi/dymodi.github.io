@@ -12,6 +12,7 @@ We have following models that are familiar:
 * Machine Learning
   * Bayesian Estimation
   * Reinforcement Learning
+  * Transfer Learning
   * CNN
   * RNN
 * Graph Theory
@@ -24,6 +25,7 @@ We have following models that are familiar:
 * Control Theory
   * Model Predictive Control
   * Iterative Learning Control
+  * Kalman Filter / Low Pass Filter
 
 
 
@@ -36,3 +38,4 @@ Other auxiliary tools:
 * Statistics
   * Normal Distribution
   * Hypothesis Test
+  * Bayesian Estimation
