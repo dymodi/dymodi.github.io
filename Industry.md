@@ -9,3 +9,5 @@ date: July 3, 2018
 
 [IoT Related](Industry/IoT-Related)
 
+[Delivery Related](Industry/Delivery-Related)
+
