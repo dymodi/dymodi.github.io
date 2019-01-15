@@ -24,7 +24,7 @@ author: Yi DING
 - Study:
   - Course: Data Mining, Statistics
 - Paper:
-  - Crowd Delivery, Submitted to Ubicomp 19, Rejected
+  - Crowd Delivery, Submitted to Ubicomp 19, [Rejected](https://github.com/dymodi/Research-Projects/blob/master/Crowd-Delivery/IMWUT19-Comments.md)
   - POI Correction, Submitted to MobiCom 19, Rejected
   - Rider Destination Prediction, Submitted to INFOCOM 19, Rejected
 - Research Projects:
