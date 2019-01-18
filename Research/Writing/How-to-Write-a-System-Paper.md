@@ -140,6 +140,8 @@ For system paper, it will be better to deploy the system to the real world and c
 
 ## Related Works
 
+"Your work should be a natural extension of the exisiting work in the community." Keep this in mind and find the related works in the target conferences.
+
 Taxnonmy
 
 We need to find a design space that excludes all the other existing works.

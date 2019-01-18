@@ -40,6 +40,7 @@ author: Yi DING
   - Discover and solve the advanced problem by removing the assumptions. For example, if we do not assume that rider are walking at a constant speed (1m/s) indoor, the problem will become more complexity.
 * Before study, remember the following checklist:
   * Make sure the whole project (motivation, problem, solution, advanced design, evaluation) is accepted by the Professor.
+  * Every time discussing with Professor, remember to refer to the whole framework and the differences between two version of slides.
 
 ### 3. Study
 
