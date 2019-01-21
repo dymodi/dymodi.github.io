@@ -12,6 +12,7 @@ author: Yi DING
   * KDD/AAAI/IJCAI
 * Project
 * Skill
+  * Algorithm applied in Industry: Indoor localization, route prediction, time estimation
   * Machine Learning: Better show your capability via Kaggle
   * IoT
 
