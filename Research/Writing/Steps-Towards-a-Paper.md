@@ -10,6 +10,9 @@ author: Yi DING
 * Shoot first, then make the target.
   * Sometimes we have a good problem and try to find a good solution to it. Sometimes we have a good solution and we need to find a **good problem** for it. Or you can call it, make target after shooting.
 * The key infomation of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need be able to delivery this simple but clear information.
+* From Desheng, there are two types of problems for system paper.
+  * Measurement and prediction (like route prediction of Yan Zhang). It is easier to design and evaluation since you have the ground truth of results. While it may needs more effort to persuade the reviewers.
+  * Inference (like localization), where we do not have the ground truth while we try to infer it from some data we have (GPS, timestamp). While in the Evaluation section, we use another system (beacons) to show the performance of our design and this "another system" is not aforementioned. The Design section and Evaluation must be isolated. (Keep in mind that the system in Design and Evaluation can be  exchanged)
 * Before talk to others, remember the following checklist:
   * Have you found the key innovation of the project? Why others cannot solve but you can?
   * It will be better that a idea come with an special observation.

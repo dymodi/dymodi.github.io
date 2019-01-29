@@ -100,7 +100,13 @@ Note that usually this part will extend to several sections.
 
 
 
+## Advice from Desheng
 
+* Compared with System paper, Design in Data paper is usually **more generic** and **longer**. Hence there are more mathmatical derivation extract some kernel rules beyond the specific phenomenon and scenairo.
+
+* It will be difficult for Data paper to show why existing paper won't work for this problem, since Data paper is usually generic.
+
+  
 
 
 

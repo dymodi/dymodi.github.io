@@ -185,9 +185,11 @@ The figures in the paper serve different purpose. More examples can be found [he
 
 ## Advice from Desheng
 
-* First you need to bring out a problem: this problem cannot be too specific, which will lose expansibility, this problem cannot be too difficult otherwise people won't believe it can be solved. You don't need to solve the problem perfectly in the end, but you must shed some light on this problem.
-* Discussion section is important, you must articulate that your work can be generalize to other similar problems.
-* Related works is also important, the paper you cite shows your undesrstand of this field. If your reference are most low-quality publications, your work's quality will be suspected. If your reference are most other fields (e.g. KDD), there is a possiblity that you are outside the scope.
+* First you need to bring out a **problem**: this problem cannot be too specific, which will lose expansibility, this problem cannot be too difficult otherwise people won't believe it can be solved. You do not need to solve the problem perfectly in the end, but you must shed some light on this problem.
+* **Evaluation** is important hence must be solid. You must show that your system can work in real world. Other works that has not massive dataset but more intensive experiment results can be a strong competitor.
+* **Discussion** section is important, you must articulate that your work can be generalize to other similar problems.
+* **Related Works** is also important, the paper you cite shows your undesrstand of this field. If your reference are most low-quality publications, your work's quality will be suspected. If your reference are most other fields (e.g. KDD), there is a possiblity that you are outside the scope.
 * You must let the reviewer learn something from your paper.
-* It will be better that your work can be cited in the future (e.g. open data-set), otherwise the editor will choose other potential submissions.
+* It will be better that your work can be cited in the future (e.g. open data-set), otherwise the editor will choose other potential submissions. You will be happy if your work can be followed.
 * If your problem has too many uncertainties, you can fix some spatial-temporal scenarios hence that the  uncertainty reduce to a sovlable level.
+* Compared with Data paper, the Design section is short, (since a complicated design usually won't work in real world), while the Evaluation section is long because there are much effort in evaluation.
