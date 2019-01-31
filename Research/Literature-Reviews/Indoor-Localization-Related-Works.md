@@ -10,12 +10,18 @@ author: Yi DING
 **Taxonomy**
 
 * Communication Technology
-  * Communication Modality: Wi-Fi / BLE / Acoustic / Vision / Light / UWB / Infrared / EMF / Multiple
+  * Communication Modality: Wi-Fi / BLE / Acoustic / Vision / Light / UWB / Infrared / EMF / mmWave / Multiple
   * Localization Methods: Model-based / Fingerprinting
   * Research Focus: Localization Algoirtihm / Anchor / Evaluation
   * Scale: Small (Room Level) / Large (Building Level) / Ubiquitous (Multiple Building or City Level)
   * Target Type: Device-based / Device-free
-  * Granularity: Room Level / Meters / Decimeters
+  * Granularity: Room Level / Meters / Decimeters / Centimeter
+
+
+
+**Comments**
+
+* Many VLP (Visiable Light Positioning) conducts modification on light fixture, hence can be viewed as frontier works on anchorlization.
 
 
 
@@ -74,9 +80,61 @@ author: Yi DING
   * Pros: Light-weight that can run on resource-constrianed platforms
 * INTRI: Contour-based Trilateration for Indoor Fingerprinting Localization, *SenSys 15*
   * Taxonomy: Wi-Fi, Localization Algorithm, Large-Scale
-* SpinLight: 
+* SpinLight: High Accuracy and Robust Light Positioning System, *SenSys 15*
+  * Taxonomy: Light, Localization Algorithm + Anchor, Small Scale, Centimeter
+  * Pros: 2D+3D localization
+  * Cons: Light sensor needed
+* Towards Truly Ubiquitous Indoor Localization on a Worldwide Scale, *SIGSPATIAL 15*
+  * Taxonomy: Ubiquitous, 
+  * Pros and Cons: Challenges and only challenges.
+* LiFS: Low Human-Effort, Device-Free Localization, *MobiCom 16*
+  * Taxonomy: Wi-Fi, Model-based, Small-Scale
+  * Pros: No offline training
+  * Cons: Known AP location
+* LiTell: Robust Indoor Localization Using Unmodified Light Fixtures, *MobiCom 16*
+  * Taxonomy: Light, Large-Scale, Localization Algorithm, Fingerprinting
+  * Pros: No hardware modifications;
+* NAVIQ: In-door WiFi-Beacon Navigation System Without Exact Location, *MobiSys 16*
+  * Taxonomy: Navigation, BLE, 
+* Pulsar: Ubiquitous Visible Light Localization, *MobiCom 17*
+  * Taxonomy: Light, Localization Methods, (claimed to be) Ubiquitous 
+  * Pros: No modification on light fixtures
+* CELLI: Indoor Positioning Using Polarized Sweeping Light Beams, *MobiSys 17*
+  * Taxonomy: Light, Centimeter, Anchor+Localization Algorithm 
+  * Pros: Only needs one transmitter and one sensor
+* iLAMP: High-Precision Visible Light Localization, *MobiSys 17*
+  * Taxonomy: Light, Large-Scale, Localization Algorithm
+* SmartLight: 3D Indoor Localization Using a Single LED Lamp, *SenSys 17*
+  * Taxonomy: Light, Small-Scale, Decimeter
+  * Pros: Locates large number of sensors
+  * Cons: LED light modification needed
+* RainbowLight: Low Cost Ambient Light Positioning System, *MobiCom 18*
+  * Taxonomy: Light, Localization Algorithm, 
 
+* EMF: Localization and Mapping with Power Network Electromagnetic Field, *MobiCom 18*
 
+  * Taxonomy: EMF, Anchor+Localization Algorithm
+
+* ZhaoTian: Augmenting Indoor Inertial Tracking with Polarized Light, *MobiSys 18*
+
+  * Taxonomy: Light+IMU, Anchor+Localization Algorithm
+
+* MonoLoco: Multipath Triangulation: WiFi Localization and Orientation, *MobiSys 18*
+
+  * Taxonomy: Wi-Fi, Localization Algorithm, Decimeter-level, Small Scale
+  * Pros: Only need single AP
+
+* Widar2.0: Passive Human Tracking with a Single Wi-Fi Link, *MobiSys 18*
+
+  * Taxonomy: Wi-Fi, Localization Algorithm
+  * Pros: Only need one single Wi-Fi link
+
+* mWaveLoc: Accurate 3D Localization for 60 GHz Networks, *SenSys 18*
+
+  * Taxonomy: mmWave, Centimeter-level, 
+  * Pros: High accuracy
+
+  
 
 ## Ref.
 
@@ -102,17 +160,37 @@ author: Yi DING
 
 [MobiCom14-Luxapose] Ye-Sheng Kuo, Pat Pannuto, Ko-Jen Hsiao, and Prabal Dutta. 2014. **Luxapose: Indoor Positioning with Mobile Phones and Visible Light.** In *ACM MobiCom*, 447–458.
 
-[SenSys15] Suining He, Tianyang Hu, and S.-H Gary Chan. 2015. **Contour-based Trilateration for Indoor Fingerprinting Localization**. In *ACM SenSys*. 
+[SenSys15-INTRI:] Suining He, Tianyang Hu, and S.-H Gary Chan. 2015. **Contour-based Trilateration for Indoor Fingerprinting Localization**. In *ACM SenSys*. 
 
 [SIGCOMM15-SpotFi] Manikanta Kotaru, Kiran Joshi, Dinesh Bharadia, and Sachin Katti. 2015. **SpotFi: Decimeter Level Localization Using WiFi**. In *ACM SIGCOMM*, 269–282. 
 
 [SIGSPATIAL15] Youssef, M. (2015, November). **Towards truly ubiquitous indoor localization on a worldwide scale**. In Proceedings of the 23rd SIGSPATIAL International Conference on Advances in Geographic Information Systems (p. 12). ACM.
 
-[MobiSys16] Huang, Q. 2016,. **Poster: Simplified In-door WiFi-Beacon Navigation System Without Exact Location**. In *ACM MobiSys* 33-33
+[MobiCom16-LiFS] Ju Wang, Hongbo Jiang, Jie Xiong, Kyle Jamieson, Xiaojiang Chen, Dingyi Fang, and Binbin Xie. 2016. **LiFS: Low Human-Effort, Device-Free Localization with Fine-Grained Subcarrier Information**. In *ACM MobiCom*, 243–256. 
+
+[MobiCom16-LiTell] Chi Zhang and Xinyu Zhang. 2016. **LiTell: indoor localization using unmodified light fixtures**. In *ACM MobiCom*, 481–482. 
+
+[MobiSys16-NAVIQ] Huang, Q. 2016,. **Poster: Simplified In-door WiFi-Beacon Navigation System Without Exact Location**. In *ACM MobiSys* 33-33
+
+[MobiCom17-Pulsar] Chi Zhang and Xinyu Zhang. 2017. **Pulsar: Towards Ubiquitous Visible Light Localization**. In *ACM MobiCom*, 208–221. 
+
+[MobiSys17-CELLI] Yu-Lin Wei, Chang-Jung Huang, Hsin-Mu Tsai, and Kate Ching-Ju Lin. 2017. **CELLI: Indoor Positioning Using Polarized Sweeping Light Beams**. In *ACM MobiSys*, 136–147. 
+
+[MobiSys17-iLAMP] Shilin Zhu and Xinyu Zhang. 2017. **Enabling High-Precision Visible Light Localization in Today’s Building**s. In *ACM MobiSys*, 96–108. 
+
+[SenSys17-SmartLight] Song Liu and Tian He. 2017. **SmartLight: Light-weight 3D Indoor Localization Using a Single LED Lamp**. In *ACM SenSys*, 11:1--11:14. 
+
+[MobiCom18-RainbowLight] Lingkun Li, Pengjin Xie, and Jiliang Wang. 2018. **Demo : RainbowLight : Design and Implementation of a Low Cost Ambient Light Positioning System**. In *ACM MobiCom*, 807–809.
+
+[MobiCom18-EMF] Chris Xiaoxuan Lu, Yang Li, Peijun Zhao, Changhao Chen, Linhai Xie, Hongkai Wen, Rui Tan, and Niki Trigoni. 2018. **Simultaneous Localization and Mapping with Power Network Electromagnetic Field**. In *ACM MobiCom*, 607–622. 
 
 [SenSys18-Salma] Bernhard Großwindhager, Michael Rath, Josef Kulmer, Mustafa S. Bakr, Carlo Alberto Boano, Klaus Witrisal, and Kay Römer. 2018. **Salma: UWB-based single-Anchor Localization System using Multipath Assistance**. *ACM SenSys* October (2018), 132–144. 
 
+[MobiSys18-ZhaoTian] Zhao Tian, Yu-Lin Wei, Wei-Nin Chang, Xi Xiong, Changxi Zheng, Hsin-Mu Tsai, Kate Ching-Ju Lin, and Xia Zhou. 2018. **Augmenting Indoor Inertial Tracking with Polarized Light**. In *ACM MobiSys*. 
 
+[MobiSys18-MonoLoco] Elahe Soltanaghaei, Avinash Kalyanaraman, and Kamin Whitehouse. 2018. **Multipath Triangulation: Decimeter-level WiFi Localization and Orientation with a Single Unaided Receiver**. In *ACM MobiSys*
 
+[MobiSys18-Widar2.0] Kun Qian, Chenshu Wu, Yi Zhang, Guidong Zhang, Zheng Yang, Yunhao Liu, and Yun-Hao Liu. 2018. **Widar2.0: Passive Human Tracking with a Single Wi-Fi Link**. In *ACM MobiSys*, 12. 
 
+[SenSys18-mWaveLoc] Ioannis Pefkianakis and Kyu-Han Kim. 2018. **Accurate 3D Localization for 60 GHz Networks**. In *ACM SenSys*, 120–131. 
 

@@ -144,7 +144,7 @@ For system paper, it will be better to deploy the system to the real world and c
 
 Taxnonmy
 
-We need to find a design space that excludes all the other existing works.
+We need to find a design space that excludes all the other existing works. Or we can find two dimensions that divide the design space into four parts and our work is the only work in one part. When seeking for dimensions, note that the scale is not a very good dimension since research works are usually thought to be scalable.
 
 A more organized related work section would show the significance of the topic, a **table** to organize all these papers into categories. 
 
