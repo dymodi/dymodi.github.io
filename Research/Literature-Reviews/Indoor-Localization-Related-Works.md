@@ -27,104 +27,112 @@ author: Yi DING
 
 **Special Topics**
 
-* Localization over Large-Scale 802.11, *MobiCom 04* 
+* Localization over Large-Scale 802.11, *MobiCom 04*,  `haeberlen2004practical`
   * Taxonomy: Wi-Fi, Fingerprinting, Localization Methods, Large (Building Level), Room Level
   * Pros: Less time in fingerprinting;
-* Metropolitan-scale Wi-Fi Localization, *MobiSys 05*
+* Metropolitan-scale Wi-Fi Localization, *MobiSys 05*, `cheng2005accuracy`
   * Taxonomy: Wi-Fi, Evaluation, Ubiquitous, 
   * Pros: Metropolitan-scale coverage
   * Cons: Lower accuracy
-* EZ: Indoor Localization without Pain, *MobiCom 10*
+* EZ: Indoor Localization without Pain, *MobiCom 10*, `chintalapudi2010indoor`
   * Taxonomy: Wi-Fi, Localization Algorithm, 
   * Pros: No need for physical layout, i.e. the position of AP is unknown; No need for calibration
   * Cons: Dense deployment of AP
   * Assumptions: universal LDPL equation (as constraints), occasional location fix (entrance, window)
-* LiFS: Locating in Fingerprint Space, *MobiCom 12*
+* LiFS: Locating in Fingerprint Space, *MobiCom 12*, `yang2012locating`
   * Taxonomy: Wi-Fi,  Fingerprinting, Localization Algoirtihm, Large-Scale,
   * Pros: Reduced fingerprinting workload, Large scale;
-* Zee: Zero-Effort Crowdsourcing, *MobiCom 12*
+* Zee: Zero-Effort Crowdsourcing, *MobiCom 12*, `rai2012zee`
   * Taxonomy: Wi-Fi, Fingerprinting, Localization Algorithm, Large Scale
   * Pros: No need for site-specific calibration, No assumption on phone position
   * Assumptions: Map available showing pathways and barriers
-* UnLoc: Unsupervised Indoor Localization, *MobiSys 12*
+* UnLoc: Unsupervised Indoor Localization, *MobiSys 12*, `wang2012no`
   - Taxonomy: Multiple, Anchor, Meters Level,
   - Signal landmarks in the building as anchors
   - Dead reckoning using to locate between anchors
   - Cons: Device diversity not considered, Landmark not available at everywhere
-* Guoguo: Acousitc Fingraind Indoor Localization, *MobiSys 13*
+* Guoguo: Acousitc Fingraind Indoor Localization, *MobiSys 13*, `liu2013guoguo`
+
   * Taxonomy: Acoustic, Model-based, Localization Algorithm + Anchor, Small Scale
-* Social-Loc: Improving Indoor Localization with Social Sensing, *SenSys 13*
+* Social-Loc: Improving Indoor Localization with Social Sensing, *SenSys 13*, `jun2013social`
+
   * Taxonomy: Multiple, Localization Algoirtihm, Small-Scale
-* Ubicarse: Indoor Localization With Zero Start-up Cost, *MobiCom 14*
+* Ubicarse: Indoor Localization With Zero Start-up Cost, *MobiCom 14*, `kumar2014accurate`
   - Taxonomy: Wi-Fi+Carmera, Model-based, Localization Algorithm,
   - Assume AP location is known
-* Modellet: Diversity in Data Density and Environmental Locality, *MobiCom 14*
+* Modellet: Diversity in Data Density and Environmental Locality, *MobiCom 14*, `li2014experiencing`
   * Taxonomy: Fingerprinting, Localization Algorithm, Ubiquitous,
   * Pros: Can handle diversity in training data density and environment condition for real-world deployment
   * Cons: Device diversity is not considered; still relies on fingerprint. (which is impossible in real large scale problem)
-* Jigsaw: Indoor Floor Plan Reconstruction, *MobiCom 14*
+* Jigsaw: Indoor Floor Plan Reconstruction, *MobiCom 14*, `gao2014jigsaw`
   * Taxonomy: Vision, Anchor, Large Scale	
   * Cons: Need input images
-* Luxapose: Indoor Positioning with Visible Light, *MobiCom 14*
+* Luxapose: Indoor Positioning with Visible Light, *MobiCom 14*, `kuo2014luxapose`
   * Taxonomy: Light, Model-based, Localization Algorithm+Anchor, Decimeter, Small-Scale
   * Cons: Need image capture periodically
-* SAIL: Single Access Point-Based Indoor Localization, *MobiSys 14*
+* SAIL: Single Access Point-Based Indoor Localization, *MobiSys 14*, `mariakakis2014sail`
   * Taxonomy: Wi-Fi, Localization Algorithm, Model-based, Large-Scale, Meters Level,
   * Pros: Only need single AP, 
-* EchoTag: Indoor Location Tagging with Smartphones, *MobiCom 15*
+* EchoTag: Indoor Location Tagging with Smartphones, *MobiCom 15*, `tung2015echotag`
+
   * Taxonomy: Acoustic, Localization Algorithm + Anchor, 
-* ToneTrack: Frequency-Agile Radios for Indoor Localization, *MobiCom 15*
+* ToneTrack: Frequency-Agile Radios for Indoor Localization, *MobiCom 15*, `xiong2015tonetrack`
+
   * Taxonomy: Wi-Fi, Localization Algorithm, Small-scale
-* PIXEL: Light-weight Indoor Positioning with Visible Light, *MobiSys 15*
+* PIXEL: Light-weight Indoor Positioning with Visible Light, *MobiSys 15*, `yang2015wearables`
   * Taxonomy: Light, Localization Algorithm, Small Scale
   * Pros: Light-weight that can run on resource-constrianed platforms
-* INTRI: Contour-based Trilateration for Indoor Fingerprinting Localization, *SenSys 15*
+* INTRI: Contour-based Trilateration for Indoor Fingerprinting Localization, *SenSys 15*, `he2015contour`
+
   * Taxonomy: Wi-Fi, Localization Algorithm, Large-Scale
-* SpinLight: High Accuracy and Robust Light Positioning System, *SenSys 15*
+* SpinLight: High Accuracy and Robust Light Positioning System, *SenSys 15*, `xie2015spinlight`
   * Taxonomy: Light, Localization Algorithm + Anchor, Small Scale, Centimeter
   * Pros: 2D+3D localization
   * Cons: Light sensor needed
-* Towards Truly Ubiquitous Indoor Localization on a Worldwide Scale, *SIGSPATIAL 15*
+* Towards Truly Ubiquitous Indoor Localization on a Worldwide Scale, *SIGSPATIAL 15*, `youssef2015towards`
   * Taxonomy: Ubiquitous, 
   * Pros and Cons: Challenges and only challenges.
-* LiFS: Low Human-Effort, Device-Free Localization, *MobiCom 16*
+* LiFS: Low Human-Effort, Device-Free Localization, *MobiCom 16*, `wang2016lifs`
   * Taxonomy: Wi-Fi, Model-based, Small-Scale
   * Pros: No offline training
   * Cons: Known AP location
-* LiTell: Robust Indoor Localization Using Unmodified Light Fixtures, *MobiCom 16*
+* LiTell: Robust Indoor Localization Using Unmodified Light Fixtures, *MobiCom 16*, `zhang2016litell`
   * Taxonomy: Light, Large-Scale, Localization Algorithm, Fingerprinting
   * Pros: No hardware modifications;
 * NAVIQ: In-door WiFi-Beacon Navigation System Without Exact Location, *MobiSys 16*
+
   * Taxonomy: Navigation, BLE, 
-* Pulsar: Ubiquitous Visible Light Localization, *MobiCom 17*
+* Pulsar: Ubiquitous Visible Light Localization, *MobiCom 17*, `zhang2017pulsar`
   * Taxonomy: Light, Localization Methods, (claimed to be) Ubiquitous 
   * Pros: No modification on light fixtures
-* CELLI: Indoor Positioning Using Polarized Sweeping Light Beams, *MobiSys 17*
+* CELLI: Indoor Positioning Using Polarized Sweeping Light Beams, *MobiSys 17*, `wei2017celli`
   * Taxonomy: Light, Centimeter, Anchor+Localization Algorithm 
   * Pros: Only needs one transmitter and one sensor
-* iLAMP: High-Precision Visible Light Localization, *MobiSys 17*
+* iLAMP: High-Precision Visible Light Localization, *MobiSys 17*, `zhu2017enabling`
+
   * Taxonomy: Light, Large-Scale, Localization Algorithm
-* SmartLight: 3D Indoor Localization Using a Single LED Lamp, *SenSys 17*
+* SmartLight: 3D Indoor Localization Using a Single LED Lamp, *SenSys 17*, `liu2017smartlight`
   * Taxonomy: Light, Small-Scale, Decimeter
   * Pros: Locates large number of sensors
   * Cons: LED light modification needed
-* RainbowLight: Low Cost Ambient Light Positioning System, *MobiCom 18*
+* RainbowLight: Low Cost Ambient Light Positioning System, *MobiCom 18*, `li2018rainbowlight`
+
   * Taxonomy: Light, Localization Algorithm, 
 
 * EMF: Localization and Mapping with Power Network Electromagnetic Field, *MobiCom 18*
 
   * Taxonomy: EMF, Anchor+Localization Algorithm
 
-* ZhaoTian: Augmenting Indoor Inertial Tracking with Polarized Light, *MobiSys 18*
+* ZhaoTian: Augmenting Indoor Inertial Tracking with Polarized Light, *MobiSys 18*, `tian2018augmenting`
 
   * Taxonomy: Light+IMU, Anchor+Localization Algorithm
 
-* MonoLoco: Multipath Triangulation: WiFi Localization and Orientation, *MobiSys 18*
+* MonoLoco: Multipath Triangulation: WiFi Localization and Orientation, *MobiSys 18*, `soltanaghaei2018multipath`
 
   * Taxonomy: Wi-Fi, Localization Algorithm, Decimeter-level, Small Scale
   * Pros: Only need single AP
 
-* Widar2.0: Passive Human Tracking with a Single Wi-Fi Link, *MobiSys 18*
+* Widar2.0: Passive Human Tracking with a Single Wi-Fi Link, *MobiSys 18*, `qian2018widar2`
 
   * Taxonomy: Wi-Fi, Localization Algorithm
   * Pros: Only need one single Wi-Fi link
@@ -134,7 +142,6 @@ author: Yi DING
   * Taxonomy: mmWave, Centimeter-level, 
   * Pros: High accuracy
 
-  
 
 ## Ref.
 
