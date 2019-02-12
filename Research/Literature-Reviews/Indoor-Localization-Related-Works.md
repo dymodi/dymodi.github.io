@@ -119,7 +119,7 @@ author: Yi DING
 
   * Taxonomy: Light, Localization Algorithm, 
 
-* EMF: Localization and Mapping with Power Network Electromagnetic Field, *MobiCom 18*
+* EMF: Localization and Mapping with Power Network Electromagnetic Field, *MobiCom 18*, `lu2018simultaneous`
 
   * Taxonomy: EMF, Anchor+Localization Algorithm
 

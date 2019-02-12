@@ -20,6 +20,13 @@ author: Yi DING
 
 ## Self Review
 
+### 2019
+
+* Skill:
+  * Authorization and Access Control
+
+
+
 ### 2018
 
 - Study:
