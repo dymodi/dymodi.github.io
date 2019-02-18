@@ -165,6 +165,8 @@ plt.show()
 
 ### Trace and way point draw on map
 
+[Folium](https://github.com/python-visualization/folium) is better.
+
 Use [gmplot](https://github.com/vgm64/gmplot)
 
 
