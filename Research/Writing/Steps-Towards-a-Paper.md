@@ -49,8 +49,11 @@ author: Yi DING
 
 * Prepare data to have a whole image of the data and problem.
 * Find well-known methods in the field as baseline.
+* For each related topic, prepare a survey to learn this field and make ready for the Related Works of the paper.
 
 ### 5. Writing
+
+Paper can be drafted based on the slides used for discussion with Professor. A specialized slides can be use to keep the main stuff for the paper. It will be better that Sections (even subsections and subsubsections) designed clearly and carefully before start writing.
 
 For System Paper writing, please find guides in this [post](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Writing/How-to-Write-a-System-Paper.md).
 

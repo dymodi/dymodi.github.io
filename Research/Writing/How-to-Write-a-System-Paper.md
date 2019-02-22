@@ -119,6 +119,10 @@ Evaluation is not a simple show off of our own system, but a comprehensive test 
 
 Also note that the cases in the evaluation section can be only a subset of the design section.
 
+**Frequent Use X-axis**: Amount of data, Parameters in design, CDF
+
+**Frequent Use Y-axis**: Error, Precision, Recall, CDF
+
 **Recommended Structure:**
 
 1. Metrics
@@ -180,6 +184,7 @@ The figures in the paper serve different purpose. More examples can be found [he
   * **Spatial feature layer**: Spatial-temporal heatmap on map, such as density, OD trace, partition
 * Show the evaluation results:
   * **Line graph**: compare our results with baselines
+  * **CDF**: show the distribution of error
 
 
 

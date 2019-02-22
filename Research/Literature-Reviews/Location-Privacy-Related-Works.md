@@ -10,7 +10,7 @@ A common conclusion is that user trace can be recovered from very little trace l
 
 
 
-Many Location-Privacy Protection Mechanisms (**LPPM**s) have been proposed on this topic [MobiSys14, KDD14, INFOCOM14].
+Many Location-Privacy Protection Mechanisms (**LPPM**s) have been proposed on this topic [MobiSys14, KDD14, INFOCOM14, SIGSPATIAL15-PLACE].
 
 Location Privacy is quantified in [IEEESSP11].
 
@@ -40,7 +40,7 @@ Location Privacy is quantified in [IEEESSP11].
 
   * Summary: Uniqueness in human mobility is bounded, it's easy to infer user trace.
 
-* MobiSys14: EnCore: Private, Context-based Communication for Mobile Social Apps
+* MobiSys14-EnCore: Private, Context-based Communication for Mobile Social Apps
 
   * Taxonomy: LPPM in application
   * Summary: New LPPM for social-networking APP,
