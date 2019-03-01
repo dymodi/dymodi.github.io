@@ -57,7 +57,14 @@ Paper can be drafted based on the slides used for discussion with Professor. A s
 
 For System Paper writing, please find guides in this [post](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Writing/How-to-Write-a-System-Paper.md).
 
-### 6. Presentation
+### 6. Revise
+
+* Better complete a draft two or more weeks before DDL and send out to others (Professor, co-authors, etc) for comments
+* Comments should  from people who are farmiliar as well as **unfamiliar** to this topic.
+* Outline the revising points from the comments and discuss with them.
+* Revise the draft and re-do the first step.
+
+### 7. Presentation
 
 * When others ask questions, try to find out why they ask "this" question.
 
