@@ -59,6 +59,7 @@ For System Paper writing, please find guides in this [post](https://github.com/d
 
 ### 6. Revise
 
+* Put contents as much as possible regardless of the page limit, it will easier to drop than add contents in the final hours.
 * Better complete a draft two or more weeks before DDL and send out to others (Professor, co-authors, etc) for comments
 * Comments should  from people who are farmiliar as well as **unfamiliar** to this topic.
 * Outline the revising points from the comments and discuss with them.

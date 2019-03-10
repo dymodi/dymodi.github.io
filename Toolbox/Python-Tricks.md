@@ -167,6 +167,8 @@ plt.show()
 
 [Folium](https://github.com/python-visualization/folium) is better.
 
+[pyecharts](http://pyecharts.org/#/) is better for China map.
+
 Use [gmplot](https://github.com/vgm64/gmplot)
 
 
