@@ -6,6 +6,8 @@ author: Yi DING
 ---
 
 ## Long Term Evolution Plan
+* Research Ability
+  * Read some MobiCom papers to find some basic rules of a good **design**.
 * Paper
   * MobiCom/MobiSys/SenSys
   * UbiComp

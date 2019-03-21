@@ -45,7 +45,7 @@ author: Yi DING
   * Make sure the whole project (motivation, problem, solution, advanced design, evaluation) is accepted by the Professor.
   * Every time discussing with Professor, remember to refer to the whole framework and the differences between two version of slides.
 
-### 3. Study
+### 3. Study and Design
 
 * Prepare data to have a whole image of the data and problem.
 * Find well-known methods in the field as baseline.
@@ -55,10 +55,19 @@ author: Yi DING
 
 Paper can be drafted based on the slides used for discussion with Professor. A specialized slides can be use to keep the main stuff for the paper. It will be better that Sections (even subsections and subsubsections) designed clearly and carefully before start writing.
 
+Before starting writing each section (or subsection, paragraph), think of what is the core information (idea/viewpoint/observation/design/result) you want to present. In order to present, is there enough context built up before? Missing parts should be supplemented and things that already said should not be repeatd. Otherwise the paper will be messy.
+
 For System Paper writing, please find guides in this [post](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Writing/How-to-Write-a-System-Paper.md).
+
+Some rules on formatting should be followed:
+
+* Only capitalize the first world in caption of figures or tables.
+* When using python to plot, use `fig = plt.figure(figsize=(8,4))` to control the figure size.
 
 ### 6. Revise
 
+* When rivising the draft, read it in the reviewer view (who has no idea about what you are doing but want to find drawbacks), find the potential bugs and drawbacks.
+* Refine by youself first and then to other students and finnally to professors.
 * Put contents as much as possible regardless of the page limit, it will easier to drop than add contents in the final hours.
 * Better complete a draft two or more weeks before DDL and send out to others (Professor, co-authors, etc) for comments
 * Comments should  from people who are farmiliar as well as **unfamiliar** to this topic.

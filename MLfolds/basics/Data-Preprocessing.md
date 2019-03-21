@@ -7,7 +7,12 @@ author: Yi DING
 
 In this post, we introduce the basic process of data preprocessing (or data clearning). Data preprocessing is not a negligible and this topic is well discussed in the slides from [Indiana](https://www.cs.indiana.edu/~predrag/classes/2010springi211/week6_m.pdf) and [WashU](http://www.cs.wustl.edu/~zhang/teaching/cs514/Spring11/Data-prep.pdf). 
 
+## Know Your Data
+
+It is important to have a glance at your data before preprocessing or training, othewise you may find the impressive precision actually comes from the high rate of 1 in your data after you take several days to train the data.
+
 ## Normalizing
+
 Normalizing is the process of scaling the vector length to unit. Normalizing is an important step accodring to paper [1]. **sklearn** has provided the [normalize](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.normalize.html) to scale input vectors individually to unit norm (vector length).
 
 ## Missing Data

@@ -14,17 +14,24 @@ When writing a research paper, keep the following in mind (guideline from NSF fo
 - The technical depth
 - The potential impact
 
-Also keep in mind that **problem is as important as** (if not more important than) **the solution**.
+Also keep in mind that **problem is** as **important** as (if not more important than) the solution.
 
 Generally speaking, system paper refers to the paper published in **SenSys**, **MobiSys**, **MobiCom**.
+
+Reminder for the whole paper:
+
+* Different **levels of details** should be proposed in different parts of the paper. For example, the description on the same algorithm in the introduction, system overview, and design should be different.
+* **Contents** in the different sections should **not** be **overlapping**, e.g., experiment settings should not be discussed in design and motivation should not be mentioned again in the experiment.
+
+
 
 ## Title
 
 Note the following points:
 
-* Title should be concise.
-* Title should show the most innovative part of the paper
-* Title should not be misleading, that is, not include terminology in other fields.
+* Concise.
+* Show the most innovative part of the paper
+* Not misleading, that is, not include terminology in other fields.
 
 If the title is something like "A New XX System based on YY", then YY must the major and innovative part in the design.
 
@@ -74,6 +81,8 @@ In the Challenges section, we highlight the difficulties in solving the problem.
 
 Challenges should be **major** and **important**, and also should corresponds to the **major design** in our solution. A minor problem solved by some tricks in the solution should not be viewed as challenges.
 
+Challenge can appear in many parts of the paper, abstract, introduction, design, etc. One of the purpose of stating challeng is to lead the readers to our way of sovling the problem. Sometimes how to disassemble the challenges implies how to solve the problem. We hope to make readers understand our thinking process when solving the problem.
+
 ## Opportunities
 
 The Opportunities section should reveal the golden key, the very subtle angle that we can view and solve the problem, the special observation we found to trigger the following design. 
@@ -88,24 +97,25 @@ Better to be illustrated with related data, figure and statistics. The key point
 
 For top conference, like SenSys and MobiCom, the design must be simple and innovative.
 
-For some other conference, like INFOCOM, existing methods can be used, such as XGBoost. 
+For some other conference, like INFOCOM, existing methods can be used. 
 
-A system overview is needed to show the architecture of the design/system. Keep the followings in mind when preparing the system overview:
+### System Overview
+
+A system overview is essential to show the architecture of the design/system. Keep the followings in mind:
 
 * Input and output of each block should be clear.
 * Avoid If-Else desgin.
 * Blocks should not overlap or contain each other.
-* Think and revisit carefully after completing.
 
-**Recommended Structure:**
+### Each section of the system
 
-1. Overview
-2. First module
-3. Second module
+* The main point and relation of the following **subsections** should be sketched before starting subsections.
+* If some background knowledge is needed to understand the design, use one section (subsection) to explain the background briefly, because your readers need this.
+* You should use the **first sentence** of each section to show the **function** of the module briefly.
 
 ## Implementation
 
-* Platform
+* Platform or Deployment (better with real photos)
 
 
 ## Evaluation
