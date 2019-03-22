@@ -15,7 +15,7 @@ author: Yi DING
 | ------ | --------------------------------------------------- |
 | Yellow | Normal high light                                   |
 | Green  | Innovation / Advantages of the work                 |
-| Blue   |                                                     |
+| Blue   | Background knowledge                                |
 | Purple |                                                     |
 | Pink   | Well written phrases, might be use in future paper. |
 | Red    | Key point                                           |

@@ -61,13 +61,15 @@ Applications should only be discussed in the Introduction.
 
 ## Motivation / Gap
 
-Motivation section is a quantify of motivation paragraph. The key point is related **data**, **figure** and **statistics**. In the motivation section, usually we answer the following questions:
+The key point is related **data**, **figure** and **statistics**. In the motivation section, usually we answer the following questions:
 
-* What is the problem we want to solve?
 * Why this problem is important?
 * Why current solution won't work for this problem?
 * Why simple alternatives won't work for this problem?
+* What is the trigger of your solution?
 * What is the incentive for people to use your system?
+
+We don't need to cover all these questions but answer the ones that others may argue.
 
 Motivation usually comes with observation, and observation will be bettern come with explanation or hypothesis.
 
@@ -107,15 +109,22 @@ A system overview is essential to show the architecture of the design/system. Ke
 * Avoid If-Else desgin.
 * Blocks should not overlap or contain each other.
 
-### Each section of the system
+### Each Section of the System
 
+* If some background knowledge is needed to understand the design, use one section (subsection) to explain the background briefly, because your readers need this. This background knowledge can be an existing technology or system.
 * The main point and relation of the following **subsections** should be sketched before starting subsections.
-* If some background knowledge is needed to understand the design, use one section (subsection) to explain the background briefly, because your readers need this.
 * You should use the **first sentence** of each section to show the **function** of the module briefly.
+* For a hardware system, each hardware component can be presented in a subsection.
+* Keep in mind that you are not telling a story, you do not need to following the timeline, just focus the important parts.
+* You can view each section as an individual paper, where you clarify the problem, motivation, challenge and solution.
+* You should also view the section in a reader's view who is unfamiliar with your design. What's the things they want to know and what's the things they are interested in? Explain to them first.
+* Also keep in mind, each subsection should have some inner logical relations.
+* If some existing methods (Boositng, Random Forest) are used in your work, it's OK but you have to clarify why this method is used here. While of course, a borrowed method cannot be the core innovation of your work, then you must clarify you core innovation and contribution.
 
 ## Implementation
 
 * Platform or Deployment (better with real photos)
+* Can be an individual section or a subsection in Evaluation
 
 
 ## Evaluation
@@ -134,19 +143,19 @@ Also note that the cases in the evaluation section can be only a subset of the d
 
 **Frequent Use Y-axis**: Error, Precision, Recall, CDF
 
-**Recommended Structure:**
+**Recommended Subsection Structure:**
 
 1. Metrics
-
 2. Baseline Approach (Note that it is not enough to compare with greedy approach)
-
 3. Dimension A (X axes A)
-
 4. Dimension B (X axes B)
-
 5. Dimension C (X axes C)
-
 6. Summary
+
+**Another Recommended Subsection Structure:**
+
+1. Evaluation Methodology (Data source, Baslines, Metirc, Groundtruth)
+2. Evaluation Results (of different dimensions)
 
 **In-field Experiments**
 
