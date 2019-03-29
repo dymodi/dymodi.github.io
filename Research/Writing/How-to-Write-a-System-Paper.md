@@ -22,6 +22,7 @@ Reminder for the whole paper:
 
 * Different **levels of details** should be proposed in different parts of the paper. For example, the description on the same algorithm in the introduction, system overview, and design should be different.
 * **Contents** in the different sections should **not** be **overlapping**, e.g., experiment settings should not be discussed in design and motivation should not be mentioned again in the experiment.
+* Each part of the paper should be independent. It will be better that you don't need to revise other parts when some parts are revised.
 
 
 
