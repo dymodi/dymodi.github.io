@@ -25,3 +25,6 @@ From my experience of being rejected (three times) in 2018, I realized the impor
 * XX paper in the same field is not discussed.
 * XX paper has solve the similar problem and it's not discussed.
 
+### Figures
+
+* Evaluation setting figures usually need a more detailed caption.
