@@ -4,7 +4,6 @@ layout: post
 title: Related Works of Heterogeneous Sensing
 date: April 23, 2019
 ---
-# Related Works of Heterogeneous Sensing
 
 **Taxonomy**
 
@@ -28,7 +27,7 @@ date: April 23, 2019
   * Pros: Very solid experiments.
   * Cons: 
     * Limited heterogeneity (36 devices, 9 users); 
-    * Environment diversity is not considered.
+    * Environment diversity is not considered (actually only accelerator related heterogeneities are considered).
 * DeepSense, *WWW17*
   * Taxonomy: user, deep NN
   * Pros: Solid experiments, 
