@@ -6,11 +6,18 @@ date: July 3, 2018
 # Research topics
 
 ## Literature Surveys
-### Transportation
-[Related Works of Taxi Dispatching and Routing](Literature-Reviews/Taxi-Dispatching-and-Routing-Related-Works)
 
-### Beacons
+### Localization
+[Related Works of Indoor Localization](Literature-Reviews/Indoor-Localization-Related-Works)
+
 [Related Works of Beacon POI Correction](Literature-Reviews/Beacon-POI-Correction-Related-Works)
+
+### Sensing
+[Related Works of Heterogeneous Sensing](Literature-Reviews/Heterogeneous-Sensing-Related-Works)
+
+### Transportation
+
+[Related Works of Taxi Dispatching and Routing](Literature-Reviews/Taxi-Dispatching-and-Routing-Related-Works)
 
 ### Machine Learning & Data Mining
 [Related Works of Data Inconsistency](Literature-Reviews/Data-Inconsistency-Related-Works)
