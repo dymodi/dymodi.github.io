@@ -25,8 +25,12 @@ date: April 29, 2019
   * Three features are extracted from raw RSSI data: (1) Longest period of negative slopes in the trace; (2) Stable RSS & largest RSS value during service; (3) Largest change of RSS in the trace. 
 
 <p align = "center">
-<img src="figures/TrackingHumanQueues_MobiSys14.png"  alt="RSSI Features" height="300">
+<img src="figures/TrackingHumanQueues_MobiSys14.png"  alt="RSSI Features" height="400">
 </p>
+
+(Figure from the Paper)
+
+
 
 ## Ref.
 

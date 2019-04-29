@@ -15,6 +15,8 @@ date: July 3, 2018
 ### Sensing
 [Related Works of Heterogeneous Sensing](Literature-Reviews/Heterogeneous-Sensing-Related-Works)
 
+[Related Works of RSSI-based Sensing](Literature-Reviews/RSSI-Based-Sensing-Related-Works)
+
 ### Transportation
 
 [Related Works of Taxi Dispatching and Routing](Literature-Reviews/Taxi-Dispatching-and-Routing-Related-Works)
