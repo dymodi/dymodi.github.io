@@ -27,8 +27,6 @@ date: April 29, 2019
 
 * There is also a survey on RSSI-based sensing in [IMWUT17-Detecting] and [MobiCom15-Keystroke].
 
-  
-
 **Special Topics**
 
 * Challenges, *MobiCom07*
@@ -47,9 +45,7 @@ date: April 29, 2019
 <img src="figures/LeveragingRFchannel_MoMM13.png"  alt="RSSI Features" height="350">
 </p>
 
-
 * Predicting Length of Stay at WiFi Hotspots, *INFOCOM13*
-
   * RSSI-based features: Statistical features (e.g, peak, mean, variance)
   * Sensing Object: Presence Detection
   * Method: ML (SVM) 
@@ -83,8 +79,6 @@ date: April 29, 2019
 * Inferring Person-to-person Proximity Using WiFi Signals, *IMWUT17*
   * RSSI-based features: Correlation (spearman and pearson correlation of RSSI from two APs), Distance (manhattan and euclidean RSSI from two APs).
   * Sensing Objects: Presence Detection
-  * 
-
 
 
 ## Ref.
@@ -114,4 +108,3 @@ date: April 29, 2019
 [IMWUT17-Detecting] Ohara, K., Maekawa, T., & Matsushita, Y. (2017). **Detecting state changes of indoor everyday objects using Wi-Fi channel state information**. *IMWUT*, *1*(3), 88.
 
 [IMWUT17-Inferring] Sapiezynski, P., Stopczynski, A., Wind, D. K., Leskovec, J., & Lehmann, S. (2017). **Inferring person-to-person proximity using WiFi signals**. *IMWUT*, *1*(2), 24.
-
