@@ -5,7 +5,7 @@ title: Related Works of Heterogeneous Sensing
 date: April 23, 2019
 ---
 
-Heterogeneity is problem that widely met in research and applications. It is said in [SenSys12, IODetector] that "since the antenna gain may vary across different mobile phone models, it is hard to accurately map different RSS values to different environments." It is also said in [TMC14] that "environmental changes impact the transmission channel between devices".
+Heterogeneity is problem that widely met in research and applications. It is said in [SenSys12, IODetector] that "since the antenna gain may vary across different mobile phone models, it is hard to accurately map different RSS values to different environments." It is also said in [TMC14] that "environmental changes impact the transmission channel between devices". Similar conclusions can also been found in [SenSys12, CrowdMon].
 
 
 
@@ -47,7 +47,9 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 
 ## Ref.
 
-[SenSys12] Zhou, P., Zheng, Y., Li, Z., Li, M., & Shen, G. (2012, November). I**odetector: A generic service for indoor outdoor detection**. In *SenSys* (pp. 113-126). ACM.
+[SenSys12-CrowdMon] Pushp, S., Min, C., Lee, Y., Liu, C. H., & Song, J. (2012, November). **Towards crowd-aware sensing platform for metropolitan environments**. In *SenSys* (pp. 335-336). ACM.
+
+[SenSys12-IODetector] Zhou, P., Zheng, Y., Li, Z., Li, M., & Shen, G. (2012, November). **IODetector: A generic service for indoor outdoor detection**. In *SenSys* (pp. 113-126). ACM.
 
 [MobCom14] Li, L., Shen, G., Zhao, C., Moscibroda, T., Lin, J. H., & Zhao, F. (2014, September). **Experiencing and handling the diversity in data density and environmental locality in an indoor positioning service**. In *MobiCom* (pp. 459-470). ACM.
 
