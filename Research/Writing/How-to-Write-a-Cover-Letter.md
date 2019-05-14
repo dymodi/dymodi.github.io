@@ -17,4 +17,10 @@ The following guidelines are based on Shuai Wang's feedback on the Crowd Deliver
 * Don't be too flinching in replying the comments, you should show your confidence.
 * Both positive and negative comments should be replied.
 * If a comment is made for a real error, better not explain too much.
+* List all the comments with number and response individually.
+* Conclustions from the reviewer (Major Revisions/Reject) should be removed from the cover letter.
+
+
+
+
 
