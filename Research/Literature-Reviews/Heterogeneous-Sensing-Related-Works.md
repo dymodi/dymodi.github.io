@@ -5,7 +5,7 @@ title: Related Works of Heterogeneous Sensing
 date: April 23, 2019
 ---
 
-Heterogeneity is problem that widely met in research and applications. It is said in [SenSys12, IODetector] that "since the antenna gain may vary across different mobile phone models, it is hard to accurately map different RSS values to different environments." It is also said in [TMC14] that "environmental changes impact the transmission channel between devices". Similar conclusions can also been found in [SenSys12, CrowdMon].
+Heterogeneity is problem that widely met in research and applications. It is said in [SenSys12, IODetector] that "since the antenna gain may vary across different mobile phone models, it is hard to accurately map different RSS values to different environments." It is also said in [TMC14] that "environmental changes impact the transmission channel between devices". Similar conclusions can also been found in [SenSys12, CrowdMon], [iiWAS16].
 
 
 
@@ -57,7 +57,13 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 
 [SenSys15] Stisen, A., Blunck, H., Bhattacharya, S., Prentow, T. S., Kjærgaard, M. B., Dey, A., ... & Jensen, M. M. (2015, November). **Smart devices are different: Assessing and mitigatingmobile sensing heterogeneities for activity recognition**. In *SenSys* (pp. 127-140). ACM.
 
+[iiWAS16] Inomoto, H., Saiki, S., Nakamura, M., & Matsumoto, S. (2016, November). **Mission-oriented large-scale environment sensing based on analogy of military system**. In *iiWAS* (pp. 414-421). ACM.
+
 [WWW17] Yao, S., Hu, S., Zhao, Y., Zhang, A., & Abdelzaher, T. (2017, April). **Deepsense: A unified deep learning framework for time-series mobile sensing data processing**. In *WWW* (pp. 351-360). International World Wide Web Conferences Steering Committee.
 
 [MobiCom18] Zhang, J., Tang, Z., Li, M., Fang, D., Nurmi, P., & Wang, Z. (2018, October). **CrossSense: Towards Cross-Site and Large-Scale WiFi Sensing**. In *MobiCom* (pp. 305-320). ACM.
+
+
+
+
 
