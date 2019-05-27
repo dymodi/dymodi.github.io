@@ -1,13 +1,17 @@
 ---
 author: Yi DING
 layout: post
-title: Related Works of Scene/Ambience Sensing/Monitoring for Context Sharing
+title: Related Works of Context/Scene/Ambience Sensing/Monitoring 
 date: May 6, 2019
 ---
 
 
 
-Scene/Ambience Sensing/Monitoring and Context Sharing are two related topics.
+Context/Scene/Ambience Sensing/Monitoring and Context Sharing are two related topics.
+
+
+
+Dina Katabi is also working on context 
 
 
 

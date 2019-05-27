@@ -29,6 +29,7 @@ author: Yi DING
 | August 8            | IEEE ICBD                   |
 | August 15           | ACM IMWUT, Issue 4          |
 | September 5         | AAAI                        |
+| **October 7, 2019** | **WWW**                     |
 | October 15          | IEEE ICDE, 2nd round        |
 | October 17          | IoTDI                       |
 | October 25          | ACM SIGMOD, 2nd cycle       |

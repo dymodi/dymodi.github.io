@@ -100,6 +100,8 @@ Better to be illustrated with related data, figure and statistics. The key point
 
 For top conference, like SenSys and MobiCom, the design must be simple and innovative.
 
+When writing the design, **logic** and **hierarchy** are two most important things to keep in mind.
+
 ### System Overview
 
 A system overview is essential to show the architecture of the design/system. Keep the followings in mind:
@@ -119,11 +121,13 @@ A system overview is essential to show the architecture of the design/system. Ke
 * You should also view the section in a reader's view who is unfamiliar with your design. What's the things they want to know and what's the things they are interested in? Explain to them first.
 * Also keep in mind, each subsection should have some inner logical relations. 
 * If some existing methods (Boositng, Random Forest) are used in your work, it's OK but you have to clarify why this method is used here. While of course, a borrowed method cannot be the core innovation of your work, then you must clarify you core innovation and contribution.
+* In detailed figure of flow/organization of the subsystem can be provided although it may be provided in the system overview (as a small box).
 
 ## Implementation
 
 * Platform or Deployment (better with real photos)
 * Can be an individual section or a subsection in Evaluation
+* API used in system can be provided for better understanding of the system.
 
 
 ## Evaluation

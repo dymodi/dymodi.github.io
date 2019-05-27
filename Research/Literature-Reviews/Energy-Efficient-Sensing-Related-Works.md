@@ -9,8 +9,12 @@ date: May 10, 2019
 
 **Taxonomy**
 
-* Energy saving solution: Compressing, Sensor (GPS) management, OS optimization
-* Applications: Wildlife monitoring, GPS localization, Context sensing
+* Energy saving solution: 
+  * Sensor (GPS) management, 
+  * Data processing (Compressing, Simplification), 
+  * OS optimization, 
+  * Data-aided algorithm
+* Applications: Wildlife monitoring, GPS localization, Context sensing, Social sensing
 
 **Comments**
 
@@ -42,9 +46,25 @@ date: May 10, 2019
   * Application: Context sensing
 * Jigsaw: Continuous Sensing Engine, *SenSys10*
   * Taxonomy: Sensor management (pipline based on mobility and behavior)
-* 
+* SociableSense: Exploring the Trade-offs, *MobiCom11*
+  * Taxonomy: Sensor management (adaptive sampling & computation distribution)
+  * Application: Social sensing
+* CAPS: Energy-Efficient Positioning using Cell-ID Sequence Matching, *MobiSys11*
+  * Taxonomy: Data-aided algorithm
+  * Application: Localization
+* EnTracked: Energy-efficient Trajectory Tracking for Mobile Devices, *MobiSys11*
+  * Taxonomy: Sensor management
+* E-gesture: Energy-efficient Ges- ture Recognition, *SenSys11*
+  * Taxonomy: Sensor management
+* SmartDC: Mobility Prediction-based Smartphone Energy Optimization, *SenSys11*
+  * Taxonomy: Sensor management + Data-aided algorithm
+  * Solution: Adaptive duty cycling based on mobility predition
+  * Application: Localization (Tracking)
+
+
+
 * Energy Efficient GPS Acquisition with Sparse-GPS, *IPSN14*
-  * Taxonomy: Compressing
+  * Taxonomy: Data processing (Compressing)
   * Application: Wildlife monitoring, GPS localization
 
 
@@ -60,13 +80,23 @@ date: May 10, 2019
 
 [MobiSys10-RAPS] Paek, J., Kim, J., & Govindan, R. (2010, June). **Energy-efficient rate-adaptive GPS-based positioning for smartphones**. In *MobiSys* (pp. 299-314). ACM.
 
+[MobiSys10-Improving] Zhuang, Z., Kim, K. H., & Singh, J. P. (2010, June). **Improving energy efficiency of location sensing on smartphones**. In *MobiSys* (pp. 315-330). ACM.
+
 [SenSys10-Adaptive] Jurdak, R., Corke, P., Dharman, D., & Salagnac, G. (2010, November). **Adaptive GPS duty cycling and radio ranging for energy-efficient localization**. In *SenSys* (pp. 57-70). ACM.
 
 [SenSys10-SensLoc] Kim, D. H., Kim, Y., Estrin, D., & Srivastava, M. B. (2010, November). **Sensloc: sensing everyday places and paths using less energy**. In *SenSys* (pp. 43-56). ACM
 
 [SenSys10-Jigsaw] Lu, H., Yang, J., Liu, Z., Lane, N. D., Choudhury, T., & Campbell, A. T. (2010, November). **The Jigsaw continuous sensing engine for mobile phone applications**. In *SenSys* (pp. 71-84). ACM.
 
-[MobiSys10-Improving] Zhuang, Z., Kim, K. H., & Singh, J. P. (2010, June). **Improving energy efficiency of location sensing on smartphones**. In *MobiSys* (pp. 315-330). ACM.
+[MobiCom11-Sociablesense] Rachuri, K. K., Mascolo, C., Musolesi, M., & Rentfrow, P. J. (2011, September). **Sociablesense: exploring the trade-offs of adaptive sampling and computation offloading for social sensing**. In *MobiCom* (pp. 73-84). ACM.
 
-[MobiCom11] Rachuri, K. K., Mascolo, C., Musolesi, M., & Rentfrow, P. J. (2011, September). **Sociablesense: exploring the trade-offs of adaptive sampling and computation offloading for social sensing**. In *MobiCom* (pp. 73-84). ACM.
+[MobiSys11-CAPS] Paek, J., Kim, K. H., Singh, J. P., & Govindan, R. (2011, June). **Energy-efficient positioning for smartphones using cell-id sequence matching**. In *MobiSys* (pp. 293-306). ACM.
+
+[MobiSys11-EnTracked] Kjærgaard, M. B., Bhattacharya, S., Blunck, H., & Nurmi, P. (2011, June). **Energy-efficient trajectory tracking for mobile devices**. In *MobiSys* (pp. 307-320). ACM.
+
+[SenSys11-E-gesture] Park, T., Lee, J., Hwang, I., Yoo, C., Nachman, L., & Song, J. (2011, November). **E-gesture: a collaborative architecture for energy-efficient gesture recognition with hand-worn sensor and mobile devices**. In *SenSys* (pp. 260-273). ACM.
+
+[SenSys11-SmartDC] Chon, Y., Talipov, E., Shin, H., & Cha, H. (2011, November). **Mobility prediction-based smartphone energy optimization for everyday location monitoring**. In *SenSys* (pp. 82-95). ACM.
+
+
 
