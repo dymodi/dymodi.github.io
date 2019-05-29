@@ -37,6 +37,7 @@ Heterogeneity is problem that widely met in research and applications. It is sai
   * Pros: Solid experiments, 
   * Cons:
     * Limited heterogeneity (20 mobile phones, 9 users, 6 activities)
+    * Mainly consider the heterogeneity of noisy measurement.
 * CrossSense: Cross-Site and Large-Scale WiFi Sensing, *MobiCom 18*
   * Taxonomy: user, environment, ANN+transfer learning,
   * Pros: Solid experiments and rich results
