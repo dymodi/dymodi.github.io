@@ -1,69 +1,121 @@
 ---
 layout: post
-title: Machine Learning Basics with scikit-learn
+title: Machine Learning Basic Tutoril
 date: Oct. 16, 2017
 author: Yi DING
 ---
 
-In this post, we review some basic knowledge of machine learning. The frame of this post comes from the homework of Professor Arindam Banerjee’s Machine Learning course at University of Minnesota.
+In this post, we provide a basic framework for machine learning practice (basically based on sklearn and Pandas).
+
+Some primary problems such as data missing, class imbalance are solved in this tutorial.
 
 
 
-## Cross-validation
-**sklearn** has provided the function `cross_val_predict()` to generate cross-validated estimates for each input data point. More about this function can be found [here](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_predict.html#sklearn.model_selection.cross_val_predict).
-A simple example can be:
-```python
-# Cross-validation
-lr = LinearRegression()
-y = boston.target
-y_pred = cross_val_predict(lr, boston.data, y, cv=10)
+## Classification
+
+### Read Data
+
+``` Python
+## Read data
+## Some libraries
+import pandas as pd
+import os
+
+# Read from local file
+data_path = 'where_your_file_is_in'
+filename = "your_data.csv"
+file_path = os.path.join(data_path,filename)
+df_data = pd.read_csv(file_path)
+# print(df_pos.iloc[0])
 ```
 
-The function `my_cross_val(method,X,y,k,ml_type)` can performs k-fold cross-validation on `(X,y)` using `method`, and returns the error rate in each fold.
-The code can be found [here](https://github.com/dymodi/Machine-Learning/blob/master/my_cross_val.py).
+### Preprocessing
 
-
-
-## Classification Methods from sklearn
-
-We can conduct multi-classification easily by using methods: LinearSVC, SVC and LogisticRegression from sklearn library.
-
-All these three methods are provided in the **sklearn** library and can be imported directly. A simple sample is:
 ```python
-# import methods from libraries
+## Check data types
+print('\nData types.')
+print(data.dtypes)
+
+## Data type transformation (object to string, string to numeric)
+df_data['feature_1_str'] = df_data['feature_1_obj'].apply(lambda x: str(x))
+df_data['feature_2_num'] = pd.to_numeric(df_data['feature_2_str'])
+
+## Missing data
+# Fill NULL with zeros
+df_data['some_feature'].fillna(0,inplace=True)
+# Fill all NaN with scalar
+# data.fillna(0,inplace=True)
+# data.replace({'nan': 0}, inplace=True)
+
+## Remove outliers
+# Remove some rows with NULL/Zeros
+df_data = df_data[df_data.some_feature != 0]
+```
+
+### Feature Engineering
+
+```python
+## Generate new features
+df_data['some_new_feature']=df_data.apply(some_function,axis=1)
+```
+
+###Training
+
+```python
+## Train with existing libraries (sklearn)
+# Import methods from libraries
 from sklearn.svm import LinearSVC
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
+
+## Split train and test
+X_train = 
+X_test = 
+y_train = 
+y_test = 
+
+## Class rebalance
+# Before resample
+print('Before resample:')
+print(X_train[LABEL].value_counts())
+# Separate majority and minority classes (two class problem)
+X_train_majority = X_train[X_train[LABEL]==list(X_train[LABEL].value_counts().keys())[0]]
+X_train_minority = X_train[X_train[LABEL]==list(X_train[LABEL].value_counts().keys())[1]]
+# Downsample majority class
+X_train_majority_downsampled= df_downsample(X_train_majority, len(X_train_minority.index))
+# Combine minority class with downsampled majority class
+X_train = pd.concat([X_train_majority_downsampled, X_train_minority])
+# Display class counts afterwards
+print('After resample:\n', X_train[LABEL].value_counts())
+
 # Create the model
-myMethod = LinearSVC()
+my_method = LinearSVC()
 # Fit the data
-myMethod.fit(Xtrain,ytrain.ravel())
-# Test the model on (new) data
-ypred = myMethod.predict(Xtest)
+my_method.fit(X_train,y_train.ravel())
+
 ```
-The detaild code of using these three methods on Boston and Digits data can be found [here](https://github.com/dymodi/machine_learning/blob/master/ml/my_cross_val.py).
+
+### Evaluation
+
+```python
+## Some metrics to evaluate the models
+# Test the model on (new) data
+ypred = myMethod.predict(X_test)
+
+# Precision
+
+# Recall
+
+# AUC
+
+# other metrics
+```
 
 
 
-## Regression Methods from sklearn
+## Regression
 
-**sklearn** also provides many linear regression methods. Such as [Support Vector Regression (SVR)](http://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html)
-Sample code can be found in the GitHub repository.
-
+**sklearn** also provides many linear regression methods. Such as [Support Vector Regression (SVR)](http://scikit-learn.org/stable/auto_examples/svm/plot_svm_regression.html).
 
 
-## Datasets
 
-- Boston: The Boston housing dataset comes prepackaged with scikit-learn. The dataset has 506 points, 13 features, and 1 target (response) variable. You can find more information about the dataset [here](https://archive.ics.uci.edu/ml/datasets/Housing). 
-
-  While the original dataset is for a regression problem, we will create two classification datasets for the example. Note that you only need to work with the response $$r$$ to create these classification datasets.
-
-  i. Boston50: Let $$\tau 50$$ be the median (50th percentile) over all $$r$$ (response) values. Create
-  a 2-class classification problem such that $$y=1$$ if $$r≥\tau 50$$ and $$y=0$$ if $$r<\tau 50$$. By
-  construction, note that the class priors will be $$p(y = 1) \approx 1$$ , $$p(y = 0) \approx 1/2$$.
-
-  ii. Boston75: Let $$\tau75$$ be the 75th percentile over all $$r$$ (response) values. Create a 2-class
-  classification problem such that $$y = 1$$ if $$r ≥ \tau 75$$ and $$y = 0$$ if $$r < \tau 75$$. By construction,
-  note that the class priors will be $$p(y = 1)\approx 1$$, $$p(y = 0)\approx 3$$.
-
-- Digits: The Digits dataset comes prepackaged with scikit-learn. The dataset has 1797 points, 64 features, and 10 classes corresponding to ten numbers 0,1,...,9. The dataset was (likely) created from [this dataset](http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits). 
