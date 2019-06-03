@@ -7,7 +7,7 @@ date: June 5, 2017
 # Machine Learning
 
 ## Basics
-[Machine Learning Basics with scikit-learn](MLfolds/basics/Machine-Learning-Basics)
+[Machine Learning Basic Tutorial](MLfolds/basics/Machine-Learning-Basics)
 
 [Data Preprocessing](MLfolds/basics/Data-Preprocessing)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Machine Learning Basic Tutoril
+title: Machine Learning Basic Tutorial
 date: Oct. 16, 2017
 author: Yi DING
 ---
