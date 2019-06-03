@@ -13,6 +13,8 @@ date: July 3, 2018
 [Related Works of Beacon POI Correction](Literature-Reviews/Beacon-POI-Correction-Related-Works)
 
 ### Sensing
+[Related Works of  Context Sensing](Literature-Reviews/Scene-Ambience-Sensing-Monitoring-Related-Works)
+
 [Related Works of Heterogeneous Sensing](Literature-Reviews/Heterogeneous-Sensing-Related-Works)
 
 [Related Works of RSSI-based Sensing](Literature-Reviews/RSSI-Based-Sensing-Related-Works)
