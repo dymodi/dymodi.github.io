@@ -88,11 +88,13 @@ X_train = pd.concat([X_train_majority_downsampled, X_train_minority])
 # Display class counts afterwards
 print('After resample:\n', X_train[LABEL].value_counts())
 
-# Create the model
+## Create the model
 my_method = LinearSVC()
-# Fit the data
+
+## Fit the data
 my_method.fit(X_train,y_train.ravel())
 
+## Cross-validation to choose best performing model and parameters
 ```
 
 ### Evaluation

@@ -22,13 +22,18 @@ date: June 5, 2017
 
 [Clustering](MLfolds/clustering/Clustering)
 
-## Deep Learning
-[Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)
+## Kernel Methods
 
-## GBDT (Gradient Boosting Decision Tree)
+[Kernel Methods and Multiple Kernel Learning](MLfolds/Kernel-Methods)
+
+## Ensemble Learning
+
 [AdaBoost](MLfolds/AdaBoost)
 
 [Gradient Boosting for Regression](MLfolds/Gradient-Boosting-for-Regression)
+
+## Deep Learning
+[Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)
 
 ## Reinforcement Learning
 [Berkeley CS294-112 Course Note](MLfolds/Reinforcement-Learning-Basic-Facts)
