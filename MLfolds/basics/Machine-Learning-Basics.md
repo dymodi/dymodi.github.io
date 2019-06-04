@@ -15,7 +15,7 @@ Some primary problems such as data missing, class imbalance are solved in this t
 
 ### Read Data
 
-``` Python
+```python
 ## Read data
 ## Some libraries
 import pandas as pd
@@ -59,7 +59,7 @@ df_data = df_data[df_data.some_feature != 0]
 df_data['some_new_feature']=df_data.apply(some_function,axis=1)
 ```
 
-###Training
+### Training
 
 ```python
 ## Train with existing libraries (sklearn)
