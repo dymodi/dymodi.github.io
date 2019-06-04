@@ -36,6 +36,8 @@ date: June 5, 2017
 [Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)
 
 ## Reinforcement Learning
+[Markov Decision Processes](MLfolds/Markov-Decision-Processes)
+
 [Berkeley CS294-112 Course Note](MLfolds/Reinforcement-Learning-Basic-Facts)
 
 ## TensorFlow

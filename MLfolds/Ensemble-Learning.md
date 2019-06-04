@@ -7,8 +7,12 @@ author: Yi DING
 
 
 
+A simple definition of ensemble learning is given by [Zhihua Zhou]((https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/springerEBR09.pdf)): Ensemble learning is a machine learning paradigm where multiple learners are trained to solve the same problem. In contrast to ordinary machine learning approaches which try to learn *one* hypothesis from training data, ensemble methods try to construct a *set* of hypotheses and combine them to use.
 
-An [introduction paper](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/springerEBR09.pdf) on this topic is written by Zhi-Hua Zhou. Based on its synonyms: "Committee-based learning", "Multiple classifier systems", "Classifier combination", it's clear that ensemble learning tries to solve a complex problem which involves different knowledge fields.
+## Why Ensemble
+
+* Provide better performance than single base learner.
+* 
 
 
 
