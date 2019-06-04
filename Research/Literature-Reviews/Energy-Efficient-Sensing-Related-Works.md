@@ -10,10 +10,11 @@ date: May 10, 2019
 **Taxonomy**
 
 * Energy saving solution: 
-  * Sensor (GPS) management, 
-  * Data processing (Compressing, Simplification), 
-  * OS optimization, 
+  * Sensor (GPS) management
+  * Data processing (Compressing, Simplification)
+  * OS optimization
   * Data-aided algorithm
+  * Computation Cloud Offloading
 * Applications: Wildlife monitoring, GPS localization, Context sensing, Social sensing
 
 **Comments**
@@ -60,8 +61,15 @@ date: May 10, 2019
   * Taxonomy: Sensor management + Data-aided algorithm
   * Solution: Adaptive duty cycling based on mobility predition
   * Application: Localization (Tracking)
-
-
+* ACE: Exploiting Correlation, *MobiSys12*
+  * Taxonomy: Sensor management + Data-aided algorithm
+  * Solution: Sensing plan based on rules correlation
+* CLEO: Energy Efficient GPS Sensing with Cloud Offloading, *SenSys12*
+  * Taxonomy: Computation Cloud Offloading
+  * Solution: Offload some GPS basic computation to cloud
+* PCS: Piggyback CrowdSensing, *SenSys13*
+  * Taxonomy: Sensor Management
+  * Solution: Predict user's APP usage and piggyback the APP operation
 
 * Energy Efficient GPS Acquisition with Sparse-GPS, *IPSN14*
   * Taxonomy: Data processing (Compressing)
@@ -69,8 +77,6 @@ date: May 10, 2019
 
 
 ## Ref.
-
-[IPSN14] Misra, P., Hu, W., Jin, Y., Liu, J., de Paula, A. S., Wirström, N., & Voigt, T. (2014, April). **Energy efficient gps acquisition with sparse-gps**. In *IPSN* (pp. 155-166). IEEE.
 
 [MobiSys09] Wang, Y., Lin, J., Annavaram, M., Jacobson, Q. A., Hong, J., Krishnamachari, B., & Sadeh, N. (2009, June). **A framework of energy efficient mobile sensing for automatic user state recognition**. In *MobiSys* (pp. 179-192). ACM.
 
@@ -98,5 +104,11 @@ date: May 10, 2019
 
 [SenSys11-SmartDC] Chon, Y., Talipov, E., Shin, H., & Cha, H. (2011, November). **Mobility prediction-based smartphone energy optimization for everyday location monitoring**. In *SenSys* (pp. 82-95). ACM.
 
+[MobiSys12-ACE] Nath, S. (2012). **ACE:exploiting correlation for energy-efficient and continuous context sensing**. *,* In *MobiSys* *12*(8). ACM
 
+[SenSys12-CLEO] Liu, J., Priyantha, B., Hart, T., Ramos, H. S., Loureiro, A. A., & Wang, Q. (2012). **Energy efficient GPS sensing with cloud offloading**. *SenSys*.
+
+[SenSys13-PCS] Lane, N. D., Chon, Y., Zhou, L., Zhang, Y., Li, F., Kim, D., ... & Cha, H. (2013). **Piggyback CrowdSensing (PCS): energy efficient crowdsourcing of mobile sensor data by exploiting smartphone app opportunities**. *SenSys*.
+
+[IPSN14] Misra, P., Hu, W., Jin, Y., Liu, J., de Paula, A. S., Wirström, N., & Voigt, T. (2014, April). **Energy efficient gps acquisition with sparse-gps**. In *IPSN* (pp. 155-166). IEEE.
 
