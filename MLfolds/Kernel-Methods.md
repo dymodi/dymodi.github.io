@@ -17,7 +17,7 @@ In comparison, kernel methods map the data into higher dimensional spaces in the
 
 Now, the Kernel trick is really interesting because that mapping does not need to be ever computed. If our algorithm can be expressed only in terms of a [inner product](http://mathworld.wolfram.com/InnerProduct.html) between two vectors, all we need is replace this inner product with the inner product from some other suitable space. That is where resides the “trick”: wherever a dot product is used, it is replaced with a Kernel function. The kernel function denotes an inner product in feature space and is usually denoted as:
 
-$$ K(x,y) = < \varphi (x),\varphi (y)> $$
+$$ K(x,y) =  <\varphi (x),\varphi (y) > $$
 
 **Kernel Properties**
 
@@ -31,19 +31,24 @@ The choice of a Kernel depends on the problem at hand because it depends on what
 
 **Kernel Functions**
 
-* Linear Kernel: $K(x,y)=x^Ty+c$
-* Polynomial Kernel: $K(x,y)=(\alpha x^Ty+c)^d$
-* Gaussian Kernel: $K(x,y)=e^{\left( -\frac{\lVert x-y \rVert ^2}{2\sigma^2} \right)} $
+* Linear Kernel 
+$$K(x,y)=x^Ty+c$$
+
+* Polynomial Kernel
+$$K(x,y)=(\alpha x^Ty+c)^d$$
+
+* Gaussian Kernel
+$$K(x,y)=e^{\left( -\frac{\lVert x-y \rVert ^2}{2\sigma^2} \right)} $$
 
 **Libraries**
 
-```sklearn.svm.SVC``` is provided as SVM based classifier with optional kernel  (```linear,poly,rbf,sigmoid``` etc.)
+```sklearn.svm.SVC``` is provided as SVM based classifier with optional kernel  (```linear```,```poly```,```rbf```,```sigmoid``` etc.)
 
 ```tf.contrib.kernel_methods``` is also provided in TensorFlow.
 
 
 
-##Multiple Kernel Learning (MKL)
+## Multiple Kernel Learning (MKL)
 
 [Mehmet Gonen]([http://jmlr.csail.mit.edu/papers/volume12/gonen11a/gonen11a.pdf](http://jmlr.csail.mit.edu/papers/volume12/gonen11a/gonen11a.pdf)) formulate MKL as
 
