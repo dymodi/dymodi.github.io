@@ -12,30 +12,41 @@ author: Yi DING
 **Responsibilities**
 
 * [HQ] Build predictive models (and documentation).
-* Identify and acquire new data assets that improve insight and modeling accuracy.
-* [[Q]](#identify-and-investigate-new-technologies) Identify and investigate new technologies.
+* [HQ] Identify and acquire new data assets that improve insight and modeling accuracy.
+* [x] [[Q]](#identify-and-investigate-new-technologies) Identify and investigate new technologies.
+* [x] [Q] Presentation based on analysis.
 
 **Required Skills**
 
-- Navigate large scale/messy data and create data structure.
-- Machine learning on practical problems.
-- Proficiency with R, Python, SQL, and/or other data science tools.
-- Data visualization of large scale data.
-- Knowledge of statistics and optimization.
+- [x] [Q] Navigate/analyze large scale/messy data, create data structure and mine insights.
+- [ ] [HQ] Machine learning on practical problems.
+- [ ] [HQ] Proficiency with R, Python, SQL, and/or other data science tools.
+- [ ] [HQ] Data visualization of large scale data.
+- [ ] [HQ] Knowledge of statistics and optimization.
+- [ ] [NQ] Deep learning practice.
 
 **Popular tools**
 
-* Python libraries: 
-* R libraries: dplyr, ggplot2
+* [x] [Q] Python libraries: Numpy, Pandas, scikit-learn
+* [ ] [NQ] R libraries: dplyr, ggplot2
+* [ ] [NQ] Deep learning framework: CNTK, TensorFlow
+* [ ] [NQ] Big data technologies: COSMOS/SCOPE, Hadoop/Hive, Spark (MLlib), PySpark, SparkR, Databrick
+* [ ] [HQ] Shell scripting in Unix/Linux environment.
 
 **Preferred Skills**
 
 - Technical knowledge of data center operations (Facebook)
-- 
+- Leadership (IBM)
+
+
+
+### Algorithm Engineer
 
 
 
 
+
+### My skill package
 
 #### Identify and investigate new technologies
 
