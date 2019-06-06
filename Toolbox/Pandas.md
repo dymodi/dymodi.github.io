@@ -58,5 +58,8 @@ t2 = pd.to_datetime('1/1/2015 03:30')
 print pd.Timedelta(t2 - t1).seconds / 3600.0
 # Get day of datetime
 place_time.day
+# Add new column based on two columns (use of lambda)
+df['delta'] = df.apply(lambda row: pd.Timedelta(row['stop'] -row['start']) /
+                       np.timedelta64(1, 's') , axis=1)
 ```
 
