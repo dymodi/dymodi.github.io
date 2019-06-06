@@ -40,9 +40,14 @@ date: June 5, 2017
 
 [Berkeley CS294-112 Course Note](MLfolds/Reinforcement-Learning-Basic-Facts)
 
-## TensorFlow
+## Framework and Technologies
 [Softmax on Digits Data with TensorFlow](MLfolds/tensorflow/Softmax-on-Digits-Data-with-TensorFlow) 
 
+## Privacy and Security
+
+[GDPR](MLfolds/GDPR)
+
 ## Advanced Topics
+
 [Semi Supervised Methods](MLfolds/advanced-topics/Semi-Supervised)
 

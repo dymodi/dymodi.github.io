@@ -11,8 +11,8 @@ author: Yi DING
 
 **Responsibilities**
 
-* [HQ] Build predictive models (and documentation).
-* [HQ] Identify and acquire new data assets that improve insight and modeling accuracy.
+* [ ] [HQ] Build predictive models (and documentation).
+* [ ] [HQ] Identify and acquire new data assets that improve insight and modeling accuracy.
 * [x] [[Q]](#identify-and-investigate-new-technologies) Identify and investigate new technologies.
 * [x] [Q] Presentation based on analysis.
 
