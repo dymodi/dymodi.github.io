@@ -5,11 +5,12 @@ date: Jan 5, 2017
 author: Yi DING
 ---
 
-In this tutorial, we will basically follow the [official tutorial](https://www.tensorflow.org/get_started/mnist/pros) but will change some parts to make it easier to understand. 
+Here we basically follow the contents provided by [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/). A related video can be found in [Youtube](https://www.youtube.com/watch?v=u6aEYuemt0M).
 
 [Another tutorial](http://rll.berkeley.edu/deeprlcoursesp17/docs/tfsection.pdf) of TensorFlow on deep NN is provided by Chelsea Finn from Berkeley CS 294 course.
 
-## Convolution Neural Network
+## Architecture Overview
+
 Note that, according to [Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.github.io/convolutional-networks/) "ConvNet architectures make the explicit assumption that the inputs are images".
 
 One reason that we need ConvNN for images is that regular NNs do not scale well to full images.
@@ -64,3 +65,26 @@ Generally, a 2\*2 filter is used with stride 2 to do downsammpling. For a 2D vol
 
 ### Fully-connected Layer
 Neurons in a fully connected layer have full connections to all activations in the previous layer, as seen in regular Neural Networks. 
+
+## ConvNet Architectures
+
+### Layer Patterns
+
+The most common ConvNet architecture follows the pattern:
+
+```
+INPUT -> [[CONV -> RELU]*N -> POOL?]*M -> [FC -> RELU]*K -> FC
+```
+
+where the `*` indicates repetition, and the `POOL?` indicates an optional pooling layer. Moreover, `N >= 0` (and usually `N <= 3`), `M >= 0`, `K >= 0` (and usually `K < 3`). For example, here are some common ConvNet architectures you may see that follow this pattern:
+
+- `INPUT -> FC`, implements a linear classifier. Here `N = M = K = 0`.
+- `INPUT -> CONV -> RELU -> FC`
+- `INPUT -> [CONV -> RELU -> POOL]*2 -> FC -> RELU -> FC`. Here we see that there is a single CONV layer between every POOL layer.
+- `INPUT -> [CONV -> RELU -> CONV -> RELU -> POOL]*3 -> [FC -> RELU]*2 -> FC` Here we see two CONV layers stacked before every POOL layer. This is generally a good idea for larger and deeper networks, because multiple stacked CONV layers can develop more complex features of the input volume before the destructive pooling operation.
+
+However, you should rarely ever have to train a ConvNet from scratch or design one from scratch. Instead, find what is popular in ImageNet and download that pretrained model.
+
+### Layer Sizing Patterns
+
+This subsection remains to be built when I have more practice.
