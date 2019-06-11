@@ -81,6 +81,13 @@ df_data['some_feature'].fillna(0,inplace=True)
 ## Remove outliers
 # Remove some rows with NULL/Zeros
 df_data = df_data[df_data.some_feature != 0]
+
+## A quick description of the data
+df_data.describe()
+## Good habit: have a look at the hist of the data
+fig = plt.figure(figsize = (15,20))
+ax = fig.gca()
+df_data.hist(bins=10, ax=ax)
 ```
 
 ### Feature Engineering
