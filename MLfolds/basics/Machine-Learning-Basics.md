@@ -13,15 +13,46 @@ Some primary problems such as data missing, class imbalance are solved in this t
 
 ## Classification
 
+### Libraris
+
+```python
+import pandas as pd
+import os
+# Sklearn
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.neural_network import MLPClassifier
+from sklearn.svm import LinearSVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.neural_network import MLPClassifier
+# Metrics
+from sklearn.metrics import classification_report,accuracy_score,confusion_matrix,f1_score,\
+precision_recall_curve,precision_score,recall_score,auc,roc_curve
+# XGBoost
+from xgboost import XGBClassifier
+```
+###  Auxiliary Functions
+
+```python
+## Classification Metrics
+def precision(y_test,result):
+    scores={}
+    #scores['classification_report']=classification_report(y_test,result)
+    scores['accuracy_score']=accuracy_score(y_test,result)
+    scores['confusion_matrix']=confusion_matrix(y_test,result)
+    scores['f1_score']=f1_score(y_test,result)
+    #scores['precision_recall_curve']=precision_recall_curve(y_test,result)
+    scores['precision_score']=precision_score(y_test,result)
+    scores['recall_score']=recall_score(y_test,result)
+    return scores
+```
+
 ### Read Data
 
 ```python
-## Read data
-## Some libraries
-import pandas as pd
-import os
-
-# Read from local file
+## Read from local file
 data_path = 'where_your_file_is_in'
 filename = "your_data.csv"
 file_path = os.path.join(data_path,filename)
@@ -88,13 +119,38 @@ X_train = pd.concat([X_train_majority_downsampled, X_train_minority])
 # Display class counts afterwards
 print('After resample:\n', X_train[LABEL].value_counts())
 
-## Create the model
-my_method = LinearSVC()
+## Build model
+# GBDT
+alpha = 0.95
+clf = GradientBoostingClassifier(n_estimators=250, max_depth=3,
+                                learning_rate=.1, min_samples_leaf=9,
+                                min_samples_split=9)
+# Random Forest
+regr = RandomForestClassifier(max_depth=2, random_state=0)
+# KNN
+neigh = KNeighborsClassifier(n_neighbors=2)
+# SVM
+svm = SVC(C=1.0)
+# Neural network
+nn = MLPClassifier()
+# XGBoost
+xgb=XGBClassifier()
 
-## Fit the data
-my_method.fit(X_train,y_train.ravel())
+method_dict = {'GBDT':clf, 'Random Forest':regr, 'KNN':neigh, 'Neural Network':nn,
+               'SVM':svm, 'XGBoost':xgb}
 
-## Cross-validation to choose best performing model and parameters
+print(X_train.head(5))
+
+## Cross Validation
+for method in method_dict: 
+    method_dict[method].fit(X_train.values,y_train.values.ravel())
+    y_pred = method_dict[method].predict(X_test.values)
+    print(method)
+    # Evaluation
+    scores = precision(y_test,y_pred)
+    for key in scores:
+        print(key, scores[key])
+    print('\n')
 ```
 
 ### Evaluation
