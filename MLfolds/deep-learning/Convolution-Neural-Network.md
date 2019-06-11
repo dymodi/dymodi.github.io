@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep NN on MNIST Data with TensorFlow
+title: Convolution Neural Network
 date: Jan 5, 2017
 author: Yi DING
 ---
@@ -17,20 +17,34 @@ One reason that we need ConvNN for images is that regular NNs do not scale well 
 ConvNN is made up of layers, each layer transform a 3D volumn to another 3D volumn with differentiable functions. Three types of layers are used: **Convolutional Layer**, **Pooling Layer**, and **Fully-Connected Layer** (exactly as seen in regular Neural Networks)
 
 <p align = "center">
-    <img src="figures/neural_net2.png"  alt="nn" height="200">
-    Traditional NN
+    <img src="figures/neural_net2.png"  alt="nn" height="150">
+    <img src="figures/cnn.png"  alt="cnn" height="150">
 </p>
 
-<p align = "center">
-    <img src="figures/cnn.png"  alt="cnn" height="200">
-    CNN
-</p>
 
 (Figures come from [Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.github.io/convolutional-networks/))
 
 In this way, ConvNets transform the original image layer by layer from the original pixel values to the final class scores.
 
+
+## Layers used to build ConvNets
+
+In summary, 
+
+- A ConvNet architecture is in the simplest case a list of Layers that transform the image volume into an output volume (e.g. holding the class scores)
+- There are a few distinct types of Layers (e.g. CONV/FC/RELU/POOL are by far the most popular)
+- Each Layer accepts an input 3D volume and transforms it to an output 3D volume through a differentiable function
+- Each Layer may or may not have parameters (e.g. CONV/FC do, RELU/POOL don’t)
+- Each Layer may or may not have additional hyperparameters (e.g. CONV/FC/POOL do, RELU doesn’t)
+
+<p align = "center">
+    <img src="figures/convnet.jpeg"  alt="convnet" height="300">
+</p>
+
+
+
 ### Convolutional Layer
+
 Convolutional layer is the key section of ConvNN. In convolutional layer, some filters (specific edges, colors...) are used to slides along width and height for all depth. For example, we use 12 filters with size 5\*5\*3 to on a 32\*32\*3 image, the output volumn will be 32\*32\*12 (we stack 12 2D volumns).  
 
 Each pixel is **locally** connected to the corresponding pixel in the input volumn.

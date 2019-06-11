@@ -24,28 +24,28 @@ date: June 5, 2017
 
 ## Kernel Methods
 
-[Kernel Methods and Multiple Kernel Learning](MLfolds/Kernel-Methods)
+[Kernel Methods and Multiple Kernel Learning](MLfolds/kernel-methods/Kernel-Methods)
 
 ## Ensemble Learning
 
-[AdaBoost](MLfolds/AdaBoost)
+[AdaBoost](MLfolds/ensemble-learning/AdaBoost)
 
-[Gradient Boosting for Regression](MLfolds/Gradient-Boosting-for-Regression)
+[Gradient Boosting for Regression](MLfolds/ensemble-learning/Gradient-Boosting-for-Regression)
 
 ## Deep Learning
-[Deep NN on MNIST Data with TensorFlow](MLfolds/tensorflow/Deep-NN-on-MNIST-Data-with-TensorFlow)
+[Convolution Neural Network](MLfolds/deep-learning/Convolution-Neural-Network)
 
 ## Reinforcement Learning
-[Markov Decision Processes](MLfolds/Markov-Decision-Processes)
+[Markov Decision Processes](MLfolds/reinforcement-learning/Markov-Decision-Processes)
 
-[Berkeley CS294-112 Course Note](MLfolds/Reinforcement-Learning-Basic-Facts)
+[Berkeley CS294-112 Course Note](MLfolds/reinforcement-learning/Reinforcement-Learning-Basic-Facts)
 
 ## Framework and Technologies
-[Softmax on Digits Data with TensorFlow](MLfolds/tensorflow/Softmax-on-Digits-Data-with-TensorFlow) 
+[Softmax on Digits Data with TensorFlow](MLfolds/framework-and-technologies/Softmax-on-Digits-Data-with-TensorFlow) 
 
 ## Privacy and Security
 
-[GDPR](MLfolds/GDPR)
+[GDPR](MLfolds/privacy-and-security/GDPR)
 
 ## Advanced Topics
 

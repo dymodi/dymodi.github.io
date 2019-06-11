@@ -59,6 +59,7 @@ However, for boosting, something counter-intuitive happens. According to [Explai
 <img src="figures/boosting-overfitting.png"  alt="boosting overfitting">
 </p>
 
+
 One of the explanation is *Margin*, a variable to measure the confidence of the model. Margin can be computed as the differences in the voting process in forming $$H$$, a vote a conducted among weak learners. 
 
 ###  Loss minimization
