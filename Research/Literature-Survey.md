@@ -8,32 +8,34 @@ date: July 3, 2018
 ## Literature Surveys
 
 ### Localization
-[Related Works of Indoor Localization](Literature-Reviews/Indoor-Localization-Related-Works)
+[Related Works of Indoor Localization](Literature-Reviews/Localization/Indoor-Localization-Related-Works)
 
-[Related Works of Beacon POI Correction](Literature-Reviews/Beacon-POI-Correction-Related-Works)
+[Related Works of Beacon POI Correction](Literature-Reviews/Localization/Beacon-POI-Correction-Related-Works)
+
+[Related Works of Location Privacy](Literature-Reviews/Localization/Location-Privacy-Related-Works)
 
 ### Sensing
 
-[Related Works of Context Sensing](Literature-Reviews/Scene-Ambience-Sensing-Monitoring-Related-Works)
+[Related Works of Context Sensing](Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works)
 
-[Related Works of Energy Efficient Sensing](Literature-Reviews/Energy-Efficient-Sensing-Related-Works)
+[Related Works of Energy Efficient Sensing](Literature-Reviews/Sensing/Energy-Efficient-Sensing-Related-Works)
 
-[Related Works of Heterogeneous Sensing](Literature-Reviews/Heterogeneous-Sensing-Related-Works)
+[Related Works of Heterogeneous Sensing](Literature-Reviews/Sensing/Heterogeneous-Sensing-Related-Works)
 
-[Related Works of RSSI-based Sensing](Literature-Reviews/RSSI-Based-Sensing-Related-Works)
+[Related Works of RSSI-based Sensing](Literature-Reviews/Sensing/RSSI-Based-Sensing-Related-Works)
 
 ### Transportation
 
-[Related Works of Taxi Dispatching and Routing](Literature-Reviews/Taxi-Dispatching-and-Routing-Related-Works)
+[Related Works of Taxi Dispatching and Routing](Literature-Reviews/Transportation/Taxi-Dispatching-and-Routing-Related-Works)
 
 ### Machine Learning & Data Mining
-[Related Works of Data Inconsistency](Literature-Reviews/Data-Inconsistency-Related-Works)
+[Related Works of Data Inconsistency](Literature-Reviews/MLDM/Data-Inconsistency-Related-Works)
 
-[Related Works of Outlier Detection](Literature-Reviews/Outlier-Detection-Related-Works)
+[Related Works of Outlier Detection](Literature-Reviews/MLDM/Outlier-Detection-Related-Works)
 
-[Related Works of Feature Selection](Literature-Reviews/Feature-Selection-Related-Works)
+[Related Works of Feature Selection](Literature-Reviews/MLDM/Feature-Selection-Related-Works)
 
-[Related Works of Labeling](Literature-Reviews/Labeling-Related-Works)
+[Related Works of Labeling](Literature-Reviews/MLDM/Labeling-Related-Works)
 
-[Related Works of Learning with Missing Value](Literature-Reviews/Learning-with-Missing-Value-Related-Works)
+[Related Works of Learning with Missing Value](Literature-Reviews/MLDM/Learning-with-Missing-Value-Related-Works)
 
