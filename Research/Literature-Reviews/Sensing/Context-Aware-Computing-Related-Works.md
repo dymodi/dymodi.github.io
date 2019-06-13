@@ -67,7 +67,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
     * Probabilistic logic
 
 <p align = "center">
-<img src="figures/ContextInference_IEEE14.png"  alt="Context aware navigation" height="300">
+<img src="figures/ContextInference_IEEE14.png"  alt="Context aware navigation" height="250">
 </p>
 
 
@@ -95,7 +95,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
   * Context life cycle: Context Acquisition, Context Modelling, Context Reasoning, Context Distribution.
 
 <p align = "center">
-<img src="figures/ContextLifeCycle_IEEE18.png"  alt="Context aware navigation" height="400">
+<img src="figures/ContextLifeCycle_IEEE18.png"  alt="Context aware navigation" height="500">
 </p>
 
 
