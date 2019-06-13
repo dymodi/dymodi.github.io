@@ -16,6 +16,8 @@ date: July 3, 2018
 
 ### Sensing
 
+[Related Works of Context-Aware Computing](Literature-Reviews/Sensing/Context-Aware-Computing-Related-Works)
+
 [Related Works of Context Sensing](Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works)
 
 [Related Works of Energy Efficient Sensing](Literature-Reviews/Sensing/Energy-Efficient-Sensing-Related-Works)
