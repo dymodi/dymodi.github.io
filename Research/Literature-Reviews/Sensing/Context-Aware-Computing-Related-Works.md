@@ -66,10 +66,6 @@ In this survey, we focus on the context-aware computing, which was a individual 
     * Ontology based
     * Probabilistic logic
 
-<p align = "center">
-<img src="figures/ContextInference_IEEE14.png"  alt="Context aware navigation" height="250">
-</p>
-
 
 
 * Context-aware navigation, *Sensors14-Navigation*
