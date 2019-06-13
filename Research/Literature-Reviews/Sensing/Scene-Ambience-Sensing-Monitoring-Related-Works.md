@@ -15,6 +15,15 @@ Localization is a special type of context and related works on localization can 
 
 
 
+**Keyword**
+
+* Context sensing
+* Context-aware computing
+* Context modeling
+* Context-sensitive
+
+
+
 **Taxonomy**
 
 * Context:
