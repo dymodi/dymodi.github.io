@@ -24,7 +24,7 @@ A related topic is **feature selection**, which might be discussed after.
 
 
 
-##Numeric v.s. Numeric
+## Numeric v.s. Numeric
 
 **Linear Association (Covariance and (Pearson) Correlation)**
 
@@ -57,7 +57,7 @@ Here we follow the slides [Association Between Categorical Variables](https://ne
 
 **Two way table** is good way to show the association between two categorical variable.
 
-**Chi-square test ($\chi ^2$ test)**
+**Chi-square test ($$\chi ^2$$ test)**
 
 The **chi-square test** for two-way tables is used as a guideline for declaring that the evidence in the sample is strong enough to allow us to generalize the relationship to a larger population.
 
