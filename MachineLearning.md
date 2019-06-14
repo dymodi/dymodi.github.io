@@ -9,6 +9,8 @@ date: June 5, 2017
 ## Basics
 [Machine Learning Basic Tutorial](MLfolds/basics/Machine-Learning-Basics)
 
+[Association Between Variables](MLfolds/basics/Association)
+
 [Data Preprocessing](MLfolds/basics/Data-Preprocessing)
 
 [Loss Functions](MLfolds/basics/Loss-Functions)
