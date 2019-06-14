@@ -13,7 +13,7 @@ A related topic is **feature selection**, which might be discussed after.
 
 
 
-##Categorization of data (attributes)
+## Categorization of data (attributes)
 
 |                              | **Attribute Type** | **Description**                                              | **Examples**                                                 | **Operations**                                               |
 | ---------------------------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
