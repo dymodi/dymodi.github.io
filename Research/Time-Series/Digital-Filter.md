@@ -7,7 +7,7 @@ author: Yi DING
 
 Digital filter can be used to process time series data. Some contents comes from the [introduction]([http://123.physics.ucdavis.edu/week_5_files/filters/digital_filter.pdf](http://123.physics.ucdavis.edu/week_5_files/filters/digital_filter.pdf)).
 
-In signal processing, the function of a *filter* is to remove unwanted parts of the signal, such as random noise, or to extract useful parts of the signal, such as the components lying within a certain frequency range
+In signal processing, the function of a *filter* is to remove unwanted parts of the signal, such as random noise, or to extract useful parts of the signal, such as the components lying within a certain frequency range. [Here](http://www.dspguide.com/CH14.PDF) aslo said that Digital filters are used for two general purposes: (1) separation of signals that have been combined, and (2) restoration of signals that have been distorted in some way. 
 
 **Input**
 
@@ -21,25 +21,16 @@ $$\mathbf{y_0, y_1, y_2, y_3, …, y_n}$$
 
 ### Examples of simple digital filters
 
-1. Unity gain filter:
+1. Unity gain filter: $$\mathbf{y_n}=\mathbf{x_n}$$
 
-   $$\mathbf{y_n}=\mathbf{x_n}$$
+2. Simple gain filter: $$\mathbf{y_n}= \mathbf{Kx_n}$$
 
-2. Simple gain filter:
+3. Pure delay filter: $$\mathbf{y_n}=\mathbf{x_{n-1}}$$
 
-   $$\mathbf{y_n}= \mathbf{Kx_n}$$
+4. Two-term difference filter: $$\mathbf{y_n}=\mathbf{x_n}-\mathbf{x_{n-1}}$$
 
-3. Pure delay filter:
+5. Two-term average filter (This is a simple type of low pass filter as it tends to smooth out high-frequency variations in a signal): $$\mathbf{y_n}=\frac{\mathbf{x_n+x_{n-1}}}{2}$$
 
-   $$\mathbf{y_n}=\mathbf{x_{n-1}}$$
-
-4. Two-term difference filter:
-
-   $$\mathbf{y_n}=\mathbf{x_n}-\mathbf{x_{n-1}}$$
-
-5. Two-term average filter (This is a simple type of low pass filter as it tends to smooth out high-frequency variations in a signal):
-
-   $$\mathbf{y_n}=\frac{\mathbf{x_n+x_{n-1}}}{2}$$
 
 
 
@@ -87,6 +78,50 @@ The reason for expressing the filter in this way is that it allows us to rewrite
 symmetrical form:
 
 $$\mathbf{b_0y_n+b_1y_{n-1}=a_0x_n+a_1x_{n-1}}$$
+
+
+
+### The transfer function of a digital filter
+
+First of all, we must introduce the *delay operator*, denoted by the symbol $$\mathbf{z^{-1}}$$:
+
+$$\mathbf{z^{-1}x_n=x_{n-1}}$$
+
+Hence we have:
+
+$$\mathbf{ \frac{y_n}{x_n} = \frac{a_0+a_1z^{-1}+a_2z^{-2}}{b_0+b_1z^{-1}+b_2z^{-2}}}$$
+
+This is the general form of the transfer function for a second-order recursive (IIR) filter.
+
+The transfer function of a second-order second-order (FIR) filter can therefore be expressed in the general form
+
+$$\mathbf{ \frac{y_n}{x_n} = a_0+a_1z^{-1}+a_2z^{-2}}$$
+
+
+
+### How Information is Represented in Signals
+
+Fortunately, there are only two ways that are common for information to be represented in naturally occurring signals. We will call these: **information represented in the time domain**, and **information represented in the frequency domain**. 
+
+The *step response* describes how information represented in the *time domain* is being modified by the system. In contrast, the *frequency response* shows how information represented in the f*requency domain* is being changed. 
+
+**Time Domain Parameters**: risetime, overshoot, linear phase
+
+**Frequency Domain Parameters**: passband, stopband, transition band, cutoff frequency, fast roll-off, passband ripple, stopband attenuation.
+
+High-pass, band-pass and band-reject filters are designed by starting with a low-pass filter, and then converting it into the desired response. 
+
+### Moving Average Filters
+
+$$y[i]=\frac1M\sum^{M-1}_{j=0}x[i+j]$$
+
+<p align = "center">
+<img src="figures/Digital-filter-Original-signal.png"  alt="Digital-filter-Original-signal" height="190">
+<img src="figures/Digital-filter-11-point-moving-average.png"  alt="Digital-filter-11-point-moving-average" height="190">
+<img src="figures/Digital-filter-51-point-moving-average.png"  alt="Digital-filter-11-point-moving-average" height="190">  
+</p>
+
+
 
 
 
