@@ -116,9 +116,9 @@ High-pass, band-pass and band-reject filters are designed by starting with a low
 $$y[i]=\frac1M\sum^{M-1}_{j=0}x[i+j]$$
 
 <p align = "center">
-<img src="figures/Digital-filter-Original-signal.png"  alt="Digital-filter-Original-signal" height="190">
-<img src="figures/Digital-filter-11-point-moving-average.png"  alt="Digital-filter-11-point-moving-average" height="190">
-<img src="figures/Digital-filter-51-point-moving-average.png"  alt="Digital-filter-11-point-moving-average" height="190">  
+<img src="figures/Digital-filter-Original-signal.png"  alt="Digital-filter-Original-signal" height="180">
+<img src="figures/Digital-filter-11-point-moving-average.png"  alt="Digital-filter-11-point-moving-average" height="180">
+<img src="figures/Digital-filter-51-point-moving-average.png"  alt="Digital-filter-11-point-moving-average" height="180">  
 </p>
 
 

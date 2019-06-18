@@ -25,5 +25,8 @@ date: June 9, 2017
 
 ### [IoT](Research/ioT)
 
+### [Time Series](Research/time-series)
+
 ## Work Publishing
 [Conferences Info](Research/Paper/Conferences-Info)
+
