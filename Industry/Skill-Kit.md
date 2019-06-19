@@ -35,14 +35,45 @@ author: Yi DING
 
 **Preferred Skills**
 
-- Technical knowledge of data center operations (Facebook)
-- Leadership (IBM)
+* [ ] Technical knowledge of data center operations (Facebook)
+* [ ] Leadership (IBM)
 
 
 
-### Algorithm Engineer
+### Machine Learning Engineer
 
+**Responsibilities**
 
+* [ ] [HQ] Designing (end-to-end) machine/deep/reinforcement learning models
+* [x] [Q] Optimize/customize learning models for new applications
+* [ ] Feature Engineering
+* [ ] Software engineering practice
+* [ ] Design distributed and scalable systems
+
+**Required Skills**
+
+* [ ] Language: Java, C++, or C#, Python, SQL
+* [ ] Software Development processes including: coding standards, code reviews, source control, bug tracking, build processes, testing, and design documentation.
+* [ ] Porting ML algorithms to hardware/software platforms
+* [ ] Optimizing ML software algorithms with hardware acceleration techniques
+* [ ] Vectorization techniques on at least one platform (e.g. SSE, NEON, etc.).
+* [ ] At least one scientific computation package (e.g. Eigen, Toon, etc.).
+* [ ] Computer Science fundamentals in object-oriented design, data structures and algorithms, and complexity analysis.
+* [ ] Deep knowledge of and track record of research in machine learning (e.g. sequential models, classification, deep learning)
+
+**Popular tools**
+
+* [ ] C++ Libraries: Eigen, Toon
+
+**Preferred Skills**
+
+* [ ] Production-scale software development with ML/AI, computer vision, and smart IoT devices
+* [ ] 5+ years of experience in optimizing machine learning networks techniques on embedded platforms.
+* [ ] Experience in designing efficient neural network models and deploying them on mobile platforms
+* [ ] Experience with at least one DSP or CNN engine.
+* [ ] Publications at top computer vision and machine learning conference such as CVPR, ECCV, ICCV, ICML, NIPS.
+* [ ] Demonstrated ability working collaboratively in cross-functional teams.
+* [ ] Experience working with data at scale, including experience with some or all of the following: HDFS, Cassandra, Kafka, Flink, Samza, Spark, EMR
 
 
 
