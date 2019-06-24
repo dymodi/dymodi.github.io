@@ -5,7 +5,7 @@ date: June 20, 2019
 author: Yi DING
 ---
 
-**Why we need representation learning?**
+## Why we need representation learning?
 
 The success of machine learning algorithms generally depends on data representation [1], although specific domain knowledge can be used to help design representations, sometimes it is difficult to manuelly craft features from raw data collected. Especially when ….
 
@@ -17,10 +17,22 @@ Representation Learning aims to learn representations from data that make it eas
 
 
 
-**How to conduct representation learning?**
+## How to conduct representation learning?
 
-* **[Auto-encoders](https://www.kaggle.com/shivamb/how-autoencoders-work-intro-and-usecases/notebook)**: An *autoencoder* is a type of artificial neural network used to learn efficient data codings  in an unsupervised  manner. The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for dimensionality reduction, by training the network to ignore signal “noise”.
-* Meta-learning
+### Auto-encoders
+
+An *[autoencoder]((https://www.kaggle.com/shivamb/how-autoencoders-work-intro-and-usecases/notebook))* is a type of artificial neural network used to learn efficient data codings  in an unsupervised  manner. The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for dimensionality reduction, by training the network to ignore signal “noise”.
+
+The network may be viewed as consisting of two parts: an encoder function $$\pmb{h}=f(\pmb{x})$$ and a decoder that produces a reconstruction $$\pmb{r}=g(\pmb{h})$$.
+
+For undercomplete auto encoders, the learning process is described simply as minimizing a loss function
+
+$$L(\pmb{x},g(f(\pmb{x})))$$
+
+Simple autoencoder may fail in extracting useful information from the dataset due to overfitting, some regularized autoencoders can somehow fix the problem:
+
+* Sparse Autoencoders: $$L(\pmb{x},g(f(\pmb{x})))+\Omega(\pmb{h})$$, where $$\Omega(\pmb{h})$$ is a sparsity penalty over the code layer $$\pmb{h}$$.
+* Denoising Autoencoders (DAE): $$L(\pmb{x},g(f(\pmb{\tilde x})))$$, where $$\pmb{\tilde x}$$ is a copy of $$\pmb{x}$$ that has been corrupted by some form of noise.
 
 
 

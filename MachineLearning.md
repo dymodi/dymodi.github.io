@@ -34,6 +34,9 @@ date: June 5, 2017
 
 [Gradient Boosting for Regression](MLfolds/ensemble-learning/Gradient-Boosting-for-Regression)
 
+## Representation Learning
+[Representation Learning](MLfolds/representation-learning/Representation-Learning)
+
 ## Deep Learning
 [Convolution Neural Network](MLfolds/deep-learning/Convolution-Neural-Network)
 
