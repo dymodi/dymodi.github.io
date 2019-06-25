@@ -11,8 +11,13 @@ The success of machine learning algorithms generally depends on data representat
 
 Representation Learning aims to learn representations from data that make it easier to extract useful information for various tasks [2].
 
+According to [3], a good example is that when you are asked to divide CCX by VI, you would begin by converting the numbers to the Arabic numeral representation. That is the importance of representation.
+
+We can think of the suprevised training of feedforward networks as performing a kind of representation learning where in the last hidden layer we can get some more seperable representation of the raw data. 
+
 [comment]: # "In the case of heterogeneous capatiable sensing, we want to learn representations from the raw RSSI data with device proprety, environment feature and user behaivor. One reason why explicitly dealing with repre-sentations is interesting is because they can be convenient to express many general priors about the world around us, i.e., priors that are not task-specific but would be likely to be useful for a learning machine to solve. Specifically, the main prior we want to exploit in this paper is (1) Multiple explanatory factors: device/environment/user; (2) Shared factors across tasks; (3) Temporal and spatial coherence"
 
+## Transfer Learning and Domain Adaptation
 
 
 
@@ -43,3 +48,5 @@ Simple autoencoder may fail in extracting useful information from the dataset du
 [1] Bengio, Y., Courville, A., & Vincent, P. (2013). Representation learning: A review and new perspectives. *IEEE transactions on pattern analysis and machine intelligence*, *35*(8), 1798-1828.
 
 [2] Li, Y., Fu, K., Wang, Z., Shahabi, C., Ye, J., & Liu, Y. (2018, July). Multi-task representation learning for travel time estimation. In *Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining* (pp. 1695-1704). ACM.
+
+[3] Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep learning*. MIT press.

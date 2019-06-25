@@ -13,6 +13,8 @@ author: Yi DING
 
 [Machine Learning - A Probabilistic Perspective - Kevin P. Murphy](http://dsd.future-lab.cn/members/2015nlp/Machine_Learning.pdf)
 
+[Deep Learning - Ian Goodfellow and Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org)
+
 [Reinforcement Learning: An Introduction - Richard S. Sutton and Andrew G. Barto](http://incompleteideas.net/book/bookdraft2018jan1.pdf)
 
 [Boosting Foundations and Algorithms - Robert E. Schapire & Yoav Freund](https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Boosting_%20Foundations%20and%20Algorithms%20%5BSchapire%20%26%20Freund%202012-05-18%5D.pdf)
