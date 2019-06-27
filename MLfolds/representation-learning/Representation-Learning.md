@@ -15,7 +15,7 @@ According to [3], a good example is that when you are asked to divide CCX by VI,
 
 We can think of the suprevised training of feedforward networks as performing a kind of representation learning where in the last hidden layer we can get some more seperable representation of the raw data. 
 
-[comment]: # "In the case of heterogeneous capatiable sensing, we want to learn representations from the raw RSSI data with device proprety, environment feature and user behaivor. One reason why explicitly dealing with repre-sentations is interesting is because they can be convenient to express many general priors about the world around us, i.e., priors that are not task-specific but would be likely to be useful for a learning machine to solve. Specifically, the main prior we want to exploit in this paper is (1) Multiple explanatory factors: device/environment/user; (2) Shared factors across tasks; (3) Temporal and spatial coherence"
+[comment]: # "In the case of heterogeneous capatiable sensing, we want to learn representations from the raw RSSI data with device proprety, environment feature and user behaivor. One reason why explicitly dealing with representations is interesting is because they can be convenient to express many general priors about the world around us, i.e., priors that are not task-specific but would be likely to be useful for a learning machine to solve. Specifically, the main prior we want to exploit in this paper is (1) Multiple explanatory factors: device/environment/user; (2) Shared factors across tasks; (3) Temporal and spatial coherence"
 
 ## Transfer Learning and Domain Adaptation
 
@@ -26,7 +26,7 @@ We can think of the suprevised training of feedforward networks as performing a 
 
 ### Auto-encoders
 
-An *[autoencoder]((https://www.kaggle.com/shivamb/how-autoencoders-work-intro-and-usecases/notebook))* is a type of artificial neural network used to learn efficient data codings  in an unsupervised  manner. The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for dimensionality reduction, by training the network to ignore signal “noise”.
+An *[autoencoder](https://www.kaggle.com/shivamb/how-autoencoders-work-intro-and-usecases/notebook)* is a type of artificial neural network used to learn efficient data codings  in an unsupervised  manner. The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for dimensionality reduction, by training the network to ignore signal “noise”.
 
 The network may be viewed as consisting of two parts: an encoder function $$\pmb{h}=f(\pmb{x})$$ and a decoder that produces a reconstruction $$\pmb{r}=g(\pmb{h})$$.
 
