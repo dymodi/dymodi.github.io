@@ -13,7 +13,16 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 **Key Words**
 
-* context-aware computing
+* **Context**: any information that can be used to charac-terize the situation of an entity. An entity is a person, place, or object that is considered relevant to the interac-tion between a user and an application, including the user and applications themselves [IEEEIoTJ18-Survey].
+* Context-aware computing
+* **Context lifecycle**: Context Acquisition -> Context Modeling -> Context Reasoning -> Context Dissemination
+* **Context modeling** (Context representation): 
+  * A context model is to define and store context data in a machine processable form.
+  * Context modeling is defined as the context representation that provides assistance in the under standing of properties, relationship, and details of context
+  * Models: Key-Value models, Logic based models, Ontology based models
+* **Context reasoning**:
+  * The inference (reasoning) process can be used to derive new facts based on existing rules in the systems. 
+  * Context reasoning can be defined as a method of deducing new knowledge, and understanding better, based on the available context. It can also be explained as a process of giving high-level context deductions from a set of contexts [IEEECST14-Survey].
 
 
 
@@ -45,8 +54,8 @@ In this survey, we focus on the context-aware computing, which was a individual 
 <img src="figures/ContextManagingFramework_IJAHUC07.png"  alt="Context aware navigation" height="250">
 </p>
 
-* Context-Aware Computing in IoT Survey, *IEEECST13-Survey*
-* Highly cited survey paper, categorization of context (primary/secondary), 
+* Context-Aware Computing in IoT Survey, *IEEECST14-Survey*
+  * Highly cited survey paper, categorization of context (primary/secondary), 
   * **Design principles** for context awareness framework (middleware)
     * Comprehensive easy to learn and easy to use API
     * Automatic context life cycle management
@@ -69,7 +78,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 
 * Context-aware navigation, *Sensors14-Navigation*
-* Taxonomy: Navigation, User activity, Device placement, GPS, Accelerometer, Gyroscope, Camera, Magnetometer, Machine learning
+  * Taxonomy: Navigation, User activity, Device placement, GPS, Accelerometer, Gyroscope, Camera, Magnetometer, Machine learning
 
 <p align = "center">
 <img src="figures/Navigation_Sensors14.png"  alt="Context aware navigation" height="230">
@@ -110,7 +119,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 [IJAHUC07-Survey] Baldauf, M., Dustdar, S., & Rosenberg, F. (2007). **A survey on context-aware systems.** *International Journal of Ad Hoc and Ubiquitous Computing*, *2*(4), 263-277.
 
-[IEEECST13-Survey] Perera, C., Zaslavsky, A., Christen, P., & Georgakopoulos, D. (2013). **Context aware computing for the internet of things: A survey**. *IEEE communications surveys & tutorials*, *16*(1), 414-454.
+[IEEECST14-Survey] Perera, C., Zaslavsky, A., Christen, P., & Georgakopoulos, D. (2014). **Context aware computing for the internet of things: A survey**. *IEEE communications surveys & tutorials*, *16*(1), 414-454.
 
 [Sensors14-Navigation] Saeedi, S., Moussa, A., & El-Sheimy, N. (2014). **Context-aware personal navigation using embedded sensor fusion in smartphones**. *Sensors*, *14*(4), 5742-5767.
 
