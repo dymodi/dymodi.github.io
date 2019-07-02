@@ -58,7 +58,7 @@ Localization is a special type of context and related works on localization can 
   * Floor/Altitude sensing is difficult since pressure is affected by many factors such as temperature and time.
 * Barometric and GPS altitude sensor fusion, *ICASSP14*
   * Taxonomy: Floor/Altitude, Barometer
-* $A^3$: Instantly Knowing Your Phone Attitude, *MobiCom14*
+* $$A^3$$: Instantly Knowing Your Phone Attitude, *MobiCom14*
   * Taxonomy: Attitude, Compass, Gyroscope
 * ParkSense: Sensing System For On-Street Parking, *MobiCom14*
   * Taxonomy: Activity/Behavior, Wi-Fi

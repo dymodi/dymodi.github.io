@@ -20,6 +20,8 @@ date: July 3, 2018
 
 [Related Works of Context Sensing](Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works)
 
+[Related Works of Indoor Outdoor Detection](Literature-Reviews/Sensing/Indoor-Outdoor-Detection-Related-Works)
+
 [Related Works of Energy Efficient Sensing](Literature-Reviews/Sensing/Energy-Efficient-Sensing-Related-Works)
 
 [Related Works of Heterogeneous Sensing](Literature-Reviews/Sensing/Heterogeneous-Sensing-Related-Works)
