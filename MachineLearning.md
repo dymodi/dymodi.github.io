@@ -40,6 +40,8 @@ date: June 5, 2017
 ## Deep Learning
 [Convolution Neural Network](MLfolds/deep-learning/Convolution-Neural-Network)
 
+[RNN and LSTM](MLfolds/deep-learning/RNN-LSTM)
+
 ## Reinforcement Learning
 [Markov Decision Processes](MLfolds/reinforcement-learning/Markov-Decision-Processes)
 
