@@ -7,34 +7,35 @@ author: Yi DING
 
 **DDL**
 
-| Submission Deadline | Proceeding                  |
-| ------------------- | --------------------------- |
-| January 12, 2019    | IEEE ICDCS                  |
-| February 9          | ICML                        |
-| February 3, 2019    | ACM SIGKDD                  |
-| February 15         | ACM IMWUT, Issue 2          |
-| February 25, 2019   | IJCAI                       |
-| March 1             | VLDB                        |
-| **March 12, 2019**  | **ACM MobiCom, Winter DDL** |
-| **April 12, 2019**  | **ACM SenSys**              |
-| April 19            | ACM CSCW                    |
-| May 15              | ACM IMWUT, Issue 3          |
-| June 1              | IEEE ICDE, 1st round        |
-| June 5              | IEEE ICDM                   |
-| June 12             | ACM SIGSPATIAL              |
-| June 20             | ACM/IEEE ICCPS              |
-| July 19             | ACM SIGMOD, 1st cycle       |
-| **July 31, 2019**   | **IEEE INFOCOM**            |
-| **August 7**        | **ACM MobiCom, Summer DDL** |
-| August 8            | IEEE ICBD                   |
-| August 15           | ACM IMWUT, Issue 4          |
-| September 5         | AAAI                        |
-| **October 7, 2019** | **WWW**                     |
-| October 15          | IEEE ICDE, 2nd round        |
-| October 17          | IoTDI                       |
-| October 25          | ACM SIGMOD, 2nd cycle       |
-| November 15         | ACM IMWUT, Issue 1          |
-| **December 1**      | **ACM MobiSys**             |
+| Submission Deadline  | Proceeding                  |
+| -------------------- | --------------------------- |
+| January 12, 2019     | IEEE ICDCS                  |
+| February 9           | ICML                        |
+| **February 3, 2019** | **ACM SIGKDD**              |
+| February 15          | ACM IMWUT, Issue 2          |
+| February 25, 2019    | IJCAI                       |
+| March 1              | VLDB                        |
+| **March 12, 2019**   | **ACM MobiCom, Winter DDL** |
+| **April 12, 2019**   | **ACM SenSys**              |
+| April 19             | ACM CSCW                    |
+| May 15               | ACM IMWUT, Issue 3          |
+| June 1               | IEEE ICDE, 1st round        |
+| June 5               | IEEE ICDM                   |
+| June 12              | ACM SIGSPATIAL              |
+| July 19              | ACM SIGMOD, 1st cycle       |
+| **July 31, 2019**    | **IEEE INFOCOM**            |
+| **August 7**         | **ACM MobiCom, Summer DDL** |
+| August 8             | IEEE ICBD                   |
+| August 15            | ACM IMWUT, Issue 4          |
+| September 5          | AAAI                        |
+| **October 7, 2019**  | **WWW**                     |
+| October 10           | ACM/IEEE ICCPS              |
+| October 10           | ACM IPSN                    |
+| October 15           | IEEE ICDE, 2nd round        |
+| October 17           | IoTDI                       |
+| October 25           | ACM SIGMOD, 2nd cycle       |
+| November 15          | ACM IMWUT, Issue 1          |
+| **December 1**       | **ACM MobiSys**             |
 
 
 
