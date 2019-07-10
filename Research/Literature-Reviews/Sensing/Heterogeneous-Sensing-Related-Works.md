@@ -12,7 +12,7 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 **Taxonomy**
 
 * Heterogeneity types: device, operating system, data density, user, environment,
-* Solution types: deep NN, ANN, transfer learning, approximate actual radio map, clustering, interpolation
+* Solution types: deep NN, transfer learning, Fingerprinting, clustering, interpolation, Feature selection, 
 
 **Comments**
 
@@ -22,12 +22,12 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 **Special Topics**
 
 * Modellet: Experiencing and Handling the Diversity, *MobiCom 14*
-  * Taxonomy: date density, environment, approximate actual radio map
+  * Taxonomy: date density, environment, Fingerprinting
   * Cons:
     * Limited heterogeneity (13 deployment venues)
     * Device diversity is not considered.
 * Smart Devices are Different, *SenSys 15*
-  * Taxonomy: device, operaiting system, clustering+interpolation
+  * Taxonomy: device, clustering+interpolation
   * Pros: Very solid experiments.
   * Cons: 
     * Limited heterogeneity (36 devices, 9 users); 
@@ -39,12 +39,20 @@ Heterogeneity is problem that widely met in research and applications. It is sai
     * Limited heterogeneity (20 mobile phones, 9 users, 6 activities)
     * Mainly consider the heterogeneity of noisy measurement.
 * CrossSense: Cross-Site and Large-Scale WiFi Sensing, *MobiCom 18*
-  * Taxonomy: user, environment, ANN+transfer learning,
+  * Taxonomy: user, environment, transfer learning,
   * Pros: Solid experiments and rich results
   * Cons: 
     * Limited heterogeneity (100 users, 40 gestures, 1.2 million wireless activity samples)
     * Training user needed;
     * Training user needs to do the same thing in both training and deployment environment;
+* Widar3.0: Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi, *MobiSys19*
+  * Taxonomy: user, environment, Feature selection
+  * Pro: Find features independent of data domain
+  * Cons: Device not considered.
+
+
+
+
 
 ## Ref.
 
@@ -64,7 +72,4 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 
 [MobiCom18] Zhang, J., Tang, Z., Li, M., Fang, D., Nurmi, P., & Wang, Z. (2018, October). **CrossSense: Towards Cross-Site and Large-Scale WiFi Sensing**. In *MobiCom* (pp. 305-320). ACM.
 
-
-
-
-
+[MobiSys19] Zheng, Y., Zhang, Y., Qian, K., Zhang, G., Liu, Y., Wu, C., & Yang, Z. (2019, June). **Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi**. In *MobiSys* (pp. 313-325). ACM.
