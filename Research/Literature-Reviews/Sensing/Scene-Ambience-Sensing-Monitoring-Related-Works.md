@@ -35,6 +35,7 @@ Localization is a special type of context and related works on localization can 
   * Light
   * Map: *KDD12*, *TOSN15*,IPSN18
   * Semantic context: *SenSys12-CrowdMon*
+  * Door open/close: *UbiComp15*
 * Sensor: Accelerometer, Barometer, Cell RSS, Compass, GPS, Gyroscope, Light, Magnetic, Microphone, Proximity, Wi-Fi, Specialized device
 * Solution: machine learning, deep learning
 
@@ -74,6 +75,8 @@ Localization is a special type of context and related works on localization can 
 * SmartRoad: Crowd Sensing for Traffic Regulator Detection and Identification, *TOSN15*
   * Taxonomy: Map, GPS
   * Can detect and identify traffic regulators, traffic lights, and stop signs.
+* Monitoring Building Door Events using Barometer, *UbiComp15*
+  * Taxonomy: Barometer, Door open/close
 * VitalAlley: Walkway Discovery from Large Scale Crowdsensing, *IPSN18*
   * Taxonomy: Map, GPS
   * Build the map of the human walkway from user GPS data
@@ -109,6 +112,8 @@ Localization is a special type of context and related works on localization can 
 [WWW14] Wang, H., Lymberopoulos, D., & Liu, J. (2014, April). **Local business ambience characterization through mobile audio sensing**. In *WWW* (pp. 293-304). ACM.
 
 [TOSN15] Hu, S., Su, L., Liu, H., Wang, H., & Abdelzaher, T. F. (2015). **Smartroad: Smartphone-based crowd sensing for traffic regulator detection and identification**. *ACM Transactions on Sensor Networks (TOSN)*, *11*(4), 55.
+
+[UbiComp15] Wu, M., Pathak, P. H., & Mohapatra, P. (2015, September). **Monitoring building door events using barometer sensor in smartphones**. In *UbiComp*(pp. 319-323). ACM.
 
 [IPSN18] Cao, C., Liu, Z., Li, M., Wang, W., & Qin, Z. (2018, April). **Walkway discovery from large scale crowdsensing**. In *IPSN* (pp. 13-24). IEEE.
 

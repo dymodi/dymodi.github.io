@@ -33,7 +33,7 @@ Heterogeneity is problem that widely met in research and applications. It is sai
     * Limited heterogeneity (36 devices, 9 users); 
     * Environment diversity is not considered (actually only accelerator related heterogeneities are considered).
 * DeepSense, *WWW17*
-  * Taxonomy: user, deep NN
+  * Taxonomy: device, user, deep NN
   * Pros: Solid experiments, 
   * Cons:
     * Limited heterogeneity (20 mobile phones, 9 users, 6 activities)

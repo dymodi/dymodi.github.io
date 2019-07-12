@@ -1,20 +1,32 @@
 ---
 author: Yi DING
 layout: post
-title: Related Works of Inaccurate Labeling
+title: Related Works of Incomplete and Inaccurate Label
 date: April 30, 2018
 ---
-# Related Works of Labeling
 
 A good blog on this topic can be found [here](https://hazyresearch.github.io/snorkel/blog/ws_blog_post.html). The good point of this blog is not only a summary of existing solutions to weak label, but also a paradigm on how to formulate a "practical motivation" into a standard research problem.
 
-
+An instructive discussion on Positive Unlabelled Learning (PUL) can be found on [Zhihu](https://www.zhihu.com/question/286851129)
 
 "Inaccurate Labelling", as its name suggests, is how we handle inaccurate labels in machine learning problmes. Usually we assume the labelling is available and accurate, while in practice, labelling can be inaccurate. Here is a simple survey on this problem.
 
-In [1], a time shift label is added to the dataset and a multi-label problem is solved to handle inaccurate labelling problem.
+**Individual Papers**
 
-[2] provides two ways to reduce the relying on large amount of labelled data for supervised machine learning. First, **semi-supervised learning** can be used, including *self-training* and *co-training*. Second way is based on **active learning**. However, this paper mainly solve the problem of "limited number of  labels" but not "inaccurate labels".
+* Learning from Incomplete and Inaccurate Supervision, *KDD19*
+  * Explore the *one-sided* noise in the limited labeled data.
+* 
+
+
+
+##Incomplete and Inaccurate Label in Sensing
+
+* Exploring Semi-Supervised and Active Learning for Activity Recognition, *ISWC08*
+  * Provides two ways to reduce the relying on large amount of labelled data for supervised learning.
+  * **Semi-supervised learning** can be used, including *self-training* and *co-training*
+  * **Active learning**, but this paper mainly solve the problem of "limited number of  labels" but not "inaccurate labels"
+* Training Human Activity Recognition for Labels with Inaccurate, *UbiComp14*
+  * A time shift label is added to the dataset and a multi-label problem is solved to handle inaccurate labelling problem.
 
 
 
@@ -38,7 +50,11 @@ In the **weak supervision** setting, instead of getting more labeled data from S
 
 ## Ref
 
-[1] Toda, T., Inoue, S., Tanaka, S., & Ueda, N. (2014, September). **Training human activity recognition for labels with inaccurate time stamps**. In *Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct Publication* (pp. 863-872). ACM.
+[ISWC08] Stikic, M., Van Laerhoven, K., & Schiele, B. (2008, September). **Exploring semi-supervised and active learning for activity recognition**. In *Wearable computers, 2008. ISWC 2008. 12th IEEE international symposium on* (pp. 81-88). IEEE.
 
-[2] Stikic, M., Van Laerhoven, K., & Schiele, B. (2008, September). **Exploring semi-supervised and active learning for activity recognition**. In *Wearable computers, 2008. ISWC 2008. 12th IEEE international symposium on* (pp. 81-88). IEEE.
+[UbiComp14] Toda, T., Inoue, S., Tanaka, S., & Ueda, N. (2014, September). **Training human activity recognition for labels with inaccurate time stamps**. In *UbiComp* (pp. 863-872). ACM.
+
+[KDD19] Zhang, Z. Y., Zhao, P., Jiang, Y., & Zhou, Z. H. (2019). **Learning from incomplete and inaccurate supervision**. In *Proceedings of the 25th ACM SIGKDD*.
+
+
 
