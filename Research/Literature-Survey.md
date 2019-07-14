@@ -35,6 +35,8 @@ date: July 3, 2018
 [Related Works of Taxi Dispatching and Routing](Literature-Reviews/Transportation/Taxi-Dispatching-and-Routing-Related-Works)
 
 ### Machine Learning & Data Mining
+[Related Works of Spatial-Temporal Data Learning](Literature-Reviews/MLDM/Spatial-Temporal-Learning-Related-Works)
+
 [Related Works of Data Inconsistency](Literature-Reviews/MLDM/Data-Inconsistency-Related-Works)
 
 [Related Works of Outlier Detection](Literature-Reviews/MLDM/Outlier-Detection-Related-Works)

@@ -18,6 +18,11 @@ Also keep in mind that **problem is as important as** (if not more important tha
 
 Generally speaking, data paper refers to the paper published in **KDD** and **AAAI**.
 
+What can be a contribution in a data paper:
+
+* A new problem formulation (represents as data encoding/embeding)
+* A customized (neural) network structure.
+
 ## Title
 
 Note the following points:
@@ -53,14 +58,6 @@ Introduction is possibly the most important section of the paper, since reviewer
 
 
 
-## Related Works
-
-Taxnonmy
-
-We need to find a design space that excludes all the other existing works.
-
-
-
 ## Overview / Problem Definition
 
 Note that this section is **not** a must.
@@ -91,6 +88,14 @@ Note that usually this part will extend to several sections.
 * Baselines
 * Datasets
 * Performance
+
+
+
+## Related Works
+
+Taxnonmy
+
+We need to find a design space that excludes all the other existing works.
 
 
 
