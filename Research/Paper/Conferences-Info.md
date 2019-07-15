@@ -23,9 +23,9 @@ author: Yi DING
 | June 5               | IEEE ICDM                   |
 | June 12              | ACM SIGSPATIAL              |
 | July 19              | ACM SIGMOD, 1st cycle       |
-| **July 31, 2019**    | **IEEE INFOCOM**            |
-| **August 7**         | **ACM MobiCom, Summer DDL** |
+| July 31, 2019        | IEEE INFOCOM                |
 | August 8             | IEEE ICBD                   |
+| **August 14, 2019**  | **ACM MobiCom, Summer DDL** |
 | August 15            | ACM IMWUT, Issue 4          |
 | September 5          | AAAI                        |
 | **October 7, 2019**  | **WWW**                     |

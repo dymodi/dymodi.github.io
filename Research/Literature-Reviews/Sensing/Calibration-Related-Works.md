@@ -7,10 +7,10 @@ date: July 3, 2019
 
 **Taxonomy**
 
-* One-hop, Multi-hop
+* Neighborhood(One-hop), Multi-hop
+* Mechanism: opportunistic interaction, machine learning, mechanical sensing model, data fusion
+* Calibration level: signal level, data level, system level
 * Application: mobile sensing system, motion detection
-* Mechanism: opportunistic interaction, machine learning
-* Calibration level: signal level, data level
 
 **Comments**
 
@@ -18,10 +18,19 @@ date: July 3, 2019
 
 **Individual Papers**
 
+* A Self-Calibrating Distributed Acoustic Sensing Platform, *SenSys06*
+  * Taxonomy: One-hop, acoustic system, determined interaction
+  * Assumptions: Sensor can hear each other.
+  * Use chirp signal to communicate with neighbor nodes and calibrate own position.
+* CaliBree: A Self-calibration System for Mobile Sensor Networks, *ICDCS08*
+  * Taxonomy: One-hop, mobile sensing system, opportunistic interaction
+  * Assumption: Opportunistic rendezvous
 * Collaborative calibration, *IPSN2012*
   * Taxonomy: One-hop, mobile sensing system, opportunistic interaction, signal level
   * Assumptions: (1) Sensor can communication with each other; (2) Drifts are independent and grows with time; (3) Known reference sensor in the system;
   * The main idea is that interactions among sensors can be used to adjust their calibration functions and error estimates.
+* System-Level Calibration for Data Fusion in Wireless Sensor Networks, *TOSN13*
+  * Taxonomy: mechanical sensing model+data fusion, system level, mobile sensing
 * Multi-Hop, *IPSN2015*
   * Taxonomy: Multi-hop, signal level
   * Assumption: (1) Known reference sensor in the system;
@@ -41,7 +50,13 @@ date: July 3, 2019
 
 ## Ref.
 
+[SenSys06] Girod, L., Lukac, M., Trifa, V., & Estrin, D. (2006, October). **A self-calibrating distributed acoustic sensing platform.** In *SenSys* (pp. 335-336). ACM.
+
+[ICDCS08-CaliBree] Miluzzo, E., Lane, N. D., Campbell, A. T., & Olfati-Saber, R. (2008, June). **CaliBree: A self-calibration system for mobile sensor networks**. In *ICDCS* (pp. 314-331). Springer, Berlin, Heidelberg.
+
 [IPSN12] Xiang, Y., Bai, L. S., Pledrahita, R., Dick, R. P., Lv, Q., Hannigan, M., & Shang, L. (2012, April). **Collaborative calibration and sensor placement for mobile sensor networks**. In *IPSN* (pp. 73-83). IEEE.
+
+[TOSN13] Tan, R., Xing, G., Yuan, Z., Liu, X., & Yao, J. (2013). **System-level calibration for data fusion in wireless sensor networks**. *ACM Transactions on Sensor Networks (TOSN)*,
 
 [IPSN15] Saukh, O., Hasenfratz, D., & Thiele, L. (2015, April). **Reducing multi-hop calibration errors in large-scale mobile sensor networks**. In *IPSN* (pp. 274-285). ACM.
 
