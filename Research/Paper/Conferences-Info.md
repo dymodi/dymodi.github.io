@@ -16,6 +16,7 @@ author: Yi DING
 | February 25, 2019    | IJCAI                       |
 | March 1              | VLDB                        |
 | **March 12, 2019**   | **ACM MobiCom, Winter DDL** |
+| March 19, 2019       | NSDI, Spring DDL            |
 | **April 12, 2019**   | **ACM SenSys**              |
 | April 19             | ACM CSCW                    |
 | May 15               | ACM IMWUT, Issue 3          |
@@ -28,6 +29,7 @@ author: Yi DING
 | **August 14, 2019**  | **ACM MobiCom, Summer DDL** |
 | August 15            | ACM IMWUT, Issue 4          |
 | September 5          | AAAI                        |
+| September 19         | NSDI, Fall DDL              |
 | **October 7, 2019**  | **WWW**                     |
 | October 10           | ACM/IEEE ICCPS              |
 | October 10           | ACM IPSN                    |
