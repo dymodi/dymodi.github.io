@@ -38,13 +38,15 @@ Heterogeneity is problem that widely met in research and applications. It is sai
   * Cons:
     * Limited heterogeneity (20 mobile phones, 9 users, 6 activities)
     * Mainly consider the heterogeneity of noisy measurement.
-* CrossSense: Cross-Site and Large-Scale WiFi Sensing, *MobiCom 18*
+* CrossSense: Cross-Site and Large-Scale WiFi Sensing, *MobiCom18-CrossSense*
   * Taxonomy: user, environment, transfer learning,
   * Pros: Solid experiments and rich results
   * Cons: 
     * Limited heterogeneity (100 users, 40 gestures, 1.2 million wireless activity samples)
     * Training user needed;
     * Training user needs to do the same thing in both training and deployment environment;
+* Towards Environment Independent Recognition, *MobiCom18-EI*
+  * Taxonomy:
 * Widar3.0: Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi, *MobiSys19*
   * Taxonomy: user, environment, Feature selection
   * Pro: Find features independent of data domain
@@ -70,6 +72,8 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 
 [WWW17] Yao, S., Hu, S., Zhao, Y., Zhang, A., & Abdelzaher, T. (2017, April). **Deepsense: A unified deep learning framework for time-series mobile sensing data processing**. In *WWW* (pp. 351-360). International World Wide Web Conferences Steering Committee.
 
-[MobiCom18] Zhang, J., Tang, Z., Li, M., Fang, D., Nurmi, P., & Wang, Z. (2018, October). **CrossSense: Towards Cross-Site and Large-Scale WiFi Sensing**. In *MobiCom* (pp. 305-320). ACM.
+[MobiCom18-CrossSense] Zhang, J., Tang, Z., Li, M., Fang, D., Nurmi, P., & Wang, Z. (2018, October). **CrossSense: Towards Cross-Site and Large-Scale WiFi Sensing**. In *MobiCom* (pp. 305-320). ACM.
+
+[MobiCom18-EI] Jiang, W., Miao, C., Ma, F., Yao, S., Wang, Y., Yuan, Y., ... & Xu, W. (2018, October). **Towards environment independent device free human activity recognition**. In *MobiCom* (pp. 289-304). ACM.
 
 [MobiSys19] Zheng, Y., Zhang, Y., Qian, K., Zhang, G., Liu, Y., Wu, C., & Yang, Z. (2019, June). **Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi**. In *MobiSys* (pp. 313-325). ACM.
