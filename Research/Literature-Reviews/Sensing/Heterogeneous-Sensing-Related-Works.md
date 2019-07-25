@@ -12,7 +12,8 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 **Taxonomy**
 
 * Heterogeneity types: device, operating system, data density, user, environment,
-* Solution types: deep NN, transfer learning, Fingerprinting, clustering, interpolation, Feature selection, 
+* Solution types: deep learning, transfer learning, fingerprinting, clustering, interpolation, feature selection, adversarial network
+* Application: localization, device-free HAR
 
 **Comments**
 
@@ -22,7 +23,7 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 **Special Topics**
 
 * Modellet: Experiencing and Handling the Diversity, *MobiCom 14*
-  * Taxonomy: date density, environment, Fingerprinting
+  * Taxonomy: date density, environment, fingerprinting, localization
   * Cons:
     * Limited heterogeneity (13 deployment venues)
     * Device diversity is not considered.
@@ -33,7 +34,7 @@ Heterogeneity is problem that widely met in research and applications. It is sai
     * Limited heterogeneity (36 devices, 9 users); 
     * Environment diversity is not considered (actually only accelerator related heterogeneities are considered).
 * DeepSense, *WWW17*
-  * Taxonomy: device, user, deep NN
+  * Taxonomy: device, user, deep learning
   * Pros: Solid experiments, 
   * Cons:
     * Limited heterogeneity (20 mobile phones, 9 users, 6 activities)
@@ -46,7 +47,7 @@ Heterogeneity is problem that widely met in research and applications. It is sai
     * Training user needed;
     * Training user needs to do the same thing in both training and deployment environment;
 * Towards Environment Independent Recognition, *MobiCom18-EI*
-  * Taxonomy:
+  * Taxonomy: user, environment, deep learning, adversarial network, device-free HAR
 * Widar3.0: Zero-Effort Cross-Domain Gesture Recognition with Wi-Fi, *MobiSys19*
   * Taxonomy: user, environment, Feature selection
   * Pro: Find features independent of data domain
