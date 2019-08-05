@@ -27,13 +27,13 @@ date: July 23, 2019
 * Towards City-scale Mobile Crowdsourcing, *IJCAI 2015*
   * Taxonomy: No data, without time constraints, without transfers
   * Theoretical analysis and routing algorithm, no transportation data or evaluation.
-* CrowdDeliver, IEEE ITS 2016
+* CrowdDeliver, *IEEE ITS 2016*
   * Taxonomy: Taxi, without time constraints, without transfers
   * Two phases: offline mining historical OD pairs + online taxi scheduling
-* Towards enhancing the last-mile delivery, TRPE 2016
+* Towards enhancing the last-mile delivery, *TRPE 2016*
   * Taxonomy: Taxi and bus, without time constraints, without transfers
   * Modeled as a min-cost flow problem. Bus data are used to model mobility but not as a delivery approach.
-* CrowdExpress, arXiv 2018
+* CrowdExpress, *arXiv 2018*
   * Taxonomy: Taxi, without time constraints, with transfers
   * A package transport network was built offline based on the historical taxi GPS trajectory data.
 
@@ -49,6 +49,6 @@ date: July 23, 2019
 
 [IEEEITS16-CrowdDeliver] Chen, C., Zhang, D., Ma, X., Guo, B., Wang, L., Wang, Y., & Sha, E. (2016). **Crowddeliver: planning city-wide package delivery paths leveraging the crowd of taxis**. *IEEE Transactions on Intelligent Transportation Systems*, *18*(6), 1478-1496.
 
-[TRPE16-] Wang, Y., Zhang, D., Liu, Q., Shen, F., & Lee, L. H. (2016). **Towards enhancing the last-mile delivery: An effective crowd-tasking model with scalable solutions**. *Transportation Research Part E: Logistics and Transportation Review*, *93*, 279-293.
+[TRPE16] Wang, Y., Zhang, D., Liu, Q., Shen, F., & Lee, L. H. (2016). **Towards enhancing the last-mile delivery: An effective crowd-tasking model with scalable solutions**. *Transportation Research Part E: Logistics and Transportation Review*, *93*, 279-293.
 
 [arXiv18-CrowdExpress] Chen, C., Yang, S., Liu, W., Wang, Y., Guo, B., & Zhang, D. (2018). **CrowdExpress: A Probabilistic Framework for On-Time Crowdsourced Package Deliveries**. *arXiv preprint arXiv:1809.02897*.
