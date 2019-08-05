@@ -188,6 +188,7 @@ gmap.draw(file_name)
 
 Use [folium](https://python-visualization.github.io/folium/)
 
+[GeoJson Related](https://www.jpytr.com/post/analysinggeographicdatawithfolium/)
 
 ## Date and Time
 
