@@ -21,7 +21,7 @@ Both high-weight data points and gradients tell us how to improve our model.
 ## How to understand Gradient Boosting
 I found an example from [A Gentle Introduction to Gradient Boosting - Cheng Li](http://www.chengli.io/tutorials/gradient_boosting.pdf) quite straightforward and I will borrow it here.
 
-### Additional model $h$
+### Additional model $$h$$
 
 Suppose you are playing a game. You are given $$(x_1, y_1),(x_2, y_2), ...,(x_n, y_n)$$, and the task is to fit a model $$F(x)$$ to minimize square loss.
 

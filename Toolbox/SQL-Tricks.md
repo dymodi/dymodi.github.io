@@ -8,7 +8,7 @@ author: Yi DING
 The basic operations here are from [codecademy SQL course](https://www.codecademy.com/learn/learn-sql)
 
 ### Basic Operations
-``` SQL
+```sql
 SELECT * FROM celebs;
 CREATE TABLE celebs (id INTEGER, name TEXT, age INTEGER);
 INSERT INTO celebs VALUES (1, 'Justin Bieber', 21);
@@ -29,7 +29,7 @@ INSERT overwrite TABLE some_table partition(dt='${day}')
 
 ### Make Histogram
 
-``` SQL
+```SQL
 select round(data,1) as bucket, count(*) as count
 from data_table
 group by round(data,1)
