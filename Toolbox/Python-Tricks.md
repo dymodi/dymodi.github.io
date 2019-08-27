@@ -9,6 +9,8 @@ author: Yi DING
 
 ## Contents
 
+[Useful Libraries](#useful-libraries)
+
 [Find path](#find-path)
 
 [Read/write .csv files](#readwrite-csv-files)
@@ -19,6 +21,18 @@ author: Yi DING
 
 
 
+## Useful Libraries
+
+``` python
+import folium											## Geographical plot
+import matplotlib.pyplot as plt		## Plot
+import nbimporter									## Import functions from other Python notebook
+import networkx as nx							## Graph computation
+import numpy as np								## Mathematical computation
+import os													## Files and directories
+import pandas											## Data mining
+import sklearn										## Machine learning
+```
 
 ## Find path
 

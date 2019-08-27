@@ -9,6 +9,8 @@ author: Yi DING
 
 | Submission Deadline  | Proceeding                  |
 | -------------------- | --------------------------- |
+|                      | MobiHoc                     |
+|                      | IEEE PERCOM                 |
 | January 12, 2019     | IEEE ICDCS                  |
 | February 9           | ICML                        |
 | **February 3, 2019** | **ACM SIGKDD**              |
@@ -26,8 +28,8 @@ author: Yi DING
 | July 19              | ACM SIGMOD, 1st cycle       |
 | July 31, 2019        | IEEE INFOCOM                |
 | August 8             | IEEE ICBD                   |
-| **August 14, 2019**  | **ACM MobiCom, Summer DDL** |
 | August 15            | ACM IMWUT, Issue 4          |
+| **August 19, 2019**  | **ACM MobiCom, Summer DDL** |
 | September 5          | AAAI                        |
 | September 19         | NSDI, Fall DDL              |
 | **October 7, 2019**  | **WWW**                     |
