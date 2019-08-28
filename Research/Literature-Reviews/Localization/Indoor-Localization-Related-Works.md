@@ -65,11 +65,9 @@ author: Yi DING
   - Cons: Device diversity not considered, Landmark not available at everywhere
   
 * Guoguo: Acousitc Fingraind Indoor Localization, *MobiSys 13*, `liu2013guoguo`
-  
   * Taxonomy: Acoustic, Model-based, Localization Algorithm + Anchor, Small Scale
   
 * Social-Loc: Improving Indoor Localization with Social Sensing, *SenSys 13*, `jun2013social`
-  
   * Taxonomy: Multiple, Localization Algoirtihm, Small-Scale
   
 * Ubicarse: Indoor Localization With Zero Start-up Cost, *MobiCom 14*, `kumar2014accurate`
@@ -94,9 +92,11 @@ author: Yi DING
   * Pros: Only need single AP, 
   
 * EchoTag: Indoor Location Tagging with Smartphones, *MobiCom 15*, `tung2015echotag`
+  
   * Taxonomy: Acoustic, Localization Algorithm + Anchor, 
   
 * ToneTrack: Frequency-Agile Radios for Indoor Localization, *MobiCom 15*, `xiong2015tonetrack`
+  
   * Taxonomy: Wi-Fi, Localization Algorithm, Small-scale
   
 * PIXEL: Light-weight Indoor Positioning with Visible Light, *MobiSys 15*, `yang2015wearables`
@@ -104,6 +104,7 @@ author: Yi DING
   * Pros: Light-weight that can run on resource-constrianed platforms
   
 * INTRI: Contour-based Trilateration for Indoor Fingerprinting Localization, *SenSys 15*, `he2015contour`
+  
   * Taxonomy: Wi-Fi, Localization Algorithm, Large-Scale
   
 * SpinLight: High Accuracy and Robust Light Positioning System, *SenSys 15*, `xie2015spinlight`
@@ -125,6 +126,7 @@ author: Yi DING
   * Pros: No hardware modifications;
   
 * NAVIQ: In-door WiFi-Beacon Navigation System Without Exact Location, *MobiSys 16*
+  
   * Taxonomy: Navigation, BLE, 
   
 * Pulsar: Ubiquitous Visible Light Localization, *MobiCom 17*, `zhang2017pulsar`
@@ -136,6 +138,7 @@ author: Yi DING
   * Pros: Only needs one transmitter and one sensor
   
 * iLAMP: High-Precision Visible Light Localization, *MobiSys 17*, `zhu2017enabling`
+  
   * Taxonomy: Light, Large-Scale, Localization Algorithm
   
 * SmartLight: 3D Indoor Localization Using a Single LED Lamp, *SenSys 17*, `liu2017smartlight`
@@ -144,12 +147,15 @@ author: Yi DING
   * Cons: LED light modification needed
   
 * RainbowLight: Low Cost Ambient Light Positioning System, *MobiCom 18*, `li2018rainbowlight`
+  
   * Taxonomy: Light, Localization Algorithm, 
   
 * EMF: Localization and Mapping with Power Network Electromagnetic Field, *MobiCom 18*, `lu2018simultaneous`
+  
   * Taxonomy: EMF, Anchor+Localization Algorithm
   
 * ZhaoTian: Augmenting Indoor Inertial Tracking with Polarized Light, *MobiSys 18*, `tian2018augmenting`
+  
   * Taxonomy: Light+IMU, Anchor+Localization Algorithm
   
 * MonoLoco: Multipath Triangulation: WiFi Localization and Orientation, *MobiSys 18*, `soltanaghaei2018multipath`
@@ -165,6 +171,7 @@ author: Yi DING
   * Pros: High accuracy
   
 * Toward Reliable Localization by Unequal AoA Tracking, *MobiSys19*
+  
   * Taxonomy: Wi-Fi, AoA
 
 
