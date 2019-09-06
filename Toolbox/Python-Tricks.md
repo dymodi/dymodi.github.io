@@ -26,6 +26,7 @@ author: Yi DING
 ``` python
 import folium											## Geographical plot
 import matplotlib.pyplot as plt		## Plot
+import seaborn as sns							## Data visualization
 import nbimporter									## Import functions from other Python notebook
 import networkx as nx							## Graph computation
 import numpy as np								## Mathematical computation

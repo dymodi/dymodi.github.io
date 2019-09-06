@@ -7,7 +7,10 @@ author: Yi DING
 
 In this post, we provide a basic framework for machine learning practice (basically based on sklearn and Pandas).
 
-Some primary problems such as data missing, class imbalance are solved in this tutorial.
+Here we first show the basic steps:
+
+1. [Data Minification](https://www.kaggle.com/kyakovlev/ieee-data-minification) (if needed)
+2. [Data Preprocessing](Data-Preprocessing)
 
 
 

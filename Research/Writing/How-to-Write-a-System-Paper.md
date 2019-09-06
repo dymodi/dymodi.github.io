@@ -119,9 +119,10 @@ A system overview is essential to show the architecture of the design/system. Ke
 * You should use the **first sentence** of each section to show the **function** of the module briefly.
 * You can view each section as an individual paper, where you clarify the problem, motivation, challenge and solution.
 * You should also view the section in a reader's view who is unfamiliar with your design. What's the things they want to know and what's the things they are interested in? Explain to them first.
+* Domain knowledge (as a characteristic part in the paper) can be the design principle. For example, knowledge in POI applications can be used to guide POI clustering.
 * Also keep in mind, each subsection should have some inner logical relations. 
 * If some existing methods (Boositng, Random Forest) are used in your work, it's OK but you have to clarify why this method is used here. While of course, a borrowed method cannot be the core innovation of your work, then you must clarify you core innovation and contribution.
-* In detailed figure of flow/organization of the subsystem can be provided although it may be provided in the system overview (as a small box).
+* A detailed figure of flow/organization of the subsystem can be provided although it may be provided in the system overview (as a small box).
 
 ## Implementation
 
@@ -141,6 +142,8 @@ Evaluation is not a simple show off of our own system, but a comprehensive test 
 * It performs worse under what cases? Why? What inspiration we have for following works?
 
 Also note that the cases in the evaluation section can be only a subset of the design section.
+
+In order to evaluate the single module, we can set baselines of our design with or without the module.
 
 **Frequent Use X-axis**: Amount of data, Parameters in design, CDF
 
