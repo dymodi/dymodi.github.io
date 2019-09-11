@@ -25,6 +25,10 @@ In Introduction or Motivation, we might need some illustrative figures to show s
 
 
 
+## Figure Size and Font Size
+
+For two coloum paper, `figsize=(8,6)` and `fontsize=16` is reasonable setting.
+
 
 
 ## Framework of Data Paper

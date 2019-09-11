@@ -13,8 +13,10 @@ author: Yi DING
   * UbiComp
   * KDD/AAAI/IJCAI
 * Project
+  * Virtual Beacon
+  * UbiSense
 * Skill
-  * Algorithm applied in Industry: Indoor localization, route prediction, time estimation
+  * Algorithm applied in Industry: Indoor localization, route prediction, time estimation, POI correction
   * Machine Learning: Better show your capability via Kaggle
   * IoT
 
@@ -26,6 +28,12 @@ author: Yi DING
 
 * Skill:
   * Authorization and Access Control
+* Paper:
+  * Crowd Delivery, Submitted to IMWUT 19 May, Rejected
+  * Crowd Delivery, Submitted to IMWUT 19 August
+  * Route Predction, **Accepted** by UbiComp 19
+  * POI Correction, Submitted to SenSys 19, Rejected
+  * POI Correction, Submitted to MobiCom 20
 
 
 

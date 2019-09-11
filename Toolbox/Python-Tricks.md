@@ -24,15 +24,16 @@ author: Yi DING
 ## Useful Libraries
 
 ``` python
-import folium											## Geographical plot
+import category_encoders          ## Data encoders
+import folium                     ## Geographical plot
 import matplotlib.pyplot as plt		## Plot
-import seaborn as sns							## Data visualization
-import nbimporter									## Import functions from other Python notebook
-import networkx as nx							## Graph computation
-import numpy as np								## Mathematical computation
-import os													## Files and directories
-import pandas											## Data mining
-import sklearn										## Machine learning
+import nbimporter                 ## Import functions from other notebook
+import networkx as nx             ## Graph computation
+import numpy as np                ## Mathematical computation
+import os                         ## Files and directories
+import pandas                     ## Data mining
+import seaborn as sns             ## Data visualization
+import sklearn                    ## Machine learning
 ```
 
 ## Find path
