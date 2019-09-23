@@ -26,7 +26,8 @@ author: Yi DING
 ``` python
 import category_encoders          ## Data encoders
 import folium                     ## Geographical plot
-import matplotlib.pyplot as plt		## Plot
+import keras                      ## Neural network
+import matplotlib.pyplot as plt   ## Plot
 import nbimporter                 ## Import functions from other notebook
 import networkx as nx             ## Graph computation
 import numpy as np                ## Mathematical computation

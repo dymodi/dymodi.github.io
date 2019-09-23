@@ -35,6 +35,7 @@ Heterogeneity is problem that widely met in research and applications. It is sai
     * Environment diversity is not considered (actually only accelerator related heterogeneities are considered).
 * DeepSense, *WWW17*
   * Taxonomy: device, user, deep learning
+  * Solution: CNN + RNN (GRU)
   * Pros: Solid experiments, 
   * Cons:
     * Limited heterogeneity (20 mobile phones, 9 users, 6 activities)
