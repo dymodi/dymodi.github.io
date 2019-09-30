@@ -50,6 +50,17 @@ def precision(y_test,result):
     scores['precision_score']=precision_score(y_test,result)
     scores['recall_score']=recall_score(y_test,result)
     return scores
+  
+## Dataframe downsample
+def df_downsample(df, n_sample): 
+    if n_sample > len(df.index):
+        raise Exception('n_sample too large!')
+    # Reindex    
+    index = random.sample(range(0, len(df.index)), n_sample)    
+    df = df.reset_index(drop=True)
+    df_downsample = df.iloc[index,:]
+    print('Origin:', len(df.index), 'After:', len(df_downsample.index))
+    return df_downsample
 ```
 
 ### Read Data
