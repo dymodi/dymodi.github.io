@@ -52,11 +52,11 @@ In an Abstract, we mainly provide the following four pieces of information:
 
 Introduction is possibly the most important section of the paper, since reviewers and reads might choose to continue reading or give up after reading the Introduction. Usually we have the following paragraphs in the Introduction:
 
-* The background (story)
+* Background (story)
 * Related works
-* Challenges and motivations
-* The solution we proposed
-* The contribution of this paper
+* Motivations, Challenges and Opportunities
+* Solution we proposed
+* Contribution of this paper
 
 Applications should only be discussed in the Introduction.
 
@@ -74,6 +74,8 @@ We don't need to cover all these questions but answer the ones that others may a
 
 Motivation usually comes with observation, and observation will be bettern come with explanation or hypothesis.
 
+If you are solving a problem within a special scenario (instant delivery), you may want to (explicitly) show the additional requirements of this scenario hence existing work fails to meet.
+
 Note that motivation should be independent of our design.
 
 ## Challenges
@@ -82,7 +84,13 @@ In the Challenges section, we highlight the difficulties in solving the problem.
 
 * Why this problem is difficult?
 
-Challenges should be **major** and **important**, and also should corresponds to the **major design** in our solution. A minor problem solved by some tricks in the solution should not be viewed as challenges.
+Challenges should be **major** and **important**, and also should corresponds to the **major design** in our solution. A minor problem solved by some tricks in the solution should not be viewed as challenges. 
+
+Another type of challenge is "Technical Challenge" is:
+
+* Why this problem is difficult **by your solution**?
+
+In order to show the technical challenges, the design should be briefly introduced.
 
 Challenge can appear in many parts of the paper, abstract, introduction, design, etc. One of the purpose of stating challeng is to lead the readers to our way of sovling the problem. Sometimes how to disassemble the challenges implies how to solve the problem. We hope to make readers understand our thinking process when solving the problem.
 
