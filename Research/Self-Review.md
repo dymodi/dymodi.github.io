@@ -10,10 +10,11 @@ author: Yi DING
   * Read some MobiCom papers to find some basic rules of a good **design**.
 * Paper
   * MobiCom/MobiSys/SenSys
-  * UbiComp
+  * UbiComp/WWW
   * KDD/AAAI/IJCAI
 * Project
-  * Virtual Beacon
+  * Hitchhiking
+  * UbiAnchor
   * UbiSense
 * Skill
   * Algorithm applied in Industry: Indoor localization, route prediction, time estimation, POI correction
@@ -27,13 +28,19 @@ author: Yi DING
 ### 2019
 
 * Skill:
-  * Authorization and Access Control
-* Paper:
-  * Crowd Delivery, Submitted to IMWUT 19 May, Rejected
-  * Crowd Delivery, Submitted to IMWUT 19 August
+  * Keras, PyTorch
+* First Author Paper:
+  * UbiAnchor, Submitted to MobiCom 19, Rejected
+  * Hitchhiking, Submitted to IMWUT 19 May, Rejected
+  * Hitchhiking, Submitted to IMWUT 19 August, Rejected
+  * Hitchhiking, Submitted to WWW 20
+* Co-Author Paper:
   * Route Predction, **Accepted** by UbiComp 19
   * POI Correction, Submitted to SenSys 19, Rejected
   * POI Correction, Submitted to MobiCom 20
+  * TransLoc, Submitted to WWW 20
+* Industry Projects:
+  * Context Sensing
 
 
 
@@ -41,8 +48,9 @@ author: Yi DING
 
 - Study:
   - Course: Data Mining, Statistics
-- Paper:
-  - Crowd Delivery, Submitted to Ubicomp 19, [Rejected](https://github.com/dymodi/Research-Projects/blob/master/Crowd-Delivery/IMWUT19-Comments.md)
+- First Author Paper:
+  - Hitchhiking, Submitted to Ubicomp 19, [Rejected](https://github.com/dymodi/Research-Projects/blob/master/Crowd-Delivery/IMWUT19-Comments.md)
+- Co-Author Paper
   - POI Correction, Submitted to MobiCom 19, Rejected
   - Rider Destination Prediction, Submitted to INFOCOM 19, Rejected
 - Research Projects:
@@ -59,17 +67,15 @@ author: Yi DING
 - Skill:
   - [Pandas](https://dymodi.github.io/Toolbox/Pandas)
   - IoT: Basic Concepts: [UCSD Course](https://dymodi.github.io/Research/IoT/IoT-UCSD)
-  - 
+
+
 
 ### 2017
 
 * Study:
   * Course: Algorithm, Machine Learning, Graph Theory
 * Paper:
-  * Crowd Delivery Submit to SenSys 17, [Rejected](https://github.com/dymodi/Research-Projects/blob/master/Crowd-Delivery/Revision-History.md).
-* Research Project:
-  * Beacon: 
-    * Learn iBeacon Mechanism, Delivery Process
+  * Hitchhiking,  Submit to SenSys 17, [Rejected](https://github.com/dymodi/Research-Projects/blob/master/Crowd-Delivery/Revision-History.md).
 * Industry Project:
   * Beacon: 
     * Challenges: How to close the loop?  How to iterate rapidly?
