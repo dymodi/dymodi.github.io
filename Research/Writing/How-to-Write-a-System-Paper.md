@@ -76,6 +76,8 @@ Motivation usually comes with observation, and observation will be bettern come 
 
 If you are solving a problem within a special scenario (instant delivery), you may want to (explicitly) show the additional requirements of this scenario hence existing work fails to meet.
 
+Motivation can be related to the design space, why our problem is different from those have been solved with existing solutions.
+
 Note that motivation should be independent of our design.
 
 ## Challenges
@@ -96,13 +98,19 @@ Challenge can appear in many parts of the paper, abstract, introduction, design,
 
 ## Opportunities
 
-The Opportunities section should reveal the golden key, the very subtle angle that we can view and solve the problem, the special observation we found to trigger the following design. 
+The Opportunities section should reveal the golden key, the very subtle angle that we can view and solve the problem, the **special observatio**n we found to trigger the following design. 
+
+Opportunities are something we can not control, they are usually some special observations or phenomenon that trigger our design.
 
 Better to be unique of this system/problem, compare with related problems that have been studied.
 
 Better to be illustrated with related data, figure and statistics. The key point is:
 
 * Why we can solve the problem?
+
+If you have multiple opportunities, it will be better that those opportunities are somehow organized, such as spatial/temporal aspects. 
+
+Also note that opportunities should be independent of our solution.
 
 ## Design / System / Solution
 
@@ -135,6 +143,7 @@ A system overview is essential to show the architecture of the design/system. Ke
 ## Implementation
 
 * Platform or Deployment (better with real photos)
+* Data collected for the design can also be listed here.
 * Can be an individual section or a subsection in Evaluation
 * API used in system can be provided for better understanding of the system.
 
