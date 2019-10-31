@@ -82,6 +82,21 @@ From MobiSys 17 Zhou's paper:
     <img src="figures/system-overview-mobisys17-zhou.png"  alt="system-overview-mobisys17-zhou", width="600", height="500">
 </p>
 
+### Workflow
+
+From MobiSys 12 Nath's paper
+
+<p align = "center">
+    <img src="figures/system-workflow-mobisys12-nath.png" , width="600">
+</p>
+
+From MobiSys 18 Lu's paper
+
+<p align = "center">
+    <img src="figures/system-workflow-mobicom18-lu.png" , width="600">
+</p>
+
+
 
 ## Data Facts
 

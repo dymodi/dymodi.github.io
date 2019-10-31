@@ -120,7 +120,11 @@ When writing the design, **logic** and **hierarchy** are two most important thin
 
 ### System Overview
 
-A system overview is essential to show the architecture of the design/system. Keep the followings in mind:
+System overview is uesed to guide the specific design in the following. No need to show too much technical details.
+
+A system overview is essential to show the architecture of the design/system. 
+
+Keep the followings in mind:
 
 * Input and output of each block should be clear.
 * Avoid If-Else desgin.
