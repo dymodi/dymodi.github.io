@@ -27,7 +27,7 @@ $$\text{Accuracy} = \frac{\text{Number of correct predictions}}{\text{Total numb
 
 $$\text{Accuracy} = \frac{TP+TN}{TP+TN+FP+FN}$$
 
-**True Positive Rate (TPR), Recall**: 
+**True Positive Rate (TPR), Recall** In all yes,how many is classified as yes correctly: 
 
 $$\text{Recall} = \frac{TP}{TP+FN}$$
 
