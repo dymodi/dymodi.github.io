@@ -27,13 +27,17 @@ $$\text{Accuracy} = \frac{\text{Number of correct predictions}}{\text{Total numb
 
 $$\text{Accuracy} = \frac{TP+TN}{TP+TN+FP+FN}$$
 
-**True Positive Rate (TPR), Recall** In all yes,how many is classified as yes correctly: 
+**True Positive Rate (TPR), Recall** In all positives,how many is classified as positive correctly: 
 
 $$\text{Recall} = \frac{TP}{TP+FN}$$
 
-**Precision**: When it predicts yes, how often is it correct?
+**Precision**: When it predicts positive, how often is it correct?
 
 $$\text{Precision} = \frac{TP}{TP+FP}$$
+
+**Frue Positive Rate (FPR)** In all negetives,how many is classified as positive wrongly: 
+
+$$\text{FPR} = \frac{FP}{FP+TN}$$
 
 **ROC, AUC**
 
