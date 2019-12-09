@@ -56,6 +56,7 @@ Introduction is possibly the most important section of the paper, since reviewer
 * Related works
 * Motivations, Challenges and Opportunities
 * Solution we proposed
+  * When you propose your solution, a related key question is that why you are the right person to do this? Do you have special data/experience/observation? It sounds like the opportunities, but must be related with you.
 * Contribution of this paper
 
 Applications should only be discussed in the Introduction.
