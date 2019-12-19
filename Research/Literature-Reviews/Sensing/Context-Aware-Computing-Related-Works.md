@@ -13,8 +13,8 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 **Key Words**
 
-* **Context**: any information that can be used to charac-terize the situation of an entity. An entity is a person, place, or object that is considered relevant to the interac-tion between a user and an application, including the user and applications themselves [IEEEIoTJ18-Survey].
-* Context-aware computing
+* **Context**: any information that can be used to characterize the situation of an entity. An entity is a person, place, or object that is considered relevant to the interaction between a user and an application, including the user and applications themselves [IEEEIoTJ18-Survey].
+* **Context-aware computing**
 * **Context lifecycle**: Context Acquisition -> Context Modeling -> Context Reasoning -> Context Dissemination
 * **Context modeling** (Context representation): 
   * A context model is to define and store context data in a machine processable form.
@@ -39,22 +39,22 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 **Special Topics**
 
-* Context-Aware Mobile Computing Survey, *Dartmouth00-Survey*
-
+* **Context-Aware Mobile Computing Survey, *Dartmouth00-Survey***
   * Highly cited survey paper, context are defined and classified. Many applications are shown.
   * Too early, most applications are based on simply location.
   * Context: Location, time, activity, light.
   * Applications: Shopping Assistant, Conference Assistant, etc.
-* A survey on context-aware systems, *IJAHUC07-Survey*
+
+* **A survey on context-aware systems, *IJAHUC07-Survey***
   * Highly cited survey paper
   * Sensor classification: Physical sensors, Virtual sensors, Logical sensors.
-  * Context attributs: Context type, Context value, Time stamp, Source, Confidence.
+  * Context attributs: Context type, Context value, Timestamp, Source, Confidence.
 
 <p align = "center">
 <img src="figures/ContextManagingFramework_IJAHUC07.png"  alt="Context aware navigation" height="250">
 </p>
 
-* Context-Aware Computing in IoT Survey, *IEEECST14-Survey*
+* **Context-Aware Computing in IoT Survey, *IEEECST14-Survey***
   * Highly cited survey paper, categorization of context (primary/secondary), 
   * **Design principles** for context awareness framework (middleware)
     * Comprehensive easy to learn and easy to use API
@@ -75,9 +75,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
     * Ontology based
     * Probabilistic logic
 
-
-
-* Context-aware navigation, *Sensors14-Navigation*
+* **Context-aware navigation, *Sensors14-Navigation***
   * Taxonomy: Navigation, User activity, Device placement, GPS, Accelerometer, Gyroscope, Camera, Magnetometer, Machine learning
 
 <p align = "center">
@@ -86,7 +84,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 
 
-* Context-aware computing in manufacturing, *IJCIM16-Concept*
+* **Context-aware computing in manufacturing, *IJCIM16-Concept***
   * Context-aware computing in Industry, a specific implementation.
 
 <p align = "center">
@@ -95,7 +93,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 
 
-* Context-Aware Computing, Learning, and Big Data, *IEEEIoTJ18-Survey*
+* **Context-Aware Computing, Learning, and Big Data, *IEEEIoTJ18-Survey***
   * Recent survey, good summary of IoT research trends and IoT platforms.
   * Context life cycle: Context Acquisition, Context Modelling, Context Reasoning, Context Distribution.
 
@@ -105,10 +103,8 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 
 
-* Context-aware communication and computing, *Springer18-Book*
+* **Context-aware communication and computing, *Springer18-Book***
   * Book in 2018, shows the states-of-the-art.
-
-
 
 
 
