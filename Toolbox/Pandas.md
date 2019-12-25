@@ -61,5 +61,8 @@ place_time.day
 # Add new column based on two columns (use of lambda)
 df['delta'] = df.apply(lambda row: pd.Timedelta(row['stop'] -row['start']) /
                        np.timedelta64(1, 's') , axis=1)
+## Get seconds of the day from datetime
+df['seconds_of_day'] = (df['datetime'] -
+                        df['datetime'].astype('datetime64[D]'))/np.timedelta64(1,'s')
 ```
 
