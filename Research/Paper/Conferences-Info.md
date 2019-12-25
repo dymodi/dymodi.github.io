@@ -7,39 +7,40 @@ author: Yi DING
 
 **DDL**
 
-| Submission Deadline  | Proceeding                  |
-| -------------------- | --------------------------- |
-| January 12, 2019     | IEEE ICDCS                  |
-| February 9           | ICML                        |
-| **February 3, 2019** | **ACM SIGKDD**              |
-| February 15          | ACM IMWUT, Issue 2          |
-| February 25, 2019    | IJCAI                       |
-| March 1              | VLDB                        |
-| **March 12, 2019**   | **ACM MobiCom, Winter DDL** |
-| March 19, 2019       | NSDI, Spring DDL            |
-| **April 12, 2019**   | **ACM SenSys**              |
-| April 19             | ACM CSCW                    |
-| May 15               | ACM IMWUT, Issue 3          |
-| June 1               | IEEE ICDE, 1st round        |
-| June 5               | IEEE ICDM                   |
-| June 12              | ACM SIGSPATIAL              |
-| July 19              | ACM SIGMOD, 1st cycle       |
-| July 31, 2019        | IEEE INFOCOM                |
-| August 8             | IEEE ICBD                   |
-| August 15            | ACM IMWUT, Issue 4          |
-| **August 19, 2019**  | **ACM MobiCom, Summer DDL** |
-| September 5          | AAAI                        |
-| September 19         | NSDI, Fall DDL              |
-| September 20         | IEEE PERCOM                 |
-| **October 7, 2019**  | **WWW**                     |
-| October 10           | ACM/IEEE ICCPS              |
-| October 10           | ACM IPSN                    |
-| October 15           | IEEE ICDE, 2nd round        |
-| October 17           | IoTDI                       |
-| October 25           | ACM SIGMOD, 2nd cycle       |
-| November 15          | ACM IMWUT, Issue 1          |
-| **December 14**      | **ACM MobiSys**             |
-| December 21          | ACM MobiHoc                 |
+| Submission Deadline | Proceeding                  |
+| ------------------- | --------------------------- |
+| January 12          | IEEE ICDCS                  |
+| February 9          | ICML                        |
+| **February**        | **ACM SIGKDD**              |
+| February 15         | ACM IMWUT, Issue 2          |
+| February 25         | IJCAI                       |
+| March 1             | VLDB                        |
+| **March**           | **ACM MobiCom, Winter DDL** |
+| March 19            | NSDI, Spring DDL            |
+| **April**           | **ACM SenSys**              |
+| April 19            | ACM CSCW                    |
+| May 1               | ACM CIKM                    |
+| May 15              | ACM IMWUT, Issue 3          |
+| June 1              | IEEE ICDE, 1st round        |
+| June 5              | IEEE ICDM                   |
+| June 12             | ACM SIGSPATIAL              |
+| July 19             | ACM SIGMOD, 1st cycle       |
+| July 31             | IEEE INFOCOM                |
+| August 8            | IEEE ICBD                   |
+| August 15           | ACM IMWUT, Issue 4          |
+| **August**          | **ACM MobiCom, Summer DDL** |
+| September 5         | AAAI                        |
+| September 19        | NSDI, Fall DDL              |
+| September 20        | IEEE PERCOM                 |
+| **October**         | **WWW**                     |
+| October 10          | ACM/IEEE ICCPS              |
+| October 10          | ACM IPSN                    |
+| October 15          | IEEE ICDE, 2nd round        |
+| October 17          | IoTDI                       |
+| October 25          | ACM SIGMOD, 2nd cycle       |
+| November 15         | ACM IMWUT, Issue 1          |
+| **December**        | **ACM MobiSys**             |
+| December 21         | ACM MobiHoc                 |
 
 
 
@@ -93,5 +94,4 @@ author: Yi DING
 
 [ICML: International Conference on Machine Learning](https://icml.cc/)
 
-
-
+[CIKM: ACM International Conference on Information and Knowledge Management](https://cikm2020.org/)
