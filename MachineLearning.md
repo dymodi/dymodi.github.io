@@ -42,6 +42,10 @@ date: June 5, 2017
 
 [RNN and LSTM](MLfolds/deep-learning/RNN-LSTM)
 
+[GAN](MLfolds/deep-learning/GANs)
+
+[Attention based Models](MLfolds/deep-learning/Attention-based-Models)
+
 ## Reinforcement Learning
 [Markov Decision Processes](MLfolds/reinforcement-learning/Markov-Decision-Processes)
 
