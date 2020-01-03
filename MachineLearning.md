@@ -20,6 +20,7 @@ date: June 5, 2017
 [Bayesian Learning on the Candy Example](MLfolds/basics/Bayesian-Learning-on-the-Candy-Example)
 
 ## Unsupervised Learning (Clustering)
+
 [Clustering Summary](MLfolds/clustering/Clustering-Summary)
 
 [Clustering](MLfolds/clustering/Clustering)
@@ -37,7 +38,10 @@ date: June 5, 2017
 ## Representation Learning
 [Representation Learning](MLfolds/representation-learning/Representation-Learning)
 
+[Embeddeding](MLfolds/representation-learning/Embedding)
+
 ## Deep Learning
+
 [Convolution Neural Network](MLfolds/deep-learning/Convolution-Neural-Network)
 
 [RNN and LSTM](MLfolds/deep-learning/RNN-LSTM)
