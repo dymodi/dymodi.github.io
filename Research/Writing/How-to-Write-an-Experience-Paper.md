@@ -49,7 +49,11 @@ The related works here might be more comprehensive compared to technical papers.
 * Impacting parameters (X axis)
 * Baselines (Legends)
 
-## Lessons Learned/Results
+## Evaluation Results/Observations
+
+Evaluation results.
+
+## Discussion/Lessons Learned
 
 * Limitations of existing solutions, that are also the guide for future research directions.
 * Observations that indicate inaccurate assumption in existing works, which can be system-level or technical details.
