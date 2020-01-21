@@ -30,16 +30,44 @@ According to the CFP of *MobiCom* experience paper, in experience paper we share
 
 ## Introduction
 
-* Background of the techniques to be discussed (e.g. WSN/LORA/Beacon).
+* Background of the technologies to be discussed (e.g. WSN/LORA/Beacon).
+  * E.g. how we map a real world problem to existing technologies?
+* Background of the application (delivery/wildlife tracking)
+  * Your application must be of value and suitable for the technology
+* Additional challenges when introducing the technologies to real world applications.
+* Trade-offs in real world:
+  * Hardware cost (storage, battery, etc.)
+  * Energy efficiency
+  * Scalability
+  * Robustness
+  * Security
+* A simple introduction of the system
+  * Contributions ... 
 
 ## Related Works
 
 The related works here might be more comprehensive compared to technical papers.
 
+## Design Goal/Problem Formulation
+
+It can be emphasized that the project is a collaboration between researchers and industry.
+
+* Practical design goal(requirement) proposed by the commercial(industrial) section
+* How we implement the system towards the design requirement
+  * Some new metric can be define for the problem.
+  * How we set the parameters in design to cater the requirements.
+* Requirements in real world can be one or more of the followings:
+  * Reliability (Recall)
+  * Hardware cost 
+  * Operation lifetime (years or months)
+  * Compatibility (feasible for different smartphone models and different places)
+  * Security (free from malicious war-driving and free-riders)
+  * Maintenance free (no need for human interference)
+
 ## Implementation/Deployment/Operation
 
 * An overview of the system.
-
+* Usually we have many choices for a specific module in designing the system, such as wireless protocol, battery, we need to clarify why we use this one instead of others. The reasons can be cost, weight or any other limitations.
 * Some interesting technical details in building the system, such as hardware, software, protocol
 
 ## Measurement Methodology
