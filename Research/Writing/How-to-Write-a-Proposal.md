@@ -15,8 +15,6 @@ When writing a proposal, keep the following in mind (guideline from NSF for prop
 
 
 
-## PROJECT SUMMARY
-
 ### Overview
 
 * The importance of the problem
@@ -39,11 +37,23 @@ Key innovations.
 
 ### 1 Introduction
 
+Note that proposal is usually much more competitive than paper, you should throw a bomb as early as you can in the proposal. Show your most important thing (idea/opportunity/design/results).
+
+* Background of the problem
+* Motivation of the problem (better with some fact and statistics)
+* Challenge of the problem
+* Opportunities (why we can solve the problem)
+* Solution
+
 ### 2 
 
 ### 3
 
-### 4
+### 4 Research Problem
+
+* Thrust I
+* Thrust II
+* Thrust III
 
 ### 5 State of the Art
 

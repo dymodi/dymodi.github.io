@@ -65,9 +65,11 @@ author: Yi DING
   - Cons: Device diversity not considered, Landmark not available at everywhere
   
 * Guoguo: Acousitc Fingraind Indoor Localization, *MobiSys 13*, `liu2013guoguo`
+  
   * Taxonomy: Acoustic, Model-based, Localization Algorithm + Anchor, Small Scale
   
 * Social-Loc: Improving Indoor Localization with Social Sensing, *SenSys 13*, `jun2013social`
+  
   * Taxonomy: Multiple, Localization Algoirtihm, Small-Scale
   
 * Ubicarse: Indoor Localization With Zero Start-up Cost, *MobiCom 14*, `kumar2014accurate`
