@@ -50,13 +50,11 @@ Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and ima
 **Paper**
 
 * SurroundSense, *MobiCom-09-Surroundsense*
-  
   * Early works that claims ambience attributes (light/photo/acoustic/acc) can be used for localization.
   * Fingerprinting methods.
   * Te sensor and method might be outdated but the idea is worth learning.
   
 * UnLoc, *MobiSys-12-UnLoc*
-  
   * Similar idea as *SurroundSense*, while no war-driving or floorplan is needed.
   * Method: Landmark+Dead reckoning+WiFi-based partitioning (Iterative enlarge OLM database)
 
@@ -65,7 +63,6 @@ Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and ima
   </p>
 
 * WILL: Wireless Indoor Localization without Site Survey, *IEEE-12-WILL*
-
   * Data source: Wi-Fi, Accelerometer
   * Room-level Wi-Fi landmark is discussed in detail in this paper. The key idea is that different room has different Wi-Fi fingreprints.
   * Floorplan is not needed. "Virtual room"  is used to build a "logical floorplan".
@@ -78,20 +75,20 @@ Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and ima
 * Walkie-Markie, *NSDI-13-Walkie-Markie*
   
   * Wi-Fi landmarks.
-  
   * The key idea is the Wi-Fi RSS increase and descries along the pathway.
-  
   * Displacement between WiFi-Marks is estimated from user trajectories by accumulating the displacement of each step.
-  
   * Pathway map is generated through an expansion and shrinking procedure.
   
     <p align = "center">
-    <img src="figures/Walkie-Markie_WiFi-Mark_NSDI_13.jpg"  alt="Walkie-Markie_WiFi-Mark_NSDI_13" height="160">
-      <img src="figures/Walkie-Markie_Evaluation_NSDI_13.jpg"  alt="Walkie-Markie_Markie_Evaluation_NSDI_13" height="200">
+    <img src="figures/Walkie-Markie_WiFi-Mark_NSDI_13.jpg"  alt="Walkie-Markie_WiFi-Mark_NSDI_13" height="200">
     </p>
   
+<p align = "center">
+  <img src="figures/Walkie-Markie_Evaluation_NSDI_13.jpg"  alt="Walkie-Markie_Markie_Evaluation_NSDI_13" height="250">
+</p>
+
+
 * SemanticSLAM, *TMC-16-SemanticSLAM*
-  
   * Two types of landmarks are differentiated: seed landmark (both location and pattern are known), and organic landmark (attributes unknown).
   * Groundtruth is needed to detect the organic landmarks.
   * The system architecture can be found as follows:
@@ -100,12 +97,10 @@ Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and ima
   
   <p align = "center">
   <img src="figures/SemanticSLAM_TMC16.jpg"  alt="SemanticSLAM_TMC16" height="300">
-    <img src="figures/SemanticSLAM_dt_TMC16.jpg"  alt="SemanticSLAM_TMC16" height="170">
   </p>
-  
-  
-  
-
+    <p align = "center">
+    <img src="figures/SemanticSLAM_dt_TMC16.jpg"  alt="SemanticSLAM_TMC16" height="250">
+  </p>
 
 ##  Ref.
 

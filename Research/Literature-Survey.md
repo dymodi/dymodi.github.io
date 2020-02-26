@@ -12,7 +12,7 @@ date: July 3, 2018
 
 [Related Works of Infrastructure Less Indoor Localization](Literature-Reviews/Localization/Infrastructure-Less-Indoor-Localization-Related-Works)
 
-[[Related Works of Landmark Detection](Literature-Reviews/Localization/Landmark-Detection-Related-Works)]
+[Related Works of Landmark Detection](Literature-Reviews/Localization/Landmark-Detection-Related-Works)
 
 [Related Works of Beacon POI Correction](Literature-Reviews/Localization/Beacon-POI-Correction-Related-Works)
 
