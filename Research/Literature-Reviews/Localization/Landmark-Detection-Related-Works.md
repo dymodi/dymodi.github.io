@@ -18,14 +18,12 @@ Whether the floorplan is known is critical. For example, if the floorplan is kno
 Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and image landmarks are discussed in [MobiCom-14-Jigsaw]. Since acoustic and image data are not ubiquitously available from smartphones APPs, they are not listed in this survey.
 
 **Keyword**
-
 * Environment Landmarks
 * Ambience
 * Logical localization
 
 
 **Taxonomy**
-
 * Landmark type: 
   * (Seed landmark, readily with floorplan) Elevator, Escalator, Stairs
   * (Organic landmark, need clustering/training) Wi-Fi AP set, Cellular dead point, Light, Acoustic
@@ -33,14 +31,12 @@ Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and ima
 * Detection method: SLAM(Simultaneous Localization And Mapping, EKF in fact), Fingerprinting
 
 **Comments**
-
 * Some seed landmarks can be acquired easily (elevator/etc.)
 * New (organic) landmarks can be found via sensor data clustering.
 * Machine learning can be used to train the model between landmark location and pattern.
 * Dead-Reckoning or SLAM can be used for localization between landmarks, and can also be used to correct the landmark model (database).
 
 **Technical Tricks**
-
 * Layered model instead of a huge model.
 * Initial motion classification (staric/esclator v.s. walk) according to velocity.
 * Moving average window used to remove floor noise for accelerometer data. [MobiCom-09-SurroundSense]
@@ -48,11 +44,10 @@ Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and ima
 * Walking direction and the turning angles can be obtained from magnetometer and the gyroscope. [NSDI-13-Walkie-Markie]
 
 **Paper**
-
 * SurroundSense, *MobiCom-09-Surroundsense*
   * Early works that claims ambience attributes (light/photo/acoustic/acc) can be used for localization.
   * Fingerprinting methods.
-  * Te sensor and method might be outdated but the idea is worth learning.
+  * The sensor and method might be outdated but the idea is worth learning.
   
 * UnLoc, *MobiSys-12-UnLoc*
   * Similar idea as *SurroundSense*, while no war-driving or floorplan is needed.
@@ -73,14 +68,13 @@ Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and ima
   </p>
 
 * Walkie-Markie, *NSDI-13-Walkie-Markie*
-  
   * Wi-Fi landmarks.
   * The key idea is the Wi-Fi RSS increase and descries along the pathway.
   * Displacement between WiFi-Marks is estimated from user trajectories by accumulating the displacement of each step.
   * Pathway map is generated through an expansion and shrinking procedure.
   
     <p align = "center">
-    <img src="figures/Walkie-Markie_WiFi-Mark_NSDI_13.jpg"  alt="Walkie-Markie_WiFi-Mark_NSDI_13" height="200">
+    <img src="figures/Walkie-Markie_WiFi-Mark_NSDI_13.jpg"  alt="Walkie-Markie_WiFi-Mark_NSDI_13" height="250">
     </p>
   
 <p align = "center">
@@ -91,16 +85,16 @@ Acoustic landmarks are discussed in [MobiSys-11-ABS, MobiCom-16-Dolphin] and ima
 * SemanticSLAM, *TMC-16-SemanticSLAM*
   * Two types of landmarks are differentiated: seed landmark (both location and pattern are known), and organic landmark (attributes unknown).
   * Groundtruth is needed to detect the organic landmarks.
-  * The system architecture can be found as follows:
-  * Clustering can be used to find organic landmarks and decision tree (ML) can be used to locate the seed landmark.
-  * Decesion tree seems to be a more accountable model for landmark detection. (Although decision tree may have limitation for heterogeneous devices, it is more explainable than neural network models)
+  * Clustering is used to find organic landmarks and decision tree (ML) is used to locate the seed landmark.
+  * Decesion tree is a more accountable model for landmark detection. (Although decision tree may have limitation for heterogeneous devices, it is more explainable than neural network models)
   
-  <p align = "center">
+<p align = "center">
   <img src="figures/SemanticSLAM_TMC16.jpg"  alt="SemanticSLAM_TMC16" height="300">
-  </p>
-    <p align = "center">
+</p>
+
+<p align = "center">
     <img src="figures/SemanticSLAM_dt_TMC16.jpg"  alt="SemanticSLAM_TMC16" height="250">
-  </p>
+</p>
 
 ##  Ref.
 
