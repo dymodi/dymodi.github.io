@@ -45,6 +45,15 @@ df = pd.DataFrame(data = some_dict)
 some_value = california_housing_dataframe.iloc[i]['housing_median_age']
 # Returen element by index (origin index)
 some_value = california_housing_dataframe.loc[i]['housing_median_age']
+# Check diff of consecutive rows (df.diff is not very convenient)
+index_list=df.index.tolist()
+for index, row in df.iterrows():
+  if index==index_list[-2]:
+    ## reach end and skip
+    break
+  this_time = row['time']
+  next_time = df.loc[[index+1]]['time']
+  time_diff = (next_time-this_time).astype('timedelta64[s]').iloc[0]
 ```
 
 ## Datetime
