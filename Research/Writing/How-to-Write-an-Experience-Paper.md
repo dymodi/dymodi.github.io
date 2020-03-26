@@ -18,15 +18,11 @@ When writing a research paper, keep the following in mind (guideline from NSF fo
 
 In an experience paper, usually we conduct some **measurement studies** on an interesting and typical system built by ourselves.
 
-
-
 It will be better that the paper focus one or two very **counterintuitive** observations that can change the existing understanding of the technology in the community. Otherwise, some small new findings or contextual impactors is also acceptable.
-
-
 
 According to the CFP of *MobiCom* experience paper, in experience paper we share to the community the experiences with **implementation**, **deployment**, and **operations** of a real world system. Desirable papers are expected to contain real data as well as descriptions of the **practical lessons learned**. The experience papers will be evaluated by the program committee, primarily for (i) richness of their data or experiences, (ii) inferences drawn or lessons learned, (iii) discovery of new problems, and (iv) their impact/potential impact on current and future mobile systems and wireless networks, as well as on society. 
 
-
+According to the CFP of *NSDI* Operational Systems Track paper, experience paper "describes the **design**, **implementation**, **analysis**, and **experience** with **large-scale**, **operational** systems and networks. " Moreover, "papers that disprove or strengthen existing assumptions, deepen the understanding of existing problems, and validate known techniques at scales or environments" are encouraged.
 
 ## Introduction
 
@@ -41,6 +37,8 @@ According to the CFP of *MobiCom* experience paper, in experience paper we share
   * Scalability
   * Robustness
   * Security
+  * Compatibility
+  * Reliability
 * A simple introduction of the system
   * Contributions ... 
 
