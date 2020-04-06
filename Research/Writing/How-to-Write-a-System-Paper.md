@@ -246,3 +246,10 @@ The figures in the paper serve different purpose. More examples can be found [he
 * It will be better that your work can be cited in the future (e.g. open data-set), otherwise the editor will choose other potential submissions. You will be happy if your work can be followed.
 * If your problem has too many uncertainties, you can fix some spatial-temporal scenarios hence that the  uncertainty reduce to a sovlable level.
 * Compared with Data paper, the Design section is short, (since a complicated design usually won't work in real world), while the Evaluation section is long because there are much effort in evaluation.
+
+
+
+## Comments from Miao
+
+* I expected paragraphs composed of arguments and their supporting materials. Arguments without supporting look strange. Casual materials without argument is also meaningless.
+* The whole paper and each component should be well organized. Adjacent contents such as sentences should be connected.
