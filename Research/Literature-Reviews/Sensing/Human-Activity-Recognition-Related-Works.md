@@ -35,7 +35,6 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
 * ISWC12: Energy Efficiency
   * Acc., 5/16/50/100Hz, ML
   * Trade-off between sampling frequence and classification performance.
-
 <p align = "center">
 <img src="figures/SamplingRateEnergyTradeoff_ISWC12.png"  alt="Context aware navigation" height="200">
   <img src="figures/DifferentSamplingRatePeformance_ISWC12.png"  alt="Context aware navigation" height="200">
@@ -43,13 +42,14 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
 
 * SenSys13: Accelerator
   * Taxonomy: Accelerator, 100Hz, ML+HMM, 
-* SenSys15: Device Heterogeneities
 
+* SenSys15: Device Heterogeneities
   * In-depth study of device heterogeneities on activity recognition.
+
 * TBD17: Activity-based
   * Taxonomy: CDR, 
-* MobiCom18: Closting Gap
 
+* MobiCom18: Closting Gap
   * Taxonomy: IMU, 10Hz, 
 
 ##  Ref.
