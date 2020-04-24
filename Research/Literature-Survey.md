@@ -20,11 +20,13 @@ date: July 3, 2018
 
 ### Sensing
 
-[Related Works of Context-Aware Computing](Literature-Reviews/Sensing/Context-Aware-Computing-Related-Works)
+[Related Works of Indoor Outdoor Detection](Literature-Reviews/Sensing/Indoor-Outdoor-Detection-Related-Works)
+
+[Related Works of Human Activity and Mobiliy Detection](Literature-Reviews/Sensing/Human-Activity-Recognition-Related-Works)
 
 [Related Works of Context Sensing](Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works)
 
-[Related Works of Indoor Outdoor Detection](Literature-Reviews/Sensing/Indoor-Outdoor-Detection-Related-Works)
+[Related Works of Context-Aware Computing](Literature-Reviews/Sensing/Context-Aware-Computing-Related-Works)
 
 [Related Works of Energy Efficient Sensing](Literature-Reviews/Sensing/Energy-Efficient-Sensing-Related-Works)
 

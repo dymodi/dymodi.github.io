@@ -19,21 +19,21 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
 
 * Transportation/Mobiliy Mode
 
-  
 
 **Taxonomy**
 
+* Data Source: CDR, IMU, Acc.
+* Sampling Rate: 100Hz, 5/16/50/100Hz, 10Hz, 
 * Methods: ML, HMM, 
-* Data Source: CDR,
-* Sampling Rate: 100Hz
 
 **Comments**
 
-* Sampling Rate is one of the key barriers when applying the methods
+* *Sampling Rate* is one of the key barriers when applying the methods
 
 **Papers**
 
-* ISWC12: 
+* ISWC12: Energy Efficiency
+  * Acc., 5/16/50/100Hz, ML
   * Trade-off between sampling frequence and classification performance.
 
 <p align = "center">
@@ -41,15 +41,16 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
   <img src="figures/DifferentSamplingRatePeformance_ISWC12.png"  alt="Context aware navigation" height="200">
 </p>
 
+* SenSys13: Accelerator
+  * Taxonomy: Accelerator, 100Hz, ML+HMM, 
+* SenSys15: Device Heterogeneities
 
-
-
-
-* SenSys13:
-  * Taxonomy: ML+HMM, Accelerator, 100Hz,
+  * In-depth study of device heterogeneities on activity recognition.
 * TBD17: Activity-based
   * Taxonomy: CDR, 
-* 
+* MobiCom18: Closting Gap
+
+  * Taxonomy: IMU, 10Hz, 
 
 ##  Ref.
 
@@ -57,10 +58,8 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
 
 [SenSys13] Hemminki, S., Nurmi, P., & Tarkoma, S. (2013, November). **Accelerometer-based transportation mode detection on smartphones**. In *ACM SenSys* (pp. 1-14).
 
+[SenSys15] Stisen, A., Blunck, H., Bhattacharya, S., Prentow, T. S., Kjærgaard, M. B., Dey, A., ... & Jensen, M. M. (2015, November). **Smart devices are different: Assessing and mitigatingmobile sensing heterogeneities for activity recognition**. In *ACM SenSys* (pp. 127-140).
+
 [TBD17] Jiang, S., Ferreira, J., & Gonzalez, M. C. (2017). **Activity-based human mobility patterns inferred from mobile phone data: A case study of Singapore.** *IEEE Transactions on Big Data*, *3*(2), 208-219.
 
-
-
-**Industry Progress**
-
-- 
+[MobiCom18] Shen, S., Gowda, M., & Roy Choudhury, R. (2018, October). **Closing the gaps in inertial motion tracking**. In *ACM MobiCom* (pp. 429-444).
