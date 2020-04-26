@@ -17,7 +17,7 @@ date: June 9, 2017
 
 [Transportation Data-sets](Research/Data-sets/Transportation-Datasets)
 
-[Activity/Mobility Data-sets](Research/Data-sets/Transportation-Datasets)
+[Activity/Mobility Data-sets](Research/Data-sets/Data-set-Preparation)
 
 ## Backup Knowledge
 
