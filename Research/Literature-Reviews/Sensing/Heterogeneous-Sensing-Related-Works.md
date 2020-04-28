@@ -22,8 +22,10 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 
 **Special Topics**
 
+* Heterogeneity in Mobile Sensing Applications, *UbiComp13*
+  * Taxonomy: Device 
 * Modellet: Experiencing and Handling the Diversity, *MobiCom 14*
-  * Taxonomy: date density, environment, fingerprinting, localization
+  * Taxonomy: Data density, environment, fingerprinting, localization
   * Cons:
     * Limited heterogeneity (13 deployment venues)
     * Device diversity is not considered.
@@ -34,7 +36,7 @@ Heterogeneity is problem that widely met in research and applications. It is sai
     * Limited heterogeneity (36 devices, 9 users); 
     * Environment diversity is not considered (actually only accelerator related heterogeneities are considered).
 * DeepSense, *WWW17*
-  * Taxonomy: device, user, deep learning
+  * Taxonomy: Device, User, Deep learning
   * Solution: CNN + RNN (GRU)
   * Pros: Solid experiments, 
   * Cons:
@@ -63,6 +65,8 @@ Heterogeneity is problem that widely met in research and applications. It is sai
 [SenSys12-CrowdMon] Pushp, S., Min, C., Lee, Y., Liu, C. H., & Song, J. (2012, November). **Towards crowd-aware sensing platform for metropolitan environments**. In *SenSys* (pp. 335-336). ACM.
 
 [SenSys12-IODetector] Zhou, P., Zheng, Y., Li, Z., Li, M., & Shen, G. (2012, November). **IODetector: A generic service for indoor outdoor detection**. In *SenSys* (pp. 113-126). ACM.
+
+[UbiComp13] Blunck, H., Bouvin, N. O., Franke, T., Grønbæk, K., Kjaergaard, M. B., Lukowicz, P., & Wüstenberg, M. (2013, September). **On heterogeneity in mobile sensing applications aiming at representative data collection**. In *UbiComp* (pp. 1087-1098).
 
 [MobCom14] Li, L., Shen, G., Zhao, C., Moscibroda, T., Lin, J. H., & Zhao, F. (2014, September). **Experiencing and handling the diversity in data density and environmental locality in an indoor positioning service**. In *MobiCom* (pp. 459-470). ACM.
 
