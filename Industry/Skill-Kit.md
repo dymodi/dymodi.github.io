@@ -82,3 +82,16 @@ author: Yi DING
 #### Identify and investigate new technologies
 
 * [Paper survey ability](https://dymodi.github.io/Research/Literature-Survey)
+
+
+
+## Stories
+
+AAL Project (4/20). How I take a project in the mid-way and organize it. 
+
+* Business value / Technical value.
+* A clear timeline.
+* SoA.
+* Divide into different modules.
+* Give credits to each contributor.
+* Evaluate current solution, plan for next step.
