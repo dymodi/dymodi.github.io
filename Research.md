@@ -7,11 +7,11 @@ date: June 9, 2017
 
 ### [Literature Surveys](Research/Literature-Survey)
 
-### Beacons
+<!-- ### Beacons
 
 [A Industry Implementation of Beacon Localization](Research/Beacon/Beacon-Localization-Industry) 
 
-[Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon/Beacon-Filtering) 
+[Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon/Beacon-Filtering)  -->
 
 ### Related Data-sets
 
@@ -29,6 +29,6 @@ date: June 9, 2017
 
 ### [Time Series](Research/time-series)
 
-## Work Publishing
-[Conferences Info](Research/Paper/Conferences-Info)
+<!-- ## Work Publishing
+[Conferences Info](Research/Paper/Conferences-Info) -->
 
