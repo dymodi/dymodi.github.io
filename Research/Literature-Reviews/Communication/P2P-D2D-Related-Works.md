@@ -7,8 +7,6 @@ date: Sep. 26, 2019
 
 
 
-
-
 **Taxonomy**
 
 * Application: File sharing, Video streaming, Search engine, Recommendation, Improve localization
@@ -30,6 +28,8 @@ date: Sep. 26, 2019
   * Recommendation
 * Proximity Enhanced Mobile D2D Video Streaming, *MobiCom-12*
   * Video streaming
+* Social-Loc, *SenSys-13*
+* 
 
 
 
