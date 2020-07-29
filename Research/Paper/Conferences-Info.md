@@ -12,18 +12,19 @@ author: Yi DING
 | Deadline    | Proceeding              |
 | ----------- | ----------------------- |
 | January     | IEEE ICDCS              |
+| January     | USENIX ATC              |
 | February 15 | ACM IMWUT               |
 | March       | ACM MobiCom, Winter DDL |
-| April       | NSDI, Spring DDL        |
+| April       | USENIX NSDI, Spring DDL |
 | April       | ACM SenSys              |
 | April       | ACM CSCW                |
 | May 15      | ACM IMWUT               |
-| June        | OSDI                    |
+| June        | USENIX OSDI             |
 | June        | ACM SIGSPATIAL          |
 | July        | IEEE INFOCOM            |
 | August 15   | ACM IMWUT               |
 | August      | ACM MobiCom, Summer DDL |
-| September   | NSDI, Fall DDL          |
+| September   | USENIX NSDI, Fall DDL   |
 | September   | IEEE PERCOM             |
 | October     | WWW                     |
 | October     | ACM/IEEE ICCPS          |
