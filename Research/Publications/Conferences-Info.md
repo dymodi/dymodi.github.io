@@ -40,10 +40,12 @@ author: Yi DING
 
 ## Measurement Study
 
-| Submission Deadline | Proceeding     |
-| ------------------- | -------------- |
-| June                | ACM IMC        |
-| August              | ACM SIGMETRICS |
+| Submission Deadline | Proceeding              |
+| ------------------- | ----------------------- |
+| February            | ACM SIGMETRICS (Winter) |
+| June                | ACM IMC                 |
+| August              | ACM SIGMETRICS (Summer) |
+| October             | ACM SIGMETRICS (Fall)   |
 
 
 
