@@ -8,9 +8,7 @@ date: June 9, 2017
 ### [Literature Surveys](Research/Literature-Survey)
 
 <!-- ### Beacons
-
 [A Industry Implementation of Beacon Localization](Research/Beacon/Beacon-Localization-Industry) 
-
 [Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon/Beacon-Filtering)  -->
 
 ### Related Data-sets
@@ -20,6 +18,8 @@ date: June 9, 2017
 [Activity/Mobility Data-sets](Research/Data-sets/Data-set-Preparation)
 
 ## Backup Knowledge
+
+### [Machine Learning](MachineLearning)
 
 ### [Algorithms](Research/algorithms)
 

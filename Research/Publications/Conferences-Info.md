@@ -7,7 +7,7 @@ author: Yi DING
 
 
 
-## Systems (Neworks / Real-time/ Mobile Computing / Measurement / OS)
+## Systems (Neworks / Real-time / Mobile Computing / Measurement / OS)
 
 | Deadline    | Proceeding              | CS Ranking                   | CCF                   |
 | ----------- | ----------------------- | ---------------------------- | --------------------- |
