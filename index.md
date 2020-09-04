@@ -5,6 +5,7 @@ layout: default
 <head>
   <title>Yi Homepage</title>
 </head>
+# Yi Ding, Ph.D.
 
 I am currently a CS Ph.D. student at the University of Minnesota.
 From 2018, I have also been working in Alibaba Group, Local Service BU with Professor [Tian He](https://www-users.cs.umn.edu/~tianhe/).
@@ -13,10 +14,16 @@ I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz2
 
 You can contact me at dymodi AT gmail.
 
+<p align="left">
+<img src="pipi.jpg"  alt="pipi" height="120">
+</p>
+
+My little cat, pipi (not "pip")
+
 **Recent News**
 
-* Aug. 2020: aBeacon system introduce in [Alibaba Tech. officials accounts](https://mp.weixin.qq.com/s/7jVa-K-qUlYIrCg3YpPSEQ).
-* Aug. 2020: 2nd-author paper Trans-Loc accepted by MobiCom' 20.
+* Aug. 2020: **aBeacon** system introduced in [Alibaba Tech. officials accounts](https://mp.weixin.qq.com/s/7jVa-K-qUlYIrCg3YpPSEQ).
+* Aug. 2020: 2nd-author paper **Trans-Loc** accepted by MobiCom' 20.
 * Jun. 2020: 1st-author paper **aBeacon** accepted by NSDI' 21.
 * Sep. 2019: Our paper is accpeted by ACM IMWUT (UbiComp[ 2019]).
 
