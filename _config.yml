@@ -13,10 +13,9 @@ minima:
 header_pages:
  - about.md
  - Research.md
+ - Publications.md
  - Industry.md
- - MachineLearning.md
- - toolbox.md
- - usefulLinks.md
+
 
 # Build settings
 # markdown: kramdown    # Used originally
