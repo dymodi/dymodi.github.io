@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Publications
-date: July. 31, 2020
-author: Yi DING
+date: Sep. 2, 2020
 ---
 
 ## Selected Conference Papers
@@ -17,7 +16,7 @@ In *USENIX NSDI 2021*. 19/114=16%,
 
 Yu Yang,  **Yi Ding**, Dengpan.Yuan, Guang Wang, Xiaoyang Xie, Yunhuai. Liu, Tian He and Desheng Zhang.
 *TransLoc: Transparent Indoor Localization with Uncertain Human Participation.*
-In ACM *MobiCom'20*. 63/384=16%,
+In ACM *MobiCom'20*. 63/384=16%, [[PDF](Research/Publications/files/transloc.pdf)]
 
 ### 2019 
 

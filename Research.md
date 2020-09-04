@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: Research
-date: June 9, 2017
+date: Sep. 2, 2017
 ---
 ## Research Topics
 
