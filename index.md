@@ -7,7 +7,7 @@ layout: default
 </head>
 # Yi Ding, Ph.D.
 
-I am currently a CS Ph.D. student at the University of Minnesota.I have also been working in Alibaba Group, Local Service BU from 2018 with my professor [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Yunhuai Liu](http://www.yunhuai.net/Yunhuai.htm) in research.
+I am currently a CS Ph.D. student at the University of Minnesota. I have also been working in Alibaba Group, Local Service BU from 2018 with my professor [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Yunhuai Liu](http://www.yunhuai.net/Yunhuai.htm) in research.
 
 My research interests are broadly in data mining, mobile computing, instant delivery, and machine learning.  You can contact me at dymodi AT gmail.
 
