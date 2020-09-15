@@ -1,15 +1,11 @@
 ---
-layout: post
+layout: default
 title: Research
 date: Sep. 2, 2017
 ---
 ## Research Topics
 
 ### [Literature Surveys](Research/Literature-Survey)
-
-<!-- ### Beacons
-[A Industry Implementation of Beacon Localization](Research/Beacon/Beacon-Localization-Industry) 
-[Entrance and Departure Detection Base on BLE Beacon RSSI - Filtering and Shaving](Research/Beacon/Beacon-Filtering)  -->
 
 ### Related Data-sets
 
