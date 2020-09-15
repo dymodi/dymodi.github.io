@@ -5,15 +5,10 @@ date: Sep. 2, 2017
 ---
 # Research
 
+## Survey and Notes
 ### [Literature Surveys](Research/Literature-Survey)
 
-### Related Data-sets
-
-[Transportation Data-sets](Research/Data-sets/Transportation-Datasets)
-
-[Activity/Mobility Data-sets](Research/Data-sets/Data-set-Preparation)
-
-## Backup Knowledge
+## Methods
 
 ### [Machine Learning](MachineLearning)
 
@@ -25,11 +20,10 @@ date: Sep. 2, 2017
 
 ### [Time Series](Research/time-series)
 
+## Data-sets
+
+[Transportation Data-sets](Research/Data-sets/Transportation-Datasets)
+
+[Activity/Mobility Data-sets](Research/Data-sets/Data-set-Preparation)
+
 ## [Useful Links](usefulLinks)
-Some useful links for  learning Data Mining and Machine Learning..
-
-## [Toolbox I Use](toolbox)
-
-<!-- ## Work Publishing
-[Conferences Info](Research/Paper/Conferences-Info) -->
-
