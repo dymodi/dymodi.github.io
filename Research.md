@@ -3,7 +3,7 @@ layout: default
 title: Research
 date: Sep. 2, 2017
 ---
-## Research Topics
+# Research
 
 ### [Literature Surveys](Research/Literature-Survey)
 

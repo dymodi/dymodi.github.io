@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: default
 title: Publications
 date: Sep. 2, 2020
 ---
+
+# Publications
 
 ## Selected Conference Papers
 
@@ -24,3 +26,6 @@ In ACM *MobiCom'20*. 63/384=16%, [[PDF](Research/Publications/files/transloc.pdf
 *Route Prediction for Instant Delivery* 
 In *ACM UbiComp 2019*.
 
+
+
+Some Markdown text with <span style="color:blue">some *blue* text</span>.

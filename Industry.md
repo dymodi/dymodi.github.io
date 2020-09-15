@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: deafult
 title: Industry
 date: July 3, 2018
 ---
