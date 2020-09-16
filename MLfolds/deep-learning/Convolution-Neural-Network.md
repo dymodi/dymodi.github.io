@@ -9,6 +9,8 @@ Here we basically follow the contents provided by [CS231n Convolutional Neural N
 
 [Another tutorial](http://rll.berkeley.edu/deeprlcoursesp17/docs/tfsection.pdf) of TensorFlow on deep NN is provided by Chelsea Finn from Berkeley CS 294 course.
 
+The major advantage of CNN is "exploiting the local spatial correlations present in images".
+
 ## Architecture Overview
 
 Note that, according to [Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.github.io/convolutional-networks/) "ConvNet architectures make the explicit assumption that the inputs are images".
@@ -88,3 +90,9 @@ However, you should rarely ever have to train a ConvNet from scratch or design o
 ### Layer Sizing Patterns
 
 This subsection remains to be built when I have more practice.
+
+
+
+## Refs.
+
+[1] Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.A., Veness, J., Bellemare, M.G., Graves, A., Riedmiller, M., Fidjeland, A.K., Ostrovski, G. and Petersen, S., 2015. Human-level control through deep reinforcement learning. *nature*, *518*(7540), pp.529-533.
