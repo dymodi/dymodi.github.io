@@ -19,6 +19,8 @@ counter-intuitive
 
 fairness-aware
 
+greedy/myopic
+
 massive
 
 oriented

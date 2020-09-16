@@ -13,9 +13,13 @@ DQN is an approximation of the classic Q-learning algorithm by a neural network.
 
 
 
-The advantages of DQN is:
+**Advantages of DQN:**
 
 * Capable of handling high-dimensional sensory inputs (states). [1]
+
+**Disadvantages of DQN:**
+
+* 
 
 
 
