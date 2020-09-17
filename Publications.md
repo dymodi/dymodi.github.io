@@ -12,7 +12,7 @@ date: Sep. 2, 2020
 
 [<span style="color:red">NSDI'21</span>] **Yi Ding**, Ling Liu, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang.
 *From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild.*
-In *USENIX NSDI 2021*. 19/114=16%,
+In *USENIX NSDI 2021*. 19/114=16%, [[PDF](Research/Publications/files/nsdi21-submission133-camera-ready.pdf)]
 
 ### 2020
 
