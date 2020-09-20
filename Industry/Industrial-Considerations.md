@@ -15,6 +15,8 @@ There are many studies on evaluating a system, I summarize some aspects based on
 
 ### Cost (Return of Investment, ROI)
 
+### Scale
+
 ### Reliability
 
 ### Robustness
