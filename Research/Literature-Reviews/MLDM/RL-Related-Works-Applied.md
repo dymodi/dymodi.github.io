@@ -1,0 +1,55 @@
+---
+author: Yi DING
+layout: post
+title: Related Works of Reinforcement Learning (Applied)
+date: Sep. 24, 2020
+---
+
+**Key Words:** Reinforcement Learning
+
+**Taxonomy**
+
+* Applications: Game play / Traffic Light Control / Fleet mangement / Order Dispatch / Bike Reposition
+* Single-agent / Multi-agent
+* Basic algorithms: MDP / DQN / Actor-Critic
+* With Simulator / No Simulator
+
+**Comments**
+
+* Applied track contains paper from KDD, WWW.
+* Possible variations:
+
+**Individual Papers**
+
+* IntelliLight, *KDD 2018*
+  * Taxonomy: Traffic Light Control, 
+  * Contributions: (1) Real-world data; (2) Policy interpretations; (3) New learning method (phase-gated);
+* Efficient Large-Scale Fleet Management, *KDD 2018 Didi Fleet Management*
+  * Taxonomy: Fleet mangement, Multi-agent, DQN & Actor-Critic, With simulator
+  * Contributions: (1) Proper design of agent, reward and state; (2) Contextual multi-agent RL framework is proposed based on both DQN and Actor-Critic; (3) Simulator developed; 
+* Order Dispatch in On-Demand Ride-Hailing Platforms, *KDD 2018 Didi Order Dispatch*
+  * Taxonomy: Order Dispatch, Multi-agent, MDP, With simulator
+  * Contribution: (1) New order dispatch algorithm that optimizes long-term platform efficiency (instant passenger satisfaction + the expected future gain); (2) Problem formulation (one of first work for RL in large-scale real-time systems); (3) Practical issues considered (computational efficiency).
+* Dynamic Bike Reposition, *KDD 2018 Bike Reposition*
+  * Taxonomy: Bike Reposition, Multi-agent, DQN, With simulator
+  * Contribution: (1) New clustering algorithm; (2) Simulator; (3) A Spatial-Temporal RL model (new state, DQN); (4) Real-world data;
+* Efficient and Effective Express, *KDD 2019 JD*
+  * Taxonomy: Order Dispatch, Multi-agent ,With Simulator, (Cooperative) DQN
+  * Contribution: (1) City partition; (2) New clustering algorithm; (3) New RL model (Contextual Cooperative RL); (4) Real-world data;
+* Spatio-Temporal Capsule-based RL for Mobility-on-Demand Network Coordination, *WWW 2019 Order Dispatch*
+  * Taxonomy: Order Dispatch, Single-agent, No Simulator (?), DQN
+  * Contribution: (1) ST-RL formulation; (2) ST capsule NN;
+
+## Ref.
+
+[KDD-2018-Intellilight] Wei, Hua, Guanjie Zheng, Huaxiu Yao, and Zhenhui Li. "**Intellilight: A reinforcement learning approach for intelligent traffic light control**." In *Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 2496-2505. 2018.
+
+[KDD-2018-Didi-Fleet-Management] Lin, Kaixiang, Renyu Zhao, Zhe Xu, and Jiayu Zhou. "**Efficient large-scale fleet management via multi-agent deep reinforcement learning**." In *Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 1774-1783. 2018.
+
+[KDD-2018-Didi-Order-Dispatch] Xu, Zhe, Zhixin Li, Qingwen Guan, Dingshui Zhang, Qiang Li, Junxiao Nan, Chunyang Liu, Wei Bian, and Jieping Ye. "**Large-scale order dispatch in on-demand ride-hailing platforms: A learning and planning approach.**" In *Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 905-913. 2018.
+
+[KDD-2018-Bike-Reposition] Li, Yexin, Yu Zheng, and Qiang Yang. "**Dynamic bike reposition: A spatio-temporal reinforcement learning approach.**" In *Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 1724-1733. 2018.
+
+[KDD-2019-JD] Li, Yexin, Yu Zheng, and Qiang Yang. "**Efficient and Effective Express via Contextual Cooperative Reinforcement Learning**." In *Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 510-519. 2019.
+
+[WWW-2019-Order-Dispatch] He, Suining, and Kang G. Shin. "**Spatio-temporal capsule-based reinforcement learning for mobility-on-demand network coordination.**" In *The World Wide Web Conference*, pp. 2806-2813. 2019.

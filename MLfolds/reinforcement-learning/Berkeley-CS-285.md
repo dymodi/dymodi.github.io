@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Basic Facts on Reinforcement Learning
+title: CS 285 at UC Berkeley - Deep Reinforcement Learning
 date: Oct. 20, 2017
 author: Yi DING
 ---

@@ -51,9 +51,11 @@ date: June 5, 2017
 [Attention based Models](MLfolds/deep-learning/Attention-based-Models)
 
 ## Reinforcement Learning
+[Reinforcement Learning Basics](MLfolds/reinforcement-learning/RL-Basics)
+
 [Markov Decision Processes](MLfolds/reinforcement-learning/Markov-Decision-Processes)
 
-[Berkeley CS294-112 Course Note](MLfolds/reinforcement-learning/Reinforcement-Learning-Basic-Facts)
+[Berkeley Deep Reinforcement Learning](MLfolds/reinforcement-learning/Berkeley-CS-285)
 
 ## Framework and Technologies
 [Softmax on Digits Data with TensorFlow](MLfolds/framework-and-technologies/Softmax-on-Digits-Data-with-TensorFlow) 

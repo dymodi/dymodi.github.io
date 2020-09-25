@@ -56,3 +56,6 @@ date: July 3, 2018
 
 [Related Works of Learning with Missing Value](Literature-Reviews/MLDM/Learning-with-Missing-Value-Related-Works)
 
+[Related Works of Reinforcement Learning Applied](Literature-Reviews/MLDM/RL-Related-Works-Applied)
+
+[Related Works of Reinforcement Learning Theoretic](Literature-Reviews/MLDM/RL-Related-Works-Theoretic)
