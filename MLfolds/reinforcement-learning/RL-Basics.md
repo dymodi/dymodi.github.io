@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RL Basics
+title: Reinforcement Learning Basics
 date: Sep. 25, 2020
 author: Yi DING
 ---
@@ -9,7 +9,7 @@ A long introduction to RL is presented [here](https://lilianweng.github.io/lil-l
 
 ## Basic Concepts
 
-The agent is acting in an **environment**. How the environment reacts to certain actions is defined by a **model** which we may or may not know. The agent can stay in one of many **states** ($s\in \mathcal S$) of the environment, and choose to take one of many **actions** to switch from one state to another. Which state the agent will arrive in is decided by transition probabilities between states. Once an action is taken, the environment delivers a **reward** as feedback [1].
+The agent is acting in an **environment**. How the environment reacts to certain actions is defined by a **model** which we may or may not know. The agent can stay in one of many **states** ($$s\in \mathcal S$$) of the environment, and choose to take one of many **actions** (a\in \mathcal A) to switch from one state to another. Which state the agent will arrive in is decided by transition probabilities between states (\mathcal P). Once an action is taken, the environment delivers a **reward** (r\in \mathcal R) as feedback [1].
 
 The model defines the reward function and transition probabilities.
 
