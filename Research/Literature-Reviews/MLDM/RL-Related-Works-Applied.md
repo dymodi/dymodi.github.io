@@ -21,35 +21,35 @@ date: Sep. 24, 2020
 
 **Individual Papers**
 
-* IntelliLight, *KDD 2018*
+* IntelliLight, *[KDD-2018-Intellilight]*
   * Taxonomy: Traffic Light Control, 
   * Contributions: (1) Real-world data; (2) Policy interpretations; (3) New learning method (phase-gated);
-* Efficient Large-Scale Fleet Management, *KDD 2018 Didi Fleet Management*
+* Efficient Large-Scale Fleet Management, *[KDD-2018-Didi-Fleet-Management]*
   * Taxonomy: Fleet mangement, Multi-agent, DQN & Actor-Critic, With simulator
   * Contributions: (1) Proper design of agent, reward and state; (2) Contextual multi-agent RL framework is proposed based on both DQN and Actor-Critic; (3) Simulator developed; 
-* Order Dispatch in On-Demand Ride-Hailing Platforms, *KDD 2018 Didi Order Dispatch*
+* Order Dispatch in On-Demand Ride-Hailing Platforms, *[KDD-2018-Didi-Order-Dispatch]*
   * Taxonomy: Order Dispatch, Multi-agent, MDP, With simulator
   * Contribution: (1) New order dispatch algorithm that optimizes long-term platform efficiency (instant passenger satisfaction + the expected future gain); (2) Problem formulation (one of first work for RL in large-scale real-time systems); (3) Practical issues considered (computational efficiency).
-* Dynamic Bike Reposition, *KDD 2018 Bike Reposition*
+* Dynamic Bike Reposition, *[KDD-2018-Bike-Reposition]*
   * Taxonomy: Bike Reposition, Multi-agent, DQN, With simulator
   * Contribution: (1) New clustering algorithm; (2) Simulator; (3) A Spatial-Temporal RL model (new state, DQN); (4) Real-world data;
-* Efficient and Effective Express, *KDD 2019 JD*
+* Efficient and Effective Express, *[KDD-2019-JD]*
   * Taxonomy: Order Dispatch, Multi-agent ,With Simulator, (Cooperative) DQN
   * Contribution: (1) City partition; (2) New clustering algorithm; (3) New RL model (Contextual Cooperative RL); (4) Real-world data;
-* Spatio-Temporal Capsule-based RL for Mobility-on-Demand Network Coordination, *WWW 2019 Order Dispatch*
+* Spatio-Temporal Capsule-based RL for Mobility-on-Demand Network Coordination, *[WWW-2019-Order-Dispatch]*
   * Taxonomy: Order Dispatch, Single-agent, No Simulator (?), DQN
   * Contribution: (1) ST-RL formulation; (2) ST capsule NN;
-* Aggregating E-commerce Search Results from Heterogeneous Sources via Hierarchical RL, *WWW 2020 Search Aggregation*
+* Aggregating E-commerce Search Results from Heterogeneous Sources via Hierarchical RL, *[WWW-2020-Search-Aggregation]*
   * Taxonomy: Search Aggregation, Hierarchical RL
   * Contribution: (1) Hierarchical RL formulation; 
-* Learning Heuristics for Community Detection with GAN, *KDD 2020 Community Detection*
+* Learning Heuristics for Community Detection with GAN, *[KDD-2020-Community-Detection]*
   * Taxonomy: Community Detection
-* City Metro Network Expansion with Reinforcement Learning, *KDD 2020 Metro Expansion*
+* City Metro Network Expansion with Reinforcement Learning, *[KDD-2020-Metro-Expansion]*
   * Taxonomy: Metro Network Expansion, 
   * Contributions: (1) Incorporate social equity concernsl; (2) Formulate metro network expansion as a RL problem; (2) Real-world data;
-* Unsupervised Paraphrasing via Deep Reinforcement Learning, *KDD 2020 Paraphrasing*
+* Unsupervised Paraphrasing via Deep Reinforcement Learning, *[KDD-2020-Paraphrasing]*
   * Taxonomy: Paraphrasing
-* Incremental Mobile User Profiling, *KDD-2020-User-Profiling*
+* Incremental Mobile User Profiling, *[KDD-2020-User-Profiling]*
   * Taxonomy: User Profiling
   * Contributions: (1) New criteria for evaluating user profiling accuracy; (2) RL formulation; (3) RL+Knowledge Grahp; (4) Real-world data; (5) Generalization;
 

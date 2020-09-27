@@ -22,5 +22,5 @@ My little cat, pipi (not "pip")
 * Aug. 2020: **aBeacon** system introduced in [Alibaba Tech. officials accounts](https://mp.weixin.qq.com/s/7jVa-K-qUlYIrCg3YpPSEQ).
 * Aug. 2020: 2nd-author paper **Trans-Loc** accepted by MobiCom' 20.
 * Jun. 2020: 1st-author paper **aBeacon** accepted by NSDI' 21.
-* Sep. 2019: Our paper is accpeted by ACM IMWUT (UbiComp[ 2019]).
+* Sep. 2019: Our paper is accpeted by ACM IMWUT (UbiComp[2019]).
 

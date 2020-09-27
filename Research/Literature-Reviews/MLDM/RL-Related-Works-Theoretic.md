@@ -34,30 +34,22 @@ date: Sep. 25, 2020
   * Taxonomy: Game play, Single-agent, DQN
   * Contributions: DQN.
 * Common Knowledge Reinforcement Learning, *NeuraIPS 2019 Common Knowledge*
-
   * Contributions: A hierarchical policy tree for different groups of agents with condition common knowledge.
 * Constrained Reinforcement Learning Has Zero Duality Gap, *NeuraIPS 2019 Constrained*
-
   * Contributions: Theoretical support for solving constrained RL with primal-dual methods.
 * Generalized Algorithm for Multi-Objective RL, *NeurIPS-2019-Multi-Objective*
-
   * Contributions: A generalized version of the Bellman equation to learn a single parametric representation for optimal policies over the space of all possible preferences.
 * Hierarchical RL with Advantage-Based Auxiliary Rewards, *NeuraIPS 2019 Hierarchical*
-
   * Contributions: Auxiliary rewards for low-level skill training based on the advantage function of the high-level policy in HRL.
 * Interval timing in deep reinforcement learning agents
-* Contributions: Understanding how RL represents time.
+  * Contributions: Understanding how RL represents time.
 * Multi-View Reinforcement Learning, *NeuraIPS 2019 Multi-View*
-
   * Contributions: Agents share common dynamics but adhere to different observation models.
 * Regret Minimization for RL with Vectorial Feedback and Complex Objectives, *NeuraIPS 2019 Regret*
-
   * Contributions: Regret Minimization for RL with Vectorial Feedback (Reward)
 * RL with Convex Constraints: *NeuraIPS 2019 Convex Constraints*
-
   * Contributions: An algorithmic scheme that can handle a wide class of constraints in RL tasks.
 * Structured Prediction Approach for Generalization in Cooperative Multi-Agent RL, *NeuraIPS 2019 Structured*
-
   * Opportunity: Intrinsic notion of locality (e.g., geographic proximity) such that interactions between agents and tasks are locally limited in multi-agent RL.
   * Contributions: A novel structured prediction approach to assign agents to tasks.
   * Applications: Game play.
