@@ -9,9 +9,9 @@ date: Sep. 24, 2020
 
 **Taxonomy**
 
-* Applications: Game play / Traffic Light Control / Fleet mangement / Order Dispatch / Bike Reposition
+* **Applications**: Game play / Traffic Light Control / Fleet mangement / Order Dispatch / Bike Reposition / Community Detection / Metro Network Expansion / Paraphrasing / Search Aggregation / User Profiling
 * Single-agent / Multi-agent
-* Basic algorithms: MDP / DQN / Actor-Critic
+* Basic algorithms: MDP / DQN / Actor-Critic / Hierarchical RL
 * With Simulator / No Simulator
 
 **Comments**
@@ -39,6 +39,19 @@ date: Sep. 24, 2020
 * Spatio-Temporal Capsule-based RL for Mobility-on-Demand Network Coordination, *WWW 2019 Order Dispatch*
   * Taxonomy: Order Dispatch, Single-agent, No Simulator (?), DQN
   * Contribution: (1) ST-RL formulation; (2) ST capsule NN;
+* Aggregating E-commerce Search Results from Heterogeneous Sources via Hierarchical RL, *WWW 2020 Search Aggregation*
+  * Taxonomy: Search Aggregation, Hierarchical RL
+  * Contribution: (1) Hierarchical RL formulation; 
+* Learning Heuristics for Community Detection with GAN, *KDD 2020 Community Detection*
+  * Taxonomy: Community Detection
+* City Metro Network Expansion with Reinforcement Learning, *KDD 2020 Metro Expansion*
+  * Taxonomy: Metro Network Expansion, 
+  * Contributions: (1) Incorporate social equity concernsl; (2) Formulate metro network expansion as a RL problem; (2) Real-world data;
+* Unsupervised Paraphrasing via Deep Reinforcement Learning, *KDD 2020 Paraphrasing*
+  * Taxonomy: Paraphrasing
+* Incremental Mobile User Profiling, *KDD-2020-User-Profiling*
+  * Taxonomy: User Profiling
+  * Contributions: (1) New criteria for evaluating user profiling accuracy; (2) RL formulation; (3) RL+Knowledge Grahp; (4) Real-world data; (5) Generalization;
 
 ## Ref.
 
@@ -53,3 +66,13 @@ date: Sep. 24, 2020
 [KDD-2019-JD] Li, Yexin, Yu Zheng, and Qiang Yang. "**Efficient and Effective Express via Contextual Cooperative Reinforcement Learning**." In *Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 510-519. 2019.
 
 [WWW-2019-Order-Dispatch] He, Suining, and Kang G. Shin. "**Spatio-temporal capsule-based reinforcement learning for mobility-on-demand network coordination.**" In *The World Wide Web Conference*, pp. 2806-2813. 2019.
+
+[WWW-2020-Search-Aggregation] Takanobu, Ryuichi, Tao Zhuang, Minlie Huang, Jun Feng, Haihong Tang, and Bo Zheng. "**Aggregating e-commerce search results from heterogeneous sources via hierarchical reinforcement learning**." In *The World Wide Web Conference*, pp. 1771-1781. 2019.
+
+[KDD-2020-Community-Detection] Zhang, Yao, Yun Xiong, Yun Ye, Tengfei Liu, Weiqiang Wang, Yangyong Zhu, and Philip S. Yu. "**SEAL: Learning Heuristics for Community Detection with Generative Adversarial Networks.**" In *Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 1103-1113. 2020.
+
+[KDD-2020-Metro-Expansion] Wei, Yu, Minjia Mao, Xi Zhao, Jianhua Zou, and Ping An. "**City Metro Network Expansion with Reinforcement Learning**." In *Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 2646-2656. 2020.
+
+[KDD-2020-Paraphrasing] Siddique, A. B., Samet Oymak, and Vagelis Hristidis. "**Unsupervised Paraphrasing via Deep Reinforcement Learning.**" In *Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 1800-1809. 2020.
+
+[KDD-2020-User-Profiling] Wang, Pengyang, Kunpeng Liu, Lu Jiang, Xiaolin Li, and Yanjie Fu. "**Incremental Mobile User Profiling: Reinforcement Learning with Spatial Knowledge Graph for Modeling Event Streams**." In *Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 853-861. 2020.
