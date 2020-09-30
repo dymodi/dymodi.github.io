@@ -39,7 +39,7 @@ date: Sep. 24, 2020
 * Spatio-Temporal Capsule-based RL for Mobility-on-Demand Network Coordination, *[WWW-2019-Order-Dispatch]*
   * Taxonomy: Order Dispatch, Single-agent, No Simulator (?), DQN
   * Contribution: (1) ST-RL formulation; (2) ST capsule NN;
-* Aggregating E-commerce Search Results from Heterogeneous Sources via Hierarchical RL, *[WWW-2020-Search-Aggregation]*
+* Aggregating E-commerce Search Results from Heterogeneous Sources via Hierarchical RL, *[WWW-2019-Search-Aggregation]*
   * Taxonomy: Search Aggregation, Hierarchical RL
   * Contribution: (1) Hierarchical RL formulation; 
 * Learning Heuristics for Community Detection with GAN, *[KDD-2020-Community-Detection]*
@@ -67,7 +67,7 @@ date: Sep. 24, 2020
 
 [WWW-2019-Order-Dispatch] He, Suining, and Kang G. Shin. "**Spatio-temporal capsule-based reinforcement learning for mobility-on-demand network coordination.**" In *The World Wide Web Conference*, pp. 2806-2813. 2019.
 
-[WWW-2020-Search-Aggregation] Takanobu, Ryuichi, Tao Zhuang, Minlie Huang, Jun Feng, Haihong Tang, and Bo Zheng. "**Aggregating e-commerce search results from heterogeneous sources via hierarchical reinforcement learning**." In *The World Wide Web Conference*, pp. 1771-1781. 2019.
+[WWW-2019-Search-Aggregation] Takanobu, Ryuichi, Tao Zhuang, Minlie Huang, Jun Feng, Haihong Tang, and Bo Zheng. "**Aggregating e-commerce search results from heterogeneous sources via hierarchical reinforcement learning**." In *The World Wide Web Conference*, pp. 1771-1781. 2019.
 
 [KDD-2020-Community-Detection] Zhang, Yao, Yun Xiong, Yun Ye, Tengfei Liu, Weiqiang Wang, Yangyong Zhu, and Philip S. Yu. "**SEAL: Learning Heuristics for Community Detection with Generative Adversarial Networks.**" In *Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 1103-1113. 2020.
 
