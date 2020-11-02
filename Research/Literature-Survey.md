@@ -8,6 +8,8 @@ date: July 3, 2018
 ## Literature Surveys
 
 ### Localization
+[Related Works of SLAM](Literature-Reviews/Localization/SLAM-Related-Works)
+
 [Related Works of Indoor Localization](Literature-Reviews/Localization/Indoor-Localization-Related-Works)
 
 [Related Works of Infrastructure Less Indoor Localization](Literature-Reviews/Localization/Infrastructure-Less-Indoor-Localization-Related-Works)
