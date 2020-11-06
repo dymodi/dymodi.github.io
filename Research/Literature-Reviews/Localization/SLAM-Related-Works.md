@@ -37,7 +37,7 @@ date: Oct. 30, 2020
   * Important conclusions:
     * Shows that a converged solution of SLAM is possible.
     * Given the exact location of any one landmark, the location of any other landmark in the map can also be determined with absolute certainty.
-* * FastSLAM, *[AAAI-2002-FastSLAM],* *Highly-cited.* 
+* FastSLAM, *[AAAI-2002-FastSLAM],* *Highly-cited.* 
   * Taxonomy: Particle filter;
   * Acceleterate SLAM with a new algorithm.
 * Simultaneous Localization and Mapping: Part I, *[IEEE-2006-Tutorial-1]*, *Highly-cited.* 
