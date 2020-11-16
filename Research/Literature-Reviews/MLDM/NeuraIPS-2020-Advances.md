@@ -10,10 +10,9 @@ Personal summary and notes based on a glance through all [2020 NeuraIPS papers](
 **New Key Words**
 
 * Coresets [Coresets-1, 2, 3 ];
-  
   * Coreset is a small data-set that can represent the characteristics of the orginal large data-set.
-* Agnostic Learning [Agnostic-1,2]
-  
+
+* Agnostic Learning [Agnostic-1,2]  
   * The core idea seems to be that the learning objective is hard to grasp. For example, label distribution unknown in test set.
 
 **Related Applications (Transportation/Mobility/Sensor/IoT/Cyber-Physical-System/On-Device-Learning)**
@@ -52,7 +51,6 @@ Personal summary and notes based on a glance through all [2020 NeuraIPS papers](
   * Dynamic BERT with Adaptive Width and Depth [BERT-1]
 
 **Key Works** (occurrences calculated from [text analyzer](https://www.online-utility.org/text/analyzer.jsp) of paper titles)
-
 * Neural Network(s) (143)
 * Reinforcement Learning (94)
 * Deep Learning (33)
