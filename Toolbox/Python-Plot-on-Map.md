@@ -5,11 +5,20 @@ date: Nov. 6, 2020
 author: Yi DING
 ---
 
-
-
 [HTML Color Codes](https://htmlcolorcodes.com/)
 
 ## Plotly
+
+### [Quick start with Express](https://plotly.com/python/scattermapbox/)
+
+``` python
+import plotly.express as px
+px.set_mapbox_access_token(open(".mapbox_token").read())
+df = px.data.carshare()
+fig = px.scatter_mapbox(df, lat="centroid_lat", lon="centroid_lon",  color="peak_hour", size="car_hours",
+                  color_continuous_scale=px.colors.cyclical.IceFire, size_max=15, zoom=10)
+fig.show()
+```
 
 ### GeoJson Data Prepare
 
@@ -22,8 +31,6 @@ for lat_lon in huangpu_list:
     huangpu_lon.append(lat_lon[0])
     huangpu_lat.append(lat_lon[1])
 ```
-
-
 
 ### [Scatter plot](https://plotly.com/python/scattermapbox/) + Mapbox
 

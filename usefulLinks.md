@@ -15,6 +15,8 @@ author: Yi DING
 
 ## Books
 
+[Mining of Massive Datasets - Jure Leskovec](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
+
 [Introduction to Machine Learning Second Edition - Ethem Alpaydın](http://cs.du.edu/~mitchell/mario_books/Introduction_to_Machine_Learning_-_2e_-_Ethem_Alpaydin.pdf)
 
 [Introduction to Data Mining (Second Edition) - Pang-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php)
