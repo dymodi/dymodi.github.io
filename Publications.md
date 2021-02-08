@@ -24,5 +24,5 @@ In ACM *MobiCom'20*. 63/384=16%, [[PDF](Research/Publications/files/transloc.pdf
 
 [<span style="color:red">UbiComp/IMWUT'19</span>]Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He and Desheng Zhang. 
 *Route Prediction for Instant Delivery* 
-In *ACM UbiComp 2019*.
+In *ACM UbiComp 2019*, [[PDF]](https://static.aminer.cn/upload/pdf/804/626/236/5d77773b47c8f76646d17f1f_0.pdf)
 

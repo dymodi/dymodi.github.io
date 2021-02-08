@@ -13,6 +13,7 @@ author: Yi DING
 | ----------- | ----------------------- | ---------------------------- | --------------------- |
 | January     | IEEE ICDCS              | -                            | B (OS, Architecture)  |
 | January     | USENIX ATC              | OS                           | A (OS, Architecture)  |
+| January 15  | ACM CSCW                | -                            | A (HCI, Ubi. Comp.)   |
 | January     | IEEE SECON              | -                            | B (Computer networks) |
 | January     | ACM SIGCOMM             | Computer networks            | A (Computer networks) |
 | February    | ACM SIGMETRICS (Winter) | Measurement & perf. analysis | B (OS, Architecture)  |
@@ -20,7 +21,7 @@ author: Yi DING
 | March       | ACM MobiCom, Winter DDL | Mobile computing             | A (Computer networks) |
 | April       | USENIX NSDI, Spring DDL | Computer networks            | A (Computer networks) |
 | April       | ACM SenSys              | Mobile computing             | B (Computer networks) |
-| April       | ACM CSCW                | -                            | A (HCI, Ubi. Comp.)   |
+| April 15    | ACM CSCW                | -                            | A (HCI, Ubi. Comp.)   |
 | May         | ACM UIST                | HCI                          | B (HCI, Ubi. Comp.)   |
 | May 15      | ACM IMWUT               | HCI                          | A (HCI, Ubi. Comp.)   |
 | May         | IEEE RTSS               | Embedded & real-time systems | A (Interdisciplinary) |
@@ -30,6 +31,7 @@ author: Yi DING
 | June        | ACM SIGSPATIAL          | -                            | -                     |
 | June        | CoNEXT                  | -                            | B (Computer networks) |
 | July        | IEEE INFOCOM            | -                            | A (Computer networks) |
+| July 15     | ACM CSCW                | -                            | A (HCI, Ubi. Comp.)   |
 | August      | ACM SIGMETRICS (Summer) | Measurement & perf. analysis | B (OS, Architecture)  |
 | August 15   | ACM IMWUT               | HCI                          | A (HCI, Ubi. Comp.)   |
 | August      | ACM MobiCom, Summer DDL | Mobile computing             | A (Computer networks) |
@@ -37,6 +39,7 @@ author: Yi DING
 | September   | IEEE PERCOM             | -                            | B (HCI, Ubi. Comp.)   |
 | September   | ACM CHI                 | HCI                          | A (HCI, Ubi. Comp.)   |
 | October     | ACM IPSN                | -                            | B (Computer networks) |
+| October 15  | ACM CSCW                | -                            | A (HCI, Ubi. Comp.)   |
 | October     | ACM SIGMETRICS (Fall)   | Measurement & perf. analysis | B (OS, Architecture)  |
 | November 15 | ACM IMWUT               | HCI                          | A (HCI, Ubi. Comp.)   |
 | December    | ACM MobiSys             | Mobile computing             | B (Computer networks) |
