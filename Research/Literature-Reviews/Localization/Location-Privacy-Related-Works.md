@@ -21,23 +21,18 @@ Location Privacy is quantified in [IEEESSP11].
 **Detailed Reviews**
 
 * MobiCom10: Privacy Vulnerability of Published Anonymous Mobility Traces
-  
   * Summary: Even anonymous published mobility trace data has privacy vulnerabilities due to spatial-temporal correlations.
   
 * Ubicomp10: Exploring End User Preferences for Location Obfuscation
-  
   * Summary: Visualization and questionnaire survey on 32 GPS data, showing that privacy protection awarenesses is lacking among people
   
 * MobiCom11: Anonymization of Location Data Does Not Work
-  
   * Summary: As title indicates.
   
 * IEEESSP11: Quantifying Location Privacy
-  
   * Summary: Many LPPMs are proposed, but unified metric is missing to measure location privacy and performance of LPPMs. Metric is proposed in this paper.
   
 * SciRep13: The privacy bounds of human mobility
-  
   * Summary: Uniqueness in human mobility is bounded, it's easy to infer user trace.
   
 * MobiSys14-EnCore: Private, Context-based Communication for Mobile Social Apps
@@ -85,3 +80,4 @@ Location Privacy is quantified in [IEEESSP11].
 
 [WWW17] Fengli Xu, Zhen Tu, Yong Li, Pengyu Zhang, Xiaoming Fu, and Depeng Jin. 2017. **Trajectory Recovery From Ash: User Privacy Is NOT Preserved in Aggregated Mobility Data**. *WWW*, 1241–1250. 
 
+/
