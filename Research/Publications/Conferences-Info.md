@@ -60,6 +60,7 @@ author: Yi DING
 | June                           | IEEE ICDE, 1st round  | Databases                       | A (Databases, Data mining)  |
 | June                           | IEEE ICDM             | -                               | B (Databases, Data mining)  |
 | July                           | ACM SIGMOD, 1st cycle | Databases                       | A (Databases, Data mining)  |
+| August                         | ACM WSDM              | -                               | B (Databases, Data mining)  |
 | September                      | AAAI                  | Artificial intelligence         | A (Artificial intelligence) |
 | October                        | WWW                   | The Web & information retrieval | A (Interdisciplinary)       |
 | October                        | IEEE ICDE, 2nd round  | Databases                       | A (Databases, Data mining)  |

@@ -24,6 +24,8 @@ date: July 3, 2018
 
 #### Special Topics
 
+[Related Works of Encounter-based Localization](Literature-Reviews/Localization/Related-Works-of-Encounter-based-Localization)
+
 [Related Works of Beacon POI Correction](Literature-Reviews/Localization/Beacon-POI-Correction-Related-Works)
 
 [Related Works of Location Privacy](Literature-Reviews/Localization/Location-Privacy-Related-Works)
