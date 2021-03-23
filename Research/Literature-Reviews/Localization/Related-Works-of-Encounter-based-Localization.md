@@ -1,7 +1,7 @@
 ---
 author: Yi DING
 layout: post
-title: Related Works of Encounter-based Localization
+title: Related Works of Cooperative / Encounter-based Localization
 date: Mar. 1, 2021
 
 ---
