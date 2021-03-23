@@ -44,8 +44,7 @@ date: Mar. 23, 2021
   * Methods: use raw GPS to track the relative motions of neighboring nodes.
 
 * Accurate Real-Time Relative Localization Using Single-Frequency GPS, *[SenSys 2014]*
-  
-* Same paper as MobiSys 13, High-Accuracy Differential Tracking of Low-Cost GPS Receivers.
+  * Same paper as MobiSys 13, High-Accuracy Differential Tracking of Low-Cost GPS Receivers.
   
 * On Using the Relative Configuration to Explore Cooperative Localization, *[IEEE TSP 2014]*
   * **Taxonomy:** Theoretical
