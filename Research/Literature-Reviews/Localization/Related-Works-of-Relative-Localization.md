@@ -14,7 +14,6 @@ date: Mar. 23, 2021
 * **Centralized** (a server aggregate information and calculate locations for targets) / **Distributed** (target calculate locations on their own)
 * Range-based / Range-free
 * Ranging Methods: Acoustic, Wi-Fi, BLE, ZigBee, Light
-* 
 
 **Comments**
 
@@ -23,49 +22,39 @@ date: Mar. 23, 2021
 **Papers**
 
 * Robust Distributed Network Localization with Noisy Range Measurements, *[SenSys 2004]*
-
   * **Taxonomy:** Distributed, Acoustic
   * **Contributions:** The main contribution is to estimate relative locations in presence of ranging noises. 
   * Methods: Graph realization.
 
 * Improved MDS-Based Localization, *[INFOCOM 2004]*
-
   * **Taxonomy:** Theoretical (based on simulation).
   * Methods: MDS
 
 * SHARP: A New Approach to Relative Localization in Wireless Sensor Networks, *[ICDCS 2005]*
-
   * **Taxonomy:** Theoretical (based on simulation).
   * **Contributions**: Technically, use relative localization to find some anchor nodes, and use absolute localization to localize other nodes.
 
 * MARVEL : Multiple Antenna based Relative Vehicle Localizer Categories and Subject Descriptors, *[MobiCom 2012]*
-
   * **Taxonomy:** Technical, Wi-Fi or BLE or ZigBee
   * **Contributions**: Solve a specific problem (vehicle relative localization) with emerging technology (sensor and communication on smartphones)
 
 * High-Accuracy Differential Tracking of Low-Cost GPS Receivers, *[MobiSys 2013]*
-
   * **Taxonomy:** Centralized, Technical, **Range-free** (only relies on GPS),
   * **Contributions:** Technically, (1) Use GPS data for relative localization; (2) Modeling GPS errors;
   * Methods: use raw GPS to track the relative motions of neighboring nodes.
 
 * Accurate Real-Time Relative Localization Using Single-Frequency GPS, *[SenSys 2014]*
-
-  * Same paper as MobiSys 13, High-Accuracy Differential Tracking of Low-Cost GPS Receivers.
-
+  
+* Same paper as MobiSys 13, High-Accuracy Differential Tracking of Low-Cost GPS Receivers.
+  
 * On Using the Relative Configuration to Explore Cooperative Localization, *[IEEE TSP 2014]*
-
   * **Taxonomy:** Theoretical
   * **Contributions:** using a new coordinate: Procrustes coordinates
 
 * Relative Localization of RFID Tags using Spatial-Temporal Phase Profiling, *[NSDI 2015]*
-
   * **Taxonomy:** Technical, Range-free, Centralized,
-
   * Comments: First work on RFID relative localization.
-
   * **Contributions:** 
-
     * **Problem:** Solve real-world problem (RFID tag relative localzation) without additional hardware
     * **Intellectual:** Use phase information for relative localization;
     * **Application:** Impressive applications: misplaced books and baggage order.
