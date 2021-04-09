@@ -36,7 +36,7 @@ In *ACM UbiComp 2019*, [[PDF]](https://static.aminer.cn/upload/pdf/804/626/236/5
 
 ### 2019
 
-[Published] [Indoor Arrival Detection based on BLE Beacons in On-Demand Delivery](http://www.soopat.com/Patent/201811468343)
+[Published] *Indoor Arrival Detection based on BLE Beacons in On-Demand Delivery* [link](http://www.soopat.com/Patent/201811468343)
 
 [Published] [3D Indoor Loclization based on BLE Beacons ](http://www.soopat.com/Patent/201811474624)
 
