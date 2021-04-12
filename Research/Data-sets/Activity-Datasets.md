@@ -1,6 +1,12 @@
+---
+layout: post
+title: Transportation Datasets
+date: June. 6, 2018
+author: Yi DING
 
+---
 
-这里我总结一些可能跟 Activity/Mobility相关的data-set.
+Here I summarize some activity/mobility system data I used or may use in future.
 
 [**Sussex-Huawei Locomotion Dataset**](http://www.shl-dataset.org/)
 
