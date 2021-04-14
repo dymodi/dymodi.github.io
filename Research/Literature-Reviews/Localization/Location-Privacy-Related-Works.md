@@ -8,8 +8,6 @@ date: Feb. 15, 2018
 
 A common conclusion is that user trace can be recovered from very little trace leakage, published mobility data has privacy vulnerabilities even with anonymization [MobiCom10, MobiCom11, SciRep13, WWW17].
 
-
-
 Many Location-Privacy Protection Mechanisms (**LPPM**s) have been proposed on this topic [MobiSys14, KDD14, INFOCOM14, SIGSPATIAL15-PLACE].
 
 Location Privacy is quantified in [IEEESSP11].
@@ -54,9 +52,6 @@ Location Privacy is quantified in [IEEESSP11].
 * WWW17: User Privacy Is NOT Preserved in Aggregated Mobility Data
   * Summary: Same scope as [MobiCom10], [MobiCom1] and [SciRep13].
 
-  
-
-
 
 ## Ref
 
@@ -79,5 +74,3 @@ Location Privacy is quantified in [IEEESSP11].
 [SIGSPATIAL15-PLACE] Cyrus Shahabi, Liyue Fan, Luciano Nocera, Li Xiong, and Ming Li. 2015. **Privacy-preserving inference of social relationships from location data**. In *ACM SIGSPATIAL*, 1–4. 
 
 [WWW17] Fengli Xu, Zhen Tu, Yong Li, Pengyu Zhang, Xiaoming Fu, and Depeng Jin. 2017. **Trajectory Recovery From Ash: User Privacy Is NOT Preserved in Aggregated Mobility Data**. *WWW*, 1241–1250. 
-
-/
