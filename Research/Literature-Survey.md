@@ -8,21 +8,33 @@ date: July 3, 2018
 ## Literature Surveys
 
 ### Localization
-[Related Works of Indoor Navigation](Literature-Reviews/Localization/Indoor-Navigation-Related-Works)
-
-[Related Works of SLAM](Literature-Reviews/Localization/SLAM-Related-Works)
+#### Different Targets
 
 [Related Works of Indoor Localization](Literature-Reviews/Localization/Indoor-Localization-Related-Works)
 
+[Related Works of Indoor Navigation](Literature-Reviews/Localization/Indoor-Navigation-Related-Works)
+
+#### Different Methods
+
+[Related Works of SLAM](Literature-Reviews/Localization/SLAM-Related-Works)
+
 [Related Works of Infrastructure Less Indoor Localization](Literature-Reviews/Localization/Infrastructure-Less-Indoor-Localization-Related-Works)
 
+[Related Works of Cooperative / Encounter-based Localization](Literature-Reviews/Localization/Related-Works-of-Encounter-based-Localization)
+
+[Related Works of Relative Localization](Literature-Reviews/Localization/Related-Works-of-Relative-Localization)
+
 [Related Works of Landmark Detection](Literature-Reviews/Localization/Landmark-Detection-Related-Works)
+
+#### Special Topics
 
 [Related Works of Beacon POI Correction](Literature-Reviews/Localization/Beacon-POI-Correction-Related-Works)
 
 [Related Works of Location Privacy](Literature-Reviews/Localization/Location-Privacy-Related-Works)
 
 ### Sensing
+
+#### Different Targets
 
 [Related Works of Indoor Outdoor Detection](Literature-Reviews/Sensing/Indoor-Outdoor-Detection-Related-Works)
 
@@ -32,13 +44,19 @@ date: July 3, 2018
 
 [Related Works of Context-Aware Computing](Literature-Reviews/Sensing/Context-Aware-Computing-Related-Works)
 
+#### Different Data
+
+[Related Works of RSSI-based Sensing](Literature-Reviews/Sensing/RSSI-Based-Sensing-Related-Works)
+
+#### Special Topics
+
 [Related Works of Energy Efficient Sensing](Literature-Reviews/Sensing/Energy-Efficient-Sensing-Related-Works)
 
 [Related Works of Heterogeneous Sensing](Literature-Reviews/Sensing/Heterogeneous-Sensing-Related-Works)
 
 [Related Works of Calibration](Literature-Reviews/Sensing/Calibration-Related-Works)
 
-[Related Works of RSSI-based Sensing](Literature-Reviews/Sensing/RSSI-Based-Sensing-Related-Works)
+[Related Works of Privacy in Sensing](Literature-Reviews/Sensing/Related-Works-of-Privacy-in-Sensing)
 
 ### Transportation & Delivery
 

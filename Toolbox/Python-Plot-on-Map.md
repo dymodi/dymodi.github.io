@@ -48,21 +48,29 @@ fig = go.Figure(go.Scattermapbox())
 
 ## Plot trace / scatter
 fig = go.Figure(go.Scattermapbox(
-    mode = "lines",
+    mode = "lines",  # or "markers"
     fill = "toself",
-    lon = huangpu_lon, lat = huangpu_lat,
+    lon = huangpu_lon_ls, 
+    lat = huangpu_lat_ls,
+   	text = text_ls,
     marker = { 'size': 10, 'color': color_huangpu }))
 
 ## Add trace / scatter
 fig.add_trace(go.Scattermapbox(
-    mode = "lines",
+    mode = "lines", # or "markers"
     fill = "toself",
-    lon = xuhui_lon, lat = xuhui_lat,
+    lon = xuhui_lon_ls, 
+    lat = xuhui_lat_ls,
+  	text = text_ls,
     marker = { 'size': 10, 'color': color_xuhui }))
 
 ## Customize layout
-fig.update_layout(mapbox_style="light", mapbox_accesstoken=mapbox_access_token,showlegend=False, 
-                  mapbox=dict(zoom=10, center=dict(lat=31.23,lon=121.47), style='light'))
+fig.update_layout(mapbox_style="open-street-map", mapbox_zoom=10,
+                          mapbox_center_lat = 31.22,
+                          mapbox_center_lon = 121.44,
+                          margin={"r":0,"t":0,"l":0,"b":0},)
+
+fig.update_layout(mapbox_style="light", mapbox_accesstoken=mapbox_access_token,showlegend=False,)
 
 # Save figure
 figure_name = "shanghai_map.html"

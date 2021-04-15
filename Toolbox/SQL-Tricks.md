@@ -27,6 +27,14 @@ SELECT some_col FROM another_table;
 INSERT overwrite TABLE some_table partition(dt='${day}')
 ```
 
+### Tables UNION
+
+```sql
+SELECT *
+FROM ( SELECT A FROM table_1 )
+UNION( SELECT A FROM table_2)
+```
+
 ### Make Histogram
 
 ```sql

@@ -24,5 +24,25 @@ In ACM *MobiCom'20*. 63/384=16%, [[PDF](Research/Publications/files/transloc.pdf
 
 [<span style="color:red">UbiComp/IMWUT'19</span>]Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He and Desheng Zhang. 
 *Route Prediction for Instant Delivery* 
-In *ACM UbiComp 2019*.
+In *ACM UbiComp 2019*, [[PDF]](https://static.aminer.cn/upload/pdf/804/626/236/5d77773b47c8f76646d17f1f_0.pdf)
+
+
+
+## Patents
+
+### 2020
+
+[Licensed] *Smartphone-based Beacon System for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201910642269)]
+
+### 2019
+
+[Published] *Indoor Arrival Detection based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811468343)]
+
+[Published] *3D Indoor Loclization based on BLE Beacons* [[Link](http://www.soopat.com/Patent/201811474624)]
+
+[Published] *Robots' Indoor Localization based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811498024)]
+
+[Published] *Indoor Localization based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811513249)]
+
+[Published] *Merchants' States Model for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811475912)]
 

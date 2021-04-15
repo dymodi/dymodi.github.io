@@ -24,6 +24,6 @@ date: Sep. 2, 2017
 
 [Transportation Data-sets](Research/Data-sets/Transportation-Datasets)
 
-[Activity/Mobility Data-sets](Research/Data-sets/Data-set-Preparation)
+[Activity/Mobility Data-sets](Research/Data-sets/Activity-Datasets)
 
 ## [Useful Links](usefulLinks)
