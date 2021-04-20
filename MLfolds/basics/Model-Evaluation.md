@@ -35,7 +35,7 @@ $$\text{Recall} = \frac{TP}{TP+FN}$$
 
 $$\text{Precision} = \frac{TP}{TP+FP}$$
 
-**Frue Positive Rate (FPR)** In all negetives,how many is classified as positive wrongly: 
+**False Positive Rate (FPR)** In all negetives,how many is classified as positive wrongly: 
 
 $$\text{FPR} = \frac{FP}{FP+TN}$$
 
