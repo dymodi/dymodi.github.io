@@ -28,4 +28,4 @@ machine learning.  You can contact me at dymodi AT gmail.
 <img src="pipi.jpg"  alt="pipi" height="120">
 <img src="turnip.png"  alt="turnip" height="120">
 </p>
-My little cat, pipi (not "pip"), and turnip.
+My cats, pipi (not "pip"), and turnip.
