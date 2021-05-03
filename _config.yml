@@ -13,6 +13,7 @@ minima:
 header_pages:
  - Research.md
  - Publications.md
+ - Data.md
  - Industry.md
 
 
