@@ -7,21 +7,12 @@ layout: default
 </head>
 # Yi Ding, Ph.D.
 
-I am currently a CS Ph.D. student at the University of Minnesota. I have also been working in Alibaba Group, Local Service BU from 2018 with my professor [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Yunhuai Liu](http://www.yunhuai.net/Yunhuai.htm) in research.
-![image alt >](yi.jpg)
+I am currently a CS Ph.D. student at the University of Minnesota. <img style="float: right;" src="yi.jpg"  height="150">I have also been working in Alibaba Group, Local Service BU from 2018 with my professor [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Yunhuai Liu](http://www.yunhuai.net/Yunhuai.htm) in research.
 
+My research interests are broadly in data mining, mobile computing, instant delivery, and 
+machine learning.  You can contact me at dymodi AT gmail.
 
-My research interests are broadly in data mining, mobile computing, instant delivery, and machine learning.  You can contact me at dymodi AT gmail.
-
-[Google Scholar](https://scholar.google.com/citations?user=umiRGkUAAAAJ)
-
-<p align="left">
-<img src="pipi.jpg"  alt="pipi" height="120">
-<img src="turnip.png"  alt="turnip" height="120">
-</p>
-
-
-My little cat, pipi (not "pip"), and turnip.
+[Google Scholar](https://scholar.google.com/citations?user=umiRGkUAAAAJ), [LinkedIn](https://www.linkedin.com/in/yi-ding-b3360459/)
 
 **Recent News**
 
@@ -32,3 +23,9 @@ My little cat, pipi (not "pip"), and turnip.
 * Jun. 2020: 1st-author paper **aBeacon** accepted by NSDI' 21.
 * Sep. 2019: Our paper is accpeted by ACM IMWUT (UbiComp[2019]).
 
+
+<p align="left">
+<img src="pipi.jpg"  alt="pipi" height="120">
+<img src="turnip.png"  alt="turnip" height="120">
+</p>
+My little cat, pipi (not "pip"), and turnip.
