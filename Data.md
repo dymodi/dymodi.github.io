@@ -28,9 +28,11 @@ Large scale mobile sensing network is at the intersection of multiple research c
   * Order scheduling system efficiency (with courier location trace data);
 
 **References:**
+
 (1) Ding Yi, Ling Liu, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang.
 From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild.
 In USENIX NSDI 2021.
+
 (2) Yu Yang, Ding Yi, D.Yuan, Guang Wang, Xiaoyang Xie, Yunhuai Liu, Tian He and Desheng Zhang.
 TransLoc: Transparent Indoor Localization with Uncertain Human Participation.
 In ACM MobiCom'20.
