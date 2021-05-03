@@ -15,10 +15,11 @@ My research interests are broadly in data mining, mobile computing, instant deli
 <img src="pipi.jpg"  alt="pipi" height="120">
 </p>
 
-My little cat, pipi (not "pip")
+My little cat, pipi (not "pip").
 
 **Recent News**
 
+* Apr. 2021: 1st-author paper **VALID** accepted by SIGCOMM' 21.
 * Apr. 2021: **aBeacon** paper presented at [NSDI' 21](https://www.usenix.org/conference/nsdi21/presentation/ding).
 * Aug. 2020: **aBeacon** system introduced in [Alibaba Tech. officials accounts](https://mp.weixin.qq.com/s/7jVa-K-qUlYIrCg3YpPSEQ).
 * Aug. 2020: 2nd-author paper **Trans-Loc** accepted by MobiCom' 20.
