@@ -13,9 +13,11 @@ My research interests are broadly in data mining, mobile computing, instant deli
 
 <p align="left">
 <img src="pipi.jpg"  alt="pipi" height="120">
+<img src="turnip.png"  alt="turnip" height="120">
 </p>
 
-My little cat, pipi (not "pip").
+
+My little cat, pipi (not "pip"), and turnip.
 
 **Recent News**
 
