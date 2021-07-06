@@ -11,7 +11,7 @@ date: Apr. 14, 2021
 
 **Description**
 
-{% include youtubePlayer.html id=page.YkL1rTvxoF4 %}
+{% include youtubePlayer.html id=page.youtubeId %}
 
 Large scale mobile sensing network is at the intersection of multiple research communities, including mobile computing, networked systems design and implementation, and spatial-temporal data mining. However, the progress of studies on large-scale mobile sensing networks does not meet industrial expectations. One of the main reasons is that there is no well-organized dataset that provides large amounts of sensing and mobility data from multiple channels to support related studies. Motivated by the observation, we release aBeacon: Alibaba Beacon System of Couriers’ Arrival Detection: a large-scale repository composed of BLE sensing, location trace, and manual report data, including 31,131 couriers at 2,466 merchant locations in one month. More details on the aBeacon system can be found in our NSDI’21 paper "*From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild*”.
 
