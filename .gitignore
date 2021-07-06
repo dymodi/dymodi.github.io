@@ -8,7 +8,6 @@
 # File types
 *.DS_Store
 *.xlsx
-*.html
 *.pyc
 *.npy
 *.csv
