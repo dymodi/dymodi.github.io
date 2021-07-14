@@ -36,20 +36,20 @@ In *ACM UbiComp 2019*, [[PDF]](https://static.aminer.cn/upload/pdf/804/626/236/5
 
 ### 2021
 
-[Licensed] *Encouter-based Order Swap and Dispatching for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/202011600516)]
+*Encouter-based Order Swap and Dispatching for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/202011600516)]
 
 ### 2020
 
-[Licensed] *Smartphone-based Beacon System for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201910642269)]
+*Smartphone-based Beacon System for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201910642269)]
 
 ### 2019
 
-[Published] *Indoor Arrival Detection based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811468343)]
+*Indoor Arrival Detection based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811468343)]
 
-[Published] *3D Indoor Loclization based on BLE Beacons* [[Link](http://www.soopat.com/Patent/201811474624)]
+*3D Indoor Loclization based on BLE Beacons* [[Link](http://www.soopat.com/Patent/201811474624)]
 
-[Published] *Robots' Indoor Localization based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811498024)]
+*Robots' Indoor Localization based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811498024)]
 
-[Published] *Indoor Localization based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811513249)]
+*Indoor Localization based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811513249)]
 
-[Published] *Merchants' States Model for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811475912)]
+*Merchants' States Model for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811475912)]
