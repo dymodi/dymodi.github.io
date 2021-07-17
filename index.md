@@ -9,8 +9,8 @@ layout: default
 
 I am currently a CS Ph.D. student at the University of Minnesota. <img style="float: right; margin: 6px 15px 5px 10px;" src="yi.jpg"  height="150">I have also been working in Alibaba Group, Local Service BU from 2018 with my professor [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Yunhuai Liu](http://www.yunhuai.net/Yunhuai.htm) in research.
 
-My research interests are broadly in data mining, mobile computing, instant delivery, and 
-machine learning.  You can contact me at dymodi AT gmail.
+My research interests are broadly in data mining, mobile computing, on-demand delivery, and 
+machine learning.  You can contact me at dingx447 AT umn DOT edu.
 
 [Google Scholar](https://scholar.google.com/citations?user=umiRGkUAAAAJ), [LinkedIn](https://www.linkedin.com/in/yi-ding-b3360459/)
 
