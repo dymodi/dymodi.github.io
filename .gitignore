@@ -5,6 +5,10 @@
 /Research/Beacon/.pdf
 /Course/.pdf
 
+# Self-use Figures
+Research/Intuitive-Figures/*.jpeg
+Research/Intuitive-Figures/*.png
+
 # File types
 *.DS_Store
 *.xlsx
