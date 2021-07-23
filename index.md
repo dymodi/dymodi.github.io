@@ -16,9 +16,10 @@ machine learning.  You can contact me at dingx447 AT umn DOT edu.
 
 **Recent News**
 
+* Jul. 2021: 2nd-author paper **ALWAES** accepted by ACM IMWUT (UbiComp'21).
 * Jul. 2021: 1st-author paper accepted by IEEE ToN.
 * Jul. 2021: [Data-set](https://tianchi.aliyun.com/dataset/dataDetail?dataId=106807) released of on-demand delivery order distrbution in Shenzhen.
-* Jul. 2021: 1st-author paper accepted by ACM IMWUT (UbiComp'21).
+* Jul. 2021: 1st-author paper **RL-Dispatch** accepted by ACM IMWUT (UbiComp'21).
 * Apr. 2021: 1st-author paper **VALID** accepted by SIGCOMM' 21.
 * Apr. 2021: **aBeacon** paper presented at [NSDI' 21](https://www.usenix.org/conference/nsdi21/presentation/ding).
 * Sep. 2020: [Data-set](https://tianchi.aliyun.com/dataset/dataDetail?dataId=76359) released of Bluetooh beacons, couriers' reports and trajectories.
