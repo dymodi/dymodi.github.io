@@ -11,7 +11,9 @@ date: Sep. 2, 2020
 ### 2021
 
 <span style="color:red">[IMWUT/UbiComp'21]</span> *ALWAES : an Automatic Outdoor Location-Aware Correction System for Online Delivery Platforms*
+
 Dongzhe Jiang, **Yi Ding**, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zhang
+
 [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=107267)
 
 <span style="color:red">[IMWUT/UbiComp'21]</span> *A City-Wide Crowdsourcing Delivery System with Reinforcement Learning* 
@@ -38,7 +40,10 @@ Yu Yang,  **Yi Ding**, Dengpan.Yuan, Guang Wang, Xiaoyang Xie, Yunhuai. Liu, Tia
 Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He and Desheng Zhang
 [[PDF](https://static.aminer.cn/upload/pdf/804/626/236/5d77773b47c8f76646d17f1f_0.pdf)]
 
-
+## Selected Journal Papers
+<span style="color:red">[ToN]</span> *From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild*
+**Yi Ding**, Ling Liu, Yu Yang, Yunhuai Liu, Desheng Zhang, Tian He
+IEEE/ACM Transactions on Networking, 2021
 
 ## Patents
 
