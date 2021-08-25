@@ -10,10 +10,8 @@ date: Sep. 2, 2020
 
 ### 2021
 
-<span style="color:red">[IMWUT/UbiComp'21]</span> *ALWAES : an Automatic Outdoor Location-Aware Correction System for Online Delivery Platforms*
-
+<span style="color:grey">[IMWUT/UbiComp'21]</span> *ALWAES : an Automatic Outdoor Location-Aware Correction System for Online Delivery Platforms*
 Dongzhe Jiang, **Yi Ding**, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zhang
-
 [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=107267)
 
 <span style="color:red">[IMWUT/UbiComp'21]</span> *A City-Wide Crowdsourcing Delivery System with Reinforcement Learning* 
