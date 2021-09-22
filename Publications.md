@@ -12,11 +12,11 @@ date: Sep. 2, 2020
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'21]</span> *ALWAES : an Automatic Outdoor Location-Aware Correction System for Online Delivery Platforms* <br>
 Dongzhe Jiang, **Yi Ding**, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zhang <br>
-[[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=107267)
+[[PDF](https://dl.acm.org/doi/pdf/10.1145/3478081)], [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=107267)
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'21]</span> *A City-Wide Crowdsourcing Delivery System with Reinforcement Learning*  <br>
 **Yi Ding**, Baoshen Guo, Lin Zheng, Mingming Lu, Desheng Zhang, Shuai Wang, Sang Hyuk Son, Tian He <br>
-[[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=106807)
+[[PDF](https://dl.acm.org/doi/pdf/10.1145/3478117)], [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=106807)
 
 <span style="color:FireBrick">[SIGCOMM'21]</span> *Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild* <br>
 **Yi Ding**, Yu Yang, Wenchao Jiang, Yunhuai Liu, Tian He, Desheng Zhang <br>
