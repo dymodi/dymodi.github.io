@@ -1,7 +1,8 @@
 ---
-layout: default
+
 title: Publications
-date: Sep. 2, 2020
+permalink: /docs/publications/
+last_modified_at: 2021-09-22
 ---
 
 # Publications
