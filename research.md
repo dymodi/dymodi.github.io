@@ -1,10 +1,12 @@
 ---
-layout: default
-title: Research
+layout: archive
+title: "Research"
+permalink: /research/
 youtubeIdABeacon: PV9MUVwGw8o
-date: Sep. 2, 2017
+classes: wide
+author_profile: true
 ---
-# Research Overview
+## Overview
 
 My research interests are broadly in data mining, mobile computing, on-demand delivery, and machine learning.
 

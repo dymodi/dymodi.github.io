@@ -1,7 +1,10 @@
 ---
-title: Data-sets
-permalink: /docs/data-sets/
+layout: archive
+title: "Data-sets"
+permalink: /data-sets/
+classes: wide
 last_modified_at: 2021-04-14
+author_profile: true
 ---
 
 # Data-sets
