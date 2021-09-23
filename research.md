@@ -5,22 +5,6 @@ permalink: /research/
 youtubeIdABeacon: PV9MUVwGw8o
 classes: wide
 author_profile: true
-gallery:
-  - url: /assets/images/Research/physical-beacon-idea.png
-    image_path: /assets/images/Research/physical-beacon-idea.png
-    height: '200'
-    alt: "Idea of aBeacon system"
-    title: "Idea of aBeacon system"
-  - url: /assets/images/Research/physical-beacon-phase_1_deployment_6.JPG
-    image_path: /assets/images/Research/physical-beacon-phase_1_deployment_6.JPG
-    height: '200'
-    alt: "Deployment"
-    title: "Deployment"
-  - url: /assets/images/Research/physical-beacon-Heamap-1632403428001.png
-    image_path: /assets/images/Research/physical-beacon-Heamap-1632403428001.png
-    height: '200'
-    alt: "Heatmap in Shanghai"
-    title: "Heatmap in Shanghai"
 ---
 ## Overview
 
@@ -31,7 +15,13 @@ My research interests are broadly in data mining, mobile computing, on-demand de
 
 ### aBeacon [NSDI'21], a 3-year citywide wireless beacon system
 
-{% include gallery caption="Idea, Deployment, and Spatial Heatmap of aBeacon System" %}
+<p align = "center">
+<img src="/assets/images/Research/physical-beacon-idea.png"  alt="Idea of aBeacon system" height="200">
+<img src="/assets/images/Research/physical-beacon-phase_1_deployment_6.JPG"  alt="Deployment" height="200">
+<img src="/assets/images/Research/physical-beacon-Heamap-1632403428001.png"  alt="Heatmap in Shanghai" height="200">
+</p>
+
+
 
 aBeacon (short for alibaba Beacon) is an operational indoor sensing system to infer the indoor status of Alibaba couriers, e.g., arrival and departure at the merchants based on Bluetooth. 
 
