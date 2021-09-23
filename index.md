@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: archive
+title: "Yi Ding, Ph.D."
+classes: wide
 author_profile: true
 ---
-
-# Yi Ding, Ph.D.
 
 I am currently a CS Ph.D. student at the University of Minnesota. I have been working in Alibaba Group, Local Service BU from 2018 with my professor [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Yunhuai Liu](http://www.yunhuai.net/Yunhuai.htm) in research.
 
@@ -27,9 +27,9 @@ machine learning.  You can contact me at dingx447 AT umn DOT edu.
 * Sep. 2019: Paper accpeted by ACM IMWUT (UbiComp'19).
 
 
-<p align="left">
+<!-- <p align="left">
 <img src="pipi.jpg"  alt="pipi" height="120">
 <img src="turnip.png"  alt="turnip" height="120">
 </p>
-My cats, pipi (not "pip"), and turnip.
+My cats, pipi (not "pip"), and turnip. -->
 
