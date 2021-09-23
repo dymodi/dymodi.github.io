@@ -7,8 +7,6 @@ last_modified_at: 2021-04-14
 author_profile: true
 ---
 
-# Data-sets
-
 ## aBeacon Data
 
 **Description**

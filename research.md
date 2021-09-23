@@ -8,16 +8,19 @@ author_profile: true
 gallery:
   - url: /assets/images/Research/physical-beacon-idea.png
     image_path: /assets/images/Research/physical-beacon-idea.png
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    height: '200'
+    alt: "Idea of aBeacon system"
+    title: "Idea of aBeacon system"
   - url: /assets/images/Research/physical-beacon-phase_1_deployment_6.JPG
     image_path: /assets/images/Research/physical-beacon-phase_1_deployment_6.JPG
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    height: '200'
+    alt: "Deployment"
+    title: "Deployment"
   - url: /assets/images/Research/physical-beacon-Heamap-1632403428001.png
     image_path: /assets/images/Research/physical-beacon-Heamap-1632403428001.png
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
+    height: '200'
+    alt: "Heatmap in Shanghai"
+    title: "Heatmap in Shanghai"
 ---
 ## Overview
 
@@ -28,7 +31,7 @@ My research interests are broadly in data mining, mobile computing, on-demand de
 
 ### aBeacon [NSDI'21], a 3-year citywide wireless beacon system
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+{% include gallery caption="Idea, Deployment, and Spatial Heatmap of aBeacon System" %}
 
 aBeacon (short for alibaba Beacon) is an operational indoor sensing system to infer the indoor status of Alibaba couriers, e.g., arrival and departure at the merchants based on Bluetooth. 
 
