@@ -1,5 +1,4 @@
 ---
-
 title: Publications
 permalink: /docs/publications/
 last_modified_at: 2021-09-22

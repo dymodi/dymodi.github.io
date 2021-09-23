@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Data-sets
-date: Apr. 14, 2021
+permalink: /docs/data-sets/
+last_modified_at: 2021-04-14
 ---
 
 # Data-sets
