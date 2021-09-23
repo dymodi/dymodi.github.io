@@ -2,10 +2,9 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: false
+classes: wide
+author_profile: true
 ---
-
-# Publications
 
 ## Selected Conference Papers
 
