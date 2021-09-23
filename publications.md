@@ -24,7 +24,7 @@ Dongzhe Jiang, **Yi Ding**, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zh
 
 <span style="color:Red">[NSDI'21]</span> *From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild* <br>
 **Yi Ding**, Ling Liu, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang <br>
-[[PDF](https://www.usenix.org/system/files/nsdi21spring-ding.pdf)], [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=76359), 19/114=16%
+[[PDF](https://www.usenix.org/system/files/nsdi21spring-ding.pdf)], [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=76359), [[Video](https://www.youtube.com/watch?v=PV9MUVwGw8o)] 19/114=16%
 
 ### 2020
 
