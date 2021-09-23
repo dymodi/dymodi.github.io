@@ -1,7 +1,8 @@
 ---
-title: Publications
-permalink: /docs/publications/
-last_modified_at: 2021-09-22
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: false
 ---
 
 # Publications
