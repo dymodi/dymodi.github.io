@@ -15,11 +15,12 @@ My research interests are broadly in data mining, mobile computing, on-demand de
 
 ### aBeacon [NSDI'21], a 3-year citywide wireless beacon system
 
-<p align = "center">
-<img src="/assets/images/Research/physical-beacon-idea.png" alt="Idea of aBeacon system" width="200"/>
-<img src="/assets/images/Research/physical-beacon-phase_1_deployment_6.JPG"  alt="Deployment" width="100"/>
-<img src="/assets/images/Research/physical-beacon-Heamap-1632403428001.png"  alt="Heatmap in Shanghai" width="200"/>
+<p align = "float">
+<img src="/assets/images/Research/physical-beacon-idea.png" alt="Idea of aBeacon system" height="200" style="vertical-align:bottom">
+<img src="/assets/images/Research/physical-beacon-phase_1_deployment_6.JPG"  alt="Deployment" height="200" style="vertical-align:bottom">
+<img src="/assets/images/Research/physical-beacon-Heamap-1632403428001.png"  alt="Heatmap in Shanghai" height="200" style="vertical-align:bottom">
 </p>
+
 
 
 aBeacon (short for alibaba Beacon) is an operational indoor sensing system to infer the indoor status of Alibaba couriers, e.g., arrival and departure at the merchants based on Bluetooth. 
