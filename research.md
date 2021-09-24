@@ -9,6 +9,9 @@ author_profile: true
 
 My research interests are broadly in data mining, mobile computing, on-demand delivery, and machine learning.
 
+## Literature Surveys
+
+[Literature Surveys](Research/Literature-Survey/)
 
 ## Selected Topics
 
@@ -34,5 +37,6 @@ aBeacon consists of customized BLE devices at 12,109 merchants, interacting with
 
 
 ## Literature Surveys
+
 [Literature Surveys](Research/Literature-Survey/)
 
