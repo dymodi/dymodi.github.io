@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Literature Survey"
-permalink: /Research/Literature-Survey/
+permalink: /research/Literature-Survey/
 classes: wide
 ---
 ### Localization
