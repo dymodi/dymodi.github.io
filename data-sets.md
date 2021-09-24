@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Data-sets"
 permalink: /data-sets/
 classes: wide

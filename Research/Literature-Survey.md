@@ -1,12 +1,9 @@
 ---
-layout: default
-title: Literature
-date: July 3, 2018
+layout: single
+title: "Literature Survey"
+permalink: /Research/Literature-Survey/
+classes: wide
 ---
-# Research topics
-
-## Literature Surveys
-
 ### Localization
 #### Different Targets
 
@@ -61,6 +58,8 @@ date: July 3, 2018
 ### Transportation & Delivery
 
 [Related Works of Taxi Dispatching and Routing](Literature-Reviews/Transportation-and-Delivery/Taxi-Dispatching-and-Routing-Related-Works)
+
+[Related Works of ETA](Literature-Reviews/Transportation-and-Delivery/ETA-Related-Works)
 
 [Related Works of Crowd Delivery](Literature-Reviews/Transportation-and-Delivery/Crowd-Delivery-Related-Works)
 
