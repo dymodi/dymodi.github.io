@@ -1,11 +1,8 @@
 ---
-layout: post
+layout: sinlge
 title: Related Works of Indoor Localization
-date: June 18, 2019
-author: Yi DING
+permalink: /Literature-Reviews/Localization/Indoor-Localization-Related-Works/
 ---
-
-
 
 **Taxonomy**
 
