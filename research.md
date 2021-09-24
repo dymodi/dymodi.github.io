@@ -19,6 +19,7 @@ My research interests are broadly in data mining, mobile computing, on-demand de
 <img src="/assets/images/Research/physical-beacon-idea.png" alt="Idea of aBeacon system" style="float: left; height: 15em;">
 <img src="/assets/images/Research/physical-beacon-phase_1_deployment_6.JPG"  alt="Deployment" style="float: left; height: 15em;">
 <img src="/assets/images/Research/physical-beacon-Heamap-1632403428001.png"  alt="Heatmap in Shanghai" style="float: left; height: 15em;">
+<p style="clear: both;">
 </p>
 
 
