@@ -9,10 +9,6 @@ author_profile: true
 
 My research interests are broadly in data mining, mobile computing, on-demand delivery, and machine learning.
 
-## Literature Surveys
-
-[Literature Surveys](/research/Literature-Survey/)
-
 ## Selected Topics
 
 ### aBeacon [NSDI'21], a 3-year citywide wireless beacon system
@@ -38,7 +34,7 @@ Although in an academic setting, using BLE devices to detect arrival and departu
 aBeacon consists of customized BLE devices at 12,109 merchants, interacting with 109,378 couriers to infer their status to assist the scheduling of 64 million delivery orders for 7.3 million customers with a total amount of $600 million USD order values. <br />
 
 
-## Literature Surveys
+<!-- ## Literature Surveys
 
 [Literature Surveys](/research/Literature-Survey/)
-
+ -->
