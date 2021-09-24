@@ -2,7 +2,6 @@
 layout: single
 title: "Publications"
 permalink: /publications/
-classes: wide
 author_profile: true
 toc: true
 ---
