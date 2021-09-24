@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: single
 title: "Research"
 permalink: /research/
-youtubeIdABeacon: PV9MUVwGw8o
 classes: wide
 author_profile: true
 ---
@@ -16,14 +15,14 @@ My research interests are broadly in data mining, mobile computing, on-demand de
 ### aBeacon [NSDI'21], a 3-year citywide wireless beacon system
 
 
-<p style="float: left; font-size: 10pt; text-align: center; margin-right: 1%; margin-bottom: 0.5em;">
-	<img src="/assets/images/Research/physical-beacon-idea.png" alt="aBeacon Idea" style="float: left; height: 14em;">aBeacon Idea
+<p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
+	<img src="/assets/images/Research/physical-beacon-idea.png" alt="aBeacon Idea" style="float: left; height: 15em;">
 </p>
-<p style="float: left; font-size: 10pt; text-align: center; margin-right: 1%; margin-bottom: 0.5em;">
-	<img src="/assets/images/Research/physical-beacon-phase_1_deployment_6.JPG" alt="Deployment" style="float: left; height: 14em;">Deployment
+<p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
+	<img src="/assets/images/Research/physical-beacon-phase_1_deployment_6.JPG" alt="Deployment" style="float: left; height: 15em;">
 </p>
-<p style="float: left; font-size: 10pt; text-align: center; margin-right: 1%; margin-bottom: 0.5em;">
-	<img src="/assets/images/Research/physical-beacon-Heamap-1632403428001.png" alt="Heatmap in Shanghai" style="float: left; height: 14em;">Heatmap in Shanghai
+<p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
+	<img src="/assets/images/Research/physical-beacon-Heamap-1632403428001.png" alt="Heatmap in Shanghai" style="float: left; height: 15em;">
 </p>
 <p style="clear: both;">
 
