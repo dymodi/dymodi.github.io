@@ -3,7 +3,6 @@ layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
-toc: true
 ---
 
 ## Selected Conference Papers

@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Yi Ding, Ph.D."
 classes: wide
 author_profile: true
