@@ -15,10 +15,10 @@ My research interests are broadly in data mining, mobile computing, on-demand de
 
 ### aBeacon [NSDI'21], a 3-year citywide wireless beacon system
 
-<p align = "float">
-<img src="/assets/images/Research/physical-beacon-idea.png" alt="Idea of aBeacon system" height="200" style="vertical-align:bottom">
-<img src="/assets/images/Research/physical-beacon-phase_1_deployment_6.JPG"  alt="Deployment" height="200" style="vertical-align:bottom">
-<img src="/assets/images/Research/physical-beacon-Heamap-1632403428001.png"  alt="Heatmap in Shanghai" height="200" style="vertical-align:bottom">
+<p>
+<img src="/assets/images/Research/physical-beacon-idea.png" alt="Idea of aBeacon system" style="float: left; height: 15em;">
+<img src="/assets/images/Research/physical-beacon-phase_1_deployment_6.JPG"  alt="Deployment" style="float: left; height: 15em;">
+<img src="/assets/images/Research/physical-beacon-Heamap-1632403428001.png"  alt="Heatmap in Shanghai" style="float: left; height: 15em;">
 </p>
 
 
