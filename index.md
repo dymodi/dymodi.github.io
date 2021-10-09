@@ -14,6 +14,7 @@ machine learning.  You can contact me at dingx447 AT umn DOT edu.
 
 **Recent News**
 
+* Aug. 2021: Co-authored paper accepted by IEEE RTSS'21.
 * Jul. 2021: 2nd-author paper **ALWAES** accepted by ACM IMWUT (UbiComp'21).
 * Jul. 2021: 1st-author paper accepted by IEEE ToN.
 * Jul. 2021: [Data-set](https://tianchi.aliyun.com/dataset/dataDetail?dataId=106807) released of on-demand delivery order distrbution in Shenzhen.
