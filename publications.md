@@ -4,6 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 classes: wide
+date: 10/10/21
 ---
 
 ## Selected Conference Papers
@@ -47,22 +48,38 @@ IEEE/ACM Transactions on Networking, 2021
 
 ## Patents
 
-### 2021
+### Published
 
-*Encouter-based Order Swap and Dispatching for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/202011600516)]
+#### 2021
 
-### 2020
+*Order processing method and device, storage medium and electronic equipment* [[Link](https://patents.google.com/patent/CN112365219A/en)]
 
-*Smartphone-based Beacon System for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201910642269)]
+*Position state acquisition method and device, readable storage medium and electronic equipment* [[Link](https://patents.google.com/patent/CN109639787B/en)]
 
-### 2019
+#### 2020
 
-*Indoor Arrival Detection based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811468343)]
+[WO] *Indoor positioning method and apparatus, electronic device and computer readable storage medium* [[Link](https://patents.google.com/patent/WO2021008148A1/en)]
 
-*3D Indoor Loclization based on BLE Beacons* [[Link](http://www.soopat.com/Patent/201811474624)]
 
-*Robots' Indoor Localization based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811498024)]
+### Pending
 
-*Indoor Localization based on BLE Beacons in On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811513249)]
+#### 2021
 
-*Merchants' States Model for On-Demand Delivery* [[Link](http://www.soopat.com/Patent/201811475912)]
+*Distribution order processing method and device and computer equipment* [[Link](https://patents.google.com/patent/CN112734311A/en)]
+
+#### 2020
+
+*Task execution method and device based on gesture interaction* [[Link](https://patents.google.com/patent/CN112612362A/en)]
+
+*Beacon association method and device* [[Link](https://patents.google.com/patent/CN112533300A/en)]
+
+#### 2018
+
+*Information acquisition method, information-pushing method and device* [[Link](https://patents.google.com/patent/CN109597959A/en)]
+
+*Method for determining position, mobile robot, storage medium and electronic equipment* [[Link](https://patents.google.com/patent/CN109540127A/en)]
+
+*Information processing method and device* [[Link](https://patents.google.com/patent/CN109362040A/en)]
+
+
+
