@@ -9,9 +9,11 @@ date: 21/10/10
 
 ## Selected Conference Papers
 
-### 2021
+### 2022
 <span style="color:DarkGreen">[IMWUT/UbiComp'21]</span>  SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery <br>
 **Yi Ding**, Dongzhe Jiang, Yunhuai Liu, Desheng Zhang, Tian He<br>
+
+### 2021
 
 <span style="color:SteelBlue">[RTSS'21]</span> *Concurrent Order Dispatch for Instant Delivery with Time-Constrained Actor-Critic Reinforcement Learning* <br>
 Baoshen Guo, Shuai Wang, **Yi Ding**, Guang Wang, Suining He, Desheng Zhang, and Tian He <br>
