@@ -7,13 +7,13 @@ author_profile: true
 
 I am currently a CS Ph.D. student at the University of Minnesota. I have been working in Alibaba Group, Local Service BU from 2018 with my professor [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Yunhuai Liu](http://www.yunhuai.net/Yunhuai.htm) in research.
 
-My research interests are broadly in data mining, mobile computing, on-demand delivery, and 
-machine learning.  You can contact me at dingx447 AT umn DOT edu.
+My research interests are broadly interested in the areas of **Cyber-Physical Systems** (also known as **Internet of Things**) and **Human-Centered Computing** from **Mobile** and **Ubiquitous Computing** perspectives with applications in **Smart Cities**.<br>You can contact me at dingx447 AT umn DOT edu.
 
 [Google Scholar](https://scholar.google.com/citations?user=umiRGkUAAAAJ), [LinkedIn](https://www.linkedin.com/in/yi-ding-b3360459/)
 
 **Recent News**
 
+* Oct. 2021: 1st-author paper **SmartLoc** accepted by ACM IMWUT (UbiComp'22).
 * Aug. 2021: Co-authored paper accepted by IEEE RTSS'21.
 * Jul. 2021: 2nd-author paper **ALWAES** accepted by ACM IMWUT (UbiComp'21).
 * Jul. 2021: 1st-author paper accepted by IEEE ToN.
