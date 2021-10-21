@@ -10,7 +10,7 @@ date: 21/10/10
 ## Selected Conference Papers
 
 ### 2022
-<span style="color:DarkGreen">[IMWUT/UbiComp'21]</span>  SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery <br>
+<span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery* <br>
 **Yi Ding**, Dongzhe Jiang, Yunhuai Liu, Desheng Zhang, Tian He<br>
 
 ### 2021
