@@ -56,6 +56,7 @@ author: Yi DING
 | February                       | ACM SIGKDD            | Machine learning & data mining  | A (Databases, Data mining)  |
 | February                       | IJCAI                 | Artificial intelligence         | A (Artificial intelligence) |
 | 1st of every month until March | VLDB                  | Databases                       | A (Databases, Data mining)  |
+| April                          | ACM MM                | -                               | A (Graphic, Multimedia)     |
 | May                            | ACM CIKM              | -                               | B (Databases, Data mining)  |
 | June                           | IEEE ICDE, 1st round  | Databases                       | A (Databases, Data mining)  |
 | June                           | IEEE ICDM             | -                               | B (Databases, Data mining)  |
