@@ -7,11 +7,18 @@ author_profile: true
 ---
 ## Overview
 
+
+
+<figure>
+  <p><img src="/assets/images/Research/vision.png"
+    height="200"
+    alt="Research Vision">
+  <figcaption>Research Vision</figcaption>
+</figure>
+
 My research interests Broadly interested in the **Cyber-Physical Systems** (also known as **Internet of Things**) and **Human Centered Computing** from *Mobile* and *Ubiquitous Computing* perspectives with applications in *Smart Cities*. 
 
-<p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
-	<img src="/assets/images/Research/vision.png" alt="aBeacon Idea" style="float: left; height: 15em;">
-</p>
+As shown in the figure, my works involve all three parts in the HCPS framework, i.e., sensing, prediction, and decision-making. Focused on the interaction between the couriers and the delivery system, I have solved multiple essential problems in on-demand delivery.
 
 ## Selected Topics
 
