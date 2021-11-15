@@ -13,8 +13,9 @@ author_profile: true
   <p><img src="/assets/images/Research/vision.png"
     height="200"
     alt="Research Vision">
-  <figcaption>Research Vision</figcaption>
-</figure>
+  <figcaption>Research Vision</figcaption> </figure>
+
+
 
 My research interests Broadly interested in the **Cyber-Physical Systems** (also known as **Internet of Things**) and **Human Centered Computing** from *Mobile* and *Ubiquitous Computing* perspectives with applications in *Smart Cities*. 
 
