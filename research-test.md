@@ -6,16 +6,15 @@ classes: wide
 author_profile: true
 ---
 
+My research interests Broadly interested in the **Cyber-Physical Systems** (also known as **Internet of Things**) and **Human Centered Computing** from *Mobile* and *Ubiquitous Computing* perspectives with applications in *Smart Cities*. 
+
 <p><img src="/assets/images/Research/vision.png"
 height="150"
 alt="Research Vision">
 <figcaption>Research Vision</figcaption> 
 </p>
 
-
-My research interests Broadly interested in the **Cyber-Physical Systems** (also known as **Internet of Things**) and **Human Centered Computing** from *Mobile* and *Ubiquitous Computing* perspectives with applications in *Smart Cities*. 
-
-As shown in the figure, my works involve all three parts in the HCPS framework, i.e., sensing, prediction, and decision-making. Focused on the interaction between the couriers and the delivery system, I have solved multiple essential problems in on-demand delivery.
+As shown in the figure, my works involve all three phases in the **human-centered cyber-physical systems** framework, i.e., sensing, prediction, and decision-making. Focused on the interaction between the couriers and the delivery system, I have solved multiple essential problems in on-demand delivery.
 
 ### aBeacon [NSDI'21], a 3-year Citywide Wireless Beacon System
 
@@ -26,7 +25,7 @@ As shown in the figure, my works involve all three parts in the HCPS framework, 
 
 <p>aBeacon consists of customized BLE devices at 12,109 merchants, interacting with 109,378 couriers to infer their status to assist the scheduling of 64 million delivery orders for 7.3 million customers with a total amount of $600 million USD order values.</p>
 
-<p class="clear">
+<p class="clear"> </p>
 
 ### VALID [SIGCOMM'21], a  Nationwide Arrival Detection System
 
