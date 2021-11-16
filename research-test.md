@@ -9,11 +9,12 @@ author_profile: true
 
 
 
-<figure>
-  <p><img src="/assets/images/Research/vision.png"
-    height="200"
-    alt="Research Vision">
-  <figcaption>Research Vision</figcaption> </figure>
+<p><img src="/assets/images/Research/vision.png"
+height="150"
+alt="Research Vision">
+<figcaption>Research Vision</figcaption> 
+</p>
+
 
 
 
