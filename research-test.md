@@ -21,9 +21,9 @@ As shown in the figure, my works involve all three phases in the **human-centere
 <p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
 	<img src="/assets/images/Research/physical-beacon-diagram.png" alt="aBeacon System" style="float: left; width: 20em;">
 </p>
-<p>aBeacon is an operational indoor sensing system to infer the indoor status of  couriers, e.g., arrival and departure at the merchants based on Bluetooth. 
-</br>
-aBeacon consists of customized BLE devices at 12,109 merchants, interacting with 109,378 couriers to infer their status to assist the scheduling of 64 million delivery orders for 7.3 million customers with a total amount of $600 million USD order values.</p>
+<p>aBeacon is an operational indoor sensing system to infer the indoor status of  couriers, e.g., arrival and departure at the merchants based on Bluetooth.</p>
+<p>aBeacon consists of customized BLE devices at 12,109 merchants, interacting with 109,378 couriers to infer their status to assist the scheduling of 64 million delivery orders for 7 million customers with a total amount of $600 million order values.</p>
+
 [[PDF](https://www.usenix.org/system/files/nsdi21spring-ding.pdf)], [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=76359), [[Video](https://www.youtube.com/watch?v=PV9MUVwGw8o)]
 
 <p class="clear"> </p>
