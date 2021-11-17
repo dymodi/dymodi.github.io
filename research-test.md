@@ -43,7 +43,7 @@ As shown in the figure, my works involve all three phases in the **human-centere
 	<img src="/assets/images/Research/hitchhiking.png" alt="Hitchhiking System" style="float: left; width: 20em;">
 </p>
 
-<p>We design a crowdsourcing delivery system based on public transport, considering the practical factors of time constraints, multi-hop delivery, and profits. We build a reinforcement learning model to learn the optimal  dispatching strategies from historical data. Compared with existing crowdsourcing delivery algorithms and widely-used baselines, we achieve a 40% increase in profit rates and a 29% increase in delivery rates.</p>
+<p>We design a crowdsourcing delivery system based on public transport, considering practical factors of time constraints, multi-hop delivery, and profits. We build a reinforcement learning model to learn the optimal dispatching strategies from historical data. Compared with  widely-used baselines, we achieve a 40% increase in profit rates and a 29% increase in delivery rates.</p>
 
 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3478117)], [[Dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=106807)]
 
