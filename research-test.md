@@ -56,8 +56,8 @@ As shown in the figure, my works involve all three phases in the **human-centere
 
 <p>We design, implement and evaluate SmartLOC, a map-free localization system that employs merchants’ smartphones as anchors to estimate couriers’ travel time to all merchants. We build indoor shop graphs for each mall, and adopt graph embedding to extract indoor shops’ topology</p>
 
-<p>We evaluate SmartLOC in two multi-floor malls in Shanghai and show that it can improve
-the accuracy of couriers’ travel time estimation by 20%~80% compared with baselines.</p>
+<p>We evaluate SmartLOC in two  malls in Shanghai and show it can improve
+the accuracy of travel time estimation by 20%~80% compared with baselines.</p>
 
 <p class="clear"> </p>
 
