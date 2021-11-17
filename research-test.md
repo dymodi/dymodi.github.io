@@ -49,6 +49,18 @@ As shown in the figure, my works involve all three phases in the **human-centere
 
 <p class="clear"> </p>
 
+#### SmartLoc, Indoor Travel Time Estimation via Smartphone Anchors [UbiComp'22]
+<p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
+	<img src="/assets/images/Research/smartloc.png" alt="Hitchhiking System" style="float: left; width: 20em;">
+</p>
+
+<p>We design, implement and evaluate SmartLOC, a map-free localization system that employs merchants’ smartphones as anchors to estimate couriers’ travel time to all merchants. We build indoor shop graphs for each mall, and adopt graph embedding to extract indoor shops’ topology</p>
+
+<p>We evaluate SmartLOC in two multi-floor malls in Shanghai and show that it can improve
+the accuracy of couriers’ travel time estimation by 20%~80% compared with baselines.</p>
+
+<p class="clear"> </p>
+
 <!-- ## Literature Surveys
 
 [Literature Surveys](/research/Literature-Survey/)
