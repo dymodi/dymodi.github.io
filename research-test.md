@@ -32,8 +32,7 @@ As shown in the figure, my works involve all three phases in the **human-centere
 	<img src="/assets/images/Research/virtual-beacon-deployment.png" alt="VALID System" style="float: left; width: 20em;">
 </p>
 <p>We explore to use merchants’ smartphones under their consent as a virtual infrastructure to design, build, deploy, and operate VALID, a Bluetooth-based indoor status detection system, from in-lab conception to nationwide operation.</p>
-<p>During its full nationwide operation (2018/12- 2021/01), VALID consists of virtual devices at 3 million shops and restaurants, to infer and influence 1 million couriers’ behavior, and assist the scheduling of 3.9 billion orders for 186 million customers.</p>
-<p>We also share the lessons we learned about system evolution, reliabilty, and human-system synergy in the wild.</p>
+<p>During its full nationwide operation (2018/12- 2021/01), VALID consists of virtual devices at 3 million shops and restaurants, to infer and influence 1 million couriers’ behavior, and assist the scheduling of 3.9 billion orders for 186 million customers. We also share the lessons we learned about system evolution, reliabilty, and human-system synergy in the wild.</p>
 
 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3452296.3472911)], [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=103969)
 
@@ -44,8 +43,7 @@ As shown in the figure, my works involve all three phases in the **human-centere
 	<img src="/assets/images/Research/hitchhiking.png" alt="Hitchhiking System" style="float: left; width: 20em;">
 </p>
 
-<p>we design a crowdsourcing delivery system based on public transport, considering the practical factors of time constraints, multi-hop delivery, and profits. To incorporate the impact factors, we build a reinforcement learning model to learn the optimal order dispatching strategies from massive passenger data and package data. </p>
-<p>Compared with existing crowdsourcing delivery algorithms and widely used baselines, we achieve a 40% increase in profit rates and a 29% increase in delivery rates.</p>
+<p>we design a crowdsourcing delivery system based on public transport, considering the practical factors of time constraints, multi-hop delivery, and profits. We build a reinforcement learning model to learn the optimal order dispatching strategies from massive passenger data and package data. Compared with existing crowdsourcing delivery algorithms and widely used baselines, we achieve a 40% increase in profit rates and a 29% increase in delivery rates.</p>
 
 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3478117)], [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=106807)
 
