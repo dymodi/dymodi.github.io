@@ -10,5 +10,4 @@ author_profile: true
 
 Rawok Glacier, China
 
-
-{% include video id="YifR2l8zBZQ" provider="youtube" %}
+{% include youtubePlayer.html id="YifR2l8zBZQ" %}
