@@ -6,10 +6,9 @@ classes: wide
 author_profile: true
 ---
 
-# Travel
+## Travel
 
-Rawok Glacier
+Rawok Glacier, China
 
-```
+
 {% include video id="YifR2l8zBZQ" provider="youtube" %}
-```
