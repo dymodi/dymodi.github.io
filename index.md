@@ -9,7 +9,7 @@ I am currently a CS Ph.D. student at the University of Minnesota. I have been wo
 
 My research interests are broadly interested in the areas of **Cyber-Physical Systems** (also known as **Internet of Things**) and **Human-Centered Computing** from **Mobile** and **Ubiquitous Computing** perspectives with applications in **Smart Cities**.<br>You can contact me at dingx447 AT umn DOT edu.
 
-[Google Scholar](https://scholar.google.com/citations?user=umiRGkUAAAAJ), [LinkedIn](https://www.linkedin.com/in/yi-ding-b3360459/), [CV](/assets/files/CV_Yi.pdf/)
+I am on the <span style="color:FireBrick">**job market**</span>. My application materials: [CV](/assets/files/CV_Yi.pdf/) and [research statement](/assets/files/Research_Statementi.pdf/). My publications can also be found at [Google Scholar](https://scholar.google.com/citations?user=umiRGkUAAAAJ).
 
 **Recent News**
 
