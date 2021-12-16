@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 classes: wide
-date: 21/10/10
+date: 21/12/16
 ---
 
 ## Selected Conference Papers
@@ -61,6 +61,8 @@ IEEE/ACM Transactions on Networking, 2021
 
 *Position state acquisition method and device, readable storage medium and electronic equipment* [[Link](https://patents.google.com/patent/CN109639787B/en)]
 
+*Information processing method and device* [[Link](https://patents.google.com/patent/CN109362040A/en)]
+
 #### 2020
 
 [WO] *Indoor positioning method and apparatus, electronic device and computer readable storage medium* [[Link](https://patents.google.com/patent/WO2021008148A1/en)]
@@ -83,8 +85,3 @@ IEEE/ACM Transactions on Networking, 2021
 *Information acquisition method, information-pushing method and device* [[Link](https://patents.google.com/patent/CN109597959A/en)]
 
 *Method for determining position, mobile robot, storage medium and electronic equipment* [[Link](https://patents.google.com/patent/CN109540127A/en)]
-
-*Information processing method and device* [[Link](https://patents.google.com/patent/CN109362040A/en)]
-
-
-
