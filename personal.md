@@ -6,9 +6,11 @@ classes: wide
 author_profile: true
 ---
 
-## Travel
-I like to travel to different places in my spare time.
-I also enjoy photography and aerial photography.
+I enjoy traveling and reading (novels, not papers) in my spare time.
+
+## Traveling  <a name="sometext"></a>
+
+I like to travel to different places in my spare time. I also like photography and aerial photography.
 
 Rawok Glacier, China
 {% include youtubePlayer.html id="YifR2l8zBZQ" %}
@@ -30,7 +32,7 @@ Gabriel García Márquez, *Living to Tell the Tale* - Life itself is a story.
 
 Gabriel García Márquez, *Love in the Time of Cholera*- Great book on love.
 
-Haruki Murakami, *Kafka on the Shore* - Some of my view and life and humanity is triggered by Murakami's novels.
+Haruki Murakami, *Kafka on the Shore* -  Murakami's novels formed some of my view on life and humanity.
 
 Erich Maria Remarque, *All Quiet on the Western Front* - We shall never fall into the fever for wars.
 
