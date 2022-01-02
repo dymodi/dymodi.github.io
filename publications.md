@@ -12,6 +12,7 @@ date: 21/12/16
 ### 2022
 <span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery* <br>
 **Yi Ding**, Dongzhe Jiang, Yunhuai Liu, Desheng Zhang, Tian He<br>
+[[PDF](https://dl.acm.org/doi/pdf/10.1145/3494972)],
 
 ### 2021
 
