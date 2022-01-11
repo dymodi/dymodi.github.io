@@ -10,6 +10,9 @@ date: 21/12/16
 ## Selected Conference Papers
 
 ### 2022
+<span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *P2-Loc: A Person-2-Person Indoor Localization System in On-Demand Delivery* <br>
+**Yi Ding**, Dongzhe Jiang, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang<br>
+
 <span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery* <br>
 **Yi Ding**, Dongzhe Jiang, Yunhuai Liu, Desheng Zhang, Tian He<br>
 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3494972)],
