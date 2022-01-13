@@ -3,7 +3,7 @@ layout: single
 title: "Data-sets"
 permalink: /data-sets/
 classes: wide
-last_modified_at: 2021-11-15
+last_modified_at: 2022-01-13
 author_profile: true
 
 ---
@@ -140,3 +140,29 @@ Dongzhe Jiang, Yi Ding, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zhang.
 In ACM UbiComp 2021.
 
 [Download Link](https://tianchi.aliyun.com/dataset/dataDetail?dataId=107267) 
+
+## P2Loc: Indoor Encounter Data based on Smartphone Bluetooth
+
+**Description**
+
+Large scale mobile sensing network is at the intersection of multiple research communities, including IoT, Cyber-Physical Systems, Human-Centered Computing, and Data Mining. In the research of indoor localization and estimated time of arrival (ETA), one direction is to use the encounter events among targets to estimate their locations. In this dataset, we release a repository composed of BLE-based indoor encounter data and reported data of couriers. Details on the data and the systems can be found in our papers on the systems. 
+
+P2Loc provides the encounter data and manual report data of 176 couriers at 54 merchant locations in a mall during one month.
+
+**Data Details**
+
+* **P2Loc Encounter Data** records Bluetooth broadcast monitored on courier’s smartphones.
+* **P2Loc Accounting Data** records the four timestamps from the courier’s report for a delivery order.
+
+**Potential Topics**
+
+* Interned of Things / Cyber-Physical Systems
+* Human-Centered Computing
+* Gig Delivery
+
+**References**
+
+[IMWUT/UbiComp’22] P2-Loc: A Person-2-Person Indoor Localization System in On-Demand Delivery
+Yi Ding, Dongzhe Jiang, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang
+
+[Download Link](https://tianchi.aliyun.com/dataset/dataDetail?dataId=119097) 
