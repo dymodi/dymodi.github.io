@@ -10,6 +10,8 @@ date: 21/12/16
 ## Selected Conference Papers
 
 ### 2022
+<span style="color:RoyalBlue">[MobiCom'22]</span> *Experience: Adopting Indoor Outdoor Detection in On-demand Food Delivery Business* <br>Pengfei Zhou, **Yi Ding**, Yang Li, Mo Li, Guobin Shen, Tian He. <br>
+
 <span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *P2-Loc: A Person-2-Person Indoor Localization System in On-Demand Delivery* <br>
 **Yi Ding**, Dongzhe Jiang, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang<br>
 

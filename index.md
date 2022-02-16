@@ -13,6 +13,7 @@ I am on the <span style="color:FireBrick">**job market**</span>. My application 
 
 **Recent News**
 
+* Feb. 2022, 2nd-authored paper accepted by ACM MobiCom'22.
 * Jan. 2022: 1st-author paper **P2-Loc** accepted by ACM IMWUT (UbiComp'22).
 * Nov. 2021: Co-authored paper won outstanding paper award at IEEE RTSS'21.
 * Oct. 2021: 1st-author paper **SmartLoc** accepted by ACM IMWUT (UbiComp'22).
