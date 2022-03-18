@@ -10,21 +10,21 @@ date: 21/12/16
 ## Selected Conference Papers
 
 ### 2022
-<span style="color:RoyalBlue">[MobiCom'22]</span> *Experience: Adopting Indoor Outdoor Detection in On-demand Food Delivery Business* <br>Pengfei Zhou, **Yi Ding**, Yang Li, Mo Li, Guobin Shen, Tian He. <br>
+<span style="color:RoyalBlue">[MobiCom'22]</span> *Experience: Adopting Indoor Outdoor Detection in On-demand Food Delivery Business* <br>Pengfei Zhou, **Yi Ding**, Yang Li, Mo Li, Guobin Shen, Tian He. <br>[[PDF]](https://wands.sg/publications/full_list/papers/MobiCom_22_1.pdf)
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *P2-Loc: A Person-2-Person Indoor Localization System in On-Demand Delivery* <br>
 **Yi Ding**, Dongzhe Jiang, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang<br>
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery* <br>
 **Yi Ding**, Dongzhe Jiang, Yunhuai Liu, Desheng Zhang, Tian He<br>
-[[PDF](https://dl.acm.org/doi/pdf/10.1145/3494972)],
+[[PDF](https://dl.acm.org/doi/pdf/10.1145/3494972)]
 
 ### 2021
 
 <span style="color:SteelBlue">[RTSS'21]</span> *Concurrent Order Dispatch for Instant Delivery with Time-Constrained Actor-Critic Reinforcement Learning* <br>
 Baoshen Guo, Shuai Wang, **Yi Ding**, Guang Wang, Suining He, Desheng Zhang, and Tian He <br> <span style="background-color:red;color:White"> Outstanding Paper Award </span>
 
-<span style="color:DarkGreen">[IMWUT/UbiComp'21]</span> *ALWAES : an Automatic Outdoor Location-Aware Correction System for Online Delivery Platforms* <br>
+<span style="color:DarkGreen">[IMWUT/UbiComp'21]</span> *ALWAES: an Automatic Outdoor Location-Aware Correction System for Online Delivery Platforms* <br>
 Dongzhe Jiang, **Yi Ding**, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zhang <br>
 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3478081)], [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=107267)
 
