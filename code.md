@@ -37,12 +37,13 @@ pip install torch-geometric
 
 The latest tested combination is: Python 3.8.2 + Pytorch 1.4.0 + torch-geometric 1.5.0.
 
-## Quick Start
+### Quick Start
+- 
 ```python
 python main.py
 ```
 
-## Usage Summary
+### Usage Summary
 ```bash
 Interface for SmartLOC framework [-h] [--data_path DATA_PATH] [--feature_path FEATURE_PATH] [--inshop_path INSHOP_PATH] [--THRE THRE] [--TIME_INTERVAL TIME_INTERVAL] [--test_date TEST_DATE] [--test_ratio TEST_RATIO] [--data_usage DATA_USAGE] [--cat_num CAT_NUM]
                                         [--loc_cat_num LOC_CAT_NUM] [--model {DE-GNN,GIN,GCN,GraphSAGE,GAT,PGNN}] [--layers LAYERS] [--hidden_features HIDDEN_FEATURES] [--feature FEATURE] [--metric {acc,auc}] [--directed DIRECTED] [--prop_depth PROP_DEPTH]
@@ -51,7 +52,7 @@ Interface for SmartLOC framework [-h] [--data_path DATA_PATH] [--feature_path FE
                                         [--l2 L2] [--dropout DROPOUT] [--log_dir LOG_DIR] [--model_dir MODEL_DIR] [--result_dir RESULT_DIR] [--cache_dir CACHE_DIR] [--version_name VERSION_NAME] [--summary_file SUMMARY_FILE] [--debug] [--use_cache USE_CACHE]
 ```
 
-## Optinal Arguments
+### Optinal Arguments
 ```
   -h, --help            show this help message and exit
   --data_path DATA_PATH
@@ -130,11 +131,11 @@ Interface for SmartLOC framework [-h] [--data_path DATA_PATH] [--feature_path FE
 
 
 
-# P2Loc
+## P2Loc
 This repository is the official PyTorch implementation of the *P2Loc* reported in the paper: <br>
 [*P2-Loc: A Person-2-Person Indoor Localization System in On-Demand Delivery*](). 
 
-## Installation
+### Installation
 Requirements: Python >= 3.5, [Anaconda3](https://www.anaconda.com/)
 
 - Update conda:
@@ -160,7 +161,7 @@ pip install torch-geometric
 
 The latest tested combination is: Python 3.8.2 + Pytorch 1.4.0 + torch-geometric 1.5.0.
 
-## Quick Start
+### Quick Start
 ```
 python main.py
 ```
