@@ -55,9 +55,7 @@ As shown in the figure, my works involve all three phases in the **human-centere
 </p>
 
 <p>We design, implement and evaluate SmartLOC, a map-free localization system that employs merchants’ smartphones as anchors to estimate couriers’ travel time to all merchants. We build indoor shop graphs for each mall, and adopt graph embedding to extract indoor shops’ topology. We evaluate SmartLOC in two  malls in Shanghai and show it can improve
-the accuracy of travel time estimation by 20%~80% compared with baselines.</p>
-
-[[PDF](https://dl.acm.org/doi/pdf/10.1145/3494972)]
+the accuracy of travel time estimation by 20%~80% compared with baselines.<br>[[PDF](https://dl.acm.org/doi/pdf/10.1145/3494972)] </p>
 
 <p class="clear"> </p>
 
@@ -66,7 +64,7 @@ the accuracy of travel time estimation by 20%~80% compared with baselines.</p>
 	<img src="/assets/images/Research/p2loc.png" alt="P2Loc Problem Setting" style="float: left; width: 20em;">
 </p>
 
-<p>We design a person-to-person localization system that can (1) detect encounter events via Bluetooth on smartphones, and (2) infer couriers’ relative locations to all the indoor merchants via deep learning on a graph neural network. The system is infrastructure-free, map-free, and compatible for off-the-shelf devices.</p> <br> [[Dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=119097)]
+<p>We design a person-to-person localization system that can (1) detect encounter events via Bluetooth on smartphones, and (2) infer couriers’ relative locations to all the indoor merchants via deep learning on a graph neural network. The system is infrastructure-free, map-free, and compatible for off-the-shelf devices.<br> [[Dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=119097)]</p> 
 
 <p class="clear"> </p>
 
