@@ -44,6 +44,7 @@ python main.py
 ```
 
 ### Usage Summary
+- 
 ```bash
 Interface for SmartLOC framework [-h] [--data_path DATA_PATH] [--feature_path FEATURE_PATH] [--inshop_path INSHOP_PATH] [--THRE THRE] [--TIME_INTERVAL TIME_INTERVAL] [--test_date TEST_DATE] [--test_ratio TEST_RATIO] [--data_usage DATA_USAGE] [--cat_num CAT_NUM]
                                         [--loc_cat_num LOC_CAT_NUM] [--model {DE-GNN,GIN,GCN,GraphSAGE,GAT,PGNN}] [--layers LAYERS] [--hidden_features HIDDEN_FEATURES] [--feature FEATURE] [--metric {acc,auc}] [--directed DIRECTED] [--prop_depth PROP_DEPTH]
@@ -53,6 +54,7 @@ Interface for SmartLOC framework [-h] [--data_path DATA_PATH] [--feature_path FE
 ```
 
 ### Optinal Arguments
+- 
 ```
   -h, --help            show this help message and exit
   --data_path DATA_PATH
