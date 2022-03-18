@@ -7,11 +7,11 @@ last_modified_at: 2022-03-18
 author_profile: true
 ---
 
-# SmartLOC
+## SmartLOC
 This repository is the official PyTorch implementation of the *SmartLoc* reported in the paper: <br>
 [*SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery*](https://dl.acm.org/doi/pdf/10.1145/3494972). 
 
-## Installation
+### Installation
 Requirements: Python >= 3.5, [Anaconda3](https://www.anaconda.com/)
 
 - Update conda:
@@ -38,12 +38,12 @@ pip install torch-geometric
 The latest tested combination is: Python 3.8.2 + Pytorch 1.4.0 + torch-geometric 1.5.0.
 
 ## Quick Start
-```
+```python
 python main.py
 ```
 
 ## Usage Summary
-```
+```bash
 Interface for SmartLOC framework [-h] [--data_path DATA_PATH] [--feature_path FEATURE_PATH] [--inshop_path INSHOP_PATH] [--THRE THRE] [--TIME_INTERVAL TIME_INTERVAL] [--test_date TEST_DATE] [--test_ratio TEST_RATIO] [--data_usage DATA_USAGE] [--cat_num CAT_NUM]
                                         [--loc_cat_num LOC_CAT_NUM] [--model {DE-GNN,GIN,GCN,GraphSAGE,GAT,PGNN}] [--layers LAYERS] [--hidden_features HIDDEN_FEATURES] [--feature FEATURE] [--metric {acc,auc}] [--directed DIRECTED] [--prop_depth PROP_DEPTH]
                                         [--use_degree USE_DEGREE] [--use_attributes USE_ATTRIBUTES] [--loc_layers LOC_LAYERS] [--lstm_num_layers LSTM_NUM_LAYERS] [--range RANGE] [--loc_hidden_features LOC_HIDDEN_FEATURES] [--rw_depth RW_DEPTH] [--max_sp MAX_SP]
