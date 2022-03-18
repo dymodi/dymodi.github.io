@@ -10,7 +10,6 @@ author_profile: true
 ## SmartLOC
 This repository is the official PyTorch implementation of the *SmartLoc* reported in the paper: <br>
 [*SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery*](https://dl.acm.org/doi/pdf/10.1145/3494972). 
-
 ### Installation
 Requirements: Python >= 3.5, [Anaconda3](https://www.anaconda.com/)
 
@@ -164,6 +163,7 @@ pip install torch-geometric
 The latest tested combination is: Python 3.8.2 + Pytorch 1.4.0 + torch-geometric 1.5.0.
 
 ### Quick Start
+- 
 ```
 python main.py
 ```
