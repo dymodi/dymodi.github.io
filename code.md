@@ -10,7 +10,12 @@ author_profile: true
 ## SmartLOC
 This repository is the official PyTorch implementation of the *SmartLoc* reported in the paper: <br>
 [*SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery*](https://dl.acm.org/doi/pdf/10.1145/3494972). 
+### Source Code
+
+[SmartLoc](https://github.com/dymodi/SmartLOC)
+
 ### Installation
+
 Requirements: Python >= 3.5, [Anaconda3](https://www.anaconda.com/)
 
 - Update conda:
@@ -136,7 +141,12 @@ Interface for SmartLOC framework [-h] [--data_path DATA_PATH] [--feature_path FE
 This repository is the official PyTorch implementation of the *P2Loc* reported in the paper: <br>
 [*P2-Loc: A Person-2-Person Indoor Localization System in On-Demand Delivery*](). 
 
+### Source Code
+
+[P2Loc](https://github.com/dymodi/P2Loc)
+
 ### Installation
+
 Requirements: Python >= 3.5, [Anaconda3](https://www.anaconda.com/)
 
 - Update conda:
