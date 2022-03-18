@@ -61,6 +61,17 @@ the accuracy of travel time estimation by 20%~80% compared with baselines.</p>
 
 <p class="clear"> </p>
 
+#### P2Loc, A Person-2-Person Indoor Localization System [UbiComp'22]
+<p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
+	<img src="/assets/images/Research/p2loc.png" alt="P2Loc Problem Setting" style="float: left; width: 20em;">
+</p>
+
+<p>We design a person-to-person localization system that can (1) detect encounter events via Bluetooth on couriers’ smartphones, and (2) infer couriers’ relative locations to all the indoor merchants via deep learning on a graph neural network. The system is infrastructure-free, map-free, and compatible for off-the-shelf devices.</p>
+
+<p>We deploy the system on a real-world industry platform. The system runs on the smartphones of 4,075 couriers around 79 merchants for a month.</p>
+
+<p class="clear"> </p>
+
 <!-- ## Literature Surveys
 
 [Literature Surveys](/research/Literature-Survey/)
