@@ -1,10 +1,11 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Location Privacy
-date: Feb. 15, 2018
+layout: single
+title: "Related Works of Location Privacy"
+permalink: /Literature-Reviews/Localization/Location-Privacy-Related-Works/
+classes: wide
+author_profile: true
+date: 18/2/15
 ---
-# Related Works of Location Privacy
 
 A common conclusion is that user trace can be recovered from very little trace leakage, published mobility data has privacy vulnerabilities even with anonymization [MobiCom10, MobiCom11, SciRep13, WWW17].
 

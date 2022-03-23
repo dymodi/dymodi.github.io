@@ -34,6 +34,4 @@ author_profile: true
 
 **Special Topics**
 
-[Related Works of Beacon POI Correction](/Literature-Reviews/Localization/Beacon-POI-Correction-Related-Works)
-
 [Related Works of Location Privacy](/Literature-Reviews/Localization/Location-Privacy-Related-Works)
