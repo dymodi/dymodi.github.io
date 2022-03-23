@@ -2,6 +2,8 @@
 layout: single
 title: Related Works of Indoor Localization
 permalink: /Literature-Reviews/Localization/Indoor-Localization-Related-Works/
+classes: wide
+author_profile: true
 ---
 
 **Taxonomy**
@@ -14,13 +16,9 @@ permalink: /Literature-Reviews/Localization/Indoor-Localization-Related-Works/
   * Target Type: Device-based / Device-free
   * Granularity: Room Level / Meters / Decimeters / Centimeter
 
-
-
 **Comments**
 
 * Many VLP (Visible Light Positioning) conducts modification on the light fixture, hence can be viewed as frontier works on anchorlization.
-
-
 
 **Special Topics**
 
