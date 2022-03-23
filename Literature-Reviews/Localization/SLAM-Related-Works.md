@@ -1,8 +1,9 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of SLAM
-date: Oct. 30, 2020
+layout: single
+title: "Related Works of SLAM"
+permalink: /Literature-Reviews/Localization/SLAM-Related-Works/
+classes: wide
+author_profile: true
 ---
 
 **Key Words**: SLAM (Simultaneous Localization and Mapping)
