@@ -1,8 +1,10 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Landmark Detection
-date: Feb. 25, 2020
+layout: single
+title: "Related Works of Landmark Detection"
+permalink: /Literature-Reviews/Localization/Landmark-Detection-Related-Works/
+classes: wide
+author_profile: true
+date: 20/2/25
 ---
 
 Landmark detection is somewhat similar to context sensing as I summarized [here](https://dymodi.github.io/Research/Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works).
