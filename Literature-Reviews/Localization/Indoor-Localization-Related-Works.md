@@ -41,7 +41,7 @@ author_profile: true
 * Adaptive GPS Duty Cycling and Radio Ranging, *SenSys10*
   * This is not a indoor localization paper, but provide a very good description on the relation between RSSI and distance as shown in the following
 
-<p>
+<p style="vertical-align:middle">
 	<img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png" alt="RSSI Features" style="vertical-align:middle; width: 20em;">
 </p>
 
