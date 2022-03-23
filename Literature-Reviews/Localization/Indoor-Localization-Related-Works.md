@@ -1,5 +1,5 @@
 ---
-layout: sinlge
+layout: single
 title: Related Works of Indoor Localization
 permalink: /Literature-Reviews/Localization/Indoor-Localization-Related-Works/
 ---
@@ -18,7 +18,7 @@ permalink: /Literature-Reviews/Localization/Indoor-Localization-Related-Works/
 
 **Comments**
 
-* Many VLP (Visiable Light Positioning) conducts modification on light fixture, hence can be viewed as frontier works on anchorlization.
+* Many VLP (Visible Light Positioning) conducts modification on the light fixture, hence can be viewed as frontier works on anchorlization.
 
 
 
