@@ -1,9 +1,9 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Cooperative / Encounter-based Localization
-date: Mar. 1, 2021
-
+layout: single
+title: "Related Works of Cooperative / Encounter-based Localization"
+permalink: /Literature-Reviews/Localization/Related-Works-of-Encounter-based-Localization/
+classes: wide
+author_profile: true
 ---
 
 **Key Words:** Encounter-based Localization, Cooperative Localization, Rendezvous-based Localization
