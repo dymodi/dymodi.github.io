@@ -42,9 +42,8 @@ author_profile: true
   * This is not a indoor localization paper, but provide a very good description on the relation between RSSI and distance as shown in the following
 
 <p>
-	<img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png" alt="RSSI Features" style="width: 20em;">
+	<img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png" alt="RSSI Features" style="vertical-align:middle; width: 20em;">
 </p>
-
 
 
 * LiFS: Locating in Fingerprint Space, *MobiCom 12*, `yang2012locating`
