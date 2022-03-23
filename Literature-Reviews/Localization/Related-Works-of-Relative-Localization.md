@@ -1,9 +1,9 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Relative Localization
-date: Mar. 23, 2021
-
+layout: single
+title: "Related Works of Relative Localization"
+permalink: /Literature-Reviews/Localization/Related-Works-of-Relative-Localization/
+classes: wide
+author_profile: true
 ---
 
 **Key Words:** Relative Localization
