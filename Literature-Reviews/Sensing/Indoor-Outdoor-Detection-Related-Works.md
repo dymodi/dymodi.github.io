@@ -1,13 +1,13 @@
 ---
 layout: single
 title: "Related Works of Indoor Outdoor Detection"
-permalink: /Literature-Reviews/Localization/Indoor-Outdoor-Detection-Related-Works/
+permalink: /Literature-Reviews/Sensing/Indoor-Outdoor-Detection-Related-Works/
 classes: wide
 author_profile: true
 date: 19/7/2
 ---
 
-In this surve, we only focus on indoor / outdoor detection.
+In this survey, we only focus on indoor/outdoor detection.
 
 **Key Words**
 
