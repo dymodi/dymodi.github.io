@@ -1,15 +1,12 @@
 ---
-layout: post
-title: Related Works of Infrastructure Less Indoor Localization
-date: Oct. 9, 2019
-author: Yi DING
+layout: single
+title: "Related Works of Infrastructure Less Indoor Localization"
+permalink: /Literature-Reviews/Localization/Infrastructure-Less-Indoor-Localization-Related-Works/
+classes: wide
+author_profile: true
 ---
 
-
-
 **Keywords:** infrastructure/anchor less/free.
-
-
 
 **Comments**
 
