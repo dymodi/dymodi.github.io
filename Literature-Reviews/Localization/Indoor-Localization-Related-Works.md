@@ -42,11 +42,11 @@ author_profile: true
   * This is not a indoor localization paper, but provide a very good description on the relation between RSSI and distance as shown in the following
 
 <p><img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png"
-height="150"
+height="150" !important;
 alt="RSSI Features">
 </p>
   
-  
+
 * LiFS: Locating in Fingerprint Space, *MobiCom 12*, `yang2012locating`
   * Taxonomy: Wi-Fi,  Fingerprinting, Localization Algoirtihm, Large-Scale,
   * Pros: Reduced fingerprinting workload, Large scale;
