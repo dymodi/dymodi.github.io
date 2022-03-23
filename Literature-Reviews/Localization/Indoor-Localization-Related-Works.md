@@ -40,10 +40,12 @@ author_profile: true
   
 * Adaptive GPS Duty Cycling and Radio Ranging, *SenSys10*
   * This is not a indoor localization paper, but provide a very good description on the relation between RSSI and distance as shown in the following
+
+<p><img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png"
+height="150"
+alt="RSSI Features">
+</p>
   
-    <p align = "center">
-    <img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png"  alt="RSSI Features" height="200">
-    </p>
   
 * LiFS: Locating in Fingerprint Space, *MobiCom 12*, `yang2012locating`
   * Taxonomy: Wi-Fi,  Fingerprinting, Localization Algoirtihm, Large-Scale,
