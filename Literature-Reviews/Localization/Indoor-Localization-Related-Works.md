@@ -43,7 +43,6 @@ author_profile: true
   
     <p align = "center">
     <img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png"  alt="RSSI Features" height="200">
-     <figcaption>Research Vision</figcaption> 
     </p>
   
 * LiFS: Locating in Fingerprint Space, *MobiCom 12*, `yang2012locating`
