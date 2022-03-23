@@ -1,12 +1,13 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Heterogeneous Sensing
-date: April 23, 2019
+layout: single
+title: "Related Works of Heterogeneous Sensing"
+permalink: /Literature-Reviews/Sensing/Heterogeneous-Sensing-Related-Works/
+classes: wide
+author_profile: true
+date: 19/4/23
 ---
 
 Heterogeneity is problem that widely met in research and applications. It is said in [SenSys12, IODetector] that "since the antenna gain may vary across different mobile phone models, it is hard to accurately map different RSS values to different environments." It is also said in [TMC14] that "environmental changes impact the transmission channel between devices". Similar conclusions can also been found in [SenSys12, CrowdMon], [iiWAS16].
-
 
 
 **Taxonomy**

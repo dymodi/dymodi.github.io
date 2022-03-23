@@ -1,11 +1,11 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Energy Efficient Sensing
-date: May 10, 2019
+layout: single
+title: "Related Works of Energy Efficient Sensing"
+permalink: /Literature-Reviews/Sensing/Energy-Efficient-Sensing-Related-Works/
+classes: wide
+author_profile: true
+date: 19/5/10
 ---
-
-
 
 **Taxonomy**
 

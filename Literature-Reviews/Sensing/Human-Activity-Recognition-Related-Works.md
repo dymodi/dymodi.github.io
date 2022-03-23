@@ -1,17 +1,15 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of HAR (Human Activity Recognition) and Transportation Mode
-date: Dec. 19, 2019
+layout: single
+title: "Related Works of HAR (Human Activity Recognition) and Transportation Mode"
+permalink: /Literature-Reviews/Sensing/Human-Activity-Recognition-Related-Works/
+classes: wide
+author_profile: true
+date: 19/12/19
 ---
-
-
 
 "Transportation/Mobiliy Mode" and "Activity Recognition" are two very related topics, since many studies consider "Walk/Run" as activities.
 
 In this survey, I mainly focus on courier-related activities/mobilities (e.g. walk/riding) while ignoring other activities/mobilities (e.g. car/bus/keystroke).
-
-
 
 **Keyword**
 

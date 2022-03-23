@@ -1,8 +1,10 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Context-Aware Computing
-date: June 13, 2019
+layout: single
+title: "Related Works of Context-Aware Computing"
+permalink: /Literature-Reviews/Sensing/Context-Aware-Computing-Related-Works/
+classes: wide
+author_profile: true
+date: 19/6/13
 ---
 
 In another [survey](https://dymodi.github.io/Research/Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works), we only focus on single-source context sensing without complete application solution. We need broaden the scope and try to find more related works on multi-source sensor with complete upper layer application.

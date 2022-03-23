@@ -1,18 +1,17 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Context/Scene/Ambience Sensing/Monitoring 
-date: May 6, 2019
+layout: single
+title: "Related Works of Context/Scene/Ambience Sensing/Monitoring"
+permalink: /Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works/
+classes: wide
+author_profile: true
+date: 19/5/6
 ---
-
-
 
 Context/Scene/Ambience Sensing/Monitoring and Context Sharing are related topics.
 
 We may need to broaden the scope (Walkway) and consider some industrial progress.
 
 Localization is a special type of context and related works on localization can be found [here](https://dymodi.github.io/Research/Literature-Reviews/Indoor-Localization-Related-Works).
-
 
 
 **Keyword**

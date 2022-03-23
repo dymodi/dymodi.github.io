@@ -1,8 +1,10 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Mobile Sensing Calibration
-date: July 3, 2019
+layout: single
+title: "Related Works of Mobile Sensing Calibration"
+permalink: /Literature-Reviews/Sensing/Calibration-Related-Works/
+classes: wide
+author_profile: true
+date: 19/7/3
 ---
 
 **Taxonomy**
