@@ -1,8 +1,9 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Indoor Navigation
-date: Nov. 17, 2020
+layout: single
+title: "Related Works of Indoor Navigation"
+permalink: /Literature-Reviews/Localization/Indoor-Navigation-Related-Works/
+classes: wide
+author_profile: true
 ---
 
 **Key Words**: Indoor Navigation
@@ -15,8 +16,8 @@ date: Nov. 17, 2020
 **Comments**
 
 * "Localization" and "Navigation" are two closely-related topics.
-* The basic idea of *Travi-Navi*, *FOLLOWME*, and *ppNav* are similar in terms of "Guider+Follower" scheme, the primary difference comes in dat (sensor) source.
-* The basic weaknesses of existing works (*Travi-Navi*, *FOLLOWME*, and *ppNav*) are need of guider (leader) and high-sampling sensor data for trace construction, deviation detection or turn detection.
+* The basic idea of *Travi-Navi*, *FOLLOWME*, and *ppNav* are similar in terms of the "Guider+Follower" scheme, the primary difference comes in data (sensor) source.
+* The basic weaknesses of existing works (*Travi-Navi*, *FOLLOWME*, and *ppNav*) are the need of guider (leader) and high-sampling sensor data for trace construction, deviation detection or turn detection.
 
 **Papers**
 
@@ -27,19 +28,19 @@ date: Nov. 17, 2020
   * Weaknesses: (1) Images unavailable for many applications; (2) Need guider;
 * Last-mile navigation using smartphones, [MobiCom-2015-FOLLOWME]
   * Taxonomy: Geomagnetic, Floorplan-free;
-  * Idea: (1) Guider+Follower scheme; (2) Geomagnetic fingrerprints;
+  * Idea: (1) Guider+Follower scheme; (2) Geomagnetic fingerprints;
   * Contribution: (1) Idea: Infra-free; (2) Tech: Magnetic-field-based, step-constrained trace synchronization; (3) Implementation
   * Weaknesses: (1) Need high sampling rate (~100Hz) and energy consumption.
 * ppNav, Peer-to-Peer Indoor Navigation, [IEEE-2017-P2P]
   * Taxonomy: Wi-Fi+IMU, Floorplan-free; 
-  * Idea: Navigation according to a ***previous*** traveller’s trace experience.
+  * Idea: Navigation according to a ***previous*** traveler’s trace experience.
   * Contribution: (1) Idea: Infra-free, P2P navigation; (2) Tech: WiFi fingerprint model: diagrammed; (3) Implementation.
-  * Weaknesses: (1) Need guider or labeled data; (2) Recording events of interests (heading, turing, upstairs/downstairs) need high sampling rate (~100Hz) and energy consumption.
-* Deep Learning based Wireless Localization for Indoor Navigation, [MobiCom-2020-DLoc]
+  * Weaknesses: (1) Need guider or labeled data; (2) Recording events of interests (heading, turning, upstairs/downstairs) need high sampling rate (~100Hz) and energy consumption.
+* Deep Learning-based Wireless Localization for Indoor Navigation, [MobiCom-2020-DLoc]
   * Taxonomy: Wi-Fi, LiDAR;
-  * Idea: (1) Use neural network to implicitly model envrironment (for Wi-Fi-based localization); 
+  * Idea: (1) Use the neural network to implicitly model environment (for Wi-Fi-based localization); 
   * Contribution: (1) Domain knowledge+NN to solve Domain-specific problem; (2) Map construction via robot; (3) Large-scale data-set.
-  * Weaknesses: (1) Need map constribution (fingerprinting) process (MapFinder, SLAM).
+  * Weaknesses: (1) Need map contribution (fingerprinting) process (MapFinder, SLAM).
 
 ## Ref.
 
