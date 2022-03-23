@@ -1,9 +1,10 @@
 ---
 layout: single
-title: Related Works of Indoor Localization
+title: "Related Works of Indoor Localization"
 permalink: /Literature-Reviews/Localization/Indoor-Localization-Related-Works/
 classes: wide
 author_profile: true
+
 ---
 
 **Taxonomy**
@@ -41,7 +42,8 @@ author_profile: true
   * This is not a indoor localization paper, but provide a very good description on the relation between RSSI and distance as shown in the following
   
     <p align = "center">
-    <img src="figures/RSSI-Distance-Relation.png"  alt="RSSI Features" height="350">
+    <img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png"  alt="RSSI Features" height="350">
+     <figcaption>Research Vision</figcaption> 
     </p>
   
 * LiFS: Locating in Fingerprint Space, *MobiCom 12*, `yang2012locating`
@@ -57,9 +59,9 @@ author_profile: true
   - Taxonomy: Multiple, Anchor, Meters Level,
   - Signal landmarks in the building as anchors
   - Dead reckoning using to locate between anchors
-  - Cons: Device diversity not considered, Landmark not available at everywhere
+  - Cons: Device diversity not considered, Landmark not available everywhere
   
-* Guoguo: Acousitc Fingraind Indoor Localization, *MobiSys 13*, `liu2013guoguo`
+* Guoguo: Acoustic Fingraind Indoor Localization, *MobiSys 13*, `liu2013guoguo`
   * Taxonomy: Acoustic, Model-based, Localization Algorithm + Anchor, Small Scale
   
 * Social-Loc: Improving Indoor Localization with Social Sensing, *SenSys 13*, `jun2013social`
