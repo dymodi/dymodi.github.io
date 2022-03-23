@@ -33,9 +33,17 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
 * ISWC12: Energy Efficiency
   * Acc., 5/16/50/100Hz, ML
   * Trade-off between sampling frequence and classification performance.
-<p align = "center">
-<img src="figures/SamplingRateEnergyTradeoff_ISWC12.png"  alt="Context aware navigation" height="200">
-  <img src="figures/DifferentSamplingRatePeformance_ISWC12.png"  alt="Context aware navigation" height="200">
+<p>
+  <img 
+       src="/Literature-Reviews/Localization/figures/SamplingRateEnergyTradeoff_ISWC12.png"
+       alt="SamplingRateEnergyTradeoff_ISWC12" 
+       class="align-center"
+       style="height: 20em;" >
+  <img 
+       src="/Literature-Reviews/Localization/figures/DifferentSamplingRatePeformance_ISWC12.png"  
+       alt="DifferentSamplingRatePeformance_ISWC12"
+       class="align-center"
+       style="height: 20em;" >
 </p>
 
 * SenSys13: Accelerator
