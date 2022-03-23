@@ -42,7 +42,7 @@ author_profile: true
   * This is not a indoor localization paper, but provide a very good description on the relation between RSSI and distance as shown in the following
   
     <p align = "center">
-    <img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png"  alt="RSSI Features" height="350">
+    <img src="/Literature-Reviews/Localization/figures/RSSI-Distance-Relation.png"  alt="RSSI Features" height="200">
      <figcaption>Research Vision</figcaption> 
     </p>
   
