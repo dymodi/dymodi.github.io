@@ -27,9 +27,7 @@ author_profile: true
 [Related Works of Crowd Delivery](/Literature-Reviews/Transportation-and-Delivery/Crowd-Delivery-Related-Works)
 
 ## IoT & Mobile Computing
-
 ### Localization
-
 **Different Targets**
 
 [Related Works of Indoor Localization](/Literature-Reviews/Localization/Indoor-Localization-Related-Works)

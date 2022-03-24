@@ -1,13 +1,15 @@
 ---
-layout: post
-title: Data Inconsistency Related Works
-date: Oct. 26, 2017
-author: Yi DING
+layout: single
+title: "Data Inconsistency Related Works"
+permalink: /Literature-Reviews/MLDM/Data-Inconsistency-Related-Works/
+classes: wide
+author_profile: true
+date: 17/10/26
 ---
 
 [comment]: # "This is a review for data inconsistency"
 
-In paper [1],  conditional functional dependencies (CFDs) is used to detect the errors in the data. The basic idea is that CFD makes some assertions on the data. The violations is detected by checking weather the data comply with  the CFD. For example, the CFD claims that in a dataset, if a employee is in country "UK" and city "London", then his/her salary should be higher than "1000", we then check this CFD on the dataset and find the violations.
+In paper [1],  conditional functional dependencies (CFDs) are used to detect errors in the data. The basic idea is that CFD makes some assertions on the data. The violations are detected by checking whether the data comply with the CFD. For example, the CFD claims that in a dataset, if an employee is in country "UK" and city "London", then his/her salary should be higher than "1000", we then check this CFD on the dataset and find the violations.
 
 Paper [9] seems to be the first paper talking about CFD.
 

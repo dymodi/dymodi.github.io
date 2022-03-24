@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Related Works of Spatial-Temporal Data Learning"
-permalink: /Literature-Reviews/MLDM/Context-Aware-Computing-Related-Works/
+permalink: /Literature-Reviews/MLDM/Spatial-Temporal-Learning-Related-Works/
 classes: wide
 author_profile: true
 date: 19/7/14
