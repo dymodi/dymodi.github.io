@@ -1,8 +1,10 @@
 ---
-layout: post
-title: Related Works of Feature Selection
-date: Oct. 26, 2017
-author: Yi DING
+layout: single
+title: "Related Works of Feature Selection"
+permalink: /Literature-Reviews/MLDM/Feature-Selection-Related-Works/
+classes: wide
+author_profile: true
+date: 17/10/26
 ---
 
 Paper [1] is the most cited paper in Google Scholar. It is a survey paper that worth careful reading. Mainstream methods such as variable ranking, ... are discussed in the paper. 
