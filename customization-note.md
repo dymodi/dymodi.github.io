@@ -20,3 +20,19 @@ about image size and alignment, the following style seems to work:
 
 
 
+03/24/22 two image side by side
+
+seems this works.
+
+<figure class="half" style="margin-left: 10%; margin-right: 10%; " >
+    <img 
+       src="/Blog/MLfolds/deep-learning/figures/neural_net2.png"
+       alt="neural_net2" 
+       class="align-center"
+       style="height: 8em; width: 13em" > 
+    <img 
+       src="/Blog/MLfolds/deep-learning/cnn.png"
+       alt="cnn"
+       class="align-center"
+       style="height: 8em; width: 12em" >
+</figure>

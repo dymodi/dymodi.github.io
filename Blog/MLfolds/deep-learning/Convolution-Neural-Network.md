@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Convolution Neural Network
-date: Jan 5, 2017
-author: Yi DING
+layout: single
+title: "Convolution Neural Network"
+permalink: /blog/MLfolds/deep-learning/Convolution-Neural-Network/
+classes: wide
+author_profile: true
+use_math: true
+date: 17/1/5
 ---
 
 Here we basically follow the contents provided by [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/). A related video can be found in [Youtube](https://www.youtube.com/watch?v=u6aEYuemt0M).
@@ -21,11 +24,18 @@ One reason that we need ConvNN for images is that regular NNs do not scale well 
 
 ConvNN is made up of layers, each layer transform a 3D volumn to another 3D volumn with differentiable functions. Three types of layers are used: **Convolutional Layer**, **Pooling Layer**, and **Fully-Connected Layer** (exactly as seen in regular Neural Networks)
 
-<p align = "center">
-    <img src="figures/neural_net2.png"  alt="nn" height="150">
-    <img src="figures/cnn.png"  alt="cnn" height="150">
-</p>
-
+<figure class="half" style="margin-left: 10%; margin-right: 10%; " >
+    <img 
+       src="/Blog/MLfolds/deep-learning/figures/neural_net2.png"
+       alt="neural_net2" 
+       class="align-center"
+       style="height: 8em; width: 13em" > 
+    <img 
+       src="/Blog/MLfolds/deep-learning/cnn.png"
+       alt="cnn"
+       class="align-center"
+       style="height: 8em; width: 12em" >
+</figure>
 
 (Figures come from [Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.github.io/convolutional-networks/))
 
@@ -42,11 +52,12 @@ In summary,
 - Each Layer may or may not have parameters (e.g. CONV/FC do, RELU/POOL don’t)
 - Each Layer may or may not have additional hyperparameters (e.g. CONV/FC/POOL do, RELU doesn’t)
 
-<p align = "center">
-    <img src="figures/convnet.jpeg"  alt="convnet" height="300">
+<p>
+	<img src="/Blog/MLfolds/deep-learning/figures/convnet.png"
+       alt="single-link-better" 
+       style="width: 35em;" 
+       class="align-center">
 </p>
-
-
 
 ### Convolutional Layer
 
@@ -92,7 +103,6 @@ However, you should rarely ever have to train a ConvNet from scratch or design o
 ### Layer Sizing Patterns
 
 This subsection remains to be built when I have more practice.
-
 
 
 ## Refs.
