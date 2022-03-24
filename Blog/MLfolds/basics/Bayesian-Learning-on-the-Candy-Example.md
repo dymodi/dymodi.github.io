@@ -144,7 +144,7 @@ The updating process can be shown in the figure below:
 <p>
 	<img src="/Blog/MLfolds/basics/figures/bayesian-updating-for-candy-bag.png" 
        alt="Candy bages" 
-       style="height: 15em;" 
+       style="height: 20em;" 
        class="align-center">
 </p>
 
@@ -171,7 +171,7 @@ Similarly, we have the following figure.
 <p>
 	<img src="/Blog/MLfolds/basics/figures/candy-prediction.png" 
        alt="Candy prediction" 
-       style="height: 15em;" 
+       style="height: 20em;" 
        class="align-center">
 </p>
 
