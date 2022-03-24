@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Kernel Methods and Multiple Kernel Learning
-date: May 31, 2019
-author: Yi DING
+layout: single
+title: "Kernel Methods and Multiple Kernel Learning"
+permalink: /blog/MLfolds/clustering/Clustering-Summary/
+classes: wide
+author_profile: true
+use_math: true
+date: 19/5/31
 ---
 
 This blog is based on [Wikipedia](https://en.wikipedia.org/wiki/Kernel_method) and Cesar Souze's [blog]([http://crsouza.com/2010/03/17/kernel-functions-for-machine-learning-applications/](http://crsouza.com/2010/03/17/kernel-functions-for-machine-learning-applications/)).
@@ -46,8 +49,6 @@ $$K(x,y)=e^{\left( -\frac{\lVert x-y \rVert ^2}{2\sigma^2} \right)} $$
 
 ```tf.contrib.kernel_methods``` is also provided in TensorFlow.
 
-
-
 ## Multiple Kernel Learning (MKL)
 
 [Mehmet Gonen]([http://jmlr.csail.mit.edu/papers/volume12/gonen11a/gonen11a.pdf](http://jmlr.csail.mit.edu/papers/volume12/gonen11a/gonen11a.pdf)) formulate MKL as
@@ -56,9 +57,7 @@ $$k_{\eta}(\mathbf x_i, \mathbf x_j)=f_{\eta}(\{ k_m(\mathbf x^m_i, \mathbf x^m_
 
 where $f_\eta$ is a combination function.
 
-According to Mehmet, the reasoning (of MKL) is similar to combining different classifiers: Instead of choosing a single kernel function and putting all our eggs in the same basket, it is better to have a set and let an algorithm do the picking or combination. This shows simiarities as ensemble methods (boosting and bagging).
-
-
+According to Mehmet, the reasoning (of MKL) is similar to combining different classifiers: Instead of choosing a single kernel function and putting all our eggs in the same basket, it is better to have a set and let an algorithm do the picking or combination. This shows similarities to ensemble methods (boosting and bagging).
 
 ## Ref.
 
