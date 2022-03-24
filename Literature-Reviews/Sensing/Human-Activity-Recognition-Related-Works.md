@@ -34,7 +34,8 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
   * Acc., 5/16/50/100Hz, ML
   * Trade-off between sampling frequence and classification performance.
 
-<figure class="half">
+
+<figure class="half" style="margin-left: 10%; margin-right: 10%; " >
     <img 
        src="/Literature-Reviews/Sensing/figures/SamplingRateEnergyTradeoff_ISWC12.png"
        alt="SamplingRateEnergyTradeoff_ISWC12" 
