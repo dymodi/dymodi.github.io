@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Representation Learning
-date: June 20, 2019
-author: Yi DING
+layout: single
+title: "Representation Learning"
+permalink: /blog/MLfolds/representation-learning/Representation-Learning/
+classes: wide
+author_profile: true
+use_math: true
+date: 19/6/20
 ---
 
 ## Why we need representation learning?
@@ -18,9 +21,6 @@ We can think of the suprevised training of feedforward networks as performing a 
 [comment]: # "In the case of heterogeneous capatiable sensing, we want to learn representations from the raw RSSI data with device proprety, environment feature and user behaivor. One reason why explicitly dealing with representations is interesting is because they can be convenient to express many general priors about the world around us, i.e., priors that are not task-specific but would be likely to be useful for a learning machine to solve. Specifically, the main prior we want to exploit in this paper is (1) Multiple explanatory factors: device/environment/user; (2) Shared factors across tasks; (3) Temporal and spatial coherence"
 
 ## Transfer Learning and Domain Adaptation
-
-
-
 
 ## How to conduct representation learning?
 
@@ -38,10 +38,6 @@ Simple autoencoder may fail in extracting useful information from the dataset du
 
 * Sparse Autoencoders: $$L(\pmb{x},g(f(\pmb{x})))+\Omega(\pmb{h})$$, where $$\Omega(\pmb{h})$$ is a sparsity penalty over the code layer $$\pmb{h}$$.
 * Denoising Autoencoders (DAE): $$L(\pmb{x},g(f(\pmb{\tilde x})))$$, where $$\pmb{\tilde x}$$ is a copy of $$\pmb{x}$$ that has been corrupted by some form of noise.
-
-
-
-
 
 ## Ref.
 
