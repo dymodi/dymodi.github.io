@@ -1,10 +1,11 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Crowd Delivery
-date: Sep. 21, 2020
+layout: single
+title: "Related Works of Crowd Delivery"
+permalink: /Literature-Reviews/Transportation-and-Delivery/Crowd-Delivery-Related-Works/
+classes: wide
+author_profile: true
+date: 20/9/21
 ---
-# Related Works of Crowd Delivery
 
 **Key Words**: Crowd delivery
 
