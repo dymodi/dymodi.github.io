@@ -1,8 +1,11 @@
 ---
-layout: post
-title: A Summary of Clustering Methods
-date: April. 10, 2018
-author: Yi DING
+layout: single
+title: "A Summary of Clustering Methods"
+permalink: /blog/MLfolds/basics/Clustering-Summary/
+classes: wide
+author_profile: true
+use_math: true
+date: 18/4/10
 ---
 
 This post a summary of clustering methods I learned from [Data Mining course](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) at UMN.
@@ -15,8 +18,11 @@ Basically, clustering methods can be divided into two types: **hierarchical** an
 
 A cluster is a set of points such that any point in a cluster is closer (or more similar) to every other point in the cluster than to any point not in the cluster. 
 
-<p align = "center">
-<img src="figures/well-separated.png"  alt="Well separated" height="150">
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/well-separated.png" 
+       alt="Well separated" 
+       style="width: 6em;" 
+       class="align-center">
 </p>
 
 **Center-based clusters**
@@ -25,28 +31,35 @@ A cluster is a set of objects such that an object in a cluster is closer (moresi
 
 The center of a cluster is often a **centroid**, the average of all the points in the cluster, or a **medoid**, the most “representative” point of a cluster.
 
-<p align = "center">
-<img src="figures/center-based.png"  alt="Center based" height="110">
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/center-based.png" 
+       alt="Center based" 
+       style="width: 4em;" 
+       class="align-center">
 </p>
 
 **Contiguity-based clusters**
 
-<p align = "center">
-<img src="figures/contiguity-based.png"  alt="Contiguity based" height="100">
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/contiguity-based.png" 
+       alt="Contiguity based" 
+       style="width: 4em;" 
+       class="align-center">
 </p>
 
 A cluster is a set of points such that a point in a cluster is closer (or more similar) to one or more other points in the cluster than to any point not in the cluster.
 
 **Density-based clusters**
 
-<p align = "center">
-<img src="figures/density-based.png"  alt="Contiguity based" height="120">
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/density-based.png" 
+       alt="Density based" 
+       style="width: 5em;" 
+       class="align-center">
 </p>
 
 A cluster is a dense region of points, which is separated by low-density regions, from other regions of high density. 
 Used when the clusters are irregular or intertwined, and when noise and outliers are present. 
-
-
 
 ## Clusters Algorithms
 
@@ -77,18 +90,30 @@ We have the following ways to define the inter-cluster distances: MIN, MAX, Grou
 Between Centroids
 
 **MIN: Single link**, can handle non-elliptical shapes.
-<p align = "center">
-<img src="figures/single-link-strength.png"  alt="Single link strength" height="120">
+
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/single-link-strength.png" 
+       alt="Single link strength" 
+       style="width: 5em;" 
+       class="align-center">
 </p>
 
 However, single link is sensitive to noise and outliers
-<p align = "center">
-<img src="figures/single-link-weakness.png"  alt="Single link weakness" height="200">
+
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/single-link-weakness.png" 
+       alt="Single link weakness" 
+       style="width: 10em;" 
+       class="align-center">
 </p>
 
 **MAX: Complete link**, less susceptible to noise and outliers.
-<p align = "center">
-<img src="figures/complete-link-strength.png"  alt="Complete link strength" height="180">
+
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/complete-link-strength.png" 
+       alt="Complete link strength" 
+       style="width: 9em;" 
+       class="align-center">
 </p>
 
 The limitations of MAX is:
@@ -96,8 +121,11 @@ The limitations of MAX is:
 * Tends to break large clusters
 * Biased towards globular clusters
 
-<p align = "center">
-<img src="figures/complete-link-weakness.png"  alt="Complete link weakness" height="180">
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/complete-link-weakness.png" 
+       alt="Complete link weakness" 
+       style="width: 9em;" 
+       class="align-center">
 </p>
 
 **Group Average**: is a compromis between single and complete Link.
@@ -113,19 +141,23 @@ lDBSCAN is a density-based algorithm.
 * A **border point** is not a core point, but is in the neighborhood of a core point
 * A **noise point** is any point that is not a core point or a border point 
 
-<p align = "center">
-<img src="figures/dbscan.png"  alt="DBSCAN" height="200">
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/dbscan.png" 
+       alt="DBSCAN" 
+       style="width: 10em;" 
+       class="align-center">
 </p>
 
 The DBSCAN algorithm is resisitant to noise, and can handle clusters of different shapes and sizes.
 
-<p align = "center">
-<img src="figures/dbscan-example.png"  alt="DBSCAN Algorithm" height="180">
+<p>
+	<img src="/Blog/MLfolds/clustering/figures/dbscan-example.png" 
+       alt="DBSCAN Algorithm" 
+       style="width: 9em;" 
+       class="align-center">
 </p>
 
 DBSCAN can fail when the data has varying densities and high-dimensional data.
-
-
 
 ## Cluster Validity
 
