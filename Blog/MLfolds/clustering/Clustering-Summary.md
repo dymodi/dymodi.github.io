@@ -21,7 +21,7 @@ A cluster is a set of points such that any point in a cluster is closer (or more
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/well-separated.png" 
        alt="Well separated" 
-       style="width: 20em;" 
+       style="width: 30em;" 
        class="align-center">
 </p>
 
@@ -34,7 +34,7 @@ The center of a cluster is often a **centroid**, the average of all the points i
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/center-based.png" 
        alt="Center based" 
-       style="width: 16em;" 
+       style="width: 30em;" 
        class="align-center">
 </p>
 
@@ -43,7 +43,7 @@ The center of a cluster is often a **centroid**, the average of all the points i
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/contiguity-based.png" 
        alt="Contiguity based" 
-       style="width: 16em;" 
+       style="width: 40em;" 
        class="align-center">
 </p>
 
@@ -54,7 +54,7 @@ A cluster is a set of points such that a point in a cluster is closer (or more s
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/density-based.png" 
        alt="Density based" 
-       style="width: 20em;" 
+       style="width: 40em;" 
        class="align-center">
 </p>
 
@@ -94,7 +94,7 @@ Between Centroids
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/single-link-strength.png" 
        alt="Single link strength" 
-       style="width: 20em;" 
+       style="width: 30em;" 
        class="align-center">
 </p>
 
@@ -153,7 +153,7 @@ The DBSCAN algorithm is resisitant to noise, and can handle clusters of differen
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/dbscan-example.png" 
        alt="DBSCAN Algorithm" 
-       style="width: 30em;" 
+       style="width: 35em;" 
        class="align-center">
 </p>
 
