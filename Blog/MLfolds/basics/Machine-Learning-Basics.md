@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Machine Learning Basic Tutorial"
-permalink: /Blog/MLfolds/basics/Machine-Learning-Basics/
+permalink: /blog/MLfolds/basics/Machine-Learning-Basics/
 classes: wide
 author_profile: true
 date: 17/10/16
