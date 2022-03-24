@@ -4,6 +4,7 @@ title: "Machine Learning Basic Tutorial"
 permalink: /blog/MLfolds/basics/Machine-Learning-Basics/
 classes: wide
 author_profile: true
+use_math: true
 date: 17/10/16
 ---
 
