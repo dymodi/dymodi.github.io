@@ -29,12 +29,12 @@ ConvNN is made up of layers, each layer transform a 3D volumn to another 3D volu
        src="/Blog/MLfolds/deep-learning/figures/neural_net2.png"
        alt="neural_net2" 
        class="align-center"
-       style="height: 8em; width: 13em" > 
+       style="width: 14em" > 
     <img 
-       src="/Blog/MLfolds/deep-learning/cnn.png"
+       src="/Blog/MLfolds/deep-learning/figures/cnn.png"
        alt="cnn"
        class="align-center"
-       style="height: 8em; width: 12em" >
+       style="width: 13em" >
 </figure>
 
 (Figures come from [Convolutional Neural Networks for Visual Recognition, Stanford, CS231n](http://cs231n.github.io/convolutional-networks/))
@@ -53,7 +53,7 @@ In summary,
 - Each Layer may or may not have additional hyperparameters (e.g. CONV/FC/POOL do, RELU doesn’t)
 
 <p>
-	<img src="/Blog/MLfolds/deep-learning/figures/convnet.png"
+	<img src="/Blog/MLfolds/deep-learning/figures/convnet.jpeg"
        alt="single-link-better" 
        style="width: 35em;" 
        class="align-center">
