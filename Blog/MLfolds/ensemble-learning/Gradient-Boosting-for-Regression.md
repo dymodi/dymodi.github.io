@@ -56,9 +56,10 @@ $$\theta _i := \theta _i - \rho \frac{\partial J}{\partial \theta _i}$$
 <p>
 	<img src="/Blog/MLfolds/ensemble-learning/figures/gradient-descent.png" 
        alt="single-link-better" 
-       style="width: 35em;" 
+       style="width: 20em;" 
        class="align-center">
 </p>
+
 
 If we choose the squared error as loss function:
 
@@ -113,7 +114,7 @@ A summary of different loss functions and related boosting can be found in [Mach
 <p>
 	<img src="/Blog/MLfolds/ensemble-learning/figures/boosting-loss-functions.png" 
        alt="Boosting Algorithms" 
-       style="width: 35em;" 
+       style="width: 40em;" 
        class="align-center">
 </p>
 
