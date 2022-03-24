@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Gradient Boosting for Regression
-date: Dec. 22, 2017
-author: Yi DING
+layout: single
+title: "Gradient Boosting for Regression"
+permalink: /blog/MLfolds/ensemble-learning/Gradient-Boosting-for-Regression/
+classes: wide
+author_profile: true
+use_math: true
+date: 17/12/22
 ---
 
 [comment]: # "Some contents about GBDT for regression"
@@ -50,8 +53,11 @@ Gradient descent is a numerical way to minimize the function towards the negetiv
 
 $$\theta _i := \theta _i - \rho \frac{\partial J}{\partial \theta _i}$$
 
-<p align = "center">
-<img src="figures/gradient-descent.png"  alt="Gradient Descent" width="200">
+<p>
+	<img src="/Blog/MLfolds/ensemble-learning/figures/gradient-descent.png" 
+       alt="single-link-better" 
+       style="width: 35em;" 
+       class="align-center">
 </p>
 
 If we choose the squared error as loss function:
@@ -104,8 +110,11 @@ One reason to consider other loss functions instead of squared loss is that it's
 
 A summary of different loss functions and related boosting can be found in [Machine Learning - A Probabilistic Perspective - Kevin P. Murphy](http://dsd.future-lab.cn/members/2015nlp/Machine_Learning.pdf)
 
-<p align = "center">
-<img src="figures/boosting-loss-functions.png"  alt="Boosting Algorithms">
+<p>
+	<img src="/Blog/MLfolds/ensemble-learning/figures/boosting-loss-functions.png" 
+       alt="Boosting Algorithms" 
+       style="width: 35em;" 
+       class="align-center">
 </p>
 
 ## Ref.
