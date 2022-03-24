@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Association Between Variables
-date: June 14, 2019
-author: Yi DING
+layout: single
+title: "Association Between Variables"
+permalink: /blog/MLfolds/basics/Association/
+classes: wide
+author_profile: true
+use_math: true
+date: 19/6/14
 ---
 
 Some of the contents are based on *Statistical Inference* [1] and [Introduction to Data Mining](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php), and a [blog](https://medium.com/@outside2SDs/an-overview-of-correlation-measures-between-categorical-and-continuous-variables-4c7f85610365).
