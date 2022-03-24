@@ -4,6 +4,7 @@ title: "Related Works of Outlier Detection"
 permalink: /Literature-Reviews/MLDM/Outlier-Detection-Related-Works/
 classes: wide
 author_profile: true
+use_math: true
 date: 18/5/3
 ---
 
