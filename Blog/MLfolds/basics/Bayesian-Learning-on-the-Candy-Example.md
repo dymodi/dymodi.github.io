@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Bayesian Learning on the Candy Example
-date: Dec. 15, 2017
-author: Yi DING
+layout: single
+title: "Bayesian Learning on the Candy Example"
+permalink: /blog/MLfolds/basics/Bayesian-Learning-on-the-Candy-Example/
+classes: wide
+author_profile: true
+use_math: true
+date: 17/12/15
 ---
 
 <style>
@@ -62,22 +65,28 @@ $$P(x_\text{test}|\mathcal X)=\sum_i P(x_\text{test}|h_i)P(h_i|\mathcal X)$$
 
 ## The Candy Example
 Suppose there are five kinds of bags of candies:
-* 10% are $$h_1​$$: 100% cherry candies
+* 10% are $$h_1$$: 100% cherry candies
 * 20% are $$h_2$$: 75% cherry candies + 25% lime candies 
 * 40% are $$h_3$$: 50% cherry candies + 50% lime candies 
 * 20% are $$h_4$$: 25% cherry candies + 75% lime candies 
 * 10% are $$h_5$$: 100% lime candies
 
-<p align = "center">
-<img src="figures/candy-bags.png"  alt="Candy bages">
+<p>
+	<img src="/Blog/MLfolds/basics/figures/candy-bags.png" 
+       alt="Candy bages" 
+       style="height: 10em;" 
+       class="align-center">
 </p>
 
 (The figure is taken from Prof. Banerjee's slides)
 
 We take one candy at each time and put the candy back. Then we have the following observations:
 
-<p align = "center">
-<img src="figures/candies-drawn.png"  alt="Candy bages">
+<p>
+	<img src="/Blog/MLfolds/basics/figures/candies-drawn.png" 
+       alt="Candy bages" 
+       style="height: 10em;" 
+       class="align-center">
 </p>
 
 We need to answer two questions: 
@@ -131,9 +140,15 @@ Similarly, we can have the following results:
 {: .tablelines}
 
 The updating process can be shown in the figure below:
-<p align = "center">
-<img src="figures/bayesian-updating-for-candy-bag.png"  alt="Candy bages">
+
+<p>
+	<img src="/Blog/MLfolds/basics/figures/bayesian-updating-for-candy-bag.png" 
+       alt="Candy bages" 
+       style="height: 10em;" 
+       class="align-center">
 </p>
+
+
 
 ### Prediction
 For prediction, we use a weighted average over all the hypotheses. Before any candy is drawn, 
@@ -152,6 +167,12 @@ P(\text{next candy is lime} | \mathbf{d})
 \end{align} $$
 
 Similarly, we have the following figure.
-<p align = "center">
-<img src="figures/candy-prediction.png"  alt="Candy prediction">
+
+<p>
+	<img src="/Blog/MLfolds/basics/figures/candy-prediction.png" 
+       alt="Candy prediction" 
+       style="height: 10em;" 
+       class="align-center">
 </p>
+
+
