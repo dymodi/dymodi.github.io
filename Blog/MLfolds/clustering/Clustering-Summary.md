@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "A Summary of Clustering Methods"
-permalink: /blog/MLfolds/basics/Clustering-Summary/
+permalink: /blog/MLfolds/clustering/Clustering-Summary/
 classes: wide
 author_profile: true
 use_math: true
