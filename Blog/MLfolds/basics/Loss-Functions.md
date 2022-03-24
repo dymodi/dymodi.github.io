@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Loss Functions
-date: Jan 13, 2018
-author: Yi DING
+layout: single
+title: "Loss Functions"
+permalink: /blog/MLfolds/basics/Loss-Functions/
+classes: wide
+author_profile: true
+use_math: true
+date: 18/1/13
 ---
 
 In this post, I will summarize some common loss functions in machine learning. Some of the definitions come from Professor Liang in the lecture note of CS221 at Stanford.

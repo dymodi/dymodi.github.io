@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Model Evaluation
-date: Nov. 2, 2017
-author: Yi DING
+layout: single
+title: "Model Evaluation"
+permalink: /blog/MLfolds/basics/Model-Evaluation/
+classes: wide
+author_profile: true
+use_math: true
+date: 17/11/2
 ---
 
 sklearn has provide a vast nunmber of [tools](http://scikit-learn.org/stable/modules/model_evaluation.html) for model evaluation.
@@ -47,8 +50,11 @@ The most important advantage for ROC is that it can show the performance of the 
 
 Area Under the Curve, or AUC, is a numerical measure to evaluate the performance of classifier. A good illustration is:
 
-<p align = "center">
-<img src="http://gim.unmc.edu/dxtests/roccomp.jpg"  alt="ROC AUC">
+<p>
+	<img src="http://gim.unmc.edu/dxtests/roccomp.jpg" 
+       alt="ROC AUC" 
+       style="width: 20em;" 
+       class="align-center">
 </p>
 
 Where we have the following guide:
