@@ -1,12 +1,12 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Learning with Missing Value
-date: Nov. 1, 2018
+layout: single
+title: "Related Works of Learning with Missing Value"
+permalink: /Literature-Reviews/MLDM/Learning-with-Missing-Value-Related-Works/
+classes: wide
+author_profile: true
+use_math: true
+date: 18/11/1
 ---
-# Related Works of Learning with Missing Value
-
-
 
 [1] gives comparison of several approaches for solving the missing value problem, including deletion and single imputation techniques.  First we can study the characteristic of the missing data. **Deletion methods** is one of the basic methods to dealing with missing values. In **single imputation methods**, missing values are filled in and the outcome is a complete data set.
 
@@ -17,7 +17,6 @@ date: Nov. 1, 2018
 [4] provides a new angle and solved the MV problem for real big data. They proposed a framework to partition the data and achieve imputation with only a subset of features.
 
 [5] is a paper from Amazon Deutschland. It proposed a method to achieve missing value imputation for non-numerical data. 
-
 
 
 ## Methods handling missing values
