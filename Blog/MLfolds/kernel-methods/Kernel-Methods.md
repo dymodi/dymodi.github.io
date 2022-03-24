@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Kernel Methods and Multiple Kernel Learning"
-permalink: /blog/MLfolds/clustering/Clustering-Summary/
+permalink: /blog/MLfolds/kernel-methods/Kernel-Methods/
 classes: wide
 author_profile: true
 use_math: true

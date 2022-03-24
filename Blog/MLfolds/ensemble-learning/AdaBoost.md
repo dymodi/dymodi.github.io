@@ -1,8 +1,11 @@
 ---
-layout: post
-title: AdaBoost
-date: Dec. 21, 2017
-author: Yi DING
+layout: single
+title: "AdaBoost"
+permalink: /blog/MLfolds/ensemble-learning/AdaBoost/
+classes: wide
+author_profile: true
+use_math: true
+date: 19/12/21
 ---
 
 [comment]: # "Some contents about AdaBoost and maybe GBDT"
@@ -55,10 +58,12 @@ Usually for a learned classifier to be effective and accurate in its predictions
 
 However, for boosting, something counter-intuitive happens. According to [Explaining AdaBoost](http://rob.schapire.net/papers/explaining-adaboost.pdf)., **boosting is typically resistance to overfitting**, although overfitting *can* happen in boosting. I borrow two figures from [Explaining AdaBoost](http://rob.schapire.net/papers/explaining-adaboost.pdf) here to show this feature.
 
-<p align = "center">
-<img src="figures/boosting-overfitting.png"  alt="boosting overfitting">
+<p>
+	<img src="/Blog/MLfolds/ensemble-learning/figures/boosting-overfitting.png" 
+       alt="single-link-better" 
+       style="width: 35em;" 
+       class="align-center">
 </p>
-
 
 One of the explanation is *Margin*, a variable to measure the confidence of the model. Margin can be computed as the differences in the voting process in forming $$H$$, a vote a conducted among weak learners. 
 

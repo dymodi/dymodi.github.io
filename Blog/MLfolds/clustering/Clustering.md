@@ -101,7 +101,7 @@ The following are some cases where single-link method outperforms $$k$$-means an
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/single-link-better.png" 
        alt="single-link-better" 
-       style="width: 30em;" 
+       style="width: 35em;" 
        class="align-center">
 </p>
 
@@ -110,6 +110,6 @@ The following are some cases where single-link method is worse than $$k$$-means 
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/single-link-worse.png" 
        alt="single-link-worse" 
-       style="withd: 40em;" 
+       style="withd: 35em;" 
        class="align-center">
 </p>
