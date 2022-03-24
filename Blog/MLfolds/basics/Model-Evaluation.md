@@ -51,8 +51,7 @@ The most important advantage for ROC is that it can show the performance of the 
 Area Under the Curve, or AUC, is a numerical measure to evaluate the performance of the classifier. A good illustration is:
 
 <p>
-	<img href="http://gim.unmc.edu/dxtests/roccomp.jpg"
-       src="http://gim.unmc.edu/dxtests/roccomp.jpg" 
+	<img src="/Blog/MLfolds/basics/figures/roccomp.jpeg" 
        alt="ROC AUC" 
        style="width: 20em;" 
        class="align-center">
