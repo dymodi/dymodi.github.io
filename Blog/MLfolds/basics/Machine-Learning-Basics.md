@@ -1,8 +1,10 @@
 ---
-layout: post
-title: Machine Learning Basic Tutorial
-date: Oct. 16, 2017
-author: Yi DING
+layout: single
+title: "Machine Learning Basic Tutorial"
+permalink: /Blog/MLfolds/basics/Machine-Learning-Basics/
+classes: wide
+author_profile: true
+date: 17/10/16
 ---
 
 In this post, we provide a basic framework for machine learning practice (basically based on sklearn and Pandas).
@@ -12,11 +14,9 @@ Here we first show the basic steps:
 1. [Data Minification](https://www.kaggle.com/kyakovlev/ieee-data-minification) (if needed)
 2. [Data Preprocessing](Data-Preprocessing)
 
-
-
 ## Classification
 
-### Libraris
+### Libraries
 
 ```python
 import pandas as pd
@@ -189,8 +189,6 @@ ypred = myMethod.predict(X_test)
 
 # other metrics
 ```
-
-
 
 ## Regression
 
