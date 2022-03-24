@@ -1,8 +1,10 @@
 ---
-author: Yi DING
-layout: post
-title: Related Works of Spatial Temporal Data Learning
-date: July 14, 2019
+layout: single
+title: "Related Works of Spatial-Temporal Data Learning"
+permalink: /Literature-Reviews/MLDM/Context-Aware-Computing-Related-Works/
+classes: wide
+author_profile: true
+date: 19/7/14
 ---
 
 **Taxonomy**
@@ -13,7 +15,7 @@ date: July 14, 2019
 
 **Comments**
 
-* Two typical framework in incorporating spatial and temporal relations:
+* Two typical frameworks in incorporating spatial and temporal relations:
   * Invidual processing through LSTM (temporal) and CNN (spatial) [AAAI18, WWW19].
   * Combined processing as video processing [KDD18-StepDeep].
 
