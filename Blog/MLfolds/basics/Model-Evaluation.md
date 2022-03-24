@@ -46,16 +46,18 @@ $$\text{FPR} = \frac{FP}{FP+TN}$$
 
 [ROC curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#ROC_space) is defined based on the confusion matrix focusing on TPR and FPR. 
 
-The most important advantage for ROC is that it can show the performance of the classifier for all possible thresholds(parameters), while accuracy can only shows the performance on for certain parameter.
+The most important advantage for ROC is that it can show the performance of the classifier for all possible thresholds(parameters), while accuracy can only show the performance for certain parameters.
 
-Area Under the Curve, or AUC, is a numerical measure to evaluate the performance of classifier. A good illustration is:
+Area Under the Curve, or AUC, is a numerical measure to evaluate the performance of the classifier. A good illustration is:
 
 <p>
-	<img src="http://gim.unmc.edu/dxtests/roccomp.jpg" 
+	<img href="http://gim.unmc.edu/dxtests/roccomp.jpg"
+       src="http://gim.unmc.edu/dxtests/roccomp.jpg" 
        alt="ROC AUC" 
        style="width: 20em;" 
        class="align-center">
 </p>
+
 
 Where we have the following guide:
 
