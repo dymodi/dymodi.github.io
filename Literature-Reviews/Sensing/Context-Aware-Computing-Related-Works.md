@@ -7,9 +7,9 @@ author_profile: true
 date: 19/6/13
 ---
 
-In another [survey](https://dymodi.github.io/Research/Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works), we only focus on single-source context sensing without complete application solution. We need broaden the scope and try to find more related works on multi-source sensor with complete upper layer application.
+In another [survey](https://dymodi.github.io/Research/Literature-Reviews/Sensing/Scene-Ambience-Sensing-Monitoring-Related-Works), we only focus on single-source context sensing without a complete application solution. We need to broaden the scope and try to find more related works on multi-source sensors with complete upper layer application.
 
-In this survey, we focus on the context-aware computing, which was a individual research field.
+In this survey, we focus on context-aware computing, which was an individual research field.
 
 
 
@@ -19,7 +19,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
 * **Context-aware computing**
 * **Context lifecycle**: Context Acquisition -> Context Modeling -> Context Reasoning -> Context Dissemination
 * **Context modeling** (Context representation): 
-  * A context model is to define and store context data in a machine processable form.
+  * A context model is to define and store context data in a machine-processable form.
   * Context modeling is defined as the context representation that provides assistance in the under standing of properties, relationship, and details of context
   * Models: Key-Value models, Logic based models, Ontology based models
 * **Context reasoning**:
@@ -83,35 +83,37 @@ In this survey, we focus on the context-aware computing, which was a individual 
 * **Context-aware navigation, *Sensors14-Navigation***
   * Taxonomy: Navigation, User activity, Device placement, GPS, Accelerometer, Gyroscope, Camera, Magnetometer, Machine learning
 
-<p align = "center">
-<img src="figures/Navigation_Sensors14.png"  alt="Context aware navigation" height="230">
+<p>
+	<img src="/Literature-Reviews/Sensing/figures/Navigation_Sensors14.png" 
+       alt="Context aware navigation" 
+       style="height: 10em;" 
+       class="align-center">
 </p>
-
 
 
 * **Context-aware computing in manufacturing, *IJCIM16-Concept***
   * Context-aware computing in Industry, a specific implementation.
 
-<p align = "center">
-<img src="figures/Dataflow_IJCIM16.png"  alt="Context aware navigation" height="350">
+<p>
+	<img src="/Literature-Reviews/Sensing/figures/Dataflow_IJCIM16.png" 
+       alt="Context aware navigation" 
+       style="height: 15em;" 
+       class="align-center">
 </p>
-
-
 
 * **Context-Aware Computing, Learning, and Big Data, *IEEEIoTJ18-Survey***
   * Recent survey, good summary of IoT research trends and IoT platforms.
   * Context life cycle: Context Acquisition, Context Modelling, Context Reasoning, Context Distribution.
 
-<p align = "center">
-<img src="figures/ContextLifeCycle_IEEE18.png"  alt="Context aware navigation" height="500">
+<p>
+	<img src="/Literature-Reviews/Sensing/figures/ContextLifeCycle_IEEE18.png" 
+       alt="Context aware navigation" 
+       style="height: 20em;" 
+       class="align-center">
 </p>
-
-
 
 * **Context-aware communication and computing, *Springer18-Book***
   * Book in 2018, shows the states-of-the-art.
-
-
 
 
 ##  Ref.
@@ -120,7 +122,7 @@ In this survey, we focus on the context-aware computing, which was a individual 
 
 [IJAHUC07-Survey] Baldauf, M., Dustdar, S., & Rosenberg, F. (2007). **A survey on context-aware systems.** *International Journal of Ad Hoc and Ubiquitous Computing*, *2*(4), 263-277.
 
-[IEEECST14-Survey] Perera, C., Zaslavsky, A., Christen, P., & Georgakopoulos, D. (2014). **Context aware computing for the internet of things: A survey**. *IEEE communications surveys & tutorials*, *16*(1), 414-454.
+[IEEECST14-Survey] Perera, C., Zaslavsky, A., Christen, P., & Georgakopoulos, D. (2014). **Context-aware computing for the internet of things: A survey**. *IEEE communications surveys & tutorials*, *16*(1), 414-454.
 
 [Sensors14-Navigation] Saeedi, S., Moussa, A., & El-Sheimy, N. (2014). **Context-aware personal navigation using embedded sensor fusion in smartphones**. *Sensors*, *14*(4), 5742-5767.
 
