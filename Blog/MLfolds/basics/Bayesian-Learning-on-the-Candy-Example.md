@@ -85,7 +85,7 @@ We take one candy at each time and put the candy back. Then we have the followin
 <p>
 	<img src="/Blog/MLfolds/basics/figures/candies-drawn.png" 
        alt="Candy bages" 
-       style="height: 10em;" 
+       style="height: 5em;" 
        class="align-center">
 </p>
 
@@ -144,7 +144,7 @@ The updating process can be shown in the figure below:
 <p>
 	<img src="/Blog/MLfolds/basics/figures/bayesian-updating-for-candy-bag.png" 
        alt="Candy bages" 
-       style="height: 10em;" 
+       style="height: 15em;" 
        class="align-center">
 </p>
 
@@ -171,7 +171,7 @@ Similarly, we have the following figure.
 <p>
 	<img src="/Blog/MLfolds/basics/figures/candy-prediction.png" 
        alt="Candy prediction" 
-       style="height: 10em;" 
+       style="height: 15em;" 
        class="align-center">
 </p>
 
