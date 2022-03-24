@@ -50,18 +50,21 @@ In this survey, we focus on the context-aware computing, which was a individual 
 * **A survey on context-aware systems, *IJAHUC07-Survey***
   * Highly cited survey paper
   * Sensor classification: Physical sensors, Virtual sensors, Logical sensors.
-  * Context attributs: Context type, Context value, Timestamp, Source, Confidence.
+  * Context attributes: Context type, Context value, Timestamp, Source, Confidence.
 
-<p align = "center">
-<img src="figures/ContextManagingFramework_IJAHUC07.png"  alt="Context aware navigation" height="250">
+<p>
+	<img src="/Literature-Reviews/Sensing/figures/ContextManagingFramework_IJAHUC07.png" 
+       alt="Context aware navigation" 
+       style="width: 20em;" 
+       class="align-center">
 </p>
 
 * **Context-Aware Computing in IoT Survey, *IEEECST14-Survey***
-  * Highly cited survey paper, categorization of context (primary/secondary), 
+  * A highly cited survey paper, categorization of context (primary/secondary), 
   * **Design principles** for context awareness framework (middleware)
     * Comprehensive easy to learn and easy to use API
     * Automatic context life cycle management
-    * Extended, rich, and comprehensive modelling
+    * Extended, rich, and comprehensive modeling
     * Monitoring and detect event
   * Subsection for "**Context Modeling**" methods:
     * Ontology based Modeling, the most popular method.
