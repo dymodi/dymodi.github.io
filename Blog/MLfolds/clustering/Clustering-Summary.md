@@ -21,7 +21,7 @@ A cluster is a set of points such that any point in a cluster is closer (or more
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/well-separated.png" 
        alt="Well separated" 
-       style="width: 30em;" 
+       style="width: 28em;" 
        class="align-center">
 </p>
 
@@ -34,7 +34,7 @@ The center of a cluster is often a **centroid**, the average of all the points i
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/center-based.png" 
        alt="Center based" 
-       style="width: 30em;" 
+       style="width: 28em;" 
        class="align-center">
 </p>
 
@@ -43,7 +43,7 @@ The center of a cluster is often a **centroid**, the average of all the points i
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/contiguity-based.png" 
        alt="Contiguity based" 
-       style="width: 40em;" 
+       style="width: 36em;" 
        class="align-center">
 </p>
 
@@ -54,7 +54,7 @@ A cluster is a set of points such that a point in a cluster is closer (or more s
 <p>
 	<img src="/Blog/MLfolds/clustering/figures/density-based.png" 
        alt="Density based" 
-       style="width: 40em;" 
+       style="width: 36em;" 
        class="align-center">
 </p>
 
