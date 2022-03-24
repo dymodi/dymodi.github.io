@@ -38,12 +38,11 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
        src="/Literature-Reviews/Sensing/figures/SamplingRateEnergyTradeoff_ISWC12.png"
        alt="SamplingRateEnergyTradeoff_ISWC12" 
        class="align-center"
-       style="height: 10em;" >
-  <img 
+       style="height: 5em;" >  <img 
        src="/Literature-Reviews/Sensing/figures/DifferentSamplingRatePeformance_ISWC12.png"  
        alt="DifferentSamplingRatePeformance_ISWC12"
        class="align-center"
-       style="height: 10em;" >
+       style="height: 5em;" >
 </p>
 
 * SenSys13: Accelerator
