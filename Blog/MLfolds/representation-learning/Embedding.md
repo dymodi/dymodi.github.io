@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Embedding
-date: Jan. 3, 2020
-author: Yi DING
+layout: single
+title: "Embedding"
+permalink: /blog/MLfolds/representation-learning/Embedding/
+classes: wide
+author_profile: true
+use_math: true
+date: 20/1/3
 ---
 
 
@@ -17,7 +20,7 @@ Embeddings have three primary purposes:
 2. As input to a machine learning model for a supervised task.
 3. For visualization of concepts and relations between categories.
 
-One-hot encoding can be considered as a naive embeddeing method, and it has two obvious drawbacks: *dimensions* and *uninformed*.
+One-hot encoding can be considered as a naive embedding method, and it has two obvious drawbacks: *dimensions* and *uninformed*.
 
 ## Learning Embedding
 
@@ -28,8 +31,6 @@ t-Distributed Stochastic Neighbor Embedding (TSNE) is an embedding method for vi
 One hyperparameter is the dimensions of the embedding, an empirical rule-of-thumb is
 
 $$dimensions\approx \sqrt[4]{possible\ values}$$
-
-
 
 ## Ref.
 
