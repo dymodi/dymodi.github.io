@@ -1,8 +1,11 @@
 ---
-layout: post
-title: RNN and LSTM
-date: May 29, 2019
-author: Yi DING
+layout: single
+title: "RNN and LSTM"
+permalink: /blog/MLfolds/deep-learning/RNN-LSTM/
+classes: wide
+author_profile: true
+use_math: true
+date: 19/5/29
 ---
 
 
