@@ -35,17 +35,17 @@ In this survey, I mainly focus on courier-related activities/mobilities (e.g. wa
   * Trade-off between sampling frequence and classification performance.
 
 
-<figure class="half" style="margin-left: 10%; margin-right: 10%; " >
+<figure class="half" style="margin-left: 20%; margin-right: 20%; " >
     <img 
        src="/Literature-Reviews/Sensing/figures/SamplingRateEnergyTradeoff_ISWC12.png"
        alt="SamplingRateEnergyTradeoff_ISWC12" 
        class="align-center"
-       style="height: 5em; width: 10em" > 
+       style="height: 8em; width: 10em" > 
     <img 
        src="/Literature-Reviews/Sensing/figures/DifferentSamplingRatePeformance_ISWC12.png"  
        alt="DifferentSamplingRatePeformance_ISWC12"
        class="align-center"
-       style="height: 5em; width: 10em" >
+       style="height: 8em; width: 10em" >
 </figure>
 
 * SenSys13: Accelerator
