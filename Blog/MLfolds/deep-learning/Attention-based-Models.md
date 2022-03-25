@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Attention based Models
-date: Dec. 25, 2019
-author: Yi DING
+layout: single
+title: "Attention based Models"
+permalink: /blog/MLfolds/deep-learning/Attention-based-Models/
+classes: wide
+author_profile: true
+use_math: true
+date: 19/12/25
 ---
 
 

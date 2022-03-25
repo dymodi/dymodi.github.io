@@ -9,19 +9,19 @@ date: 19/5/29
 ---
 
 
-A beginner' guide on GANs can be found [here](https://skymind.ai/wiki/generative-adversarial-network-gan).
+A beginner's guide on GANs can be found [here](https://skymind.ai/wiki/generative-adversarial-network-gan).
 
-Unlike traditional machine learning where we predict labels given a set a features, in GANs, we predict features given the labels. This is also the main difference between generative and discriminative algorithms.
+Unlike traditional machine learning where we predict labels given a set of features, in GANs, we predict features given the labels. This is also the main difference between generative and discriminative algorithms.
 
-## How GANs work?
+## How do GANs work?
 
 Two networks are beating each other:
 
-* A discriminator trying to indentify the instances coming from the generator as fake.
+* A discriminator tries to identify the instances coming from the generator as fake.
 * A generator trying to generate passable instances, to lie without being caught.
 * 
 <p>
-	<img src="/Blog/MLfolds/deep-learning/figures/GANs.jpeg"
+	<img src="/Blog/MLfolds/deep-learning/figures/GANs.png"
        alt="single-link-better" 
        style="width: 35em;" 
        class="align-center">
