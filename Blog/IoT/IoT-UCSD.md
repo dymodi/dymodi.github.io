@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Internet of Things, How did we get here?"
-permalink: /blog/MLfolds/basics/Association/
+permalink: /blog/IoT/IoT-UCSD/
 classes: wide
 author_profile: true
 use_math: true
