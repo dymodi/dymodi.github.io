@@ -34,11 +34,12 @@ Some innovations from AT&T (Bell Labs): Information Theory, Transistor, C and UN
 
 Lawsuit from the Department of Justice and Monopoly of AT&T.
 
-<p align = "center">
-<img src="figures/Bell-Labs-Inventing-the-Future.jpg"  alt="Bell Labs" width="800">
+<p>
+	<img src="/Blog/IoT/figures/Bell-Labs-Inventing-the-Future.jpg" 
+       alt="Bell Labs" 
+       style="height: 20em;" 
+       class="align-center">
 </p>
-
-
 
 ### Module 2 (Packet Switch)
 
@@ -53,7 +54,6 @@ Email and browser.
 #### Lesson 3 Realtime Services
 
 VoIP and Multicast.
-
 
 
 ### Module 3 (Computer Telephony)
@@ -71,7 +71,6 @@ Data plane and control plane
 #### Lesson 4 A Word of Caution!
 
 Dial tone. 911 Fiasco.
-
 
 
 ### Module 4 (Wireless Technologies)
@@ -125,8 +124,11 @@ Wi-Fi, Bluetooth, ZIgBee, RFID
 
 A very interesting definition of IoT, shows how plain things get magical when connected.
 
-<p align = "center">
-<img src="figures/global-internet-device-installed-base-forecast.jpg"  alt="Bell Labs" width="800">
+<p>
+	<img src="/Blog/IoT/figures/global-internet-device-installed-base-forecast.jpg.jpg" 
+       alt="Bell Labs" 
+       style="height: 20em;" 
+       class="align-center">
 </p>
 
 #### Lesson 2 Future Applications
