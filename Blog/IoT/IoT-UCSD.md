@@ -1,21 +1,20 @@
 ---
-layout: post
-title: Internet of Things, How did we get here?
-date: Dec. 21, 2018
-author: Yi DING
+layout: single
+title: "Internet of Things, How did we get here?"
+permalink: /blog/MLfolds/basics/Association/
+classes: wide
+author_profile: true
+use_math: true
+date: 18/12/21
 ---
 
 This is a course note of UCSD's Coursera: [*Internet of Things: How did we get here?*](https://www.coursera.org/learn/internet-of-things-history/home/welcome)
-
- 
 
 ### Welcome
 
 Two demos are shown: Sonification of Movement and Healthcare Remote Monitoring, which demonstrates the simple mechanism as well as the huge potential of IoT technology.
 
 An interesting part is that Snapdragon is advocated in the lecture and Qualcomm gets involved.
-
-
 
 ### Module 1 (Circuit Switch)
 

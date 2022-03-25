@@ -8,9 +8,11 @@ author_profile: true
 
 ## IoT and Mobile Computing
 
+[Internet of Things: How did we get here?](/blog/IoT/IoT-UCSD)
+
 ## Data Mining and Machine Learning
 
-### Basics
+**Basics**
 
 [Machine Learning Basic Tutorial](/blog/MLfolds/basics/Machine-Learning-Basics)
 
@@ -24,29 +26,29 @@ author_profile: true
 
 [Bayesian Learning on the Candy Example](/blog/MLfolds/basics/Bayesian-Learning-on-the-Candy-Example)
 
-### Unsupervised Learning (Clustering)
+**Unsupervised Learning (Clustering)**
 
 [Clustering Summary](/blog/MLfolds/clustering/Clustering-Summary)
 
 [Clustering](/blog/MLfolds/clustering/Clustering)
 
-### Kernel Methods
+**Kernel Methods**
 
 [Kernel Methods and Multiple Kernel Learning](/blog/MLfolds/kernel-methods/Kernel-Methods)
 
-### Ensemble Learning
+**Ensemble Learning**
 
 [AdaBoost](/blog/MLfolds/ensemble-learning/AdaBoost)
 
 [Gradient Boosting for Regression](/blog/MLfolds/ensemble-learning/Gradient-Boosting-for-Regression)
 
-### Representation Learning
+Representation Learning
 
 [Representation Learning](/blog/MLfolds/representation-learning/Representation-Learning)
 
-[Embeddeding](/blog/MLfolds/representation-learning/Embedding)
+[Embedding](/blog/MLfolds/representation-learning/Embedding)
 
-### Deep Learning
+**Deep Learning**
 
 [Convolution Neural Network](/blog/MLfolds/deep-learning/Convolution-Neural-Network)
 
@@ -54,22 +56,26 @@ author_profile: true
 
 [GAN](/blog/MLfolds/deep-learning/GANs)
 
-[Attention based Models](/blog/MLfolds/deep-learning/Attention-based-Models)
+[Attention-based Models](/blog/MLfolds/deep-learning/Attention-based-Models)
 
-### Reinforcement Learning
+**Reinforcement Learning**
 
 [Markov Decision Processes](/blog/MLfolds/reinforcement-learning/Markov-Decision-Processes)
 
 [Berkeley CS294-112 Course Note](/blog/MLfolds/reinforcement-learning/Berkeley-CS-285)
 
-### Framework and Technologies
+**Framework and Technologies**
 
 [Softmax on Digits Data with TensorFlow](/blog/MLfolds/framework-and-technologies/Softmax-on-Digits-Data-with-TensorFlow) 
 
-### Privacy and Security
+**Privacy and Security**
 
 [GDPR](/blog/MLfolds/privacy-and-security/GDPR)
 
-### Advanced Topics
+**Advanced Topics**
 
-[Semi Supervised Methods](/blog/MLfolds/advanced-topics/Semi-Supervised)
+[Semi-Supervised Methods](/blog/MLfolds/advanced-topics/Semi-Supervised)
+
+## Others
+
+[Graph Theory Basic Concepts](/blog/Graph-Theory/Basic-Concepts)

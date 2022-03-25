@@ -15,7 +15,7 @@ $$\mathcal P(\{1, 2\}) = \{\emptyset, \{1\} , \{2\} , \{1, 2\}\}$$.
 
 Furthermore, if $$S$$ is a set and $$k$$ is an integer, then $$\mathcal P_k (S)$$ shall mean the set of all $$k$$-element subsets of $$S$$. (This is empty if $$k < 0$$.)
 
-**Grpah**
+**Graph**
 
 **Definition:** A *simple graph* is a pair $$(V, E)$$, where $$V$$ is a finite set, and where $$E$$ is a subset of $$\mathcal P_2(V)$$.
 
