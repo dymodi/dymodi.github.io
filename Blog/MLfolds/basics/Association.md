@@ -14,8 +14,6 @@ Sometimes, we need to decide whether two variables are related or we need to com
 
 A related topic is **feature selection**, which might be discussed after.
 
-
-
 ## Categorization of data (attributes)
 
 |                              | **Attribute Type** | **Description**                                              | **Examples**                                                 | **Operations**                                               |
