@@ -115,4 +115,3 @@ From SenSys 16 Meng's Paper:
 <p align = "center">
     <img src="figures/evaluation-sensys16-meng.png"  alt="evaluation-sensys16-meng", width="900">
 </p>
-
