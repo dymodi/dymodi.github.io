@@ -1,8 +1,11 @@
 ---
-layout: post
-title: IoT Platforms
-date: Dec. 25, 2018
-author: Yi DING
+layout: single
+title: "IoT Platforms"
+permalink: /blog/IoT/IoT-Platforms/
+classes: wide
+author_profile: true
+use_math: true
+date: 18/12/25
 ---
 
 In my understanding, IoT industry is related to the following aspects:
@@ -24,16 +27,22 @@ First we show the overview of some leading IoT platforms according to [The 25 be
 
   * AWS IoT overview
 
-    <p align = "center">
-    <img src="Figures/AWS_IoT23._CB520207442_.png"  alt="AWS IoT" height="300">
-    </p>
+  <p>
+    <img src="/Blog/IoT/figures/AWS_IoT23._CB520207442_.png" 
+         alt="AWS IoT" 
+         style="height: 20em;" 
+         class="align-center">
+  </p>
 
     Figure credits: [Using Alexa Skills Kit and AWS IoT to Voice Control Connected Devices](https://developer.amazon.com/zh/blogs/post/Tx3828JHC7O9GZ9/Using-Alexa-Skills-Kit-and-AWS-IoT-to-Voice-Control-Connected-Devices)
 
   * Pub-Sub pattern in AWS IoT
 
-    <p align = "center">
-    <img src="Figures/Lab-diagram-2.png"  alt="AWS IoT Pub/Sub" height="300">
+    <p>
+    <img src="/Blog/IoT/figures/Lab-diagram-2.png" 
+       alt="AWS IoT Pub/Sub" 
+       style="height: 20em;" 
+       class="align-center">
     </p>
 
     Figure credits: [Introduction to AWS Internet-of-Things (IoT)](https://www.qwiklabs.com/focuses/1804?parent=catalog)
@@ -43,9 +52,12 @@ First we show the overview of some leading IoT platforms according to [The 25 be
   * Azure abstract an IoT application into three parts: Things(Device), Insights(Data) and Action(Rule)
 
   * Azure IoT overview
-
-    <p align = "center">
-    <img src="Figures/iot.png"  alt="Azure IoT" height="300">
+    
+    <p>
+    <img src="/Blog/IoT/figures/iot.png" 
+       alt="Azure IoT" 
+       style="height: 20em;" 
+       class="align-center">
     </p>
 
     Figure credits: [Azure IoT reference architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/iot/)
@@ -55,9 +67,12 @@ First we show the overview of some leading IoT platforms according to [The 25 be
   * Google divides the system into three basic components, the **device**, **gateway**, and **cloud**.
 
   * Data management on Google Cloud:
-
-    <p align = "center">
-    <img src="Figures/data-management.svg"  alt="Google Cloud" height="400">
+    
+    <p>
+    <img src="/Blog/IoT/figures/data-management.svg" 
+       alt="Google Cloud" 
+       style="height: 25em;" 
+       class="align-center">
     </p>
 
     Figure credits: [Overview of Internet of Things](https://cloud.google.com/solutions/iot-overview)
@@ -66,8 +81,11 @@ First we show the overview of some leading IoT platforms according to [The 25 be
 
   * Aliabab IoT is more like a middleware between device and Alibaba cloud.
 
-    <p align = "center">
-    <img src="Figures/155797772742095_en-US.png"  alt="Google Cloud" height="400">
+    <p>
+    <img src="/Blog/IoT/figures/155797772742095_en-US.png" 
+       alt="Alibaba" 
+       style="height: 25em;" 
+       class="align-center">
     </p>
 
     Figure credits: [Architecture](https://www.alibabacloud.com/help/doc-detail/30523.htm)

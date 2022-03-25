@@ -7,9 +7,9 @@ author: Yi DING
 
 # Industrial Considerations
 
-When we implement a system in industry, there are some additional considerations, compared to in-lab research design. It is important to keep this considerations in mind when we want to transfer a academic work into industry.
+When we implement a system in the industry, there are some additional considerations, compared to in-lab research design. It is important to keep these considerations in mind when we want to transfer academic work into the industry.
 
-There are many studies on evaluating a system, I summarize some aspects based on my experience in industry.
+There are many studies on evaluating a system, I summarize some aspects based on my experience in the industry.
 
 ## System and Hardware 
 
@@ -23,7 +23,7 @@ There are many studies on evaluating a system, I summarize some aspects based on
 
 What happens if the some function of the system fails? 
 
-It is better to conduct a quantitative evaluation (theoratically or expermentally) and give a upper-bound of the impact.
+It is better to conduct a quantitative evaluation (theoretically or experimentally) and give an upper bound of the impact.
 
 ### Energy Consumption
 
@@ -69,9 +69,7 @@ BLE broadcast and scan
 
 Android Service
 
-APP execution in background
-
-
+APP execution in the background
 
 
 

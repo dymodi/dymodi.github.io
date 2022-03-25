@@ -10,6 +10,8 @@ author_profile: true
 
 [Internet of Things: How did we get here?](/blog/IoT/IoT-UCSD)
 
+[IoT Platforms](/blog/IoT/IoT-Platforms)
+
 ## Data Mining and Machine Learning
 
 **Basics**
