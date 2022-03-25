@@ -19,13 +19,13 @@ Two networks are beating each other:
 
 * A discriminator tries to identify the instances coming from the generator as fake.
 * A generator trying to generate passable instances, to lie without being caught.
-* 
 <p>
 	<img src="/Blog/MLfolds/deep-learning/figures/GANs.png"
        alt="single-link-better" 
        style="width: 35em;" 
        class="align-center">
 </p>
+
 
 *Image credit: [Thalles Silva](https://skymind.ai/wiki/generative-adversarial-network-gan)*
 

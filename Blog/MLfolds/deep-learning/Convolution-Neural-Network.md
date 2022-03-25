@@ -12,7 +12,7 @@ Here we basically follow the contents provided by [CS231n Convolutional Neural N
 
 [Another tutorial](http://rll.berkeley.edu/deeprlcoursesp17/docs/tfsection.pdf) of TensorFlow on deep NN is provided by Chelsea Finn from Berkeley CS 294 course.
 
-An simple implementation with Pytorch can be found [here](https://github.com/dymodi/pytorch_basics/blob/main/tutorial_cnn.py).
+A simple implementation with Pytorch can be found [here](https://github.com/dymodi/pytorch_basics/blob/main/tutorial_cnn.py).
 
 The major advantage of CNN is "exploiting the local spatial correlations present in images".
 

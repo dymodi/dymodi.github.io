@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Markov Decision Processes
-date: Nov 12, 2018
-author: Yi DING
+layout: single
+title: "Markov Decision Processes"
+permalink: /blog/MLfolds/deep-learning/Markov-Decision-Processes/
+classes: wide
+author_profile: true
+use_math: true
+date: 18/11/12
 ---
 
 An Introduction to Markov Decision Processes (MDP) can be found [here](https://www.cs.rice.edu/~vardi/dag01/givan1.pdf) and [here](https://towardsdatascience.com/reinforcement-learning-demystified-markov-decision-processes-part-1-bf00dda41690). MDP is the baisc and kernel of reinforcement learning. If you know something about control theory, you may find it is a typical control problem with control object, states, input, output.

@@ -1,9 +1,11 @@
 ---
-layout: post
-comments: true
-title: CS 285 at UC Berkeley - Deep Reinforcement Learning
-date: Oct. 20, 2017
-author: Yi DING
+layout: single
+title: "CS 285 at UC Berkeley - Deep Reinforcement Learning"
+permalink: /blog/MLfolds/deep-learning/Berkeley-CS-285/
+classes: wide
+author_profile: true
+use_math: true
+date: 17/10/20
 ---
 
 This is a post that summarizes some basic facts on reinforcement learning. The materials comes from [Sergey Levine's Course at Berkeley](http://rll.berkeley.edu/deeprlcourse/)  ([or the archived version](http://rll.berkeley.edu/deeprlcoursesp17/)).
@@ -108,8 +110,11 @@ Iterative LQR is something comparable to Newton's method.
 
 Build a decision tree and run some random search to have a glimpse of the quality of the decision sequences. It's a heuristic search algorithm.
 
-<p align = "center">
-<img src="figures/mcts.png"  alt="mcts from Levine" width="400">
+<p>
+	<img src="/Blog/MLfolds/reinforcement-learning/figures/mcts.png"
+       alt="mcts from Levine" 
+       style="width: 35em;" 
+       class="align-center">
 </p>
 
 Fig 1. MCTS sketch from Levine
@@ -117,7 +122,6 @@ Fig 1. MCTS sketch from Levine
 It seems that in MCTS, we randomly check some future state according to the action we can make (at the root node), and then choose the best action based on the sampled observation.
 
 Note that, MCTS is used in Alpha Go.
-
 
 
 ### Learning Dynamical System Models from Data (1-30-17)
