@@ -12,6 +12,8 @@ author_profile: true
 
 [IoT Platforms](/blog/IoT/IoT-Platforms)
 
+[Considerations of an Industrial Mobile Computing System](/blog/IoT/Industrial-Considerations)
+
 ## Data Mining and Machine Learning
 
 **Basics**

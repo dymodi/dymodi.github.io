@@ -1,11 +1,14 @@
 ---
-layout: post
-title: IoT Related 
-date: July 31, 2020
-author: Yi DING
+layout: single
+title: "Considerations of an Industrial Mobile Computing System"
+permalink: /blog/IoT/Industrial-Considerations/
+classes: wide
+author_profile: true
+use_math: true
+date: 20/7/31
 ---
 
-# Industrial Considerations
+# Considerations of an Industrial Mobile Computing System
 
 When we implement a system in the industry, there are some additional considerations, compared to in-lab research design. It is important to keep these considerations in mind when we want to transfer academic work into the industry.
 
@@ -56,7 +59,6 @@ Ground truth is essential when we want to evaluate the performance of a new algo
 The same paradox also works when we want to collect theb label data for a machine learning algorithm. If the label is easy to collect, there is no need to build the learning algorithm.
 
 ### Data Redundancy and Data Missing
-
 
 
 ## Smartphone Related
