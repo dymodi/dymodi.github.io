@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Semi-Supervised Methods
-date: May. 2, 2018
-author: Yi DING
+layout: single
+title: "Semi-Supervised Methods"
+permalink: /blog/MLfolds/advanced-topics/Semi-Supervised/
+classes: wide
+author_profile: true
+use_math: true
+date: 18/5/2
 ---
 
 ## Cluster-then-Label

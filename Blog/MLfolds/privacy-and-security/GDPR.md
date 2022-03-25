@@ -1,8 +1,11 @@
 ---
-layout: post
-title: General Data Protection Regulation (GDPR)
-date: June 5, 2019
-author: Yi DING
+layout: single
+title: "General Data Protection Regulation (GDPR)"
+permalink: /blog/MLfolds/privacy-and-security/GDPR/
+classes: wide
+author_profile: true
+use_math: true
+date: 19/6/5
 ---
 
 As big data practitioners, we should realize the risk in manipulating data. GDPR is one of the things we should follow.
