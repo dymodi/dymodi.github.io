@@ -5,8 +5,6 @@ date: July. 4, 2018
 author: Yi DING
 ---
 
-
-
 According to [1], Time-Dependent Networks (TDN) are used to model situations in which the cost of traversing an edge varies with time. While the general framework has many applications, the everyday problem of route planning on road networks is easily the most compelling.
 
 ## Model

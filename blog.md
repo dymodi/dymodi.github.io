@@ -78,4 +78,6 @@ Representation Learning
 
 ## Others
 
-[Graph Theory Basic Concepts](/blog/Graph-Theory/Basic-Concepts)
+[Graph Theory: Basic Concepts](/blog/Graph-Theory/Basic-Concepts)
+
+[Time Series: Digital Filter](/blog/Time-Series/Digital-Filter)

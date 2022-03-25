@@ -20,7 +20,7 @@ about image size and alignment, the following style seems to work:
 
 
 
-03/24/22 two image side by side
+03/24/22 two images side by side
 
 seems this works.
 
@@ -33,6 +33,28 @@ seems this works.
     <img 
        src="/Blog/MLfolds/deep-learning/cnn.png"
        alt="cnn"
+       class="align-center"
+       style="height: 8em; width: 12em" >
+</figure>
+
+
+
+03/25/22 three images side by side
+
+<figure class="third" style="margin-left: 10%; margin-right: 10%; " >
+    <img 
+       src="/Blog/Time-Series/figures/Digital-filter-Original-signal.png"
+       alt="Digital-filter-Original-signal" 
+       class="align-center"
+       style="height: 8em; width: 13em" > 
+    <img 
+       src="/Blog/Time-Series/figures/Digital-filter-11-point-moving-average.png"
+       alt="Digital-filter-11-point-moving-average"
+       class="align-center"
+       style="height: 8em; width: 12em" >
+    <img 
+       src="/Blog/Time-Series/figures/Digital-filter-51-point-moving-average.png"
+       alt="Digital-filter-51-point-moving-average"
        class="align-center"
        style="height: 8em; width: 12em" >
 </figure>
