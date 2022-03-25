@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Basic Concepts of Graph Theory
-date: Nov. 1, 2017
-author: Yi DING
+layout: single
+title: "Basic Concepts of Graph Theory"
+permalink: /blog/Graph-Theory/Basic-Concepts/
+classes: wide
+author_profile: true
+use_math: true
+date: 17/11/1
 ---
 
 The definitions here mainly follow Prof. Grinberg's [Graph Theory course](http://www-users.math.umn.edu/~dgrinber/5707s17/) in UMN. 
