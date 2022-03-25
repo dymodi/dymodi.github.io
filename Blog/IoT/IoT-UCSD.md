@@ -125,7 +125,7 @@ Wi-Fi, Bluetooth, ZIgBee, RFID
 A very interesting definition of IoT, shows how plain things get magical when connected.
 
 <p>
-	<img src="/Blog/IoT/figures/global-internet-device-installed-base-forecast.jpg.jpg" 
+	<img src="/Blog/IoT/figures/global-internet-device-installed-base-forecast.jpg" 
        alt="Bell Labs" 
        style="height: 20em;" 
        class="align-center">
