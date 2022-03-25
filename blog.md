@@ -60,7 +60,7 @@ author_profile: true
 
 [Markov Decision Processes](/blog/MLfolds/reinforcement-learning/Markov-Decision-Processes)
 
-[Berkeley CS294-112 Course Note](/blog/MLfolds/reinforcement-learning/Reinforcement-Learning-Basic-Facts)
+[Berkeley CS294-112 Course Note](/blog/MLfolds/reinforcement-learning/Berkeley-CS-285)
 
 ### Framework and Technologies
 

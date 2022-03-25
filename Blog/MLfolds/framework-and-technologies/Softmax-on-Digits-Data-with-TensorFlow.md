@@ -1,8 +1,11 @@
---- 
-layout: post
-title: Softmax on Digits Data with TensorFlow
-date: June 5, 2017
-author: Yi DING
+---
+layout: single
+title: "Softmax on Digits Data with TensorFlow"
+permalink: /blog/MLfolds/framework-and-technologies/Softmax-on-Digits-Data-with-TensorFlow/
+classes: wide
+author_profile: true
+use_math: true
+date: 17/6/5
 ---
 
 In this tutorial, we will basically follow the [official tutorial](https://www.tensorflow.org/get_started/mnist/beginners) but will change some parts to make it easier to understand. The contents about logistic regression borrows from Arindam Banerjee's Machine Learning course at University of Minnesota, which corresponds to Ethem Alpaydin's book *Introduction to machine learning*.
