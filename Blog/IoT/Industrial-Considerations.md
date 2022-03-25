@@ -8,11 +8,11 @@ use_math: true
 date: 20/7/31
 ---
 
-# Considerations of an Industrial Mobile Computing System
-
 When we implement a system in the industry, there are some additional considerations, compared to in-lab research design. It is important to keep these considerations in mind when we want to transfer academic work into the industry.
 
 There are many studies on evaluating a system, I summarize some aspects based on my experience in the industry.
+
+Two related industrial systems can be found in [aBeacon](https://www.usenix.org/system/files/nsdi21spring-ding.pdf) and [VALID](https://dl.acm.org/doi/pdf/10.1145/3452296.3472911).
 
 ## System and Hardware 
 

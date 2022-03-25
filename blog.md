@@ -64,6 +64,8 @@ Representation Learning
 
 **Reinforcement Learning**
 
+[Reinforcement Learning Basics](/blog/MLfolds/reinforcement-learning/RL-Basics)
+
 [Markov Decision Processes](/blog/MLfolds/reinforcement-learning/Markov-Decision-Processes)
 
 [Berkeley CS294-112 Course Note](/blog/MLfolds/reinforcement-learning/Berkeley-CS-285)
@@ -79,6 +81,8 @@ Representation Learning
 **Advanced Topics**
 
 [Semi-Supervised Methods](/blog/MLfolds/advanced-topics/Semi-Supervised)
+
+[Small Data](/blog/MLfolds/advanced-topics/Small-Data)
 
 ## Others
 

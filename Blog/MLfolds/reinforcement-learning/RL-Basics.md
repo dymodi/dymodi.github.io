@@ -1,8 +1,11 @@
 ---
-layout: post
-title: Reinforcement Learning Basics
-date: Sep. 25, 2020
-author: Yi DING
+layout: single
+title: "Reinforcement Learning Basics"
+permalink: /blog/MLfolds/reinforcement-learning/RL-Basics/
+classes: wide
+author_profile: true
+use_math: true
+date: 20/9/25
 ---
 
 A long introduction to RL is presented [here](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html), I select and modifed some content here in the following.
