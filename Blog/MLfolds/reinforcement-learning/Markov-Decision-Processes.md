@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Markov Decision Processes"
-permalink: /blog/MLfolds/deep-learning/Markov-Decision-Processes/
+permalink: /blog/MLfolds/reinforcement-learning/Markov-Decision-Processes/
 classes: wide
 author_profile: true
 use_math: true
