@@ -13,7 +13,7 @@ date: 21/12/16
 <span style="color:RoyalBlue">[MobiCom'22]</span> *Experience: Adopting Indoor Outdoor Detection in On-demand Food Delivery Business* <br>Pengfei Zhou, **Yi Ding**, Yang Li, Mo Li, Guobin Shen, Tian He. <br>[[PDF]](https://wands.sg/publications/full_list/papers/MobiCom_22_1.pdf)
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *P2-Loc: A Person-2-Person Indoor Localization System in On-Demand Delivery* <br>
-**Yi Ding**, Dongzhe Jiang, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang<br>[[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=119097)
+**Yi Ding**, Dongzhe Jiang, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang<br> [[PDF]](https://dl.acm.org/doi/pdf/10.1145/3517238), [[Dataset]](https://tianchi.aliyun.com/dataset/dataDetail?dataId=119097)
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery* <br>
 **Yi Ding**, Dongzhe Jiang, Yunhuai Liu, Desheng Zhang, Tian He<br>
