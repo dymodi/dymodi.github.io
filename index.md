@@ -13,6 +13,7 @@ I am on the <span style="color:FireBrick">**job market**</span>. My application 
 
 **Recent News**
 
+* Apr. 2022: Selected to participate in the [CPS Rising Stars Workshop 2022](https://cps-rising-stars2022.com/).
 * Apr. 2022: Co-authored paper accepted by ACM IMWUT (UbiComp'22).
 * Feb. 2022: 2nd-authored paper accepted by ACM MobiCom'22.
 * Jan. 2022: 1st-author paper **P2-Loc** accepted by ACM IMWUT (UbiComp'22).
