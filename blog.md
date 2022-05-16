@@ -54,8 +54,6 @@ Representation Learning
 
 **Deep Learning**
 
-[Convolution Neural Network](/blog/MLfolds/deep-learning/Convolution-Neural-Network)
-
 [RNN and LSTM](/blog/MLfolds/deep-learning/RNN-LSTM)
 
 [GAN](/blog/MLfolds/deep-learning/GANs)
@@ -67,8 +65,6 @@ Representation Learning
 [Reinforcement Learning Basics](/blog/MLfolds/reinforcement-learning/RL-Basics)
 
 [Markov Decision Processes](/blog/MLfolds/reinforcement-learning/Markov-Decision-Processes)
-
-[Berkeley CS294-112 Course Note](/blog/MLfolds/reinforcement-learning/Berkeley-CS-285)
 
 **Framework and Technologies**
 
