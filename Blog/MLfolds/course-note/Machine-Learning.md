@@ -28,7 +28,7 @@ Non-clustering: Cocktail Party Algorithm.
 
 #### Model Representation
 
-Training Set -> Learning Algorithm -> $h$
+Training Set -> Learning Algorithm -> $$h$$
 
 #### Cost Function
 

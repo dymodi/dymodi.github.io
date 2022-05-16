@@ -46,7 +46,7 @@ author_profile: true
 
 [Gradient Boosting for Regression](/blog/MLfolds/ensemble-learning/Gradient-Boosting-for-Regression)
 
-Representation Learning
+**Representation Learning**
 
 [Representation Learning](/blog/MLfolds/representation-learning/Representation-Learning)
 
