@@ -70,7 +70,7 @@ The example of house selling, area (frontage*depth) is a more important feature 
 
 More features from a single feature: $$x, x^2, x^3, etc.$$
 
-<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try </span> $$ \color{Red}{x^2}$$ or $$\color{Red}\sqrt{x}$$ <span style="color:Red"> can be a good idea. </span> 
+<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try </span> $$ \color{Red}{x^2} \text{or} \color{Red}{\sqrt{x}}$$ <span style="color:Red"> can be a good idea. </span> 
 
 ### Computing Parameters Analytically
 
@@ -81,5 +81,21 @@ The problem of normal equation is that some computing (e.g., $$(X^TX)^{-1}$$) is
 #### Normal Equation Noninvertibility
 When will $$X^TX$$ noninvertible:
 (1) Redundant features (linear independent);
-(2) Too many features $$m\len$$
+(2) Too many features $$m\le n$$
+
+## Week 3 Logistic Regression
+
+### Classification and Representation
+
+#### Classification
+
+Linear regression is not a good idea for classification.
+
+Logistic regression: $$0 \le h_\theta(x) \le 1$$.
+
+#### Hypothesis Representation
+
+$$h_\theta(x) = \frac{1}{1+e^{-\theta ^T x}}$$
+
+
 
