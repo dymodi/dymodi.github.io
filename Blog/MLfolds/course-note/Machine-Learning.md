@@ -32,3 +32,9 @@ Training Set -> Learning Algorithm -> $$h$$
 
 #### Cost Function
 
+### Parameter Learning
+
+#### Gradient Descent
+
+$$\theta_j = \theta_j - \pdv{}{\theta_j} J(\theta_j)$$ 
+
