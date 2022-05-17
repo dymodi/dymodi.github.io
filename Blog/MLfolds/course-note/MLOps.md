@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Machine Learning Engineering for Production (MLOps) Specialization"
-permalink: /blog/MLfolds/mle/MLOps/
+permalink: /blog/MLfolds/course-note/MLOps/
 classes: wide
 author_profile: true
 use_math: true

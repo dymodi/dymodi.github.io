@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Convolution Neural Network"
-permalink: /blog/MLfolds/deep-learning/Convolution-Neural-Network/
+permalink: /blog/MLfolds/course-note/Convolution-Neural-Network/
 classes: wide
 author_profile: true
 use_math: true

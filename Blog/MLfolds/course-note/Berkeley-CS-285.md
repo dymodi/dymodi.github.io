@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "CS 285 at UC Berkeley - Deep Reinforcement Learning"
-permalink: /blog/MLfolds/reinforcement-learning/Berkeley-CS-285/
+permalink: /blog/MLfolds/course-note/Berkeley-CS-285/
 classes: wide
 author_profile: true
 use_math: true
