@@ -70,7 +70,7 @@ The example of house selling, area (frontage*depth) is a more important feature 
 
 More features from a single feature: $$x, x^2, x^3, etc.$$
 
-<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try </span> $$ \color{Red}{x^2} \text{or} \color{Red}{\sqrt{x}}$$ <span style="color:Red"> can be a good idea. </span> 
+<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try </span> $$ \color{Red}{x^2 \text{or} \sqrt{x}}$$ <span style="color:Red"> can be a good idea. </span> 
 
 ### Computing Parameters Analytically
 
@@ -96,6 +96,23 @@ Logistic regression: $$0 \le h_\theta(x) \le 1$$.
 #### Hypothesis Representation
 
 $$h_\theta(x) = \frac{1}{1+e^{-\theta ^T x}}$$
+
+The interpretation of hypothesis output $$h_\theta(x)$$: it's the estimated the probability that $$y=1$$ for this $$x$$.
+
+<p>
+	<img src="https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/1WFqZHntEead-BJkoDOYOw_2413fbec8ff9fa1f19aaf78265b8a33b_Logistic_function.png?expiry=1652918400000&hmac=cMfOzo0FWu2zAW7I99HjkX8b-HveDX0GiTF1ZGM4aH8"
+       alt="Sigmoid function" 
+       style="width: 40em;" 
+       class="align-center">
+</p>
+
+
+
+#### Decision Boundary
+
+What we are doing in LR: set a decision boundary and split the data points to two groups.
+
+optimizing in logistic regression: maximize the distance of data point to decision boudary (hyperplane).
 
 
 
