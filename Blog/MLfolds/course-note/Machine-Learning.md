@@ -36,5 +36,5 @@ Training Set -> Learning Algorithm -> $$h$$
 
 #### Gradient Descent
 
-$$\theta_j = \theta_j - \pdv{}{\theta_j} J(\theta_j)$$ 
+$$\theta_j = \theta_j - \alpha \pdv{}{\theta_j} J(\theta_j)$$ 
 
