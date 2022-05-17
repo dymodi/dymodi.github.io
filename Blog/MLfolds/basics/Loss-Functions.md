@@ -26,6 +26,8 @@ $$f_{\mathbf w}(x) = \mathbf w · \phi (x)$$ overshoots the target $$y$$. Then w
 
 $$\text{Loss}_{\text{squared}}(x, y, \mathbf w) = (f_{\mathbf w}(x) - y)^2$$
 
+Squared loss is used in (1) Linear Regression;
+
 ## Absolute deviation loss
 
 $$\text{Loss}_{\text{absdev}}(x, y, \mathbf w) = |f_{\mathbf w}(x) - y|$$
@@ -33,3 +35,5 @@ $$\text{Loss}_{\text{absdev}}(x, y, \mathbf w) = |f_{\mathbf w}(x) - y|$$
 ## Cross entropy loss
 
 $$\text{Loss}_{\text{cross-entropy}}(x, y, \mathbf w) = y\log f_{\mathbf w}(x) +(1-y) \log (1-f_{\mathbf w}(x)) $$
+
+Cross entropy is used in (1) Logistic Regression;
