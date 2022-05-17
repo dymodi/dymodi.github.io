@@ -62,7 +62,7 @@ Mean normalization: replace $$x_i$$ with $$x_i-\mu_i$$ to make features have app
 
 If $$J(\theta)$$ increases or fluctuates, you should use a smaller $$\alpha$$.
 
-Plot the # iteration v.s. $$J(\theta)$$ helps.
+Plot the # of iteration v.s. $$J(\theta)$$ helps.
 
 #### Features and Polynomial Regression
 
@@ -70,4 +70,10 @@ The example of house selling, area (frontage*depth) is a more important feature 
 
 More features from a single feature: $$x, x^2, x^3, etc.$$
 
-<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try  $x^2$ or $\sqrt{x}$ can be a good idea. </span> 
+<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try  \(x^2\) or \[\sqrt{x}\] can be a good idea. </span> 
+
+### Computing Parameters Analytically
+
+#### Normal Equation
+
+The problem of normal equation is that some computing (e.g., $$(X^TX)^{-1}$$) is not scalable when $$n$$ is very large.
