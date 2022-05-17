@@ -52,3 +52,22 @@ Note: all $$\theta$$ are updated simultaneously.
 
 $$h(\theta)=\theta^Tx$$
 
+#### Gradient Descent in Practice I - Feature Scaling
+
+Idea: make sure the features are on similar scale. (e.g., $$-1\le x_i\le 1$$)
+
+Mean normalization: replace $$x_i$$ with $$x_i-\mu_i$$ to make features have approximately zero average.
+
+#### Gradient Descent in Practice II - Learning Rate
+
+If $$J(\theta)$$ increases or fluctuates, you should use a smaller $$\alpha$$.
+
+Plot the # iteration v.s. $$J(\theta)$$ helps.
+
+#### Features and Polynomial Regression
+
+The example of house selling, area (frontage*depth) is a more important feature compared to frontage and depth.
+
+More features from a single feature: $$x, x^2, x^3, etc.$$
+
+<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try  $x^2$ or $\sqrt{x}$ can be a good idea. </span> 
