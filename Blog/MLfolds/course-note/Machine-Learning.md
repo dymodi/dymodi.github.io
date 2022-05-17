@@ -8,7 +8,7 @@ use_math: true
 date: 22/05/15
 ---
 
-This is a learning note of ["Machine Learning "](https://www.coursera.org/learn/machine-learning) from Andrew Ng.
+This is a learning note on ["Machine Learning "](https://www.coursera.org/learn/machine-learning) from Andrew Ng.
 
 ## Week 1 Introduction
 
@@ -38,7 +38,7 @@ Training Set -> Learning Algorithm -> $$h$$
 
 $$\theta_j = \theta_j - \alpha  \frac{\partial}{\partial \theta_j} J(\theta)$$ 
 
-here $$\alpha$$ is the learning rate.
+Here $$\alpha$$ is the learning rate.
 
 Note: all $$\theta$$ are updated simultaneously.
 
@@ -54,7 +54,7 @@ $$h(\theta)=\theta^Tx$$
 
 #### Gradient Descent in Practice I - Feature Scaling
 
-Idea: make sure the features are on similar scale. (e.g., $$-1\le x_i\le 1$$)
+Idea: make sure the features are on a similar scale. (e.g., $$-1\le x_i\le 1$$)
 
 Mean normalization: replace $$x_i$$ with $$x_i-\mu_i$$ to make features have approximately zero average.
 
@@ -66,7 +66,7 @@ Plot the # of iteration v.s. $$J(\theta)$$ helps.
 
 #### Features and Polynomial Regression
 
-The example of house selling, area (frontage*depth) is a more important feature compared to frontage and depth.
+In house selling, area (frontage*depth) is a more important feature than frontage and depth.
 
 More features from a single feature: $$x, x^2, x^3, etc.$$
 
@@ -76,7 +76,7 @@ More features from a single feature: $$x, x^2, x^3, etc.$$
 
 #### Normal Equation
 
-The problem of normal equation is that some computing (e.g., $$(X^TX)^{-1}$$) is not scalable when $$n$$ (number of features) is very large.
+The problem with the normal equation is that some computing (e.g., $$(X^TX)^{-1}$$) is not scalable when $$n$$ (number of features) is very large.
 
 #### Normal Equation Noninvertibility
 When will $$X^TX$$ noninvertible:
@@ -110,9 +110,15 @@ The interpretation of hypothesis output $$h_\theta(x)$$: it's the estimated the 
 
 #### Decision Boundary
 
-What we are doing in LR: set a decision boundary and split the data points to two groups.
+The idea of LR: set a decision boundary and split the data points into two groups.
 
-optimizing in logistic regression: maximize the distance of data point to decision boudary (hyperplane).
+By using high-order polynomial terms, LR can produce non-linear decision boundaries (e.g., circles.) 
 
+### Logistic Regression Model
 
+#### Cost Function
+
+Problem of square loss in LR: $$J(\theta)$$ is non-convex.
+
+\begin{align*}& J(\theta) = \dfrac{1}{m} \sum_{i=1}^m \mathrm{Cost}(h_\theta(x^{(i)}),y^{(i)}) \newline & \mathrm{Cost}(h_\theta(x),y) = -\log(h_\theta(x)) \; & \text{if y = 1} \newline & \mathrm{Cost}(h_\theta(x),y) = -\log(1-h_\theta(x)) \; & \text{if y = 0}\end{align*}
 
