@@ -5,7 +5,7 @@ permalink: /blog/MLfolds/course-note/ml/
 classes: wide
 author_profile: true
 use_math: true
-date: 22/05/15
+date: 22/05/17
 ---
 
 This is a learning note on ["Machine Learning "](https://www.coursera.org/learn/machine-learning) from Andrew Ng.
@@ -124,7 +124,7 @@ $$ \begin{align*}& J(\theta) = \dfrac{1}{m} \sum_{i=1}^m \mathrm{Cost}(h_\theta(
 
 #### Simplified Cost Function and Gradient Descent
 
-$$ J(\theta) - \frac{1}{m} \sum{i=1}^m \mathrm{Cost} y^{(i)} \log(h_\theta(x)) + (1-y^{(i)}) \log(1-h_\theta(x)) $$
+$$ J(\theta) - \frac{1}{m} \sum_{i=1}^m \[ y^{(i)} \log(h_\theta(x)) + (1-y^{(i)}) \log(1-h_\theta(x)) \] $$
 
 
 
