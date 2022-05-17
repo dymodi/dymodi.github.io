@@ -36,7 +36,19 @@ Training Set -> Learning Algorithm -> $$h$$
 
 #### Gradient Descent
 
-$$\theta_j = \theta_j - \alpha  \frac{\partial}{\partial \theta_j} J(\theta_j)$$ 
+$$\theta_j = \theta_j - \alpha  \frac{\partial}{\partial \theta_j} J(\theta)$$ 
 
-Note: all $$\theat$$ are updated simultaneously.
+here $$\alpha$$ is the learning rate.
+
+Note: all $$\theta$$ are updated simultaneously.
+
+#### Gradient Descent for Linear Regression
+
+"Batch" Gradient Descent: Use all the training samples at each step.
+
+## Week 2 Linear Regression with Multiple Variables
+
+### Multivariate Linear Regression
+
+$$h(\theta)=\theta^Tx$$
 
