@@ -70,7 +70,7 @@ The example of house selling, area (frontage*depth) is a more important feature 
 
 More features from a single feature: $$x, x^2, x^3, etc.$$
 
-<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try </span> $$ \color{Red} x^2 $$ or \[\sqrt{x}\] <span style="color:Red"> can be a good idea. </span> 
+<span style="color:Red">Here is a fundamental issue, we know y is relate to x, but we don't know how, so try </span> $$ \color{Red}{x^2}$$ or $$\color{Red}\sqrt{x}$$ <span style="color:Red"> can be a good idea. </span> 
 
 ### Computing Parameters Analytically
 
@@ -79,4 +79,7 @@ More features from a single feature: $$x, x^2, x^3, etc.$$
 The problem of normal equation is that some computing (e.g., $$(X^TX)^{-1}$$) is not scalable when $$n$$ (number of features) is very large.
 
 #### Normal Equation Noninvertibility
+When will $$X^TX$$ noninvertible:
+(1) Redundant features (linear independent);
+(2) Too many features $$m\len$$
 
