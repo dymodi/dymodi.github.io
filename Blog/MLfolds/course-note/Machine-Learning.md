@@ -126,5 +126,83 @@ $$ \begin{align*}& J(\theta) = \dfrac{1}{m} \sum_{i=1}^m \mathrm{Cost}(h_\theta(
 
 $$ J(\theta) - \frac{1}{m} \sum_{i=1}^m \[ y^{(i)} \log(h_\theta(x)) + (1-y^{(i)}) \log(1-h_\theta(x)) \] $$
 
+Gradient Descent on LR: $$ \theta_j := \theta_j - \alpha \dfrac{\partial}{\partial \theta_j}J(\theta) $$, that is $$  \theta_j := \theta_j - \frac{\alpha}{m} \sum_{i=1}^m (h_\theta(x^{(i)}) - y^{(i)}) x_j^{(i)} $$
 
+#### Advanced Optimization
+
+Some advanced optimization algorithms: Conjugate gradient, BFGS, L-BFGS
+
+### Multiclass Classification
+
+#### Multiclass Classification: One-vs-all
+
+### Solving the Problem of Overfitting
+
+#### The Problem of Overfitting
+
+Addressing: (1) Reduce the number of features; (2) Regularization;
+
+#### Cost Function
+
+Regularization: small value of $$\theta$$ corresponds to "simpler" hypothesis.
+
+#### Regularized Linear Regression
+
+#### Regularized Logistic Regression
+
+## Week 4 Neural Networks: Representation
+
+### Motivations
+
+#### Non-linear Hypotheses
+
+Linear regressions and logistic regression won't work when there are a large number of features, e.g., CV.
+
+#### Neurons and the Brain
+
+#### Model Representation I
+
+Neural model: Logistic unit; Activation function
+
+#### Model Representation II
+
+Before the output layer, the NN is learning the features by itself, while in the output layer, it can just do a simple logistic regression.
+
+### Applications
+
+#### Examples and Intuitions
+
+AND, OR, XOR
+
+## Week 5 Neural Networks: Learning
+
+### Cost Function and Backpropagation
+
+Decide the error between the output of this layer and the "reference" value from next layer, backwards.
+
+### Backpropagation in Practice
+
+Reasonable default: 1 hidden layer.
+
+Training a neural network:
+
+(1) Random initialize weights; (2) Implement forward propagation; (3) Implement computation of $$J(\theta)$$; (4) Implement backpropagation.
+
+## Week 6 Advice for Applying Machine Learning
+
+### Evaluating a Learning Algorithm
+
+Debugging a learning algorithm: (1) Get more training data; (2) Try smaller set of features; (3) Getting additional features; (4) Try adding polynomial features; (5) Try decrease $$\lambda$$; (6) Try increase $$\lambda$$.
+
+Machine Learning diagnostics.
+
+### Bias vs. Variance
+
+Bias: underfitting. Variance: overfitting.
+
+Learning Curve: Compare the $$J_{train}$$ and $$J_{cv}$$ when increasing the train set size.
+
+High bias: $$J_{train}$$ is decreasing, but increasing the training set size won't help much in decreasing the $$J_{train}$$.
+
+High variance: $$J_{train}$$ is increasing,
 
