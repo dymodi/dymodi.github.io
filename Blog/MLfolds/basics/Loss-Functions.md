@@ -39,8 +39,4 @@ $$\text{Loss}_{\text{cross-entropy}}(x, y, \mathbf w) = y\log f_{\mathbf w}(x) +
 Cross entropy is used in (1) Logistic Regression;
 
 ## Hinge loss
-$$\text{Loss}_{\text{hinge}}(x,y,\mathbf w)=   \begin{equation}
-  D_{it} = \Bigg\{if \ bank \ i \ issues \ ABS \ at \ time \ t \\
-  2 \ if \ bank \ i \ issue \ CBs \ at \ time \ t \\ 
-  \ 0 \ otherwise
-  \end{equation}$$
+$$\text{Loss}_{\text{hinge}}(x,y,\mathbf w)=   \begin{equation} =     \begin{cases} 1 & \text{if bank $i$ issues ABs at time $t$}\\ 2 & \text{if bank $i$ issues CBs at time $t$}\\ 0 & \text{otherwise} \end{cases} $$
