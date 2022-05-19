@@ -202,7 +202,33 @@ Bias: underfitting. Variance: overfitting.
 
 Learning Curve: Compare the $$J_{train}$$ and $$J_{cv}$$ when increasing the train set size.
 
-High bias: $$J_{train}$$ is decreasing, but increasing the training set size won't help much in decreasing the $$J_{train}$$.
+High bias: $$J_{train}$$ is decreasing, but increasing the training set size won't help much in decreasing the $$J_{train}$$, and  $$J_{train}$$ is similar with $$J_{cv}$$ in the end.
 
-High variance: $$J_{train}$$ is increasing,
+High variance: $$J_{train}$$ is increasing, $$J_{cv}$$ is decreasing, but still a big gap in the end.
+
+### Building a Spam Classifier
+
+Recommended steps:
+
+(1) Start with a simple algorithm and implement it quickly.
+
+(2) Plot learning curve.
+
+(3) Error analysis.
+
+### Handling Skewed Data
+
+In logistic regression, different threshold values can achieve a trade-off between precision and recall.
+
+Why we need F1 score: it gives us a single real number to show the performance of an ML algorithm.
+
+### Using Large Data Sets
+
+Data volume matters more than the algorithm choice.
+
+## Week 7 Support Vector Machines
+
+### Large Margin Classification
+
+$$h(\theta)=1 if \theta^Tx \ge zero, or 0 otherwise$$.
 
