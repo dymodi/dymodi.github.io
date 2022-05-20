@@ -232,3 +232,7 @@ Data volume matters more than the algorithm choice.
 
 $$h(\theta)=1 if \theta^Tx \ge zero, or 0 otherwise$$.
 
+The mathematics behind SVM indicates that what we do is to maximize the length of the project of data points on $$\theta$$, which is the normal vector of the decision boundary hyperplane.
+
+The high-level idea of the kernel method is to use the "relative distance" of the points in the training set as the features instead of directly using the nodes. ($$\theta^Tx \to \theta^T f(x)$$, where $$f(x)$$ is node $$x$$'s distance to other nodes.)
+
