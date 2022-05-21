@@ -26,7 +26,7 @@ $$f_{\mathbf w}(x) = \mathbf w · \phi (x)$$ overshoots the target $$y$$. Then w
 
 $$\text{Loss}_{\text{squared}}(x, y, \mathbf w) = (f_{\mathbf w}(x) - y)^2$$
 
-Squared loss is used in (1) Linear Regression;
+Squared loss is used in Linear Regression.
 
 ## Absolute deviation loss
 
@@ -36,7 +36,10 @@ $$\text{Loss}_{\text{absdev}}(x, y, \mathbf w) = |f_{\mathbf w}(x) - y|$$
 
 $$\text{Loss}_{\text{cross-entropy}}(x, y, \mathbf w) = y\log f_{\mathbf w}(x) +(1-y) \log (1-f_{\mathbf w}(x)) $$
 
-Cross entropy is used in (1) Logistic Regression;
+Cross entropy is used in Logistic Regression.
 
 ## Hinge loss
-$$\text{Loss}_{\text{hinge}}(x,y,\mathbf w) = \begin{cases} max (0, 1-f_{\mathbf w}(x)) & \text{if} y=1\\ max (0, 1-f_{\mathbf w}(x)) & \text{if} y=0\end{cases} $$
+$$\text{Loss}_{\text{hinge}}(x,y,\mathbf w) = \begin{cases} max (0, 1-f_{\mathbf w}(x)) & \text{if } y=1\\ max (0, 1+f_{\mathbf w}(x)) & \text{if } y=0\end{cases} $$
+
+Hinge loss is used in SVM.
+
