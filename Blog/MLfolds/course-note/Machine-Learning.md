@@ -230,17 +230,90 @@ Data volume matters more than the algorithm choice.
 
 ### Large Margin Classification
 
-$$h(\theta)=1 if \theta^Tx \ge zero, or 0 otherwise$$.
-
 The mathematics behind SVM indicates that what we do is to maximize the length of the project of data points on $$\theta$$, which is the normal vector of the decision boundary hyperplane.
 
 ### Kernels
 
-$$ min_\theta C \sum_{i=1}^m y^{(i)} cost_1 (\theta^Tf^{(i)}) + (1-y)cost_0(\theta^Tf^{(i)})+\frac12\sum_j=1^{m}\theta^2_j $$
+$$ min_\theta C \sum_{i=1}^m y^{(i)} cost_1 (\theta^Tf^{(i)}) + (1-y^{(I)})cost_0(\theta^Tf^{(i)})+\frac12\sum_{j=1}^{m}\theta^2_j $$
 
 The high-level idea of the kernel method is to use the "relative distance" of the points in the training set as the features instead of directly using the nodes. ($$\theta^Tx \to \theta^T f(x)$$, where $$f(x)$$ is node $$x$$'s distance to other nodes.)
 
 ### SVMs in Practice
+
+## Week 8 Unsupervised Learning
+
+### Clustering
+
+K-Means: (0) initialize K centroid; repeat: (1) assign each node based on its distance to the centroid; (2) compute new centroids;
+
+Random Initialization: pick $$K$$ training points.
+A good trick: do multiple initializations (e.g., 100) and pick the clustering that gives a minimum $$J$$
+
+Choosing the value of $$K$$: elbow method.
+
+### Motivation: Data Compression & Visualization
+
+### PCA
+
+### Applying PCA
+
+How to choose $$K$$, make sure that 99% of the variance is retained.
+
+## Week 9 Anomaly Detection
+
+### Density Estimation
+
+### Building an Anomaly Detection System
+
+Fit gaussian with normal data, use cross-validation set to set threshold $$\eta$$, and test on the test set. (we don't need anomaly in the training set.)
+
+$$log()$$ can make an asymmetrical distribution look like a Gaussian.
+
+### Multivariate Gaussian Distribution
+
+MGD can capture the relation of different features.
+
+### Predicting Movie Ratings
+
+Content-based Recommender System: Assign features (e.g., type) to content (e.g., movie), then use linear regression.
+
+### Collaborative Filtering
+
+Something like mutual localization. A difference is that $$\theta$$ and $$x$$ can be learned at the same time.
+
+### Low-Rank Matrix Factorization
+
+Solve problems where a new user does not have any movies rated.
+
+## Week 10 Large-Scale Machine Learning
+
+### Gradient Descent with Large Datasets
+
+Batch GD: Use all $$m$$ examples in each iteration. 
+
+Stochastic GD: Use $$1$$ examples in each iteration. 
+
+Mini-batch GD: Use $$b$$ examples in each iteration. 
+
+### Advanced Topics
+
+Online Learning: shipping service example, online shopping example.
+
+Map Reduce and Data Parallelism.
+
+## Week 11 Application Example: Photo OCR
+
+Something that leads deep learning and CNN.
+
+Sliding Windows. 
+
+Make Synthetic data: something like data augmentation.
+
+Two important advice: (1) Sanity check; (2) Think of how to get ten times of data.
+
+This part is really like the MLOps course.
+
+
 
 
 
