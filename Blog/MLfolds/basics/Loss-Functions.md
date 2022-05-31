@@ -20,7 +20,7 @@ One thing we need to keep in mind is that loss function is an individual topic i
 
 $$\text{Loss}_{0-1}(x, y, \mathbf w) = 1[f_{\mathbf w}(x) \ne y]$$
 
-## Squared loss
+## Squared loss (L2 loss)
 First we define residual. The residual is $$(\mathbf w · \phi (x)) − y$$, the amount by which prediction
 $$f_{\mathbf w}(x) = \mathbf w · \phi (x)$$ overshoots the target $$y$$. Then we have
 
@@ -28,7 +28,7 @@ $$\text{Loss}_{\text{squared}}(x, y, \mathbf w) = (f_{\mathbf w}(x) - y)^2$$
 
 Squared loss is used in Linear Regression.
 
-## Absolute deviation loss
+## Absolute deviation loss (L1 loss)
 
 $$\text{Loss}_{\text{absdev}}(x, y, \mathbf w) = |f_{\mathbf w}(x) - y|$$
 
