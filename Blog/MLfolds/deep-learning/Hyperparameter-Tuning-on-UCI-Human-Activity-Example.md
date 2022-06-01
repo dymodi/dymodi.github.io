@@ -17,7 +17,7 @@ The model is a simple three-layer NN model, and the hidden layer has 100 nodes.
 <p>
 	<img src="/Blog/MLfolds/deep-learning/figures/uci-activity-tuning-100-nodes-model.png"
        alt="Hyperparameter-Tuning-on-UCI-Human-Activity-Example" 
-       style="width: 40em;" 
+       style="width: 30em;" 
        class="align-center">
 </p>
 
@@ -35,6 +35,14 @@ Based on the above results, we have the following observations:
 * A **large learning rate** leads to a **faster** learning process and **larger variations** in loss values in the test set.
 * A **smaller batch size** leads to a **faster** learning process.
 * A **large learning rate** does not necessarily lead to smaller test loss.
+
+The best performance achieved (test loss is around 0.2) is shown in the following.
+<p>
+	<img src="/Blog/MLfolds/deep-learning/figures/confusion_matrix_3_lr_0.001_epochs_200.png"
+       alt="Hyperparameter-Tuning-on-UCI-Human-Activity-Example" 
+       style="width: 40em;" 
+       class="align-center">
+</p>
 
 Similar results can be observed when we set the hidden layer size to 50 and 200.
 
