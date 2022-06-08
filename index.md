@@ -13,11 +13,11 @@ My publications can also be found at [Google Scholar](https://scholar.google.com
 
 **Recent News**
 
-* May. 2022: 2nd-authored paper accepted by ACM SIGKDD'22.
+* May. 2022: 1st-authored paper accepted by ACM SIGKDD'22.
 * Apr. 2022: Selected to participate in the [CPS Rising Stars Workshop 2022](https://cps-rising-stars2022.com/).
 * Apr. 2022: Co-authored paper accepted by ACM IMWUT (UbiComp'22).
 * Feb. 2022: 2nd-authored paper accepted by ACM MobiCom'22.
-* Jan. 2022: 1st-author paper **P2-Loc** accepted by ACM IMWUT (UbiComp'22).
+* Jan. 2022: 1st-authored paper **P2-Loc** accepted by ACM IMWUT (UbiComp'22).
 * Nov. 2021: Co-authored paper won the outstanding paper award at IEEE RTSS'21.
 * Oct. 2021: **VALID** mentioned in MIT Technology Review.
 * Oct. 2021: 1st-author paper **SmartLoc** accepted by ACM IMWUT (UbiComp'22).
