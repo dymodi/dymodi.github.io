@@ -12,6 +12,7 @@ date: 21/12/16
 ### 2022
 <span style="color:Navy">[KDD'22]</span> *Para-Pred: Addressing Heterogeneity for City-Wide Indoor Status Estimation in On-Demand Delivery* <br>
 **Yi Ding**, Wei Liu, Shuai Wang, Yu Yang, Desheng Zhang<br>
+195/753=26%<br>
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> *WePos: Weak-supervised Indoor Positioning with Unlabeled WiFi for On-demand Delivery* <br>Baoshen Guo, Weijian Zuo, Shuai Wang, Wenjun Lyu, Zhiqing Hong, **Yi Ding**, Tian He, Desheng Zhang <br>
 
