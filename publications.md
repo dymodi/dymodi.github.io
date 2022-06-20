@@ -28,7 +28,7 @@ date: 21/12/16
 ### 2021
 
 <span style="color:SteelBlue">[RTSS'21]</span> *Concurrent Order Dispatch for Instant Delivery with Time-Constrained Actor-Critic Reinforcement Learning* <br>
-Baoshen Guo, Shuai Wang, **Yi Ding**, Guang Wang, Suining He, Desheng Zhang, and Tian He <br> <span style="background-color:red;color:White"> Outstanding Paper Award </span>
+Baoshen Guo, Shuai Wang, **Yi Ding**, Guang Wang, Suining He, Desheng Zhang, and Tian He <br> [[PDF](https://uconnuclab.github.io/publications/2021/Conference/guo-rtss-2021.pdf)]  <span style="background-color:red;color:White"> Outstanding Paper Award </span>
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'21]</span> *ALWAES: an Automatic Outdoor Location-Aware Correction System for Online Delivery Platforms* <br>
 Dongzhe Jiang, **Yi Ding**, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zhang <br>
