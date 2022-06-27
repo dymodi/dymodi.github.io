@@ -13,6 +13,7 @@ My publications can also be found at [Google Scholar](https://scholar.google.com
 
 **Recent News**
 
+* Jun. 2022: I gave a talk to the Location-based Service (LBS) team in ByteDance.
 * May. 2022: 1st-authored paper accepted by ACM SIGKDD'22.
 * Apr. 2022: Selected to participate in the [CPS Rising Stars Workshop 2022](https://cps-rising-stars2022.com/).
 * Apr. 2022: Co-authored paper accepted by ACM IMWUT (UbiComp'22).
@@ -32,7 +33,6 @@ My publications can also be found at [Google Scholar](https://scholar.google.com
 * Aug. 2020: **aBeacon** system introduced in [Alibaba Tech. officials accounts](https://mp.weixin.qq.com/s/7jVa-K-qUlYIrCg3YpPSEQ).
 * Aug. 2020: 2nd-author paper **Trans-Loc** accepted by MobiCom' 20.
 * Jun. 2020: 1st-author paper **aBeacon** accepted by NSDI' 21.
-* Sep. 2019: Paper accepted by ACM IMWUT (UbiComp'19).
 
 
 <!-- <p align="left">
