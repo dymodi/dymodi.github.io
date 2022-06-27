@@ -3,10 +3,9 @@ layout: post
 title: Activity/Mobility Datasets
 date: Feb. 6, 2020
 author: Yi DING
-
 ---
 
-Here I summarize some activity/mobility system data I used or may use in future.
+Here I summarize some activity/mobility system data I used or may use in the future.
 
 [**Sussex-Huawei Locomotion Dataset**](http://www.shl-dataset.org/)
 
@@ -14,5 +13,5 @@ Here I summarize some activity/mobility system data I used or may use in future.
 
 [**UCI Activity Recognition from Single Chest-Mounted Accelerometer**](https://data.world/uci/activity-recognition-from-single-chest-mounted-accelerometer)
 
-[**MotionSense Dataset : Smartphone Sensor Data - HAR**](https://www.kaggle.com/malekzadeh/motionsense-dataset)
+[**MotionSense Dataset: Smartphone Sensor Data - HAR**](https://www.kaggle.com/malekzadeh/motionsense-dataset)
 

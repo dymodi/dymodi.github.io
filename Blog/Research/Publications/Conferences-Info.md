@@ -9,31 +9,30 @@ author: Yi DING
 
 ## Systems (Neworks / Real-time / Mobile Computing / Measurement / OS)
 
-| Deadline    | Proceeding              | CS Ranking                   | CCF                   |
-| ----------- | ----------------------- | ---------------------------- | --------------------- |
-| January     | IEEE ICDCS              | -                            | B (OS, Architecture)  |
-| January     | USENIX ATC              | OS                           | A (OS, Architecture)  |
-| January     | IEEE SECON              | -                            | B (Computer networks) |
-| January     | ACM SIGCOMM             | Computer networks            | A (Computer networks) |
-| February    | ACM SIGMETRICS (Winter) | Measurement & perf. analysis | B (OS, Architecture)  |
-| March       | ACM MobiCom, Winter DDL | Mobile computing             | A (Computer networks) |
-| April       | USENIX NSDI, Spring DDL | Computer networks            | A (Computer networks) |
-| April       | ACM SenSys              | Mobile computing             | B (Computer networks) |
-| May         | IEEE RTSS               | Embedded & real-time systems | A (Interdisciplinary) |
-| May         | IEEE ICNP               | -                            | B (Computer networks) |
-| June        | ACM IMC                 | Measurement & perf. analysis | B (Computer networks) |
-| June        | USENIX OSDI             | OS                           | A (SE, Language)      |
-| June        | ACM SIGSPATIAL          | -                            | -                     |
-| June        | CoNEXT                  | -                            | B (Computer networks) |
-| July        | IEEE INFOCOM            | -                            | A (Computer networks) |
-| August      | ACM SIGMETRICS (Summer) | Measurement & perf. analysis | B (OS, Architecture)  |
-| August      | ACM MobiCom, Summer DDL | Mobile computing             | A (Computer networks) |
-| September   | USENIX NSDI, Fall DDL   | Computer networks            | A (Computer networks) |
-| September   | IEEE PERCOM             | -                            | B (HCI, Ubi. Comp.)   |
-| October     | ACM IPSN                | -                            | B (Computer networks) |
-| October     | ACM SIGMETRICS (Fall)   | Measurement & perf. analysis | B (OS, Architecture)  |
-| December    | ACM MobiSys             | Mobile computing             | B (Computer networks) |
-| December    | ACM MobiHoc             | -                            | B (Computer networks) |
+| Deadline  | Proceeding              | CS Ranking                   | CCF                   |
+| --------- | ----------------------- | ---------------------------- | --------------------- |
+| January   | IEEE ICDCS              | -                            | B (OS, Architecture)  |
+| January   | USENIX ATC              | OS                           | A (OS, Architecture)  |
+| January   | IEEE SECON              | -                            | B (Computer networks) |
+| January   | ACM SIGCOMM             | Computer networks            | A (Computer networks) |
+| February  | ACM SIGMETRICS (Winter) | Measurement & perf. analysis | B (OS, Architecture)  |
+| March     | ACM MobiCom, Winter DDL | Mobile computing             | A (Computer networks) |
+| April     | USENIX NSDI, Spring DDL | Computer networks            | A (Computer networks) |
+| April     | ACM SenSys              | Mobile computing             | B (Computer networks) |
+| May       | IEEE RTSS               | Embedded & real-time systems | A (Interdisciplinary) |
+| May       | IEEE ICNP               | -                            | B (Computer networks) |
+| June      | ACM IMC                 | Measurement & perf. analysis | B (Computer networks) |
+| June      | ACM SIGSPATIAL          | -                            | -                     |
+| June      | CoNEXT                  | -                            | B (Computer networks) |
+| July      | IEEE INFOCOM            | -                            | A (Computer networks) |
+| August    | ACM SIGMETRICS (Summer) | Measurement & perf. analysis | B (OS, Architecture)  |
+| August    | ACM MobiCom, Summer DDL | Mobile computing             | A (Computer networks) |
+| September | USENIX NSDI, Fall DDL   | Computer networks            | A (Computer networks) |
+| September | IEEE PERCOM             | -                            | B (HCI, Ubi. Comp.)   |
+| October   | ACM IPSN                | -                            | B (Computer networks) |
+| October   | ACM SIGMETRICS (Fall)   | Measurement & perf. analysis | B (OS, Architecture)  |
+| December  | ACM MobiSys             | Mobile computing             | B (Computer networks) |
+| December  | ACM MobiHoc             | -                            | B (Computer networks) |
 
 ## Data Mining / Machine Learning
 
