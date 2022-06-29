@@ -1,8 +1,9 @@
 ---
-layout: post
-title: Activity/Mobility Datasets
-date: Feb. 6, 2020
-author: Yi DING
+layout: single
+title: "Activity/Mobility Datasets"
+permalink: /datasets/activity-dataset
+classes: wide
+date: 20/2/6
 ---
 
 Here I summarize some activity/mobility system data I used or may use in the future.
