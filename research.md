@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 ---
 
-I am broadly interested in the **Cyber-Physical Systems** (also known as **Internet of Things**) and **Human Centered Computing** from *Mobile* and *Ubiquitous Computing* perspectives with applications in *Smart Cities*. 
+I am broadly interested in **Data Mining** and **Cyber-Physical Systems** (also known as **Internet of Things**) from *Mobile* and *Ubiquitous Computing* perspectives with applications in *Smart Cities* and *Gig Delivery*. 
 
 <p><img src="/assets/images/Research/vision.png"
 height="150"

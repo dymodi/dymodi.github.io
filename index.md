@@ -7,7 +7,7 @@ author_profile: true
 
 I am currently a Ph.D. student at the University of Minnesota and my advisor is [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Jie Gao](https://sites.rutgers.edu/jie-gao/about/) on research.
 
-My research interests are broadly in the areas of **Cyber-Physical Systems** (also known as **Internet of Things**) and  **Networked Mobile Computing** with applications in **Smart Cities**.<br>You can contact me at dingx447 AT umn DOT edu.
+My research interests are at the intersection of **Cyber-Physical Systems** (also known as **Internet of Things**) and **Data Mining** with applications in **Smart Cities** and **Gig Delivery**.<br>You can contact me at dingx447 AT umn DOT edu.
 
 My publications can also be found at [Google Scholar](https://scholar.google.com/citations?user=umiRGkUAAAAJ).
 
