@@ -6,20 +6,6 @@ classes: wide
 author_profile: true
 ---
 
-## Machine Learning & Data Mining
-
-[Related Works of Spatial-Temporal Data Learning](/Literature-Reviews/MLDM/Spatial-Temporal-Learning-Related-Works)
-
-[Related Works of Data Inconsistency](/Literature-Reviews/MLDM/Data-Inconsistency-Related-Works)
-
-[Related Works of Outlier Detection](/Literature-Reviews/MLDM/Outlier-Detection-Related-Works)
-
-[Related Works of Feature Selection](/Literature-Reviews/MLDM/Feature-Selection-Related-Works)
-
-[Related Works of Labeling](/Literature-Reviews/MLDM/Labeling-Related-Works)
-
-[Related Works of Learning with Missing Value](/Literature-Reviews/MLDM/Learning-with-Missing-Value-Related-Works)
-
 ## CPS, Transportation, & Gig Delivery
 
 [Related Works of Taxi Dispatching and Routing](/Literature-Reviews/Transportation-and-Delivery/Taxi-Dispatching-and-Routing-Related-Works)
@@ -65,3 +51,20 @@ author_profile: true
 [Related Works of Heterogeneous Sensing](/Literature-Reviews/Sensing/Heterogeneous-Sensing-Related-Works)
 
 [Related Works of Calibration](/Literature-Reviews/Sensing/Calibration-Related-Works)
+
+## Social Computing
+[Related Works of Crowd and Gig in CSCW](/Literature-Reviews/Social-Computing/Related-Works-of-Crowd-Gig-CSCW)
+
+## Machine Learning & Data Mining
+
+[Related Works of Spatial-Temporal Data Learning](/Literature-Reviews/MLDM/Spatial-Temporal-Learning-Related-Works)
+
+[Related Works of Data Inconsistency](/Literature-Reviews/MLDM/Data-Inconsistency-Related-Works)
+
+[Related Works of Outlier Detection](/Literature-Reviews/MLDM/Outlier-Detection-Related-Works)
+
+[Related Works of Feature Selection](/Literature-Reviews/MLDM/Feature-Selection-Related-Works)
+
+[Related Works of Labeling](/Literature-Reviews/MLDM/Labeling-Related-Works)
+
+[Related Works of Learning with Missing Value](/Literature-Reviews/MLDM/Learning-with-Missing-Value-Related-Works)
