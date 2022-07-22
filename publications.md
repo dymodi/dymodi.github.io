@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 classes: wide
-date: 21/12/16
+date: 22/7/22
 ---
 
 ## Selected Conference Papers
@@ -59,6 +59,10 @@ Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He a
 [[PDF](https://static.aminer.cn/upload/pdf/804/626/236/5d77773b47c8f76646d17f1f_0.pdf)]
 
 ## Selected Journal Papers
+<span style="color:SteelBlue">[ToN]</span> *Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild* <br>
+**Yi Ding**, Yu Yang, Wenchao Jiang, Yunhuai Liu, Tian He, Desheng Zhang <br>
+IEEE/ACM Transactions on Networking, 2021
+
 <span style="color:SteelBlue">[ToN]</span> *From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild* <br>
 **Yi Ding**, Ling Liu, Yu Yang, Yunhuai Liu, Desheng Zhang, Tian He <br>
 IEEE/ACM Transactions on Networking, 2021

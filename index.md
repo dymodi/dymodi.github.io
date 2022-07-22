@@ -13,6 +13,7 @@ My publications can also be found at [Google Scholar](https://scholar.google.com
 
 **Recent News**
 
+* Jul. 2022: 1st-authored paper accepted by IEEE/ACM ToN.
 * Jun. 2022: I gave a talk to the Location-based Service (LBS) team in ByteDance.
 * May. 2022: 1st-authored paper accepted by ACM SIGKDD'22.
 * Apr. 2022: Selected to participate in the [CPS Rising Stars Workshop 2022](https://cps-rising-stars2022.com/).
@@ -24,7 +25,7 @@ My publications can also be found at [Google Scholar](https://scholar.google.com
 * Oct. 2021: 1st-author paper **SmartLoc** accepted by ACM IMWUT (UbiComp'22).
 * Aug. 2021: Co-authored paper accepted by IEEE RTSS'21.
 * Jul. 2021: 2nd-author paper **ALWAES** accepted by ACM IMWUT (UbiComp'21).
-* Jul. 2021: 1st-author paper accepted by IEEE ToN.
+* Jul. 2021: 1st-author paper accepted by IEEE/ACM ToN.
 * Jul. 2021: [Data-set](https://tianchi.aliyun.com/dataset/dataDetail?dataId=106807) released of on-demand delivery order distribution in Shenzhen.
 * Jul. 2021: 1st-author paper **RL-Dispatch** accepted by ACM IMWUT (UbiComp'21).
 * Apr. 2021: 1st-author paper **VALID** accepted by SIGCOMM' 21.
