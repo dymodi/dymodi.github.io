@@ -13,9 +13,10 @@ My publications can also be found at [Google Scholar](https://scholar.google.com
 
 **Recent News**
 
+* Jul. 2022: I gave a talk at [Kargo](https://mykargo.com/).
 * Jul. 2022: 1st-authored paper accepted by IEEE/ACM ToN.
 * Jun. 2022: I gave a talk to the Location-based Service (LBS) team in ByteDance.
-* May. 2022: 1st-authored paper accepted by ACM SIGKDD'22.
+* May. 2022: Co-authored paper accepted by ACM SIGKDD'22.
 * Apr. 2022: Selected to participate in the [CPS Rising Stars Workshop 2022](https://cps-rising-stars2022.com/).
 * Apr. 2022: Co-authored paper accepted by ACM IMWUT (UbiComp'22).
 * Feb. 2022: 2nd-authored paper accepted by ACM MobiCom'22.
