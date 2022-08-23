@@ -13,6 +13,8 @@ My publications can also be found at [Google Scholar](https://scholar.google.com
 
 **Recent News**
 
+* Aug. 2022: Co-authored paper accepted by ACM SIGSPATIAL 2022.
+* Aug. 2022: Present **Para-Pred** at KDD. Glad to see some new friends and old friends.
 * Jul. 2022: I gave a talk at [Kargo](https://mykargo.com/).
 * Jul. 2022: 1st-authored paper accepted by IEEE/ACM ToN.
 * Jun. 2022: I gave a talk to the Location-based Service (LBS) team in ByteDance.
