@@ -108,7 +108,7 @@ author:
   email            :
   links:
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar-square"
+      icon: "ai ai-google-scholar-square ai-fw"
       url: "https://scholar.google.com/citations?user=umiRGkUAAAAJ&hl=en"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
