@@ -117,7 +117,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/YiDing001"
     - label: "Google Scholar"
-      icon: "fab ai ai-google-scholar-square"
+      icon: "ai ai-google-scholar-square"
       url: "https://scholar.google.com/citations?user=umiRGkUAAAAJ&hl=en"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
