@@ -5,12 +5,13 @@ classes: wide
 author_profile: true
 ---
 
-I am currently a Ph.D. student at the University of Minnesota and my advisor is [Tian He](https://www-users.cs.umn.edu/~tianhe/). I am also working with Professor [Desheng Zhang](https://www.cs.rutgers.edu/~dz220/) and [Jie Gao](https://sites.rutgers.edu/jie-gao/about/) on research.
+I am currently a Postdoctoral Associate at MIT Sociotechnical Systems Research Center ([SSRC](https://ssrc.mit.edu/)). I received my Ph.D. in the Department of Computer Science and Engineering at the University of Minnesota.
 
-My research interests are at the intersection of **Cyber-Physical Systems** (also known as **Internet of Things**) and **Data Mining** with applications in **Smart Cities** and **Gig Delivery**.<br>You can contact me at dingx447 AT umn DOT edu.
+My research interests are at the intersection of **Mobile Computing**, **Data Mining**, and **Computational Social Science** with applications in **Smart Cities** and **Gig Delivery**.<br>
 
 **Recent News**
 
+* Oct. 2022: Start postdoctoral associate appointment at MIT.
 * Aug. 2022: Co-authored paper accepted by ACM SIGSPATIAL 2022.
 * Aug. 2022: Present **Para-Pred** at KDD. Glad to see some new friends and old friends.
 * Jul. 2022: I gave a talk at [Kargo](https://mykargo.com/).
