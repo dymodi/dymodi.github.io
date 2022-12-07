@@ -52,7 +52,7 @@ Dongzhe Jiang, **Yi Ding**, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zh
 
 <span style="color:RoyalBlue">[MobiCom'20]</span> *TransLoc: Transparent Indoor Localization with Uncertain Human Participation* <br>
 Yu Yang,  **Yi Ding**, Dengpan.Yuan, Guang Wang, Xiaoyang Xie, Yunhuai. Liu, Tian He and Desheng Zhang <br>
-[[PDF](Research/Publications/files/transloc.pdf)], 63/384=16%
+[[PDF](https://www.yyang.site/assets/pub/transloc.pdf)], 63/384=16%
 
 ### 2019 
 
