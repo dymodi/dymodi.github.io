@@ -7,7 +7,7 @@ author_profile: true
 
 I am currently a Postdoctoral Associate at MIT Sociotechnical Systems Research Center ([SSRC](https://ssrc.mit.edu/)). I received my Ph.D. in the Department of Computer Science and Engineering at the University of Minnesota in 2022.
 
-My research interests are at the intersection of **Mobile Computing**, **Data Mining**, and **Computational Social Science** with applications in **Smart Cities** and **Gig Delivery**.<br>
+My research interests are at the intersection of **Mobile Computing**, **Data Mining**, and **Computational Social Science** with applications in **Smart Cities** and **Urban Delivery**.<br>
 
 **Recent News**
 
