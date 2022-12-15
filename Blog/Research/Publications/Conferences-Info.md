@@ -32,6 +32,7 @@ author: Yi DING
 | September | IEEE PERCOM             | -                            | B (HCI, Ubi. Comp.)   |
 | October   | ACM IPSN                | -                            | B (Computer networks) |
 | October   | ACM SIGMETRICS (Fall)   | Measurement & perf. analysis | B (OS, Architecture)  |
+| October   | ACM ICCPS               | -                            | -                     |
 | December  | ACM MobiSys             | Mobile computing             | B (Computer networks) |
 | December  | ACM MobiHoc             | -                            | B (Computer networks) |
 
@@ -52,6 +53,7 @@ author: Yi DING
 | July                           | ACM SIGMOD, 1st cycle | Databases                       | A (Databases, Data mining)  |
 | August                         | ACM WSDM              | -                               | B (Databases, Data mining)  |
 | September                      | AAAI                  | Artificial intelligence         | A (Artificial intelligence) |
+| October | SIAM SDM | - | B (Databases, Data mining) |
 | October                        | WWW                   | The Web & information retrieval | A (Interdisciplinary)       |
 | October                        | IEEE ICDE, 2nd round  | Databases                       | A (Databases, Data mining)  |
 | October                        | ACM SIGMOD, 2nd cycle | Databases                       | A (Databases, Data mining)  |
