@@ -73,3 +73,13 @@ author: Yi DING
 | October 15  | ACM CSCW   | -          | A (HCI, Ubi. Comp.) |
 | November 15 | ACM IMWUT  | HCI        | A (HCI, Ubi. Comp.) |
 
+
+## Journals
+| Journals  | CCF                   |
+| --------- | --------------------- |
+| IEEE TON  | A (Computer Networks) |
+| IEEE TMC  | A (Computer Networks) |
+| IEEE TOSN | B (Computer Networks) |
+| IEEE TKDE | A (Database)          |
+| IEEE TITS | B (Interdisciplinary) |
+
