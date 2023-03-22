@@ -11,6 +11,7 @@ My research interests lie at the intersection of **cyber-physical systems (CPS)*
 
 **Recent News**
 
+* Mar. 2023: Serve as a reviewer for ACM SIGKDD 2023.
 * Oct. 2022: Start postdoctoral associate appointment at MIT.
 * Aug. 2022: Co-authored paper accepted by ACM SIGSPATIAL 2022.
 * Aug. 2022: Present **Para-Pred** at KDD. Glad to see some new friends and old friends.
