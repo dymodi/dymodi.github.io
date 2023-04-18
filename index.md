@@ -9,6 +9,10 @@ I am currently a Postdoctoral Associate at MIT Institute for Data, Systems, and 
 
 My research interests lie at the intersection of **cyber-physical systems (CPS)**, **mobile computing**, and **spatiotemporal data mining**. I am interested in studying human behavior through smartphone sensing and machine learning in CPS and cyber-human systems (CHS) like *location-based services*, *urban delivery,* and *smart cities*.
 
+<span style="color:FireBrick">I will join the Department of Computer Science at the University of Texas at Dallas as an assistant professor in the Fall of 2023. </span>
+
+<span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Fall 2023 or Spring 2024 with ***full financial support***. Experience in mobile APP development, machine learning, and/or data mining is preferred. If you are interested, please send your CV and transcripts to yiding01 *at* mit *dot* edu.</span>
+
 **Recent News**
 
 * Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
