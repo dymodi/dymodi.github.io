@@ -62,8 +62,8 @@ Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He a
 
 ## Selected Journal Papers
 <span style="color:SteelBlue">[ToSN'23]</span> *OPTI: Order Preparation Time Inference for On-demand Delivery* <br>
-Zhigang Dai, Wenjun Lyu **Yi Ding**, Yiwei Song, and Yunhuai Liu <br>
-IEEE/ACM Transactions on Sensor Network, 2023
+Zhigang Dai, Wenjun Lyu, **Yi Ding**, Yiwei Song, Yunhuai Liu <br>
+ACM Transactions on Sensor Network, 2023
 
 
 <span style="color:SteelBlue">[ToN'22]</span> *Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild* <br>
