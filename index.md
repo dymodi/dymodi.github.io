@@ -13,6 +13,8 @@ My research interests lie at the intersection of **cyber-physical systems (CPS)*
 
 <span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Fall 2023 or Spring 2024 with ***full financial support***. Experience in mobile APP development, machine learning, and/or data mining is preferred. If you are interested, please send your CV and transcripts to yiding01 *at* mit *dot* edu.</span>
 
+Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
+
 **Recent News**
 
 * Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
