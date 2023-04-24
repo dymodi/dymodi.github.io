@@ -11,7 +11,7 @@ My research interests lie at the intersection of **cyber-physical systems (CPS)*
 
 <span style="color:FireBrick">I will join the Department of Computer Science at the University of Texas at Dallas as an assistant professor in the Fall of 2023. </span>
 
-<span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Fall 2023 or Spring 2024 with ***full financial support***. Experience in mobile APP development, machine learning, and/or data mining is preferred. If you are interested, please send your CV and transcripts to yiding01 *at* mit *dot* edu.</span>
+<span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Spring 2024 and Fall 24 with ***full financial support***. Experience in mobile APP development, machine learning, and/or data mining is preferred. If you are interested, please send your CV and transcripts to yiding01 *at* mit *dot* edu.</span>
 
 Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
