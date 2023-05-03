@@ -17,7 +17,7 @@ The core idea of RNN is that input at $$t-1$$ will become part of the model at t
 
 LSTM is proposed to solve the vanishing gradients in traditional RNN. 
 
-Another shortcoming of the RNN is that it cannot hold long-term memory.
+Another shortcoming of the RNN is that **it cannot hold long-term memory**.
 
 ## LSTM
 

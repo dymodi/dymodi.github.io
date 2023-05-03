@@ -32,3 +32,10 @@ Here I summarize some transportation system data I used or may use in future.
 **Major Fields**: [ride_id, started_on, created_date, update_date, completed_on, distance_travelled, end_location_lat, end_location_long, active_driver_id, started_location_long, started_location_lat, rider_id, driver_reached_on]
 
 **Comments**: A relative complete data of ride trips.
+
+
+
+## Mobility Data with Demographic
+
+Illinois Travel Tracker Survey, 2007 - 2008: Public Data
+https://datahub.cmap.illinois.gov/dataset/traveltracker0708
