@@ -74,6 +74,8 @@ IEEE/ACM Transactions on Networking, 2022
 **Yi Ding**, Ling Liu, Yu Yang, Yunhuai Liu, Desheng Zhang, Tian He <br>
 IEEE/ACM Transactions on Networking, 2021
 
+[AJC'16] *Embedded MPC Controller Based on Interior-Point Method with Convergence Depth Control*<br>**Yi Ding**, Zuhua Xu, Jun Zhao, Kexin Wang, Zhijiang Shao<br>Asian Journal of Control, 2016
+
 ## Patents
 
 ### Published
@@ -98,6 +100,9 @@ IEEE/ACM Transactions on Networking, 2021
 
 [WO] *Indoor positioning method and apparatus, electronic device and computer readable storage medium* [[Link](https://patents.google.com/patent/WO2021008148A1/en)]
 
+#### 2017
+
+*Embedded MPC method based on convergence depth control* [[Link](https://patents.google.com/patent/CN104793489A/en?oq=CN+104793489)]
 
 ### Pending
 
