@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Attention based Models"
+title: "Attention-based Models"
 permalink: /blog/MLfolds/deep-learning/Attention-based-Models/
 classes: wide
 author_profile: true

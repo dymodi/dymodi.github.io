@@ -78,6 +78,14 @@ IEEE/ACM Transactions on Networking, 2021
 
 ### Published
 
+#### 2023
+
+*Task execution method and device based on gesture interaction* [[Link](https://patents.google.com/patent/CN112612362A/en)]
+
+#### 2022
+
+*Beacon association method and device* [[Link](https://patents.google.com/patent/CN112533300A/en)]
+
 #### 2021
 
 *Order processing method and device, storage medium and electronic equipment* [[Link](https://patents.google.com/patent/CN112365219A/en)]
@@ -96,12 +104,6 @@ IEEE/ACM Transactions on Networking, 2021
 #### 2021
 
 *Distribution order processing method and device and computer equipment* [[Link](https://patents.google.com/patent/CN112734311A/en)]
-
-#### 2020
-
-*Task execution method and device based on gesture interaction* [[Link](https://patents.google.com/patent/CN112612362A/en)]
-
-*Beacon association method and device* [[Link](https://patents.google.com/patent/CN112533300A/en)]
 
 #### 2018
 
