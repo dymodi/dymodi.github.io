@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: single
 title: How to Handle Rejection
 permalink: /for-students/how-to-handle-rejection/
+author_profile: true
+classes: wide
 date: May. 19, 2023
-author: Yi DING
 ---
 
 
