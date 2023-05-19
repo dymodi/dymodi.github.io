@@ -8,5 +8,7 @@ main:
     url: /data-sets/
   - title: "Code"
     url: /code/
+  - title: "For Students"
+    url: /for-students/
   - title: "Personal"
     url: /personal/
