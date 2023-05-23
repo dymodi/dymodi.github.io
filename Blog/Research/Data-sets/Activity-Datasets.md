@@ -17,3 +17,5 @@ Here I summarize some activity/mobility system data I used or may use in the fut
 [**MotionSense Dataset: Smartphone Sensor Data - HAR**](https://www.kaggle.com/malekzadeh/motionsense-dataset)
 
 [**A multidevice and multimodal dataset for human energy expenditure estimation using wearable devices**](https://www.nature.com/articles/s41597-022-01643-5)
+
+**[MM-Fi: Multi-Modal Non-Intrusive 4D Human Dataset](https://ntu-aiot-lab.github.io/mm-fi)**
