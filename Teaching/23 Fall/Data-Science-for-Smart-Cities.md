@@ -7,6 +7,20 @@ classes: wide
 date: June 12, 2023
 ---
 
+# Course Info
+
+**Instructor: Yi Ding**
+
+**Office:** TBD
+
+**Office hours:** TBD
+
+**Email:** TBD
+
+**Lecture:** 5:30 pm - 6:45 pm, Tuesday/Thursday
+
+**Location**: TBD
+
 
 
 # Course Description
