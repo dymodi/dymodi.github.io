@@ -55,19 +55,28 @@ No books are required. All the materials will be online.
 
 ## Grading (Tentative)
 
-Participation: 10%
-
-Reading summary: 20%
-
-Topic presentations: 20%
-
-Class projects: 50% (10% for Proposal Reports, 20% for Final Reports, 20% for Presentations)
+Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class projects: 50% (10% for Proposal Reports, 20% for Final Reports, 20% for Presentations)
 
 
 
 ## Course Schedule (Tentative)
 
 W1: Course Introduction & Motivation (08/22, 08/24)
+
+
+
+```
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+</details>
+```
 
 
 
