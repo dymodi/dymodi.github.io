@@ -17,12 +17,13 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Jul. 2023: Serve as program committee on the SIGCOMM'23 Posters and Demos.
 * Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
 * Mar. 2023: Serve as a reviewer for ACM SIGKDD 2023.
 * Oct. 2022: Start postdoctoral associate appointment at MIT.
 * Aug. 2022: Co-authored paper accepted by ACM SIGSPATIAL 2022.
 * Aug. 2022: Present **Para-Pred** at KDD. Glad to see some new friends and old friends.
-* Jul. 2022: I gave a talk at [Kargo](https://mykargo.com/).
+* Jul. 2022: Gave a talk at [Kargo](https://mykargo.com/).
 * Jul. 2022: 1st-authored paper accepted by IEEE/ACM ToN.
 * Jun. 2022: I gave a talk to the Location-based Service (LBS) team in ByteDance.
 * May. 2022: Co-authored paper accepted by ACM SIGKDD'22.
