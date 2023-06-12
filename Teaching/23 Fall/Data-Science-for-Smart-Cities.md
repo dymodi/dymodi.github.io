@@ -2,7 +2,7 @@
 layout: single
 title: [Fall 2023] CS 6301 Special Topics in CS: Data Science for Smart Cities
 permalink: /teaching/fall23-cs6301/
-author_profile: false
+author_profile: true
 classes: wide
 date: Jun. 12, 2023
 ---
