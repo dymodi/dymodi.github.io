@@ -63,11 +63,15 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 W1: Course Introduction & Motivation (08/22, 08/24)
 
+W?: Mobility and Socioeconomic
+
+Reading
+
 
 <details>
   <summary>Click me</summary>
 
-  ### Heading
+### Heading
 
 1. Foo
 
