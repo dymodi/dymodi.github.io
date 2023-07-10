@@ -68,9 +68,12 @@ W1: Course Introduction & Motivation (08/22, 08/24)
   <summary>Click me</summary>
 
   ### Heading
-  1. Foo
-  2. Bar
-     * Baz
+
+1. Foo
+
+2. Bar
+
+4. * Baz
      * Qux
 
 </details>
