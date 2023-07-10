@@ -75,6 +75,8 @@ Reading
 <details markdown=block>
 <summary>Click me</summary>
 
+### Try the head
+
 * Foo
 * Bar
 
