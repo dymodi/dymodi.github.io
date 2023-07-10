@@ -68,8 +68,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 <details markdown=block>
 <summary>W?: Computational Social Science </summary>
-
-Reading
+<br>Reading
 
 * [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 12.1 (2021): 4633.](https://www.nature.com/articles/s41467-021-24899-8)
 * [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 14.1 (2023): 2310.](https://www.nature.com/articles/s41467-023-37913-y)
@@ -77,12 +76,31 @@ Reading
 </details>
 
 
+<details markdown=block>
+<summary>W?: Data-Driven Smart Cities: Sensing</summary>
+
+</details>
+
+
+<details markdown=block>
+<summary>W?: Data-Driven Smart Cities: Prediction</summary>
+
+</details>
+
+
+<details markdown=block>
+<summary>W?: Data-Driven Smart Cities: Decision-Making</summary>
+
+</details>
 
 
 
+<details markdown=block>
+<summary>Additional Readings</summary>
 
+* [Halegoua, Germaine. *Smart cities*. MIT press, 2020.](https://mitpress.mit.edu/9780262538053/smart-cities/)
 
-
+</details>
 
 
 
