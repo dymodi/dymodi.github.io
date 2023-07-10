@@ -74,11 +74,13 @@ Reading
 
 <details>
 <summary>Click me</summary>
+<pre>
 
 ### Heading
 
 1. Foo
 2. Bar
+</pre>
 
 </details>
 
