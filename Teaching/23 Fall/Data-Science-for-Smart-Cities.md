@@ -4,7 +4,7 @@ title: "Fall'23: CS 6301 Special Topics: in CS Data Science for Smart Cities"
 permalink: /teaching/fall23-cs6301/
 author_profile: true
 classes: wide
-date: Jun. 12, 2023
+date: Jul. 10, 2023
 ---
 
 ## Course Info
@@ -64,21 +64,14 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 <details markdown=block>
 <summary>W1: Course Introduction & Motivation (08/22, 08/24)</summary>
 
-</details>
-
-<details markdown=block>
-<summary>W?: Computational Social Science </summary>
-<br>Reading
-
-* [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 12.1 (2021): 4633.](https://www.nature.com/articles/s41467-021-24899-8)
-* [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 14.1 (2023): 2310.](https://www.nature.com/articles/s41467-023-37913-y)
+* Smart cities study in general
+* Smart cities under the framework of Cyber-Physical Systems
 
 </details>
 
 
 <details markdown=block>
 <summary>W?: Data-Driven Smart Cities: Sensing</summary>
-
 </details>
 
 
@@ -90,10 +83,17 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 <details markdown=block>
 <summary>W?: Data-Driven Smart Cities: Decision-Making</summary>
-
 </details>
 
+<details markdown=block>
+<summary>W?: Computational Social Science </summary>
 
+<br>Reading
+
+* [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 12.1 (2021): 4633.](https://www.nature.com/articles/s41467-021-24899-8)
+* [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 14.1 (2023): 2310.](https://www.nature.com/articles/s41467-023-37913-y)
+
+</details>
 
 <details markdown=block>
 <summary>Additional Readings</summary>
