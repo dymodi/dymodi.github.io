@@ -72,7 +72,7 @@ Reading
 
 
 
-<details open>
+<details markdown=block>
 <summary>Click me</summary>
 
 * Foo
