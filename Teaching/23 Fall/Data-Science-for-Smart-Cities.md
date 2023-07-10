@@ -61,26 +61,29 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 ## Course Schedule (Tentative)
 
-W1: Course Introduction & Motivation (08/22, 08/24)
+<details markdown=block>
+<summary>W1: Course Introduction & Motivation (08/22, 08/24)</summary>
 
-W?: Computational Social Science
+</details>
+
+<details markdown=block>
+<summary>W?: Computational Social Science </summary>
 
 Reading
 
 * [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 12.1 (2021): 4633.](https://www.nature.com/articles/s41467-021-24899-8)
 * [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 14.1 (2023): 2310.](https://www.nature.com/articles/s41467-023-37913-y)
 
-
-
-<details markdown=block>
-<summary>Click me</summary>
-
-### Try the head
-
-* Foo
-* Bar
-
 </details>
+
+
+
+
+
+
+
+
+
 
 
 
