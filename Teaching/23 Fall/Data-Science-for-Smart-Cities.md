@@ -63,24 +63,25 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 W1: Course Introduction & Motivation (08/22, 08/24)
 
-W?: Mobility and Socioeconomic
+W?: Computational Social Science
 
 Reading
 
+* [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 12.1 (2021): 4633.](https://www.nature.com/articles/s41467-021-24899-8)
+* [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 14.1 (2023): 2310.](https://www.nature.com/articles/s41467-023-37913-y)
+
+
 
 <details>
-  <summary>Click me</summary>
+<summary>Click me</summary>
 
 ### Heading
 
 1. Foo
-
 2. Bar
 
-4. * Baz
-     * Qux
-
 </details>
+
 
 
 
