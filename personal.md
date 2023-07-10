@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 ---
 
-I enjoy traveling and reading (novels, not papers) in my spare time.
+I enjoy traveling and reading in my spare time.
 
 ## Traveling  <a name="sometext"></a>
 
@@ -22,19 +22,25 @@ Rawok Glacier, China
 {% include figure image_path="/assets/personal/travel/stars-2021.jpg" alt="Star Sky" caption="Star Sky." %}
 
 ## Reading
-I enjoy reading books and here are some books I really want to share with others. I put a simple comment after the book name.
+I enjoy reading books, and here are some books I really want to share with others. I put a simple comment after the book's name.
 
-Stefan Zweig, *The World of Yesterday: Memoires of a European* - Future has always been written in the history.
+Hermann Hesse, *Demian: The Story of Emil Sinclair's Youth*, I wanted only to live in accord with the promptings which came from my true self. Why was that so very difficult?
 
-Stefan Zweig, *Decisive Moments in History* - Decisions at some moments impact your whole life and even the history.
+Hermann Hesse, *Narcissus and Goldmund* - Find yourself and be, instead of being someone else.
+
+Hermann Hesse, *Steppenwolf* - Finding someone's self is a long and tough trip.
+
+Stefan Zweig, *The World of Yesterday: Memoires of a European* - Future has always been written in history.
+
+Stefan Zweig, *Decisive Moments in History* - Decisions at some moments impact your whole life and even history.
 
 Gabriel García Márquez, *Living to Tell the Tale* - Life itself is a story.
 
-Gabriel García Márquez, *Love in the Time of Cholera*- Great book on love.
+Gabriel García Márquez, *Love in the Time of Cholera* - A great book on love.
 
-Haruki Murakami, *Kafka on the Shore* -  Murakami's novels formed some of my view on life and humanity.
+Haruki Murakami, *Kafka on the Shore* -  Murakami's novels formed some of my views on life and humanity.
 
 Erich Maria Remarque, *All Quiet on the Western Front* - We shall never fall into the fever for wars.
 
-Jun'ichirō Tanizaki, *The Makioka Sisters* - Make youself comfortable in a chair and read the story of four sisiters.
+Jun'ichirō Tanizaki, *The Makioka Sisters* - Make yourself comfortable in a chair and read the story of four sisters.
 
