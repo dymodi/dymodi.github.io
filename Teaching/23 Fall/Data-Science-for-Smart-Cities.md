@@ -96,6 +96,13 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 </details>
 
+
+<details markdown=block>
+<summary>W8: Proposal Presentation</summary>
+
+</details>
+
+
 <details markdown=block>
 <summary>W?: Emerging Applications</summary>
 
@@ -110,17 +117,19 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
+<summary>W?: Special Topic: Human System Synergy</summary>
+
+</details>
+
+<details markdown=block>
 <summary>W?: Special Topic: Privacy and Security</summary>
 
 </details>
 
-<details markdown=block>
-<summary>W?: Proposal Presentation</summary>
 
-</details>
 
 <details markdown=block>
-<summary>W?: Project Presentation</summary>
+<summary>W16: Project Presentation</summary>
 
 </details>
 
