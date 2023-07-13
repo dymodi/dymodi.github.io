@@ -87,7 +87,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary>W?: Computational Social Science </summary>
+<summary>W?: Special Topic: Computational Social Science </summary>
 
 <br>Reading
 
@@ -105,7 +105,12 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary>W?: Privacy and Security</summary>
+<summary>W?: Special Topic: LLM for Smart Cities</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W?: Special Topic: Privacy and Security</summary>
 
 </details>
 
