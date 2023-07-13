@@ -71,25 +71,25 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W?: Data-Driven Smart Cities: Sensing</summary>
+<summary>W2: Data-Driven Smart Cities: Sensing (08/29, 08/31)</summary>
 
 </details>
 
 
 <details markdown=block>
-<summary>W?: Data-Driven Smart Cities: Prediction</summary>
+<summary>W3: Data-Driven Smart Cities: Prediction (09/05, 09/07)</summary>
 
 </details>
 
 
 <details markdown=block>
-<summary>W?: Data-Driven Smart Cities: Decision-Making</summary>
+<summary>W4: Data-Driven Smart Cities: Decision-Making & Introduction on Final Project (09/12, 09/14)</summary>
 
 </details>
 
 
 <details markdown=block>
-<summary>W?: Fundamental Topic: Localization and Navigation</summary>
+<summary>W5: Fundamental Topic: Localization and Navigation (09/19, 09/21)</summary>
 
 * Outdoor Localization
 * Indoor Localization
@@ -102,7 +102,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W?: Fundamental Topic: Transportation</summary>
+<summary>W6: Fundamental Topic: Transportation (09/26, 09/28)</summary>
 
 * Traffic Prediction
 * Traffic Light Control
@@ -116,7 +116,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W?: Fundamental Topic: Privacy and Security</summary>
+<summary>W7: Fundamental Topic: Privacy and Security (10/03, 10/05)</summary>
 
 </details>
 
@@ -127,14 +127,14 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary>W?: Special Topic: Climate and Environment</summary>
+<summary>W9: Special Topic: Climate and Environment (10/17, 10/19)</summary>
 
 * Air Quality Detection and Prediction
 
 </details>
 
 <details markdown=block>
-<summary>W?: Special Topic: LLM for Smart Cities</summary>
+<summary>W10: Special Topic: LLM for Smart Cities (10/24, 10/26)</summary>
 
 * Potential of ChatGPT
 * Challenges and Risks
@@ -142,7 +142,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary>W?: Special Topic: Human System Synergy</summary>
+<summary>W11: Special Topic: Human System Synergy (10/31, 11/02)</summary>
 
 * Human-in-the-Loop
 
@@ -150,7 +150,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W?: Special Topic: Computational Social Science </summary>
+<summary>W12: Special Topic: Computational Social Science (11/07, 11/09)</summary>
 
 * Income Segregation
 * Impact of Covid
