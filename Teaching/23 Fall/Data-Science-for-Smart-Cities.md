@@ -160,17 +160,12 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary>W?: Emerging Technologies</summary>
+<summary>W?: Emerging Technologies and Applications</summary>
 
 * Lidar on Smartphones
 * Drones
 * Autonomous Driving
 * 5G and 6G
-
-</details>
-
-<details markdown=block>
-<summary>W?: Emerging Applications</summary>
 
 * On-Demand Vehicles
 * On-Demand Delivery
