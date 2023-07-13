@@ -89,7 +89,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W?: Special Topic: Localization and Navigation</summary>
+<summary>W?: Fundamental Topic: Localization and Navigation</summary>
 
 * Outdoor Localization
 * Indoor Localization
@@ -102,7 +102,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W?: Special Topic: Transportation</summary>
+<summary>W?: Fundamental Topic: Transportation</summary>
 
 * Traffic Prediction
 * Traffic Light Control
@@ -115,9 +115,19 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 
+<details markdown=block>
+<summary>W?: Fundamental Topic: Privacy and Security</summary>
+
+</details>
+
 
 <details markdown=block>
 <summary><span style="background-color:Crimson;color:White">W8: Proposal Presentation (10/10, 10/12)</span></summary>
+
+</details>
+
+<details markdown=block>
+<summary>W?: Special Topic: Climate and Environment</summary>
 
 </details>
 
@@ -131,12 +141,6 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 </details>
 
-<details markdown=block>
-<summary>W?: Special Topic: Privacy and Security</summary>
-
-
-
-</details>
 
 <details markdown=block>
 <summary>W?: Special Topic: Computational Social Science </summary>
