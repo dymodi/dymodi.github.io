@@ -65,6 +65,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 * Smart cities study in general
 * Smart cities under the framework of Cyber-Physical Systems
+* IoT and CPS
 
 </details>
 
@@ -115,17 +116,27 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary><span style="background-color:LightSeaGreen;color:White">W14 (No Classes): Fall Break and Thanksgiving (11/21, 11/23)</span></summary>
-
-</details>
-
-<details markdown=block>
 <summary>W?: Special Topic: Human System Synergy</summary>
 
 </details>
 
 <details markdown=block>
 <summary>W?: Special Topic: Privacy and Security</summary>
+</details>
+
+<details markdown=block>
+<summary><span style="background-color:LightSeaGreen;color:White">W14 (No Classes): Fall Break and Thanksgiving (11/21, 11/23)</span></summary>
+
+</details>
+
+<details markdown=block>
+<summary>W?: Emerging Technologies</summary>
+
+* Lidar on Smartphones
+* Drones
+* Autonomous Driving
+* 5G and 6G
+
 </details>
 
 <details markdown=block>
