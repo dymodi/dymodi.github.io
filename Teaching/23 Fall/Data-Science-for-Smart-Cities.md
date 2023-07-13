@@ -129,21 +129,31 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 <details markdown=block>
 <summary>W?: Special Topic: Climate and Environment</summary>
 
+* Air Quality Detection and Prediction
+
 </details>
 
 <details markdown=block>
 <summary>W?: Special Topic: LLM for Smart Cities</summary>
+
+* Potential of ChatGPT
+* Challenges and Risks
 
 </details>
 
 <details markdown=block>
 <summary>W?: Special Topic: Human System Synergy</summary>
 
+* Human-in-the-Loop
+
 </details>
 
 
 <details markdown=block>
 <summary>W?: Special Topic: Computational Social Science </summary>
+
+* Income Segregation
+* Impact of Covid
 
 <br>Reading
 
