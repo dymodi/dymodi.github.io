@@ -71,19 +71,16 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 <details markdown=block>
 <summary>W2: Data-Driven Smart Cities: Sensing (08/29, 08/31)</summary>
-
 </details>
 
 
 <details markdown=block>
-<summary>W3: Data-Driven Smart Cities: Prediction & <span style="background-color:Crimson;color:White"> Introduction on Final Project </span>  (09/05, 09/07)</summary>
-
+<summary>W3: Data-Driven Smart Cities: Prediction & Introduction on Final Project  (09/05, 09/07)</summary>
 </details>
 
 
 <details markdown=block>
 <summary>W4: Data-Driven Smart Cities: Decision-Making (09/12, 09/14)</summary>
-
 </details>
 
 
