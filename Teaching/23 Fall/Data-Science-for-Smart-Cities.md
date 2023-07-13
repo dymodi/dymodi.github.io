@@ -11,7 +11,7 @@ date: Jul. 10, 2023
 
 **Instructor: Yi Ding**
 
-**Office:** TBD
+**Office:** ECSS 4.703 
 
 **Office hours:** TBD
 
@@ -55,7 +55,7 @@ No books are required. All the materials will be online.
 
 ## Grading (Tentative)
 
-Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class projects: 50% (10% for Proposal Reports, 20% for Final Reports, 20% for Presentations)
+Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class projects: 50% (10% for Proposal Reports, 10% for Proposal Presentation, 20% for Final Reports, 10% for Final Presentation)
 
 
 
@@ -104,6 +104,10 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 </details>
 
+<details markdown=block>
+<summary>W?: Privacy and Security</summary>
+
+</details>
 
 <details markdown=block>
 <summary>W?: Proposal Presentation</summary>
