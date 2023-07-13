@@ -98,7 +98,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W8: Proposal Presentation</summary>
+<summary>W8: Proposal Presentation (10/10, 10/12)</summary>
 
 </details>
 
@@ -117,19 +117,23 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
+<summary><span style="background-color:Teal;color:White">W14 (No Classes): Fall Break and Thanksgiving</span></summary>
+
+</details>
+
+<details markdown=block>
 <summary>W?: Special Topic: Human System Synergy</summary>
 
 </details>
 
 <details markdown=block>
 <summary>W?: Special Topic: Privacy and Security</summary>
-
 </details>
 
 
 
 <details markdown=block>
-<summary>W16: Project Presentation</summary>
+<summary>W16: Project Presentation (12/05, 12/07)</summary>
 
 </details>
 
