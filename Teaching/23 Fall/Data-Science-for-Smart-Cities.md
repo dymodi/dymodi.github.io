@@ -25,16 +25,15 @@ date: Jul. 10, 2023
 
 ## Course Description
 
-Empowered by rich data collected from various infrastructures in our cities and machine learning techniques, our cities are becoming “smarter”. In this course, we discuss how data science is used to innovate our cities. We cover topics such as urban sensing, data-driven modeling and analytics for smart city services, data-driven decision-making, data visualization, and novel applications in various city phenomena. 
+Empowered by rich data collected from various infrastructures in our cities and machine learning techniques, our cities are becoming “smarter”. In this course, we discuss how data science and other computer science technologies are used to innovate our cities. We cover topics such as urban sensing, data-driven modeling and analytics for smart city services, data-driven decision-making, and also some speical and novel topics like environment, LLM, privacy, and computational social science. We will also use Singapore as an example to show how these technologies are adopted in a modern city.
 Students are expected to (i) read and present research papers from top conferences, (ii) participate in discussions of the papers, and (iii) design, implement, and present their ideas for the final class project.
-
 
 
 ## Course Learning Objectives
 
 By the end of this course, you will be able to
 
-1. Understand the basic principle underlying data science for smart cities;
+1. Understand the basic principle underlying data science and related computer science technologies (e.g., IoT, Cyber-Physical Systems) for smart cities;
 2. Explain the state-of-the-art research in this area;
 3. Demonstrate ideas for smart cities;
 4. Implement ideas based on real-world data using tools including but not limited to data analytics, machine learning, statistics, data visualization, etc.
@@ -77,19 +76,24 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W3: Data-Driven Smart Cities: Prediction (09/05, 09/07)</summary>
+<summary>W3: Data-Driven Smart Cities: Prediction & <span style="background-color:Crimson;color:White"> Introduction on Final Project </span>  (09/05, 09/07)</summary>
 
 </details>
 
 
 <details markdown=block>
-<summary>W4: Data-Driven Smart Cities: Decision-Making & Introduction on Final Project (09/12, 09/14)</summary>
+<summary>W4: Data-Driven Smart Cities: Decision-Making (09/12, 09/14)</summary>
 
 </details>
 
 
 <details markdown=block>
-<summary>W5: Fundamental Topic: Localization and Navigation (09/19, 09/21)</summary>
+<summary><span style="background-color:Crimson;color:White">W5: Proposal Presentation (10/10, 10/12)</span></summary>
+
+</details>
+
+<details markdown=block>
+<summary>W6: Fundamental Topic: Localization and Navigation (09/19, 09/21)</summary>
 
 * Outdoor Localization
 * Indoor Localization
@@ -102,7 +106,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W6: Fundamental Topic: Transportation (09/26, 09/28)</summary>
+<summary>W7: Fundamental Topic: Transportation (09/26, 09/28)</summary>
 
 * Traffic Prediction
 * Traffic Light Control
@@ -116,15 +120,10 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W7: Fundamental Topic: Privacy and Security (10/03, 10/05)</summary>
+<summary>W8: Fundamental Topic: Privacy and Security (10/03, 10/05)</summary>
 
 </details>
 
-
-<details markdown=block>
-<summary><span style="background-color:Crimson;color:White">W8: Proposal Presentation (10/10, 10/12)</span></summary>
-
-</details>
 
 <details markdown=block>
 <summary>W9: Special Topic: Climate and Environment (10/17, 10/19)</summary>
