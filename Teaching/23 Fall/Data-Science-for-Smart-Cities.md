@@ -149,6 +149,12 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
+<summary>W?: Smart City in the Real World: Singapore</summary>
+
+</details>
+
+
+<details markdown=block>
 <summary><span style="background-color:LightSeaGreen;color:White">W14 (No Classes): Fall Break and Thanksgiving (11/21, 11/23)</span></summary>
 
 </details>
