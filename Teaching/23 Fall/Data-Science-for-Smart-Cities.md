@@ -40,7 +40,6 @@ By the end of this course, you will be able to
 4. Implement ideas based on real-world data using tools including but not limited to data analytics, machine learning, statistics, data visualization, etc.
 
 
-
 ## Prerequisites
 
 CS 1336 and (STAT 3355 or CS 4375) OR other equivalent courses.
@@ -84,6 +83,25 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 <details markdown=block>
 <summary>W?: Data-Driven Smart Cities: Decision-Making</summary>
+
+</details>
+
+
+<details markdown=block>
+<summary>W?: Special Topic: Localization and Navigation</summary>
+
+</details>
+
+
+
+<details markdown=block>
+<summary><span style="background-color:Crimson;color:White">W8: Proposal Presentation (10/10, 10/12)</span></summary>
+
+</details>
+
+<details markdown=block>
+<summary>W?: Special Topic: LLM for Smart Cities</summary>
+
 </details>
 
 <details markdown=block>
@@ -93,26 +111,6 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 * [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 12.1 (2021): 4633.](https://www.nature.com/articles/s41467-021-24899-8)
 * [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 14.1 (2023): 2310.](https://www.nature.com/articles/s41467-023-37913-y)
-
-</details>
-
-
-<details markdown=block>
-<summary><span style="background-color:Crimson;color:White">W8: Proposal Presentation (10/10, 10/12)</span></summary>
-
-</details>
-
-
-<details markdown=block>
-<summary>W?: Emerging Applications</summary>
-
-* On-Demand Vehicles
-* On-Demand Delivery
-
-</details>
-
-<details markdown=block>
-<summary>W?: Special Topic: LLM for Smart Cities</summary>
 
 </details>
 
@@ -130,6 +128,13 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 <summary>W?: Special Topic: Privacy and Security</summary>
 </details>
 
+<details markdown=block>
+<summary>W?: Emerging Applications</summary>
+
+* On-Demand Vehicles
+* On-Demand Delivery
+
+</details>
 
 
 <details markdown=block>
