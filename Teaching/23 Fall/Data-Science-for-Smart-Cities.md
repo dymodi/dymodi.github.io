@@ -149,7 +149,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary>W?: Smart City in the Real World: Singapore</summary>
+<summary>W13: Smart City in the Real World: Singapore (11/14, 11/16)</summary>
 
 </details>
 
@@ -160,7 +160,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary>W?: Emerging Technologies and Applications</summary>
+<summary>W15: Emerging Technologies and Applications (11/28, 11/30)</summary>
 
 * Lidar on Smartphones
 * Drones
@@ -178,12 +178,9 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 </details>
 
-<details markdown=block>
-<summary>Additional Readings</summary>
+## Additional Readings
 
 * [Halegoua, Germaine. *Smart cities*. MIT press, 2020.](https://mitpress.mit.edu/9780262538053/smart-cities/)
-
-</details>
 
 
 
