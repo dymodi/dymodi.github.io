@@ -91,6 +91,27 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 <details markdown=block>
 <summary>W?: Special Topic: Localization and Navigation</summary>
 
+* Outdoor Localization
+* Indoor Localization
+* Wi-Fi
+* Bluetooth
+* Light
+* Acoustic
+
+</details>
+
+
+<details markdown=block>
+<summary>W?: Special Topic: Transportation</summary>
+
+* Traffic Prediction
+* Traffic Light Control
+* Parking Space Prediction
+* Parking Violation Prediction
+* Shared Bike Reballancing
+* Ambulance Routing
+* Map Construction
+
 </details>
 
 
@@ -106,6 +127,18 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
+<summary>W?: Special Topic: Human System Synergy</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W?: Special Topic: Privacy and Security</summary>
+
+
+
+</details>
+
+<details markdown=block>
 <summary>W?: Special Topic: Computational Social Science </summary>
 
 <br>Reading
@@ -113,15 +146,6 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 * [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 12.1 (2021): 4633.](https://www.nature.com/articles/s41467-021-24899-8)
 * [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 14.1 (2023): 2310.](https://www.nature.com/articles/s41467-023-37913-y)
 
-</details>
-
-<details markdown=block>
-<summary>W?: Special Topic: Human System Synergy</summary>
-
-</details>
-
-<details markdown=block>
-<summary>W?: Special Topic: Privacy and Security</summary>
 </details>
 
 <details markdown=block>
