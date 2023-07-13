@@ -98,7 +98,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W8: Proposal Presentation (10/10, 10/12)</summary>
+<summary><span style="background-color:Crimson;color:White">W8: Proposal Presentation (10/10, 10/12)</span></summary>
 
 </details>
 
@@ -117,7 +117,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 </details>
 
 <details markdown=block>
-<summary><span style="background-color:Teal;color:White">W14 (No Classes): Fall Break and Thanksgiving</span></summary>
+<summary><span style="background-color:LightSeaGreen;color:White">W14 (No Classes): Fall Break and Thanksgiving (11/21, 11/23)</span></summary>
 
 </details>
 
@@ -133,7 +133,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 
 <details markdown=block>
-<summary>W16: Project Presentation (12/05, 12/07)</summary>
+<summary><span style="background-color:Crimson;color:White">W16: Project Presentation (12/05, 12/07)</span></summary>
 
 </details>
 
