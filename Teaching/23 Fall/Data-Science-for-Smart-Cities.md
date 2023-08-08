@@ -177,6 +177,8 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 * Autonomous Driving
 * 5G and 6G
 
+  * Edge Offloading
+
 * On-Demand Vehicles
 * On-Demand Delivery
 
