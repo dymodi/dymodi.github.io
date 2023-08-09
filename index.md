@@ -5,11 +5,9 @@ classes: wide
 author_profile: true
 ---
 
-I am currently a Postdoctoral Associate at MIT Institute for Data, Systems, and Society ([IDSS](https://idss.mit.edu/staff/postdoctoral-associate-ssrc/)) and Media Lab. I received my Ph.D. in the Department of Computer Science and Engineering at the University of Minnesota in 2022. I have my Bachelor's and Master's degrees from Zhejiang University in China.
+I am currently an Assistant Professor in Computer Science at The University of Texas at Dallas. Previously, I was a Postdoctoral Associate at MIT Institute for Data, Systems, and Society ([IDSS](https://idss.mit.edu/staff/postdoctoral-associate-ssrc/)) and Media Lab from 2022 to 2023. I received my Ph.D. in the Department of Computer Science and Engineering at the University of Minnesota in 2022. I have my Bachelor's and Master's degrees from Zhejiang University in China.
 
 My research interests lie at the intersection of **cyber-physical systems (CPS)**, **mobile computing**, and **spatiotemporal data mining**. I am interested in studying human behavior through smartphone sensing and machine learning in CPS and cyber-human systems (CHS) like *location-based services*, *urban delivery,* and *smart cities*.
-
-<span style="color:FireBrick">I will join the Department of Computer Science at the University of Texas at Dallas as an assistant professor in the Fall of 2023. </span>
 
 <span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Fall 24. Experience in mobile APP development, machine learning, and/or data mining is preferred. If you are interested, please send your CV and transcripts to yi.ding *at* utdallas *dot* edu</span>
 
