@@ -60,7 +60,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 ## Course Schedule (Tentative)
 
 <details markdown=block>
-<summary>W1: Course Introduction & Motivation (08/22, 08/24)</summary>
+<summary>W1: Course Introduction & Guidance on Paper Reading and Presentation (08/22, 08/24)</summary>
 
 * Smart cities study in general
 * Smart cities under the framework of Cyber-Physical Systems
@@ -71,6 +71,11 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 <details markdown=block>
 <summary>W2: Data-Driven Smart Cities: Sensing (08/29, 08/31)</summary>
+
+Reading:
+
+* [Sie, Emerson, et al, "BatMobility: Towards Flying Without Seeing for Autonomous Drones", *ACM MobiCom* 2023](https://arxiv.org/pdf/2307.11518.pdf)
+
 </details>
 
 
