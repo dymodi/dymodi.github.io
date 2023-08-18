@@ -74,7 +74,16 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 Reading:
 
+* [Azizyan, Martin, et al, "SurroundSense: Mobile Phone Localization via Ambience Fingerprinting", *ACM MobiCom* 2009](https://dl.acm.org/doi/pdf/10.1145/1614320.1614350?casa_token=DcNQXySB_p4AAAAA:8GpM2WAMI5ypuECLznhkU-zdQwbGvV4yCtC1rwMGsvMyo2Vl6Fl3EQ7Zv14LJ3esJlVz41_yWg)
+
+* [Zhou, Pengfei, et al, "IODetector: A Generic Service for Indoor Outdoor Detection", *ACM SenSys* 2012](http://www.cs.umd.edu/class/spring2017/cmsc818G/files/iodetector.pdf)
+
+* [He, Yuze, et al, "AutoMatch: Leveraging Traffic Camera to Improve Perception
+and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.com/assets/pdf/AutoMatch-SenSys22.pdf)
+
 * [Sie, Emerson, et al, "BatMobility: Towards Flying Without Seeing for Autonomous Drones", *ACM MobiCom* 2023](https://arxiv.org/pdf/2307.11518.pdf)
+
+
 
 </details>
 
