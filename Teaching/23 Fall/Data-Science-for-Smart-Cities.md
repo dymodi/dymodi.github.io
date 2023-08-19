@@ -74,11 +74,11 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 <br>Reading:
 
-* W2-Thurs-Sample []
+* W2-Thurs-Sample [Ding, Yi, et al. "Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild", *ACM SIGCOMM* 2021](https://dl.acm.org/doi/pdf/10.1145/3452296.3472911)
 * W2-Thurs-1 [Zhou, Pengfei, et al. "IODetector: A Generic Service for Indoor Outdoor Detection", *ACM SenSys* 2012](http://www.cs.umd.edu/class/spring2017/cmsc818G/files/iodetector.pdf)
-* W2-Thurs-2 [Ma, Yunfei, et al.  "Drone relays for battery-free networks",*ACM SIGCOMM* 2017](http://www.mit.edu/~fadel/papers/RFly-paper.pdf)
-* W2-Thurs-3 [Ahmed, Fawad, et al. "CarMap: Fast 3D Feature Map Updates for Automobiles", *USENIX NSDI* 2020](https://www.usenix.org/system/files/nsdi20-paper-ahmad.pdf)
-* W2-Thurs-4 [Ding, Yi, et al. "Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild", *ACM SIGCOMM* 2021](https://dl.acm.org/doi/pdf/10.1145/3452296.3472911)
+* W2-Thurs-3 [Adib, Fadel, et al. "See Through Walls with Wi-Fi!", *ACM SIGCOMM* 2013](https://dl.acm.org/doi/pdf/10.1145/2486001.2486039)
+* W2-Thurs-3 [Ma, Yunfei, et al.  "Drone relays for battery-free networks",*ACM SIGCOMM* 2017](http://www.mit.edu/~fadel/papers/RFly-paper.pdf)
+* W2-Thurs-4 [Ahmed, Fawad, et al. "CarMap: Fast 3D Feature Map Updates for Automobiles", *USENIX NSDI* 2020](https://www.usenix.org/system/files/nsdi20-paper-ahmad.pdf)
 * W2-Thurs-5  [He, Yuze, et al. "AutoMatch: Leveraging Traffic Camera to Improve Perception
 and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.com/assets/pdf/AutoMatch-SenSys22.pdf)
 
@@ -141,7 +141,7 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 
 Reading
 
-* W9-Tue-1 [Kikstra, Jarmo, et al. "Climate mitigation scenarios with persistent COVID-19-related energy demand changes." *Nature Energy* 2021.](https://www.nature.com/articles/s41560-021-00904-8)
+* W9-Tue-? [Kikstra, Jarmo, et al. "Climate mitigation scenarios with persistent COVID-19-related energy demand changes." *Nature Energy* 2021.](https://www.nature.com/articles/s41560-021-00904-8)
 
 
 
@@ -191,25 +191,24 @@ Reading
 <summary>W13: Smart City in the Real World: Singapore (11/14, 11/16)</summary>
 
 Reading
+* W13-Tue-Sample [Cao, Chu, et al. "Walkway Discovery from Large Scale Crowdsensing." *ACM/IEEE IPSN* 2018](https://www.ceid.upatras.gr/webpages/courses/adhocnets/files/papers/paper5.pdf)
 * W13-Tue-1 [Jiang, Shan, et al. "Activity-Based Human Mobility Patterns Inferred from Mobile Phone Data: A Case Study of Singapore" *ACM UbiComp* 2015](http://www2.cs.uic.edu/~urbcomp2013/urbcomp2015/papers/Human-Mobility-Inference_Jiang.pdf)
 * W13-Tue-2 [Poonawala, Hasan, et al. "Singapore in Motion: Insights on Public Transport Service Level Through Farecard and Mobile Data Analytics." *ACM SIGKDD* 2016](https://www.kdd.org/kdd2016/papers/files/SingaporeInMotion_v3.pdf)
 * W13-Tue-3 [Tachet, R., et al. "Scaling Law of Urban Ride Sharing." *Scientific Report* 2017](https://www.nature.com/articles/srep42868.)
-* W13-Tue-4 [Cao, Chu, et al. "Walkway Discovery from Large Scale Crowdsensing." *ACM/IEEE IPSN* 2018](https://www.ceid.upatras.gr/webpages/courses/adhocnets/files/papers/paper5.pdf)
+* W13-Tue-4 [Lau, Billy, et. al. "Sensor Fusion for Public Space Utilization Monitoring in a Smart City", *IEEE IoT Journal*, 2018](https://arxiv.org/pdf/1710.01581.pdf)
 * W13-Tue-5 [Kandappu, Thivya, et al. "A Feasibility Study on Crowdsourcing to Monitor Municipal Resources in Smart Cities." *ACM WWW* 2018](https://dl.acm.org/doi/pdf/10.1145/3184558.3191519)
+* W13-Thurs-Sample [Li, Yi, et al. "Urban Region Representation Learning with OpenStreetMap Building Footprints" *ACM SIGKDD* 2019](https://dl.acm.org/doi/pdf/10.1145/3580305.3599538)
 * W13-Thurs-1 [Meegahapola, Lakmal, et al. "BuSCOPE : Fusing Individual & Aggregated Mobility Behavior for "Live" Smart City Services." *ACM MobiSys* 2019](https://www.andrew.cmu.edu/user/lakoglu/pubs/19-mobisys-buscope.pdf)
 * W13-Thurs-2 [Dong, Lei, et al. "Predicting neighborhoods’ socioeconomic attributes using restaurant data." *PNAS* 2019](https://www.pnas.org/doi/epdf/10.1073/pnas.1903064116)
 * W13-Thurs-3 [Sahoo, Doyen, et al. "FoodAI: Food Image Recognition via Deep Learning for Smart Food Logging" *ACM SIGKDD* 2019](https://arxiv.org/pdf/1909.11946.pdf)
-* W13-Thurs-4 [Li, Yi, et al. "Urban Region Representation Learning with OpenStreetMap Building Footprints" *ACM SIGKDD* 2019](https://dl.acm.org/doi/pdf/10.1145/3580305.3599538)
+* W13-Tue-4 [Lu, Yu, et. al. "TourSense: A Framework for Tourist Identification and Analytics Using Transport Data", *IEEE TKDE*, 2019](https://ieeexplore.ieee.org/document/8620274)
 * W13-Thurs-5 [Hou, Yuting, et al. "Exploring built environment correlates of older adults’ walking travel from lifelogging images" *Transportation Research Part D* 2021](https://pdf.sciencedirectassets.com/271737/1-s2.0-S1361920921X00077/1-s2.0-S136192092100153X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQC8%2BZyOlGOIWD3WEt6GUe3E%2BZXt9ct6HxXbool3pmPQrAIhANuRlZo0zlAJCDDzyOVGU%2Bj9bOWvNtZaRVLd8WvdlBiEKrwFCKz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1Igx%2B3fmUIYviQihNEecqkAXRoMO%2FOqlBD5dxckZlqGigl9WbUZLk5nAGhmt7hS2UBMb1KKxdNG8dBQRn2Ydrq1ejg1ajOyrF2SDbvLDV15WWknaB%2FQohB82Mfx%2FP46KNEai02dZ9xuaFWke60Ti4obWClc1003XZKRgAWkQpLdc%2BWnS89dWVPsjKQz44pCGzoV%2FuwDYaQLdOOVUORsPEiwU3D802kkJomi2SKThU6rWItqBbq4IO5SIzlXBE0QjgAunQoDe1adi9lUCZdfNSTVXooXcalk28%2FCyqUWFXiLAOsD0iW7GHvXanUI7grNPfcAT4uhRACLp8dvNVHyMYykuH%2FxjbhBX3b75QRsHEDangYFFOXXhMb2kfnody6i8qfu1GDYtgpXNWKkv87qILSADdvI%2F5e9YHXWcua4hJCLJnHy6%2B%2B5cWwEKHWeTpBwzcFcMphCFMTs839FbPtogVW%2BGMTFTQ%2BPqXmDw236yAsYMyU0Y5YD53OABf5cadmN1SH5qwmGBG%2B%2FVbBvkWlqnM5EmrXGIb%2FLUi374dpCnORm5gtiOFwJvOm%2Fn6zMDthro%2Fnv%2B8Ouvt5FMVR0Nk8y0PJuet3f1LI%2BCCoTjVxUaaYYWMFOUPT4eWqi4DVmqVRsQ%2BGDkdjL20HOqz6oKYPFz%2Fn%2FAVcbo%2F4j8DUaBsgLVejExrMlJH%2BdNF6XBRYUtlRMpJMpzGMRTiNDRT%2F90Drsk1DW2oTaVWGllqvwVILiH63a3fsw%2Buu%2Fq%2BMqA48ODRvv8e%2F7VVqF6MkXA8VzRPB8L4MQtQ33GmEAIoelG6XXkURm%2BMp%2F46dM3gCjCCi9r9b6uVyLXsr%2FYcRGeYWbafk9Y0c9ZVdSq5terxfkmbo5ICnVwFl5N93kyogOoujYXnrvEj8jDgqYSnBjqwAb0F4agLDX%2B8rTpSxSH7HstzzPzrMfakCkYcn1OiebrqJIN%2BLIbQIu6d96aBgkqBcTNNp0WmafnE4p1QXkj1shv8yNgkvRvRFkwk7gxh7XaCuUDVmxcqVP7rj3W5PJbwbwoBi8rWQQdsKpLUiIZkcWD2CYvsD0ZEsoJt7qFieKweDxJ24yLEk5nNPxg8AvhKnm6XUP51MFOL62GuIK%2BCngt2UN5eSpTttr62WfvpeWIE&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230819T200459Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYVKAYFWG%2F20230819%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b405009cd9ccd2348600fc3a3b16a0b69e206b370d867d10f9b6aac9a886fcc9&hash=95ebba2f920dedf35644f213522c3ee85f8c2f57fb13b0b81189fd85b974d276&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S136192092100153X&tid=spdf-afe1eb61-85a5-4a1a-a507-11e898bbe7bf&sid=e221bf20106bc04560-8a1b-a42ebf0186degxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0f1255065b565757575f&rr=7f950240e8d5e7d3&cc=us)
-
-
 
 </details>
 
 
 <details markdown=block>
 <summary><span style="background-color:LightSeaGreen;color:White">W14 (No Classes): Fall Break and Thanksgiving (11/21, 11/23)</span></summary>
-
 </details>
 
 <details markdown=block>
