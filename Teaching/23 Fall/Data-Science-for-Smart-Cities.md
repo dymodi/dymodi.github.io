@@ -4,7 +4,7 @@ title: "Fall'23: CS 6301 Special Topics in CS: Data Science for Smart Cities"
 permalink: /teaching/fall23-cs6301/
 author_profile: true
 classes: wide
-date: Jul. 10, 2023
+date: Aug. 19, 2023
 ---
 
 ## Course Info
@@ -13,13 +13,13 @@ date: Jul. 10, 2023
 
 **Office:** ECSS 4.703 
 
-**Office hours:** TBD
+**Office hours:** 4:30 pm - 5:30 pm, Tuesday
 
-**Email:** TBD
+**Email:** yi.ding@utdallas.edu
 
 **Lecture:** 5:30 pm - 6:45 pm, Tuesday/Thursday
 
-**Location**: TBD
+**Location**: FN 2.102
 
 
 
@@ -74,13 +74,13 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 <br>Reading:
 
-* [Azizyan, Martin, et al. "SurroundSense: Mobile Phone Localization via Ambience Fingerprinting", *ACM MobiCom* 2009](https://dl.acm.org/doi/pdf/10.1145/1614320.1614350?casa_token=DcNQXySB_p4AAAAA:8GpM2WAMI5ypuECLznhkU-zdQwbGvV4yCtC1rwMGsvMyo2Vl6Fl3EQ7Zv14LJ3esJlVz41_yWg)
-* [Zhou, Pengfei, et al. "IODetector: A Generic Service for Indoor Outdoor Detection", *ACM SenSys* 2012](http://www.cs.umd.edu/class/spring2017/cmsc818G/files/iodetector.pdf)
-* [Ma, Yunfei, et al.  "Drone relays for battery-free networks",*ACM SIGCOMM* 2017](http://www.mit.edu/~fadel/papers/RFly-paper.pdf)
-* [Ding, Yi, et al, "Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild", *ACM SIGCOMM* 2021](https://dl.acm.org/doi/pdf/10.1145/3452296.3472911)
-* [He, Yuze, et al. "AutoMatch: Leveraging Traffic Camera to Improve Perception
+* W2-Thurs-Paper1 [Zhou, Pengfei, et al. "IODetector: A Generic Service for Indoor Outdoor Detection", *ACM SenSys* 2012](http://www.cs.umd.edu/class/spring2017/cmsc818G/files/iodetector.pdf)
+* W2-Thurs-Paper2 [Ma, Yunfei, et al.  "Drone relays for battery-free networks",*ACM SIGCOMM* 2017](http://www.mit.edu/~fadel/papers/RFly-paper.pdf)
+* W2-Thurs-Paper3 [Ahmed, Fawad, et al. "CarMap: Fast 3D Feature Map Updates for Automobiles", *USENIX NSDI* 2020](https://www.usenix.org/system/files/nsdi20-paper-ahmad.pdf)
+* W2-Thurs-Paper4 [Ding, Yi, et al. "Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild", *ACM SIGCOMM* 2021](https://dl.acm.org/doi/pdf/10.1145/3452296.3472911)
+* W2-Thurs-Paper5  [He, Yuze, et al. "AutoMatch: Leveraging Traffic Camera to Improve Perception
 and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.com/assets/pdf/AutoMatch-SenSys22.pdf)
-* [Sie, Emerson, et al, "BatMobility: Towards Flying Without Seeing for Autonomous Drones", *ACM MobiCom* 2023](https://arxiv.org/pdf/2307.11518.pdf)
+
 
 </details>
 
