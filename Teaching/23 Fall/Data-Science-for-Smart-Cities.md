@@ -74,6 +74,7 @@ Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class 
 
 <br>Reading:
 
+* W2-Thurs-Sample []
 * W2-Thurs-1 [Zhou, Pengfei, et al. "IODetector: A Generic Service for Indoor Outdoor Detection", *ACM SenSys* 2012](http://www.cs.umd.edu/class/spring2017/cmsc818G/files/iodetector.pdf)
 * W2-Thurs-2 [Ma, Yunfei, et al.  "Drone relays for battery-free networks",*ACM SIGCOMM* 2017](http://www.mit.edu/~fadel/papers/RFly-paper.pdf)
 * W2-Thurs-3 [Ahmed, Fawad, et al. "CarMap: Fast 3D Feature Map Updates for Automobiles", *USENIX NSDI* 2020](https://www.usenix.org/system/files/nsdi20-paper-ahmad.pdf)
@@ -140,7 +141,7 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 
 Reading
 
-* W9-Tue-1[Kikstra, Jarmo, et al. "Climate mitigation scenarios with persistent COVID-19-related energy demand changes." *Nature Energy* 2021.](https://www.nature.com/articles/s41560-021-00904-8)
+* W9-Tue-1 [Kikstra, Jarmo, et al. "Climate mitigation scenarios with persistent COVID-19-related energy demand changes." *Nature Energy* 2021.](https://www.nature.com/articles/s41560-021-00904-8)
 
 
 
@@ -170,9 +171,19 @@ Reading
 
 <br>Reading
 
-* [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 2021.](https://www.nature.com/articles/s41467-021-24899-8)
-* [Asensio, Omar, et al. "Impacts of micromobility on car displacement with evidence from a natural experiment and geofencing policy." *Nature Energy* 2022](https://www.nature.com/articles/s41560-022-01135-1)
-* [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 2023.](https://www.nature.com/articles/s41467-023-37913-y)
+* W12-Tue-Sample [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 2021.](https://www.nature.com/articles/s41467-021-24899-8)
+* W12-Tue-1 [Gonzalez, Marta, et al. "Understanding individual human mobility patterns." *Nature* 2008.](https://www.nature.com/articles/nature06958)
+* W12-Tue-2 [Song, Chaoming, et al. "Limits of Predictability in Human Mobility." *Nature* 2010.](https://www.science.org/doi/10.1126/science.1177170)
+* W12-Tue-3 [Jia, Jayson, et al. "Population flow drives spatio-temporal distribution of COVID-19 in China." *Nature* 2020.](https://www.nature.com/articles/s41586-020-2284-y)
+* W12-Tue-4 [Alessandretti, Laura, et al. "The scales of human mobility." *Nature* 2020.](https://www.nature.com/articles/s41586-020-2909-1)
+* W12-Tue-5 [Chang, Serina, et al. "Mobility network models of COVID-19 explain inequities and inform reopening." *Nature* 2021.](https://www.nature.com/articles/s41586-020-2923-3)
+* W12-Thurs-Sample [Seetharaman, Bhavani, et al. "Delivery Work and the Experience of Social Isolation." *ACM CSCW* 2021.](https://www.microsoft.com/en-us/research/uploads/prod/2021/02/India_Delivery_Work.pdf) 
+* W12-Thurs-1 [Kinder, Eliscia, et al. "Gig platforms, tensions, alliances and ecosystems: An actor-network perspective." *ACM CSCW* 2019.](https://dl.acm.org/doi/pdf/10.1145/3359314?casa_token=JsiCHJoKYksAAAAA:uqN3HcU-8pqY1aqAo1qvFeaDt_0r-l0YSInriYzMPujZlT6JIndPArL_T8KxBEFpVMrKKZGSyQ)
+* W12-Thurs-2 [Hunter, Ruth, et al. "Effect of COVID-19 response policies on walking behavior in US cities." *Nature Communications* 2021.](https://www.nature.com/articles/s41467-021-23937-9)
+* W12-Thurs-3 [Matsubara, Masaki, et al. " Task Assignment Strategies for Crowd Worker Ability Improvement" *ACM CSCW* 2021.](https://dl.acm.org/doi/pdf/10.1145/3479519) 
+* W12-Thurs-4 [Asensio, Omar, et al. "Impacts of micromobility on car displacement with evidence from a natural experiment and geofencing policy." *Nature Energy* 2022](https://www.nature.com/articles/s41560-022-01135-1)
+* W12-Thurs-5 [Yabe, Takahiro, et al. "Behavioral changes during the pandemic worsened income diversity of urban encounters." *Nature Communications* 2023.](https://www.nature.com/articles/s41467-023-37913-y)
+
 
 </details>
 
