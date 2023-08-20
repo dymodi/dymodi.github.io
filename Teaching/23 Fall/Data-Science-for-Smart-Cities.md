@@ -53,7 +53,7 @@ No books are required. All the materials will be online.
 
 ## Grading (Tentative)
 
-Participation: 10%<br>Reading summary: 20%<br>Topic presentations: 20%<br>Class projects: 50% (10% for Proposal Reports, 10% for Proposal Presentation, 20% for Final Reports, 10% for Final Presentation)
+Participation: 10%<br>Reading summary: 25%<br>Topic presentations: 15%<br>Class projects: 50% (10% for Proposal Reports, 10% for Proposal Presentation, 20% for Final Reports, 10% for Final Presentation)
 
 
 
