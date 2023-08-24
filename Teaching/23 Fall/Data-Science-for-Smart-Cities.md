@@ -71,8 +71,7 @@ Participation: 10%<br>Reading summary: 25%<br>Topic presentations: 15%<br>Class 
 
 <details markdown=block>
 <summary>W2: Data-Driven Smart Cities: Sensing (08/29, 08/31)</summary>
-
-<br>Reading:
+<br>
 
 * W2-Thurs-Sample [Ding, Yi, et al. "Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild", *ACM SIGCOMM* 2021](https://dl.acm.org/doi/pdf/10.1145/3452296.3472911)
 * W2-Thurs-1 [Zhou, Pengfei, et al. "IODetector: A Generic Service for Indoor Outdoor Detection", *ACM SenSys* 2012](http://www.cs.umd.edu/class/spring2017/cmsc818G/files/iodetector.pdf)
@@ -89,6 +88,10 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 <details markdown=block>
 <summary>W3: Data-Driven Smart Cities: Prediction & Introduction on Final Project  (09/05, 09/07)</summary>
 </details>
+* W3-Tue-1 [Yu, Fudan, et. al. "Spatio-Temporal Vehicle Trajectory Recovery on Road Network Based on Traffic Camera Video Data", *ACM SIGKDD 2022*](https://dl.acm.org/doi/pdf/10.1145/3534678.3539186)
+
+
+
 
 
 <details markdown=block>
@@ -125,6 +128,12 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 * Ambulance Routing
 * Map Construction
 
+
+<!---
+* W7-Tue-1 [Sonntag, Jonas, et. al. "Predicting Parking Availability from Mobile Payment Transactions with Positive Unlabeled Learning." *AAAI 2021*](https://ojs.aaai.org/index.php/AAAI/article/view/17810)
+-->
+
+
 </details>
 
 
@@ -153,6 +162,13 @@ Reading
 * Potential of ChatGPT
 * Challenges and Risks
 
+<!---
+* W10-Tue-1 [Liang, Yuxuan, et. al. "TrajFormer: Efficient Trajectory Classification with Transformers" *ACM CIKM 2022*](https://dl.acm.org/doi/pdf/10.1145/3511808.3557481)
+* W10-Tue-2 [Horikomi, Taizo, et. al. "Generating Individual Trajectories Using GPT-2 Trained from Scratch on Encoded Spatiotemporal Data", arXiv, 2023](https://arxiv.org/pdf/2308.07940.pdf)
+-->
+
+
+
 </details>
 
 <details markdown=block>
@@ -169,7 +185,7 @@ Reading
 * Income Segregation
 * Impact of Covid
 
-<br>Reading
+<br>
 
 * W12-Tue-Sample [Moro, Esteban, et al. "Mobility patterns are associated with experienced income segregation in large US cities." *Nature Communications* 2021.](https://www.nature.com/articles/s41467-021-24899-8)
 * W12-Tue-1 [Gonzalez, Marta, et al. "Understanding individual human mobility patterns." *Nature* 2008.](https://www.nature.com/articles/nature06958)
@@ -190,7 +206,7 @@ Reading
 <details markdown=block>
 <summary>W13: Smart City in the Real World: Singapore (11/14, 11/16)</summary>
 
-Reading
+
 * W13-Tue-Sample [Cao, Chu, et al. "Walkway Discovery from Large Scale Crowdsensing." *ACM/IEEE IPSN* 2018](https://www.ceid.upatras.gr/webpages/courses/adhocnets/files/papers/paper5.pdf)
 * W13-Tue-1 [Jiang, Shan, et al. "Activity-Based Human Mobility Patterns Inferred from Mobile Phone Data: A Case Study of Singapore" *ACM UbiComp* 2015](http://www2.cs.uic.edu/~urbcomp2013/urbcomp2015/papers/Human-Mobility-Inference_Jiang.pdf)
 * W13-Tue-2 [Poonawala, Hasan, et al. "Singapore in Motion: Insights on Public Transport Service Level Through Farecard and Mobile Data Analytics." *ACM SIGKDD* 2016](https://www.kdd.org/kdd2016/papers/files/SingaporeInMotion_v3.pdf)
