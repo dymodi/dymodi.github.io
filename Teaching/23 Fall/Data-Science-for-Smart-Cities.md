@@ -86,7 +86,8 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 
 <details markdown=block>
 <summary>W3: Data-Driven Smart Cities: Prediction & Introduction on Final Project  (09/05, 09/07)</summary>
-</details>
+<br>
+
 * W3-Tue-Sample [Zhang, Yan, et. al. '"Route Prediction for Instant Delivery", *ACM IMWUT 2019*](https://people.cs.rutgers.edu/~dz220/paper/RouteP.pdf)
 * W3-Tue-1 [Yu, Fudan, et. al. "Spatio-Temporal Vehicle Trajectory Recovery on Road Network Based on Traffic Camera Video Data", *ACM SIGKDD 2022*](https://dl.acm.org/doi/pdf/10.1145/3534678.3539186)
 * W3-Tue-2 [Geng, Xu, et. al. "Spatiotemporal Multi-Graph Convolution Network for Ride-Hailing Demand Forecasting", *AAAI 2019*](https://ojs.aaai.org/index.php/AAAI/article/view/4247/4125)
@@ -95,9 +96,12 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 * W3-Thurs-2 [Qin, Zhou, et. al. "CellPred: A Behavior-aware Scheme for Cellular Data Usage Prediction", *ACM IMWUT 2020*](https://dl.acm.org/doi/pdf/10.1145/3380982)
 * W3-Thurs-3 [Tran, Luan, et. al.  "DeepTRANS : A Deep Learning System for Public Bus Travel Time Estimation using Traffic Forecasting", *VLDB 2020*](http://www.vldb.org/pvldb/vol13/p2957-tran.pdf)
 
+</details>
+
 <details markdown=block>
 <summary>W4: Data-Driven Smart Cities: Decision-Making (09/12, 09/14)</summary>
-</details>
+<br>
+
 * W4-Tue-Sample Hitchhiking
 * W4-Tue-1 [Rizzo, Stefano, et. al. "Time Critic Policy Gradient Methods for Traffic Signal Control in Complex and Congested Scenarios", *ACM SIGKDD 2019*](https://dl.acm.org/doi/pdf/10.1145/3292500.3330988)
 * W4-Tue-2 [Ji, Shenggong, et. al. "A Deep Reinforcement Learning-Enabled Dynamic Redeployment System for Mobile Ambulances", *ACM IMWUT 2019*](http://urban-computing.com/pdf/UbiComp2019JiZheng.pdf)
@@ -105,6 +109,8 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 * W4-Thurs-1 [Guo, Baoshen, et. al. "Concurrent Order Dispatch for Instant Delivery with Time-Constrained Actor-Critic Reinforcement Learning", *IEEE RTSS 2021*](https://www.researchgate.net/profile/Yi-Ding-99/publication/356866132_Concurrent_Order_Dispatch_for_Instant_Delivery_with_Time-Constrained_Actor-Critic_Reinforcement_Learning/links/63063d4b5eed5e4bd1180b40/Concurrent-Order-Dispatch-for-Instant-Delivery-with-Time-Constrained-Actor-Critic-Reinforcement-Learning.pdf)
 * W4-Thurs-2 [Wang, Guang, et. al. "bCharge: Data-Driven Real-Time Charging Scheduling for Large-Scale Electric Bus Fleets", *IEEE RTSS 2018*](https://people.cs.rutgers.edu/~dz220/paper/bCharge.pdf)
 * W4-Thurs-3 [Wei, Yu, et. al. "City Metro Network Expansion with Reinforcement Learning", *ACM SIGKDD 2020*](https://dl.acm.org/doi/pdf/10.1145/3394486.3403315)
+
+</details>
 
 <details markdown=block>
 <summary><span style="background-color:Crimson;color:White">W5: Proposal Presentation (10/10, 10/12)</span></summary>
