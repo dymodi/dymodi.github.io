@@ -113,12 +113,12 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 </details>
 
 <details markdown=block>
-<summary><span style="background-color:Crimson;color:White">W5: Proposal Presentation (10/10, 10/12)</span></summary>
+<summary><span style="background-color:Crimson;color:White">W5: Proposal Presentation (9/19, 9/21)</span></summary>
 
 </details>
 
 <details markdown=block>
-<summary>W6: Fundamental Topic: Localization and Navigation (09/19, 09/21)</summary>
+<summary>W6: Fundamental Topic: Localization and Navigation (09/26, 09/28)</summary>
 <br>
 
 * W6-Tue-1 [Ni, Jiazhi, et. al. "Experience: Pushing Indoor Localization from Laboratory to the Wild", *ACM MobiCom 2022*](https://dl.acm.org/doi/pdf/10.1145/3495243.3560546)
@@ -133,7 +133,7 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 
 
 <details markdown=block>
-<summary>W7: Fundamental Topic: Transportation (09/26, 09/28)</summary>
+<summary>W7: Fundamental Topic: Transportation (10/03, 10/05)</summary>
 <br>
 
 * W7-Tue-1 [Sonntag, Jonas, et. al. "Predicting Parking Availability from Mobile Payment Transactions with Positive Unlabeled Learning." *AAAI 2021*](https://ojs.aaai.org/index.php/AAAI/article/view/17810)
@@ -148,7 +148,7 @@ and Localization of Autonomous Vehicles", *ACM SenSys* 2022](https://yanzhenyu.c
 
 
 <details markdown=block>
-<summary>W8: Fundamental Topic: Privacy and Security (10/03, 10/05)</summary>
+<summary>W8: Fundamental Topic: Privacy and Security (10/10, 10/12)</summary>
 <br>
 
 * W8-Tue-1 [Saleheen, Nazir, et. al. "WristPrint: Characterizing User Re-identification Risks fromWrist-worn Accelerometry Data" *ACM CCS 2021*](https://dl.acm.org/doi/pdf/10.1145/3460120.3484799)
