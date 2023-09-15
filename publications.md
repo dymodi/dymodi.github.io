@@ -9,7 +9,12 @@ date: 22/7/22
 
 ## Selected Conference Papers
 
+### 2024
+
+<span style="color:DarkBlue">[SIGSPATIAL'22]</span> *VeLP: Vehicle Loading Plan Learning from Human Behavior in Nationwide Logistics System* <br> Sijing Duan, Feng Lyu, Xin Zhu, **Yi Ding**, Haotian Wang, Desheng Zhang, Xue Liu, Yaoxue Zhang, Ju Ren
+
 ### 2022
+
 <span style="color:DarkBlue">[SIGSPATIAL'22]</span> *CoMiner: Nationwide Behavior-driven Unsupervised Spatial Coordinate Mining from Uncertain Delivery Events* <br> Zhiqing Hong, Guang Wang, Wenjun Lyu, Baoshen Guo, **Yi Ding**, Haotian Wang, Shuai Wang, Yunhuai Liu, Desheng Zhang<br>[[PDF]](https://www.dropbox.com/s/qqkg1szfrdzy6in/paper_37.pdf?dl=0)<br>
 
 <span style="color:Navy">[KDD'22]</span> *Para-Pred: Addressing Heterogeneity for City-Wide Indoor Status Estimation in On-Demand Delivery* <br>
