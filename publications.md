@@ -11,7 +11,7 @@ date: 22/7/22
 
 ### 2024
 
-<span style="color:DarkBlue">[SIGSPATIAL'22]</span> *VeLP: Vehicle Loading Plan Learning from Human Behavior in Nationwide Logistics System* <br> Sijing Duan, Feng Lyu, Xin Zhu, **Yi Ding**, Haotian Wang, Desheng Zhang, Xue Liu, Yaoxue Zhang, Ju Ren
+<span style="color:DarkBlue">[VLDB'24]</span> *VeLP: Vehicle Loading Plan Learning from Human Behavior in Nationwide Logistics System* <br> Sijing Duan, Feng Lyu, Xin Zhu, **Yi Ding**, Haotian Wang, Desheng Zhang, Xue Liu, Yaoxue Zhang, Ju Ren
 
 ### 2022
 
