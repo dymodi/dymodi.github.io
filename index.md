@@ -15,7 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
-* Sep. 2023: Paper accepted by VLDB 2023.
+* Sep. 2023: Paper accepted by VLDB 2024.
 * Jul. 2023: Serve as program committee on the SIGCOMM'23 Posters and Demos.
 * Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
 * Mar. 2023: Serve as a reviewer for ACM SIGKDD 2023.
