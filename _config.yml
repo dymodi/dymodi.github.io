@@ -114,7 +114,7 @@ author:
       icon: "ai ai-researchgate-square ai-fw"
       url: "https://www.researchgate.net/profile/Yi-Ding-99"
     - label: "dblp"
-      icon: "ai ai-dblp-square"
+      icon: "ai ai-dblp-square ai-fw"
       url: "https://dblp.org/pid/89/5503-11.html"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
