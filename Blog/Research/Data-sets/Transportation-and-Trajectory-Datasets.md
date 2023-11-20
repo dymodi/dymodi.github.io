@@ -35,6 +35,12 @@ Here I summarize some transportation system data I used or may use in future.
 
 
 
+## Trajectory Data
+
+[JackRabbot Dataset and Benchmark (JRDB)](https://jrdb.erc.monash.edu/), video-based trajectory data.
+
+
+
 ## Mobility Data with Demographic
 
 Illinois Travel Tracker Survey, 2007 - 2008: Public Data
