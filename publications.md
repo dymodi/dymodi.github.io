@@ -68,7 +68,7 @@ Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He a
 ## Selected Journal Papers
 <span style="color:SteelBlue">[TMC'23]</span> *Time-Constrained Actor-Critic Reinforcement Learning for Concurrent Order Dispatch in On-demand Delivery* <br>
 Baoshen Guo, Shuai Wang, **Yi Ding**, Guang Wang, Suining He, Desheng Zhang, and Tian He  <br>
-ACM Transactions on Mobile Computing, 2023
+IEEE Transactions on Mobile Computing, 2023
 
 
 <span style="color:SteelBlue">[ToSN'23]</span> *OPTI: Order Preparation Time Inference for On-demand Delivery* <br>
