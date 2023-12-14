@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Dec. 2023: Paper accepted by IEEE TMC.
 * Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
 * Sep. 2023: Paper accepted by VLDB 2024.
 * Aug. 2023: Start Assistant Professor appointment at UT Dallas.
