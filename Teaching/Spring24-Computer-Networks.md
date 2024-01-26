@@ -13,13 +13,17 @@ date: Jan. 26, 2024
 
 **Office:** ECSS 4.703 
 
-**Office hours:** 4:30 pm - 5:30 pm, Tuesday
+**Office hours:** 10:30 am - 11:30 am, Tuesday
 
 **Email:** yi.ding@utdallas.edu
 
 **Lecture:** 11:30 am - 12:45 pm, Tuesday/Thursday
 
 **Location**: ECSS 2.311
+
+
+
+Check the [syllabus](https://dox.utdallas.edu/syl139103) for more details.
 
 
 
@@ -31,7 +35,9 @@ date: Jan. 26, 2024
 ## Course Learning Objectives
 
 
+
 ## Prerequisites
+
 
 
 ## Required Texts
