@@ -25,6 +25,10 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Jul. 2023: Serve as program committee on the SIGCOMM'23 Posters and Demos.
 * Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
 * Mar. 2023: Serve as a reviewer for ACM SIGKDD 2023.
+<details markdown=block>
+<summary>More ...</summary>
+<br>
+
 * Oct. 2022: Start postdoctoral associate appointment at MIT.
 * Aug. 2022: Co-authored paper accepted by ACM SIGSPATIAL 2022.
 * Aug. 2022: Present **Para-Pred** at KDD. Glad to see some new friends and old friends.
@@ -50,4 +54,6 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Aug. 2020: **aBeacon** system introduced in [Alibaba Tech. officials accounts](https://mp.weixin.qq.com/s/7jVa-K-qUlYIrCg3YpPSEQ).
 * Aug. 2020: 2nd-author paper **Trans-Loc** accepted by MobiCom' 20.
 * Jun. 2020: 1st-author paper **aBeacon** accepted by NSDI' 21.
+
+</details>
 
