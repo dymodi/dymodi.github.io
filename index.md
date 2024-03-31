@@ -15,6 +15,9 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Apr. 2024: One paper accepted by UbiComp/IMWUT.
+* Mar. 2024: Attend NSF CPS PI Meeting as Aspiring PI.
+* Feb. 2024: Attend NSF S&CC PI Meeting as program participant.
 * Dec. 2023: Paper accepted by IEEE TMC.
 * Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
 * Sep. 2023: Paper accepted by VLDB 2024.
@@ -47,11 +50,4 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Aug. 2020: **aBeacon** system introduced in [Alibaba Tech. officials accounts](https://mp.weixin.qq.com/s/7jVa-K-qUlYIrCg3YpPSEQ).
 * Aug. 2020: 2nd-author paper **Trans-Loc** accepted by MobiCom' 20.
 * Jun. 2020: 1st-author paper **aBeacon** accepted by NSDI' 21.
-
-
-<!-- <p align="left">
-<img src="pipi.jpg"  alt="pipi" height="120">
-<img src="turnip.png"  alt="turnip" height="120">
-</p>
-My cats, pipi (not "pip"), and turnip. -->
 

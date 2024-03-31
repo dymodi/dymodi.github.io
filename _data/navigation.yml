@@ -5,11 +5,11 @@ main:
   - title: "Research"
     url: /research/
   - title: "Teaching"
-    url: /teaching/index/
+    url: /teaching/
   - title: "Data-sets"
     url: /data-sets/
-  - title: "Code"
-    url: /code/
+  # - title: "Code"
+  #   url: /code/
   - title: "For Students"
     url: /for-students/
   - title: "Personal"

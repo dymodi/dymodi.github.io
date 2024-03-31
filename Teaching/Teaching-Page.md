@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Teaching"
-permalink: /teaching/index/
+permalink: /teaching/
 author_profile: true
 classes: wide
 date: Jan. 26, 2024
