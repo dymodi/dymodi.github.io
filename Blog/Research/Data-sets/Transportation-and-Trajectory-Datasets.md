@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: single
 title: Transportation Datasets
 permalink: /datasets/st-data
 date: June. 6, 2018
+classes: wide
 author: Yi DING
 ---
 
