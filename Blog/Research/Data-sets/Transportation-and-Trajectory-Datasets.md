@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Transportation Datasets
+permalink: /datasets/st-data
 date: June. 6, 2018
 author: Yi DING
 ---
