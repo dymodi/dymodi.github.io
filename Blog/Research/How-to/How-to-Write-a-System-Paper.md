@@ -5,7 +5,6 @@ permalink: /for-students/how-to-write-a-system-paper/
 author_profile: true
 classes: wide
 date: Mar. 02, 2018
-author: Yi Ding
 ---
 
 
