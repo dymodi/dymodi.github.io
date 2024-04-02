@@ -15,9 +15,9 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
-* Apr. 2024: One paper accepted by UbiComp/IMWUT.
+* Apr. 2024: Two papers accepted by UbiComp/IMWUT.
 * Mar. 2024: Attend NSF CPS PI Meeting as Aspiring PI.
-* Feb. 2024: Attend NSF S&CC PI Meeting as program participant.
+* Feb. 2024: Attend NSF S&CC PI Meeting as a program participant.
 * Dec. 2023: Paper accepted by IEEE TMC.
 * Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
 * Sep. 2023: Paper accepted by VLDB 2024.
