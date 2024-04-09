@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Apr. 2024: Serve as program committee on the SIGCOMM'24 Posters and Demos.
 * Apr. 2024: Serve as a panelist at NSF.
 * Apr. 2024: Two papers accepted by UbiComp/IMWUT.
 * Mar. 2024: Attend NSF CPS PI Meeting as Aspiring PI.
