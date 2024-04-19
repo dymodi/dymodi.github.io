@@ -1,6 +1,6 @@
 ---
 title: Steps Towards a Paper (Under Construction)
-author: Yi DING
+author_profile: true
 layout: single
 permalink: /for-students/steps-towards-a-paper/
 author_profile: true
@@ -62,7 +62,7 @@ Paper can be drafted based on the slides used for discussion with Professor. A s
 
 Before starting writing each section (or subsection, paragraph), think of what is the core information (idea/viewpoint/observation/design/result) you want to present. In order to present, is there enough context built up before? Missing parts should be supplemented and things that already said should not be repeatd. Otherwise the paper will be messy.
 
-For System Paper writing, please find guides in this [post](https://github.com/dymodi/dymodi.github.io/blob/master/Research/Writing/How-to-Write-a-System-Paper.md).
+For System Paper writing, please find guides in this [post](https://yi-ding.me/for-students/how-to-write-a-system-paper/).
 
 Some rules on formatting should be followed:
 
