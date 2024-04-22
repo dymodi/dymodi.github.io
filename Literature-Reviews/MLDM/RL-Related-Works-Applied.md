@@ -2,6 +2,7 @@
 author: Yi DING
 layout: post
 title: Related Works of Reinforcement Learning (Applied)
+permalink: /Literature-Reviews/MLDM/Related-Works-of-Reinforcement-Learning-Applied/
 date: Sep. 24, 2020
 ---
 

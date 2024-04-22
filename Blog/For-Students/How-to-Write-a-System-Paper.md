@@ -251,7 +251,7 @@ The figures in the paper serve different purpose. More examples can be found [he
 
 
 
-## Comments from Miao
+## Other Comments
 
 * I expected paragraphs composed of arguments and their supporting materials. Arguments without supporting look strange. Casual materials without argument is also meaningless.
 * The whole paper and each component should be well organized. Adjacent contents such as sentences should be connected.
