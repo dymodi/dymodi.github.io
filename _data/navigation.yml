@@ -6,10 +6,12 @@ main:
     url: /research/
   - title: "Teaching"
     url: /teaching/
-  - title: "Data-sets"
-    url: /data-sets/
-  - title: "Code"
-    url: /code/
+  - title: "Code & Data"
+    url: /code-and-data/
+  # - title: "Data-sets"
+  #   url: /data-sets/
+  # - title: "Code"
+  #   url: /code/
   - title: "For Students"
     url: /for-students/
   - title: "Personal"
