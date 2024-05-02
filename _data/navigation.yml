@@ -6,6 +6,8 @@ main:
     url: /research/
   - title: "Teaching"
     url: /teaching/
+  - title: "Group"
+    url: /group/
   - title: "Code & Data"
     url: /code-and-data/
   # - title: "Data-sets"
