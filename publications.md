@@ -10,8 +10,8 @@ classes: wide
 
 ### 2024
 
-<span style="color:DarkGreen">[IMWUT/UbiComp'24]</span> *CrossHAR: Generalizing Cross-dataset Human Activity Recognition via Hierarchical Self-Supervised Pretraining* <br>
-Zhiqing Hong, Zelong Li, Shuxin Zhong, Wenjun Lyu, Haotian Wang, **Yi Ding**, Tian He, Desheng Zhang
+<span style="color:DarkGreen">[IMWUT/UbiComp'24]</span> **CrossHAR: Generalizing Cross-dataset Human Activity Recognition via Hierarchical Self-Supervised Pretraining** <br>
+Zhiqing Hong, Zelong Li, Shuxin Zhong, Wenjun Lyu, Haotian Wang, **Yi Ding**, Tian He, Desheng Zhang<br>*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'24]</span> *SmallMap: Low-cost Community Road Map Sensing with Uncertain Delivery Behavior* <br>
 Zhiqing Hong, Haotian Wang, **Yi Ding**, Guang Wang, Tian He, Desheng Zhang
