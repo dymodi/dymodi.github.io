@@ -7,8 +7,6 @@ classes: wide
 date: 05/01/2024
 ---
 
-## Group
-
 ### Ph.D.
 
 * Ziqi Liu, 2024 Fall -
