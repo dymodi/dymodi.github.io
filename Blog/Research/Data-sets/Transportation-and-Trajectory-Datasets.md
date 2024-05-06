@@ -41,6 +41,8 @@ Here I summarize some transportation system data I used or may use in future.
 
 [JackRabbot Dataset and Benchmark (JRDB)](https://jrdb.erc.monash.edu/), video-based trajectory data.
 
+[YJMob100K: City-scale and longitudinal dataset of anonymized human mobility trajectories | Scientific Data (nature.com)](https://www.nature.com/articles/s41597-024-03237-9)
+
 
 
 ## Mobility Data with Demographic
