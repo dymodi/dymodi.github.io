@@ -11,10 +11,10 @@ classes: wide
 ### 2024
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'24]</span> **CrossHAR: Generalizing Cross-dataset Human Activity Recognition via Hierarchical Self-Supervised Pretraining** <br>
-Zhiqing Hong, Zelong Li, Shuxin Zhong, Wenjun Lyu, Haotian Wang, **Yi Ding**, Tian He, Desheng Zhang<br>*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*
+Zhiqing Hong, Zelong Li, Shuxin Zhong, Wenjun Lyu, Haotian Wang, **Yi Ding**, Tian He, Desheng Zhang<br>*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*<br>[[PDF]](https://dl.acm.org/doi/pdf/10.1145/3659597)
 
 <span style="color:DarkGreen">[IMWUT/UbiComp'24]</span> **SmallMap: Low-cost Community Road Map Sensing with Uncertain Delivery Behavior** <br>
-Zhiqing Hong, Haotian Wang, **Yi Ding**, Guang Wang, Tian He, Desheng Zhang<br>*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*
+Zhiqing Hong, Haotian Wang, **Yi Ding**, Guang Wang, Tian He, Desheng Zhang<br>*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies*<br>[[PDF]](https://dl.acm.org/doi/pdf/10.1145/3659596)
 
 <span style="color:DarkBlue">[VLDB'24]</span> **VeLP: Vehicle Loading Plan Learning from Human Behavior in Nationwide Logistics System** <br>Sijing Duan, Feng Lyu, Xin Zhu, **Yi Ding**, Haotian Wang, Desheng Zhang, Xue Liu, Yaoxue Zhang, Ju Ren<br>*Proceedings of the VLDB Endowment*<br>[[PDF]](https://www.vldb.org/pvldb/vol17/p241-duan.pdf)<br>
 
