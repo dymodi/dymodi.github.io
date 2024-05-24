@@ -22,7 +22,7 @@ author: Yi DING
 | April     | IEEE GLOBECOM           | -                            | C (Computer networks) |
 | May       | IEEE RTSS               | Embedded & real-time systems | A (Interdisciplinary) |
 | May       | IEEE ICNP               | -                            | B (Computer networks) |
-| June      | ACM IMC                 | Measurement & perf. analysis | B (Computer networks) |
+| May       | ACM IMC                 | Measurement & perf. analysis | B (Computer networks) |
 | June      | ACM SIGSPATIAL          | -                            | C (Interdisciplinary) |
 | June      | CoNEXT                  | -                            | B (Computer networks) |
 | July      | IEEE INFOCOM            | -                            | A (Computer networks) |
