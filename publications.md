@@ -76,7 +76,7 @@ Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He a
 
 ## Patents
 
-### Published
+*Distribution order processing method and device and computer equipment* [[Link](https://patents.google.com/patent/CN112734311A/en)]
 
 *Task execution method and device based on gesture interaction* [[Link](https://patents.google.com/patent/CN112612362A/en)]
 
@@ -88,18 +88,6 @@ Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He a
 
 *Information processing method and device* [[Link](https://patents.google.com/patent/CN109362040A/en)]
 
-[WO] *Indoor positioning method and apparatus, electronic device and computer readable storage medium* [[Link](https://patents.google.com/patent/WO2021008148A1/en)]
+[WO] *Indoor positioning method and apparatus, electronic device and computer-readable storage medium* [[Link](https://patents.google.com/patent/WO2021008148A1/en)]
 
 *Embedded MPC method based on convergence depth control* [[Link](https://patents.google.com/patent/CN104793489A/en?oq=CN+104793489)]
-
-### Pending
-
-#### 2021
-
-*Distribution order processing method and device and computer equipment* [[Link](https://patents.google.com/patent/CN112734311A/en)]
-
-#### 2018
-
-*Information acquisition method, information-pushing method and device* [[Link](https://patents.google.com/patent/CN109597959A/en)]
-
-*Method for determining position, mobile robot, storage medium and electronic equipment* [[Link](https://patents.google.com/patent/CN109540127A/en)]
