@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* May 2024: Paper accepted by IEEE TKDE.
 * May 2024: Serve as a panelist at NSF.
 * May 2024: Attend CPS/IoT Week 2024 in Hong Kong.
 * Apr. 2024: Serve as program committee on the SIGCOMM'24 Posters and Demos.
