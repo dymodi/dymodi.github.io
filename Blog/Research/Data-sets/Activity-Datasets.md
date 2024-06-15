@@ -3,7 +3,6 @@ layout: single
 title: "Activity/Mobility Datasets"
 permalink: /datasets/activity-dataset
 classes: wide
-date: 20/2/6
 ---
 
 Here I summarize some activity/mobility system data I used or may use in the future.
@@ -18,4 +17,6 @@ Here I summarize some activity/mobility system data I used or may use in the fut
 
 [**A multidevice and multimodal dataset for human energy expenditure estimation using wearable devices**](https://www.nature.com/articles/s41597-022-01643-5)
 
-**[MM-Fi: Multi-Modal Non-Intrusive 4D Human Dataset](https://ntu-aiot-lab.github.io/mm-fi)**
+[**MM-Fi: Multi-Modal Non-Intrusive 4D Human Dataset**](https://ntu-aiot-lab.github.io/mm-fi)
+
+[**XRF55: A Radio Frequency Dataset for Human Indoor Action Analysis**](https://aiotgroup.github.io/XRF55/)
