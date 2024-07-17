@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* July 2024: Paper accepted by ACM CIKM.
 * May 2024: Paper accepted by IEEE TKDE.
 * May 2024: Serve as a panelist at NSF.
 * May 2024: Attend CPS/IoT Week 2024 in Hong Kong.
@@ -27,13 +28,13 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
 * Sep. 2023: Paper accepted by VLDB 2024.
 * Aug. 2023: Start Assistant Professor appointment at UT Dallas.
-* Jul. 2023: Serve as program committee on the SIGCOMM'23 Posters and Demos.
-* Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
-* Mar. 2023: Serve as a reviewer for ACM SIGKDD 2023.
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Jul. 2023: Serve as program committee on the SIGCOMM'23 Posters and Demos.
+* Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
+* Mar. 2023: Serve as a reviewer for ACM SIGKDD 2023.
 * Oct. 2022: Start postdoctoral associate appointment at MIT.
 * Aug. 2022: Co-authored paper accepted by ACM SIGSPATIAL 2022.
 * Aug. 2022: Present **Para-Pred** at KDD. Glad to see some new friends and old friends.
