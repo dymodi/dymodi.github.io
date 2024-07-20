@@ -30,7 +30,7 @@ Special Submission Process:
 | June      | October    | ACM SIGSPATIAL          | -                            | C (Interdisciplinary)      |
 | June      |            | CoNEXT                  | -                            | B (Computer networks)      |
 | June      | November   | ACM SenSys              | Mobile computing             | B (Computer networks)      |
-| July      |            | IEEE INFOCOM            | -                            | A (Computer networks)      |
+| July      | May        | IEEE INFOCOM            | -                            | A (Computer networks)      |
 | July      |            | ACM BuildSys            | -                            | -                          |
 | August    |            | ACM SIGMETRICS (Summer) | Measurement & perf. analysis | B (OS, Architecture)       |
 | August    | September  | ACM MobiCom, Summer DDL | Mobile computing             | A (Computer networks)      |
