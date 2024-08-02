@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Aug. 2024: Invited talk at the University of North Dakota
 * July 2024: Paper accepted by ACM CIKM.
 * May 2024: Paper accepted by IEEE TKDE.
 * May 2024: Serve as a panelist at NSF.
@@ -27,11 +28,11 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Dec. 2023: Paper accepted by IEEE TMC.
 * Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
 * Sep. 2023: Paper accepted by VLDB 2024.
-* Aug. 2023: Start Assistant Professor appointment at UT Dallas.
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Aug. 2023: Start Assistant Professor appointment at UT Dallas.
 * Jul. 2023: Serve as program committee on the SIGCOMM'23 Posters and Demos.
 * Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
 * Mar. 2023: Serve as a reviewer for ACM SIGKDD 2023.
