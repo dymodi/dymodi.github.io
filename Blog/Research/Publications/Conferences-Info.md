@@ -9,10 +9,6 @@ author: Yi DING
 
 ## Systems (Networks / Real-time / Mobile Computing / Measurement)
 
-Special Submission Process: 
-
-* VLDB (Research Track): Rolling deadline occurs on the **1st of each month**
-
 | Deadline  | Conference | Proceeding              | CS Ranking                   | CCF                        |
 | --------- | ---------- | ----------------------- | ---------------------------- | -------------------------- |
 | January   |            | IEEE ICDCS              | -                            | B (OS, Architecture)       |
@@ -44,24 +40,31 @@ Special Submission Process:
 
 ## Data Mining / Machine Learning
 
+Special Submission Process: 
+
+* VLDB (Research Track): Rolling deadline occurs on the **1st of each month**
+
 | Deadline            | Conference  | Proceeding            | CS Ranking                      | CCF                         |
 | ------------------------------ | --------------------- | ------------------------------- | --------------------------- | --------------------------- |
 | January                        |              | ACM SIGIR             | The Web & information retrieval | A (Databases, Data mining)  |
+| January 15 | June | ACM SIGMOD, Round 1 | Databases | A (Databases, Data mining) |
 | February                       |                   | ICML                  | Machine learning & data mining  | A (Artificial intelligence) |
-| February                       |             | ACM SIGKDD            | Machine learning & data mining  | A (Databases, Data mining)  |
+| February                       | August | ACM SIGKDD, Round 1   | Machine learning & data mining  | A (Databases, Data mining)  |
 | February                       |                  | IJCAI                 | Artificial intelligence         | A (Artificial intelligence) |
 | April                          |                 | ACM MM                | -                               | A (Graphic, Multimedia)     |
+| April 15 | June | ACM SIGMOD, Round 2 | Databases | A (Databases, Data mining) |
 | May                            |               | NeurIPS              | Machine learning & data mining | A (Artificial intelligence)  |
 | May                            | October       | ACM CIKM              | -                               | B (Databases, Data mining)  |
-| June                           |   | IEEE ICDE, 1st round  | Databases                       | A (Databases, Data mining)  |
+| June                           |   | IEEE ICDE, Round 1 | Databases                       | A (Databases, Data mining)  |
 | June                           |              | IEEE ICDM             | -                               | B (Databases, Data mining)  |
-| July                           |  | ACM SIGMOD, 1st cycle | Databases                       | A (Databases, Data mining)  |
+| July 15                    | June | ACM SIGMOD, Round 3 | Databases                       | A (Databases, Data mining)  |
 | August                         |               | ACM WSDM              | -                               | B (Databases, Data mining)  |
-| September                      |                   | AAAI                  | Artificial intelligence         | A (Artificial intelligence) |
+| August | August | ACM SIGKDD, Round 2 | Machine learning & data mining | A (Databases, Data mining) |
+| September                      | February | AAAI                  | Artificial intelligence         | A (Artificial intelligence) |
 | October |  | SIAM SDM | - | B (Databases, Data mining) |
-| October                        |                    | WWW                   | The Web & information retrieval | A (Interdisciplinary)       |
-| October                        |   | IEEE ICDE, 2nd round  | Databases                       | A (Databases, Data mining)  |
-| October                        |  | ACM SIGMOD, 2nd cycle | Databases                       | A (Databases, Data mining)  |
+| October                        |                    | WWW                   | The Web & Information Retrieval | A (Interdisciplinary)       |
+| October                        |   | IEEE ICDE, Round 2 | Databases                       | A (Databases, Data mining)  |
+| October 15                     | June | ACM SIGMOD, Round 4 | Databases                       | A (Databases, Data mining)  |
 
 ## Ubiquitous Computing / HCI / Social Computing
 | Deadline   | Conference | Proceeding | CS Ranking | CCF                 |
