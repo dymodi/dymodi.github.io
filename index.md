@@ -9,12 +9,13 @@ I am currently an Assistant Professor in Computer Science at The University of T
 
 My research interests lie at the intersection of **cyber-physical systems (CPS)**, **mobile computing**, and **data mining**. I am interested in studying human behavior through smartphone sensing and machine learning in CPS and cyber-human systems (CHS) like *location-based services*, *urban delivery,* and *smart cities*. Some of the future projects will study how to integrate AI models like LLM into the systems.
 
-<span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Spring/Fall 25. Experience in mobile computing, machine learning, and/or data mining is preferred. If you are interested, please send your CV, Statement-of-Purpose, and transcripts to yi.ding *at* utdallas *dot* edu</span>
+<span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Fall 25. Experience in mobile computing, machine learning, and/or data mining is preferred. If you are interested, please send your CV, Statement-of-Purpose, and transcripts to yi.ding *at* utdallas *dot* edu</span>
 
 Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Oct. 2024: Serve as a panelist at NSF.
 * Sep. 2024: Serve as program committee for AAAI-AISI 2025.
 * Aug. 2024: Invited talk at the University of North Dakota
 * July 2024: Paper accepted by ACM CIKM.
@@ -28,11 +29,11 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Feb. 2024: Attend NSF S&CC PI Meeting as a program participant.
 * Dec. 2023: Paper accepted by IEEE TMC.
 * Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
-* Sep. 2023: Paper accepted by VLDB 2024.
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Sep. 2023: Paper accepted by VLDB 2024.
 * Aug. 2023: Start Assistant Professor appointment at UT Dallas.
 * Jul. 2023: Serve as program committee on the SIGCOMM'23 Posters and Demos.
 * Apr. 2023: Co-authored paper accepted by ACM Transactions on Sensor Networks (TOSN).
