@@ -8,6 +8,8 @@ classes: wide
 
 Mainly publishing in top Ubiquitous and Mobile Computing Conferences, e.g., IMWUT/UbiComp, MobiCom, SIGCOMM, NSDI, KDD, RTSS,  ACM/IEEE Transactions. The authors with * are the students working primarily with me.
 
+[arXiv'24] **Language-centered Human Activity Recognition**<br>Hua Yan, Heng Tan, **Yi Ding**, Pengfei Zhou, Vinod Namboodiri, Yu Yang
+
 <span style="color:DarkBlue">[CIKM'24]</span> **Behavior-Aware Hypergraph Convolutional Network for Illegal Parking Prediction with Multi-Source Contextual Information**<br>Guang Yang\*, Meiqi Tu, Zelong Li, Jinquan Hang, Taichi Liu, Ruofeng Liu, **Yi Ding**, Yu Yang and Desheng Zhang<br>*33rd ACM International Conference on Information and Knowledge Management*
 
 <span style="color:DeepPink">[TKDE'24]</span> **Nationwide Behavior-Aware Coordinates Mining from Uncertain Delivery Events**<br>Zhiqing Hong, Guang Wang, Wenjun Lyu, Baoshen Guo, **Yi Ding**, Haotian Wang, Shuai Wang, Yunhuai Liu, Desheng Zhang<br>*IEEE Transactions on Knowledge and Data Engineering*
