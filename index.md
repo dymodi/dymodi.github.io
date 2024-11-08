@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Nov. 2024: Serve as program committee for ACM MobiSys 2025.
 * Oct. 2024: Serve as a panelist at NSF.
 * Sep. 2024: Serve as program committee for AAAI-AISI 2025.
 * Aug. 2024: Invited talk at the University of North Dakota
