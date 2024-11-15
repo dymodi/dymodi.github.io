@@ -4,7 +4,7 @@ title: "Group"
 permalink: /group/
 author_profile: true
 classes: wide
-date: 01/05/2024
+date: 11/15/2024
 ---
 
 ### Ph.D.
@@ -16,4 +16,9 @@ date: 01/05/2024
 ### Master
 
 * Pei Zeng, 2024 Summer
+
+### Undergraduate
+* Anindo Majumdar
+* Dishita Thathapuram
+* Sanskriti Aripineni
 
