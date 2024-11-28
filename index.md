@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Nov. 2024: Serve as Track Chair for Cloud/Edge Applications Track at IEEE Cloud Summit 2025.
 * Nov. 2024: Serve as program committee for ACM MobiSys 2025.
 * Oct. 2024: Serve as a panelist at NSF.
 * Sep. 2024: Serve as program committee for AAAI-AISI 2025.
@@ -29,11 +30,11 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Mar. 2024: Attend NSF CPS PI Meeting as Aspiring PI.
 * Feb. 2024: Attend NSF S&CC PI Meeting as a program participant.
 * Dec. 2023: Paper accepted by IEEE TMC.
-* Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
 * Sep. 2023: Paper accepted by VLDB 2024.
 * Aug. 2023: Start Assistant Professor appointment at UT Dallas.
 * Jul. 2023: Serve as program committee on the SIGCOMM'23 Posters and Demos.
