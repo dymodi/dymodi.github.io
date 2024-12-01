@@ -27,17 +27,6 @@ As shown in the figure, my works involve all three phases in the **human-centere
 
 <p class="clear"> </p>
 
-#### VALID, a  Nationwide Arrival Detection System [SIGCOMM'21]
-<p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
-	<img src="/assets/images/Research/virtual-beacon-deployment.png" alt="VALID System" style="float: left; width: 20em;">
-</p>
-<p>We explore to use merchants’ smartphones under their consent as a virtual infrastructure to design, build, deploy, and operate VALID, a Bluetooth-based indoor status detection system, from in-lab conception to nationwide operation.</p>
-<p>During its full nationwide operation, VALID consists of virtual devices at 3 million shops and restaurants, to infer and influence 1 million couriers’ behavior, and assist the scheduling of 3.9 billion orders for 186 million customers. We also share the lessons on system evolution, reliabilty, and human-system synergy in the wild.</p>
-
-[[PDF](https://dl.acm.org/doi/pdf/10.1145/3452296.3472911)], [[Dataset](https://tianchi.aliyun.com/dataset/dataDetail?dataId=103969)]
-
-<p class="clear"> </p>
-
 #### A City-Wide Crowdsourcing Delivery System with Reinforcement Learning [UbComp'21]
 <p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
 	<img src="/assets/images/Research/hitchhiking.png" alt="Hitchhiking System" style="float: left; width: 20em;">
