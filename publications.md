@@ -6,9 +6,14 @@ author_profile: true
 classes: wide
 ---
 
-Mainly publishing in top Ubiquitous and Mobile Computing Conferences, e.g., IMWUT/UbiComp, MobiCom, SIGCOMM, NSDI, KDD, RTSS,  ACM/IEEE Transactions. The authors with * are the students working primarily with me.
+Mainly publishing in top Ubiquitous and Mobile Computing Conferences, e.g., IMWUT/UbiComp, MobiCom, SIGCOMM, NSDI, RTSS, KDD, WWW, ACM/IEEE Transactions. The authors with * are the students working primarily with me.
 
-[arXiv'24] **Language-centered Human Activity Recognition**<br>Hua Yan, Heng Tan, **Yi Ding**, Pengfei Zhou, Vinod Namboodiri, Yu Yang<br>[[PDF]](https://arxiv.org/pdf/2410.00003)
+<span style="color:Goldenrod">[WWW'25]</span>  **InCo: Exploring Inter-Trip Cooperation for Efficient Last-mile Delivery**<br>Wenjun Lyu, Shuxin Zhong, Guang Yang, Haotian Wang, **Yi Ding**, Shuai Wang, Yunhuai Liu, Tian He and Desheng Zhang
+
+<span style="color:Goldenrod">[PerCom'25]</span> **FineSat: Enhancing GNSS Signals for High-precision Sensing**<br>Anlan Yu\*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, **Yi Ding**, Daqing Zhang
+
+[arXiv'24] **Language-centered Human Activity Recognition**<br>
+Hua Yan, Heng Tan, **Yi Ding**, Pengfei Zhou, Vinod Namboodiri, Yu Yang<br>[[PDF]](https://arxiv.org/pdf/2410.00003)
 
 <span style="color:DarkBlue">[CIKM'24]</span> **Behavior-Aware Hypergraph Convolutional Network for Illegal Parking Prediction with Multi-Source Contextual Information**<br>Guang Yang\*, Meiqi Tu, Zelong Li, Jinquan Hang, Taichi Liu, Ruofeng Liu, **Yi Ding**, Yu Yang and Desheng Zhang<br>*33rd ACM International Conference on Information and Knowledge Management*<br>[[PDF]](https://dl.acm.org/doi/pdf/10.1145/3627673.3679563)
 
