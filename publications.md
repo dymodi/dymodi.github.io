@@ -8,9 +8,9 @@ classes: wide
 
 Mainly publishing in top Ubiquitous and Mobile Computing Conferences, e.g., IMWUT/UbiComp, MobiCom, SIGCOMM, NSDI, RTSS, KDD, WWW, ACM/IEEE Transactions. The authors with * are the students working primarily with me.
 
-<span style="color:Goldenrod">[WWW'25]</span>  **InCo: Exploring Inter-Trip Cooperation for Efficient Last-mile Delivery**<br>Wenjun Lyu, Shuxin Zhong, Guang Yang, Haotian Wang, **Yi Ding**, Shuai Wang, Yunhuai Liu, Tian He and Desheng Zhang
+<span style="color:Goldenrod">[WWW'25]</span>  **InCo: Exploring Inter-Trip Cooperation for Efficient Last-mile Delivery**<br>Wenjun Lyu, Shuxin Zhong, Guang Yang, Haotian Wang, **Yi Ding**, Shuai Wang, Yunhuai Liu, Tian He and Desheng Zhang<br>ACM The Web Conference 2025
 
-<span style="color:Goldenrod">[PerCom'25]</span> **FineSat: Enhancing GNSS Signals for High-precision Sensing**<br>Anlan Yu\*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, **Yi Ding**, Daqing Zhang
+<span style="color:Goldenrod">[PerCom'25]</span> **FineSat: Enhancing GNSS Signals for High-precision Sensing**<br>Anlan Yu\*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, **Yi Ding**, Daqing Zhang<br>2025 IEEE International Conference on Pervasive Computing and Communications
 
 [arXiv'24] **Language-centered Human Activity Recognition**<br>
 Hua Yan, Heng Tan, **Yi Ding**, Pengfei Zhou, Vinod Namboodiri, Yu Yang<br>[[PDF]](https://arxiv.org/pdf/2410.00003)
