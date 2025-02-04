@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Fen. 2025: Invited to join ACM IMWUT Editorial Board as Associate Editor (AE).
 * Jan. 2025: Paper accepted by ACM WWW (the Web Conference).
 * Dec. 2024: Paper on satellite-based sensing accepted by IEEE PerCom.
 * Nov. 2024: Serve as Track Chair for Cloud/Edge Applications Track at IEEE Cloud Summit 2025.
