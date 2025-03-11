@@ -9,13 +9,13 @@ I am currently an Assistant Professor in Computer Science at The University of T
 
 My research interests lie at the intersection of **cyber-physical systems (CPS)**, **mobile computing**, and **machine learning**. I am interested in combining wireless sensing and machine learning on mobile devices in CPS and cyber-human systems (CHS) like *location-based services*, *urban delivery,* and *smart cities*. Some of the future projects will study how to integrate AI models like LLM into the systems.
 
-<span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Fall 25. Experience in mobile computing, machine learning, and/or data mining is preferred. If you are interested, please send your CV, Statement-of-Purpose, and transcripts to yi.ding *at* utdallas *dot* edu</span>.
-
-<span style="color:DarkOrange">There is an open position for UTD undergrad funded by the UTD Undergraduate Research Apprenticeship Program ([URAP](https://honors.utdallas.edu/research/undergraduate-research-apprenticeship-program/)) to join the research project in the group. The student is expected to work approximately 300 hours on the research project and will receive a $4,500 stipend. The student will be contributing to the mobile machine learning system project. Therefore, the student is expected to have at least one of the following backgrounds/experience:<br>(1) Mobile Development (Kotlin language, Java Language, Android System);<br>(2) Deep Learning / LLM Deployment (e.g., Ollama, MediaPipe, Tensorflow Lite, ExecuTorch, On-Device LLM);<br>(3) Wireless Sensing and/or Signal Processing (e.g., Wi-Fi, UWB, mmWave);<br>(3) Human Behavior and Cognitive;<br>Undergraduate students from all the departments are encouraged to apply. Please send your CV to yi.ding *at* utdallas *dot* edu.</span>
+<span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Fall 26. Experience in mobile computing and machine learning is preferred. If you are interested, please send your CV, Statement-of-Purpose, and transcripts to yi.ding *at* utdallas *dot* edu</span>.
 
 
 
 Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
+
+
 
 **Recent News**
 
