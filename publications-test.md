@@ -18,14 +18,16 @@ classes: wide
 <body>
     <h1>Publications</h1>
     <p>This page summarizes my publications in two main areas: Wireless Sensing & Mobile Computing Systems and Spatial-Temporal / Mobile Data Mining. These areas focus on enhancing mobile computing capabilities and analyzing spatial-temporal data for various applications.</p>
-    
+
     <div class="container">
         <div class="section-left">
             <h2>Wireless Sensing & Mobile Computing Systems</h2>
             <!-- List publications here -->
             <ul>
-                <li><span style="color:Goldenrod">[PerCom'25]</span> **FineSat: Enhancing GNSS Signals for High-precision Sensing**<br>Anlan Yu\*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, **Yi Ding**, Daqing Zhang<br>2025 IEEE International Conference on Pervasive Computing and Communications</li>
-                <!-- Add more publications -->
+                <li><span style="color:Goldenrod">[PerCom'25]</span> <b>FineSat: Enhancing GNSS Signals for High-precision Sensing</b><br>Anlan Yu\*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang<br>2025 IEEE International Conference on Pervasive Computing and Communications</li>
+                <li>
+                [arXiv'24] <b>Language-centered Human Activity Recognition</b><br>
+    Hua Yan, Heng Tan, **Yi Ding**, Pengfei Zhou, Vinod Namboodiri, Yu Yang<br>[<a href="https://arxiv.org/pdf/2410.00003">PDF</a></li>
             </ul>
         </div>
         <div class="section-right">
