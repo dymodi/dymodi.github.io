@@ -75,7 +75,6 @@ classes: wide
     [<a href="https://tianchi.aliyun.com/dataset/dataDetail?dataId=103969">Dataset</a>] 
     55/241=23%
 </li>
-
 <li><span style="color:Red">[NSDI'21]</span> <b>From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild</b> <br>
     <b>Yi Ding</b>, Ling Liu, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang <br>
     <i>Proceedings of the 18th USENIX Symposium on Networked Systems Design and Implementation</i><br>
@@ -84,14 +83,12 @@ classes: wide
     [<a href="https://www.youtube.com/watch?v=PV9MUVwGw8o">Video</a>] 
     19/114=16%
 </li>
-
 <li><span style="color:RoyalBlue">[MobiCom'20]</span> <b>TransLoc: Transparent Indoor Localization with Uncertain Human Participation</b> <br>
     Yu Yang, <b>Yi Ding</b>, Dengpan Yuan, Guang Wang, Xiaoyang Xie, Yunhuai Liu, Tian He, Desheng Zhang <br>
     <i>Proceedings of the 26th Annual International Conference on Mobile Computing and Networking</i><br>
     [<a href="https://www.yyang.site/assets/pub/transloc.pdf">PDF</a>] 
     63/384=16%
 </li>
-
 </div>
         <div class="section-right">
             <h2>Spatial-Temporal / Mobile Data Mining</h2>
