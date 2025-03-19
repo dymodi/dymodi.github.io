@@ -26,21 +26,3 @@ html {
     font-size: 20px; // change to whatever
   }
 }
-
-.publications-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px; /* Space between sections */
-}
-
-.publication-section {
-  padding: 15px;
-  border: 1px solid #ddd; /* Optional styling */
-  background: #f9f9f9; /* Optional styling */
-}
-
-@media (min-width: 768px) {
-  .publications-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
