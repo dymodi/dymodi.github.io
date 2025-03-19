@@ -22,8 +22,12 @@ spatial_temporal: |
   <span style="color:DarkBlue">[CIKM'24]</span> **Behavior-Aware Hypergraph Convolutional Network for Illegal Parking Prediction with Multi-Source Contextual Information**<br>Guang Yang\*, Meiqi Tu, Zelong Li, Jinquan Hang, Taichi Liu, Ruofeng Liu, **Yi Ding**, Yu Yang and Desheng Zhang<br>*33rd ACM International Conference on Information and Knowledge Management*<br>[[PDF]](https://dl.acm.org/doi/pdf/10.1145/3627673.3679563)
 
   ... (Rest of Spatial-Temporal content) ...
-  
-  ## Wireless Sensing & Mobile Computing Systems
+
+
+
+---
+
+## Wireless Sensing & Mobile Computing Systems
 
 Mainly publishing in top Ubiquitous and Mobile Computing Conferences, e.g., IMWUT/UbiComp, MobiCom, SIGCOMM, NSDI, RTSS, KDD, WWW, ACM/IEEE Transactions. The authors with * are the students working primarily with me.
 
@@ -123,8 +127,3 @@ Yan Zhang, Yunhuai Liu, **Yi Ding**, Genjian Li, Ning Chen, Hao Zhang, Tian He a
 [WO] *Indoor positioning method and apparatus, electronic device and computer-readable storage medium* [[Link](https://patents.google.com/patent/WO2021008148A1/en)]
 
 *Embedded MPC method based on convergence depth control* [[Link](https://patents.google.com/patent/CN104793489A/en?oq=CN+104793489)]
-
-
-
----
-
