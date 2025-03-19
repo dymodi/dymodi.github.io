@@ -49,50 +49,103 @@ classes: wide
                     [<a href="https://tianchi.aliyun.com/dataset/dataDetail?dataId=119097">Dataset</a>]
                     [<a href="https://github.com/dymodi/P2Loc">Code</a>]</li>
                 <li><span style="color:DarkGreen">[IMWUT/UbiComp'22]</span> <b>SmartLOC: Indoor Localization with Smartphone Anchors for On-Demand Delivery</b> <br>
-    <b>Yi Ding</b>, Dongzhe Jiang, Yunhuai Liu, Desheng Zhang, Tian He<br>
-    <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</i><br>
-    [<a href="https://dl.acm.org/doi/pdf/10.1145/3494972">PDF</a>] 
-    [<a href="https://github.com/dymodi/SmartLOC">Code</a>]
-</li>
-<li><span style="color:Navy">[KDD'22]</span> <b>Para-Pred: Addressing Heterogeneity for City-Wide Indoor Status Estimation in On-Demand Delivery</b> <br>
-    Wei Liu*, <b>Yi Ding*</b>, Shuai Wang, Yu Yang, Desheng Zhang (* = equal contribution) <br>
-    <i>Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i><br>
-    195/753=26%<br>
-    [<a href="https://yi-ding.me/assets/files/Publications/Para-Pred.pdf">PDF</a>]
-</li>
-<li><span style="color:SteelBlue">[ToN'21]</span> <b>From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild</b> <br>
-    <b>Yi Ding</b>, Ling Liu, Yu Yang, Yunhuai Liu, Desheng Zhang, Tian He <br>
-    <i>IEEE/ACM Transactions on Networking, 2021</i>
-</li>
-
-<li><span style="color:FireBrick">[SIGCOMM'21]</span> <b>Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild</b> <br>
-    <b>Yi Ding</b>, Yu Yang, Wenchao Jiang, Yunhuai Liu, Tian He, Desheng Zhang <br>
-    <i>Proceedings of the 2021 ACM SIGCOMM 2021 Conference</i><br>
-    [<a href="https://dl.acm.org/doi/pdf/10.1145/3452296.3472911">PDF</a>] 
-    [<a href="https://tianchi.aliyun.com/dataset/dataDetail?dataId=103969">Dataset</a>] 
-    55/241=23%
-</li>
-<li><span style="color:Red">[NSDI'21]</span> <b>From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild</b> <br>
-    <b>Yi Ding</b>, Ling Liu, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang <br>
-    <i>Proceedings of the 18th USENIX Symposium on Networked Systems Design and Implementation</i><br>
-    [<a href="https://www.usenix.org/system/files/nsdi21spring-ding.pdf">PDF</a>] 
-    [<a href="https://tianchi.aliyun.com/dataset/dataDetail?dataId=76359">Dataset</a>] 
-    [<a href="https://www.youtube.com/watch?v=PV9MUVwGw8o">Video</a>] 
-    19/114=16%
-</li>
-<li><span style="color:RoyalBlue">[MobiCom'20]</span> <b>TransLoc: Transparent Indoor Localization with Uncertain Human Participation</b> <br>
-    Yu Yang, <b>Yi Ding</b>, Dengpan Yuan, Guang Wang, Xiaoyang Xie, Yunhuai Liu, Tian He, Desheng Zhang <br>
-    <i>Proceedings of the 26th Annual International Conference on Mobile Computing and Networking</i><br>
-    [<a href="https://www.yyang.site/assets/pub/transloc.pdf">PDF</a>] 
-    63/384=16%
-</li>
+                    <b>Yi Ding</b>, Dongzhe Jiang, Yunhuai Liu, Desheng Zhang, Tian He<br>
+                    <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</i><br>
+                    [<a href="https://dl.acm.org/doi/pdf/10.1145/3494972">PDF</a>] 
+                    [<a href="https://github.com/dymodi/SmartLOC">Code</a>]
+                </li>
+                <li><span style="color:Navy">[KDD'22]</span> <b>Para-Pred: Addressing Heterogeneity for City-Wide Indoor Status Estimation in On-Demand Delivery</b> <br>
+                    Wei Liu+, <b>Yi Ding+</b>, Shuai Wang, Yu Yang, Desheng Zhang (+ = equal contribution) <br>
+                    <i>Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i><br>195/753=26%<br>
+        [<a href="https://yi-ding.me/assets/files/Publications/Para-Pred.pdf">PDF</a>]
+    </li>
+    <li><span style="color:SteelBlue">[ToN'21]</span> <b>From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild</b> <br>
+        <b>Yi Ding</b>, Ling Liu, Yu Yang, Yunhuai Liu, Desheng Zhang, Tian He <br>
+        <i>IEEE/ACM Transactions on Networking, 2021</i>
+    </li>
+    <li><span style="color:FireBrick">[SIGCOMM'21]</span> <b>Nationwide Deployment and Operation of a Virtual Arrival Detection System in the Wild</b> <br>
+        <b>Yi Ding</b>, Yu Yang, Wenchao Jiang, Yunhuai Liu, Tian He, Desheng Zhang <br>
+        <i>Proceedings of the 2021 ACM SIGCOMM 2021 Conference</i><br>
+        [<a href="https://dl.acm.org/doi/pdf/10.1145/3452296.3472911">PDF</a>] 
+        [<a href="https://tianchi.aliyun.com/dataset/dataDetail?dataId=103969">Dataset</a>] 
+        55/241=23%
+    </li>
+    <li><span style="color:Red">[NSDI'21]</span> <b>From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild</b> <br>
+        <b>Yi Ding</b>, Ling Liu, Yu Yang, Yunhuai Liu, Tian He, Desheng Zhang <br>
+        <i>Proceedings of the 18th USENIX Symposium on Networked Systems Design and Implementation</i><br>
+        [<a href="https://www.usenix.org/system/files/nsdi21spring-ding.pdf">PDF</a>] 
+        [<a href="https://tianchi.aliyun.com/dataset/dataDetail?dataId=76359">Dataset</a>] 
+        [<a href="https://www.youtube.com/watch?v=PV9MUVwGw8o">Video</a>] 
+        19/114=16%
+    </li>
+    <li><span style="color:RoyalBlue">[MobiCom'20]</span> <b>TransLoc: Transparent Indoor Localization with Uncertain Human Participation</b> <br>
+        Yu Yang, <b>Yi Ding</b>, Dengpan Yuan, Guang Wang, Xiaoyang Xie, Yunhuai Liu, Tian He, Desheng Zhang <br>
+        <i>Proceedings of the 26th Annual International Conference on Mobile Computing and Networking</i><br>
+        [<a href="https://www.yyang.site/assets/pub/transloc.pdf">PDF</a>] 
+        63/384=16%
+    </li>
+</ul>
 </div>
-        <div class="section-right">
+<div class="section-right">
             <h2>Spatial-Temporal / Mobile Data Mining</h2>
             <!-- List publications here -->
             <ul>
                 <li><span style="color:Goldenrod">[WWW'25]</span>  <b>InCo: Exploring Inter-Trip Cooperation for Efficient Last-mile Delivery</b><br>Wenjun Lyu, Shuxin Zhong, Guang Yang, Haotian Wang, <b>Yi Ding</b>, Shuai Wang, Yunhuai Liu, Tian He and Desheng Zhang<br><i>ACM The Web Conference 2025</i></li>
-                <!-- Add more publications -->
+                <li><span style="color:DarkBlue">[CIKM'24]</span> <b>Behavior-Aware Hypergraph Convolutional Network for Illegal Parking Prediction with Multi-Source Contextual Information</b><br>
+    Guang Yang*, Meiqi Tu, Zelong Li, Jinquan Hang, Taichi Liu, Ruofeng Liu, <b>Yi Ding</b>, Yu Yang, Desheng Zhang<br>
+    <i>33rd ACM International Conference on Information and Knowledge Management</i><br>
+    [<a href="https://dl.acm.org/doi/pdf/10.1145/3627673.3679563">PDF</a>]</li>
+    <li><span style="color:DeepPink">[TKDE'24]</span> <b>Nationwide Behavior-Aware Coordinates Mining from Uncertain Delivery Events</b><br>
+    Zhiqing Hong, Guang Wang, Wenjun Lyu, Baoshen Guo, <b>Yi Ding</b>, Haotian Wang, Shuai Wang, Yunhuai Liu, Desheng Zhang<br>
+    <i>IEEE Transactions on Knowledge and Data Engineering</i><br>
+    [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10552380">PDF</a>]
+</li>
+<li><span style="color:DarkGreen">[IMWUT/UbiComp'24]</span> <b>SmallMap: Low-cost Community Road Map Sensing with Uncertain Delivery Behavior</b><br>
+    Zhiqing Hong, Haotian Wang, <b>Yi Ding</b>, Guang Wang, Tian He, Desheng Zhang<br>
+    <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</i><br>
+    [<a href="https://dl.acm.org/doi/pdf/10.1145/3659596">PDF</a>]
+</li>
+<li><span style="color:DarkBlue">[VLDB'23]</span> <b>VeLP: Vehicle Loading Plan Learning from Human Behavior in Nationwide Logistics System</b><br>
+    Sijing Duan, Feng Lyu, Xin Zhu, <b>Yi Ding</b>, Haotian Wang, Desheng Zhang, Xue Liu, Yaoxue Zhang, Ju Ren<br>
+    <i>Proceedings of the VLDB Endowment</i><br>
+    [<a href="https://www.vldb.org/pvldb/vol17/p241-duan.pdf">PDF</a>]
+</li>
+<li><span style="color:SteelBlue">[TMC'23]</span> <b>Time-Constrained Actor-Critic Reinforcement Learning for Concurrent Order Dispatch in On-demand Delivery</b><br>
+    Shuai Wang, Baoshen Guo, <b>Yi Ding</b>, Guang Wang, Suining He, Desheng Zhang, Tian He<br>
+    <i>IEEE Transactions on Mobile Computing, 2023</i>
+</li>
+<li><span style="color:SteelBlue">[ToSN'23]</span> <b>OPTI: Order Preparation Time Inference for On-demand Delivery</b><br>
+    Zhigang Dai, Wenjun Lyu, <b>Yi Ding</b>, Yiwei Song, Yunhuai Liu<br>
+    <i>ACM Transactions on Sensor Network, 2023</i>
+</li>
+<li><span style="color:DarkBlue">[SIGSPATIAL'22]</span> <b>CoMiner: Nationwide Behavior-driven Unsupervised Spatial Coordinate Mining from Uncertain Delivery Events</b><br>
+    Zhiqing Hong, Guang Wang, Wenjun Lyu, Baoshen Guo, <b>Yi Ding</b>, Haotian Wang, Shuai Wang, Yunhuai Liu, Desheng Zhang<br>
+    <i>Proceedings of the 30th International Conference on Advances in Geographic Information Systems</i><br>
+    [<a href="https://www.dropbox.com/s/qqkg1szfrdzy6in/paper_37.pdf?dl=0">PDF</a>]
+</li>
+<li><span style="color:SteelBlue">[RTSS'21]</span> <b>Concurrent Order Dispatch for Instant Delivery with Time-Constrained Actor-Critic Reinforcement Learning</b><br>
+    Baoshen Guo, Shuai Wang, <b>Yi Ding</b>, Guang Wang, Suining He, Desheng Zhang, Tian He<br>
+    <i>2021 IEEE Real-Time Systems Symposium (RTSS)</i><br>
+    [<a href="https://uconnuclab.github.io/publications/2021/Conference/guo-rtss-2021.pdf">PDF</a>]  
+    <span style="background-color:red;color:White"> Outstanding Paper Award </span>
+</li>
+<li><span style="color:DarkGreen">[IMWUT/UbiComp'21]</span> <b>ALWAES: an Automatic Outdoor Location-Aware Correction System for Online Delivery Platforms</b><br>
+    Dongzhe Jiang, <b>Yi Ding</b>, Hao Zhang, Yunhuai Liu, Tian He, Yu Yang, Desheng Zhang<br>
+    <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</i><br>
+    [<a href="https://dl.acm.org/doi/pdf/10.1145/3478081">PDF</a>] 
+    [<a href="https://tianchi.aliyun.com/dataset/dataDetail?dataId=107267">Dataset</a>]
+</li>
+<li><span style="color:DarkGreen">[IMWUT/UbiComp'21]</span> <b>A City-Wide Crowdsourcing Delivery System with Reinforcement Learning</b><br>
+    <b>Yi Ding</b>, Baoshen Guo, Lin Zheng, Mingming Lu, Desheng Zhang, Shuai Wang, Sang Hyuk Son, Tian He<br>
+    <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</i><br>
+    [<a href="https://dl.acm.org/doi/pdf/10.1145/3478117">PDF</a>] 
+    [<a href="https://tianchi.aliyun.com/dataset/dataDetail?dataId=106807">Dataset</a>]
+</li>
+<li><span style="color:DarkGreen">[IMWUT/UbiComp'19]</span> <b>Route Prediction for Instant Delivery</b><br>
+    Yan Zhang, Yunhuai Liu, <b>Yi Ding</b>, Genjian Li, Ning Chen, Hao Zhang, Tian He, Desheng Zhang<br>
+    <i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</i><br>
+    [<a href="https://static.aminer.cn/upload/pdf/804/626/236/5d77773b47c8f76646d17f1f_0.pdf">PDF</a>]
+</li>
             </ul>
         </div>
     </div>
