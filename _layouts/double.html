@@ -42,8 +42,7 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-
-<section class="page__content e-content publications-container" itemprop="text">
+        <section class="page__content e-content publications-container" itemprop="text">
   {% if page.toc %}
     <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
       <nav class="toc">
@@ -52,7 +51,7 @@ layout: default
       </nav>
     </aside>
   {% endif %}
-
+  
   <div class="publications-grid">
     <div class="publication-section">
       <h2>Wireless Sensing & Mobile Computing Systems</h2>
@@ -68,8 +67,6 @@ layout: default
     <div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
   {% endif %}
 </section>
-
-
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
