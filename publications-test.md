@@ -7,6 +7,7 @@ classes: wide
 ---
 
 <!-- publications.md -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +16,8 @@ classes: wide
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Mainly publishing in top Ubiquitous and Mobile Computing Conferences, e.g., IMWUT/UbiComp, MobiCom, SIGCOMM, NSDI, RTSS, KDD, WWW, ACM/IEEE Transactions. The authors with * are the students working primarily with me.</p>
+    <h1>Publications</h1>
+    <p>This page summarizes my publications in two main areas: Wireless Sensing & Mobile Computing Systems and Spatial-Temporal / Mobile Data Mining. These areas focus on enhancing mobile computing capabilities and analyzing spatial-temporal data for various applications.</p>
     
     <div class="container">
         <div class="section-left">
