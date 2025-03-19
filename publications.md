@@ -6,10 +6,11 @@ author_profile: true
 classes: wide
 ---
 
-## Wireless Sensing & Mobile Computing Systems
-
 Mainly publishing in top Ubiquitous and Mobile Computing Conferences, e.g., IMWUT/UbiComp, MobiCom, SIGCOMM, NSDI, RTSS, KDD, WWW, ACM/IEEE Transactions. The authors with * are the students working primarily with me.
 
+
+
+## Wireless Sensing & Mobile Computing Systems
 
 <span style="color:Goldenrod">[PerCom'25]</span> **FineSat: Enhancing GNSS Signals for High-precision Sensing**<br>Anlan Yu\*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, **Yi Ding**, Daqing Zhang<br>2025 IEEE International Conference on Pervasive Computing and Communications
 
@@ -51,8 +52,6 @@ Zhiqing Hong, Zelong Li, Shuxin Zhong, Wenjun Lyu, Haotian Wang, **Yi Ding**, Ti
 <span style="color:RoyalBlue">[MobiCom'20]</span> **TransLoc: Transparent Indoor Localization with Uncertain Human Participation** <br>
 Yu Yang,  **Yi Ding**, Dengpan.Yuan, Guang Wang, Xiaoyang Xie, Yunhuai. Liu, Tian He and Desheng Zhang <br>*Proceedings of the 26th Annual International Conference on Mobile Computing and Networking*<br>
 [[PDF](https://www.yyang.site/assets/pub/transloc.pdf)], 63/384=16%
-
-
 
 ## Spatial-Temporal / Mobile Data Mining
 
