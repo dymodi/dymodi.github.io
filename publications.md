@@ -13,6 +13,11 @@ classes: wide
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+          font-size: 12px; /* Adjust size */
+      }
+  </style>
 </head>
 <body>
     <p>This page summarizes my publications in two main areas: Wireless Sensing & Mobile Computing Systems and Spatial-Temporal / Mobile Data Mining. I mainly publishing on top conferences like NSDI,  SIGCOMM, MobiCom, IMWUT/UbiComp, RTSS, KDD, WWW, ACM/IEEE Transactions. The authors with * are the students working primarily with me.</p>
@@ -24,10 +29,10 @@ classes: wide
             <ul>
               <li><span style="color:RoyalBlue">[FMSys'25]</span> <b>Are We There Yet? A Measurement Study of Efficiency for LLM Applications on Mobile Devices</b><br>
                     Xiao Yan*, <b>Yi Ding</b><br>
-                    The 2nd International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things</li>  
+                <i>The 2nd International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things</i></li>  
               <li><span style="color:Goldenrod">[PerCom'25]</span> <b>FineSat: Enhancing GNSS Signals for High-precision Sensing</b><br>
                     Anlan Yu*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang<br>
-                    2025 IEEE International Conference on Pervasive Computing and Communications</li>
+                <i>2025 IEEE International Conference on Pervasive Computing and Communications</i></li>
                 <li>[arXiv'24] <b>Language-centered Human Activity Recognition</b><br>
                     Hua Yan, Heng Tan, <b>Yi Ding</b>, Pengfei Zhou, Vinod Namboodiri, Yu Yang<br>
                     [<a href="https://arxiv.org/pdf/2410.00003">PDF</a>]</li>
