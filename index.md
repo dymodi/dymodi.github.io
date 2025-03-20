@@ -19,6 +19,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Mar. 2025: Workshop paper on measurement study of LLM on mobile devices accepted by FMSys'25.
 * Feb. 2025: Invited to join ACM IMWUT Editorial Board as Associate Editor (AE).
 * Jan. 2025: Paper accepted by ACM WWW (the Web Conference).
 * Dec. 2024: Paper on satellite-based sensing accepted by IEEE PerCom.
@@ -34,11 +35,11 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Apr. 2024: Serve as program committee on the SIGCOMM'24 Posters and Demos.
 * Apr. 2024: Serve as a panelist at NSF.
 * Apr. 2024: Two papers accepted by UbiComp/IMWUT.
-* Mar. 2024: Attend NSF CPS PI Meeting as Aspiring PI.
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Mar. 2024: Attend NSF CPS PI Meeting as Aspiring PI.
 * Feb. 2024: Attend NSF S&CC PI Meeting as a program participant.
 * Dec. 2023: Paper accepted by IEEE TMC.
 * Nov. 2023: Presentation on NSF IoT/S&CC workshop at UW
