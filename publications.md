@@ -13,16 +13,11 @@ classes: wide
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-      body {
-          font-size: 12px; /* Adjust size */
-      }
-  </style>
 </head>
 <body>
     <p>This page summarizes my publications in two main areas: Wireless Sensing & Mobile Computing Systems and Spatial-Temporal / Mobile Data Mining. I mainly publishing on top conferences like NSDI,  SIGCOMM, MobiCom, IMWUT/UbiComp, RTSS, KDD, WWW, ACM/IEEE Transactions. The authors with * are the students working primarily with me.</p>
 
-<div class="container">
+<div class="container" style="font-size: 13px;">
         <div class="section-left">
             <h2>Wireless Sensing & Mobile Computing Systems</h2>
             <!-- List publications here -->
