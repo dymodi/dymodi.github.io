@@ -17,7 +17,7 @@ classes: wide
 <body>
     <p>This page summarizes my publications in two main areas: Wireless Sensing & Mobile Computing Systems and Spatial-Temporal / Mobile Data Mining. I mainly publishing on top conferences like NSDI,  SIGCOMM, MobiCom, IMWUT/UbiComp, RTSS, KDD, WWW, ACM/IEEE Transactions. The authors with * are the students working primarily with me.</p>
 
-<div class="container" style="font-size: 13px;">
+<div class="container" style="font-size: 14px;">
         <div class="section-left">
             <h2>Wireless Sensing & Mobile Computing Systems</h2>
             <!-- List publications here -->
