@@ -60,7 +60,7 @@ classes: wide
                 </li>
                 <li><span style="color:Navy">[KDD'22]</span> <b>Para-Pred: Addressing Heterogeneity for City-Wide Indoor Status Estimation in On-Demand Delivery</b> <br>
                     Wei Liu+, <b>Yi Ding+</b>, Shuai Wang, Yu Yang, Desheng Zhang (+ = equal contribution) <br>
-                    <i>Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i><br>195/753=26%<br>
+                    <i>Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i>195/753=26%<br>
         [<a href="https://yi-ding.me/assets/files/Publications/Para-Pred.pdf">PDF</a>]
     </li>
     <li><span style="color:SteelBlue">[ToN'21]</span> <b>From Conception to Retirement: a Lifetime Story of a 3-Year-Old Operational Wireless Beacon System in the Wild</b> <br>
