@@ -9,12 +9,9 @@ I am currently an Assistant Professor in Computer Science at The University of T
 
 My research interests lie at the intersection of **cyber-physical systems (CPS)**, **mobile computing**, and **machine learning**. I am interested in combining wireless sensing and machine learning on mobile devices in CPS and cyber-human systems (CHS) like *location-based services*, *urban delivery,* and *smart cities*. Some of the future projects will study how to integrate AI models like LLM into the systems.
 
-<span style="color:Navy">I am looking for self-motivated Ph.D. students starting in Fall 26. Experience in mobile computing and machine learning is preferred. If you are interested, please send your CV, Statement-of-Purpose, and transcripts to yi.ding *at* utdallas *dot* edu</span>.
-
-
+<span style="color:Navy">I am looking for self-motivated students, in terms of PhD(TA/RA), Research Intern, and Visiting Students. Experience in mobile computing and machine learning is preferred. If you are interested, please send your CV and transcripts to yi.ding *at* utdallas *dot* edu</span>.
 
 Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
-
 
 
 **Recent News**
