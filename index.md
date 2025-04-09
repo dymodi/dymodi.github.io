@@ -5,17 +5,18 @@ classes: wide
 author_profile: true
 ---
 
-I am currently an Assistant Professor in Computer Science at The University of Texas at Dallas. Previously, I was a Postdoctoral Associate at MIT Institute for Data, Systems, and Society ([IDSS](https://idss.mit.edu/staff/postdoctoral-associate-ssrc/)) and Media Lab from 2022 to 2023. I received my Ph.D. in the Department of Computer Science and Engineering at the University of Minnesota in 2022. I have my Bachelor's and Master's degrees from Zhejiang University in China.
+I am currently an Assistant Professor in Computer Science at The University of Texas at Dallas. My research interests lie at the intersection of **cyber-physical systems (CPS)**, **mobile computing**, and **machine learning**. I am interested in combining wireless sensing and machine learning on mobile devices in CPS and cyber-human systems (CHS) like *location-based services*, *urban delivery,* and *smart cities*. Some of the future projects will study how to integrate AI models like LLM into the systems.
 
-My research interests lie at the intersection of **cyber-physical systems (CPS)**, **mobile computing**, and **machine learning**. I am interested in combining wireless sensing and machine learning on mobile devices in CPS and cyber-human systems (CHS) like *location-based services*, *urban delivery,* and *smart cities*. Some of the future projects will study how to integrate AI models like LLM into the systems.
+Previously, I was a Postdoc at MIT Institute for Data, Systems, and Society and Media Lab. I received my Ph.D. in the Department of Computer Science and Engineering at the University of Minnesota. I have my Bachelor's and Master's degrees from Zhejiang University in China.
 
-<span style="color:Navy">I am looking for self-motivated students, in terms of PhD(TA/RA), Research Intern, and Visiting Students. Experience in mobile computing and machine learning is preferred. If you are interested, please send your CV and transcripts to yi.ding *at* utdallas *dot* edu</span>.
+<span style="color:Navy">I am looking for self-motivated students, in terms of PhD (TA/RA), Research Intern, and Visiting Students. Experience in mobile computing and machine learning is preferred. If you are interested, please send your CV and transcripts to yi.ding *at* utdallas *dot* edu</span>.
 
 Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 
 **Recent News**
 
+* Apr. 2025: Attend the CCC Computational and Citizen Science Research Workshop in DC. 
 * Mar. 2025: Workshop paper on measurement study of LLM on mobile devices accepted by FMSys'25.
 * Feb. 2025: Invited to join ACM IMWUT Editorial Board as Associate Editor (AE).
 * Jan. 2025: Paper accepted by ACM WWW (the Web Conference).
@@ -29,13 +30,13 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * May 2024: Paper accepted by IEEE TKDE.
 * May 2024: Serve as a panelist at NSF.
 * May 2024: Attend CPS/IoT Week 2024 in Hong Kong.
-* Apr. 2024: Serve as program committee on the SIGCOMM'24 Posters and Demos.
-* Apr. 2024: Serve as a panelist at NSF.
-* Apr. 2024: Two papers accepted by UbiComp/IMWUT.
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Apr. 2024: Serve as program committee on the SIGCOMM'24 Posters and Demos.
+* Apr. 2024: Serve as a panelist at NSF.
+* Apr. 2024: Two papers accepted by UbiComp/IMWUT.
 * Mar. 2024: Attend NSF CPS PI Meeting as Aspiring PI.
 * Feb. 2024: Attend NSF S&CC PI Meeting as a program participant.
 * Dec. 2023: Paper accepted by IEEE TMC.
