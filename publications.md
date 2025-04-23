@@ -19,7 +19,7 @@ classes: wide
 
 <div class="container">
         <div class="section-left">
-            <h2>Wireless Sensing & Mobile Computing Systems</h2>
+            <h2>Sensing & Mobile AI Systems</h2>
             <!-- List publications here -->
             <ul>
               <li><span style="color:RoyalBlue">[FMSys'25]</span> <b>Are We There Yet? A Measurement Study of Efficiency for LLM Applications on Mobile Devices</b><br>
