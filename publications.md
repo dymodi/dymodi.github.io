@@ -94,6 +94,7 @@ classes: wide
             <h2>Spatial-Temporal / Mobile Data Mining</h2>
             <!-- List publications here -->
             <ul>
+				<li><span style="color:Goldenrod">[KDD'25]</span>  <b>Generalizable On-device Human Activity Recognition with Pretrained LLMs for Last-mile Delivery</b><br>Zhiqing Hong, Yiwei Song, Zelong Li, Anlan Yu, Shuxin Zhong, <b>Yi Ding</b>, Tian He, Desheng Zhang <br><i>Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i></li>
                 <li><span style="color:Goldenrod">[WWW'25]</span>  <b>InCo: Exploring Inter-Trip Cooperation for Efficient Last-mile Delivery</b><br>Wenjun Lyu, Shuxin Zhong, Guang Yang, Haotian Wang, <b>Yi Ding</b>, Shuai Wang, Yunhuai Liu, Tian He, Desheng Zhang<br><i>ACM The Web Conference 2025</i><br>[<a href="https://dl.acm.org/doi/pdf/10.1145/3696410.3714483">PDF</a>]</li>
                 <li><span style="color:DarkBlue">[CIKM'24]</span> <b>Behavior-Aware Hypergraph Convolutional Network for Illegal Parking Prediction with Multi-Source Contextual Information</b><br>
     Guang Yang*, Meiqi Tu, Zelong Li, Jinquan Hang, Taichi Liu, Ruofeng Liu, <b>Yi Ding</b>, Yu Yang, Desheng Zhang<br>

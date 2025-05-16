@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* May 2025: Paper on human activity recognition with LLMs accepted by ACM SIGKDD.
 * May 2025: Serve as a panelist at NSF.
 * May 2025: Give a talk at CPS-IoT Week 2025 Sensor S&P workshop on the topic of Mobile AI.
 * Apr. 2025: PhD student Xiao Yan received NSF Student Travel Grants for CPS-IoT 2025. Congratulations!
