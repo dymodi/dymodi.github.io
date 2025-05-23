@@ -8,6 +8,7 @@ classes: wide
 
 <!-- publications.md -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +26,7 @@ classes: wide
             <li><span style="color:RoyalBlue">[FMSys'25]</span> <b>Are We There Yet? A Measurement Study of Efficiency for LLM Applications on Mobile Devices</b>
                 <br>Xiao Yan*, <b>Yi Ding</b>
                 <br><i>The 2nd International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things</i>
-                <br>[<a href="https://arxiv.org/pdf/2504.00002">PDF</a>]
+                <br>[<a href="https://dl.acm.org/doi/pdf/10.1145/3722565.3727192">PDF</a>]
             </li>
             <li><span style="color:Goldenrod">[PerCom'25]</span> <b>FineSat: Enhancing GNSS Signals for High-precision Sensing</b>
                 <br>Anlan Yu*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang
