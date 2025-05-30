@@ -7,10 +7,6 @@ classes: wide
 date: May 29, 2025
 ---
 
-
-
-### Academic
-
 ####  Organizers
 * ACM SIGSPATIAL SpatialConnect Workshop 2025
 * IEEE Cloud Summit (Track Chair) 2025 
