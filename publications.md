@@ -88,7 +88,7 @@ classes: wide
         <h2>Spatial-Temporal / Mobile Data Mining</h2>
         <!-- List publications here -->
         <ul>
-            <li>[arXiv'25]</span> <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
+            <li>[arXiv'25] <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
                 <br>Ziqi Liu, Pei Zeng, <b>Yi Ding</b> 
                 <br>[<a href="https://arxiv.org/pdf/2506.00614">PDF</a>]</li>                
             <li><span style="color:Navy">[KDD'25]</span>  <b>Generalizable On-device Human Activity Recognition with Pretrained LLMs for Last-mile Delivery</b>
