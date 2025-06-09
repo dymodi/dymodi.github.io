@@ -16,11 +16,14 @@ date: 15/11/2024
 
 ### Master
 
-* [Pei Zeng](https://www.linkedin.com/in/pei-zeng/)
+* [Pei Zeng](https://www.linkedin.com/in/pei-zeng/) (remote research)
+* Jing Yang (remote research)
+* Xiaodan Huo (remote research)
 
 ### Undergraduate
-* Anindo Majumdar
-* Dishita Thathapuram
-* Sanskriti Aripineni
-* Hishita Rakesh Shah
+* Anindo Majumdar (UTD)
+* Dishita Thathapuram (UTD)
+* Sanskriti Aripineni (UTD)
+* Hishita Rakesh Shah (UTD)
+* Chitsein Alexander Dixon Htun (UTD)
 
