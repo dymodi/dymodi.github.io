@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* June 2025: Host four high school students for the [UTD CS Research Program for HS Students](https://k12.utdallas.edu/research/). Welcome to the group!
 * May 2025: Workshop proposal of SpatialConnect on SIGSPATIAL accepted! See you in Minneapolis!
 * May 2025: Paper on human activity recognition with LLMs accepted by ACM SIGKDD.
 * May 2025: Serve as a panelist at NSF.
@@ -32,13 +33,13 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Sep. 2024: Serve as program committee for AAAI-AISI 2025.
 * Aug. 2024: Invited talk at the University of North Dakota
 * July 2024: Paper on parking violation prediction accepted by ACM CIKM.
-* May 2024: Paper accepted by IEEE TKDE.
-* May 2024: Serve as a panelist at NSF.
-* May 2024: Attend CPS/IoT Week 2024 in Hong Kong.
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* May 2024: Paper accepted by IEEE TKDE.
+* May 2024: Serve as a panelist at NSF.
+* May 2024: Attend CPS/IoT Week 2024 in Hong Kong.
 * Apr. 2024: Serve as program committee on the SIGCOMM'24 Posters and Demos.
 * Apr. 2024: Serve as a panelist at NSF.
 * Apr. 2024: Two papers accepted by UbiComp/IMWUT.

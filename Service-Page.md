@@ -24,9 +24,11 @@ date: May 29, 2025
 
 ### (External) Reviewer
 * ACM Transactions on Sensor Networks (TOSN)
+* ACM Transactions Internet Things (TIOT)
 * IEEE Transactions on Network Science and Engineering (TNSE)
+* IEEE Transactions on Intelligent Transportation Systems (TITS)
+* IEEE Transactions on Cloud Computing (TCC)
 * IEEE Robotics and Automation Letters (RA-L)
-* IEEE Transactions on Intelligent Transportation Systems
 * ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (SIGKDD)
 * Annual AAAI Conference on Artificial Intelligence
 * ACM International Conference on Information and Knowledge Management (CIKM)
