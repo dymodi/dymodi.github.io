@@ -23,6 +23,14 @@ classes: wide
         <h2>Sensing & Mobile AI Systems</h2>
         <!-- List publications here -->
         <ul>
+            <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Experience Paper: Nationwide Human Behavior Sensing in Last-mile Delivery</b>
+                <br>FZhiqing Hong, Weibing Wang, Anlan Yu, Shuxin Zhong, Haotian Wang, <b>Yi Ding</b>, Tian He, Desheng Zhang
+                <br><i>Proceedings of the 31th Annual International Conference on Mobile Computing And Networking</i>
+            </li>
+            <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Auto-UIT: Automated UAV Inspection Trajectory Generation from Noisy Sparse 3D Point Cloud</b>
+                <br>Feng Lyu, Lijuan He, Mingliu Liu, Sijing Duan, Hao Wu, Jieyu Zhou, <b>Yi Ding</b>, Zaixun Ling, Yibo Cui
+                <br><i>Proceedings of the 31th Annual International Conference on Mobile Computing And Networking</i>
+            </li>
             <li><span style="color:RoyalBlue">[FMSys'25]</span> <b>Are We There Yet? A Measurement Study of Efficiency for LLM Applications on Mobile Devices</b>
                 <br>Xiao Yan*, <b>Yi Ding</b>
                 <br><i>The 2nd International Workshop on Foundation Models for Cyber-Physical Systems & Internet of Things</i>
