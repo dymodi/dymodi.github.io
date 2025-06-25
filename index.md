@@ -5,7 +5,7 @@ classes: wide
 author_profile: true
 ---
 
-I am currently an Assistant Professor in Computer Science at The University of Texas at Dallas. My research interests lie at the intersection of  **mobile computing**, **wireless sensing**, and **machine learning**. I focus on building **perceptive mobile AI** <u>systems</u> that can sense and understand the *physical environment* and *human behavior*, enabling intelligent and context-aware <u>applications</u>.
+I am currently an Assistant Professor in Computer Science at The University of Texas at Dallas. My research interests lie at the intersection of  **mobile computing**, **wireless sensing**, and **machine learning**. I focus on building **perceptive mobile AI** <u>systems</u> that can sense and understand *physical environment* and *human behavior*, enabling intelligent and context-aware <u>applications</u>.
 
 Previously, I was a Postdoc at MIT Institute for Data, Systems, and Society and Media Lab. I received my Ph.D. in the Department of Computer Science and Engineering at the University of Minnesota. I have my Bachelor's and Master's degrees from Zhejiang University in China.
 
