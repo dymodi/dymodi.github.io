@@ -24,7 +24,7 @@ classes: wide
         <!-- List publications here -->
         <ul>
             <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Experience Paper: Nationwide Human Behavior Sensing in Last-mile Delivery</b>
-                <br>FZhiqing Hong, Weibing Wang, Anlan Yu, Shuxin Zhong, Haotian Wang, <b>Yi Ding</b>, Tian He, Desheng Zhang
+                <br>Zhiqing Hong, Weibing Wang, Anlan Yu, Shuxin Zhong, Haotian Wang, <b>Yi Ding</b>, Tian He, Desheng Zhang
                 <br><i>Proceedings of the 31th Annual International Conference on Mobile Computing And Networking</i>
             </li>
             <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Auto-UIT: Automated UAV Inspection Trajectory Generation from Noisy Sparse 3D Point Cloud</b>
@@ -142,7 +142,8 @@ classes: wide
             </li>
             <li><span style="color:Navy">[KDD'22]</span> <b>Para-Pred: Addressing Heterogeneity for City-Wide Indoor Status Estimation in On-Demand Delivery</b>
                 <br>Wei Liu+, <b>Yi Ding+</b>, Shuai Wang, Yu Yang, Desheng Zhang (+ = equal contribution)
-                <br><i>Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i>195/753=26%
+                <br><i>Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i>
+                <br>195/753=26%
                 <br>[<a href="https://yi-ding.me/assets/files/Publications/Para-Pred.pdf">PDF</a>]
             </li>
             <li><span style="color:SteelBlue">[RTSS'21]</span> <b>Concurrent Order Dispatch for Instant Delivery with Time-Constrained Actor-Critic Reinforcement Learning</b>

@@ -5,7 +5,7 @@ classes: wide
 author_profile: true
 ---
 
-I am currently an Assistant Professor in Computer Science at The University of Texas at Dallas. My research interests lie at the intersection of **cyber-physical systems (CPS)**, **mobile computing**, and **machine learning**. I am interested in combining wireless sensing and machine learning on mobile devices in CPS and cyber-human systems (CHS) like *location-based services*, *urban delivery,* and *smart cities*. Some of the future projects will study how to integrate AI models like LLM into the systems.
+I am currently an Assistant Professor in Computer Science at The University of Texas at Dallas. My research interests lie at the intersection of  **mobile computing**, **wireless sensing**, and **machine learning**. I focus on building **perceptive mobile AI** <u>systems</u>u> that can sense and understand the *physical environment* and *human behavior*, enabling intelligent and context-aware <u>applications</u>u>.
 
 Previously, I was a Postdoc at MIT Institute for Data, Systems, and Society and Media Lab. I received my Ph.D. in the Department of Computer Science and Engineering at the University of Minnesota. I have my Bachelor's and Master's degrees from Zhejiang University in China.
 
