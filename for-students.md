@@ -19,6 +19,10 @@ date: 24/11/26
 
 ## Paper Writing
 
+[How to write a technical paper or a research paper](https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html)
+
+[How (and How Not) to Write a Good Systems Paper](https://www.usenix.org/conferences/author-resources/how-and-how-not-write-good-systems-paper)
+
 [English Writing Suggestions For Chinese-Speaking Students by *Robert L. Fisher* at York University](https://bethune.yorku.ca/files/2012/10/WritingForChinese2012.pdf?x70750)
 
 [Cormen’s Rules of Usage by *Thomas H. Cormen* at Dartmouth](https://www.cs.dartmouth.edu/~thc/Cormen-rules.pdf)
