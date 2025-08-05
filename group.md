@@ -17,16 +17,17 @@ date: 15/11/2024
 
 ### Master
 
-* [Pei Zeng](https://www.linkedin.com/in/pei-zeng/) (LexisNexis, remote research, 24 - 25)
-* Jing Yang (KTH, remote research 25)
-* Xiaodan Huo (BU, remote research 25)
+* [Pei Zeng](https://www.linkedin.com/in/pei-zeng/) (LexisNexis, Research Intern, 24 - 25)
+* Jing Yang (KTH, Research Intern 25)
+* Xiaodan Huo (BU, Research Intern 25)
+* Yutong Lin (Research Intern 25)
 
 ### Undergraduate
-* Anindo Majumdar (UTD)
-* Dishita Thathapuram (UTD)
-* Sanskriti Aripineni (UTD)
-* Hishita Rakesh Shah (UTD)
-* Chitsein Alexander Dixon Htun (UTD)
+* Anindo Majumdar (UTD, Fall 24, Spring 25)
+* Dishita Thathapuram (UTD RIDE, Spring 25)
+* Sanskriti Aripineni (UTD RIDE, Spring 25, Fall 25)
+* Hishita Rakesh Shah (UTD RIDE, Spring 25, Fall 25)
+* Chitsein Alexander Dixon Htun (UTD URAP, Summer 25)
 
 ### High School Students
 * Aditi Chhawacharia (Summer 25, Walnut Grove High School, Prosper, Texas)
