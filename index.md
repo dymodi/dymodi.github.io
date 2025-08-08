@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Aug. 2025: Project on "Leveraging Satellite Signals for Ubiquitous Mobile Wireless Sensing" funded by NSF CISE NeTS CSR with $400,000! Thanks NSF for the award!
 * June 2025: Two papers accepted by ACM MobiCom.
 * June 2025: Host four high school students for the [UTD CS Research Program for HS Students](https://k12.utdallas.edu/research/). Welcome to the group!
 * May 2025: Workshop proposal of SpatialConnect on SIGSPATIAL accepted! See you in Minneapolis!
