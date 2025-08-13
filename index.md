@@ -16,8 +16,9 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Aug. 2025: Paper on human behavior sensing accepted by ACM CIKM.
 * Aug. 2025: Project on "Leveraging Satellite Signals for Ubiquitous Mobile Wireless Sensing" funded by NSF CISE NeTS CSR with $400,000! Thanks NSF for the award!
-* June 2025: Two papers accepted by ACM MobiCom.
+* June 2025: Two papers (UAV Trajectory Generation and Human Behavior Sensing)  accepted by ACM MobiCom. 
 * June 2025: Host four high school students for the [UTD CS Research Program for HS Students](https://k12.utdallas.edu/research/). Welcome to the group!
 * May 2025: Workshop proposal of SpatialConnect on SIGSPATIAL accepted! See you in Minneapolis!
 * May 2025: Paper on human activity recognition with LLMs accepted by ACM SIGKDD.
@@ -34,11 +35,11 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Oct. 2024: Serve as a panelist at NSF.
 * Sep. 2024: Serve as program committee for AAAI-AISI 2025.
 * Aug. 2024: Invited talk at the University of North Dakota
-* July 2024: Paper on parking violation prediction accepted by ACM CIKM.
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* July 2024: Paper on parking violation prediction accepted by ACM CIKM.
 * May 2024: Paper accepted by IEEE TKDE.
 * May 2024: Serve as a panelist at NSF.
 * May 2024: Attend CPS/IoT Week 2024 in Hong Kong.

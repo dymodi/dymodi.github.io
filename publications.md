@@ -96,6 +96,10 @@ classes: wide
         <h2>Spatial-Temporal / Mobile Data Mining</h2>
         <!-- List publications here -->
         <ul>
+            <li><span style="color:DarkBlue">[CIKM'25]</span> <b>Fraudulent Delivery Detection with Multimodal Courier Behavior Data in Last-Mile Delivery</b>
+                <br>Shanshan Wang*, Sijing Duan, Shuxin Zhong, Zhiqing Hong, Zhiyuan Zhou, Hongyu Lin, Weijian Zuo, Desheng Zhang, <b>Yi Ding</b>
+                <br><i>34rd ACM International Conference on Information and Knowledge Management</i>
+            </li>
             <li>[arXiv'25] <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
                 <br>Ziqi Liu*, Pei Zeng*, <b>Yi Ding</b> 
                 <br>[<a href="https://arxiv.org/pdf/2506.00614">PDF</a>]</li>                
