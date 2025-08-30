@@ -25,8 +25,11 @@ date: 15/11/2024
 ### Undergraduate
 * Anindo Majumdar (UTD, Fall 24, Spring 25)
 * Dishita Thathapuram (UTD RIDE, Spring 25)
+* Hishita Rakesh Shah (UTD RIDE, Spring 25)
 * Sanskriti Aripineni (UTD RIDE, Spring 25, Fall 25)
-* Hishita Rakesh Shah (UTD RIDE, Spring 25, Fall 25)
+* Khoa A Tran (UTD RIDE, Fall 25)
+* Rishi Simhadri (UTD RIDE, Fall 25)
+* Lucky Srini (UTD RIDE, Fall 25)
 * Chitsein Alexander Dixon Htun (UTD URAP, Summer 25)
 
 ### High School Students
