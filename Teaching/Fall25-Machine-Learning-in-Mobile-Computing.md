@@ -74,6 +74,7 @@ No books are required. All the materials will be online.
 * W2-Topic2-Paper2 [Brooks, Jas, and Pedro Lopes. "Smell & paste: Low-fidelity prototyping for olfactory experiences." *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3544548.3580680)
 * W2-Topic2-Paper3 [Yin, Xiangyu, et al. "PTEase: objective airway examination for pulmonary telemedicine using commodity smartphones." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3581791.3596854)
 * W2-Topic2-Paper4[Zhou, Pengfei, et al. "Iodetector: A generic service for indoor outdoor detection." *Proceedings of the 10th acm conference on embedded network sensor systems*. 2012.](https://dl.acm.org/doi/pdf/10.1145/2426656.2426668?casa_token=Meh6AaTk37gAAAAA:2ZpLW3ycrngonKW4xe_fvX0PC1aXRiD818M6z9EyCNfkXF7Qoiw_1LdEMQEftrgJi8MGZombXA)
+* W2-Topic2-Paper5[Xie, Zhiqing, et al. "TransFloor: Transparent floor localization for crowdsourcing instant delivery." *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 6.4* (2023): 1-30.](https://dl.acm.org/doi/pdf/10.1145/3569470)
 
 
 </details>
