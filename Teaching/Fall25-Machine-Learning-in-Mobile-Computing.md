@@ -70,11 +70,10 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W2: Lecture: Topic 2: Sensing: Motion & Environmental Sensors (IMU, Biochemical, etc.) (09/03)</summary>
 <br>
-
 * W2-Topic2-Paper1 [Xu, Huatao, et al. "Practically adopting human activity recognition." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dapowan.github.io/files/UniHAR.pdf)
 * W2-Topic2-Paper2 [Brooks, Jas, and Pedro Lopes. "Smell & paste: Low-fidelity prototyping for olfactory experiences." *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3544548.3580680)
 * W2-Topic2-Paper3 [Yin, Xiangyu, et al. "PTEase: objective airway examination for pulmonary telemedicine using commodity smartphones." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3581791.3596854)
-* W2-Topic2-Paper4
+* W2-Topic2-Paper4[Zhou, Pengfei, et al. "Iodetector: A generic service for indoor outdoor detection." *Proceedings of the 10th acm conference on embedded network sensor systems*. 2012.](https://dl.acm.org/doi/pdf/10.1145/2426656.2426668?casa_token=Meh6AaTk37gAAAAA:2ZpLW3ycrngonKW4xe_fvX0PC1aXRiD818M6z9EyCNfkXF7Qoiw_1LdEMQEftrgJi8MGZombXA)
 
 
 </details>
