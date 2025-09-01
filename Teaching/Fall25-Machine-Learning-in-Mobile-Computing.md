@@ -68,22 +68,33 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>W2: Lecture: Topic 2: Sensing: Motion & Environmental Sensors (IMU, Biochemical, etc.) (09/03)</summary>
+<summary>Topic 1: Sensing: Wi-Fi & Bluetooth</summary>
 <br>
-* W2-Topic2-Paper1 [Xu, Huatao, et al. "Practically adopting human activity recognition." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dapowan.github.io/files/UniHAR.pdf)
-* W2-Topic2-Paper2 [Brooks, Jas, and Pedro Lopes. "Smell & paste: Low-fidelity prototyping for olfactory experiences." *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3544548.3580680)
-* W2-Topic2-Paper3 [Yin, Xiangyu, et al. "PTEase: objective airway examination for pulmonary telemedicine using commodity smartphones." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3581791.3596854)
-* W2-Topic2-Paper4[Zhou, Pengfei, et al. "Iodetector: A generic service for indoor outdoor detection." *Proceedings of the 10th acm conference on embedded network sensor systems*. 2012.](https://dl.acm.org/doi/pdf/10.1145/2426656.2426668?casa_token=Meh6AaTk37gAAAAA:2ZpLW3ycrngonKW4xe_fvX0PC1aXRiD818M6z9EyCNfkXF7Qoiw_1LdEMQEftrgJi8MGZombXA)
-* W2-Topic2-Paper5[Xie, Zhiqing, et al. "TransFloor: Transparent floor localization for crowdsourcing instant delivery." *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 6.4* (2023): 1-30.](https://dl.acm.org/doi/pdf/10.1145/3569470)
+
+* Topic1-Paper1 [Ding, Jian, et al. "Cost-effective soil carbon sensing with wi-fi and optical signals." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690675)
+
+</details>
+
+
+<details markdown=block>
+<summary>Topic 2: Sensing: Motion & Environmental Sensors (IMU, Biochemical, etc.) (09/08)</summary>
+<br>
+
+* Topic2-Paper1 [Xu, Huatao, et al. "Practically adopting human activity recognition." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dapowan.github.io/files/UniHAR.pdf)
+* Topic2-Paper2 [Brooks, Jas, and Pedro Lopes. "Smell & paste: Low-fidelity prototyping for olfactory experiences." *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3544548.3580680)
+* Topic2-Paper3 [Yin, Xiangyu, et al. "PTEase: objective airway examination for pulmonary telemedicine using commodity smartphones." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3581791.3596854)
+* Topic2-Paper4 [Zhou, Pengfei, et al. "Iodetector: A generic service for indoor outdoor detection." *Proceedings of the 10th acm conference on embedded network sensor systems*. 2012.](https://dl.acm.org/doi/pdf/10.1145/2426656.2426668?casa_token=Meh6AaTk37gAAAAA:2ZpLW3ycrngonKW4xe_fvX0PC1aXRiD818M6z9EyCNfkXF7Qoiw_1LdEMQEftrgJi8MGZombXA)
+* Topic2-Paper5 [Xie, Zhiqing, et al. "TransFloor: Transparent floor localization for crowdsourcing instant delivery." *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 6.4* (2023): 1-30.](https://dl.acm.org/doi/pdf/10.1145/3569470)
 
 
 </details>
 
 <details markdown=block>
-<summary>W-: Lecture: Topic 1: Sensing: Wi-Fi & Bluetooth (09/03)</summary>
+<summary>Topic 3: Sensing: Acoustic & Vision (09/10)</summary>
 <br>
 
-* W2-Topic1-Paper1 [Ding, Jian, et al. "Cost-effective soil carbon sensing with wi-fi and optical signals." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690675)
+* Topic3-Paper1 [Liang, Xiaoxuan, et al. "Sondar: Size and shape measurements using acoustic imaging." *Proceedings of the Twenty-fifth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3641512.3686359)
+* Topic3-Paper2 [Cao, Shirui, et al. "Powerphone: Unleashing the acoustic sensing capability of smartphones." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3613270?casa_token=DGY_i9RKDbMAAAAA:6Ij6-maaT-kMcZIuBY134Im8wjqZ8RYWx_Vt9wJv91QzIZgycswb4bezhJZMH31KdoHKAiX3IS4tCA)
 
 </details>
 
