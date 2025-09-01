@@ -102,10 +102,12 @@ classes: wide
             </li>
             <li>[arXiv'25] <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
                 <br>Ziqi Liu*, Pei Zeng*, <b>Yi Ding</b> 
-                <br>[<a href="https://arxiv.org/pdf/2506.00614">PDF</a>]</li>                
-            <li><span style="color:Navy">[KDD'25]</span>  <b>Generalizable On-device Human Activity Recognition with Pretrained LLMs for Last-mile Delivery</b>
+                <br>[<a href="https://arxiv.org/pdf/2506.00614">PDF</a>]
+            </li>                
+            <li><span style="color:Navy">[KDD'25]</span>  <b>LLM4HAR: Generalizable On-device Human Activity Recognition with Pretrained LLMs</b>
                 <br>Zhiqing Hong, Yiwei Song, Zelong Li, Anlan Yu, Shuxin Zhong, <b>Yi Ding</b>, Tian He, Desheng Zhang 
                 <br><i>Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i>
+                <br>[<a href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737226">PDF</a>]
             </li>
             <li><span style="color:Goldenrod">[WWW'25]</span>  <b>InCo: Exploring Inter-Trip Cooperation for Efficient Last-mile Delivery</b>
                 <br>Wenjun Lyu, Shuxin Zhong, Guang Yang, Haotian Wang, <b>Yi Ding</b>, Shuai Wang, Yunhuai Liu, Tian He, Desheng Zhang<br><i>ACM The Web Conference 2025</i>
