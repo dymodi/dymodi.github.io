@@ -27,6 +27,10 @@ classes: wide
                 <br>Zhiqing Hong, Weibing Wang, Anlan Yu, Shuxin Zhong, Haotian Wang, <b>Yi Ding</b>, Tian He, Desheng Zhang
                 <br><i>Proceedings of the 31th Annual International Conference on Mobile Computing And Networking</i>
             </li>
+            <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Experience Paper: Nationwide Human Behavior Sensing in Last-mile Delivery</b>
+                <br>Zhiqing Hong, Weibing Wang, Anlan Yu, Shuxin Zhong, Haotian Wang, <b>Yi Ding</b>, Tian He, Desheng Zhang
+                <br><i>Proceedings of the 31th Annual International Conference on Mobile Computing And Networking</i>
+            </li>
             <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Auto-UIT: Automated UAV Inspection Trajectory Generation from Noisy Sparse 3D Point Cloud</b>
                 <br>Feng Lyu, Lijuan He, Mingliu Liu, Sijing Duan, Hao Wu, Jieyu Zhou, <b>Yi Ding</b>, Zaixun Ling, Yibo Cui
                 <br><i>Proceedings of the 31th Annual International Conference on Mobile Computing And Networking</i>
@@ -96,6 +100,10 @@ classes: wide
         <h2>Spatial-Temporal / Mobile Data Mining</h2>
         <!-- List publications here -->
         <ul>
+            <li><span style="color:SteelBlue">[TMC'25]</span> <b>Exploring Cellular User Re-Identification Risks with Networking Behaviors Analysis and Modeling</b>
+                <br>Sijing Duan, Feng Lyu, Shanshan Wang, <b>Yi Ding</b>, Xiaohao He, Yaoxue Zhang
+                <br><i>IEEE Transactions on Mobile Computing, 2025</i>
+            </li>
             <li><span style="color:DarkBlue">[CIKM'25]</span> <b>Fraudulent Delivery Detection with Multimodal Courier Behavior Data in Last-Mile Delivery</b>
                 <br>Shanshan Wang*, Sijing Duan, Shuxin Zhong, Zhiqing Hong, Zhiyuan Zhou, Hongyu Lin, Weijian Zuo, Desheng Zhang, <b>Yi Ding</b>
                 <br><i>34rd ACM International Conference on Information and Knowledge Management</i>

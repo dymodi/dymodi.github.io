@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Sep. 2025: Paper on cellular data analysis accepted by IEEE TMC.
 * Aug. 2025: Paper on human behavior sensing accepted by ACM CIKM.
 * Aug. 2025: Project on "Leveraging Satellite Signals for Ubiquitous Mobile Wireless Sensing" funded by NSF CISE NeTS CSR with $400,000! Thanks NSF for the award!
 * June 2025: Two papers (UAV Trajectory Generation and Human Behavior Sensing)  accepted by ACM MobiCom. 
@@ -34,11 +35,11 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Nov. 2024: Serve as program committee for ACM MobiSys 2025.
 * Oct. 2024: Serve as a panelist at NSF.
 * Sep. 2024: Serve as program committee for AAAI-AISI 2025.
-* Aug. 2024: Invited talk at the University of North Dakota
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Aug. 2024: Invited talk at the University of North Dakota
 * July 2024: Paper on parking violation prediction accepted by ACM CIKM.
 * May 2024: Paper accepted by IEEE TKDE.
 * May 2024: Serve as a panelist at NSF.
