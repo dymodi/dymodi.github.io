@@ -99,6 +99,7 @@ No books are required. All the materials will be online.
 </details>
 
 
+
 ## Invited Talks
 
 * Sep. 8, 2025, [Zhiqing Hong (Rutgers, UB Berkeley)](http://www.zhiqinghong.one/): [Understanding Human Behavior with IMU Sensing & Wearable AI](https://utdallas.box.com/s/gukytibeuw460xdomgo9xxnzhvfchat1)
