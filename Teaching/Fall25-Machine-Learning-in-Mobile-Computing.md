@@ -68,7 +68,7 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>Topic 1: Sensing: Wi-Fi & Bluetooth</summary>
+<summary>Topic 1: Sensing: Wi-Fi & Bluetooth (09/10, 09/15)</summary>
 <br>
 
 * Topic1-Paper1 [Ding, Jian, et al. "Cost-effective soil carbon sensing with wi-fi and optical signals." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690675)
@@ -77,7 +77,7 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>Topic 2: Sensing: Motion & Environmental Sensors (IMU, Biochemical, etc.) (09/08)</summary>
+<summary>Topic 2: Sensing: Motion & Environmental Sensors (IMU, Biochemical, etc.) (09/03, 09/10)</summary>
 <br>
 
 * Topic2-Paper1 [Xu, Huatao, et al. "Practically adopting human activity recognition." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dapowan.github.io/files/UniHAR.pdf)
@@ -90,7 +90,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 3: Sensing: Acoustic & Vision (09/10)</summary>
+<summary>Topic 3: Sensing: Acoustic & Vision (09/22)</summary>
 <br>
 
 * Topic3-Paper1 [Liang, Xiaoxuan, et al. "Sondar: Size and shape measurements using acoustic imaging." *Proceedings of the Twenty-fifth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3641512.3686359)
