@@ -9,7 +9,7 @@ date: May 29, 2025
 
 ####  Organizers
 * ACM SIGSPATIAL SpatialConnect Workshop 2025
-* IEEE Cloud Summit (Track Chair) 2025 
+* IEEE Cloud Summit (Track Chair) 2025, 2026
 
 #### Jounral Editors
 
@@ -37,6 +37,7 @@ date: May 29, 2025
 * NSF 2024, 2025
 
 ### University and Department Service
+* UT Dallas Advisory Committee on Research 2025-2026
 * CS Department Admission Committee 2023-2025
 * CS Department K-12 Outreach Committee 2023-2025
 
