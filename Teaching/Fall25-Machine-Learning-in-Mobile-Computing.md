@@ -69,7 +69,6 @@ No books are required. All the materials will be online.
 
 <details markdown=block>
 <summary>Topic 1: Sensing: Wi-Fi & Bluetooth (09/10, 09/15)</summary>
-<br>
 
 * Topic1-Paper1 [Ding, Jian, et al. "Cost-effective soil carbon sensing with wi-fi and optical signals." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690675)
 * Topic1-Paper2 [Li, Chenning, et al. "Wi-fi see it all: generative adversarial network-augmented versatile wi-fi imaging." *Proceedings of the 18th Conference on Embedded Networked Sensor Systems*. 2020.](https://dl.acm.org/doi/pdf/10.1145/3384419.3430725?casa_token=b7ochCDSOyQAAAAA:veLiQNzzpNOi-Zrl4r7N7kmYH8m6TFzF95gDVFpNf4aYTdevHy6nqKm8t-5e2K0s5imfX6PECEO4LA)
@@ -87,7 +86,6 @@ No books are required. All the materials will be online.
 
 <details markdown=block>
 <summary>Topic 2: Sensing: Motion & Environmental Sensors (IMU, Biochemical, etc.) (09/03, 09/10)</summary>
-<br>
 
 * Topic2-Paper1 [Xu, Huatao, et al. "Practically adopting human activity recognition." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dapowan.github.io/files/UniHAR.pdf)
 * Topic2-Paper2 [Brooks, Jas, and Pedro Lopes. "Smell & paste: Low-fidelity prototyping for olfactory experiences." *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3544548.3580680)
