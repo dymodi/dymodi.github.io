@@ -39,7 +39,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 <summary>More ...</summary>
 <br>
 
-* Aug. 2024: Invited talk at the University of North Dakota
+* Aug. 2024: [Invited talk at the University of North Dakota](https://www.youtube.com/watch?v=x2pNiJgVdnQ)
 * July 2024: Paper on parking violation prediction accepted by ACM CIKM.
 * May 2024: Paper accepted by IEEE TKDE.
 * May 2024: Serve as a panelist at NSF.
