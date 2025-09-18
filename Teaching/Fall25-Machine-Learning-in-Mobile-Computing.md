@@ -93,7 +93,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 3: Sensing: Acoustic & Vision (09/24， 09/29)</summary>
+<summary>Topic 3: Sensing: Acoustic & Vision (09/24, 09/29)</summary>
 
 * Topic3-Paper1 [Liang, Xiaoxuan, et al. "Sondar: Size and shape measurements using acoustic imaging." *Proceedings of the Twenty-fifth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3641512.3686359)
 * Topic3-Paper2 [Cao, Shirui, et al. "Powerphone: Unleashing the acoustic sensing capability of smartphones." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3613270?casa_token=DGY_i9RKDbMAAAAA:6Ij6-maaT-kMcZIuBY134Im8wjqZ8RYWx_Vt9wJv91QzIZgycswb4bezhJZMH31KdoHKAiX3IS4tCA)
