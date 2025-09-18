@@ -77,10 +77,6 @@ No books are required. All the materials will be online.
 * Topic1-Paper5 [Adib, Fadel, and Dina Katabi. "See through walls with WiFi!." *Proceedings of the ACM SIGCOMM 2013 conference on SIGCOMM.* 2013.](https://dl.acm.org/doi/pdf/10.1145/2486001.2486039)
 * Topic1-Paper6 [Wang, Yuxi, Kaishun Wu, and Lionel M. Ni. "Wifall: Device-free fall detection by wireless networks." *IEEE Transactions on Mobile Computing* 16.2 (2016): 581-594.](https://web.archive.org/web/20160331162823id_/http://kaishunwu.com/uploads/soft/150201/wifall.pdf)
 
-
-
-
-
 </details>
 
 
@@ -98,14 +94,13 @@ No books are required. All the materials will be online.
 
 <details markdown=block>
 <summary>Topic 3: Sensing: Acoustic & Vision (09/22)</summary>
-<br>
 
 * Topic3-Paper1 [Liang, Xiaoxuan, et al. "Sondar: Size and shape measurements using acoustic imaging." *Proceedings of the Twenty-fifth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3641512.3686359)
 * Topic3-Paper2 [Cao, Shirui, et al. "Powerphone: Unleashing the acoustic sensing capability of smartphones." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3613270?casa_token=DGY_i9RKDbMAAAAA:6Ij6-maaT-kMcZIuBY134Im8wjqZ8RYWx_Vt9wJv91QzIZgycswb4bezhJZMH31KdoHKAiX3IS4tCA)
-* Topic3-Paper3 [Zhang, Yongzhao, et al. "Acoustic sensing and communication using metasurface." 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23). 2023.](https://www.usenix.org/system/files/nsdi23-zhang-yongzhao.pdf)
-* Topic3-Paper4 [Zhang, Yanbo, et al. "Face recognition in harsh conditions: An acoustic based approach." Proceedings of the 22nd annual international conference on mobile systems, applications and services. 2024.](https://wands.hk/papers/MobiSys_24_1.pdf)
-* Topic3-Paper5 [Liu, Xuanyu, et al. "AcousAF: Acoustic Sensing-Based Atrial Fibrillation Detection System for Mobile Phones." Companion of the 2024 on ACM International Joint Conference on Pervasive and Ubiquitous Computing. 2024.](https://arxiv.org/pdf/2408.04912)
-* Topic3-Paper6 [Li, Ke, et al. "Gazetrak: Exploring acoustic-based eye tracking on a glass frame." Proceedings of the 30th Annual International Conference on Mobile Computing and Networking. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3649376)
+* Topic3-Paper3 [Zhang, Yongzhao, et al. "Acoustic sensing and communication using metasurface." *20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23).* 2023.](https://www.usenix.org/system/files/nsdi23-zhang-yongzhao.pdf)
+* Topic3-Paper4 [Zhang, Yanbo, et al. "Face recognition in harsh conditions: An acoustic based approach." *Proceedings of the 22nd annual international conference on mobile systems, applications and services.* 2024.](https://wands.hk/papers/MobiSys_24_1.pdf)
+* Topic3-Paper5 [Liu, Xuanyu, et al. "AcousAF: Acoustic Sensing-Based Atrial Fibrillation Detection System for Mobile Phones." *Companion of the 2024 on ACM International Joint Conference on Pervasive and Ubiquitous Computing.* 2024.](https://arxiv.org/pdf/2408.04912)
+* Topic3-Paper6 [Li, Ke, et al. "Gazetrak: Exploring acoustic-based eye tracking on a glass frame." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3649376)
 
 </details>
 
