@@ -68,7 +68,7 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>Topic 1: Sensing: Wi-Fi & Bluetooth (09/10, 09/15)</summary>
+<summary>Topic 1: Sensing: Wi-Fi & Bluetooth (09/22)</summary>
 
 * Topic1-Paper1 [Ding, Jian, et al. "Cost-effective soil carbon sensing with wi-fi and optical signals." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690675)
 * Topic1-Paper2 [Li, Chenning, et al. "Wi-fi see it all: generative adversarial network-augmented versatile wi-fi imaging." *Proceedings of the 18th Conference on Embedded Networked Sensor Systems*. 2020.](https://dl.acm.org/doi/pdf/10.1145/3384419.3430725?casa_token=b7ochCDSOyQAAAAA:veLiQNzzpNOi-Zrl4r7N7kmYH8m6TFzF95gDVFpNf4aYTdevHy6nqKm8t-5e2K0s5imfX6PECEO4LA)
@@ -93,7 +93,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 3: Sensing: Acoustic & Vision (09/22)</summary>
+<summary>Topic 3: Sensing: Acoustic & Vision (09/24， 09/29)</summary>
 
 * Topic3-Paper1 [Liang, Xiaoxuan, et al. "Sondar: Size and shape measurements using acoustic imaging." *Proceedings of the Twenty-fifth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3641512.3686359)
 * Topic3-Paper2 [Cao, Shirui, et al. "Powerphone: Unleashing the acoustic sensing capability of smartphones." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3613270?casa_token=DGY_i9RKDbMAAAAA:6Ij6-maaT-kMcZIuBY134Im8wjqZ8RYWx_Vt9wJv91QzIZgycswb4bezhJZMH31KdoHKAiX3IS4tCA)
