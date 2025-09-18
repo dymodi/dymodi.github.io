@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Sep. 2025: Paper on LLM for human activity recognition accepted by ACM IMWUT.
 * Sep. 2025: Paper on cellular data analysis accepted by IEEE TMC.
 * Aug. 2025: Paper on human behavior sensing accepted by ACM CIKM.
 * Aug. 2025: Project on "Leveraging Satellite Signals for Ubiquitous Mobile Wireless Sensing" funded by NSF CISE NeTS CSR with $400,000! Thanks NSF for the award!

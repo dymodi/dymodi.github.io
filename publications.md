@@ -23,6 +23,10 @@ classes: wide
         <h2>Sensing & Mobile AI Systems</h2>
         <!-- List publications here -->
         <ul>
+            <li><span style="color:DarkGreen">[IMWUT/UbiComp'25]</span> <b>Large Language Model-Guided Semantic Alignment for Human Activity Recognition</b>
+                <br>Hua Yan, Heng Tan, <b>Yi Ding</b>, Pengfei Zhou, Vinod Namboodiri, Yu Yang
+                <br><i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 2025</i>
+            </li>
             <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Experience Paper: Nationwide Human Behavior Sensing in Last-mile Delivery</b>
                 <br>Zhiqing Hong, Weibing Wang, Anlan Yu, Shuxin Zhong, Haotian Wang, <b>Yi Ding</b>, Tian He, Desheng Zhang
                 <br><i>Proceedings of the 31th Annual International Conference on Mobile Computing And Networking</i>
@@ -40,9 +44,6 @@ classes: wide
                 <br>Anlan Yu*, Xuanzhi Wang, Pei Wang, Jinkun Li, Xujun Ma, Zhiqing Hong, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang
                 <br><i>2025 IEEE International Conference on Pervasive Computing and Communications</i>
             </li>
-            <li>[arXiv'24] <b>Language-centered Human Activity Recognition</b>
-                <br>Hua Yan, Heng Tan, <b>Yi Ding</b>, Pengfei Zhou, Vinod Namboodiri, Yu Yang
-                <br>[<a href="https://arxiv.org/pdf/2410.00003">PDF</a>]</li>
             <li><span style="color:DarkGreen">[IMWUT/UbiComp'24]</span> <b>CrossHAR: Generalizing Cross-dataset Human Activity Recognition via Hierarchical Self-Supervised Pretraining</b>
                 <br>Zhiqing Hong, Zelong Li, Shuxin Zhong, Wenjun Lyu, Haotian Wang, <b>Yi Ding</b>, Tian He, Desheng Zhang
                 <br><i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</i>
