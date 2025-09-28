@@ -139,13 +139,13 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 8: Federated Learning & Mobile Systems</summary>
+<summary>Topic 8: Learning: Federated Learning & Mobile Systems</summary>
 
 
 </details>
 
 <details markdown=block>
-<summary>Topic 9: Foundation Models for Sensing & Mobile AI</summary>
+<summary>Topic 9: Learning: Foundation Models for Sensing & Mobile AI</summary>
 
 
 </details>
