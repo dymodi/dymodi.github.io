@@ -33,8 +33,8 @@ In this course, we explore how **sensing technologies, machine learning techniqu
 
 Students are expected to:
 
-(i) read and present research papers from top-tier conferences (e.g., MobiCom, SenSys, UbiComp, NeurIPS), </br>
-(ii) participate actively in in-class discussions and invited talks from academia and industry, and </br>
+(i) read and present research papers from top-tier conferences (e.g., MobiCom, SenSys, UbiComp, NeurIPS), <br>
+(ii) participate actively in in-class discussions and invited talks from academia and industry, and <br>
 (iii) design, implement, and present a **final project** that explores new ideas in mobile sensing and machine learning.
 
 
