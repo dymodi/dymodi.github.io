@@ -21,6 +21,8 @@ date: Sep. 1, 2025
 
 **Location**: CR 1.202
 
+**[Syllabus](https://dox.utdallas.edu/syl156169)**
+
 
 
 ## Course Description
@@ -31,10 +33,8 @@ In this course, we explore how **sensing technologies, machine learning techniqu
 
 Students are expected to:
 
-(i) read and present research papers from top-tier conferences (e.g., MobiCom, SenSys, UbiComp, NeurIPS),
-
-(ii) participate actively in in-class discussions and invited talks from academia and industry, and
-
+(i) read and present research papers from top-tier conferences (e.g., MobiCom, SenSys, UbiComp, NeurIPS), </br>
+(ii) participate actively in in-class discussions and invited talks from academia and industry, and </br>
 (iii) design, implement, and present a **final project** that explores new ideas in mobile sensing and machine learning.
 
 
@@ -120,10 +120,43 @@ No books are required. All the materials will be online.
 
 <details markdown=block>
 <summary>Topic 5: Sensing: Multi-Modality</summary>
+
 * Topic5-Paper1 [Liu, Yang, et al. "SPATIUM: A Context-Aware Machine Learning Framework for Immersive Spatiotemporal Health Understanding." *Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3711875.3736686)
 
 
 </details>
+
+<details markdown=block>
+<summary>Topic 6: Learning: Mobile AI Efficiency </summary>
+
+
+</details>
+
+<details markdown=block>
+<summary>Topic 7: Learning: On-Device Learning & Model Compression</summary>
+
+
+</details>
+
+<details markdown=block>
+<summary>Topic 8: Federated Learning & Mobile Systems</summary>
+
+
+</details>
+
+<details markdown=block>
+<summary>Topic 9: Foundation Models for Sensing & Mobile AI</summary>
+
+
+</details>
+
+<details markdown=block>
+<summary>Topic 10: Mobile AI Applications</summary>
+
+
+</details>
+
+
 
 <br>
 
