@@ -122,6 +122,11 @@ No books are required. All the materials will be online.
 <summary>Topic 5: Sensing: Multi-Modality</summary>
 
 * Topic5-Paper1 [Liu, Yang, et al. "SPATIUM: A Context-Aware Machine Learning Framework for Immersive Spatiotemporal Health Understanding." *Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3711875.3736686)
+* Topic5-Paper2 [Dai, Shenghong, et al. "Babel: A scalable pre-trained model for multi-modal sensing via expandable modality alignment." *Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3715014.3722068)
+* Topic5-Paper3 [Liu, Kaiwei, et al. "TaskSense: A Translation-like Approach for Tasking Heterogeneous Sensor Systems with LLMs." *Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3715014.3722070)
+* Topic-Paper4 [Post, Kevin, et al. "Contextllm: Meaningful context reasoning from multi-sensor and multi-device data using llms." *Proceedings of the 26th International Workshop on Mobile Computing Systems and Applications.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3708468.3711892)
+* Topic-Paper5 [Liu, Yimeng, et al. "Hydra: Accurate multi-modal leaf wetness sensing with mm-wave and camera fusion." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690662)
+* Topic-Paper6 [Ouyang, Xiaomin, et al. "ADMarker: A Multi-Modal Federated Learning System for Monitoring Digital Biomarkers of Alzheimer's Disease." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3649370)
 
 
 </details>
