@@ -169,6 +169,9 @@ No books are required. All the materials will be online.
 
 * Sep. 8, 2025, [Zhiqing Hong (Rutgers, UB Berkeley)](http://www.zhiqinghong.one/): [Understanding Human Behavior with IMU Sensing & Wearable AI](https://utdallas.box.com/s/gukytibeuw460xdomgo9xxnzhvfchat1)
 
+* Sep. 29, 2025, [Anlan Yu (Peking University)](https://scholar.google.com/citations?user=fOopY70AAAAJ&hl=en&oi=sra): [FineSat: Enhancing GNSS Signals for High-precision Sensing](https://utdallas.box.com/s/qraz21hsfh9qayc2ceg6r3dcg360yxqg)
+
+
 
 
 
