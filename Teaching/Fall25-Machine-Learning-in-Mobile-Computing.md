@@ -134,6 +134,13 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>Topic 6: Learning: Mobile AI Efficiency </summary>
 
+* Topic6-Paper1 [Team, Gemma, et al. "Gemma 2: Improving open language models at a practical size." *arXiv preprint arXiv:2408.00118* (2024).](https://arxiv.org/pdf/2408.00118)
+* Topic6-Paper2 [Gu, Yuxian, et al. "MiniLLM: Knowledge Distillation of Large Language Models." *ICLR.* 2024.](https://arxiv.org/pdf/2306.08543)
+* Topic6-Paper3 [Lin, Ji, et al. "AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration." MLSys. 2024.](https://arxiv.org/pdf/2306.00978)
+* Topic6-Paper4 [Arora, Daman, and Andrea Zanette. "Training language models to reason efficiently." arXiv preprint arXiv:2502.04463 (2025).](https://arxiv.org/pdf/2502.04463)
+
+
+
 
 </details>
 
