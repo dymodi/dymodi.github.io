@@ -68,7 +68,7 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>Topic 1: Sensing: Wi-Fi & Bluetooth (09/22)</summary>
+<summary>Topic 1: Sensing: Wi-Fi & Bluetooth (9/22)</summary>
 
 * Topic1-Paper1 [Ding, Jian, et al. "Cost-effective soil carbon sensing with wi-fi and optical signals." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690675)
 * Topic1-Paper2 [Li, Chenning, et al. "Wi-fi see it all: generative adversarial network-augmented versatile wi-fi imaging." *Proceedings of the 18th Conference on Embedded Networked Sensor Systems*. 2020.](https://dl.acm.org/doi/pdf/10.1145/3384419.3430725?casa_token=b7ochCDSOyQAAAAA:veLiQNzzpNOi-Zrl4r7N7kmYH8m6TFzF95gDVFpNf4aYTdevHy6nqKm8t-5e2K0s5imfX6PECEO4LA)
@@ -81,7 +81,7 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>Topic 2: Sensing: Motion & Environmental Sensors (IMU, Biochemical, etc.) (09/03, 09/10)</summary>
+<summary>Topic 2: Sensing: Motion & Environmental Sensors (IMU, Biochemical, etc.) (9/3, 9/10)</summary>
 
 * Topic2-Paper1 [Xu, Huatao, et al. "Practically adopting human activity recognition." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dapowan.github.io/files/UniHAR.pdf)
 * Topic2-Paper2 [Brooks, Jas, and Pedro Lopes. "Smell & paste: Low-fidelity prototyping for olfactory experiences." *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3544548.3580680)
@@ -93,7 +93,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 3: Sensing: Acoustic & Vision (09/24, 09/29)</summary>
+<summary>Topic 3: Sensing: Acoustic & Vision (9/24, 10/1)</summary>
 
 * Topic3-Paper1 [Liang, Xiaoxuan, et al. "Sondar: Size and shape measurements using acoustic imaging." *Proceedings of the Twenty-fifth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3641512.3686359)
 * Topic3-Paper2 [Cao, Shirui, et al. "Powerphone: Unleashing the acoustic sensing capability of smartphones." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3613270?casa_token=DGY_i9RKDbMAAAAA:6Ij6-maaT-kMcZIuBY134Im8wjqZ8RYWx_Vt9wJv91QzIZgycswb4bezhJZMH31KdoHKAiX3IS4tCA)
@@ -106,7 +106,7 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>Topic 4: Sensing: GPS & Satellite (09/29, )</summary>
+<summary>Topic 4: Sensing: GPS & Satellite (10/6, 10/8, 10/13)</summary>
 
 * Topic4-Paper1 [Rathi, Raghav, and Zhenghao Zhang. "StarAngle: User Orientation Sensing with Beacon Phase Measurements of Multiple Starlink Satellites." *Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems.* 2024.](https://utdallas.box.com/s/61lyegqigghzyzwlin2hj73vku5qtx4l)
 * Topic4-Paper2 [Wang, Yunfan, et al. "Global localization of energy-constrained miniature rf emitters using low earth orbit satellites." *Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems.* 2023.](https://utdallas.box.com/s/tpg8lqna3x4srgq1smp3gk8e5ahgxlwt)
@@ -119,7 +119,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 5: Sensing: Multi-Modality</summary>
+<summary>Topic 5: Sensing: Multi-Modality (10/15, 10/27)</summary>
 
 * Topic5-Paper1 [Liu, Yang, et al. "SPATIUM: A Context-Aware Machine Learning Framework for Immersive Spatiotemporal Health Understanding." *Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3711875.3736686)
 * Topic5-Paper2 [Dai, Shenghong, et al. "Babel: A scalable pre-trained model for multi-modal sensing via expandable modality alignment." *Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3715014.3722068)
@@ -132,7 +132,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 6: Learning: Mobile AI Efficiency </summary>
+<summary>Topic 6: Learning: Mobile AI Efficiency (10/29, 11/3)</summary>
 
 * Topic6-Paper1 [Team, Gemma, et al. "Gemma 2: Improving open language models at a practical size." *arXiv preprint arXiv:2408.00118* (2024).](https://arxiv.org/pdf/2408.00118)
 * Topic6-Paper2 [Gu, Yuxian, et al. "MiniLLM: Knowledge Distillation of Large Language Models." *ICLR.* 2024.](https://arxiv.org/pdf/2306.08543)
