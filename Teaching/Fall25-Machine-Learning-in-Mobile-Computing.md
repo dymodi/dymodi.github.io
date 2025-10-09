@@ -136,10 +136,11 @@ No books are required. All the materials will be online.
 
 * Topic6-Paper1 [Team, Gemma, et al. "Gemma 2: Improving open language models at a practical size." *arXiv preprint arXiv:2408.00118* (2024).](https://arxiv.org/pdf/2408.00118)
 * Topic6-Paper2 [Gu, Yuxian, et al. "MiniLLM: Knowledge Distillation of Large Language Models." *ICLR.* 2024.](https://arxiv.org/pdf/2306.08543)
-* Topic6-Paper3 [Lin, Ji, et al. "AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration." MLSys. 2024.](https://arxiv.org/pdf/2306.00978)
-* Topic6-Paper4 [Arora, Daman, and Andrea Zanette. "Training language models to reason efficiently." arXiv preprint arXiv:2502.04463 (2025).](https://arxiv.org/pdf/2502.04463)
-
-
+* Topic6-Paper3 [Lin, Ji, et al. "AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration." *MLSys.* 2024.](https://arxiv.org/pdf/2306.00978)
+* Topic6-Paper4 [Arora, Daman, and Andrea Zanette. "Training language models to reason efficiently." *arXiv preprint arXiv:2502.04463* (2025).](https://arxiv.org/pdf/2502.04463)
+* Topic6-Paper5 [Rastikerdar, Mohammad Mehdi, et al. "Cactus: Dynamically switchable context-aware micro-classifiers for efficient iot inference." *Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3643832.3661888)
+* Topic6-Paper6 [Hojjat, Ali, et al. "Limitnet: Progressive, content-aware image offloading for extremely weak devices & networks." *Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services.* 2024.](https://arxiv.org/pdf/2504.13736)
+* Topic6-Paper7 [Frantar, Elias, et al. "Gptq: Accurate post-training quantization for generative pre-trained transformers." *arXiv preprint arXiv:2210.17323 (2022).*](https://arxiv.org/pdf/2210.17323)
 
 
 </details>
