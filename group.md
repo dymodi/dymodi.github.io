@@ -10,17 +10,19 @@ date: 15/11/2024
 ### Ph.D.
 
 * [Ziqi Liu](https://scholar.google.com/citations?user=Lk6WrzsAAAAJ), 2024 Fall -
-* [Xiao Yan](https://www.linkedin.com/in/xiao-yan-4b81651a3/), 2024 Fall -
+* [Xiao Yan](https://scholar.google.com/citations?user=j57Xhf4AAAAJ&hl=en), 2024 Fall -
 * Tianyu Fang, 2025 Fall - 
 * Tong Liu (Visiting from 24 to 25)
 
-
 ### Master
 
-* [Pei Zeng](https://www.linkedin.com/in/pei-zeng/) (LexisNexis, Research Intern, 24 - 25)
+* [Pei Zeng](https://scholar.google.com/citations?user=hJiq7EYAAAAJ) (LexisNexis, Research Intern, 24 - 25)
 * Jing Yang (KTH, Research Intern 25)
 * Xiaodan Huo (BU, Research Intern 25)
+* Chitsein Alexander Dixon Htun (UTD URAP, Summer 25)
 * Yutong Lin (Research Intern 25)
+* Yuting Xiao (Purdue, Incoming M.S. in Spring 26)
+* Jiachen Zhong (UW, Research Intern 25)
 
 ### Undergraduate
 * Anindo Majumdar (UTD, Fall 24, Spring 25)
@@ -30,7 +32,6 @@ date: 15/11/2024
 * Khoa A Tran (UTD RIDE, Fall 25)
 * Rishi Simhadri (UTD RIDE, Fall 25)
 * Lucky Srini (UTD RIDE, Fall 25)
-* Chitsein Alexander Dixon Htun (UTD URAP, Summer 25)
 
 ### High School Students
 * Aditi Chhawacharia (Summer 25, Walnut Grove High School, Prosper, Texas)
