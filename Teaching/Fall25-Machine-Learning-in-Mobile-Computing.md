@@ -23,6 +23,10 @@ date: Sep. 1, 2025
 
 **[Syllabus](https://dox.utdallas.edu/syl156169)**
 
+**[Project](https://yi-ding.me/assets/files/Teaching/ML-in-Mobile-Computing-Project.pdf).**
+
+**[Assignment](https://yi-ding.me/assets/files/Teaching/ML-in-Mobile-Computing-Assignment.pdf).**
+
 
 
 ## Course Description
