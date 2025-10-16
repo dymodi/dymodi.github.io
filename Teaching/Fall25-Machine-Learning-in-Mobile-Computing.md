@@ -183,6 +183,8 @@ No books are required. All the materials will be online.
 
 * Sep. 29, 2025, [Anlan Yu (Peking University)](https://scholar.google.com/citations?user=fOopY70AAAAJ&hl=en&oi=sra): [FineSat: Enhancing GNSS Signals for High-precision Sensing](https://utdallas.box.com/s/qraz21hsfh9qayc2ceg6r3dcg360yxqg)
 
+* Oct. 15, 2025, Jing Yang (KTH): [Literature Survey of Mobile AI Efficiency](https://utdallas.box.com/s/pneo9xw27q87uwo5ylzwbqqsqy0c71s5)
+
 
 
 
