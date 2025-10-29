@@ -166,6 +166,14 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>Topic 8: Learning: Federated Learning & Mobile Systems</summary>
 
+* Topic8-Paper1 [Chen, Rui, et al. "EEFL: High-speed wireless communications inspired energy efficient federated learning over mobile devices." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3581791.3596865)
+* Topic8-Paper2 [Ouyang, Xiaomin, et al. "Harmony: Heterogeneous multi-modal federated learning through disentangled model training." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services.* 2023.](https://xmouyang.github.io/assets/pdf/Harmony_MobiSys23_publish.pdf)
+* Topic8-Paper3 [Tabatabaie, Mahan, and Suining He. "Naturalistic e-scooter maneuver recognition with federated contrastive rider interaction learning." *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 6.4* (2023): 1-27.](https://u2clabuconn.github.io/publications/2023/Conference/mahan_ubicomp_2023_nr.pdf)
+* Topic8-Paper4 [TBistritz, Ilai, Ariana Mann, and Nicholas Bambos. "Distributed distillation for on-device learning." *Advances in Neural Information Processing Systems 33* (2020): 22593-22604.](https://proceedings.neurips.cc/paper/2020/file/fef6f971605336724b5e6c0c12dc2534-Paper.pdf)
+* Topic8-Paper5 [Shin, Jaemin, et al. "Fedbalancer: Data and pace control for efficient federated learning on heterogeneous clients." *Proceedings of the 20th Annual International Conference on Mobile Systems, Applications and Services.* 2022.](https://dl.acm.org/doi/pdf/10.1145/3498361.3538917f)
+* Topic8-Paper6 [Lin, Shouxu, et al. "FLAMMABLE: A Multi-Model Federated Learning Framework with Multi-Model Engagement and Adaptive Batch Sizes." *arXiv preprint arXiv:2510.10380*(2025).](https://arxiv.org/pdf/2510.10380)
+* Topic8-Paper7 [Zhang, Yuwei, Tong Xia, and Cecilia Mascolo. "FedEE: Uncertainty-Aware Personalized Federated Learning for Realistic Healthcare Applications." (2024).](https://mobile-systems.cl.cam.ac.uk/papers/ML4H_FedEE.pdf)
+
 
 </details>
 
