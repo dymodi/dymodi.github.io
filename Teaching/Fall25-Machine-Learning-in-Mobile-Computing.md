@@ -152,6 +152,14 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>Topic 7: Learning: On-Device Learning & Model Compression</summary>
 
+* Topic7-Paper1 [Jabbour, Jason, et al. "Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered." *arXiv preprint arXiv:2510.08464* (2025).](https://arxiv.org/pdf/2510.08464)
+* Topic7-Paper2 [Chen, Junyu, et al. "Deep compression autoencoder for efficient high-resolution diffusion models." *arXiv preprint arXiv:2410.10733* (2024).](https://arxiv.org/pdf/2410.10733)
+* Topic7-Paper3 [Wang, Lehao, et al. "AdaEvo: Edge-assisted continuous and timely DNN model evolution for mobile devices." *IEEE Transactions on Mobile Computing* (2023).](https://arxiv.org/pdf/2309.15500)
+* Topic7-Paper4 [Famá, Fernanda, et al. "Contrastive Self-Supervised Learning at the Edge: An Energy Perspective." *arXiv preprint arXiv:2510.08374* (2025).](https://arxiv.org/pdf/2510.08374)
+* Topic7-Paper5 [Liu, Renyuan, et al. "DAF: An Efficient End-to-End Dynamic Activation Framework for on-Device DNN Training." *Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services.* 2025.](https://arxiv.org/pdf/2507.07149)
+* Topic7-Paper6 [Misra, Ashitabh, Nurani Saoda, and Tarek Abdelzaher. "Latency-constrained input-aware quantization of time series inference workflows at the edge." *IEEE INFOCOM 2025-IEEE Conference on Computer Communications. IEEE,* 2025.](https://utdallas.box.com/s/2apndagley8c83tbp0inq4vffs3t98tr)
+
+
 
 </details>
 
