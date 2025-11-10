@@ -136,7 +136,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 6: Learning: Mobile AI Efficiency (10/29, 11/3)</summary>
+<summary>Topic 6: Learning: Mobile AI Efficiency (10/29, 11/5)</summary>
 
 * Topic6-Paper1 [Team, Gemma, et al. "Gemma 2: Improving open language models at a practical size." *arXiv preprint arXiv:2408.00118* (2024).](https://arxiv.org/pdf/2408.00118)
 * Topic6-Paper2 [Gu, Yuxian, et al. "MiniLLM: Knowledge Distillation of Large Language Models." *ICLR.* 2024.](https://arxiv.org/pdf/2306.08543)
@@ -150,7 +150,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 7: Learning: On-Device Learning & Model Compression</summary>
+<summary>Topic 7: Learning: On-Device Learning & Model Compression (11/10, 11/12)</summary>
 
 * Topic7-Paper1 [Jabbour, Jason, et al. "Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered." *arXiv preprint arXiv:2510.08464* (2025).](https://arxiv.org/pdf/2510.08464)
 * Topic7-Paper2 [Chen, Junyu, et al. "Deep compression autoencoder for efficient high-resolution diffusion models." *arXiv preprint arXiv:2410.10733* (2024).](https://arxiv.org/pdf/2410.10733)
@@ -164,7 +164,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 8: Learning: Federated Learning & Mobile Systems</summary>
+<summary>Topic 8: Learning: Federated Learning & Mobile Systems (11/12, 11/17)</summary>
 
 * Topic8-Paper1 [Chen, Rui, et al. "EEFL: High-speed wireless communications inspired energy efficient federated learning over mobile devices." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3581791.3596865)
 * Topic8-Paper2 [Ouyang, Xiaomin, et al. "Harmony: Heterogeneous multi-modal federated learning through disentangled model training." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services.* 2023.](https://xmouyang.github.io/assets/pdf/Harmony_MobiSys23_publish.pdf)
@@ -178,13 +178,22 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>Topic 9: Learning: Foundation Models for Sensing & Mobile AI</summary>
+<summary>Topic 9: Learning: Foundation Models for Sensing & Mobile AI (11/17, 11/19)</summary>
+
+* Topic9-Paper1 [Xu, Huatao, et al. "Penetrative ai: Making llms comprehend the physical world." *Proceedings of the 25th International Workshop on Mobile Computing Systems and Applications.* 2024.](https://dapowan.github.io/files/PenAI.pdf)
+* Topic9-Paper2 [Imran, Sheikh Asif, et al. "Llasa: Large multimodal agent for human activity analysis through wearable sensors." *arXiv preprint arXiv:2406.14498 3.4* (2024).](https://arxiv.org/pdf/2406.14498)
+* Topic9-Paper3 [Narayanswamy, Girish, et al. "Scaling wearable foundation models." *arXiv preprint arXiv:2410.13638* (2024).](https://arxiv.org/pdf/2410.13638)
+* Topic9-Paper4 [Quan, Pengrui, et al. "Sensorbench: Benchmarking llms in coding-based sensor processing." *Proceedings of the 26th International Workshop on Mobile Computing Systems and Applications.* 2025.](https://arxiv.org/pdf/2410.10741)
+* Topic9-Paper5 [Dong, Qifei, Xiangliang Chen, and Mahadev Satyanarayanan. "Creating edge ai from cloud-based llms." *Proceedings of the 25th International Workshop on Mobile Computing Systems and Applications.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3638550.3641126)
+* Topic9-Paper6 [Lloyd, Catherine, et al. "Stress-GPT: Stress detection with an EEG-based foundation model." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3698121)
+* Topic9-Paper7 [Yang, Bufang, et al. "Edgefm: Leveraging foundation model for open-set learning on the edge." *Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems.* 2023](https://dl.acm.org/doi/pdf/10.1145/3625687.3625793)
+* Topic9-Paper8 [Sayyid-Ali, Abdur-rahman Ibrahim, et al. "CheckMate: LLM-Powered Approximate Intermittent Computing." *Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3715014.3722056)
 
 
 </details>
 
 <details markdown=block>
-<summary>Topic 10: Mobile AI Applications</summary>
+<summary>Topic 10: Mobile AI Applications (11/19)</summary>
 
 
 </details>
