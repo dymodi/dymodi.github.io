@@ -219,7 +219,7 @@ No books are required. All the materials will be online.
 
 * Oct. 15, 2025, Jing Yang (KTH): [Literature Survey of Mobile AI Efficiency](https://utdallas.box.com/s/pneo9xw27q87uwo5ylzwbqqsqy0c71s5)
 
-
+* Nov. 10, 2025, Tong Liu (Central South Univeristy): [Advancing FL in Mobile Computing - From Foundations to Our Recent Work](https://utdallas.box.com/s/1amh73qdtob2vbsi4hzngb2ker15ij7v)
 
 
 
