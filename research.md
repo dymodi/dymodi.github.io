@@ -19,13 +19,14 @@ alt="Research Vision">
 My research interests lie at the intersection of  **mobile computing**, **wireless sensing**, and **machine learning**. I focus on building **perceptive mobile AI** <u>systems</u> that can sense and understand *physical environment* and *human behavior*, enabling intelligent and context-aware <u>applications</u>.
 
 
-#### MobileLLM Efficiency, A Cross-Platform Measurement Study for Mobile Sensing Applications [FmSys'25]
+#### A Cross-Platform Measurement Study for Mobile LLM Efficiency on Sensing Tasks [FmSys'25]
 <p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
 	<img src="/assets/images/Research/fmsys.png" alt="FmSys Results" style="float: left; width: 20em;">
 </p>
-<p>We conduct a comprehensive measurement study of LLM deployments across mobile, edge, and cloud platforms using a lightweight sensing application. We evaluate latency, memory, and output quality across model sizes and quantization levels. Our findings reveal the strict deployability limits of on-device LLMs (≤4B), the risks of model compression, and the signi</p> 
+<p>We conduct a comprehensive measurement study of LLM deployments across mobile, edge, and cloud platforms using a lightweight sensing application. We evaluate latency, memory, and output quality across model sizes and quantization levels. Our findings reveal the strict deployability limits of on-device LLMs (≤4B), the risks of model compression, and the significant latency gap between mobile (>30s) and cloud (<10s), providing practical insights for designing future mobile foundation model systems.</p> 
 
-ficant latency gap between mobile (>30s) and cloud (<10s), providing practical insights for designing future mobile foundation model systems.
+
+<p class="clear"> </p>
 
 #### P2Loc, A Person-2-Person Indoor Localization System [UbiComp'22]
 <p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
