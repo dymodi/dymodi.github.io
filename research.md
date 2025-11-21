@@ -18,7 +18,7 @@ alt="Research Vision">
 
 My research interests lie at the intersection of  **mobile computing**, **wireless sensing**, and **machine learning**. I focus on building **perceptive mobile AI** <u>systems</u> that can sense and understand *physical environment* and *human behavior*, enabling intelligent and context-aware <u>applications</u>.
 
-For UTD undegraduate and master student, a list of approachable research topics can be found here: [Approachable Tasks for SeniorUndergraduate Students andMaster Students](https://utdallas.box.com/s/1mf2iebmor6v7zofnoin2phnrdi8wlsj)
+For UTD undegraduate and master student, a list of approachable research topics can be found here: [Approachable Tasks for Senior Undergraduate Students and Master Students](https://utdallas.box.com/s/1mf2iebmor6v7zofnoin2phnrdi8wlsj)
 
 #### A Cross-Platform Measurement Study for Mobile LLM Efficiency on Sensing Tasks [FmSys'25]
 <p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
