@@ -23,7 +23,8 @@ My research interests lie at the intersection of  **mobile computing**, **wirele
 <p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
 	<img src="/assets/images/Research/fmsys.png" alt="FmSys Results" style="float: left; width: 20em;">
 </p>
-<p>We conduct a comprehensive measurement study of LLM deployments across mobile, edge, and cloud platforms using a lightweight sensing application. We evaluate latency, memory, and output quality across model sizes and quantization levels. Our findings reveal the strict deployability limits of on-device LLMs (≤4B), the risks of model compression, and the significant latency gap between mobile (>30s) and cloud (<10s), providing practical insights for designing future mobile foundation model systems.</p> 
+<p>We conduct a comprehensive measurement study of LLM deployments across mobile, edge, and cloud platforms using a lightweight sensing application. We evaluate latency, memory, and output quality across model sizes and quantization levels. </p>
+<p>Our findings reveal the strict deployability limits of on-device LLMs (≤4B), the risks of model compression, and the significant latency gap between mobile (>30s) and cloud (<10s), providing practical insights for designing future mobile foundation model systems.</p> 
 
 
 [[PDF](https://dl.acm.org/doi/pdf/10.1145/3722565.3727192)]
