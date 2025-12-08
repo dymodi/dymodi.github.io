@@ -52,6 +52,7 @@ classes: wide
 
 ### 3. Study and Design
 
+* Find one or two most closely related papers, and implmente the ideas. It may appear as the preliminary experiment in the paper. Conducting some pre-experiments can help you (1) find the potential gap in the problem/direction; (2) familiarzie with the skill sets needed (e.g., fine-tuning); (3) reveal the potential technical challenges (e.g., computational resource contraints, latency contraints). 
 * Prepare data to have a whole image of the data and problem.
 * Find well-known methods in the field as baselines.
 * For each related topic, prepare a survey to learn about this field and prepare the Related Works of the paper.
