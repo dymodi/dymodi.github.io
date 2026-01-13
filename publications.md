@@ -97,6 +97,10 @@ classes: wide
         <h2>Spatial-Temporal / Mobile Data Mining</h2>
         <!-- List publications here -->
         <ul>
+            <li><span style="color:Goldenrod">[WWW'26]</span>  <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
+                <br>Ziqi Liu*, Pei Zeng*, <b>Yi Ding</b> 
+                <br>[<a href="https://arxiv.org/pdf/2506.00614">PDF</a>]
+            </li>
             <li><span style="color:SteelBlue">[TMC'25]</span> <b>Exploring Cellular User Re-Identification Risks with Networking Behaviors Analysis and Modeling</b>
                 <br>Sijing Duan, Feng Lyu, Shanshan Wang, <b>Yi Ding</b>, Xiaohao He, Yaoxue Zhang
                 <br><i>IEEE Transactions on Mobile Computing, 2025</i>
@@ -104,11 +108,7 @@ classes: wide
             <li><span style="color:DarkBlue">[CIKM'25]</span> <b>Fraudulent Delivery Detection with Multimodal Courier Behavior Data in Last-Mile Delivery</b>
                 <br>Shanshan Wang*, Sijing Duan, Shuxin Zhong, Zhiqing Hong, Zhiyuan Zhou, Hongyu Lin, Weijian Zuo, Desheng Zhang, <b>Yi Ding</b>
                 <br><i>34rd ACM International Conference on Information and Knowledge Management</i>
-            </li>
-            <li>[arXiv'25] <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
-                <br>Ziqi Liu*, Pei Zeng*, <b>Yi Ding</b> 
-                <br>[<a href="https://arxiv.org/pdf/2506.00614">PDF</a>]
-            </li>                
+            </li>            
             <li><span style="color:Navy">[KDD'25]</span>  <b>LLM4HAR: Generalizable On-device Human Activity Recognition with Pretrained LLMs</b>
                 <br>Zhiqing Hong, Yiwei Song, Zelong Li, Anlan Yu, Shuxin Zhong, <b>Yi Ding</b>, Tian He, Desheng Zhang 
                 <br><i>Proceedings of the 31th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</i>

@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Jan. 2026: PhD student Ziqi Liu's Paper on time series data compression accepted by ACM WWW 2026 (the Web Conference).
 * Sep. 2025: Paper on LLM for human activity recognition accepted by ACM IMWUT.
 * Sep. 2025: Paper on cellular data analysis accepted by IEEE TMC.
 * Aug. 2025: Paper on human behavior sensing accepted by ACM CIKM.
@@ -30,16 +31,17 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Apr. 2025: Attend the CCC Computational and Citizen Science Research Workshop in DC. 
 * Mar. 2025: Workshop paper on measurement study of LLM on mobile devices accepted by FMSys'25.
 * Feb. 2025: Invited to join ACM IMWUT Editorial Board as Associate Editor (AE).
-* Jan. 2025: Paper accepted by ACM WWW (the Web Conference).
+* Jan. 2025: Paper accepted by ACM WWW 2025 (the Web Conference).
+
+<details markdown=block>
+<summary>More ...</summary>
+<br>
+
 * Dec. 2024: Paper on satellite-based sensing accepted by IEEE PerCom.
 * Nov. 2024: Serve as Track Chair for Cloud/Edge Applications Track at IEEE Cloud Summit 2025.
 * Nov. 2024: Serve as program committee for ACM MobiSys 2025.
 * Oct. 2024: Serve as a panelist at NSF.
 * Sep. 2024: Serve as program committee for AAAI-AISI 2025.
-<details markdown=block>
-<summary>More ...</summary>
-<br>
-
 * Aug. 2024: [Invited talk at the University of North Dakota](https://www.youtube.com/watch?v=x2pNiJgVdnQ)
 * July 2024: Paper on parking violation prediction accepted by ACM CIKM.
 * May 2024: Paper accepted by IEEE TKDE.
