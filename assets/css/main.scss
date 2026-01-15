@@ -29,10 +29,11 @@ html {
 
 
 /* style.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+/* 不建议全局改 body margin；如果只是某个页面需要，建议加一个 wrapper class 再限定 */
+.custom-layout {
+  font-family: Arial, sans-serif;
 }
+
 
 .container {
     display: flex;
@@ -51,13 +52,13 @@ h2 {
     margin-top: 0;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.container ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-li {
-    margin-bottom: 10px;
+.container li {
+  margin-bottom: 10px;
 }
 
 a {
@@ -68,3 +69,22 @@ a {
 a:hover {
     color: darkblue;
 }
+
+/* 恢复正文（Markdown）列表样式 */
+.page__content ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0 0 1em;
+}
+
+.page__content ul ul {
+  list-style: circle;
+  padding-left: 1.25rem;
+}
+
+.page__content ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+  margin: 0 0 1em;
+}
+
