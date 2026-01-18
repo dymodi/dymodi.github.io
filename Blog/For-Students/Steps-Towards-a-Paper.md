@@ -13,16 +13,21 @@ classes: wide
 ### 1. Come Up with An Idea
 
 * Shoot first, then make the target.
-  * Sometimes, we have a good problem and try to find a good solution to it. Sometimes, we have a good solution and we need to find a **good problem** for it. Or you can call it, make target after shooting.
-* The key information of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need to be able to deliver this simple but clear information.
-* Before talking to others, remember the following checklist:
-  * Have you found the key innovation of the project? Why others cannot solve but you can?
+  * Sometimes, we have a good problem and try to find a good solution to it. Sometimes we have a good solution and need to find a **good problem** for it. Or you can call it, make a target after shooting.
+  * The key information of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need to deliver this information in a simple yet clear way.
+* If you think you have found a good **goal/problem** to work on, review the goal/problem using the following questions before talking to others:
+  * Can I summarize the **goal** or **problem** in a sentence? (e.g., The goal is to run LLMs locally on wearable devices like a smartwatch. Or, the problem is that LLMs cannot be run locally on wearable devices.)
+  * Why is this goal/problem important? Why do the reviewers/readers/public care about it?
+  * If the work is indeed important, did I find some existing work for this problem? If yes, what are the limitations that make them fail for the problem (under certain scenarios)? If no, is this problem too difficult/easy, or is this an emerging problem that nobody has studied yet (e.g., face recognition with facial musk during COVID)? 
+  * When searching for related work, did I think about problems that are essentially the same/similar to my problem, but with a different name? (e.g., LLM compression may not be studied before 2021, but compression of deep learning models with transformer structures has been studied a lot).
+  * If existing work fails to solve the problem (under certain scenarios), why can I come up with a solution? What's the unique expertise/opportunities I (our group) have to propose the solution?
+  * If I propose a solution, how can I evaluate it? Are there benchmark/public dataset to test? Can I build test environment to do experiments?
+* If you think you have found a good **idea/observation** to work on, review the idea/observation using the following questions before talking to others:
   * It will be better if an idea comes with a special observation.
-  * Have you given thorough consideration and dug deep into the problem?
-  * You have seen a similar topic does not mean this idea would be appreciated. 
-  * The professor has a higher requirement: **top paper** but not normal paper.
   * Is this work a simple piling of two or more ideas?
-  * Is this topic already studied by others? Can you articulate your innovation?
+* Other comments/feedback I usually give to students:
+  * Try to come up new problems/goals instead of following others' problems/goals. In academia, new problems/goals are always more appreciated than new solutions for old problems/goals. 
+  * A work does not need to pass all the checks to become a paper, but meeting the requirements makes it more likely to be a **top paper**. Your career is decided by a small number of **top papers** instead of a large number of normal papers.
 * There are two types of problems for system paper.
   * Measurement and prediction (e.g., route prediction). It is easier to design and evaluation since you have the ground truth of results. While it may needs more effort to persuade the reviewers.
   * Inference (e.g., localization), where we do not have the ground truth, while we try to infer it from some data we have (GPS, timestamp). In the Evaluation section, we use another system (beacons) to show the performance of our design, and this "another system" is not aforementioned. The Design section and Evaluation must be isolated. (Keep in mind that the system in Design and Evaluation can be  exchanged)
@@ -91,3 +96,4 @@ Some rules on formatting should be followed:
 Created on: June 1, 2018
 
 Updated on: April 19, 2024
+
