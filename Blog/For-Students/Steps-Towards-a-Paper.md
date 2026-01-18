@@ -10,14 +10,11 @@ classes: wide
 
 
 
-### 1. Come up with the Idea
+### 1. Come Up with An Idea
 
 * Shoot first, then make the target.
   * Sometimes, we have a good problem and try to find a good solution to it. Sometimes, we have a good solution and we need to find a **good problem** for it. Or you can call it, make target after shooting.
 * The key information of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need to be able to deliver this simple but clear information.
-* There are two types of problems for system paper.
-  * Measurement and prediction (e.g., route prediction). It is easier to design and evaluation since you have the ground truth of results. While it may needs more effort to persuade the reviewers.
-  * Inference (e.g., localization), where we do not have the ground truth, while we try to infer it from some data we have (GPS, timestamp). In the Evaluation section, we use another system (beacons) to show the performance of our design, and this "another system" is not aforementioned. The Design section and Evaluation must be isolated. (Keep in mind that the system in Design and Evaluation can be  exchanged)
 * Before talking to others, remember the following checklist:
   * Have you found the key innovation of the project? Why others cannot solve but you can?
   * It will be better if an idea comes with a special observation.
@@ -26,6 +23,9 @@ classes: wide
   * The professor has a higher requirement: **top paper** but not normal paper.
   * Is this work a simple piling of two or more ideas?
   * Is this topic already studied by others? Can you articulate your innovation?
+* There are two types of problems for system paper.
+  * Measurement and prediction (e.g., route prediction). It is easier to design and evaluation since you have the ground truth of results. While it may needs more effort to persuade the reviewers.
+  * Inference (e.g., localization), where we do not have the ground truth, while we try to infer it from some data we have (GPS, timestamp). In the Evaluation section, we use another system (beacons) to show the performance of our design, and this "another system" is not aforementioned. The Design section and Evaluation must be isolated. (Keep in mind that the system in Design and Evaluation can be  exchanged)
 
 ### 2. Discuss with Your Professor
 
