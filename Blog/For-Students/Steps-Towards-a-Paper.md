@@ -41,7 +41,7 @@ classes: wide
   * The experiments and evaluations you did can be only a subset or a special case of your scope. For example, we test a dispatching algorithm on a grid in the urban delivery platform. -->
 <!-- * Innovation
   * Instead of listing several innovations, it will be better to articulate one major difference or innovation. -->
-* Utilize the discussion time with your professor **wisely** and **efficiently**. In addition learning what your professor told you, also try to learn how he/she comes up with the question/ideas and how the question/idea is communicated.
+* Utilize the discussion time with your professor **wisely** and **efficiently**. In addition learning what your professor told you, also try to learn how your professor comes up with the question/ideas and how the question/idea is communicated.
 * Find a good timing to discuss the problem/idea with your professor. Bringing the problem/idea up too early without a thorough review of the questions above may end up with your idea challenged easily by your professor. It's a waste of time for both of you. Bringing the idea up too late after you've done a lot of literature review and experiments may end up with your problem/idea (1) not aligned with the group's goal/expertise (2) has some inherent limitations that you didn't realizem, which means the weeks you've spent on the literature review and experiments are wasted. A good timing is that you have *briefly* reviewed the problem/idea with some *quick* literature review and experiments.
 * Prepare for the meetings with your professor carefully. Prepare a Google doc and with a brief description of your problem/idea/progress and share it with your professor **the day before the meeting**.
 * Check your Google Doc with the following questions:
@@ -56,6 +56,7 @@ classes: wide
 ### 3. Study and Design
 
 * How to do literature review? 
+  * A detailed guide can be find here: [How to do a Literature Survey](https://yi-ding.me/assets/files/Literature-Survey-2025.pdf).
   * For each related topic, prepare a survey to learn about this field and prepare the Related Works of the paper.
 * How to do prelimanry experiments?
   * Prepare data to have a whole image of the data and problem.
@@ -64,8 +65,6 @@ classes: wide
   * The problems discussed in the challenge section must be solved.
   * If there is an opportunity mentioned, it must be utilized in the design/solution.
   * The key point of the design/solution must correspond to the key points in the motivation section.
-  <!-- * Sometimes, we can prepare the raw data first, uncover the pattern in the raw data, and find the corresponding solution.
-  * Another advantage of preparing data first is that we can immediately try our new idea on the data if we have new thoughts. -->
   * Instead of manipulating a very complex method with many components and parameters, it will be better to design a simple system with one major innovative part and show that it works.
   * Instead of coming up with brand-new solutions, it will be better to import and build upon existing solutions.
 * Sometimes, we may have an **Advanced Design** in addition to the main design, where we can discover and solve an advanced problem by removing the some assumptions.
