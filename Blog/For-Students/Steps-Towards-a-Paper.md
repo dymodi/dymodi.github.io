@@ -10,57 +10,69 @@ classes: wide
 
 
 
-### 1. Come Up with An Idea
+### 1. Find and Self-Review an Problem/Idea
 
-* Shoot first, then make the target.
-  * Sometimes, we have a good problem and try to find a good solution to it. Sometimes we have a good solution and need to find a **good problem** for it. Or you can call it, make a target after shooting.
-  * The key information of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need to deliver this information in a simple yet clear way.
-* If you think you have found a good **goal/problem** to work on, review the goal/problem using the following questions before talking to others:
-  * Can I summarize the **goal** or **problem** in a sentence? (e.g., The goal is to run LLMs locally on wearable devices like a smartwatch. Or, the problem is that LLMs cannot be run locally on wearable devices.)
-  * Why is this goal/problem important? Why do the reviewers/readers/public care about it?
-  * If the work is indeed important, did I find some existing work for this problem? If yes, what are the limitations that make them fail for the problem (under certain scenarios)? If no, is this problem too difficult/easy, or is this an emerging problem that nobody has studied yet (e.g., face recognition with facial musk during COVID)? 
-  * When searching for related work, did I think about problems that are essentially the same/similar to my problem, but with a different name? (e.g., LLM compression may not be studied before 2021, but compression of deep learning models with transformer structures has been studied a lot).
-  * If existing work fails to solve the problem (under certain scenarios), why can I come up with a solution? What's the unique expertise/opportunities I (our group) have to propose the solution?
+* The key information of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need to deliver this 
+* Sometimes, we have a great **problem** and try to find a good *solution* for it. Sometimes we have a great **idea** and need to find a good *problem* for it.
+  information in a **simple** yet **clear** way.
+* The problems/ideas can be from many ways: the counter-intuition results from your last paper, the paper you read recently, discussions with your professor and other students, news, everyday events. For junior PhD students, master, and undergraduate students, the problems/ideas are usually provided by the professor.
+* If you think you have found a great **problem** to work on, review the problem using the following questions before talking to others:
+  * Can I summarize the **problem** in a sentence (e.g., LLMs cannot run locally on wearable devices.)?
+  * Why is this problem important? Why do the reviewers/readers/public care about it?
+  * If the problem is important, did I find some existing work for it? If yes, what are the limitations that make them fail for the problem (under certain scenarios) (preliminary experiments may be needed here)? If no, is this problem too difficult/easy, or is this an emerging problem that nobody has studied yet (e.g., face recognition with facial musk during COVID)? 
+  * When searching for related work, did I think about problems that are essentially the same/similar to my problem with a different name? (e.g., LLM compression may not be studied before 2021, but compression of deep learning models with transformer structures has been studied a lot).
+  * If existing work fail to solve the problem (under certain scenarios), why can I come up with a solution? What's the unique expertise/opportunities I (our group) have to propose a solution? 
+  * Can I find a angle to frame a **unique** (sub-)problem that can differentiate from existing work (e.g., LLM compression for sensor data)?
   * If I propose a solution, how can I evaluate it? Are there benchmark/public dataset to test? Can I build test environment to do experiments?
-* If you think you have found a good **idea/observation** to work on, review the idea/observation using the following questions before talking to others:
-  * It will be better if an idea comes with a special observation.
-  * Is this work a simple piling of two or more ideas?
+* If you think you have found a great **idea** to work on, review the idea using the following questions before talking to others:
+  * Where did I get this idea? Why others did not come up with it?
+  * Can I use a small example to illustrate the idea (preliminary experiments may be needed here)?
 * Other comments/feedback I usually give to students:
-  * Try to come up new problems/goals instead of following others' problems/goals. In academia, new problems/goals are always more appreciated than new solutions for old problems/goals. 
-  * A work does not need to pass all the checks to become a paper, but meeting the requirements makes it more likely to be a **top paper**. Your career is decided by a small number of **top papers** instead of a large number of normal papers.
-* There are two types of problems for system paper.
-  * Measurement and prediction (e.g., route prediction). It is easier to design and evaluation since you have the ground truth of results. While it may needs more effort to persuade the reviewers.
-  * Inference (e.g., localization), where we do not have the ground truth, while we try to infer it from some data we have (GPS, timestamp). In the Evaluation section, we use another system (beacons) to show the performance of our design, and this "another system" is not aforementioned. The Design section and Evaluation must be isolated. (Keep in mind that the system in Design and Evaluation can be  exchanged)
+  * Try to come up new problems instead of following others' problems. In academia, new problems are always more appreciated than new solutions for old problems. 
+  * A work does not need to pass all the checks to become a paper, but meeting as many requirements as possible makes it more likely to be a **top paper**. Your career is decided by a small number of **top papers** instead of a large number of normal papers.
+<!-- * There are two types of problems for system paper.
+  * Measurement/prediction (e.g., route prediction). It is easier to design and evaluation since you have the ground truth of results. While it may needs more effort to persuade the reviewers.
+  * Inference (e.g., localization), where we do not have the ground truth, while we try to infer it from some data we have (GPS, timestamp). In the Evaluation section, we use another system (beacons) to show the performance of our design, and this "another system" is not aforementioned. The Design section and Evaluation must be isolated. (Keep in mind that the system in Design and Evaluation can be  exchanged) -->
 
-### 2. Discuss with Your Professor
+### 2. Discuss with Your Professor and Fellow Students
 
-* Scope
+<!-- * Scope
   * The problem you want to solve and the solution you provide must be generic, e.g. instant delivery but not food delivery.
-  * The experiments and evaluations you did can be only a subset or a special case of your scope. For example, we test a dispatching algorithm on a grid in the urban delivery platform.
-* Innovation
-  * Instead of listing several innovations, it will be better to articulate one major difference or innovation.
-* Motivation
-  * Motivation must be shown with statistics and simple stories.
-* Solution
-  * The key point of solutions must correspond to the key points in the motivation section.
-  * The problems discussed in the challenge section must be solved.
-  * The golden key found in the opportunities section must be utilized in the solution.
-  * Sometimes, we can prepare the raw data first, uncover the pattern in the raw data, and find the corresponding solution.
-  * Another advantage of preparing data first is that we can immediately try our new idea on the data if we have new thoughts.
-  * Instead of manipulating a very complex method with many components and parameters, it will be better to design a simple system with one major innovative part and show that it works.
-  * Instead of coming up with brand-new solutions, it will be better to import existing solutions.
-* Advanced Design
-  - Discover and solve the advanced problem by removing the assumptions. For example, if we do not assume that riders are walking at a constant speed (1m/s) indoors, the problem will become more complex.
+  * The experiments and evaluations you did can be only a subset or a special case of your scope. For example, we test a dispatching algorithm on a grid in the urban delivery platform. -->
+<!-- * Innovation
+  * Instead of listing several innovations, it will be better to articulate one major difference or innovation. -->
+* Utilize the discussion time with your professor **wisely** and **efficiently**. In addition learning what your professor told you, also try to learn how he/she comes up with the question/ideas and how the question/idea is communicated.
+* Find a good timing to discuss the problem/idea with your professor. Bringing the problem/idea up too early without a thorough review of the questions above may end up with your idea challenged easily by your professor. It's a waste of time for both of you. Bringing the idea up too late after you've done a lot of literature review and experiments may end up with your problem/idea (1) not aligned with the group's goal/expertise (2) has some inherent limitations that you didn't realizem, which means the weeks you've spent on the literature review and experiments are wasted. A good timing is that you have *briefly* reviewed the problem/idea with some *quick* literature review and experiments.
+* Prepare for the meetings with your professor carefully. Prepare a Google doc and with a brief description of your problem/idea/progress and share it with your professor **the day before the meeting**.
+* Check your Google Doc with the following questions:
+  * Is the document self-explainable to general CS audience? Does it has all the background/references need to understand it?
+  * For each claim (especially important ones), did I have provide justification? For example, if I want to claim the importance of the problem or the limitation of a related work, how do I prove it? Can I use a preliminary experiment to Reference paper thas support the claim?  
+* Don't **overfit** to the comments provided by the professor. The professor may have random ideas/comments/feedback. You're the leader of the project, use your own judgement and critize the professor's comment. 
+* Talk to other members in the group about your problem/idea, even they are not working the same topic/direction. They can provide a fresh perspective for you to review and improve your problem/idea. 
 * Before the study, remember the following checklist:
-  * Make sure the professor accepts the whole project (motivation, problem, solution, advanced design, evaluation).
+  * Make sure the professor accepts the whole project (motivation, problem, solution, evaluation, etc.).
   * When discussing with the professor, remember to refer to the whole framework and the differences between the two versions of slides.
 
 ### 3. Study and Design
 
-* Find one or two most closely related papers, and implmente the ideas. It may appear as the preliminary experiment in the paper. Conducting some pre-experiments can help you (1) find the potential gap in the problem/direction; (2) familiarzie with the skill sets needed (e.g., fine-tuning); (3) reveal the potential technical challenges (e.g., computational resource contraints, latency contraints). 
-* Prepare data to have a whole image of the data and problem.
-* Find well-known methods in the field as baselines.
-* For each related topic, prepare a survey to learn about this field and prepare the Related Works of the paper.
+* How to do literature review? 
+  * For each related topic, prepare a survey to learn about this field and prepare the Related Works of the paper.
+* How to do prelimanry experiments?
+  * Prepare data to have a whole image of the data and problem.
+  * Find one or two most closely related papers, and implmente the ideas. It may appear as the preliminary experiment in the paper. Conducting some pre-experiments can help you (1) find the potential gap in the problem/direction; (2) familiarzie with the skill sets needed (e.g., fine-tuning); (3) reveal the potential technical challenges (e.g., computational resource contraints, latency contraints). 
+* Check list for your design/solution:
+  * The problems discussed in the challenge section must be solved.
+  * If there is an opportunity mentioned, it must be utilized in the design/solution.
+  * The key point of the design/solution must correspond to the key points in the motivation section.
+  <!-- * Sometimes, we can prepare the raw data first, uncover the pattern in the raw data, and find the corresponding solution.
+  * Another advantage of preparing data first is that we can immediately try our new idea on the data if we have new thoughts. -->
+  * Instead of manipulating a very complex method with many components and parameters, it will be better to design a simple system with one major innovative part and show that it works.
+  * Instead of coming up with brand-new solutions, it will be better to import and build upon existing solutions.
+* Sometimes, we may have an **Advanced Design** in addition to the main design, where we can discover and solve an advanced problem by removing the some assumptions.
+* Prepare for the evalution/experiments.
+  * Find some well-known solutions and some latest solutions in the field as baselines.
+
+Most of your PhD life is a cycle of "find problems/ideas", "study and design", "discussion".
 
 ### 4. Writing and Submission
 
