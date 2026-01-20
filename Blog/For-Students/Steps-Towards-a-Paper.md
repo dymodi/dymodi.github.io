@@ -12,15 +12,14 @@ classes: wide
 
 ### 1. Find and Self-Review an Problem/Idea
 
-* The key information of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need to deliver this 
+* The key information of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need to deliver this information in a **simple** yet **clear** way.
 * Sometimes, we have a great **problem** and try to find a good *solution* for it. Sometimes we have a great **idea** and need to find a good *problem* for it.
-  information in a **simple** yet **clear** way.
 * The problems/ideas can be from many ways: the counter-intuition results from your last paper, the paper you read recently, discussions with your professor and other students, news, everyday events. For junior PhD students, master, and undergraduate students, the problems/ideas are usually provided by the professor.
 * If you think you have found a great **problem** to work on, review the problem using the following questions before talking to others:
-  * Can I summarize the **problem** in a sentence (e.g., LLMs cannot run locally on wearable devices.)?
+  * Can I summarize the **problem** in a sentence (e.g., LLMs cannot run locally on wearable devices)?
   * Why is this problem important? Why do the reviewers/readers/public care about it?
   * If the problem is important, did I find some existing work for it? If yes, what are the limitations that make them fail for the problem (under certain scenarios) (preliminary experiments may be needed here)? If no, is this problem too difficult/easy, or is this an emerging problem that nobody has studied yet (e.g., face recognition with facial musk during COVID)? 
-  * When searching for related work, did I think about problems that are essentially the same/similar to my problem with a different name? (e.g., LLM compression may not be studied before 2021, but compression of deep learning models with transformer structures has been studied a lot).
+  * When searching for related work, did I think about problems that are essentially the same/similar to my problem with a different name (e.g., LLM compression may not be studied before 2021, but compression of deep learning models with transformer structures has been studied a lot)?
   * If existing work fail to solve the problem (under certain scenarios), why can I come up with a solution? What's the unique expertise/opportunities I (our group) have to propose a solution? 
   * Can I find a angle to frame a **unique** (sub-)problem that can differentiate from existing work (e.g., LLM compression for sensor data)?
   * If I propose a solution, how can I evaluate it? Are there benchmark/public dataset to test? Can I build test environment to do experiments?
@@ -30,9 +29,10 @@ classes: wide
 * Other comments/feedback I usually give to students:
   * Try to come up new problems instead of following others' problems. In academia, new problems are always more appreciated than new solutions for old problems. 
   * A work does not need to pass all the checks to become a paper, but meeting as many requirements as possible makes it more likely to be a **top paper**. Your career is decided by a small number of **top papers** instead of a large number of normal papers.
+
 <!-- * There are two types of problems for system paper.
-  * Measurement/prediction (e.g., route prediction). It is easier to design and evaluation since you have the ground truth of results. While it may needs more effort to persuade the reviewers.
-  * Inference (e.g., localization), where we do not have the ground truth, while we try to infer it from some data we have (GPS, timestamp). In the Evaluation section, we use another system (beacons) to show the performance of our design, and this "another system" is not aforementioned. The Design section and Evaluation must be isolated. (Keep in mind that the system in Design and Evaluation can be  exchanged) -->
+  * Measurement/prediction (e.g., route prediction). It is easier to design and evaluation since you have the ground truth of results. While it may needs more effort to persuade the reviewers. -->
+<!--   * Inference (e.g., localization), where we do not have the ground truth, while we try to infer it from some data we have (GPS, timestamp). In the Evaluation section, we use another system (beacons) to show the performance of our design, and this "another system" is not aforementioned. The Design section and Evaluation must be isolated. (Keep in mind that the system in Design and Evaluation can be  exchanged) -->
 
 ### 2. Discuss with Your Professor and Fellow Students
 
