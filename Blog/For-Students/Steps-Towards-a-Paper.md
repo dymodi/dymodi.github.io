@@ -10,10 +10,8 @@ classes: wide
 
 Yi Ding
 
-Created on: June 1, 2018
-
-Updated on: April 19, 2024
-
+Created on: June 1, 2018<br>
+Updated on: April 19, 2024<br>
 Major Revision on January 21, 2026
 
 
