@@ -91,7 +91,7 @@ Most of your PhD life is a cycle of "find problems/ideas", "study and design", "
 
 * The paper can be drafted based on the doc used for discussion with the professor. Specialized slides can be used to keep the main points of the paper. It will be better that Sections (even subsections and subsubsections) are designed clearly and carefully before starting to write.
 * Before starting to write each section (or subsection, paragraph), think about what core information (idea/viewpoint/observation/design/result) you want to present and whether there is enough context built up before. Missing parts should be filled, and things already said should not be repeated. Otherwise, the paper will be messy.
-* For System Paper writing, please find guides in this guidance: "[How to Write a System Paper](https://yi-ding.me/for-students/how-to-write-a-system-paper/)"
+* For System Paper writing, please read this guidance: "[How to Write a System Paper](https://yi-ding.me/for-students/how-to-write-a-system-paper/)"
 * Some rules on formatting should be followed:
   * Only capitalize the first word in the caption of figures or tables.
   * Wrap the figures
