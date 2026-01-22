@@ -8,6 +8,11 @@ classes: wide
 
 ---
 
+Yi Ding
+
+Created on: June 1, 2018
+Updated on: April 19, 2024
+Major Revision on January 21, 2026
 
 
 ### 1. Find and Self-Review a Problem/Idea
@@ -108,7 +113,4 @@ Most of your PhD life is a cycle of "find problems/ideas", "study and design", "
 
 
 
-Created on: June 1, 2018
-Updated on: April 19, 2024
-Major Revision on January 21, 2026
 
