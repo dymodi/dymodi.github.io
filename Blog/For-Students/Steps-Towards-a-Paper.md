@@ -1,5 +1,5 @@
 ---
-title: Steps Towards a Paper (Under Construction)
+title: Steps Towards a Paper
 author_profile: true
 layout: single
 permalink: /for-students/steps-towards-a-paper/
@@ -10,7 +10,7 @@ classes: wide
 
 
 
-### 1. Find and Self-Review an Problem/Idea
+### 1. Find and Self-Review a Problem/Idea
 
 * The key information of the top research is usually a **claim**, **a special problem can be solved with a special method**. We need to deliver this information in a **simple** yet **clear** way.
 * Sometimes, we have a great **problem** and try to find a good *solution* for it. Sometimes we have a great **idea** and need to find a good *problem* for it.
@@ -41,7 +41,7 @@ classes: wide
   * The experiments and evaluations you did can be only a subset or a special case of your scope. For example, we test a dispatching algorithm on a grid in the urban delivery platform. -->
 <!-- * Innovation
   * Instead of listing several innovations, it will be better to articulate one major difference or innovation. -->
-* Utilize the discussion time with your professor **wisely** and **efficiently**. In addition learning what your professor told you, also try to learn how your professor comes up with the question/ideas and how the question/idea is communicated.
+* Utilize the discussion time with your professor **wisely** and **efficiently**. In addition to learning what your professor told you, also try to learn how your professor comes up with the question/ideas and how the question/idea is communicated.
 * Find a good timing to discuss the problem/idea with your professor. Bringing the problem/idea up too early without a thorough review of the questions above may end up with your idea challenged easily by your professor. It's a waste of time for both of you. Bringing the idea up too late after you've done a lot of literature review and experiments may end up with your problem/idea (1) not aligned with the group's goal/expertise (2) has some inherent limitations that you didn't realizem, which means the weeks you've spent on the literature review and experiments are wasted. A good timing is that you have *briefly* reviewed the problem/idea with some *quick* literature review and experiments.
 * Prepare for the meetings with your professor carefully. Prepare a Google doc and with a brief description of your problem/idea/progress and share it with your professor **the day before the meeting**.
 * Check your Google Doc with the following questions:
@@ -58,7 +58,7 @@ classes: wide
 ### 3. Study and Design
 
 * How to do literature review? 
-  * A detailed guide can be find here: [How to do a Literature Survey](https://yi-ding.me/assets/files/Literature-Survey-2025.pdf).
+  * A detailed guide can be found here: "[How to do a Literature Survey](https://yi-ding.me/assets/files/Literature-Survey-2025.pdf)".
   * For each related topic, prepare a survey to learn about this field and prepare the Related Works of the paper.
 * How to do prelimanry experiments?
   * As discussed above, preliminary experiments may be needed when you want to (1) find the limitations of existing solutions on your problem; (2) illustrate the potenital of the idea/opportunity in solving the problem.
@@ -73,7 +73,7 @@ classes: wide
   * The key point of the design/solution must correspond to the key points in the motivation section.
   * Research is different from engineering. In engineering you use all the techiniques and tricks to achieve optimal performance, while in research you use a simple and elegant desing to show the effectiveness/potential of an idea. Instead of manipulating a very complex method with many components and parameters, it will be better to design a **simple** system with one major innovative part and show that it works.
   * Instead of coming up with brand-new solutions, it will be better to import and build upon existing solutions.
-* Sometimes, we may have an **Advanced Design** in addition to the main design, where we can discover and solve an advanced problem by removing the some assumptions.
+* Sometimes, we may have an **advanced design** in addition to the main design, where we can discover and solve an advanced problem by removing the some assumptions.
 * Evalution/experiments
   * Find some well-known solutions and some latest solutions in the field as baselines.
   * Make your code extensibile, as you may need to modify design and experiment settings based on the feedback from your professor or reviewers, but don't spend too much time on it, as in most cases the code only serve for only one project.
@@ -84,7 +84,7 @@ Most of your PhD life is a cycle of "find problems/ideas", "study and design", "
 
 * The paper can be drafted based on the doc used for discussion with the professor. Specialized slides can be used to keep the main points of the paper. It will be better that Sections (even subsections and subsubsections) are designed clearly and carefully before starting to write.
 * Before starting to write each section (or subsection, paragraph), think about what core information (idea/viewpoint/observation/design/result) you want to present and whether there is enough context built up before. Missing parts should be filled, and things already said should not be repeated. Otherwise, the paper will be messy.
-* For System Paper writing, please find guides in this [post](https://yi-ding.me/for-students/how-to-write-a-system-paper/).
+* For System Paper writing, please find guides in this guidance: "[How to Write a System Paper](https://yi-ding.me/for-students/how-to-write-a-system-paper/)"
 * Some rules on formatting should be followed:
   * Only capitalize the first word in the caption of figures or tables.
   * Wrap the figures
