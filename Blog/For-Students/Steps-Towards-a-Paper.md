@@ -45,8 +45,10 @@ classes: wide
 * Find a good timing to discuss the problem/idea with your professor. Bringing the problem/idea up too early without a thorough review of the questions above may end up with your idea challenged easily by your professor. It's a waste of time for both of you. Bringing the idea up too late after you've done a lot of literature review and experiments may end up with your problem/idea (1) not aligned with the group's goal/expertise (2) has some inherent limitations that you didn't realizem, which means the weeks you've spent on the literature review and experiments are wasted. A good timing is that you have *briefly* reviewed the problem/idea with some *quick* literature review and experiments.
 * Prepare for the meetings with your professor carefully. Prepare a Google doc and with a brief description of your problem/idea/progress and share it with your professor **the day before the meeting**.
 * Check your Google Doc with the following questions:
-  * Is the document self-explainable to general CS audience? Does it has all the background/references need to understand it?
+  * Is the document self-explainable to general CS audience? Does it has all the background/references need to understand it (dataset info, parameters,?
   * For each claim (especially important ones), did I have provide justification? For example, if I want to claim the importance of the problem or the limitation of a related work, how do I prove it? Can I use a preliminary experiment to Reference paper thas support the claim?  
+  * Did I highlighted the important claims/results/conclusions?
+  * Did I highlighted the added/modified content since last version?
 * Don't **overfit** to the comments provided by the professor. The professor may have random ideas/comments/feedback. You're the leader of the project, use your own judgement and critize the professor's comment. 
 * Talk to other members in the group about your problem/idea, even they are not working the same topic/direction. They can provide a fresh perspective for you to review and improve your problem/idea. 
 * Before the study, remember the following checklist:
@@ -59,32 +61,34 @@ classes: wide
   * A detailed guide can be find here: [How to do a Literature Survey](https://yi-ding.me/assets/files/Literature-Survey-2025.pdf).
   * For each related topic, prepare a survey to learn about this field and prepare the Related Works of the paper.
 * How to do prelimanry experiments?
-  * Prepare data to have a whole image of the data and problem.
+  * As discussed above, preliminary experiments may be needed when you want to (1) find the limitations of existing solutions on your problem; (2) illustrate the potenital of the idea/opportunity in solving the problem.
+  * You can start with preparing data to have a whole image of the data and problem.
   * Find one or two most closely related papers, and implmente the ideas. It may appear as the preliminary experiment in the paper. Conducting some pre-experiments can help you (1) find the potential gap in the problem/direction; (2) familiarzie with the skill sets needed (e.g., fine-tuning); (3) reveal the potential technical challenges (e.g., computational resource contraints, latency contraints). 
+* Technical challenges
+  * The technical challenges you choose to solve and how you solve them reflects the **depth** of your work. 
+  * Technical challenges are normally the difficulties you met when you use your *idea/opportunities* to solve the problem (e.g., your idea is to use LLM for navigation, then how to obtain the results in real time will become a technical challenge, as LLM is usually slow.). 
 * Check list for your design/solution:
   * The problems discussed in the challenge section must be solved.
   * If there is an opportunity mentioned, it must be utilized in the design/solution.
   * The key point of the design/solution must correspond to the key points in the motivation section.
-  * Instead of manipulating a very complex method with many components and parameters, it will be better to design a simple system with one major innovative part and show that it works.
+  * Research is different from engineering. In engineering you use all the techiniques and tricks to achieve optimal performance, while in research you use a simple and elegant desing to show the effectiveness/potential of an idea. Instead of manipulating a very complex method with many components and parameters, it will be better to design a **simple** system with one major innovative part and show that it works.
   * Instead of coming up with brand-new solutions, it will be better to import and build upon existing solutions.
 * Sometimes, we may have an **Advanced Design** in addition to the main design, where we can discover and solve an advanced problem by removing the some assumptions.
-* Prepare for the evalution/experiments.
+* Evalution/experiments
   * Find some well-known solutions and some latest solutions in the field as baselines.
+  * Make your code extensibile, as you may need to modify design and experiment settings based on the feedback from your professor or reviewers, but don't spend too much time on it, as in most cases the code only serve for only one project.
 
 Most of your PhD life is a cycle of "find problems/ideas", "study and design", "discussion".
 
 ### 4. Writing and Submission
 
-The paper can be drafted based on the slides used for discussion with the professor. Specialized slides can be used to keep the main points of the paper. It will be better that Sections (even subsections and subsubsections) are designed clearly and carefully before starting to write.
-
-Before starting to write each section (or subsection, paragraph), think about what core information (idea/viewpoint/observation/design/result) you want to present and whether there is enough context built up before. Missing parts should be filled, and things already said should not be repeated. Otherwise, the paper will be messy.
-
-For System Paper writing, please find guides in this [post](https://yi-ding.me/for-students/how-to-write-a-system-paper/).
-
-Some rules on formatting should be followed:
-
-* Only capitalize the first word in the caption of figures or tables.
-* When using Python to plot, use `fig = plt.figure(figsize=(8,4))` to control the figure size.
+* The paper can be drafted based on the doc used for discussion with the professor. Specialized slides can be used to keep the main points of the paper. It will be better that Sections (even subsections and subsubsections) are designed clearly and carefully before starting to write.
+* Before starting to write each section (or subsection, paragraph), think about what core information (idea/viewpoint/observation/design/result) you want to present and whether there is enough context built up before. Missing parts should be filled, and things already said should not be repeated. Otherwise, the paper will be messy.
+* For System Paper writing, please find guides in this [post](https://yi-ding.me/for-students/how-to-write-a-system-paper/).
+* Some rules on formatting should be followed:
+  * Only capitalize the first word in the caption of figures or tables.
+  * Wrap the figures
+  * When using Python to plot, use `fig = plt.figure(figsize=(8,4))` to control the figure size.
 
 ### 5. Revise of a Rejected Paper
 
@@ -105,6 +109,6 @@ Some rules on formatting should be followed:
 
 
 Created on: June 1, 2018
-
 Updated on: April 19, 2024
+Major Revision on January 21, 2026
 
