@@ -26,6 +26,7 @@ classes: wide
             <li><span style="color:DarkGreen">[IMWUT/UbiComp'25]</span> <b>Large Language Model-Guided Semantic Alignment for Human Activity Recognition</b>
                 <br>Hua Yan, Heng Tan, <b>Yi Ding</b>, Pengfei Zhou, Vinod Namboodiri, Yu Yang
                 <br><i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 2025</i>
+                <br>[<a href="https://dl.acm.org/doi/epdf/10.1145/3770652">PDF</a>]
             </li>
             <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Experience Paper: Nationwide Human Behavior Sensing in Last-mile Delivery</b>
                 <br>Zhiqing Hong, Weibing Wang, Anlan Yu, Shuxin Zhong, Haotian Wang, <b>Yi Ding</b>, Tian He, Desheng Zhang
