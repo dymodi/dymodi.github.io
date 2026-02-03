@@ -23,7 +23,7 @@ classes: wide
         <h2>Sensing & Mobile AI Systems</h2>
         <!-- List publications here -->
         <ul>
-            <li><span style="color:DarkGreen">[IMWUT/UbiComp'25]</span> <b>Large Language Model-Guided Semantic Alignment for Human Activity Recognition</b>
+            <li><span style="color:DarkGreen">[IMWUT'25/UbiComp'26]</span> <b>Large Language Model-Guided Semantic Alignment for Human Activity Recognition</b>
                 <br>Hua Yan, Heng Tan, <b>Yi Ding</b>, Pengfei Zhou, Vinod Namboodiri, Yu Yang
                 <br><i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 2025</i>
                 <br>[<a href="https://dl.acm.org/doi/epdf/10.1145/3770652">PDF</a>]
@@ -102,6 +102,7 @@ classes: wide
         <ul>
             <li><span style="color:Goldenrod">[WWW'26]</span>  <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
                 <br>Ziqi Liu*, Pei Zeng*, <b>Yi Ding</b> 
+                <br><i>Proceedings of the ACM on the Web Conference 2026</i>
                 <br>[<a href="https://arxiv.org/pdf/2506.00614">PDF</a>]
             </li>
             <li><span style="color:SteelBlue">[TMC'25]</span> <b>Exploring Cellular User Re-Identification Risks with Networking Behaviors Analysis and Modeling</b>
@@ -119,7 +120,8 @@ classes: wide
                 <br>[<a href="https://dl.acm.org/doi/pdf/10.1145/3711896.3737226">PDF</a>]
             </li>
             <li><span style="color:Goldenrod">[WWW'25]</span>  <b>InCo: Exploring Inter-Trip Cooperation for Efficient Last-mile Delivery</b>
-                <br>Wenjun Lyu, Shuxin Zhong, Guang Yang, Haotian Wang, <b>Yi Ding</b>, Shuai Wang, Yunhuai Liu, Tian He, Desheng Zhang<br><i>ACM The Web Conference 2025</i>
+                <br>Wenjun Lyu, Shuxin Zhong, Guang Yang, Haotian Wang, <b>Yi Ding</b>, Shuai Wang, Yunhuai Liu, Tian He, Desheng Zhang
+                <br><i>Proceedings of the ACM on the Web Conference 2025</i>
                 <br>[<a href="https://dl.acm.org/doi/pdf/10.1145/3696410.3714483">PDF</a>]
             </li>
             <li><span style="color:DarkBlue">[CIKM'24]</span> <b>Behavior-Aware Hypergraph Convolutional Network for Illegal Parking Prediction with Multi-Source Contextual Information</b>
