@@ -4,7 +4,7 @@ title: "Group Meeting Announcement"
 permalink: /group-meeting-announcement/
 author_profile: true
 classes: wide
-date: 12/3/2026
+date: 20/3/2026
 ---
 
 ## This Week
@@ -24,4 +24,14 @@ For people join via Zoom, the link is https://us06web.zoom.us/j/85870777989s
 
 
 ## Next Week
+
+For the group meeting next week (3/27, 9am CST), there are two agenda:
+
+1. @Xiao Yan will lead the wifi2sate group (@Buvana Seshathri, @Tushar Wani, @Cyril Zhang) to give a formal progress report on the WiFi2Satellite project. Prof. Minn from the ECE department will join the discussion. (~45min)
+
+2. @Lokesh Balasubramaniam will give a project progress report on the AI-Assisted AR Sensing project. (~10min)
+
+Note that the meeting requires in-person participation for students at UTD (Room: ECSS 3.910.)
+
+For people join via Zoom, the link is https://us06web.zoom.us/j/85870777989s
 
