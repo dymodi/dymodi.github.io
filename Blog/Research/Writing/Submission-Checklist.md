@@ -7,6 +7,7 @@ author: Yi DING
 
 
 Must:
+* Review the CFP on the website, make sure the paper follows the submission instruction (e.g., fontsize, margin, page limit)
 * Make a submission at least 30 minutes before the deadline, avoiding last minute chaos caused by website/network issues.
 * Have all acronyms explained when first appear (e.g., MNN, NTP).
 * Have no blank refs like []

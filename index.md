@@ -29,14 +29,14 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * May 2025: Give a talk at CPS-IoT Week 2025 Sensor S&P workshop on the topic of Mobile AI.
 * Apr. 2025: PhD student Xiao Yan received NSF Student Travel Grants for CPS-IoT 2025. Congratulations!
 * Apr. 2025: Attend the CCC Computational and Citizen Science Research Workshop in DC. 
-* Mar. 2025: Workshop paper on measurement study of LLM on mobile devices accepted by FMSys'25.
-* Feb. 2025: Invited to join ACM IMWUT Editorial Board as Associate Editor (AE).
-* Jan. 2025: Paper accepted by ACM WWW 2025 (the Web Conference).
 
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Mar. 2025: Workshop paper on measurement study of LLM on mobile devices accepted by FMSys'25.
+* Feb. 2025: Invited to join ACM IMWUT Editorial Board as Associate Editor (AE).
+* Jan. 2025: Paper accepted by ACM WWW 2025 (the Web Conference).
 * Dec. 2024: Paper on satellite-based sensing accepted by IEEE PerCom.
 * Nov. 2024: Serve as Track Chair for Cloud/Edge Applications Track at IEEE Cloud Summit 2025.
 * Nov. 2024: Serve as program committee for ACM MobiSys 2025.
