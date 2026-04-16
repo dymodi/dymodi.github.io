@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Apr. 2026: Paper on using world model to improve robots training published on Arxiv.
 * Jan. 2026: PhD student Ziqi Liu's Paper on time series data compression accepted by ACM WWW 2026 (the Web Conference).
 * Sep. 2025: Paper on LLM for human activity recognition accepted by ACM IMWUT.
 * Sep. 2025: Paper on cellular data analysis accepted by IEEE TMC.
