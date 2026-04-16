@@ -80,6 +80,13 @@ classes: wide
 
     <ul class="pub-list">
 
+        <li><span style="color:Red">[arXiv'26]</span> <b>WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models</b>
+            <span class="pub-tag-line"><span class="tag tag-embodied">Embodied AI</span></span>
+            Anlan Yu*, Zaishu Chen, Peili Song, Zhiqing Hong, Haotian Wang, Desheng Zhang, Tian He, <b>Yi Ding</b>, Daqing Zhang
+            <br><i>arXiv preprint arXiv:2604.11351, 2026</i>
+            <br>[<a href="https://arxiv.org/abs/2604.11351">arXiv</a>]
+        </li>
+
         <li><span style="color:Goldenrod">[WWW'26]</span> <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
             <span class="pub-tag-line"><span class="tag tag-ai-sms">AI for Sensing &amp; Mobile Systems</span></span>
             Ziqi Liu*, Pei Zeng*, <b>Yi Ding</b>
