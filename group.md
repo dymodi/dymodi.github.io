@@ -19,7 +19,7 @@ date: 15/11/2024
 ### Master
 
 * [Pei Zeng](https://scholar.google.com/citations?user=hJiq7EYAAAAJ) (Research Intern since summer 24, now in LexisNexis, M.S. from Rice)
-* [Chitsein Alexander Dixon Htun](https://scholar.google.com/citations?user=H4kH8E8AAAAJ) (UTD URAP in summer 25, incoming Ph.D. at , M.S. from UTD)
+* [Chitsein Alexander Dixon Htun](https://scholar.google.com/citations?user=H4kH8E8AAAAJ) (UTD URAP in summer 25, incoming Ph.D. at UIUC, M.S. from UTD)
 * Jing Yang (Research Intern since summer 25, incoming Ph.D. at UTD, M.S. from KTH)
 * Yutong Lin (Research Intern since summer 25, incoming Ph.D. at Rutgers, M.S. from USTC)
 * Yuting Xiao (Research Intern since fall 25, M.S. at UTD, B.S. from Purdue)
