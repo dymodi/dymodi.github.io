@@ -20,17 +20,6 @@ My research interests lie at the intersection of  **mobile computing**, **wirele
 
 For UTD undegraduate and master student, a list of approachable research topics can be found here: [Approachable Tasks for Senior Undergraduate Students and Master Students](https://utdallas.box.com/s/1mf2iebmor6v7zofnoin2phnrdi8wlsj)
 
-#### Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data [WWW'26]
-<p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
-	<img src="/assets/images/Research/predcomp.png" alt="Predictability-Aware Compression Framework" style="float: left; width: 20em;">
-</p>
-<p>We propose a predictability-aware compression–decompression framework for multichannel time series data, motivated by the success of MIMO methods in signal processing. The framework reduces runtime and communication cost for Web-scale IoT and sensor stream prediction while preserving accuracy across diverse predictors.</p>
-<p>The core idea uses a circular seasonal key matrix with orthogonality to capture underlying time series predictability during compression, and mitigates reconstruction errors during decompression via inter-channel correction and intra-channel reduction. Extensive experiments on six datasets show superior trade-offs between prediction accuracy and runtime, with strong compatibility across transformer-based, MLP-based, and linear predictors.</p>
-
-[[PDF](https://dl.acm.org/doi/pdf/10.1145/3774904.3792488)]
-
-<p class="clear"> </p>
-
 #### A Cross-Platform Measurement Study for Mobile LLM Efficiency on Sensing Tasks [FmSys'25]
 <p style="float: left; margin-right: 1%; margin-bottom: 0.5em;">
 	<img src="/assets/images/Research/fmsys.png" alt="FmSys Results" style="float: left; width: 20em;">
