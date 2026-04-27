@@ -91,7 +91,7 @@ classes: wide
             <span class="pub-tag-line"><span class="tag tag-ai-sms">AI for Sensing &amp; Mobile Systems</span></span>
             Ziqi Liu*, Pei Zeng*, <b>Yi Ding</b>
             <br><i>Proceedings of the ACM on the Web Conference 2026</i>
-            <br>[<a href="https://arxiv.org/pdf/2506.00614">PDF</a>]
+            <br>[<a href="https://dl.acm.org/doi/pdf/10.1145/3774904.3792488">PDF</a>]
         </li>
 
         <li><span style="color:DarkGreen">[IMWUT'25/UbiComp'26]</span> <b>Large Language Model-Guided Semantic Alignment for Human Activity Recognition</b>
