@@ -23,6 +23,7 @@ date: May 29, 2025
 * International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP'24, '23)
 
 ### (External) Reviewer
+* IEEE Transactions on Mobile Computing (TMC)
 * ACM Transactions on Sensor Networks (TOSN)
 * ACM Transactions Internet Things (TIOT)
 * IEEE Transactions on Network Science and Engineering (TNSE)
