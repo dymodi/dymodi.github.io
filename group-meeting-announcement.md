@@ -4,7 +4,7 @@ title: "Group Meeting Announcement"
 permalink: /group-meeting-announcement/
 author_profile: true
 classes: wide
-date: 18/5/2026
+date: 21/5/2026
 ---
 
 ## This Week
@@ -18,4 +18,11 @@ Note that the meeting requires in-person participation for students at UTD (Room
 For people join via Zoom, the link is https://us06web.zoom.us/j/85870777989s
 
 ## Next Week
+For the group meeting next next week (5/29, 9am CST), there is one agenda:
+
+@Yi Ding will talk about how to write a paper (PSOC framework and mistakes to avoid)
+
+Note that the meeting requires in-person participation for students at UTD (Room: ECSS 4.910.)
+
+For people join via Zoom, the link is https://us06web.zoom.us/j/85870777989s
 
