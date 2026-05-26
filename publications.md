@@ -80,6 +80,12 @@ classes: wide
 
     <ul class="pub-list">
 
+        <li><span style="color:Red">[TMC'26]</span> <b>Beyond Navigation: Unlocking the High-precision Sensing Potential of GNSS Signals</b>
+            <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
+            Anlan Yu*, Xujun Ma, Zhiqing Hong, Pei Wang, Xuanzhi Wang, Jinkun Li, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang
+            <br><i>IEEE Transactions on Mobile Computing, 2026</i>
+        </li>
+
         <li><span style="color:Red">[arXiv'26]</span> <b>WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models</b>
             <span class="pub-tag-line"><span class="tag tag-embodied">Embodied AI</span></span>
             Anlan Yu*, Zaishu Chen, Peili Song, Zhiqing Hong, Haotian Wang, Desheng Zhang, Tian He, <b>Yi Ding</b>, Daqing Zhang
