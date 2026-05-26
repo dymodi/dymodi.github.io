@@ -80,7 +80,7 @@ classes: wide
 
     <ul class="pub-list">
 
-        <li><span style="color:Red">[TMC'26]</span> <b>Beyond Navigation: Unlocking the High-precision Sensing Potential of GNSS Signals</b>
+        <li><span style="color:SteelBlue">[TMC'26]</span> <b>Beyond Navigation: Unlocking the High-precision Sensing Potential of GNSS Signals</b>
             <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
             Anlan Yu*, Xujun Ma, Zhiqing Hong, Pei Wang, Xuanzhi Wang, Jinkun Li, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang
             <br><i>IEEE Transactions on Mobile Computing, 2026</i>
