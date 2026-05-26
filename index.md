@@ -16,6 +16,8 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* May. 2026: Paper on satellite-signal-based sensing accepted by IEEE TMC.
+* May. 2026: Project on edge-intelligent digital twin funded by UTD SPIRe with $60,000! Thanks UTD for the award!
 * Apr. 2026: Master students (Chitsein, Yutong, Jing) in the group will pursue PhD in UIUC, Rutgers, and UTD. Thanks for their contribution and congratulations!
 * Apr. 2026: Paper on using world model to improve robots training published on Arxiv.
 * Jan. 2026: PhD student Ziqi Liu's Paper on time series data compression accepted by ACM WWW 2026 (the Web Conference).
@@ -29,13 +31,13 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * May 2025: Paper on human activity recognition with LLMs accepted by ACM SIGKDD.
 * May 2025: Serve as a panelist at NSF.
 * May 2025: Give a talk at CPS-IoT Week 2025 Sensor S&P workshop on the topic of Mobile AI.
-* Apr. 2025: PhD student Xiao Yan received NSF Student Travel Grants for CPS-IoT 2025. Congratulations!
-* Apr. 2025: Attend the CCC Computational and Citizen Science Research Workshop in DC. 
 
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Apr. 2025: PhD student Xiao Yan received NSF Student Travel Grants for CPS-IoT 2025. Congratulations!
+* Apr. 2025: Attend the CCC Computational and Citizen Science Research Workshop in DC. 
 * Mar. 2025: Workshop paper on measurement study of LLM on mobile devices accepted by FMSys'25.
 * Feb. 2025: Invited to join ACM IMWUT Editorial Board as Associate Editor (AE).
 * Jan. 2025: Paper accepted by ACM WWW 2025 (the Web Conference).
