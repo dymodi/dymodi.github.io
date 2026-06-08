@@ -48,7 +48,7 @@ date: 15/11/2024
 ### High School Students: 
 * William Zhou (Summer 26, Plano West Senior High, Plano, Texas)
 * Sai Deepthi Puligadda (Summer 26, Rouse High School, Leander, Texas)
-* Mayukha Siripuram (Centennial High School, Frisco, Texas, Texas)
+* Mayukha Siripuram (Summer 26, Centennial High School, Frisco, Texas)
 * Aditi Chhawacharia (Summer 25, Walnut Grove High School, Prosper, Texas)
 * Sanjana Mothukuri (Summer 25, Panther Creek High School, Frisco, Texas)
 * Vidushi Nalakonda (Summer 25, Coppell High School, Coppell, Texas)
