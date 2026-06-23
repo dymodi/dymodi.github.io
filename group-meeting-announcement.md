@@ -4,14 +4,14 @@ title: "Group Meeting Announcement"
 permalink: /group-meeting-announcement/
 author_profile: true
 classes: wide
-date: 15/6/2026
+date: 23/6/2026
 ---
 
-## Next Week
+## This Week
 
-For the group meeting this week (6/19, 9am CST), there is one agenda:
+For the group meeting this week (6/26, 9am CST), there is one agenda:
 
-Xiao Yan will report the progress of the wifi2sate project
+We will have a paper-review and discussion session on some recent IMWUT submissions.
 
 For those attend in-person, the location is ECSS 4.910
 
