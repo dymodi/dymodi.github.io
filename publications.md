@@ -86,7 +86,7 @@ classes: wide
             <br><i>Proceedings of the 32st Annual International Conference on Mobile Computing And Networking</i>
         </li>
 
-        <li><span style="color:RoyalBlue">[MobiCom'26]</span> <b>UltraLEGO: A Modular Ultra-Wideband Phased Array Platform for Wireless Sensing and Localization.</b>
+        <li><span style="color:RoyalBlue">[MobiCom'26]</span> <b>UltraLEGO: A Modular Ultra-Wideband Phased Array Platform for Wireless Sensing and Localization</b>
             <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
             Fangwei Zhang, Yimeng Liu, Franklin Wu, <b>Yi Ding</b>, Zhichao Cao, Ruofeng Liu
             <br><i>Proceedings of the 32st Annual International Conference on Mobile Computing And Networking</i>
