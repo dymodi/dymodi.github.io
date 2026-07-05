@@ -27,7 +27,6 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Aug. 2025: Paper on human behavior sensing accepted by ACM CIKM.
 * Aug. 2025: Project on "Leveraging Satellite Signals for Ubiquitous Mobile Wireless Sensing" funded by NSF CISE NeTS CSR with $400,000! Thanks NSF for the award!
 
-
 <details markdown=block>
 <summary>More ...</summary>
 <br>
