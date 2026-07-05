@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Jun. 2026: Two papers (RTK Sensing Experience and UWB Sensing Design) accepted by ACM MobiCom'26. 
 * May. 2026: Paper on satellite-signal-based sensing accepted by IEEE TMC.
 * May. 2026: Project on edge-intelligent digital twin funded by UTD SPIRe with $60,000! Thanks UTD for the award!
 * Apr. 2026: Master students (Chitsein, Yutong, Jing) in the group will pursue PhD in UIUC, Rutgers, and UTD. Thanks for their contribution and congratulations!
@@ -25,17 +26,18 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Sep. 2025: Paper on cellular data analysis accepted by IEEE TMC.
 * Aug. 2025: Paper on human behavior sensing accepted by ACM CIKM.
 * Aug. 2025: Project on "Leveraging Satellite Signals for Ubiquitous Mobile Wireless Sensing" funded by NSF CISE NeTS CSR with $400,000! Thanks NSF for the award!
-* June 2025: Two papers (UAV Trajectory Generation and Human Behavior Sensing)  accepted by ACM MobiCom. 
-* June 2025: Host four high school students for the [UTD CS Research Program for HS Students](https://k12.utdallas.edu/research/). Welcome to the group!
-* May 2025: Workshop proposal of SpatialConnect on SIGSPATIAL accepted! See you in Minneapolis!
-* May 2025: Paper on human activity recognition with LLMs accepted by ACM SIGKDD.
-* May 2025: Serve as a panelist at NSF.
-* May 2025: Give a talk at CPS-IoT Week 2025 Sensor S&P workshop on the topic of Mobile AI.
+
 
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* June 2025: Two papers (UAV Trajectory Generation and Human Behavior Sensing) accepted by ACM MobiCom'25. 
+* June 2025: Host four high school students for the [UTD CS Research Program for HS Students](https://k12.utdallas.edu/research/). Welcome to the group!
+* May 2025: Workshop proposal of SpatialConnect on SIGSPATIAL accepted! See you in Minneapolis!
+* May 2025: Paper on human activity recognition with LLMs accepted by ACM SIGKDD.
+* May 2025: Serve as a panelist at NSF.
+* May 2025: Give a talk at CPS-IoT Week 2025 Sensor S&P workshop on the topic of Mobile AI.
 * Apr. 2025: PhD student Xiao Yan received NSF Student Travel Grants for CPS-IoT 2025. Congratulations!
 * Apr. 2025: Attend the CCC Computational and Citizen Science Research Workshop in DC. 
 * Mar. 2025: Workshop paper on measurement study of LLM on mobile devices accepted by FMSys'25.

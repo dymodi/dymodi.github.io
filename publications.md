@@ -80,6 +80,18 @@ classes: wide
 
     <ul class="pub-list">
 
+        <li><span style="color:RoyalBlue">[MobiCom'26]</span> <b>Experience: Unveiling GNSS-RTK in the Wild: A 2.5-Year Nationwide Study via Last-Mile Delivery</b>
+            <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
+            Anlan Yu, Zhiqing Hong, Jinkun Li, Shuting Pan, Haotian Wang, <b>Yi Ding</b>,  Daqing Zhang
+            <br><i>Proceedings of the 32st Annual International Conference on Mobile Computing And Networking</i>
+        </li>
+
+        <li><span style="color:RoyalBlue">[MobiCom'26]</span> <b>UltraLEGO: A Modular Ultra-Wideband Phased Array Platform for Wireless Sensing and Localization.</b>
+            <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
+            Fangwei Zhang, Yimeng Liu, Franklin Wu, <b>Yi Ding</b>, Zhichao Cao, Ruofeng Liu
+            <br><i>Proceedings of the 32st Annual International Conference on Mobile Computing And Networking</i>
+        </li>
+
         <li><span style="color:SteelBlue">[TMC'26]</span> <b>Beyond Navigation: Unlocking the High-precision Sensing Potential of GNSS Signals</b>
             <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
             Anlan Yu*, Xujun Ma, Zhiqing Hong, Pei Wang, Xuanzhi Wang, Jinkun Li, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang
