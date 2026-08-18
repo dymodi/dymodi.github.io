@@ -17,7 +17,6 @@ date: 15/11/2024
 ### Master Students
 
 * [Pei Zeng](https://scholar.google.com/citations?user=hJiq7EYAAAAJ) (Research Intern since summer 24, now in LexisNexis, M.S. from Rice)
-* Jing Yang (Research Intern since summer 25, incoming Ph.D. at UTD, M.S. from KTH)
 * Yuting Xiao (Research Intern since fall 25, M.S. at UTD, B.S. from Purdue)
 * Cyril Zhang (Research Intern since spring 26, B.S. at Rutgers)
 * Tushar Wani (UTD Independent Study since spring 26)
@@ -28,6 +27,7 @@ date: 15/11/2024
 * Sanskriti Aripineni (UTD RIDE since Spring 25)
 * Rishi Simhadri (UTD RIDE since Fall 25, Research Intern since summer 26)
 * Shayaan Rahim (UTD Research Intern since summer 26)
+* Sreehari Mini Ravi (UTD Research Intern since summer 26)
 * Shivesh Gupta (UTD URAP in summer 26)
 
 
@@ -38,7 +38,8 @@ date: 15/11/2024
 
 ### Master Students
 * [Chitsein Alexander Dixon Htun](https://scholar.google.com/citations?user=H4kH8E8AAAAJ) (UTD URAP in summer 25, incoming Ph.D. at UIUC, M.S. from UTD)
-* Yutong Lin (Research Intern since summer 25, incoming Ph.D. at Rutgers, M.S. from USTC)
+* Yutong Lin (Research Intern in summer 25, incoming Ph.D. at Rutgers, M.S. from USTC)
+* Jing Yang (Research Intern in summer 25, M.S. from KTH)
 
 ### Undergraduate Students: 
 * Khoa A Tran (UTD RIDE, Fall 25)
@@ -49,7 +50,6 @@ date: 15/11/2024
 
 ### High School Students: 
 * William Zhou (Summer 26, Plano West Senior High, Plano, Texas)
-* Sai Deepthi Puligadda (Summer 26, Rouse High School, Leander, Texas)
 * Mayukha Siripuram (Summer 26, Centennial High School, Frisco, Texas)
 * Aditi Chhawacharia (Summer 25, Walnut Grove High School, Prosper, Texas)
 * Sanjana Mothukuri (Summer 25, Panther Creek High School, Frisco, Texas)
