@@ -64,15 +64,87 @@ No books are required. All the materials will be online.
 ## Course Schedule (Tentative)
 
 <details markdown=block>
-<summary>W1: Course Introduction & Guidance on Paper Reading and Presentation (08/25, 08/27)</summary>
+<summary>W1 Course Introduction & Guidance on Paper Reading and Presentation (08/24, 08/26)</summary>
 
 * Lecture: Course Introduction & Logistics
 
 </details>
 
 
+<details markdown=block>
+<summary>W2 Sensing Modalities I: Wi-Fi and Bluetooth (08/31, 09/02)</summary>
 
+</details>
 
+<details markdown=block>
+<summary>W3 Sensing Modalities II: GPS and Satellite (Labor Day, 09/09)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W4 Sensing Modalities III: Acoustic and Visual (09/14, 09/16)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W5 Sensing Modalities IV: IMU and Environmental Sensors (09/21, 09/23)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W6 Sensing Modalities V: Multi-Modality (09/28, 09/30)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W7 Project Proposal Presentation (10/05, 10/07)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W8 Efficient Mobile AI I: Model Compression & On-Device Inference (10/12, 10/14)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W9 Efficient Mobile AI II: On-Device Learning & Distributed Training (10/19, 10/21)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W10 Foundation Models for Sensing (10/26, 10/28)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W11 Mobile AI Applications & Real-World Deployment (11/02, 11/04)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W12 Privacy, Security & Trust in Mobile Sensing (11/09, 11/11)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W13 System-Level Co-Design & Optimization (11/16, 11/18)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W14 Fall Break (11/23, 11/25)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W15 Final Project Presentation (11/30, 12/2)</summary>
+
+</details>
+
+<details markdown=block>
+<summary>W16 Final Project Presentation (12/7, 12/9)</summary>
+
+</details>
 
 
 <br>
