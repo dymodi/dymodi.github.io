@@ -76,15 +76,18 @@ No books are required. All the materials will be online.
 
 </details>
 
+
 <details markdown=block>
 <summary>W3 Sensing Modalities II: GPS and Satellite (Labor Day, 09/09)</summary>
 
 </details>
 
+
 <details markdown=block>
 <summary>W4 Sensing Modalities III: Acoustic and Visual (09/14, 09/16)</summary>
 
 </details>
+
 
 <details markdown=block>
 <summary>W5 Sensing Modalities IV: IMU and Environmental Sensors (09/21, 09/23)</summary>
@@ -92,22 +95,22 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>W6 Sensing Modalities V: Multi-Modality (09/28, 09/30)</summary>
+<summary>W6 Sensing Modalities V: UWB and mmWave (08/31, 09/02)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W7 Project Proposal Presentation (10/05, 10/07)</summary>
+<summary>W7 Sensing Modalities VI: Multi-Modality (10/05, 10/07)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W8 Efficient Mobile AI I: Model Compression & On-Device Inference (10/12, 10/14)</summary>
+<summary>W8 Project Proposal Presentation (10/12, 10/14) </summary>
 
 </details>
 
 <details markdown=block>
-<summary>W9 Efficient Mobile AI II: On-Device Learning & Distributed Training (10/19, 10/21)</summary>
+<summary>W9 Efficient Mobile AI: Model Compression & On-Device AI (10/18, 10,21)</summary>
 
 </details>
 
