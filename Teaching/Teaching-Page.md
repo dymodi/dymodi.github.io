@@ -4,19 +4,23 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 classes: wide
-date: Aug. 19, 2025
+date: Aug. 19, 2026
 ---
+
+### Regular Course
+
+[Fall'26: CS 6301 Special Topics in CS: Machine Learning in Mobile Computing](/teaching/fall26-cs6301/)
 
 [Fall'25: CS 6301 Special Topics in CS: Machine Learning in Mobile Computing](/teaching/fall25-cs6301/)
 
-[Fall'25: ECS1192/2192/3192/4192 - Research, Inquiry, Design Experience (RIDE)](https://yi-ding.me/assets/files/Teaching/RIDE-Mobile-LLM-Development.pdf)
-
 Spring'25: CS/CE4390 Computer Networks
-
-[Spring'25: ECS1192/2192/3192/4192 - Research, Inquiry, Design Experience (RIDE)](https://yi-ding.me/assets/files/Teaching/RIDE-Mobile-LLM-Development.pdf)
 
 Fall'24: CS/CE4390 Computer Networks
 
 [Spring'24: CS/CE4390 Computer Networks](/teaching/spring24-cs4390/)
 
 [Fall'23: CS 6301 Special Topics in CS: Data Science for Smart Cities](/teaching/fall23-cs6301/)
+
+
+### Undergraduate Research Course
+[Spring'25, Fall'25, Spring'26, Fall'26: ECS1192/2192/3192/4192 - Research, Inquiry, Design Experience (RIDE)](https://yi-ding.me/assets/files/Teaching/RIDE-Mobile-LLM-Development.pdf)
