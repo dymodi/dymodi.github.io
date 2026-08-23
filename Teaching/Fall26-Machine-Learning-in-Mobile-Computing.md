@@ -64,7 +64,7 @@ No books are required. All the materials will be online.
 ## Course Schedule (Tentative)
 
 <details markdown=block>
-<summary>W1 Course Introduction & Guidance on Paper Reading and Presentation (08/24, 08/26)</summary>
+<summary>W1 Course Introduction & Motivation (08/24, 08/26)</summary>
 
 * Lecture: Course Introduction & Logistics
 
@@ -95,7 +95,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>W6 Sensing Modalities V: UWB and mmWave (08/31, 09/02)</summary>
+<summary>W6 Sensing Modalities V: UWB and mmWave (09/28, 09/30)</summary>
 
 </details>
 
