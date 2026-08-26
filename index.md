@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Aug. 2026: Paper from high school students interned in the lab during the summer accpted by CV4Ecology workshop at ECCV'26.
 * Jun. 2026: Two papers (RTK Sensing Experience and UWB Sensing Design) accepted by ACM MobiCom'26. 
 * May. 2026: Paper on satellite-signal-based sensing accepted by IEEE TMC.
 * May. 2026: Project on edge-intelligent digital twin funded by UTD SPIRe with $60,000! Thanks UTD for the award!

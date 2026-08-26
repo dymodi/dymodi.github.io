@@ -80,6 +80,13 @@ classes: wide
 
     <ul class="pub-list">
 
+        <li><span style="color:DarkOliveGreen">[CV4Ecology'26]</span> <b>Can Edge-Deployable Vision--Language Models Identify Species?</b>
+            <span class="pub-tag-line"><span class="tag tag-ai-sms">AI for Sensing &amp; Mobile Systems</span></span>
+           William Zhou*, Mayukha Siripuram*, Xiao Yan, Ziqi Liu, <b>Yi Ding</b>
+            <br><i>Third Workshop on Computer Vision for Ecology 2026</i>
+        </li>
+
+
         <li><span style="color:RoyalBlue">[MobiCom'26]</span> <b>Experience: Unveiling GNSS-RTK in the Wild: A 2.5-Year Nationwide Study via Last-Mile Delivery</b>
             <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
             Anlan Yu*, Zhiqing Hong, Jinkun Li, Shuting Pan, Haotian Wang, <b>Yi Ding</b>,  Daqing Zhang

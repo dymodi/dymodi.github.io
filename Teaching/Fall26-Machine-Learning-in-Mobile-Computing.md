@@ -110,7 +110,7 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>W9 Efficient Mobile AI: Model Compression & On-Device AI (10/18, 10,21)</summary>
+<summary>W9 Efficient Mobile AI: Model Compression & On-Device AI (10/19, 10,21)</summary>
 
 </details>
 
