@@ -154,7 +154,9 @@ No books are required. All the materials will be online.
 
 ## Invited Talks
 
-TBD
+* Sep. 9, 2026, [Anlan Yu (Peking University)](https://scholar.google.com/citations?user=fOopY70AAAAJ&hl=en&oi=sra)
+
+* Sep. 21, 2026, [Zhiqing Hong (Rutgers, UB Berkeley)](http://www.zhiqinghong.one/)
 
 
 
