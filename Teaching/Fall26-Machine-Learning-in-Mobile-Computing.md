@@ -74,6 +74,14 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W2 Sensing Modalities I: Wi-Fi and Bluetooth (08/31, 09/02)</summary>
 
+* Topic1-Paper1 [Ding, Jian, et al. "Cost-effective soil carbon sensing with wi-fi and optical signals." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690675)
+* Paper2 Zheng, [Yue, et al. “Zero-effort cross-domain gesture recognition with Wi-Fi.” *Proceedings of the 17th annual international conference on mobile systems, applications, and services*. 2019.](https://dl.acm.org/doi/epdf/10.1145/3307334.3326081)
+* Topic1-Paper3 [Ni, Jiazhi, et al. "Experience: Pushing indoor localization from laboratory to the wild." *Proceedings of the 28th Annual International Conference on Mobile Computing And Networking.* 2022.](https://dl.acm.org/doi/pdf/10.1145/3495243.3560546)
+* Topic1-Paper4 [Li, Xin, et al. "Uwb-fi: Pushing wi-fi towards ultra-wideband for fine-granularity sensing." *Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3643832.3661889)
+* Topic1-Paper5 [Adib, Fadel, and Dina Katabi. "See through walls with WiFi!." *Proceedings of the ACM SIGCOMM 2013 conference on SIGCOMM.* 2013.](https://dl.acm.org/doi/pdf/10.1145/2486001.2486039)
+* Topic1-Paper6 [Wang, Yuxi, Kaishun Wu, and Lionel M. Ni. "Wifall: Device-free fall detection by wireless networks." *IEEE Transactions on Mobile Computing* 16.2 (2016): 581-594.](https://web.archive.org/web/20160331162823id_/http://kaishunwu.com/uploads/soft/150201/wifall.pdf)
+
+
 </details>
 
 
