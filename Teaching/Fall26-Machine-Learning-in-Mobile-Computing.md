@@ -133,27 +133,27 @@ No books are required. All the materials will be online.
 </details>
 
 <details markdown=block>
-<summary>W9 Efficient Mobile AI: Model Compression & On-Device AI (10/26, 10/28)</summary>
+<summary>W9 Foundation Models for Sensing (10/26, 10/28)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W10 Foundation Models for Sensing (11/02, 11/04)</summary>
+<summary>W10 Efficient Mobile AI (11/02, 11/04)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W11 Mobile AI Applications & Real-World Deployment (11/09, 11/11)</summary>
+<summary>W11 Privacy, Security & Trust in Mobile Sensing (11/09, 11/11)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W12 Privacy, Security & Trust in Mobile Sensing (11/16, 11/18)</summary>
+<summary>W12 System-Level Co-Design & Optimization (11/16, 11/18)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W13 System-Level Co-Design & Optimization (11/23, 11/25)</summary>
+<summary>W13 Mobile AI Applications & Real-World Deployment (11/23, 11/25)</summary>
 
 </details>
 
