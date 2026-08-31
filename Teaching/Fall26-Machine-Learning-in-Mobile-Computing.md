@@ -173,7 +173,9 @@ No books are required. All the materials will be online.
 
 * Sep. 9, 2026, [Anlan Yu (Peking University)](https://scholar.google.com/citations?user=fOopY70AAAAJ&hl=en&oi=sra)
 
-* Sep. 21, 2026, [Zhiqing Hong (Rutgers, UB Berkeley)](http://www.zhiqinghong.one/)
+* Sep. 21, 2026, [Zhiqing Hong (HKUST(GZ)](http://www.zhiqinghong.one/)
+
+* Sep. 28, 2026, [Xiao Yan (UT Dallas)](https://scholar.google.com/citations?user=j57Xhf4AAAAJ&hl=en)
 
 
 
