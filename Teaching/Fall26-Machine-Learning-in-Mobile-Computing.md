@@ -175,7 +175,11 @@ No books are required. All the materials will be online.
 
 * Sep. 21, 2026, [Zhiqing Hong (HKUST(GZ)](http://www.zhiqinghong.one/)
 
-* Sep. 28, 2026, [Xiao Yan (UT Dallas)](https://scholar.google.com/citations?user=j57Xhf4AAAAJ&hl=en)
+* Sep. 30, 2026, [Xiao Yan (UT Dallas)](https://scholar.google.com/citations?user=j57Xhf4AAAAJ&hl=en)
+
+* Oct. 7, 2026, Fangwei Zhang (MSU)
+
+
 
 
 
