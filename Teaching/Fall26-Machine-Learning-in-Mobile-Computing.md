@@ -110,7 +110,7 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>W4 Sensing Modalities IV: Acoustic and Visual ()</summary>
+<summary>W4 Sensing Modalities IV: Acoustic and Visual (09/28, 09/30)</summary>
 
 </details>
 
@@ -118,60 +118,54 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>W6 Sensing Modalities V: UWB and mmWave (09/28, 09/30)</summary>
+<summary>W6 Sensing Modalities V: UWB and mmWave (10/05, 10/07)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W7 Sensing Modalities VI: Multi-Modality (10/05, 10/07)</summary>
+<summary>W7 Sensing Modalities VI: Multi-Modality (10/12, 10/14)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W8 Project Proposal Presentation (10/12, 10/14) </summary>
+<summary>W8 Project Proposal Presentation (10/19, 10,21) </summary>
 
 </details>
 
 <details markdown=block>
-<summary>W9 Efficient Mobile AI: Model Compression & On-Device AI (10/19, 10,21)</summary>
+<summary>W9 Efficient Mobile AI: Model Compression & On-Device AI (10/26, 10/28)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W10 Foundation Models for Sensing (10/26, 10/28)</summary>
+<summary>W10 Foundation Models for Sensing (11/02, 11/04)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W11 Mobile AI Applications & Real-World Deployment (11/02, 11/04)</summary>
+<summary>W11 Mobile AI Applications & Real-World Deployment (11/09, 11/11)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W12 Privacy, Security & Trust in Mobile Sensing (11/09, 11/11)</summary>
+<summary>W12 Privacy, Security & Trust in Mobile Sensing (11/16, 11/18)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W13 System-Level Co-Design & Optimization (11/16, 11/18)</summary>
+<summary>W13 System-Level Co-Design & Optimization (11/23, 11/25)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W14 Fall Break (11/23, 11/25)</summary>
+<summary>W14 Fall Break (11/30, 12/2)</summary>
 
 </details>
 
 <details markdown=block>
-<summary>W15 Final Project Presentation (11/30, 12/2)</summary>
+<summary>W15 Final Project Presentation (12/7, 12/9)</summary>
 
 </details>
-
-<details markdown=block>
-<summary>W16 Final Project Presentation (12/7, 12/9)</summary>
-
-</details>
-
 
 <br>
 
