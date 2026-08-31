@@ -133,7 +133,7 @@ classes: wide
             <br>[<a href="https://dl.acm.org/doi/epdf/10.1145/3680207.3765239">PDF</a>]
         </li>
 
-        <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Auto-UIT: Automated UAV Inspection Trajectory Generation from Noisy Sparse 3D Point Cloud</b>
+        <li><span style="color:RoyalBlue">[MobiCom'25]</span> <b>Auto-UIT: Automating UAV Inspection Trajectory by Recognizing Pylon Structure from 3D Point Cloud</b>
             <span class="pub-tag-line"><span class="tag tag-embodied">Embodied AI</span></span>
             Feng Lyu, Lijuan He, Mingliu Liu, Sijing Duan, Hao Wu, Jieyu Zhou, <b>Yi Ding</b>, Zaixun Ling, Yibo Cui
             <br><i>Proceedings of the 31st Annual International Conference on Mobile Computing And Networking</i>
