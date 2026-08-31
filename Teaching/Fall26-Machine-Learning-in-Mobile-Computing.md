@@ -64,7 +64,7 @@ No books are required. All the materials will be online.
 ## Course Schedule (Tentative)
 
 <details markdown=block>
-<summary>W1 Course Introduction & Motivation (08/24, 08/26)</summary>
+<summary>W1 Course Introduction & Motivation (08/24, 08/26, 08/31)</summary>
 
 * Lecture: Course Introduction
 * Lecture: Paper Reading and Presentation
@@ -74,9 +74,10 @@ No books are required. All the materials will be online.
 
 
 <details markdown=block>
-<summary>W2 Sensing Modalities I: GPS and Satellite (09/02, 09/08)</summary>
+<summary>W2 Sensing Modalities I: GPS and Satellite (09/02, 09/09)</summary>
 
 * Lecture: GPS and Satellite
+* Guest Talk
 
 * Paper 1 [Dong, Huixin, et al. "Gpsmirror: Expanding accurate gps positioning to shadowed and indoor regions with backscatter." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking.* 2023.](https://utdallas.box.com/s/4xj0hdbxpqjtplk40v50eb6ims7jf3q1)
 * Paper 2 [Dong, Huixin, et al. "Gpsense: Passive sensing with pervasive gps signals." *Proceedings of the 30th Annual International Conference on Mobile Computing And Networking.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690674)
@@ -102,17 +103,19 @@ No books are required. All the materials will be online.
 </details>
 
 
-
 <details markdown=block>
-<summary>W4 Sensing Modalities III: Acoustic and Visual ()</summary>
+<summary>W5 Sensing Modalities III: IMU and Environmental Sensors (09/21, 09/23)</summary>
 
 </details>
 
 
 <details markdown=block>
-<summary>W5 Sensing Modalities IV: IMU and Environmental Sensors (09/21, 09/23)</summary>
+<summary>W4 Sensing Modalities IV: Acoustic and Visual ()</summary>
 
 </details>
+
+
+
 
 <details markdown=block>
 <summary>W6 Sensing Modalities V: UWB and mmWave (09/28, 09/30)</summary>
