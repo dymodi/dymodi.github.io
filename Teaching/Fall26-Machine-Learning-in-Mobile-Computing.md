@@ -79,9 +79,9 @@ No books are required. All the materials will be online.
 * Lecture: GPS and Satellite
 * Guest Talk
 
-* Paper 1 [Dong, Huixin, et al. "Gpsmirror: Expanding accurate gps positioning to shadowed and indoor regions with backscatter." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking.* 2023.](https://utdallas.box.com/s/4xj0hdbxpqjtplk40v50eb6ims7jf3q1)
+* Paper 1 [Dong, Huixin, et al. "Gpsmirror: Expanding accurate gps positioning to shadowed and indoor regions with backscatter." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking.* 2023.](https://dl.acm.org/doi/epdf/10.1145/3570361.3592511)
 * Paper 2 [Dong, Huixin, et al. "Gpsense: Passive sensing with pervasive gps signals." *Proceedings of the 30th Annual International Conference on Mobile Computing And Networking.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690674)
-* Paper 3 [Rathi, Raghav, and Zhenghao Zhang. "StarAngle: User Orientation Sensing with Beacon Phase Measurements of Multiple Starlink Satellites." *Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems.* 2024.](https://utdallas.box.com/s/61lyegqigghzyzwlin2hj73vku5qtx4l)
+* Paper 3 [Rathi, Raghav, and Zhenghao Zhang. "StarAngle: User Orientation Sensing with Beacon Phase Measurements of Multiple Starlink Satellites." *Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems.* 2024.](https://dl.acm.org/doi/epdf/10.1145/3666025.3699367)
 * Paper 4 [Ecola, Geneva, et al. "SARLink: Satellite Backscatter Connectivity using Synthetic Aperture Radar." *Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3715014.3722061)
 * Paper 5 [Hong, Zhiqing, et al. "Smallmap: Low-cost community road map sensing with uncertain delivery behavior." *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies* 8.2 (2024): 1-26.](https://dl.acm.org/doi/pdf/10.1145/3659596)
 
