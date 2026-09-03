@@ -83,7 +83,7 @@ classes: wide
         <li><span style="color:FireBrick">[RA-L'26]</span> <b>WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models</b>
             <span class="pub-tag-line"><span class="tag tag-embodied">Embodied AI</span></span>
             Anlan Yu*, Zaishu Chen, Peili Song, Zhiqing Hong, Haotian Wang, Desheng Zhang, Tian He, <b>Yi Ding</b>, Daqing Zhang
-            <br><i>arXiv preprint arXiv:2604.11351, 2026</i>
+            <br><i>IEEE Robotics and Automation Letters, 2026</i>
             <br>[<a href="https://arxiv.org/abs/2604.11351">arXiv</a>]
         </li>
 
