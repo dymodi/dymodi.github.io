@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Sep. 2026: Paper on using world model to improve robots training accepted by IEEE RA-L.
 * Aug. 2026: Paper from high school students interned in the lab during the summer accpted by CV4Ecology workshop at ECCV'26.
 * Jun. 2026: Two papers (RTK Sensing Experience and UWB Sensing Design) accepted by ACM MobiCom'26. 
 * May. 2026: Paper on satellite-signal-based sensing accepted by IEEE TMC.
@@ -25,13 +26,14 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 * Jan. 2026: PhD student Ziqi Liu's Paper on time series data compression accepted by ACM WWW 2026 (the Web Conference).
 * Sep. 2025: Paper on LLM for human activity recognition accepted by ACM IMWUT.
 * Sep. 2025: Paper on cellular data analysis accepted by IEEE TMC.
-* Aug. 2025: Paper on human behavior sensing accepted by ACM CIKM.
-* Aug. 2025: Project on "Leveraging Satellite Signals for Ubiquitous Mobile Wireless Sensing" funded by NSF CISE NeTS CSR with $400,000! Thanks NSF for the award!
+$400,000! Thanks NSF for the award!
 
 <details markdown=block>
 <summary>More ...</summary>
 <br>
 
+* Aug. 2025: Paper on human behavior sensing accepted by ACM CIKM.
+* Aug. 2025: Project on "Leveraging Satellite Signals for Ubiquitous Mobile Wireless Sensing" funded by NSF CISE NeTS CSR with 
 * June 2025: Two papers (UAV Trajectory Generation and Human Behavior Sensing) accepted by ACM MobiCom'25. 
 * June 2025: Host four high school students for the [UTD CS Research Program for HS Students](https://k12.utdallas.edu/research/). Welcome to the group!
 * May 2025: Workshop proposal of SpatialConnect on SIGSPATIAL accepted! See you in Minneapolis!

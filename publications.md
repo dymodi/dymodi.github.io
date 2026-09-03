@@ -80,6 +80,13 @@ classes: wide
 
     <ul class="pub-list">
 
+        <li><span style="color:FireBrick">[RA-L'26]</span> <b>WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models</b>
+            <span class="pub-tag-line"><span class="tag tag-embodied">Embodied AI</span></span>
+            Anlan Yu*, Zaishu Chen, Peili Song, Zhiqing Hong, Haotian Wang, Desheng Zhang, Tian He, <b>Yi Ding</b>, Daqing Zhang
+            <br><i>arXiv preprint arXiv:2604.11351, 2026</i>
+            <br>[<a href="https://arxiv.org/abs/2604.11351">arXiv</a>]
+        </li>
+
         <li><span style="color:DarkOliveGreen">[CV4Ecology'26]</span> <b>Can Edge-Deployable Vision--Language Models Identify Species?</b>
             <span class="pub-tag-line"><span class="tag tag-ai-sms">AI for Sensing &amp; Mobile Systems</span></span>
            William Zhou*, Mayukha Siripuram*, Xiao Yan, Ziqi Liu, <b>Yi Ding</b>
@@ -103,13 +110,6 @@ classes: wide
             <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
             Anlan Yu*, Xujun Ma, Zhiqing Hong, Pei Wang, Xuanzhi Wang, Jinkun Li, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang
             <br><i>IEEE Transactions on Mobile Computing, 2026</i>
-        </li>
-
-        <li><span style="color:Red">[arXiv'26]</span> <b>WM-DAgger: Enabling Efficient Data Aggregation for Imitation Learning with World Models</b>
-            <span class="pub-tag-line"><span class="tag tag-embodied">Embodied AI</span></span>
-            Anlan Yu*, Zaishu Chen, Peili Song, Zhiqing Hong, Haotian Wang, Desheng Zhang, Tian He, <b>Yi Ding</b>, Daqing Zhang
-            <br><i>arXiv preprint arXiv:2604.11351, 2026</i>
-            <br>[<a href="https://arxiv.org/abs/2604.11351">arXiv</a>]
         </li>
 
         <li><span style="color:Goldenrod">[WWW'26]</span> <b>Predictability-Aware Compression and Decompression Framework for Multichannel Time Series Data</b>
