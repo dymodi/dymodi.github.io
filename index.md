@@ -9,7 +9,7 @@ I am currently an Assistant Professor in Computer Science at The University of T
 
 Previously, I was a Postdoc at MIT. I received my Ph.D. at the University of Minnesota. I have my Bachelor's and Master's degrees from Zhejiang University in China.
 
-<span style="color:Navy">I am looking for **one** PhD student for Fall 26, and I am also looking for self-motivated students as Research Intern and Visiting Students. Experience in mobile computing and machine learning is preferred. If you are interested, please send your CV and transcripts to yi.ding *at* utdallas *dot* edu</span>.
+<span style="color:Navy">I am looking for **one or two** PhD student for Spring 27 and Fall 27, and I am also looking for self-motivated students as Research Intern and Visiting Students. Experience in mobile computing and machine learning is preferred. If you are interested, please send your CV and transcripts to yi.ding *at* utdallas *dot* edu</span>.
 
 Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
