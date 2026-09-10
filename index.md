@@ -16,6 +16,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 **Recent News**
 
+* Sep. 2026: Three demo papers accepted by MobiCom'26. See you in Austin!
 * Sep. 2026: Paper on using world model to improve robots training accepted by IEEE RA-L.
 * Aug. 2026: Paper from high school students interned in the lab during the summer accpted by CV4Ecology workshop at ECCV'26.
 * Jun. 2026: Two papers (RTK Sensing Experience and UWB Sensing Design) accepted by ACM MobiCom'26. 
