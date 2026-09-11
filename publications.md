@@ -91,6 +91,7 @@ classes: wide
             <span class="pub-tag-line"><span class="tag tag-ai-sms">AI for Sensing &amp; Mobile Systems</span></span>
            William Zhou*, Mayukha Siripuram*, Xiao Yan, Ziqi Liu, <b>Yi Ding</b>
             <br><i>Third Workshop on Computer Vision for Ecology 2026</i>
+            <br>[<a href="https://arxiv.org/pdf/2609.11916v1">PDF</a>]
         </li>
 
 
