@@ -106,6 +106,12 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W5 Sensing Modalities III: IMU and Environmental Sensors (09/21, 09/23)</summary>
 
+* Paper 1 [Xu, Huatao, et al. "Limu-bert: Unleashing the potential of unlabeled data for imu sensing applications." *Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems*. 2021.](https://dl.acm.org/doi/pdf/10.1145/3485730.3485937)
+* Paper 2 [Xu, Huatao, et al. "Practically adopting human activity recognition." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3613299)
+* Paper 3 [Zhang, Xiyuan, et al. "Unimts: Unified pre-training for motion time series." *Advances in Neural Information Processing Systems* 37 (2024): 107469-107493.](https://proceedings.neurips.cc/paper_files/paper/2024/file/c290d4373c495b2cad0625d6288260f0-Paper-Conference.pdf)
+* Paper 4 [Zhou, Pengfei, et al. "Iodetector: A generic service for indoor outdoor detection." *Proceedings of the 10th ACM Conference on Embedded Network Sensor Systems*. 2012.](https://dl.acm.org/doi/pdf/10.1145/2426656.2426668)
+* Paper 5 [Brooks, Jas, and Pedro Lopes. "Smell & paste: Low-fidelity prototyping for olfactory experiences." *Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3544548.3580680)
+
 </details>
 
 
