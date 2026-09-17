@@ -107,6 +107,24 @@ classes: wide
             <br><i>Proceedings of the 32st Annual International Conference on Mobile Computing And Networking</i>
         </li>
 
+        <li><span style="color:RoyalBlue">[MobiCom'26 Demo]</span> <b>Demo: UltraLEGO: A Modular Ultra-Wideband Phased Array Platform for Wireless Sensing and Localization</b>
+            <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
+            Fangwei Zhang, John Nowinski, Yimeng Liu, Moyan Lyu, Jiajun Wu, <b>Yi Ding</b>, Zhichao Cao, Ruofeng Liu
+            <br><i>Proceedings of the 32nd Annual International Conference on Mobile Computing And Networking (Demo Session)</i>
+        </li>
+
+        <li><span style="color:RoyalBlue">[MobiCom'26 Demo]</span> <b>Demo: Osphra: Finding Odor Sources without Mapping Every Point</b>
+            <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
+            Hui-Ju Fan*, Xiao Yan*, <b>Yi Ding</b>
+            <br><i>Proceedings of the 32nd Annual International Conference on Mobile Computing And Networking (Demo Session)</i>
+        </li>
+
+        <li><span style="color:RoyalBlue">[MobiCom'26 Demo]</span> <b>Demo: Can AI Agents Adapt to Your Daily Life? Horae, a Behavior-Aware Scheduler Grounded in Mobile Sensing</b>
+            <span class="pub-tag-line"><span class="tag tag-sms-ai">Sensing &amp; Mobile Systems with AI</span></span>
+            Sanskriti Aripineni*, Rishi Nandan Simhadri*, Khoa Tran*, Lakshana Srinivasachari*, Xiao Yan*, Yili Ren, Dong Li, <b>Yi Ding</b>
+            <br><i>Proceedings of the 32nd Annual International Conference on Mobile Computing And Networking (Demo Session)</i>
+        </li>
+
         <li><span style="color:SteelBlue">[TMC'26]</span> <b>Beyond Navigation: Unlocking the High-precision Sensing Potential of GNSS Signals</b>
             <span class="pub-tag-line"><span class="tag tag-sms">Sensing &amp; Mobile Systems</span></span>
             Anlan Yu*, Xujun Ma, Zhiqing Hong, Pei Wang, Xuanzhi Wang, Jinkun Li, Haotian Wang, <b>Yi Ding</b>, Daqing Zhang
