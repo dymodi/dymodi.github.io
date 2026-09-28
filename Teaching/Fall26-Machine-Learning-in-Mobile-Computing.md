@@ -118,6 +118,13 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W4 Sensing Modalities IV: Acoustic and Visual (09/28, 09/30)</summary>
 
+* Paper 1 [Wang, Wei, Alex X. Liu, and Ke Sun. "Device-free gesture tracking using acoustic signals." *Proceedings of the 22nd Annual International Conference on Mobile Computing and Networking*. 2016.](https://dl.acm.org/doi/pdf/10.1145/2973750.2973764)
+* Paper 2 [Cao, Shirui, et al. "Powerphone: Unleashing the acoustic sensing capability of smartphones." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3613270)
+* Paper 3 [Zhang, Yongzhao, et al. "Acoustic sensing and communication using metasurface." *20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23)*. 2023.](https://www.usenix.org/system/files/nsdi23-zhang-yongzhao.pdf)
+* Paper 4 [Zhang, Yanbo, et al. "Face recognition in harsh conditions: An acoustic based approach." *Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3643832.3661855)
+* Paper 5 [Li, Ke, et al. "Gazetrak: Exploring acoustic-based eye tracking on a glass frame." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3649376)
+* Paper 6 [Li, Yuanqi, et al. "Reducto: On-camera filtering for resource-efficient real-time video analytics." *Proceedings of the Annual Conference of the ACM Special Interest Group on Data Communication on the Applications, Technologies, Architectures, and Protocols for Computer Communication*. 2020.](https://dl.acm.org/doi/pdf/10.1145/3387514.3405874)
+
 </details>
 
 
