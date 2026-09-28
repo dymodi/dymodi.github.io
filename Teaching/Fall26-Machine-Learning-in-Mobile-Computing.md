@@ -133,6 +133,13 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W6 Sensing Modalities V: UWB and mmWave (10/05, 10/07)</summary>
 
+* Paper 1 [Großwindhager, Bernhard, et al. "Snaploc: An ultra-fast uwb-based indoor localization system for an unlimited number of tags." *Proceedings of the 18th International Conference on Information Processing in Sensor Networks*. 2019.](https://dl.acm.org/doi/pdf/10.1145/3302506.3310389)
+* Paper 2 [Wang, Ziqi, et al. "Uwhear: Through-wall extraction and separation of audio vibrations using wireless signals." *Proceedings of the 18th Conference on Embedded Networked Sensor Systems*. 2020.](https://dl.acm.org/doi/pdf/10.1145/3384419.3430772)
+* Paper 3 [Zhou, Hao, et al. "Rethinking orientation estimation with smartphone-equipped ultra-wideband chips." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690677)
+* Paper 4 [Lien, Jaime, et al. "Soli: Ubiquitous gesture sensing with millimeter wave radar." *ACM Transactions on Graphics (TOG)* 35.4 (2016): 1-19.](https://dl.acm.org/doi/pdf/10.1145/2897824.2925953)
+* Paper 5 [Xue, Hongfei, et al. "Mmmesh: Towards 3d real-time dynamic human mesh construction using millimeter-wave." *Proceedings of the 19th Annual International Conference on Mobile Systems, Applications, and Services*. 2021.](https://dl.acm.org/doi/pdf/10.1145/3458864.3467679)
+* Paper 6 [Pallaprolu, Anurag, et al. "Crowd analytics with a single mmwave radar." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690664)
+
 </details>
 
 <details markdown=block>
@@ -187,8 +194,6 @@ No books are required. All the materials will be online.
 * Sep. 9, 2026, [Anlan Yu (Peking University)](https://scholar.google.com/citations?user=fOopY70AAAAJ&hl=en&oi=sra)
 
 * Sep. 21, 2026, [Zhiqing Hong (HKUST(GZ)](http://www.zhiqinghong.one/)
-
-* Sep. 30, 2026, [Xiao Yan (UT Dallas)](https://scholar.google.com/citations?user=j57Xhf4AAAAJ&hl=en)
 
 * Oct. 7, 2026, Fangwei Zhang (MSU)
 
