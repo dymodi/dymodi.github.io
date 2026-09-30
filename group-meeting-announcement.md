@@ -4,7 +4,7 @@ title: "Group Meeting Announcement"
 permalink: /group-meeting-announcement/
 author_profile: true
 classes: wide
-date: 29/9/2026
+date: 30/9/2026
 ---
 
 For those attend in-person, the location is ECSS 4.910
@@ -19,7 +19,7 @@ No group meeting on 10/2.
 
 For the group meeting next week (10/9, 9am CST), there is one agenda:
 
-@Xiao Yan will provide a Reflection on the Recent SenSys Submission and SCBI Deployment
+@Tianyu Fang will introduce some progress of the wifi2satellite project
 
 ## Following Weeks
 
