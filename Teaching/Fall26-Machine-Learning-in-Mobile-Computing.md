@@ -145,6 +145,14 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W7 Sensing Modalities VI: Multi-Modality (10/12, 10/14)</summary>
 
+* Paper1 [Yao, Shuochao, et al. "Deepsense: A unified deep learning framework for time-series mobile sensing data processing." *Proceedings of the 26th International Conference on World Wide Web*. 2017.](https://dl.acm.org/doi/pdf/10.1145/3038912.3052577)
+* Paper2 [Ouyang, Xiaomin, et al. "Cosmo: Contrastive fusion learning with small data for multimodal human activity recognition." *Proceedings of the 28th Annual International Conference on Mobile Computing And Networking*. 2022.](https://dl.acm.org/doi/pdf/10.1145/3495243.3560519)
+* Paper3 [Ouyang, Xiaomin, et al. "Admarker: A multi-modal federated learning system for monitoring digital biomarkers of Alzheimer's disease." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3649370)
+* Paper4 [Liu, Yimeng, et al. "Hydra: Accurate multi-modal leaf wetness sensing with mm-wave and camera fusion." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3690662)
+* Paper5 [Dai, Shenghong, et al. "Babel: A scalable pre-trained model for multi-modal sensing via expandable modality alignment." *Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems*. 2025.](https://dl.acm.org/doi/pdf/10.1145/3715014.3722068)
+* Paper6 [Post, Kevin, et al. "Contextllm: Meaningful context reasoning from multi-sensor and multi-device data using llms." *Proceedings of the 26th International Workshop on Mobile Computing Systems and Applications*. 2025.](https://dl.acm.org/doi/pdf/10.1145/3708468.3711892)
+
+
 </details>
 
 <details markdown=block>
