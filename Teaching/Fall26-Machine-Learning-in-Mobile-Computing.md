@@ -163,6 +163,13 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W9 Foundation Models for Sensing (10/26, 10/28)</summary>
 
+* Paper1 [Xu, Huatao, et al. "Penetrative ai: Making llms comprehend the physical world." *Proceedings of the 25th International Workshop on Mobile Computing Systems and Applications.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3638550.3641130)
+* Paper2 [Imran, Sheikh Asif, et al. "Llasa: Large multimodal agent for human activity analysis through wearable sensors." *arXiv preprint arXiv:2406.14498* (2024).](https://arxiv.org/pdf/2406.14498)
+* Paper3 [Narayanswamy, Girish, et al. "Scaling wearable foundation models." *The Thirteenth International Conference on Learning Representations.* 2025.](https://openreview.net/pdf?id=yb4QE6b22f)
+* Paper4 [Quan, Pengrui, et al. "Sensorbench: Benchmarking llms in coding-based sensor processing." *Proceedings of the 26th International Workshop on Mobile Computing Systems and Applications.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3708468.3711882)
+* Paper5 [Dong, Qifei, Xiangliang Chen, and Mahadev Satyanarayanan. "Creating edge ai from cloud-based llms." *Proceedings of the 25th International Workshop on Mobile Computing Systems and Applications.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3638550.3641126)
+* Paper6 [Yang, Bufang, et al. "Edgefm: Leveraging foundation model for open-set learning on the edge." *Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems.* 2023.](https://dl.acm.org/doi/pdf/10.1145/3625687.3625793)
+* Paper7 [Liu, Kaiwei, et al. "Tasksense: A translation-like approach for tasking heterogeneous sensor systems with llms." *Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems.* 2025.](https://dl.acm.org/doi/pdf/10.1145/3715014.3722070)
 </details>
 
 <details markdown=block>
