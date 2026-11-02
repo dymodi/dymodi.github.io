@@ -188,15 +188,39 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W11 Privacy, Security & Trust in Mobile Sensing (11/09, 11/11)</summary>
 
+* Paper1 [Zhang, Guoming, et al. "Dolphinattack: Inaudible voice commands." *Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security*. 2017.](https://dl.acm.org/doi/pdf/10.1145/3133956.3134052)
+* Paper2 [Ba, Zhongjie, et al. "Learning-based practical smartphone eavesdropping with built-in accelerometer." *Network and Distributed System Security Symposium (NDSS)*. 2020.](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24076-paper.pdf)
+* Paper3 [Shi, Cong, et al. "Face-mic: Inferring live speech and speaker identity via subtle facial dynamics captured by AR/VR motion sensors." *Proceedings of the 27th Annual International Conference on Mobile Computing and Networking*. 2021.](https://dl.acm.org/doi/pdf/10.1145/3447993.3483272)
+* Paper4 [Basak, Suryoday, and Mahanth Gowda. "Mmspy: Spying phone calls using mmwave radars." *2022 IEEE Symposium on Security and Privacy (SP)*. IEEE, 2022.](https://doi.org/10.1109/sp46214.2022.9833568)
+* Paper5 [McMahan, Brendan, et al. "Communication-efficient learning of deep networks from decentralized data." *Proceedings of the 20th International Conference on Artificial Intelligence and Statistics*. PMLR, 2017.](http://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf)
+* Paper6 [Abadi, Martin, et al. "Deep learning with differential privacy." *Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security*. 2016.](https://dl.acm.org/doi/pdf/10.1145/2976749.2978318)
+* Paper7 [Bonawitz, Keith, et al. "Practical secure aggregation for privacy-preserving machine learning." *Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security*. 2017.](https://dl.acm.org/doi/pdf/10.1145/3133956.3133982)
+
 </details>
 
 <details markdown=block>
 <summary>W12 System-Level Co-Design & Optimization (11/16, 11/18)</summary>
 
+* Paper1 [Kang, Yiping, et al. "Neurosurgeon: Collaborative intelligence between the cloud and mobile edge." *Proceedings of the Twenty-Second International Conference on Architectural Support for Programming Languages and Operating Systems*. 2017.](https://dl.acm.org/doi/pdf/10.1145/3037697.3037698)
+* Paper2 [Lane, Nicholas D., et al. "Deepx: A software accelerator for low-power deep learning inference on mobile devices." *2016 15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)*. IEEE, 2016.](https://doi.org/10.1109/ipsn.2016.7460664)
+* Paper3 [Fang, Biyi, Xiao Zeng, and Mi Zhang. "Nestdnn: Resource-aware multi-tenant on-device deep learning for continuous mobile vision." *Proceedings of the 24th Annual International Conference on Mobile Computing and Networking*. 2018.](https://dl.acm.org/doi/pdf/10.1145/3241539.3241559)
+* Paper4 [Lin, Ji, et al. "Mcunet: Tiny deep learning on iot devices." *Advances in Neural Information Processing Systems* 33 (2020): 11711-11722.](https://proceedings.neurips.cc/paper_files/paper/2020/file/86c51678350f656dcc7f490a43946ee5-Paper.pdf)
+* Paper5 [Yuan, Jinliang, et al. "Mobile foundation model as firmware." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3649361)
+* Paper6 [Liu, Renyuan, et al. "DAF: An efficient end-to-end dynamic activation framework for on-device DNN training." *Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services*. 2025.](https://dl.acm.org/doi/pdf/10.1145/3711875.3729145)
+* Paper7 [Misra, Ashitabh, Nurani Saoda, and Tarek Abdelzaher. "Latency-constrained input-aware quantization of time series inference workflows at the edge." *IEEE INFOCOM 2025-IEEE Conference on Computer Communications*. IEEE, 2025.](https://doi.org/10.1109/infocom55648.2025.11044709)
+
 </details>
 
 <details markdown=block>
 <summary>W13 Mobile AI Applications & Real-World Deployment (11/23, 11/25)</summary>
+
+* Paper1 [Wen, Hao, et al. "Autodroid: Llm-powered task automation in android." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3649379)
+* Paper2 [Chen, Kaixin, et al. "Lit: Fine-grained toothbrushing monitoring with commercial led toothbrush." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3613287)
+* Paper3 [Jiao, Wenli, et al. "Bioscatter: Low-power sweat sensing with backscatter." *Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3581791.3596834)
+* Paper4 [Zhang, Xi, et al. "mmfer: Millimetre-wave radar based facial expression recognition for multimedia iot applications." *Proceedings of the 29th Annual International Conference on Mobile Computing and Networking*. 2023.](https://dl.acm.org/doi/pdf/10.1145/3570361.3592515)
+* Paper5 [Wang, Zheng, et al. "Hearfire: Indoor fire detection via inaudible acoustic sensing." *Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies* 6.4 (2022): 1-25.](https://dl.acm.org/doi/pdf/10.1145/3569500)
+* Paper6 [Cai, Chao, et al. "Acute: Acoustic thermometer empowered by a single smartphone." *Proceedings of the 18th Conference on Embedded Networked Sensor Systems*. 2020.](https://dl.acm.org/doi/pdf/10.1145/3384419.3430714)
+* Paper7 [Sun, Zehua, et al. "Rf-egg: An rf solution for fine-grained multi-target and multi-task egg incubation sensing." *Proceedings of the 30th Annual International Conference on Mobile Computing and Networking*. 2024.](https://dl.acm.org/doi/pdf/10.1145/3636534.3649378)
 
 </details>
 
