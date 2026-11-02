@@ -175,6 +175,14 @@ No books are required. All the materials will be online.
 <details markdown=block>
 <summary>W10 Efficient Mobile AI (11/02, 11/04)</summary>
 
+* Paper1 [Han, Song, Huizi Mao, and William J. Dally. "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding." *The Fourth International Conference on Learning Representations.* 2016.](https://arxiv.org/pdf/1510.00149)
+* Paper2 [Frantar, Elias, et al. "Gptq: Accurate post-training quantization for generative pre-trained transformers." *The Eleventh International Conference on Learning Representations.* 2023.](https://arxiv.org/pdf/2210.17323)
+* Paper3 [Lin, Ji, et al. "Awq: Activation-aware weight quantization for on-device llm compression and acceleration." *Proceedings of Machine Learning and Systems* 6 (2024): 87-100.](https://proceedings.mlsys.org/paper_files/paper/2024/file/42a452cbafa9dd64e9ba4aa95cc1ef21-Paper-Conference.pdf)
+* Paper4 [Gu, Yuxian, et al. "Minillm: Knowledge distillation of large language models." *The Twelfth International Conference on Learning Representations.* 2024.](https://openreview.net/pdf?id=5h0qf7IBZZ)
+* Paper5 [Rastikerdar, Mohammad Mehdi, et al. "Cactus: Dynamically switchable context-aware micro-classifiers for efficient iot inference." *Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3643832.3661888)
+* Paper6 [Hojjat, Ali, et al. "Limitnet: Progressive, content-aware image offloading for extremely weak devices & networks." *Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services.* 2024.](https://dl.acm.org/doi/pdf/10.1145/3643832.3661856)
+* Paper7 [Lin, Ji, et al. "On-device training under 256kb memory." *Advances in Neural Information Processing Systems* 35 (2022).](https://proceedings.neurips.cc/paper_files/paper/2022/file/90c56c77c6df45fc8e556a096b7a2b2e-Paper-Conference.pdf)
+
 </details>
 
 <details markdown=block>
