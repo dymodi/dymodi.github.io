@@ -15,7 +15,8 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 
 **Recent News**
-
+* Oct. 2026: Undergraduate student Sanskriti Aripineni won <strong style="color: #b22222;">Third Place</strong> in the Undergraduate [Student Research Competition (SRC)](https://www.sigmobile.org/mobicom/2026/awards.html) at ACM MobiCom'26 with her demo on Horae, a behavior-aware scheduler grounded in mobile sensing. Congratulations!
+* Oct. 2026: Our RTK sensing experience paper led by Anlan Yu, "Experience: Unveiling GNSS-RTK in the Wild: A 2.5-Year Nationwide Study via Last-Mile Delivery", received the [<strong style="color: #b22222;">Best Community Paper Runner-Up Award</strong>](https://www.sigmobile.org/mobicom/2026/awards.html) at ACM MobiCom'26. Congratulations!
 * Sep. 2026: Three demo papers accepted by MobiCom'26. See you in Austin!
 * Sep. 2026: Paper on using world model to improve robots training accepted by IEEE RA-L.
 * Aug. 2026: Paper from high school students interned in the lab during the summer accpted by CV4Ecology workshop at ECCV'26.
