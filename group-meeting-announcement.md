@@ -13,7 +13,9 @@ For those attend on Zoom, the link is https://us06web.zoom.us/j/85870777989s
 
 ## This Week
 
-Let's cancel the group meeting this Friday (11/06) as some of us will be working on the SenSys submission with its deadline on 11/06
+As we will not be working on the submission tomorrow, let’s resume our group meeting tomorrow (11/06, 9am CST), there is one agenda:
+@Xiao Yan @Ziqi Liu @Hui-Ju Fan and @Yi Ding will share some insight and experiences we had from our MobiCom conference experience and our visit to Samsung Research America.
+
 
 ## Next Week:
 
