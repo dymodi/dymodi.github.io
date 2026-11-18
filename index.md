@@ -15,6 +15,7 @@ Please find my CV [here](https://yi-ding.me/assets/files/CV_Yi.pdf).
 
 
 **Recent News**
+* Oct. 2026: Our group joined OpenAI's [ChatGPT for Academic Researchers](https://openai.com/index/chatgpt-for-academic-researchers/) program, which provides in-kind access to frontier models for our research. Thanks OpenAI for the support!
 * Oct. 2026: Invited talk at Samsung Research America
 * Oct. 2026: Undergraduate student Sanskriti Aripineni won <strong style="color: #b22222;">Third Place</strong> in the Undergraduate [Student Research Competition (SRC)](https://www.sigmobile.org/mobicom/2026/awards.html) at ACM MobiCom'26 with her demo on Horae, a behavior-aware scheduler grounded in mobile sensing. Congratulations!
 * Oct. 2026: Our RTK sensing experience paper led by Anlan Yu, "Experience: Unveiling GNSS-RTK in the Wild: A 2.5-Year Nationwide Study via Last-Mile Delivery", received the [<strong style="color: #b22222;">Best Community Paper Runner-Up Award</strong>](https://www.sigmobile.org/mobicom/2026/awards.html) at ACM MobiCom'26. Congratulations!
